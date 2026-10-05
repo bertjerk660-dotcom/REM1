@@ -1,0 +1,19 @@
+{
+  "purpose": "THUG2 standalone and level-embedded geometry preparation for later GMod-style spawn-menu extraction.",
+  "staging_root": "build/prepared/thug2_prop_catalog",
+  "standalone_model_count": 174,
+  "standalone_converted": 173,
+  "standalone_failures": [
+    {
+      "relative": "models/fireball/fireball.mdl.ps2",
+      "reason": "Mesh export produced no output (0 triangles)."
+    }
+  ],
+  "primary_level_geom_count": 45,
+  "level_geom_converted": 45,
+  "level_qb_decompiled": 154,
+  "keyword_match_lines": 57814,
+  "keyword_identifiers": 25472,
+  "scope": "Standalone MDL assets are direct candidates. Level furniture, rails and benches are often embedded in GEOM leaves and need later QB/scene correlation and splitting.",
+  "integration_performed": false
+}
