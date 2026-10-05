@@ -42,3 +42,6 @@ The latest user crash after v85 deployment was actually from a v84-loaded proces
 
 ## F009 follow-up — matched v85 activation test, 2026-10-05
 User reported no crash. Installed DLL hash matches recorded v85; runtime log identifies version 85 and completes skate frame 180 with retarget skipped. This supports investigation of the quarantined retarget path, but does not prove its precise failure mechanism. Keep raw camera transforms and retarget writes quarantined pending evidence-driven repair. One successful activation is not sustained-playability validation.
+
+## F011 — Obsolete scene-graph ABI declarations
+IDA 6.8 audit confirms the SDK's UNMODIFIED OBSE NiObjects.h declares GetObject at slot 0x26 and UpdateTransform(void) at 0x2D, while the inspected FNV NiNode vtable has retn-4 null stubs at those slots. Actual name search is slot 0x27 and accepts an interned-string handle reference, not an ordinary C string. Confirmed ABI mismatch; exact runtime crash causality remains unproven. Keep animation/camera quarantine until corrected bindings and update semantics are verified. Evidence: builds/ida68_fnv_skeleton87.json; context/THUG2_INTEGRATION_CHECKPOINT_87.md.
