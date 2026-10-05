@@ -1,0 +1,314 @@
+{
+  "status": "discovery_only", 
+  "input": "C:\\IDA68WORK\\THUG2\\THUG2_SLES_52621.elf", 
+  "ida_version": "6.8", 
+  "records": [
+    {
+      "refs": [], 
+      "name": ".ska", 
+      "address": "0x40a928L"
+    }, 
+    {
+      "refs": [], 
+      "name": " .ska (%s)", 
+      "address": "0x40ab40L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x200382dL", 
+          "xref": "0x209af8L"
+        }
+      ], 
+      "name": "Skeleton processing", 
+      "address": "0x414c70L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x0L", 
+          "xref": "0x209d00L"
+        }
+      ], 
+      "name": "Skeleton", 
+      "address": "0x414c88L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x2823a8L", 
+          "xref": "0x3f9590L"
+        }
+      ], 
+      "name": "FlipTexture", 
+      "address": "0x41d8d8L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x2c48c0L", 
+          "xref": "0x3faef8L"
+        }
+      ], 
+      "name": "CAT_SetFlipSkater", 
+      "address": "0x421ff8L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x2c4938L", 
+          "xref": "0x3faf00L"
+        }
+      ], 
+      "name": "CAT_GetFlipSkater", 
+      "address": "0x422010L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x22c508L", 
+          "xref": "0x3faf70L"
+        }
+      ], 
+      "name": "LoadSkeleton", 
+      "address": "0x422118L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x423b78L", 
+          "xref": "0x3fb7bcL"
+        }
+      ], 
+      "name": "EnableDisplayFlip", 
+      "address": "0x423b60L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x423b90L", 
+          "xref": "0x3fb7c0L"
+        }
+      ], 
+      "name": "DisableDisplayFlip", 
+      "address": "0x423b78L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x423f58L", 
+          "xref": "0x3fb888L"
+        }
+      ], 
+      "name": "Flip", 
+      "address": "0x423f50L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x423f78L", 
+          "xref": "0x3fb890L"
+        }
+      ], 
+      "name": "FlipAfter", 
+      "address": "0x423f68L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x423fb0L", 
+          "xref": "0x3fb89cL"
+        }
+      ], 
+      "name": "IsFlipAfterSet", 
+      "address": "0x423fa0L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x423fc0L", 
+          "xref": "0x3fb8a0L"
+        }
+      ], 
+      "name": "FlipAndRotate", 
+      "address": "0x423fb0L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x423ff8L", 
+          "xref": "0x3fb8b0L"
+        }
+      ], 
+      "name": "RotateNoFlip", 
+      "address": "0x423fe8L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x424278L", 
+          "xref": "0x3fb938L"
+        }
+      ], 
+      "name": "InNollie", 
+      "address": "0x424268L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x424288L", 
+          "xref": "0x3fb93cL"
+        }
+      ], 
+      "name": "NollieOn", 
+      "address": "0x424278L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x424298L", 
+          "xref": "0x3fb940L"
+        }
+      ], 
+      "name": "NollieOff", 
+      "address": "0x424288L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x4244b8L", 
+          "xref": "0x3fb9b4L"
+        }
+      ], 
+      "name": "UseGrindEvents", 
+      "address": "0x4244a8L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x4244f8L", 
+          "xref": "0x3fb9c0L"
+        }
+      ], 
+      "name": "DoNextManualTrick", 
+      "address": "0x4244e0L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x424508L", 
+          "xref": "0x3fb9c4L"
+        }
+      ], 
+      "name": "SetManualTricks", 
+      "address": "0x4244f8L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x424520L", 
+          "xref": "0x3fb9c8L"
+        }
+      ], 
+      "name": "ClearManualTrick", 
+      "address": "0x424508L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x424538L", 
+          "xref": "0x3fb9ccL"
+        }
+      ], 
+      "name": "SetExtraGrindTricks", 
+      "address": "0x424520L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x424550L", 
+          "xref": "0x3fb9d0L"
+        }
+      ], 
+      "name": "ClearExtraGrindTrick", 
+      "address": "0x424538L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x424708L", 
+          "xref": "0x3fba40L"
+        }
+      ], 
+      "name": "PlayAnim", 
+      "address": "0x4246f8L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0x2755a0L", 
+          "neighbor_candidate": "0x8fa70058L", 
+          "xref": "0x2759acL"
+        }
+      ], 
+      "name": "Bonks = %d,  Grinds = %d, verts= %d, lines = %d\n", 
+      "address": "0x425e40L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x26260260L", 
+          "xref": "0x2cad6cL"
+        }
+      ], 
+      "name": "grind_lerp", 
+      "address": "0x42a508L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0xffffffffL", 
+          "neighbor_candidate": "0x262601ccL", 
+          "xref": "0x2cadb0L"
+        }
+      ], 
+      "name": "grind_zoom", 
+      "address": "0x42a528L"
+    }, 
+    {
+      "refs": [
+        {
+          "function": "0x301690L", 
+          "neighbor_candidate": "0x240282dL", 
+          "xref": "0x302654L"
+        }
+      ], 
+      "name": "GRINDING FROM ACID DROP", 
+      "address": "0x42c7b0L"
+    }
+  ]
+}
