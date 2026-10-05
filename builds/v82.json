@@ -1,0 +1,42 @@
+{
+  "iteration": "v82",
+  "parent": "v81",
+  "goal": "Isolate/fix held skateboard invisibility without changing v81 crash-diagnostic code",
+  "source_content": [
+    "authentic converted THUG2 skateboard geometry",
+    "stock Fallout LeadPipe held-weapon NIF container metadata",
+    "REM_GModTHUG2.esp"
+  ],
+  "pipeline_version": "bootstrap-v1",
+  "important_decisions": [
+    "Asset-only A/B test; leave v81 DLL unchanged so crash attribution remains clean",
+    "Use BSFadeNode + Prn=Weapon held container while retaining THUG2 board geometry"
+  ],
+  "changes": [
+    "Backed up prior skateheldx.nif",
+    "Deployed validated skateboard_weapon_candidate.nif as Data/meshes/rem/thug2/skateheldx.nif"
+  ],
+  "validation": {
+    "candidate_parse": "pass",
+    "root_type": "BSFadeNode",
+    "prn_weapon": true,
+    "deployed_sha256": "4F12178D6D4004B29B46BCF61365A6B48D2EF007B862B292B4CDA80DF7BBD08A",
+    "dll_version": "81",
+    "dll_sha256": "A801DC80F96F6269CB8516ECC47CE48E4FAA2DDB315308A8476F4658D7FB5EF5",
+    "human_playtest": "pending"
+  },
+  "latest_v81_failure": {
+    "symptom": "Board invisible; LMB crash",
+    "log_last_checkpoint": "[THUG2-DIAG] camera profile update complete",
+    "windows_exception": "c0000005 StackHash_2beb / fault offset 0x185413f6",
+    "implication": "Crash occurs before the next coarse v81 checkpoint; current held NIF was invalid Fallout weapon container candidate and could be implicated by forced third-person render"
+  },
+  "known_issues": [
+    "Need human confirmation board now visible",
+    "Need human confirmation whether LMB crash persists"
+  ],
+  "playtest": {
+    "outcome": "pending"
+  },
+  "status": "awaiting_playtest"
+}
