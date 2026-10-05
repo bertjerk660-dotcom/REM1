@@ -1,0 +1,21 @@
+{
+  "iteration": "v85",
+  "parent": "v84",
+  "goal": "Single-subsystem isolation of delayed THUG2 skeleton retargeting",
+  "changes": [
+    "Retarget bank selection/application fully quarantined",
+    "Detailed diagnostics for first 15 frames and periodic heartbeat through frame 180",
+    "Kept v84 camera quarantine",
+    "Kept v82 held-board container"
+  ],
+  "validation": {
+    "compile": "pass",
+    "deploy": "pass",
+    "dll_sha256": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+    "held_nif_sha256": "4F12178D6D4004B29B46BCF61365A6B48D2EF007B862B292B4CDA80DF7BBD08A",
+    "human_playtest": "pending"
+  },
+  "note": "Latest crash report was against a v84-loaded process: log version 84 and log timestamp 18:08:29; v85 DLL was deployed at 18:11:46.",
+  "hypothesis": "If a correctly loaded v85 survives, delayed retarget activation is causal. If it still crashes, retarget is cleared and heartbeat timing narrows the next subsystem.",
+  "status": "awaiting_playtest"
+}
