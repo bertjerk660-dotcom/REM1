@@ -26,11 +26,19 @@ Verified 2026-10-05 from actual local source, deployed files, runtime logs and h
 - THUG2 skeleton retarget selection/application is fully quarantined while the rest of skate mode remains active.
 - First 15 frames receive detailed stage diagnostics; later frames receive periodic heartbeat diagnostics through frame 180.
 - Purpose: determine whether delayed retarget activation around 900 ms is causal.
-- The user's latest crash report occurred before v85 was loaded. Evidence: FNVGModTHUG2.log still begins with "bridge loaded, version 84" and was last written at 18:08:29, while the v85 DLL was deployed at 18:11:46. Therefore v85 has not yet received a valid human playtest.
+- The user's latest crash report occurred before v85 was loaded. Evidence: FNVGModTHUG2.log still begins with "bridge loaded, version 84" and was last written at 18:08:29, while the v85 DLL was deployed at 18:11:46. That earlier report was not a valid v85 test; see the subsequent matched test below.
 
 ## Status
-v85 compile/deploy validation passed. Human playability validation is pending. THUG2 remains NOT VERIFIED STABLE.
+v85 compile/deploy validation passed. One user-reported left-click playtest passed, corroborated by a version-85 runtime log through skate frame 180. Sustained playability, exit, and save/load regressions remain unverified. THUG2 remains NOT VERIFIED STABLE.
 
 
 ## Isolated G6 UI candidate
 2026-10-05: v86-g6-hud compiles but is not deployed or playtested. Live source and DLL remain v85. IDA 6.8 source discovery and original UI extraction/decompilation are recorded in context/G6_NATIVE_UI_STATUS.md and builds/g6_*.json. Original THUG2 UI runtime, model/animation replacement and exact gameplay parity remain incomplete. This branch is a work-in-progress candidate, not a stable release.
+
+## Matched v85 activation playtest — 2026-10-05
+- User reports: "Works without no crash" in response to the requested v85 restart/left-click test.
+- Read the actual installed DLL: SHA256 BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41, matching recorded v85.
+- Actual FNVGModTHUG2.log starts with "FNVGModTHUG2 bridge loaded, version 85" and records completed skate frame 180, with retarget skipped throughout diagnostic heartbeats.
+- Result: PASS for this reported activation test only. This supports the retarget-path hypothesis; it does not establish the precise crash cause or broad stability.
+- Camera/retarget quarantines remain enabled. No runtime code or deployed DLL changed in this follow-up.
+- v86 remains an undeployed HUD candidate. Next: review lifecycle cleanup and failed-load behavior before candidate deployment; test activation, exit, and HUD restoration.
