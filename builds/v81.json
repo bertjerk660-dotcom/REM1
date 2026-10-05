@@ -1,0 +1,39 @@
+{
+  "iteration": "v81",
+  "parent": "v80",
+  "goal": "Harden THUG2 retarget lifecycle and instrument first skate update without changing core skate behavior",
+  "source_content": [
+    "FNV 1.4.0.525 runtime",
+    "xNVSE SDK",
+    "THUG2 retarget bank",
+    "persistent REM_GModTHUG2 skateboard forms"
+  ],
+  "pipeline_version": "bootstrap-v1",
+  "important_decisions": [
+    "RTTI validate retarget bones",
+    "Tie cached bones to active player NiNode root",
+    "Delay retarget 900ms after camera transition",
+    "Do not auto-add skateboard on every load"
+  ],
+  "changes": [
+    "Retarget root tracking",
+    "Safe cache invalidation",
+    "Clip/quaternion validation",
+    "First-update diagnostic logging",
+    "Source version advanced to 81"
+  ],
+  "validation": {
+    "compile": "pass",
+    "deploy": "pass",
+    "dll_sha256": "A801DC80F96F6269CB8516ECC47CE48E4FAA2DDB315308A8476F4658D7FB5EF5",
+    "human_playtest": "pending"
+  },
+  "known_issues": [
+    "Held model visibility still unverified",
+    "Skate activation crash status pending next playtest"
+  ],
+  "playtest": {
+    "outcome": "pending"
+  },
+  "status": "awaiting_playtest"
+}
