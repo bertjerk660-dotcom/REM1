@@ -1,0 +1,22 @@
+{
+  "iteration": "v84",
+  "parent": "v83",
+  "goal": "Quarantine raw Camera3rd transform writes after upward-pan crash evidence",
+  "changes": [
+    "Disabled raw Camera3rd save/apply/restore path",
+    "Retained Fallout third-person switching and v83 frame diagnostics"
+  ],
+  "validation": {
+    "compile": "pass",
+    "deploy": "pass",
+    "dll_sha256": "273CEB417E9AE515BB048D8D40515FD588281D3B27D97B2D0B6BE08F6BFFCC69",
+    "human_playtest": "fail"
+  },
+  "playtest": {
+    "outcome": "fail",
+    "symptom": "Left-click still crashed",
+    "last_verified_log_stage": "entire first active skate frame completed"
+  },
+  "conclusion": "Raw camera transform writes are not the sole crash cause.",
+  "status": "failed"
+}
