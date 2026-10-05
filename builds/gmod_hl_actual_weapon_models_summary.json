@@ -1,0 +1,12 @@
+{
+  "purpose": "Asset-preparation handoff for later Astra integration.",
+  "staging_root": "build/prepared/gmod_hl_weapon_models",
+  "unique_referenced_models": 73,
+  "staged_models": 71,
+  "unstaged_models": 2,
+  "unstaged": [
+    "models/weapons/v_eq_flashbang.mdl",
+    "models/weapons/v_pistol.mdl"
+  ],
+  "integration_performed": false
+}
