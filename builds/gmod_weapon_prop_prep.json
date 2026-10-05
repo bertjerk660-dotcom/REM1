@@ -1,0 +1,823 @@
+{
+  "purpose": "Text-only handoff manifest for later GPT-6 Astra integration. Proprietary binaries remain local.",
+  "local_staging_root": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_weapon_props",
+  "weapon_count": 49,
+  "unique_converted_nifs": 38,
+  "weapons_with_staged_nif": 49,
+  "weapons_missing_nif": 0,
+  "staged_nif_files": 38,
+  "staged_texture_files": 48,
+  "integration_performed": false,
+  "hud_or_thug2_files_modified": false,
+  "weapons": [
+    {
+      "class": "gmod_camera",
+      "display_name": "GMod Camera",
+      "kind": "Camera",
+      "auto_give": true,
+      "gmod_view_model": "models/weapons/c_arms_animations.mdl",
+      "gmod_world_model": "models/MaxOfS2D/camera.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_camera.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//MaxOfS2D//camera.nif",
+      "nif_sha256": "A922405C13790FD98B396FB2BB31D40C8259C93B3C8F0C0538EA6C0091F95BF0",
+      "nif_size": 59537,
+      "texture_dependency_count": 2,
+      "texture_dependencies_present": 2,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "gmod_tool",
+      "display_name": "Tool Gun",
+      "kind": "Toolgun",
+      "auto_give": true,
+      "gmod_view_model": "models/weapons/c_toolgun.mdl",
+      "gmod_world_model": "models/weapons/w_toolgun.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_tool/cl_init.lua",
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_tool/init.lua",
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_toolgun.nif",
+      "nif_sha256": "F4C7A13355878ED6521ABBD7DDC64B5C8F12DE2E3DCADFE98C2A239CFB18BE12",
+      "nif_size": 268986,
+      "texture_dependency_count": 4,
+      "texture_dependencies_present": 4,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "manhack_welder",
+      "display_name": "Manhack Welder",
+      "kind": "Utility",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_pistol.mdl",
+      "gmod_world_model": "models/weapons/w_pistol.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/sandbox/entities/weapons/manhack_welder.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_pistol.nif",
+      "nif_sha256": "F18D850EC7C722CC321EB8B260C56A713708B2F336003711B5DF2CD5A8F35BD4",
+      "nif_size": 21768,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_357",
+      "display_name": ".357 Magnum",
+      "kind": "Pistol",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_357.mdl",
+      "gmod_world_model": "models/weapons/w_357.mdl",
+      "source_lua_files": [],
+      "converted_nif_relative": "rem//gmod//weapons//w_357.nif",
+      "nif_sha256": "9463FDFE707CC7B0623CF1D703C12AA3B65BE1E0160840C2A1B772605F54581D",
+      "nif_size": 17274,
+      "texture_dependency_count": 2,
+      "texture_dependencies_present": 2,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ar2",
+      "display_name": "AR2",
+      "kind": "Automatic",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_irifle.mdl",
+      "gmod_world_model": "models/weapons/w_irifle.mdl",
+      "source_lua_files": [],
+      "converted_nif_relative": "rem//gmod//weapons//w_irifle.nif",
+      "nif_sha256": "925AA4E973DA3FF728216FE931F012CB9ADA0F4D36D89714FF41FA45C1C1B28E",
+      "nif_size": 53847,
+      "texture_dependency_count": 2,
+      "texture_dependencies_present": 2,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_crossbow",
+      "display_name": "Crossbow",
+      "kind": "Rifle",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_crossbow.mdl",
+      "gmod_world_model": "models/weapons/w_crossbow.mdl",
+      "source_lua_files": [],
+      "converted_nif_relative": "rem//gmod//weapons//w_crossbow.nif",
+      "nif_sha256": "0D5AE6BFB2B41472096E1A2890C4787930E9873AE11C5A1159310216334C3A47",
+      "nif_size": 66914,
+      "texture_dependency_count": 0,
+      "texture_dependencies_present": 0,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_crowbar",
+      "display_name": "Crowbar",
+      "kind": "Melee",
+      "auto_give": true,
+      "gmod_view_model": "models/weapons/c_crowbar.mdl",
+      "gmod_world_model": "models/weapons/w_crowbar.mdl",
+      "source_lua_files": [],
+      "converted_nif_relative": "rem//gmod//weapons//w_crowbar.nif",
+      "nif_sha256": "9CD3CF63452A7CBB5427B89F6FBFC2975B00691F5A4A506EAB4B61C627126F8F",
+      "nif_size": 25403,
+      "texture_dependency_count": 4,
+      "texture_dependencies_present": 4,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_fists",
+      "display_name": "Fists",
+      "kind": "Melee",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_arms.mdl",
+      "gmod_world_model": "",
+      "source_lua_files": [
+        "garrysmod/lua/weapons/weapon_fists.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//c_arms.nif",
+      "nif_sha256": "12D4C07A4481E43D329BCA840A06E1AC30B82BB3A5C412D0D810DD6E1DA69A7B",
+      "nif_size": 541,
+      "texture_dependency_count": 0,
+      "texture_dependencies_present": 0,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_flechettegun",
+      "display_name": "Flechette Gun",
+      "kind": "Flechette",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_smg1.mdl",
+      "gmod_world_model": "models/weapons/w_smg1.mdl",
+      "source_lua_files": [
+        "garrysmod/lua/weapons/weapon_flechettegun.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_smg1.nif",
+      "nif_sha256": "C03B0C10D1DB5E3671B04F66A720754FA77C74FAA732305392159CC61A690A33",
+      "nif_size": 44028,
+      "texture_dependency_count": 2,
+      "texture_dependencies_present": 2,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_frag",
+      "display_name": "Frag Grenade",
+      "kind": "Grenade",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_grenade.mdl",
+      "gmod_world_model": "models/weapons/w_grenade.mdl",
+      "source_lua_files": [],
+      "converted_nif_relative": "rem//gmod//weapons//w_grenade.nif",
+      "nif_sha256": "26D14EF57FA3055A23355873E406BE8C36B093E396EF2E04A8AB1899C8F1FBD0",
+      "nif_size": 12331,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_medkit",
+      "display_name": "Medkit",
+      "kind": "Medkit",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_medkit.mdl",
+      "gmod_world_model": "models/weapons/w_medkit.mdl",
+      "source_lua_files": [
+        "garrysmod/lua/weapons/weapon_medkit.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_medkit.nif",
+      "nif_sha256": "5229E3BE7316F80F12E8FF4C4A278C5B9DFB9404DE922C10C6F1D95105411DFF",
+      "nif_size": 32393,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_physcannon",
+      "display_name": "Gravity Gun",
+      "kind": "Physcannon",
+      "auto_give": true,
+      "gmod_view_model": "models/weapons/c_physcannon.mdl",
+      "gmod_world_model": "models/weapons/w_physics.mdl",
+      "source_lua_files": [],
+      "converted_nif_relative": "rem//gmod//weapons//w_physics.nif",
+      "nif_sha256": "FF708D8A5EDC57DCE85C276F5A82E40232ADC6CD3F64036EDAB702153D037430",
+      "nif_size": 34427,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_physgun",
+      "display_name": "Physics Gun",
+      "kind": "Physgun",
+      "auto_give": true,
+      "gmod_view_model": "models/weapons/c_superphyscannon.mdl",
+      "gmod_world_model": "models/weapons/w_physics.mdl",
+      "source_lua_files": [],
+      "converted_nif_relative": "rem//gmod//weapons//w_physics.nif",
+      "nif_sha256": "FF708D8A5EDC57DCE85C276F5A82E40232ADC6CD3F64036EDAB702153D037430",
+      "nif_size": 34427,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_pistol",
+      "display_name": "Pistol",
+      "kind": "Pistol",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_pistol.mdl",
+      "gmod_world_model": "models/weapons/w_pistol.mdl",
+      "source_lua_files": [],
+      "converted_nif_relative": "rem//gmod//weapons//w_pistol.nif",
+      "nif_sha256": "F18D850EC7C722CC321EB8B260C56A713708B2F336003711B5DF2CD5A8F35BD4",
+      "nif_size": 21768,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_rpg",
+      "display_name": "RPG",
+      "kind": "Launcher",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_rpg.mdl",
+      "gmod_world_model": "models/weapons/w_rocket_launcher.mdl",
+      "source_lua_files": [],
+      "converted_nif_relative": "rem//gmod//weapons//w_rocket_launcher.nif",
+      "nif_sha256": "C53BE20AE5557F57488DCB37926A1C82758237DA422C3ED550A81EA08F59FB36",
+      "nif_size": 28669,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_shotgun",
+      "display_name": "Shotgun",
+      "kind": "Shotgun",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_shotgun.mdl",
+      "gmod_world_model": "models/weapons/w_shotgun.mdl",
+      "source_lua_files": [],
+      "converted_nif_relative": "rem//gmod//weapons//w_shotgun.nif",
+      "nif_sha256": "9AE913C792971DA832BEEC10ADEBCB353AD42ED704A8A376149E59BCE31C276D",
+      "nif_size": 32632,
+      "texture_dependency_count": 2,
+      "texture_dependencies_present": 2,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_slam",
+      "display_name": "S.L.A.M.",
+      "kind": "Utility",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_slam.mdl",
+      "gmod_world_model": "models/weapons/w_slam.mdl",
+      "source_lua_files": [],
+      "converted_nif_relative": "rem//gmod//weapons//w_slam.nif",
+      "nif_sha256": "54D45F54114782DB9A3AE036AE2EB6ED90D780DD867D4DABF6F4B59FBAEBA429",
+      "nif_size": 46393,
+      "texture_dependency_count": 2,
+      "texture_dependencies_present": 2,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_smg1",
+      "display_name": "SMG1",
+      "kind": "Automatic",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_smg1.mdl",
+      "gmod_world_model": "models/weapons/w_smg1.mdl",
+      "source_lua_files": [],
+      "converted_nif_relative": "rem//gmod//weapons//w_smg1.nif",
+      "nif_sha256": "C03B0C10D1DB5E3671B04F66A720754FA77C74FAA732305392159CC61A690A33",
+      "nif_size": 44028,
+      "texture_dependency_count": 2,
+      "texture_dependencies_present": 2,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_stunstick",
+      "display_name": "Stunstick",
+      "kind": "Melee",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_stunstick.mdl",
+      "gmod_world_model": "models/weapons/w_stunbaton.mdl",
+      "source_lua_files": [],
+      "converted_nif_relative": "rem//gmod//weapons//w_stunbaton.nif",
+      "nif_sha256": "7B672D40199A41C0BD26D551FA445F38C6B21FE31DEB25F2DC81B352CBA5A532",
+      "nif_size": 12743,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_beacon",
+      "display_name": "Beacon",
+      "kind": "Utility",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/v_crowbar.mdl",
+      "gmod_world_model": "models/props_lab/reciever01b.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_beacon.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//props_lab//reciever01b.nif",
+      "nif_sha256": "B1FE06D20616D43C29D7C871934EE893C4107BB44A6E10B5F3F088BC9522D629",
+      "nif_size": 27261,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_binoculars",
+      "display_name": "Binoculars",
+      "kind": "Utility",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/v_crowbar.mdl",
+      "gmod_world_model": "models/props/cs_office/paper_towels.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_binoculars.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//props//cs_office//paper_towels.nif",
+      "nif_sha256": "CE5AC698018207E1A04682EB34225FDB886A56B1DF16FFE377BE3678DC451AAC",
+      "nif_size": 8461,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_c4",
+      "display_name": "C4",
+      "kind": "Utility",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_c4.mdl",
+      "gmod_world_model": "models/weapons/w_c4.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_c4.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_c4.nif",
+      "nif_sha256": "08B293927A7F6F405888D9C0CD98034AB8AC55DEEBE4AF8D687E7C6C6F83388E",
+      "nif_size": 47001,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_confgrenade",
+      "display_name": "Discombobulator",
+      "kind": "Grenade",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_eq_fraggrenade.mdl",
+      "gmod_world_model": "models/weapons/w_eq_fraggrenade.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_confgrenade.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_eq_fraggrenade.nif",
+      "nif_sha256": "27CDCAD81ABC15A4CEFF1CE2298B21F39EA755045E1AFC5FC5596A3F6C3BBDD0",
+      "nif_size": 11741,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_cse",
+      "display_name": "Visualizer",
+      "kind": "Utility",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/v_crowbar.mdl",
+      "gmod_world_model": "models/Items/battery.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_cse.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//Items//battery.nif",
+      "nif_sha256": "15BBEDF95F6172F455D4CC054B67E3EC7AF37963CF300936D2CED7A90F4718D7",
+      "nif_size": 19641,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_decoy",
+      "display_name": "Decoy",
+      "kind": "Utility",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/v_crowbar.mdl",
+      "gmod_world_model": "models/props_lab/reciever01b.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_decoy.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//props_lab//reciever01b.nif",
+      "nif_sha256": "B1FE06D20616D43C29D7C871934EE893C4107BB44A6E10B5F3F088BC9522D629",
+      "nif_size": 27261,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_defuser",
+      "display_name": "Defuser",
+      "kind": "Utility",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/v_crowbar.mdl",
+      "gmod_world_model": "models/weapons/w_defuser.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_defuser.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_defuser.nif",
+      "nif_sha256": "1B8F96F35E61009E54A82EAFE8C928F1E83F58BD220A90146C1FD7C69E62130F",
+      "nif_size": 24223,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_flaregun",
+      "display_name": "Flare Gun",
+      "kind": "Pistol",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_357.mdl",
+      "gmod_world_model": "models/weapons/w_357.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_flaregun.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_357.nif",
+      "nif_sha256": "9463FDFE707CC7B0623CF1D703C12AA3B65BE1E0160840C2A1B772605F54581D",
+      "nif_size": 17274,
+      "texture_dependency_count": 2,
+      "texture_dependencies_present": 2,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_glock",
+      "display_name": "Glock",
+      "kind": "Pistol",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_pist_glock18.mdl",
+      "gmod_world_model": "models/weapons/w_pist_glock18.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_glock.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_pist_glock18.nif",
+      "nif_sha256": "E822773F87FBCE1CEEE6734337BC47736F04B6D8E3BCF1A437DCCDFB76416FBF",
+      "nif_size": 20223,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_health_station",
+      "display_name": "Health Station",
+      "kind": "Utility",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/v_crowbar.mdl",
+      "gmod_world_model": "models/props/cs_office/microwave.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_health_station.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//props//cs_office//microwave.nif",
+      "nif_sha256": "8C91C9221BDF94F7046C09C9ACECA6B122A66143FB76ED1A4F2E5912E795052C",
+      "nif_size": 10131,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_knife",
+      "display_name": "Knife",
+      "kind": "Melee",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_knife_t.mdl",
+      "gmod_world_model": "models/weapons/w_knife_t.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_knife.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_knife_t.nif",
+      "nif_sha256": "9A68E83BB305EF9367CCC8331CA4C1C9517476D8718484733CCA4F01C72175A9",
+      "nif_size": 13418,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_m16",
+      "display_name": "M16",
+      "kind": "Automatic",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_rif_m4a1.mdl",
+      "gmod_world_model": "models/weapons/w_rif_m4a1.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_m16.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_rif_m4a1.nif",
+      "nif_sha256": "20491E8E9474C8CFE805FC519201E133DC339B534C26D1F1307078D133A3B835",
+      "nif_size": 37399,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_phammer",
+      "display_name": "Poltergeist",
+      "kind": "Rifle",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_irifle.mdl",
+      "gmod_world_model": "models/weapons/w_IRifle.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_phammer.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_IRifle.nif",
+      "nif_sha256": "925AA4E973DA3FF728216FE931F012CB9ADA0F4D36D89714FF41FA45C1C1B28E",
+      "nif_size": 53847,
+      "texture_dependency_count": 2,
+      "texture_dependencies_present": 2,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_push",
+      "display_name": "Newton Launcher",
+      "kind": "Rifle",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_superphyscannon.mdl",
+      "gmod_world_model": "models/weapons/w_physics.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_push.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_physics.nif",
+      "nif_sha256": "FF708D8A5EDC57DCE85C276F5A82E40232ADC6CD3F64036EDAB702153D037430",
+      "nif_size": 34427,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_radio",
+      "display_name": "Radio",
+      "kind": "Utility",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/v_crowbar.mdl",
+      "gmod_world_model": "models/props/cs_office/radio.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_radio.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//props//cs_office//radio.nif",
+      "nif_sha256": "45BB70AC04319F109E358794D693C8868FFF871E5D4114C6CE01C2AA476EA3F7",
+      "nif_size": 22267,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_sipistol",
+      "display_name": "Silenced USP",
+      "kind": "Pistol",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_pist_usp.mdl",
+      "gmod_world_model": "models/weapons/w_pist_usp_silencer.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_sipistol.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_pist_usp_silencer.nif",
+      "nif_sha256": "28FE13FFDF2AF06ECD3680D9249E340AEB94AA7F1DC1DFA5B3AA2FE0AADC0AAA",
+      "nif_size": 28915,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_smokegrenade",
+      "display_name": "Smoke Grenade",
+      "kind": "Grenade",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_eq_smokegrenade.mdl",
+      "gmod_world_model": "models/weapons/w_eq_smokegrenade.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_smokegrenade.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_eq_smokegrenade.nif",
+      "nif_sha256": "41C6B30CC19ED0AED156C4EBE3B4444133989A55991593D7B3D68A91718404C9",
+      "nif_size": 19674,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_stungun",
+      "display_name": "Stun Gun",
+      "kind": "Automatic",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_smg_ump45.mdl",
+      "gmod_world_model": "models/weapons/w_smg_ump45.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_stungun.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_smg_ump45.nif",
+      "nif_sha256": "D76414EEA3432D53A48708BEAF4E52E5B7E1F1A17307B9D37E17BCEDDCFC6900",
+      "nif_size": 33754,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_teleport",
+      "display_name": "Teleporter",
+      "kind": "Utility",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/v_crowbar.mdl",
+      "gmod_world_model": "models/weapons/w_slam.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_teleport.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_slam.nif",
+      "nif_sha256": "54D45F54114782DB9A3AE036AE2EB6ED90D780DD867D4DABF6F4B59FBAEBA429",
+      "nif_size": 46393,
+      "texture_dependency_count": 2,
+      "texture_dependencies_present": 2,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_unarmed",
+      "display_name": "Unarmed",
+      "kind": "Melee",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/v_crowbar.mdl",
+      "gmod_world_model": "models/weapons/w_crowbar.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_unarmed.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_crowbar.nif",
+      "nif_sha256": "9CD3CF63452A7CBB5427B89F6FBFC2975B00691F5A4A506EAB4B61C627126F8F",
+      "nif_size": 25403,
+      "texture_dependency_count": 4,
+      "texture_dependencies_present": 4,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_ttt_wtester",
+      "display_name": "DNA Scanner",
+      "kind": "Utility",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/v_crowbar.mdl",
+      "gmod_world_model": "models/props_lab/huladoll.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_ttt_wtester.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//props_lab//huladoll.nif",
+      "nif_sha256": "E96B6CEB41E0D3A447C409BBCA56A9F4BA688E789837E10674B7DAD4E579EB4D",
+      "nif_size": 14105,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_zm_carry",
+      "display_name": "Magneto-stick",
+      "kind": "Melee",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/v_stunbaton.mdl",
+      "gmod_world_model": "models/weapons/w_stunbaton.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_zm_carry.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_stunbaton.nif",
+      "nif_sha256": "7B672D40199A41C0BD26D551FA445F38C6B21FE31DEB25F2DC81B352CBA5A532",
+      "nif_size": 12743,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_zm_improvised",
+      "display_name": "Crowbar",
+      "kind": "Melee",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/c_crowbar.mdl",
+      "gmod_world_model": "models/weapons/w_crowbar.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_zm_improvised.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_crowbar.nif",
+      "nif_sha256": "9CD3CF63452A7CBB5427B89F6FBFC2975B00691F5A4A506EAB4B61C627126F8F",
+      "nif_size": 25403,
+      "texture_dependency_count": 4,
+      "texture_dependencies_present": 4,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_zm_mac10",
+      "display_name": "MAC10",
+      "kind": "Automatic",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_smg_mac10.mdl",
+      "gmod_world_model": "models/weapons/w_smg_mac10.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_zm_mac10.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_smg_mac10.nif",
+      "nif_sha256": "A6179322EF49F7BA52AAC819764AC48B5CA34E94E49EEE8A7F2C5DD8FFE8AF5C",
+      "nif_size": 25710,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_zm_molotov",
+      "display_name": "Molotov",
+      "kind": "Grenade",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_eq_flashbang.mdl",
+      "gmod_world_model": "models/weapons/w_eq_flashbang.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_zm_molotov.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_eq_flashbang.nif",
+      "nif_sha256": "14E98E6CC506CBB525CD0AE2832FA177674C70C635935F4747803C77819AEAF7",
+      "nif_size": 19659,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_zm_pistol",
+      "display_name": "Five-Seven",
+      "kind": "Pistol",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_pist_fiveseven.mdl",
+      "gmod_world_model": "models/weapons/w_pist_fiveseven.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_zm_pistol.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_pist_fiveseven.nif",
+      "nif_sha256": "042EA0C7FC81BD796BE2995BCF8D22E0E9ED7AA600882FF62C4FCCA19BE8D591",
+      "nif_size": 23067,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_zm_revolver",
+      "display_name": "Desert Eagle",
+      "kind": "Pistol",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_pist_deagle.mdl",
+      "gmod_world_model": "models/weapons/w_pist_deagle.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_zm_revolver.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_pist_deagle.nif",
+      "nif_sha256": "C2F927AD7076527855DE9D7640C0E28C6421658E86F5574C3B8B58E6BD7BF262",
+      "nif_size": 29318,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_zm_rifle",
+      "display_name": "Scout Rifle",
+      "kind": "Rifle",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_snip_scout.mdl",
+      "gmod_world_model": "models/weapons/w_snip_scout.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_zm_rifle.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_snip_scout.nif",
+      "nif_sha256": "285A023D012F0E00407E62FF5EB2F9499BF74481A799140A5E079B3461513C7C",
+      "nif_size": 34499,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_zm_shotgun",
+      "display_name": "XM1014 Shotgun",
+      "kind": "Shotgun",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_shot_xm1014.mdl",
+      "gmod_world_model": "models/weapons/w_shot_xm1014.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_zm_shotgun.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_shot_xm1014.nif",
+      "nif_sha256": "F788A7F47625FC62740269359D4D03C4CF6B18E1A6E65B9AB34D57DE6AE83F5C",
+      "nif_size": 27716,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    },
+    {
+      "class": "weapon_zm_sledge",
+      "display_name": "H.U.G.E-249",
+      "kind": "Automatic",
+      "auto_give": false,
+      "gmod_view_model": "models/weapons/cstrike/c_mach_m249para.mdl",
+      "gmod_world_model": "models/weapons/w_mach_m249para.mdl",
+      "source_lua_files": [
+        "garrysmod/gamemodes/terrortown/entities/weapons/weapon_zm_sledge.lua"
+      ],
+      "converted_nif_relative": "rem//gmod//weapons//w_mach_m249para.nif",
+      "nif_sha256": "3C00A12E26DFB892D8B46FF8AD818665687DC2C28BF9A1FF0DF423AC5E08531C",
+      "nif_size": 38534,
+      "texture_dependency_count": 1,
+      "texture_dependencies_present": 1,
+      "status": "prepared_for_later_integration"
+    }
+  ]
+}
