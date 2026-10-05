@@ -1,0 +1,19 @@
+{
+  "candidate": 88,
+  "parent_candidate": 86,
+  "compile": "pass",
+  "deployment": "not_deployed",
+  "runtime_playtest": "not_run",
+  "dll_sha256": "6e977cc672317af160b823f0b6159d8d893b56717fb3edff0f645a7aa110a439",
+  "main_sha256": "71dae8690a30aae7aaa3e92ec78eea43a2be7c2318ccc9750da0bcbb78c5fe91",
+  "overlay_sha256": "fccde82c38697dd4c6ec0f10e4a4e906e8146ac9c106fa430f9e068089049596",
+  "live_dll_sha256": "bc24e9b15bca28b33569bc9ff7fd59db66e962150fd00a9350ce3367dcf06f41",
+  "fonts": "original PS2 testtitle/newtrickfont decoded using IDA 6.8 loader",
+  "limitations": [
+    "GDI host overlay, not complete QB runtime",
+    "combo position temporary; original morph/timing/theme port pending",
+    "scoring is existing bridge state",
+    "camera/animation quarantines retained",
+    "no Xbox adapter yet"
+  ]
+}
