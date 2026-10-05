@@ -1,0 +1,790 @@
+{
+  "source_sha256": "91c3d11bf0f1546f8ea20a22e7c1708ea91697f3c1393f36d9d7f2d4449963d1",
+  "ida_version": "6.8",
+  "processor": "r5900l",
+  "discovered_strings": 390,
+  "selected_entrypoints": [
+    {
+      "ea": "0x420ba0L",
+      "references": [
+        {
+          "ea": "0x3fa978L",
+          "function_start": null,
+          "neighbors": [
+            {
+              "function": "",
+              "offset": -8,
+              "segment": ".rodata",
+              "value": "0x420b88L"
+            },
+            {
+              "function": "sub_27A590",
+              "offset": -4,
+              "segment": ".text",
+              "value": "0x27a590L"
+            },
+            {
+              "function": "",
+              "offset": 0,
+              "segment": ".rodata",
+              "value": "0x420ba0L"
+            },
+            {
+              "function": "sub_27D1C0",
+              "offset": 4,
+              "segment": ".text",
+              "value": "0x27d1c0L"
+            },
+            {
+              "function": "",
+              "offset": 8,
+              "segment": ".rodata",
+              "value": "0x420bb8L"
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "text": "SetScoreDegradation"
+    },
+    {
+      "ea": "0x420bb8L",
+      "references": [
+        {
+          "ea": "0x3fa980L",
+          "function_start": null,
+          "neighbors": [
+            {
+              "function": "",
+              "offset": -8,
+              "segment": ".rodata",
+              "value": "0x420ba0L"
+            },
+            {
+              "function": "sub_27D1C0",
+              "offset": -4,
+              "segment": ".text",
+              "value": "0x27d1c0L"
+            },
+            {
+              "function": "",
+              "offset": 0,
+              "segment": ".rodata",
+              "value": "0x420bb8L"
+            },
+            {
+              "function": "sub_27D250",
+              "offset": 4,
+              "segment": ".text",
+              "value": "0x27d250L"
+            },
+            {
+              "function": "",
+              "offset": 8,
+              "segment": ".rodata",
+              "value": "0x420bd0L"
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "text": "SetScoreAccumulation"
+    },
+    {
+      "ea": "0x420be8L",
+      "references": [
+        {
+          "ea": "0x3fa990L",
+          "function_start": null,
+          "neighbors": [
+            {
+              "function": "",
+              "offset": -8,
+              "segment": ".rodata",
+              "value": "0x420bd0L"
+            },
+            {
+              "function": "sub_27D208",
+              "offset": -4,
+              "segment": ".text",
+              "value": "0x27d208L"
+            },
+            {
+              "function": "",
+              "offset": 0,
+              "segment": ".rodata",
+              "value": "0x420be8L"
+            },
+            {
+              "function": "sub_27D2F0",
+              "offset": 4,
+              "segment": ".text",
+              "value": "0x27d2f0L"
+            },
+            {
+              "function": "",
+              "offset": 8,
+              "segment": ".rodata",
+              "value": "0x420bf8L"
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "text": "ResetScore"
+    },
+    {
+      "ea": "0x420bf8L",
+      "references": [
+        {
+          "ea": "0x3fa998L",
+          "function_start": null,
+          "neighbors": [
+            {
+              "function": "",
+              "offset": -8,
+              "segment": ".rodata",
+              "value": "0x420be8L"
+            },
+            {
+              "function": "sub_27D2F0",
+              "offset": -4,
+              "segment": ".text",
+              "value": "0x27d2f0L"
+            },
+            {
+              "function": "",
+              "offset": 0,
+              "segment": ".rodata",
+              "value": "0x420bf8L"
+            },
+            {
+              "function": "sub_27DA80",
+              "offset": 4,
+              "segment": ".text",
+              "value": "0x27da80L"
+            },
+            {
+              "function": "",
+              "offset": 8,
+              "segment": ".rodata",
+              "value": "0x420c08L"
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "text": "ResetScorePot"
+    },
+    {
+      "ea": "0x420c08L",
+      "references": [
+        {
+          "ea": "0x3fa9a0L",
+          "function_start": null,
+          "neighbors": [
+            {
+              "function": "",
+              "offset": -8,
+              "segment": ".rodata",
+              "value": "0x420bf8L"
+            },
+            {
+              "function": "sub_27DA80",
+              "offset": -4,
+              "segment": ".text",
+              "value": "0x27da80L"
+            },
+            {
+              "function": "",
+              "offset": 0,
+              "segment": ".rodata",
+              "value": "0x420c08L"
+            },
+            {
+              "function": "sub_27D448",
+              "offset": 4,
+              "segment": ".text",
+              "value": "0x27d448L"
+            },
+            {
+              "function": "",
+              "offset": 8,
+              "segment": ".rodata",
+              "value": "0x420c18L"
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "text": "UpdateScore"
+    },
+    {
+      "ea": "0x422d68L",
+      "references": [
+        {
+          "ea": "0x3fb3f0L",
+          "function_start": null,
+          "neighbors": [
+            {
+              "function": "",
+              "offset": -8,
+              "segment": ".rodata",
+              "value": "0x422d60L"
+            },
+            {
+              "function": "sub_2224F8",
+              "offset": -4,
+              "segment": ".text",
+              "value": "0x2224f8L"
+            },
+            {
+              "function": "",
+              "offset": 0,
+              "segment": ".rodata",
+              "value": "0x422d68L"
+            },
+            {
+              "function": "sub_283828",
+              "offset": 4,
+              "segment": ".text",
+              "value": "0x283828L"
+            },
+            {
+              "function": "",
+              "offset": 8,
+              "segment": ".rodata",
+              "value": "0x422d80L"
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "text": "SetSpecialBarColors"
+    },
+    {
+      "ea": "0x4233d8L",
+      "references": [
+        {
+          "ea": "0x3fb638L",
+          "function_start": null,
+          "neighbors": [
+            {
+              "function": "",
+              "offset": -8,
+              "segment": ".rodata",
+              "value": "0x4233c0L"
+            },
+            {
+              "function": "sub_285608",
+              "offset": -4,
+              "segment": ".text",
+              "value": "0x285608L"
+            },
+            {
+              "function": "",
+              "offset": 0,
+              "segment": ".rodata",
+              "value": "0x4233d8L"
+            },
+            {
+              "function": "sub_285658",
+              "offset": 4,
+              "segment": ".text",
+              "value": "0x285658L"
+            },
+            {
+              "function": "",
+              "offset": 8,
+              "segment": ".rodata",
+              "value": "0x4233f0L"
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "text": "Theme_GetHUDColor"
+    },
+    {
+      "ea": "0x4233f0L",
+      "references": [
+        {
+          "ea": "0x3fb640L",
+          "function_start": null,
+          "neighbors": [
+            {
+              "function": "",
+              "offset": -8,
+              "segment": ".rodata",
+              "value": "0x4233d8L"
+            },
+            {
+              "function": "sub_285658",
+              "offset": -4,
+              "segment": ".text",
+              "value": "0x285658L"
+            },
+            {
+              "function": "",
+              "offset": 0,
+              "segment": ".rodata",
+              "value": "0x4233f0L"
+            },
+            {
+              "function": "sub_2856A8",
+              "offset": 4,
+              "segment": ".text",
+              "value": "0x2856a8L"
+            },
+            {
+              "function": "",
+              "offset": 8,
+              "segment": ".rodata",
+              "value": "0x423410L"
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "text": "Theme_GetHUDSpecialColor"
+    },
+    {
+      "ea": "0x4241b8L",
+      "references": [
+        {
+          "ea": "0x3fb90cL",
+          "function_start": null,
+          "neighbors": [
+            {
+              "function": "",
+              "offset": -8,
+              "segment": ".rodata",
+              "value": "0x424188L"
+            },
+            {
+              "function": "",
+              "offset": -4,
+              "segment": ".rodata",
+              "value": "0x4241a0L"
+            },
+            {
+              "function": "",
+              "offset": 0,
+              "segment": ".rodata",
+              "value": "0x4241b8L"
+            },
+            {
+              "function": "",
+              "offset": 4,
+              "segment": ".rodata",
+              "value": "0x4241c8L"
+            },
+            {
+              "function": "",
+              "offset": 8,
+              "segment": ".rodata",
+              "value": "0x4241d8L"
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "text": "GotSpecial"
+    },
+    {
+      "ea": "0x4241c8L",
+      "references": [
+        {
+          "ea": "0x3fb910L",
+          "function_start": null,
+          "neighbors": [
+            {
+              "function": "",
+              "offset": -8,
+              "segment": ".rodata",
+              "value": "0x4241a0L"
+            },
+            {
+              "function": "",
+              "offset": -4,
+              "segment": ".rodata",
+              "value": "0x4241b8L"
+            },
+            {
+              "function": "",
+              "offset": 0,
+              "segment": ".rodata",
+              "value": "0x4241c8L"
+            },
+            {
+              "function": "",
+              "offset": 4,
+              "segment": ".rodata",
+              "value": "0x4241d8L"
+            },
+            {
+              "function": "",
+              "offset": 8,
+              "segment": ".rodata",
+              "value": "0x4241e8L"
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "text": "ForceSpecial"
+    },
+    {
+      "ea": "0x4241d8L",
+      "references": [
+        {
+          "ea": "0x3fb914L",
+          "function_start": null,
+          "neighbors": [
+            {
+              "function": "",
+              "offset": -8,
+              "segment": ".rodata",
+              "value": "0x4241b8L"
+            },
+            {
+              "function": "",
+              "offset": -4,
+              "segment": ".rodata",
+              "value": "0x4241c8L"
+            },
+            {
+              "function": "",
+              "offset": 0,
+              "segment": ".rodata",
+              "value": "0x4241d8L"
+            },
+            {
+              "function": "",
+              "offset": 4,
+              "segment": ".rodata",
+              "value": "0x4241e8L"
+            },
+            {
+              "function": "",
+              "offset": 8,
+              "segment": ".rodata",
+              "value": "0x4241f8L"
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "text": "GetSpecialValue"
+    },
+    {
+      "ea": "0x4241e8L",
+      "references": [
+        {
+          "ea": "0x3fb918L",
+          "function_start": null,
+          "neighbors": [
+            {
+              "function": "",
+              "offset": -8,
+              "segment": ".rodata",
+              "value": "0x4241c8L"
+            },
+            {
+              "function": "",
+              "offset": -4,
+              "segment": ".rodata",
+              "value": "0x4241d8L"
+            },
+            {
+              "function": "",
+              "offset": 0,
+              "segment": ".rodata",
+              "value": "0x4241e8L"
+            },
+            {
+              "function": "",
+              "offset": 4,
+              "segment": ".rodata",
+              "value": "0x4241f8L"
+            },
+            {
+              "function": "",
+              "offset": 8,
+              "segment": ".rodata",
+              "value": "0x424208L"
+            }
+          ],
+          "type": 1
+        }
+      ],
+      "text": "SetSpecialValue"
+    }
+  ],
+  "script_symbols": [
+    {
+      "file": "game/cutscene.qb.q",
+      "symbol": "show_cutscene_camera_hud mins = 2 secs = 16 frames = 3"
+    },
+    {
+      "file": "game/cutscene.qb.q",
+      "symbol": "nightvision_hud"
+    },
+    {
+      "file": "game/game.q",
+      "symbol": "PauseMusicAndStreams"
+    },
+    {
+      "file": "game/game.q",
+      "symbol": "UnPauseMusicAndStreams"
+    },
+    {
+      "file": "game/game.qb.q",
+      "symbol": "PauseMusicAndStreams"
+    },
+    {
+      "file": "game/goals/goal_combo_scripts.q",
+      "symbol": "ComboLetters_Init"
+    },
+    {
+      "file": "game/goals/goal_combo_scripts.q",
+      "symbol": "comboletters_activate"
+    },
+    {
+      "file": "game/goals/goal_combo_scripts.q",
+      "symbol": "comboletters_deactivate"
+    },
+    {
+      "file": "game/goals/goal_combo_scripts.q",
+      "symbol": "ComboLetter_InitLetter"
+    },
+    {
+      "file": "game/goals/goal_combo_scripts.q",
+      "symbol": "ComboLetter_HUDLetter"
+    },
+    {
+      "file": "game/goals/goal_combo_scripts.qb.q",
+      "symbol": "ComboLetters_Init"
+    },
+    {
+      "file": "game/goals/goal_highcombo.q",
+      "symbol": "goal_highcombo_init"
+    },
+    {
+      "file": "game/goals/goal_highcombo.q",
+      "symbol": "goal_highcombo_activate"
+    },
+    {
+      "file": "game/goals/goal_highcombo.q",
+      "symbol": "goal_highcombo_check_score"
+    },
+    {
+      "file": "game/goals/goal_highcombo.qb.q",
+      "symbol": "goal_highcombo_init"
+    },
+    {
+      "file": "game/goals/goal_score_scripts.q",
+      "symbol": "Score_init"
+    },
+    {
+      "file": "game/goals/goal_score_scripts.q",
+      "symbol": "score_activate"
+    },
+    {
+      "file": "game/goals/goal_score_scripts.qb.q",
+      "symbol": "Score_init"
+    },
+    {
+      "file": "game/goals/goal_special.q",
+      "symbol": "goal_special_init"
+    },
+    {
+      "file": "game/goals/goal_special.q",
+      "symbol": "goal_special_activate"
+    },
+    {
+      "file": "game/goals/goal_special.q",
+      "symbol": "goal_special_deactivate"
+    },
+    {
+      "file": "game/goals/goal_special.q",
+      "symbol": "goal_special_success"
+    },
+    {
+      "file": "game/goals/goal_special.q",
+      "symbol": "goal_special_fail"
+    },
+    {
+      "file": "game/goals/goal_special.q",
+      "symbol": "goal_special_expire"
+    },
+    {
+      "file": "game/goals/goal_special.q",
+      "symbol": "possibly_add_temp_special_trick"
+    },
+    {
+      "file": "game/goals/goal_special.qb.q",
+      "symbol": "goal_special_init"
+    },
+    {
+      "file": "game/goals/goal_timed_score_run.q",
+      "symbol": "goal_timed_score_run_init"
+    },
+    {
+      "file": "game/goals/goal_timed_score_run.q",
+      "symbol": "goal_timed_score_run_activate"
+    },
+    {
+      "file": "game/goals/goal_timed_score_run.qb.q",
+      "symbol": "goal_timed_score_run_init"
+    },
+    {
+      "file": "game/menu/arcade_machine.q",
+      "symbol": "arcade_machine_write_score_text"
+    },
+    {
+      "file": "game/menu/classic_mode_menu.q",
+      "symbol": "classic_mode_menu_add_pause_options"
+    },
+    {
+      "file": "game/menu/classic_mode_menu.qb.q",
+      "symbol": "classic_mode_menu_add_pause_options"
+    },
+    {
+      "file": "game/menu/gamemenu.q",
+      "symbol": "prompt_launch_cag_pause_load"
+    },
+    {
+      "file": "game/menu/gamemenu.qb.q",
+      "symbol": "prompt_launch_cag_pause_load"
+    },
+    {
+      "file": "game/menu/gamemenu.qb.q",
+      "symbol": "kill_pause_menu_cams"
+    },
+    {
+      "file": "game/menu/gamemenu_helpers.q",
+      "symbol": "handle_pause_continue"
+    },
+    {
+      "file": "game/menu/gamemenu_helpers.qb.q",
+      "symbol": "handle_pause_continue"
+    },
+    {
+      "file": "game/menu/gamemenu_pause.q",
+      "symbol": "create_pause_menu"
+    },
+    {
+      "file": "game/menu/gamemenu_pause.qb.q",
+      "symbol": "create_pause_menu"
+    },
+    {
+      "file": "game/menu/goal_editor_menu.q",
+      "symbol": "my_exit_pause_menu"
+    },
+    {
+      "file": "game/menu/high_scores_menu.q",
+      "symbol": "high_scores_menu_enter_initials"
+    },
+    {
+      "file": "game/menu/high_scores_menu.qb.q",
+      "symbol": "high_scores_menu_enter_initials"
+    },
+    {
+      "file": "game/menu/memcard.qb.q",
+      "symbol": "retry_launch_pause_menu_save_park_sequence"
+    },
+    {
+      "file": "game/menu/memcard.qb.q",
+      "symbol": "retry_launch_pause_menu_load_created_goals"
+    },
+    {
+      "file": "game/menu/onlinestats.qb.q",
+      "symbol": "create_online_stat_scores_menu"
+    },
+    {
+      "file": "game/menu/panelstuff.qb.q",
+      "symbol": "updatescorepot"
+    },
+    {
+      "file": "game/menu/skateshop.q",
+      "symbol": "wait_and_pause_skater time = 10"
+    },
+    {
+      "file": "game/menu/skateshop.qb.q",
+      "symbol": "wait_and_pause_skater time = 10"
+    },
+    {
+      "file": "game/menu/thememenu.q",
+      "symbol": "build_pause_menu_parts"
+    },
+    {
+      "file": "game/menu/thememenu.qb.q",
+      "symbol": "build_pause_menu_parts"
+    },
+    {
+      "file": "game/net/combo_mambo.q",
+      "symbol": "goal_combomambo_init"
+    },
+    {
+      "file": "game/net/combo_mambo.q",
+      "symbol": "goal_combomambo_activate"
+    },
+    {
+      "file": "game/net/combo_mambo.qb.q",
+      "symbol": "goal_combomambo_init"
+    },
+    {
+      "file": "game/net/horse.q",
+      "symbol": "PlayYouTieScoreSound"
+    },
+    {
+      "file": "game/net/horse.q",
+      "symbol": "PlayYouBeatScoreSound"
+    },
+    {
+      "file": "game/net/horse.q",
+      "symbol": "PlayNoScoreSetSound"
+    },
+    {
+      "file": "game/net/horse.qb.q",
+      "symbol": "PlayYouTieScoreSound"
+    },
+    {
+      "file": "game/net/netmessages.q",
+      "symbol": "newscoreleaderyou"
+    },
+    {
+      "file": "game/net/scorechallenge.q",
+      "symbol": "goal_scorechallenge_init"
+    },
+    {
+      "file": "game/net/scorechallenge.q",
+      "symbol": "goal_scorechallenge_activate"
+    },
+    {
+      "file": "game/net/scorechallenge.qb.q",
+      "symbol": "goal_scorechallenge_init"
+    },
+    {
+      "file": "game/skater/skater_particlesys.qb.q",
+      "symbol": "CleanUp_SpecialTrickParticles"
+    },
+    {
+      "file": "game/skater/specialitems.q",
+      "symbol": "SpecialItem_SyncAnims speed = 1"
+    }
+  ],
+  "extract_count": 1868,
+  "extract_bytes": 145293803,
+  "decompiler": {
+    "processed": 416,
+    "reported_success": 415,
+    "errors": 1,
+    "scripts": 4720,
+    "globals": 9350,
+    "warning": "Parser output is not proven semantic equivalence; one failure remains unresolved"
+  },
+  "parity": "not_implemented",
+  "authentic_runtime": "not_implemented"
+}

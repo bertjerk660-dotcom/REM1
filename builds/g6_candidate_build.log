@@ -1,0 +1,63 @@
+
+C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(561,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\BRAD\Documents\------\Engineer Station\FNV_GMOD_THUG2\third_party\NVSE-6.4.9\common\common_vc9.vcxproj]
+  IArchive.cpp
+  IBufferStream.cpp
+  IConsole.cpp
+  IDatabase.cpp
+  IDataStream.cpp
+  IDebugLog.cpp
+  IDirectoryIterator.cpp
+  IDynamicCreate.cpp
+  IErrors.cpp
+  IEvent.cpp
+  IFIFO.cpp
+  IFileStream.cpp
+  IInterlockedLong.cpp
+  IMemPool.cpp
+  IMutex.cpp
+  IObjectPool.cpp
+  IPipeClient.cpp
+  IPipeServer.cpp
+  IRangeMap.cpp
+  IReadWriteLock.cpp
+  ISegmentStream.cpp
+  ISingleton.cpp
+  ITextParser.cpp
+  IThread.cpp
+  ITimer.cpp
+  ITypes.cpp
+  common_vc9.vcxproj -> C:\Users\BRAD\Documents\------\Engineer Station\FNV_GMOD_THUG2\build\g6_candidate\common_vc9.lib
+
+C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(561,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\BRAD\Documents\------\Engineer Station\FNV_GMOD_THUG2\third_party\NVSE-6.4.9\fnv_gmod_thug2_g6_candidate\FNVGModTHUG2.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(551,5): warning MSB8028: The intermediate directory (C:/Users/BRAD/Documents/------/Engineer Station/FNV_GMOD_THUG2/build/g6_candidate_obj/plugin/) contains files shared from another project (FNVGModTHUG2.vcxproj).  This can lead to incorrect clean and rebuild behavior. [C:\Users\BRAD\Documents\------\Engineer Station\FNV_GMOD_THUG2\third_party\NVSE-6.4.9\common\common_vc9.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(561,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\BRAD\Documents\------\Engineer Station\FNV_GMOD_THUG2\third_party\NVSE-6.4.9\common\common_vc9.vcxproj]
+  containers.cpp
+  GameAPI.cpp
+  GameBSExtraData.cpp
+  GameData.cpp
+  GameExtraData.cpp
+  GameForms.cpp
+  GameObjects.cpp
+  GameOSDepend.cpp
+  GameProcess.cpp
+  GameRTTI.cpp
+  GameScript.cpp
+  GameSettings.cpp
+  GameTasks.cpp
+  GameUI.cpp
+  GameTiles.cpp
+  GameTypes.cpp
+  NiTypes.cpp
+  printf.cpp
+  SafeWrite.cpp
+  Utilities.cpp
+  utility.cpp
+  main.cpp
+C:\Users\BRAD\Documents\------\Engineer Station\FNV_GMOD_THUG2\third_party\NVSE-6.4.9\nvse\nvse\Utilities.cpp(186,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\BRAD\Documents\------\Engineer Station\FNV_GMOD_THUG2\third_party\NVSE-6.4.9\fnv_gmod_thug2_g6_candidate\FNVGModTHUG2.vcxproj]
+  dllmain.c
+     Creating library C:/Users/BRAD/Documents/------/Engineer Station/FNV_GMOD_THUG2/build/g6_candidate/FNVGModTHUG2.lib and object C:/Users/BRAD/Documents/------/Engineer Station/FNV_GMOD_THUG2/build/g6_candidate/FNVGModTHUG2.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 2015 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  FNVGModTHUG2.vcxproj -> C:\Users\BRAD\Documents\------\Engineer Station\FNV_GMOD_THUG2\build\g6_candidate\FNVGModTHUG2.dll

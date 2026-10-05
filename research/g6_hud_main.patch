@@ -1,0 +1,91 @@
+--- a/src/plugin/main.cpp
++++ b/src/plugin/main.cpp
+@@ -1742,12 +1742,15 @@
+         player->rotZ + trickSpinRadians);
+ }
+ 
++#include "thug2_hud_visibility.inc"
++
+ static void EnterSkateMode()
+ {
+     PlayerCharacter* player = PlayerCharacter::GetSingleton();
+     if (!player || g_skate.active) return;
+ 
+     g_skate.active = true;
++    UpdateFalloutHudOwnership(true);
+     g_skate.moveState = SkateMoveState::Ground;
+     g_skate.velocityX = 0.0f;
+     g_skate.velocityY = 0.0f;
+@@ -1845,6 +1848,7 @@
+     if (!player || !g_skate.active) return;
+ 
+     g_skate.active = false;
++    UpdateFalloutHudOwnership(false);
+ 
+     if (!g_skate.fightWasDisabled)
+         player->disabledControlFlags &= ~PlayerCharacter::kControlFlag_Fight;
+@@ -6262,6 +6266,7 @@
+ 
+ static void PollControls()
+ {
++    UpdateFalloutHudOwnership(g_gameplayReady && g_skate.active);
+     // Never run gameplay/script-command logic on the title screen or during save transitions.
+     // RunScriptLine2 depends on ConsoleManager::scriptContext, which is not valid until gameplay is loaded.
+     if (!g_gameplayReady)
+@@ -6764,6 +6769,13 @@
+ 
+     switch (msg->type)
+     {
++    case NVSEMessagingInterface::kMessage_PreLoadGame:
++    case NVSEMessagingInterface::kMessage_ExitToMainMenu:
++        UpdateFalloutHudOwnership(false);
++        g_gameplayReady = false;
++        g_skate.active = false;
++        UpdateTHUGHudOverlay();
++        break;
+     case NVSEMessagingInterface::kMessage_PostLoad:
+         g_gameplayReady = false;
+         _MESSAGE("FNVGModTHUG2: PostLoad");
+@@ -6786,6 +6798,7 @@
+         g_pendingSpawnForm = nullptr;
+         g_pendingSpawnStartTick = 0;
+         g_undoDisabled.clear();
++        UpdateFalloutHudOwnership(false);
+         g_skate = SkateState{};
+         g_skateboardWeapon = nullptr;
+         g_skateboardWorldStatic = nullptr;
+@@ -6858,6 +6871,7 @@
+         g_pendingSpawnForm = nullptr;
+         g_pendingSpawnStartTick = 0;
+         g_undoDisabled.clear();
++        UpdateFalloutHudOwnership(false);
+         g_skate = SkateState{};
+         g_skateboardWeapon = nullptr;
+         g_skateboardWorldStatic = nullptr;
+@@ -6917,7 +6931,9 @@
+     case NVSEMessagingInterface::kMessage_MainGameLoop:
+         PollControls();
+         break;
++    case NVSEMessagingInterface::kMessage_ExitGame_Console:
+     case NVSEMessagingInterface::kMessage_ExitGame:
++        UpdateFalloutHudOwnership(false);
+         g_gameplayReady = false;
+         g_noClip = false;
+         g_noClipMovementWasDisabled = false;
+@@ -6957,7 +6973,7 @@
+ {
+     info->infoVersion = PluginInfo::kInfoVersion;
+     info->name = "FNVGModTHUG2";
+-    info->version = 85;
++    info->version = 86;
+ 
+     if (!nvse || nvse->isEditor) return false;
+     if (nvse->runtimeVersion < RUNTIME_VERSION_1_4_0_525) return false;
+@@ -6987,6 +7003,6 @@
+     nvse->RegisterCommand(&kCommandInfo_gmod_undospawn);
+     nvse->RegisterCommand(&kCommandInfo_gmod_cleanup);
+ 
+-    _MESSAGE("FNVGModTHUG2 bridge loaded, version 85");
++    _MESSAGE("FNVGModTHUG2 bridge loaded, version 86 (G6 HUD candidate; not THUG2 parity)");
+     return true;
+ }

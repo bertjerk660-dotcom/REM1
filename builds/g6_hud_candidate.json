@@ -1,0 +1,24 @@
+{
+  "candidate": "v86-g6-hud",
+  "baseline_version": 85,
+  "baseline_source_sha256": "ce3628ae131f42424459f5441051817ec132a7ae53414765047eba6a9a4727a5",
+  "candidate_source_sha256": "52ba85fa1d6968d0868ccc58ab7d73fbb23ec1cbd6623ca44021b1d4cd87a1fa",
+  "candidate_dll_sha256": "d91a240a7c4b396c769f5ef4ae18d20d0eb15e6db75e2e9800f0303e58447982",
+  "live_dll_sha256": "bc24e9b15bca28b33569bc9ff7fd59db66e962150fd00a9350ce3367dcf06f41",
+  "compile": "pass",
+  "deployment": "not_deployed",
+  "runtime_playtest": "not_run",
+  "exact_thug2_parity": false,
+  "changes": [
+    "FNV HUD root visibility ownership with restoration",
+    "SDK GameUI.cpp linked",
+    "lifecycle HUD cleanup",
+    "post-build auto-install removed from candidate"
+  ],
+  "known_gaps": [
+    "Original THUG2 UI runtime not implemented",
+    "v85 crash isolation not playtested",
+    "Camera and retarget quarantine retained",
+    "No model/animation replacement completed"
+  ]
+}

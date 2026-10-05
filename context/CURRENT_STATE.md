@@ -30,3 +30,7 @@ Verified 2026-10-05 from actual local source, deployed files, runtime logs and h
 
 ## Status
 v85 compile/deploy validation passed. Human playability validation is pending. THUG2 remains NOT VERIFIED STABLE.
+
+
+## Isolated G6 UI candidate
+2026-10-05: v86-g6-hud compiles but is not deployed or playtested. Live source and DLL remain v85. IDA 6.8 source discovery and original UI extraction/decompilation are recorded in context/G6_NATIVE_UI_STATUS.md and builds/g6_*.json. Original THUG2 UI runtime, model/animation replacement and exact gameplay parity remain incomplete. This branch is a work-in-progress candidate, not a stable release.
