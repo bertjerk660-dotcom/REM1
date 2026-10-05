@@ -28,6 +28,15 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Preserve keyboard/mouse and Xbox-controller operation for the complete trick/state machine once the source-faithful behavior is stable.
 - Validate the integrated free-roam stack subsystem-by-subsystem and then as a complete loop: enter mode -> push/ride -> turn -> ollie -> perform tricks -> land -> grind/manual/lip -> chain combo -> use SPECIAL -> bail/recover where applicable -> continue riding -> exit mode -> normal Fallout restored.
 
+## GMod-style prop menu
+- Do NOT expose the entire 13,003-model Fallout prop candidate archive in the player-facing menu.
+- Use the curated approximately 300-prop set as the intended default library.
+- Prioritize useful environmental objects and skateable geometry: rails, railings, benches, ramps, stairs, ledges, barriers, tables, counters, crates, large boxes and pipes.
+- Include a smaller supporting set of fences, signs, lamps, poles, street clutter, furniture, storage, vending machines, terminals, rocks, trees and plants.
+- Keep the full 13,003-model catalog only as archive/search data so individual curated props can be swapped later.
+- Before exposing a prop, validate collision, Havok behavior, scale, independent-spawn safety and practical usefulness.
+- Generate clear categories/thumbnails so the menu remains fast and usable rather than becoming a raw asset dump.
+
 ## Tool Gun
 - Verify GMod-style tool/prop menu integration.
 - Verify Duplicator.
