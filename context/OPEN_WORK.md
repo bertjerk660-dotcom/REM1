@@ -28,9 +28,21 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Preserve keyboard/mouse and Xbox-controller operation for the complete trick/state machine once the source-faithful behavior is stable.
 - Validate the integrated free-roam stack subsystem-by-subsystem and then as a complete loop: enter mode -> push/ride -> turn -> ollie -> perform tricks -> land -> grind/manual/lip -> chain combo -> use SPECIAL -> bail/recover where applicable -> continue riding -> exit mode -> normal Fallout restored.
 
-## GMod-style prop menu
+## GMod Q / spawn menu
+- Replace the current custom/Fallout-style GMod prop menu rather than extending it as the final implementation.
+- Use the user's installed Garry's Mod game files as the primary source for the real Q/spawn menu implementation.
+- Inventory and preserve the actual GMod Lua/Derma menu scripts, spawnmenu definitions, tool-menu scripts, icons/materials, category definitions and dependencies needed by the original Q menu.
+- Port/reuse those actual scripts/definitions wherever technically compatible instead of manually recreating the menu by appearance.
+- Use IDA Pro 6.8 for any required native Source/GMod behavior, interface calls or engine-side menu logic that cannot be recovered from Lua/scripts alone.
+- Reconstruct the minimum compatibility layer needed to make the real GMod menu logic function in the Fallout/xNVSE host.
+- Preserve source-faithful behavior for opening/closing the Q menu, tabs/categories, prop browsing, icons, search/filtering, tool selection, Duplicator/Remover access and selected-tool state passed to the Tool Gun.
+- Feed the real/ported Q menu the curated project prop libraries rather than exposing the raw source archives.
+- Validate that the menu remains responsive and usable with the curated prop library, and that closing it restores normal Fallout input cleanly.
+- Do not describe a hand-authored Fallout menu that merely resembles GMod as the finished Q menu.
+
+## GMod-style prop menu content
 - Do NOT expose the entire 13,003-model Fallout prop candidate archive in the player-facing menu.
-- Use the curated approximately 300-prop set as the intended default library.
+- Use the curated approximately 300-prop set as the intended default Fallout library.
 - Prioritize useful environmental objects and skateable geometry: rails, railings, benches, ramps, stairs, ledges, barriers, tables, counters, crates, large boxes and pipes.
 - Include a smaller supporting set of fences, signs, lamps, poles, street clutter, furniture, storage, vending machines, terminals, rocks, trees and plants.
 - Keep the full 13,003-model catalog only as archive/search data so individual curated props can be swapped later.
@@ -38,7 +50,7 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Generate clear categories/thumbnails so the menu remains fast and usable rather than becoming a raw asset dump.
 
 ## Tool Gun
-- Verify GMod-style tool/prop menu integration.
+- Verify real GMod Q-menu tool selection controls Tool Gun mode.
 - Verify Duplicator.
 - Verify Remover.
 - Verify selected menu tool controls Tool Gun mode.
