@@ -50,14 +50,28 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Generate clear categories/thumbnails so the menu remains fast and usable rather than becoming a raw asset dump.
 
 ## Tool Gun
-- Verify real GMod Q-menu tool selection controls Tool Gun mode.
-- Verify Duplicator.
-- Verify Remover.
-- Verify selected menu tool controls Tool Gun mode.
+- Replace any current Fallout-authored Tool Gun recreation/approximation with a source-faithful port of the actual Garry's Mod Tool Gun system.
+- Inventory the installed GMod Tool Gun SWEP/Lua/tool scripts, stool definitions, materials, sounds, UI hooks, tool state and dependencies.
+- Reuse/port the real GMod scripts and data wherever possible; use IDA Pro 6.8 for native Source/GMod implementation details or interfaces not present in Lua.
+- Tool selection must happen inside the real/ported Q menu. Remove/disable any Fallout top-left prompts, Fallout message-box style selectors or ad-hoc control prompts used to choose Tool Gun functions.
+- The Tool Gun should receive its selected mode directly from the real Q-menu tool state, including Duplicator, Remover and later supported tools.
+- Preserve original GMod-style Tool Gun firing/use feedback, sounds, traces/effects and per-tool behavior where applicable.
+- Any Tool Gun feedback/notifications that GMod normally presents should use a port of the original GMod notification/bubble UI logic and assets rather than Fallout HUD notifications.
+- Validate that changing a tool in Q immediately changes Tool Gun behavior and that closing/reopening Q preserves the expected selected-tool state.
 
 ## Physics Gun
-- Verify firing/beam/highlight/manipulation behavior.
-- Add regression checks for target acquisition, hold/release and rendering.
+- Replace any current Fallout-authored Physics Gun recreation/approximation with a source-faithful implementation grounded in the actual local GMod/Source weapon behavior.
+- Inventory and preserve the relevant Physics Gun scripts/assets/materials/sounds and reverse engineer required native Source/GMod behavior using IDA Pro 6.8 where script is insufficient.
+- Reproduce the real target acquisition, beam rendering, held-object transform/manipulation, rotation, freeze/unfreeze, drop/release, launch behavior, highlighting/feedback and relevant input semantics.
+- Use original/source-faithful GMod visual/audio feedback rather than Fallout prompts.
+- If transient notifications are required, use the real/ported GMod notification/bubble system rather than Fallout top-left notifications or menu prompts.
+- Add regression checks for target acquisition, hold/release, rotation, freeze, launch and beam/highlight rendering.
+
+## GMod notifications/UI feedback
+- Inventory the actual Garry's Mod notification system used by the Q menu, Tool Gun and related tools.
+- Port/reuse the relevant GMod Lua/Derma notification code, materials, fonts/icons and timing/stacking behavior where technically possible.
+- Tool Gun/Physics Gun feedback should appear through these GMod-style notification bubbles/indicators when the original game uses them.
+- Do not use Fallout top-left HUD messages or Fallout menu prompts as substitutes for Tool Gun selection or normal GMod tool feedback.
 
 ## Fallout regression
 - Verify boot and target area loading.
