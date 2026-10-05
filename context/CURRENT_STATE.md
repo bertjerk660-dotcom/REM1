@@ -42,3 +42,6 @@ v85 compile/deploy validation passed. One user-reported left-click playtest pass
 - Result: PASS for this reported activation test only. This supports the retarget-path hypothesis; it does not establish the precise crash cause or broad stability.
 - Camera/retarget quarantines remain enabled. No runtime code or deployed DLL changed in this follow-up.
 - v86 remains an undeployed HUD candidate. Next: review lifecycle cleanup and failed-load behavior before candidate deployment; test activation, exit, and HUD restoration.
+
+## 2026-10-06 integration checkpoint
+See context/THUG2_INTEGRATION_CHECKPOINT_87.md. Installed v85 and undeployed v86 candidate remain unchanged. IDA 6.8 identified obsolete SDK skeleton virtual-method signatures/slots. Full skater export: 838/889 GLBs pass container checks, 51 failed; no new runtime integration. HUD sprite conversion 44/44; PS2 testtitle font decoding unsupported by current converter. Original THUG2 HUD/menu runtime, complete animations/tricks, Xbox input and board attachment validation remain unfinished.
