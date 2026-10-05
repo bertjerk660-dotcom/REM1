@@ -45,3 +45,7 @@ v85 compile/deploy validation passed. One user-reported left-click playtest pass
 
 ## 2026-10-06 integration checkpoint
 See context/THUG2_INTEGRATION_CHECKPOINT_87.md. Installed v85 and undeployed v86 candidate remain unchanged. IDA 6.8 identified obsolete SDK skeleton virtual-method signatures/slots. Full skater export: 838/889 GLBs pass container checks, 51 failed; no new runtime integration. HUD sprite conversion 44/44; PS2 testtitle font decoding unsupported by current converter. Original THUG2 HUD/menu runtime, complete animations/tricks, Xbox input and board attachment validation remain unfinished.
+
+
+## Integration checkpoint 88 — original bitmap HUD candidate
+See context/THUG2_INTEGRATION_CHECKPOINT_88.md. PS2 font blocker resolved using IDA 6.8 loader analysis: 8/8 original fonts decoded, seven tests pass. Isolated v88 original-bitmap HUD candidate compiles; no deployment/playtest. Original sprites/fonts are now integrated into candidate rendering, but QB runtime, combo morph/alignment, gameplay/animation/controller/menu parity remain incomplete. Live v85 hash reverified unchanged; camera/retarget quarantines retained. Checkpoint 87 font-converter limitation describes the old stock converter, superseded by the new custom decoder.
