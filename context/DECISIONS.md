@@ -21,3 +21,11 @@ The player-facing GMod-style prop menu should use a compact curated environmenta
 ## D-006 Replace the custom prop menu with a source-faithful GMod Q menu
 Accepted: 2026-10-05.
 The existing custom/Fallout-style prop menu is not the final design. The target is a functional port of the real Garry's Mod Q/spawn menu using the user's installed GMod Lua/Derma scripts, menu definitions, icons/materials and related files as the primary source. IDA Pro 6.8 should be used for native Source/GMod behavior or interfaces that are not available directly from script. Only the compatibility layer required by Fallout/xNVSE should be rewritten; the menu's visible structure and behavior should remain as source-faithful as technically practical.
+
+## D-007 Tool Gun and Physics Gun must use real GMod systems
+Accepted: 2026-10-05.
+The final Tool Gun and Physics Gun must not be Fallout-authored recreations. GPT-6 Astra should reuse/port the user's installed Garry's Mod Lua/SWEP/tool scripts, tool definitions, assets, materials, sounds and source behavior wherever technically possible, and use IDA Pro 6.8 for required native Source/GMod behavior or interfaces not exposed in script. Tool selection is owned by the real/ported Q menu, not by Fallout top-left prompts or Fallout menu prompts.
+
+## D-008 GMod notifications replace Fallout tool prompts
+Accepted: 2026-10-05.
+Normal Tool Gun/Physics Gun feedback and transient tool notifications should use a source-faithful port of Garry's Mod's own notification/bubble UI and related original scripts/assets where applicable. Fallout HUD notifications and Fallout-style popup menus must not be used as substitutes for GMod tool selection or normal GMod tool feedback.
