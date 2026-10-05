@@ -1,0 +1,31 @@
+{
+  "iteration": "v80",
+  "parent": "v79",
+  "goal": "Remove remaining skateboard ride-board CloneForm path and use persistent ESP STAT; test skate activation",
+  "source_content": [
+    "THUG2 extracted board assets",
+    "REM_GModTHUG2.esp",
+    "FNVGModTHUG2.dll"
+  ],
+  "pipeline_version": "manual/pre-bootstrap",
+  "changes": [
+    "Persistent STAT used for ride-board placement",
+    "No ride-board CloneForm"
+  ],
+  "validation": {
+    "compile": "pass",
+    "deploy": "pass",
+    "asset_parse": "pass",
+    "game_boot": "pass",
+    "human_playtest": "fail"
+  },
+  "playtest": {
+    "outcome": "fail",
+    "symptom": "Skateboard invisible; left-click enters initialization then c0000005 crash after HUD complete"
+  },
+  "known_issues": [
+    "Held board invisible",
+    "Skate activation crash"
+  ],
+  "status": "failed"
+}
