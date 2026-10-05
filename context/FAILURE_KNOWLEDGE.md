@@ -39,3 +39,6 @@ v85 isolates the delayed THUG2 retarget subsystem completely and adds frame hear
 ## F010 - Do not misclassify a playtest against the wrong DLL
 A DLL copied while FalloutNV.exe is already running does not replace the code loaded in that process. Confirm FNVGModTHUG2.log begins with the expected "bridge loaded, version N" before attributing a crash to that build.
 The latest user crash after v85 deployment was actually from a v84-loaded process: log version 84, log mtime 18:08:29, v85 DLL deploy mtime 18:11:46.
+
+## F009 follow-up — matched v85 activation test, 2026-10-05
+User reported no crash. Installed DLL hash matches recorded v85; runtime log identifies version 85 and completes skate frame 180 with retarget skipped. This supports investigation of the quarantined retarget path, but does not prove its precise failure mechanism. Keep raw camera transforms and retarget writes quarantined pending evidence-driven repair. One successful activation is not sustained-playability validation.
