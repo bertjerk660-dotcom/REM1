@@ -15,8 +15,10 @@ Create a polished, stable and playable Fallout: New Vegas mashup that integrates
 - The current custom GMod-style prop menu is temporary and should be replaced. GPT-6 Astra should use the user's installed Garry's Mod files as the primary source for the real GMod Q/spawn menu: reuse/port the actual Lua/Derma menu scripts, menu definitions, icons/materials and related files where technically compatible, and use IDA Pro 6.8 to recover any required native engine-side behavior, data flow or interfaces that are not available directly in script.
 - The target for the Q menu is a source-faithful functional port of the real Garry's Mod menu rather than a hand-authored Fallout imitation. Its tabs/categories, prop browser, search/filter behavior, tool selection, Duplicator/Remover access, icon presentation and menu-to-Tool-Gun state should follow the original GMod implementation as closely as the host engine permits.
 - The actual GMod menu implementation should then be fed the curated Fallout/THUG2/GMod prop libraries prepared by this project, rather than the entire raw asset archive.
-- Garry's Mod Tool Gun integration should expose appropriate GMod-style tool selection, including Duplicator and Remover.
-- Garry's Mod Physics Gun behavior should reproduce the relevant weapon interaction, beam/target highlighting and manipulation behavior.
+- Garry's Mod Tool Gun integration should be based on the actual local GMod Tool Gun implementation: reuse/port the real Lua/SWEP/tool scripts, tool definitions, materials, sounds, UI hooks and associated behavior, and use IDA Pro 6.8 only for native engine behavior/interfaces that are not available in script. The final Tool Gun must not be a Fallout-authored recreation.
+- Garry's Mod Physics Gun integration should likewise use the actual local GMod/Source weapon behavior, scripts/assets and reverse-engineered native behavior required for target acquisition, beam rendering, held-object manipulation, rotation, freeze/unfreeze, release/launch behavior and feedback. The final Physics Gun must not be a Fallout-authored recreation.
+- Tool Gun mode/tool selection must be controlled from the real/ported Garry's Mod Q menu. Do not use Fallout top-left prompts, Fallout-style option popups or ad-hoc menu prompts to select Tool Gun functions.
+- Any GMod-style transient feedback shown by the Tool Gun/Physics Gun should use a source-faithful port of Garry's Mod notification behavior and presentation (including its notification/bubble-style UI where applicable), backed by the original GMod scripts/materials/logic rather than Fallout notification boxes.
 - GMod-derived weapons/items should integrate with the Pip-Boy inventory model, including dropping/picking up and world-name presentation where appropriate.
 
 ## Quality bar
@@ -25,3 +27,5 @@ A technically completed merge is not sufficient. Features must be reachable, und
 For skate mode specifically, success means the free-roam skating loop is functionally and perceptually source-faithful enough that movement, tricks, transitions, controls, camera, animation, board behavior and skating HUD/state feel like THUG2 operating inside the Fallout world, not a Fallout movement system with THUG2-looking effects layered on top.
 
 For the GMod menu specifically, success means opening the Q menu should feel and behave like the real Garry's Mod spawn/tool menu operating inside Fallout, backed by the original local GMod script/UI definitions and only adapted where required by Fallout/NVSE runtime boundaries.
+
+For the Tool Gun and Physics Gun specifically, success means their behavior, controls, feedback and tool-selection flow are driven by the real GMod systems and Q-menu workflow, not by Fallout prompts or hand-authored substitutes.
