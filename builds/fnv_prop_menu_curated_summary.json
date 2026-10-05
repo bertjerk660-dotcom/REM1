@@ -1,0 +1,35 @@
+{
+  "purpose": "Curated Fallout New Vegas prop set for the eventual GMod-style spawn menu.",
+  "broad_archive_candidates": 13003,
+  "spawn_menu_target": 300,
+  "selection_focus": "Useful environmental props with a strong bias toward skateable geometry.",
+  "categories": {
+    "Skate - Rails & Railings": 30,
+    "Skate - Benches": 18,
+    "Skate - Ramps & Stairs": 30,
+    "Skate - Ledges & Barriers": 20,
+    "Skate - Tables & Counters": 20,
+    "Skate - Crates & Large Boxes": 16,
+    "Skate - Pipes": 10,
+    "Street - Fences": 16,
+    "Street - Signs": 20,
+    "Street - Lamps & Poles": 16,
+    "Street - Small Props": 20,
+    "Furniture - Chairs & Couches": 16,
+    "Furniture - Storage": 18,
+    "Furniture - Desks": 10,
+    "Utility - Vending & Terminals": 10,
+    "Nature - Rocks": 10,
+    "Nature - Trees & Plants": 10,
+    "Misc Environment": 10
+  },
+  "validation_required_before_menu_registration": [
+    "collision",
+    "Havok behavior",
+    "scale",
+    "independent-spawn safety",
+    "skate usefulness/playability"
+  ],
+  "integration_performed": false,
+  "note": "The 13,003-prop catalog remains archive/search data only and should not be exposed wholesale in the menu."
+}
