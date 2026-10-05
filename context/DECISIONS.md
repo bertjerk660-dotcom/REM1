@@ -17,3 +17,7 @@ Where the project explicitly requires THUG2/GMod behavior to be merged, implemen
 ## D-005 Curated prop library
 Accepted: 2026-10-05.
 The player-facing GMod-style prop menu should use a compact curated environmental library rather than exposing the full Fallout asset archive. The initial Fallout target is approximately 300 useful props, strongly weighted toward skateable/environment-building objects. The larger 13,003-candidate catalog remains reference/search data only.
+
+## D-006 Replace the custom prop menu with a source-faithful GMod Q menu
+Accepted: 2026-10-05.
+The existing custom/Fallout-style prop menu is not the final design. The target is a functional port of the real Garry's Mod Q/spawn menu using the user's installed GMod Lua/Derma scripts, menu definitions, icons/materials and related files as the primary source. IDA Pro 6.8 should be used for native Source/GMod behavior or interfaces that are not available directly from script. Only the compatibility layer required by Fallout/xNVSE should be rewritten; the menu's visible structure and behavior should remain as source-faithful as technically practical.
