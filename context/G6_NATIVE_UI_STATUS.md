@@ -37,7 +37,7 @@ The extractor takes source-directory and output-directory arguments. The IDA scr
 Use the local NeversoftMultitool qb command on extracted scripts with an explicit output directory. Preserve nonzero exit status as a partial failure.
 
 ## Required before promotion
-1. Obtain an actual v85 left-click playtest and its matching runtime/crash log. No observation yet proves whether retarget quarantine removes the crash. One successful run would support a hypothesis, not prove causality.
+1. Initial activation gate passed on 2026-10-05: user reports no crash; runtime log identifies v85 and completes skate frame 180 with retarget skipped; installed DLL hash matches v85. This supports the retarget-path hypothesis, not proof of causality. Sustained playability remains pending.
 2. Test candidate HUD visibility at activation, initially hidden HUD, exit, death, save/load success and failure, loading transitions, returning to main menu, and UI-root rebuild. Native rendering and third-party HUD compatibility remain unverified.
 3. Validate the QB parser's missing file and semantics, resolve HUD/theme/font assets, map script-native calls and score/special object state. PS2 instructions cannot execute directly inside the x86 New Vegas process.
 4. Implement and verify a source-grounded script/runtime adapter and renderer, including pause/menu input ownership and popup transitions.
