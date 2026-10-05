@@ -1,0 +1,82 @@
+[
+  {
+    "font": "buttonsngc",
+    "status": "pass",
+    "glyphs": 19,
+    "size": [
+      256,
+      64
+    ],
+    "source_sha256": "099c2dae03287050f925d71421e8ae243a7a9abf90f24944aedfb244107d065b"
+  },
+  {
+    "font": "buttonsps2",
+    "status": "pass",
+    "glyphs": 20,
+    "size": [
+      256,
+      128
+    ],
+    "source_sha256": "cc1c73e2c111a190ea1028380d596a796f402d784d45e75c6867d8fed17ed381"
+  },
+  {
+    "font": "buttonsxbox",
+    "status": "pass",
+    "glyphs": 22,
+    "size": [
+      256,
+      128
+    ],
+    "source_sha256": "32c2da09aa61835f24cef3fd13de77808feb485adb0583563257d560ed1f50fd"
+  },
+  {
+    "font": "dialog",
+    "status": "pass",
+    "glyphs": 145,
+    "size": [
+      256,
+      256
+    ],
+    "source_sha256": "2a813d6a312487b566adf062381b03808198993f57ab485cc27163c50b96f7e4"
+  },
+  {
+    "font": "newtimerfont",
+    "status": "pass",
+    "glyphs": 11,
+    "size": [
+      256,
+      64
+    ],
+    "source_sha256": "9c464010ced4ec3227c676f45e85dde849a19adaa7923e4fe7d213232446f652"
+  },
+  {
+    "font": "newtrickfont",
+    "status": "pass",
+    "glyphs": 114,
+    "size": [
+      256,
+      256
+    ],
+    "source_sha256": "720129b0e27cef5fecba030eefc84fac91d2997e66f1d17d33954675a07bfcc6"
+  },
+  {
+    "font": "small",
+    "status": "pass",
+    "glyphs": 155,
+    "size": [
+      256,
+      256
+    ],
+    "source_sha256": "ec4eae96d05d17f547d6964f93f5836340b180c13fda2eb4cb7dfb00644d4bc1"
+  },
+  {
+    "font": "testtitle",
+    "status": "pass",
+    "glyphs": 149,
+    "size": [
+      256,
+      256
+    ],
+    "source_sha256": "b85e14d778534c41b9c2312c0d669859fe41b83b6080f12e3fb71b0569461cd9"
+  }
+]
