@@ -13,3 +13,7 @@ Normal Fallout: New Vegas mechanics remain active until the player explicitly ac
 
 ## D-004 Reverse engineer rather than merely imitate
 Where the project explicitly requires THUG2/GMod behavior to be merged, implementation should be grounded in analysis of the source game's behavior/code/assets where legally and technically appropriate, rather than claiming a 1:1 merge based only on a hand-authored approximation.
+
+## D-005 Curated prop library
+Accepted: 2026-10-05.
+The player-facing GMod-style prop menu should use a compact curated environmental library rather than exposing the full Fallout asset archive. The initial Fallout target is approximately 300 useful props, strongly weighted toward skateable/environment-building objects. The larger 13,003-candidate catalog remains reference/search data only.
