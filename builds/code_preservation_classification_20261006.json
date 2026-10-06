@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-10-06",
+  "inventory_sha256": "FABECA179A0196C277E7E1EA01B60F405FC3BC19B0F7739F95419827FFA18113",
+  "classification_sha256": "22D2264C1396669A82A48AA0ECBC19000687A869258DA4D0631B80686FD20B19",
+  "total": 247,
+  "classification": {
+    "GENERAL": 69,
+    "THUG2": 63,
+    "FNV_HOST": 39,
+    "GMOD": 59,
+    "VALIDATION": 17
+  },
+  "runtime_modified": false,
+  "classification_method": "filename-based first pass",
+  "next_action": "semantic refinement and generated-vs-authoritative classification"
+}
