@@ -1,0 +1,84 @@
+{
+  "iteration": "support-pass-b-2026-10-06",
+  "parent": "support-checkpoint-2026-10-06",
+  "goal": "Complete the broad non-Astra asset/preparation/validation workflow without modifying Astra v88.",
+  "runtime": {
+    "installed_plugin_version": 85,
+    "installed_dll_sha256": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+    "active_esp_sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF4601DFFA7D1DEB7",
+    "astra_v88_sha256": "6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439",
+    "astra_v88_modified": false
+  },
+  "support_outputs": {
+    "final_prop_catalog": {
+      "ready": 290,
+      "fnv": 170,
+      "gmod_source": 120,
+      "all_have_form_bindings": true,
+      "manifest_sha256": "BC7AC41C96A4F5D12C10D4A480D604262BAB6C320067D4CA0E78489D98A9A77F"
+    },
+    "final_prop_thumbnails": {
+      "generated": 290,
+      "failed": 0,
+      "manifest_sha256": "4A90D8E60BC86C57D655F6AB876D9A1144D13ECB5E6FDF46DC68D65FFA7378EC"
+    },
+    "gmod_prop_sidecar": {
+      "records": 120,
+      "sha256": "55E0758D4E96DC0C3B5F591002AD3C2C630CC76BE281DEDA0DAF2D2F91A4423E",
+      "enabled": false,
+      "static_validation": "pass"
+    },
+    "weapon_presentation_sidecar": {
+      "scope": "RPG world model + GMod origin icons",
+      "sha256": "15380779823DA61F0F7A536E317FFB2489F35A156EFDF348348BB61D7BCA7723",
+      "enabled": false,
+      "static_validation": "pass"
+    },
+    "combine_armor_sidecar": {
+      "sha256": "52B06C9D1FA087B32BD2F83120603903893D24781BC9490D89C3D9EEE105979E",
+      "enabled": false,
+      "static_validation": "pass"
+    },
+    "gmod_weapon_runtime_candidates": {
+      "concrete_classes": 49,
+      "view_candidates": 48,
+      "world_candidates": 48,
+      "missing_models": 0,
+      "missing_textures": 0,
+      "manifest_sha256": "AABE583D91313F938DCDFAC3F432F129B515D61297F2E95E92BA28468E106D49"
+    },
+    "thug2_embedded_props": {
+      "targets": 106,
+      "levels": 16,
+      "qb_context_coverage": "106/106"
+    },
+    "thug2_board_handoff": {
+      "motoskateboard_ska_assets": 20,
+      "manifest_sha256": "5ED16EA52A6C5C14C475BDBE3335FF71474CAAF5D846022FFC4184307387E7C5"
+    },
+    "thug2_ui_handoff": {
+      "assets": 49,
+      "missing": 0,
+      "image_previews": "22/22",
+      "manifest_sha256": "BBA25C2BBFFEA48B85070D6EE40867AB5A8DAF7627C9A7041B382BFA2E0E9312"
+    },
+    "unified_support_validator": {
+      "checks": 61,
+      "errors": 0,
+      "status": "pass",
+      "report_sha256": "940BB12750C98F698F2EEE4D327E632851F757AD7D3D0AA7D802394E64651C8F"
+    }
+  },
+  "validation": {
+    "static": "pass",
+    "playtest": "not_run_for_new_sidecars",
+    "tooling_smoke_test": "preflight/postflight capture completed with no artifact hash changes and no relevant Application event"
+  },
+  "known_limits": [
+    "Static validation does not prove gameplay behavior.",
+    "Support thumbnails are fallback/audit previews, not final GMod SpawnIcon behavior.",
+    "THUG2 embedded targets are not standalone props yet.",
+    "First-person weapon attachment/animation and exact Source sound-event behavior remain Astra-owned.",
+    "THUG2 skating/HUD/Q-menu/Tool Gun/Physgun runtime work remains Astra/Claude-owned."
+  ]
+}
