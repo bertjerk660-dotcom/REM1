@@ -1,0 +1,189 @@
+﻿{
+    "schema":  "rem.master_execution_queue.v1",
+    "generated":  "2026-10-06",
+    "policy":  {
+                   "support_lane":  "GPT-5.6/5.5: evidence, manifests, validators, documentation, dependency reconciliation, packaging",
+                   "implementation_lane":  "GPT-6/Opus: visual code, animation, physical model integration, physics/runtime mechanics",
+                   "ida":  "IDA Pro 6.8 only"
+               },
+    "tasks":  [
+                  {
+                      "id":  "G01",
+                      "system":  "toolgun",
+                      "task":  "prove Source Tool Gun view/world presentation",
+                      "owner":  "GPT6_OPUS",
+                      "depends":  [
+
+                                  ],
+                      "inputs":  [
+                                     "context/HANDOFFS/ASTRA_TOOLGUN.md",
+                                     "build/prepared/gmod_hl_weapon_models"
+                                 ],
+                      "gates":  [
+                                    "view model visible",
+                                    "world/drop model visible",
+                                    "scale/attachment valid",
+                                    "no crash"
+                                ]
+                  },
+                  {
+                      "id":  "G02",
+                      "system":  "physgun",
+                      "task":  "resolve exact first-person presentation provenance",
+                      "owner":  "GPT6_OPUS",
+                      "depends":  [
+
+                                  ],
+                      "inputs":  [
+                                     "build/handoffs/gpt6_opus/physgun/implementation_manifest.json"
+                                 ],
+                      "gates":  [
+                                    "no unproven substitute",
+                                    "provenance recorded"
+                                ]
+                  },
+                  {
+                      "id":  "G03",
+                      "system":  "qmenu_toolgun",
+                      "task":  "port Q-menu renderer and Tool Gun lifecycle/selection",
+                      "owner":  "GPT6_OPUS",
+                      "depends":  [
+                                      "G01"
+                                  ],
+                      "inputs":  [
+                                     "context/HANDOFFS/ASTRA_GMOD_QMENU.md",
+                                     "context/HANDOFFS/ASTRA_TOOLGUN.md"
+                                 ],
+                      "gates":  [
+                                    "Q opens menu",
+                                    "icons stable",
+                                    "tool selection reaches gmod_tool",
+                                    "no Fallout prompt selector"
+                                ]
+                  },
+                  {
+                      "id":  "G04",
+                      "system":  "physgun",
+                      "task":  "implement native Physics Gun behavior from IDA 6.8 contract",
+                      "owner":  "GPT6_OPUS",
+                      "depends":  [
+                                      "G02"
+                                  ],
+                      "inputs":  [
+                                     "context/HANDOFFS/PHYSGUN_IDA68_EVIDENCE_CLOSURE.md",
+                                     "build/handoffs/gpt6_opus/physgun/implementation_manifest.json"
+                                 ],
+                      "gates":  [
+                                    "acquire",
+                                    "hold",
+                                    "beam",
+                                    "rotate",
+                                    "distance",
+                                    "freeze",
+                                    "drop",
+                                    "punt",
+                                    "NPC/ragdoll",
+                                    "cleanup"
+                                ]
+                  },
+                  {
+                      "id":  "G05",
+                      "system":  "weapons",
+                      "task":  "weapon inventory/drop/pickup/save-load/controller regression",
+                      "owner":  "GPT6_OPUS",
+                      "depends":  [
+                                      "G03",
+                                      "G04"
+                                  ],
+                      "gates":  [
+                                    "inventory",
+                                    "drop pickup",
+                                    "save load",
+                                    "first third person",
+                                    "controller"
+                                ]
+                  },
+                  {
+                      "id":  "G06",
+                      "system":  "thug2_props",
+                      "task":  "convert and visually validate 85 evidence-backed prop targets",
+                      "owner":  "GPT6_OPUS",
+                      "depends":  [
+
+                                  ],
+                      "inputs":  [
+                                     "build/handoffs/gpt6_opus/thug2_props/conversion_queue.json"
+                                 ],
+                      "gates":  [
+                                    "original geometry only",
+                                    "materials UVs",
+                                    "scale",
+                                    "collision",
+                                    "visual identity"
+                                ]
+                  },
+                  {
+                      "id":  "G07",
+                      "system":  "thug2_runtime",
+                      "task":  "integrate skate movement camera animation board HUD input",
+                      "owner":  "GPT6_OPUS",
+                      "depends":  [
+                                      "G05"
+                                  ],
+                      "inputs":  [
+                                     "context/HANDOFFS/ASTRA_THUG2_SKATE_RUNTIME.md",
+                                     "context/HANDOFFS/ASTRA_SKATEBOARD_ATTACHMENT.md",
+                                     "context/HANDOFFS/ASTRA_THUG2_HUD_INPUT.md"
+                                 ],
+                      "gates":  [
+                                    "activate deactivate",
+                                    "camera",
+                                    "movement",
+                                    "animation",
+                                    "HUD",
+                                    "input",
+                                    "save load",
+                                    "no crash"
+                                ]
+                  },
+                  {
+                      "id":  "G08",
+                      "system":  "props_qmenu",
+                      "task":  "promote validated THUG2 props into curated Q-menu catalog",
+                      "owner":  "GPT6_OPUS",
+                      "depends":  [
+                                      "G03",
+                                      "G06"
+                                  ],
+                      "gates":  [
+                                    "catalog stable",
+                                    "icons",
+                                    "spawn",
+                                    "collision"
+                                ]
+                  },
+                  {
+                      "id":  "G09",
+                      "system":  "integration",
+                      "task":  "full merged regression and playability pass",
+                      "owner":  "GPT6_OPUS",
+                      "depends":  [
+                                      "G05",
+                                      "G07",
+                                      "G08"
+                                  ],
+                      "gates":  [
+                                    "boot",
+                                    "normal FNV",
+                                    "Q-menu",
+                                    "Tool Gun",
+                                    "Physgun",
+                                    "skate mode",
+                                    "save load",
+                                    "regressions"
+                                ]
+                  }
+              ]
+}
+
+[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
