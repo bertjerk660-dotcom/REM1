@@ -1,0 +1,32 @@
+{
+  "purpose": "Balanced THUG2 embedded skate/environment extraction queue; not yet standalone props.",
+  "selected_targets": 106,
+  "category_counts": {
+    "Skate - Quarterpipes Halfpipes Ramps": 24,
+    "Skate - Rails Handrails": 28,
+    "Skate - Ledges Hubbas Curbs": 24,
+    "Street - Benches Tables Chairs": 14,
+    "Street - Fences Barriers Poles Pipes": 12,
+    "Skate - Stairs Platforms Misc": 4
+  },
+  "levels": [
+    "ap",
+    "au",
+    "ba",
+    "be",
+    "bo",
+    "ca",
+    "dj",
+    "la",
+    "no",
+    "ph",
+    "sc",
+    "se",
+    "se2",
+    "sk5ed",
+    "st",
+    "tr"
+  ],
+  "local_manifest_sha256": "255833E4CC602519F541C66BA5AB8AB0D2D3C925E67F28B60A61CD26ADDE378E",
+  "note": "Each target still requires QB/GEOM correlation, splitting, FNV conversion and independent collision/scale validation before menu promotion."
+}
