@@ -1,0 +1,130 @@
+{
+  "source_glb": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_prop_catalog\\standalone_glb\\models\\board_default\\board_default\\board_default.glb",
+  "source_sha256": "9a8276180a0b8ef213044938a79611b69ee051c194170a34bebec31d489421e8",
+  "textures": [
+    {
+      "path": "textures\\rem\\thug2\\board90\\source_0.dds",
+      "sha256": "7a3ea201b3fea2e51a6feeb2d5c3e9c0ceb04ebf38e84e0f2c41f6b2c3e9714f",
+      "pixels_verified": true
+    },
+    {
+      "path": "textures\\rem\\thug2\\board90\\source_1.dds",
+      "sha256": "822cd6aef11e26e7919a9fcacd3dc58a26d12eabde824c3b8606347b2ca84ceb",
+      "pixels_verified": true
+    },
+    {
+      "path": "textures\\rem\\thug2\\board90\\source_2.dds",
+      "sha256": "b5dbda55cc850ff6f9b87484ab153e644e85dd9895793a2f7bf2883087d59f92",
+      "pixels_verified": true
+    },
+    {
+      "path": "textures\\rem\\thug2\\board90\\source_3.dds",
+      "sha256": "c8cc54c46fb38816ac5821b87499bcd09c73c22d9362342ae85d4ef2280d93f9",
+      "pixels_verified": true
+    }
+  ],
+  "nifs": [
+    {
+      "name": "skateheldx.nif",
+      "before_sha256": "4f12178d6d4004b29b46bcf61365a6b48d2ef007b862b292b4cda80df7bbd08a",
+      "after_sha256": "1fb3ce190cc0e32d2f06eec144605ce3e2eb84be4e3a90a33b227b9639c6d852",
+      "materials": [
+        {
+          "shape": 0,
+          "old_alpha": 0.0,
+          "material": "mat_247A7159",
+          "image": 0
+        },
+        {
+          "shape": 1,
+          "old_alpha": 0.0,
+          "material": "mat_B62B7C96",
+          "image": 1
+        },
+        {
+          "shape": 2,
+          "old_alpha": 0.0,
+          "material": "mat_5CC4F8FD",
+          "image": 2
+        },
+        {
+          "shape": 3,
+          "old_alpha": 0.0,
+          "material": "mat_EBD5B89A",
+          "image": 3
+        }
+      ],
+      "roundtrip": "pass"
+    },
+    {
+      "name": "skateboard.nif",
+      "before_sha256": "c13cc1abb997d85e0c5a4860410a7ef14e8dfdca5ea14d29983ebdaaa7843e4c",
+      "after_sha256": "e6aad886d1ca8a2044f185051ab2f411c61806ecf7a74372d83b5b6203fc5568",
+      "materials": [
+        {
+          "shape": 0,
+          "old_alpha": 0.0,
+          "material": "mat_247A7159",
+          "image": 0
+        },
+        {
+          "shape": 1,
+          "old_alpha": 0.0,
+          "material": "mat_B62B7C96",
+          "image": 1
+        },
+        {
+          "shape": 2,
+          "old_alpha": 0.0,
+          "material": "mat_5CC4F8FD",
+          "image": 2
+        },
+        {
+          "shape": 3,
+          "old_alpha": 0.0,
+          "material": "mat_EBD5B89A",
+          "image": 3
+        }
+      ],
+      "roundtrip": "pass"
+    },
+    {
+      "name": "skateboard_visual.nif",
+      "before_sha256": "c13cc1abb997d85e0c5a4860410a7ef14e8dfdca5ea14d29983ebdaaa7843e4c",
+      "after_sha256": "e6aad886d1ca8a2044f185051ab2f411c61806ecf7a74372d83b5b6203fc5568",
+      "materials": [
+        {
+          "shape": 0,
+          "old_alpha": 0.0,
+          "material": "mat_247A7159",
+          "image": 0
+        },
+        {
+          "shape": 1,
+          "old_alpha": 0.0,
+          "material": "mat_B62B7C96",
+          "image": 1
+        },
+        {
+          "shape": 2,
+          "old_alpha": 0.0,
+          "material": "mat_5CC4F8FD",
+          "image": 2
+        },
+        {
+          "shape": 3,
+          "old_alpha": 0.0,
+          "material": "mat_EBD5B89A",
+          "image": 3
+        }
+      ],
+      "roundtrip": "pass"
+    }
+  ],
+  "deployed": true,
+  "runtime_visibility": "not_tested",
+  "scope": "Opaque original board material restoration; geometry and placement unchanged",
+  "deployed_at": "2026-10-06T06:22:32.805489+00:00",
+  "backup": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\backups\\board_material90",
+  "live_dll_sha256": "bc24e9b15bca28b33569bc9ff7fd59db66e962150fd00a9350ce3367dcf06f41"
+}
