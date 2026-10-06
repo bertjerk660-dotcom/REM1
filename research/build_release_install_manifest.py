@@ -73,6 +73,8 @@ staged_manifests=[
  "build/prepared/historical_artifact_registry/manifest.json",
  "build/prepared/prop_support_phase3/summary.json",
  "build/validation/prop_support_phase3.json",
+ "build/prepared/prop_support_phase4/summary.json",
+ "build/validation/prop_support_phase4.json",
 ]
 manifest_rows=[]
 for rel in staged_manifests:
