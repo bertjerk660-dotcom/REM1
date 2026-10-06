@@ -1,0 +1,100 @@
+--- v88/main.cpp
++++ v89/main.cpp
+@@ -1842,10 +1842,25 @@
+     Notify("[THUG2] Skate ON - Space jump, N nollie, P pressure, V revert, K skitch, M manual, G grind, L lip, Q/E spin or cycle, LMB+RMB special, R exit");
+ }
+ 
+-static void ExitSkateMode()
++static void ExitSkateMode(bool notifyUser = true)
+ {
+     PlayerCharacter* player = PlayerCharacter::GetSingleton();
+-    if (!player || !g_skate.active) return;
++    if (!g_skate.active) return;
++    if (!player)
++    {
++        // World may already be gone: invalidate caches without touching old references.
++        if (g_skate.forwardHoldInjected)
++            Script::RunScriptLine2("releasekey 17", nullptr, true);
++        ClearTHUG2RetargetCacheNoRestore();
++        g_skate = SkateState{};
++        g_skateboardRideRef = nullptr;
++        g_skateboardRideStatic = nullptr;
++        g_skateboardRidePendingForm = nullptr;
++        g_skateboardRidePendingTick = 0;
++        UpdateFalloutHudOwnership(false);
++        UpdateTHUGHudOverlay();
++        return;
++    }
+ 
+     g_skate.active = false;
+     UpdateFalloutHudOwnership(false);
+@@ -1868,7 +1883,10 @@
+         g_skate.forwardHoldInjected = false;
+     }
+ 
+-    RestoreTHUG2RetargetBones(player);
++    if (kTHUG2RetargetDiagnosticEnabled)
++        RestoreTHUG2RetargetBones(player);
++    else
++        ClearTHUG2RetargetCacheNoRestore();
+ 
+     // Restore the exact pre-skate movement multiplier and remove the ride-only board visual.
+     SetPlayerSpeedMultiplier(player, g_skate.originalSpeedMult);
+@@ -1886,7 +1904,7 @@
+     g_skate.skitchTargetRefID = 0;
+     g_skate.skitchWasDown = false;
+     ResetActiveSkateCombo();
+-    Notify("[THUG2] Skate mode OFF - Fallout movement restored");
++    if (notifyUser) Notify("[THUG2] Skate mode OFF - Fallout movement restored");
+ }
+ 
+ static void ToggleSkateMode()
+@@ -6771,6 +6789,16 @@
+     {
+     case NVSEMessagingInterface::kMessage_PreLoadGame:
+     case NVSEMessagingInterface::kMessage_ExitToMainMenu:
++        // PreLoad is dispatched before the old save/world is replaced.
++        // Release our input/camera/board ownership before dropping readiness.
++        ExitSkateMode(false);
++        UpdateSkateboardCombatSuppression(PlayerCharacter::GetSingleton(), false);
++        ClearTHUG2RetargetCacheNoRestore();
++        g_skateboardRideRef = nullptr;
++        g_skateboardRideStatic = nullptr;
++        g_skateboardRidePendingForm = nullptr;
++        g_skateboardRidePendingTick = 0;
++        g_skateboardAttackWasDown = true; // require release before reactivation
+         UpdateFalloutHudOwnership(false);
+         g_gameplayReady = false;
+         g_skate.active = false;
+@@ -6790,6 +6818,14 @@
+         }
+         break;
+     case NVSEMessagingInterface::kMessage_PostLoadGame:
++        // NVSE Serialization.cpp passes the bool as the pointer VALUE, not bool*.
++        // Failed loads can leave the previous world resident; remain in Fallout mode.
++        _MESSAGE("[THUG2] load attempt completed: success=%u", msg->data != nullptr);
++        ClearTHUG2RetargetCacheNoRestore();
++        g_skateboardRideRef = nullptr;
++        g_skateboardRideStatic = nullptr;
++        g_skateboardRidePendingForm = nullptr;
++        g_skateboardRidePendingTick = 0;
+         g_gameplayReady = true;
+         g_runtimeFormInitEarliestTick = GetTickCount() + 2500;
+         g_runtimeFormInitLogged = false;
+@@ -6973,7 +7009,7 @@
+ {
+     info->infoVersion = PluginInfo::kInfoVersion;
+     info->name = "FNVGModTHUG2";
+-    info->version = 88;
++    info->version = 89;
+ 
+     if (!nvse || nvse->isEditor) return false;
+     if (nvse->runtimeVersion < RUNTIME_VERSION_1_4_0_525) return false;
+@@ -7003,6 +7039,6 @@
+     nvse->RegisterCommand(&kCommandInfo_gmod_undospawn);
+     nvse->RegisterCommand(&kCommandInfo_gmod_cleanup);
+ 
+-    _MESSAGE("FNVGModTHUG2 bridge loaded, version 88 (original bitmap HUD candidate; incomplete THUG2 runtime)");
++    _MESSAGE("FNVGModTHUG2 bridge loaded, version 89 (v88 HUD plus lifecycle cleanup; incomplete THUG2 runtime)");
+     return true;
+ }
