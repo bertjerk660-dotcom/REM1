@@ -28,6 +28,11 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Preserve keyboard/mouse and Xbox-controller operation for the complete trick/state machine once the source-faithful behavior is stable.
 - Validate the integrated free-roam stack subsystem-by-subsystem and then as a complete loop: enter mode -> push/ride -> turn -> ollie -> perform tricks -> land -> grind/manual/lip -> chain combo -> use SPECIAL -> bail/recover where applicable -> continue riding -> exit mode -> normal Fallout restored.
 
+- Replace the current simple skate-mode text overlay with the source-faithful THUG2 HUD/UI system required by the skating runtime.
+- Suppress the Fallout HUD for the full duration of skate mode and restore it only when returning to normal Fallout gameplay.
+- Remove Fallout top-left alerts from skate mode; route skating/combo/status feedback through the recovered THUG2 presentation path instead.
+- Preserve the now-verified held-board hand placement while implementing board-to-feet attachment and full skate-state transitions.
+
 ## GMod Q / spawn menu
 - Replace the current custom/Fallout-style GMod prop menu rather than extending it as the final implementation.
 - Use the user's installed Garry's Mod game files as the primary source for the real Q/spawn menu implementation.
@@ -66,6 +71,11 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Use original/source-faithful GMod visual/audio feedback rather than Fallout prompts.
 - If transient notifications are required, use the real/ported GMod notification/bubble system rather than Fallout top-left notifications or menu prompts.
 - Add regression checks for target acquisition, hold/release, rotation, freeze, launch and beam/highlight rendering.
+
+- Correct Physics Gun target-acquisition/manipulation range; current human playtest reports the usable range is extremely short.
+- Restore the correct continuous Physics Gun beam/hold loop sound while a target is actively grabbed.
+- Fix Physics Gun actor targeting so the unconscious/ragdoll effect applies to the acquired target, never the player character.
+- Add regression coverage for grab range, continuous hold audio, acquired-target identity and actor unconscious/ragdoll application.
 
 ## GMod notifications/UI feedback
 - Inventory the actual Garry's Mod notification system used by the Q menu, Tool Gun and related tools.
