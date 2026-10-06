@@ -1,0 +1,698 @@
+[
+  {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\NVSE\\Plugins\\FNVGModTHUG2.dll",
+    "exists": true,
+    "bytes": 906240,
+    "sha256": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41"
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_GModTHUG2.esp",
+    "exists": true,
+    "bytes": 50315,
+    "sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\attachment90\\bin\\FNVGModTHUG2.dll",
+    "exists": true,
+    "bytes": 919552,
+    "sha256": "04D93FCBCD3429B01C526292573568EAC198B58E6D752F2E80CC758A1B925375"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\hud88\\bin\\FNVGModTHUG2.dll",
+    "exists": true,
+    "bytes": 918528,
+    "sha256": "6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\lifecycle89\\bin\\FNVGModTHUG2.dll",
+    "exists": true,
+    "bytes": 919552,
+    "sha256": "119491C453BC0BAD97ADE3AEA76C2C312568FFCBFC75B297ABAC912A1F7A7051"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\dllmain.c",
+    "exists": true,
+    "bytes": 152,
+    "sha256": "7C7375A779BDFBBE6BF0D2AA903ABC2B206A311B119A96F8FE81A2CCAE072177"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\exports.def",
+    "exists": true,
+    "bytes": 64,
+    "sha256": "E3156A23E17166BA1603EE1BE4DDBDE1236E6D299646B1286AFE530D605F96A7"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\fn_intro_to_script_functions.h",
+    "exists": true,
+    "bytes": 3824,
+    "sha256": "4DB4BDBB553BE50042F171BF3B3BFEC0F8C953AA212EB2976DB13E027B16EB10"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\fn_typed_functions.h",
+    "exists": true,
+    "bytes": 1800,
+    "sha256": "FDF5353E0A9FB0BDCE9914C4F0C1237DF7C68568070A734F5FA73E1DB7F24A23"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\fnv_scene_adapter90.inc",
+    "exists": true,
+    "bytes": 1886,
+    "sha256": "CFF8817008F12DC5F85413B2F8BB658E461844629952661D87946B825677C5CB"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\FNVGModTHUG2.vcxproj",
+    "exists": true,
+    "bytes": 21111,
+    "sha256": "ED33B558BD5FBF2D4A8FAE3938BC4F1C80584C685CC68FF8D1970CC1E27C4234"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\FNVGModTHUG2.vcxproj.filters",
+    "exists": true,
+    "bytes": 5076,
+    "sha256": "9D47EFC730B72F090E2B05F23EF2273FC3599E6B97C9C8DA200918C40D19F05F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\gmod_npc_defs.inc",
+    "exists": true,
+    "bytes": 5247,
+    "sha256": "29FABDABD07B382ACD115A20EB08A4F40FF7A1E45CCB900D52C377E1D4CF1C81"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\gmod_overlay.inc",
+    "exists": true,
+    "bytes": 28618,
+    "sha256": "FCCDE82C38697DD4C6EC0F10E4A4E906E8146AC9C106FA430F9E068089049596"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\gmod_prop_defs.inc",
+    "exists": true,
+    "bytes": 838199,
+    "sha256": "E9B8AFC3AFB67BAFDC8CE7CBAB13CD4547F4B5F7CEE18F189C13B6B164D89E64"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\gmod_tool_defs.inc",
+    "exists": true,
+    "bytes": 1663,
+    "sha256": "559B121AF438522101F943F7C3812A058B8D35424B919E95666E82062F246DF8"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\gmod_weapon_defs.inc",
+    "exists": true,
+    "bytes": 5468,
+    "sha256": "9CA36F22F617BB5E31141497FA2E9C85C1AEB477B1C802320C3D90A4A2B75265"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\gmod_weapon_sounds.inc",
+    "exists": true,
+    "bytes": 3561,
+    "sha256": "B2A63197147AD2AD73D1E50D62AA88C0366C085B51E304DFC52CFEED3D8A9EB4"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\main.cpp",
+    "exists": true,
+    "bytes": 237918,
+    "sha256": "3F9DA45B0FA0B2AE8F0D5399D0A6C2CD2B9D33622096D3BA857EF98128AC3CBA"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\nvse_plugin_example.sln",
+    "exists": true,
+    "bytes": 2338,
+    "sha256": "A134942F6EF57B797EC6092E7D29290631C19A0BAEBD865DE267CF24DD34003F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\nvse_plugin_example.vcproj",
+    "exists": true,
+    "bytes": 14739,
+    "sha256": "622FEE9453C73521F2F4DC4559A492A65DE96F94A9266A06B713B314EB0067CA"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\thug2_anim_data.inc",
+    "exists": true,
+    "bytes": 473715,
+    "sha256": "64ACD47209733BDC797335B360DEAA69CEC804B7E84D7C5555F80BCB08621998"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\thug2_bitmap_hud88.inc",
+    "exists": true,
+    "bytes": 5489,
+    "sha256": "4A5724C39A8F0EDA8C62B1BF8B2BA5A32CD243ED854E113DF8B63C383A055F68"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\thug2_font_metrics88.inc",
+    "exists": true,
+    "bytes": 11677,
+    "sha256": "50C382DF32BBB2EC40BEF40E3A338E5B57F29B0C351D2EB28445F1458FEFE2B8"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\thug2_hud_visibility.inc",
+    "exists": true,
+    "bytes": 2256,
+    "sha256": "D466F6903BCFB9026494FB78BD1423BD05E552A98100CF6A09B26D01D1880FBB"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\dllmain.c",
+    "exists": true,
+    "bytes": 152,
+    "sha256": "7C7375A779BDFBBE6BF0D2AA903ABC2B206A311B119A96F8FE81A2CCAE072177"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\exports.def",
+    "exists": true,
+    "bytes": 64,
+    "sha256": "E3156A23E17166BA1603EE1BE4DDBDE1236E6D299646B1286AFE530D605F96A7"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\fn_intro_to_script_functions.h",
+    "exists": true,
+    "bytes": 3824,
+    "sha256": "4DB4BDBB553BE50042F171BF3B3BFEC0F8C953AA212EB2976DB13E027B16EB10"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\fn_typed_functions.h",
+    "exists": true,
+    "bytes": 1800,
+    "sha256": "FDF5353E0A9FB0BDCE9914C4F0C1237DF7C68568070A734F5FA73E1DB7F24A23"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\FNVGModTHUG2.vcxproj",
+    "exists": true,
+    "bytes": 21111,
+    "sha256": "ED33B558BD5FBF2D4A8FAE3938BC4F1C80584C685CC68FF8D1970CC1E27C4234"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\FNVGModTHUG2.vcxproj.filters",
+    "exists": true,
+    "bytes": 5076,
+    "sha256": "9D47EFC730B72F090E2B05F23EF2273FC3599E6B97C9C8DA200918C40D19F05F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\gmod_npc_defs.inc",
+    "exists": true,
+    "bytes": 5247,
+    "sha256": "29FABDABD07B382ACD115A20EB08A4F40FF7A1E45CCB900D52C377E1D4CF1C81"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\gmod_overlay.inc",
+    "exists": true,
+    "bytes": 31840,
+    "sha256": "E6EF0C484AFDDC1A74C02F6BA8A72CD0899D6E80F5BA5459CD61B9C67183250F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\gmod_prop_defs.inc",
+    "exists": true,
+    "bytes": 838199,
+    "sha256": "E9B8AFC3AFB67BAFDC8CE7CBAB13CD4547F4B5F7CEE18F189C13B6B164D89E64"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\gmod_tool_defs.inc",
+    "exists": true,
+    "bytes": 1663,
+    "sha256": "559B121AF438522101F943F7C3812A058B8D35424B919E95666E82062F246DF8"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\gmod_weapon_defs.inc",
+    "exists": true,
+    "bytes": 5468,
+    "sha256": "9CA36F22F617BB5E31141497FA2E9C85C1AEB477B1C802320C3D90A4A2B75265"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\gmod_weapon_sounds.inc",
+    "exists": true,
+    "bytes": 3561,
+    "sha256": "B2A63197147AD2AD73D1E50D62AA88C0366C085B51E304DFC52CFEED3D8A9EB4"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\main.cpp",
+    "exists": true,
+    "bytes": 236114,
+    "sha256": "52BA85FA1D6968D0868CCC58AB7D73FBB23EC1CBD6623CA44021B1D4CD87A1FA"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\nvse_plugin_example.sln",
+    "exists": true,
+    "bytes": 2338,
+    "sha256": "A134942F6EF57B797EC6092E7D29290631C19A0BAEBD865DE267CF24DD34003F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\nvse_plugin_example.vcproj",
+    "exists": true,
+    "bytes": 14739,
+    "sha256": "622FEE9453C73521F2F4DC4559A492A65DE96F94A9266A06B713B314EB0067CA"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\thug2_anim_data.inc",
+    "exists": true,
+    "bytes": 473715,
+    "sha256": "64ACD47209733BDC797335B360DEAA69CEC804B7E84D7C5555F80BCB08621998"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\thug2_hud_visibility.inc",
+    "exists": true,
+    "bytes": 2256,
+    "sha256": "D466F6903BCFB9026494FB78BD1423BD05E552A98100CF6A09B26D01D1880FBB"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\dllmain.c",
+    "exists": true,
+    "bytes": 152,
+    "sha256": "7C7375A779BDFBBE6BF0D2AA903ABC2B206A311B119A96F8FE81A2CCAE072177"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\exports.def",
+    "exists": true,
+    "bytes": 64,
+    "sha256": "E3156A23E17166BA1603EE1BE4DDBDE1236E6D299646B1286AFE530D605F96A7"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\fn_intro_to_script_functions.h",
+    "exists": true,
+    "bytes": 3824,
+    "sha256": "4DB4BDBB553BE50042F171BF3B3BFEC0F8C953AA212EB2976DB13E027B16EB10"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\fn_typed_functions.h",
+    "exists": true,
+    "bytes": 1800,
+    "sha256": "FDF5353E0A9FB0BDCE9914C4F0C1237DF7C68568070A734F5FA73E1DB7F24A23"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\FNVGModTHUG2.vcxproj",
+    "exists": true,
+    "bytes": 21111,
+    "sha256": "ED33B558BD5FBF2D4A8FAE3938BC4F1C80584C685CC68FF8D1970CC1E27C4234"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\FNVGModTHUG2.vcxproj.filters",
+    "exists": true,
+    "bytes": 5076,
+    "sha256": "9D47EFC730B72F090E2B05F23EF2273FC3599E6B97C9C8DA200918C40D19F05F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\gmod_npc_defs.inc",
+    "exists": true,
+    "bytes": 5247,
+    "sha256": "29FABDABD07B382ACD115A20EB08A4F40FF7A1E45CCB900D52C377E1D4CF1C81"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\gmod_overlay.inc",
+    "exists": true,
+    "bytes": 28618,
+    "sha256": "FCCDE82C38697DD4C6EC0F10E4A4E906E8146AC9C106FA430F9E068089049596"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\gmod_prop_defs.inc",
+    "exists": true,
+    "bytes": 838199,
+    "sha256": "E9B8AFC3AFB67BAFDC8CE7CBAB13CD4547F4B5F7CEE18F189C13B6B164D89E64"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\gmod_tool_defs.inc",
+    "exists": true,
+    "bytes": 1663,
+    "sha256": "559B121AF438522101F943F7C3812A058B8D35424B919E95666E82062F246DF8"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\gmod_weapon_defs.inc",
+    "exists": true,
+    "bytes": 5468,
+    "sha256": "9CA36F22F617BB5E31141497FA2E9C85C1AEB477B1C802320C3D90A4A2B75265"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\gmod_weapon_sounds.inc",
+    "exists": true,
+    "bytes": 3561,
+    "sha256": "B2A63197147AD2AD73D1E50D62AA88C0366C085B51E304DFC52CFEED3D8A9EB4"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\main.cpp",
+    "exists": true,
+    "bytes": 236135,
+    "sha256": "71DAE8690A30AAE7AAA3E92EC78EEA43A2BE7C2318CCC9750DA0BCBB78C5FE91"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\nvse_plugin_example.sln",
+    "exists": true,
+    "bytes": 2338,
+    "sha256": "A134942F6EF57B797EC6092E7D29290631C19A0BAEBD865DE267CF24DD34003F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\nvse_plugin_example.vcproj",
+    "exists": true,
+    "bytes": 14739,
+    "sha256": "622FEE9453C73521F2F4DC4559A492A65DE96F94A9266A06B713B314EB0067CA"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\thug2_anim_data.inc",
+    "exists": true,
+    "bytes": 473715,
+    "sha256": "64ACD47209733BDC797335B360DEAA69CEC804B7E84D7C5555F80BCB08621998"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\thug2_bitmap_hud88.inc",
+    "exists": true,
+    "bytes": 5489,
+    "sha256": "4A5724C39A8F0EDA8C62B1BF8B2BA5A32CD243ED854E113DF8B63C383A055F68"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\thug2_font_metrics88.inc",
+    "exists": true,
+    "bytes": 11677,
+    "sha256": "50C382DF32BBB2EC40BEF40E3A338E5B57F29B0C351D2EB28445F1458FEFE2B8"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\thug2_hud_visibility.inc",
+    "exists": true,
+    "bytes": 2256,
+    "sha256": "D466F6903BCFB9026494FB78BD1423BD05E552A98100CF6A09B26D01D1880FBB"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\bin\\FNVGModTHUG2.dll",
+    "exists": true,
+    "bytes": 907264,
+    "sha256": "3FB4FB4CFB83D161B6FEE4FCACCD07FFF451E9358C16A3546996F6F4C68CD6BD"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\dllmain.c",
+    "exists": true,
+    "bytes": 152,
+    "sha256": "7C7375A779BDFBBE6BF0D2AA903ABC2B206A311B119A96F8FE81A2CCAE072177"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\exports.def",
+    "exists": true,
+    "bytes": 64,
+    "sha256": "E3156A23E17166BA1603EE1BE4DDBDE1236E6D299646B1286AFE530D605F96A7"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\fn_intro_to_script_functions.h",
+    "exists": true,
+    "bytes": 3824,
+    "sha256": "4DB4BDBB553BE50042F171BF3B3BFEC0F8C953AA212EB2976DB13E027B16EB10"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\fn_typed_functions.h",
+    "exists": true,
+    "bytes": 1800,
+    "sha256": "FDF5353E0A9FB0BDCE9914C4F0C1237DF7C68568070A734F5FA73E1DB7F24A23"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\FNVGModTHUG2.vcxproj",
+    "exists": true,
+    "bytes": 21406,
+    "sha256": "F655BACD4EA09D73EED8757C9354253F97D33AD1E6C90F80ABB495164705E064"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\FNVGModTHUG2.vcxproj.filters",
+    "exists": true,
+    "bytes": 5076,
+    "sha256": "9D47EFC730B72F090E2B05F23EF2273FC3599E6B97C9C8DA200918C40D19F05F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\gmod_npc_defs.inc",
+    "exists": true,
+    "bytes": 5247,
+    "sha256": "29FABDABD07B382ACD115A20EB08A4F40FF7A1E45CCB900D52C377E1D4CF1C81"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\gmod_overlay.inc",
+    "exists": true,
+    "bytes": 31840,
+    "sha256": "E6EF0C484AFDDC1A74C02F6BA8A72CD0899D6E80F5BA5459CD61B9C67183250F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\gmod_prop_defs.inc",
+    "exists": true,
+    "bytes": 838199,
+    "sha256": "E9B8AFC3AFB67BAFDC8CE7CBAB13CD4547F4B5F7CEE18F189C13B6B164D89E64"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\gmod_tool_defs.inc",
+    "exists": true,
+    "bytes": 1663,
+    "sha256": "559B121AF438522101F943F7C3812A058B8D35424B919E95666E82062F246DF8"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\gmod_weapon_defs.inc",
+    "exists": true,
+    "bytes": 5468,
+    "sha256": "9CA36F22F617BB5E31141497FA2E9C85C1AEB477B1C802320C3D90A4A2B75265"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\gmod_weapon_sounds.inc",
+    "exists": true,
+    "bytes": 3561,
+    "sha256": "B2A63197147AD2AD73D1E50D62AA88C0366C085B51E304DFC52CFEED3D8A9EB4"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\main.cpp",
+    "exists": true,
+    "bytes": 236456,
+    "sha256": "713D64BC83F45822FCF267EC6F788C3082386D6991B5511EFA2C5548A5054344"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\nvse_plugin_example.sln",
+    "exists": true,
+    "bytes": 2338,
+    "sha256": "A134942F6EF57B797EC6092E7D29290631C19A0BAEBD865DE267CF24DD34003F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\nvse_plugin_example.vcproj",
+    "exists": true,
+    "bytes": 14739,
+    "sha256": "622FEE9453C73521F2F4DC4559A492A65DE96F94A9266A06B713B314EB0067CA"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\skate_activation_gate92.h",
+    "exists": true,
+    "bytes": 971,
+    "sha256": "26667393ADB1CF7C26650C2AEEEDE48DA4D7275AEEAF493DF221DE206636360E"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\test_activation92.cmd",
+    "exists": true,
+    "bytes": 460,
+    "sha256": "15C385C4A386DAD0CF8EC9C8A1D70584F1CD7D9C21F30BF08F6E08FF1F5F637C"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\test_activation92.cpp",
+    "exists": true,
+    "bytes": 2821,
+    "sha256": "38BB322B9B03D1886FF42B41B0F587943E420489680EA12344DE44EC6DB1D08C"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\thug2_anim_data.inc",
+    "exists": true,
+    "bytes": 473715,
+    "sha256": "64ACD47209733BDC797335B360DEAA69CEC804B7E84D7C5555F80BCB08621998"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\dllmain.c",
+    "exists": true,
+    "bytes": 152,
+    "sha256": "7C7375A779BDFBBE6BF0D2AA903ABC2B206A311B119A96F8FE81A2CCAE072177"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\exports.def",
+    "exists": true,
+    "bytes": 64,
+    "sha256": "E3156A23E17166BA1603EE1BE4DDBDE1236E6D299646B1286AFE530D605F96A7"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\fn_intro_to_script_functions.h",
+    "exists": true,
+    "bytes": 3824,
+    "sha256": "4DB4BDBB553BE50042F171BF3B3BFEC0F8C953AA212EB2976DB13E027B16EB10"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\fn_typed_functions.h",
+    "exists": true,
+    "bytes": 1800,
+    "sha256": "FDF5353E0A9FB0BDCE9914C4F0C1237DF7C68568070A734F5FA73E1DB7F24A23"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\FNVGModTHUG2.vcxproj",
+    "exists": true,
+    "bytes": 21111,
+    "sha256": "ED33B558BD5FBF2D4A8FAE3938BC4F1C80584C685CC68FF8D1970CC1E27C4234"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\FNVGModTHUG2.vcxproj.filters",
+    "exists": true,
+    "bytes": 5076,
+    "sha256": "9D47EFC730B72F090E2B05F23EF2273FC3599E6B97C9C8DA200918C40D19F05F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\gmod_npc_defs.inc",
+    "exists": true,
+    "bytes": 5247,
+    "sha256": "29FABDABD07B382ACD115A20EB08A4F40FF7A1E45CCB900D52C377E1D4CF1C81"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\gmod_overlay.inc",
+    "exists": true,
+    "bytes": 28618,
+    "sha256": "FCCDE82C38697DD4C6EC0F10E4A4E906E8146AC9C106FA430F9E068089049596"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\gmod_prop_defs.inc",
+    "exists": true,
+    "bytes": 838199,
+    "sha256": "E9B8AFC3AFB67BAFDC8CE7CBAB13CD4547F4B5F7CEE18F189C13B6B164D89E64"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\gmod_tool_defs.inc",
+    "exists": true,
+    "bytes": 1663,
+    "sha256": "559B121AF438522101F943F7C3812A058B8D35424B919E95666E82062F246DF8"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\gmod_weapon_defs.inc",
+    "exists": true,
+    "bytes": 5468,
+    "sha256": "9CA36F22F617BB5E31141497FA2E9C85C1AEB477B1C802320C3D90A4A2B75265"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\gmod_weapon_sounds.inc",
+    "exists": true,
+    "bytes": 3561,
+    "sha256": "B2A63197147AD2AD73D1E50D62AA88C0366C085B51E304DFC52CFEED3D8A9EB4"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\main.cpp",
+    "exists": true,
+    "bytes": 237886,
+    "sha256": "8A025D885A51DAF6594141976EB9DAA659F6FB25D76F2D7485794755B33BBBDB"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\nvse_plugin_example.sln",
+    "exists": true,
+    "bytes": 2338,
+    "sha256": "A134942F6EF57B797EC6092E7D29290631C19A0BAEBD865DE267CF24DD34003F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\nvse_plugin_example.vcproj",
+    "exists": true,
+    "bytes": 14739,
+    "sha256": "622FEE9453C73521F2F4DC4559A492A65DE96F94A9266A06B713B314EB0067CA"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\thug2_anim_data.inc",
+    "exists": true,
+    "bytes": 473715,
+    "sha256": "64ACD47209733BDC797335B360DEAA69CEC804B7E84D7C5555F80BCB08621998"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\thug2_bitmap_hud88.inc",
+    "exists": true,
+    "bytes": 5489,
+    "sha256": "4A5724C39A8F0EDA8C62B1BF8B2BA5A32CD243ED854E113DF8B63C383A055F68"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\thug2_font_metrics88.inc",
+    "exists": true,
+    "bytes": 11677,
+    "sha256": "50C382DF32BBB2EC40BEF40E3A338E5B57F29B0C351D2EB28445F1458FEFE2B8"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\thug2_hud_visibility.inc",
+    "exists": true,
+    "bytes": 2256,
+    "sha256": "D466F6903BCFB9026494FB78BD1423BD05E552A98100CF6A09B26D01D1880FBB"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\dllmain.c",
+    "exists": true,
+    "bytes": 152,
+    "sha256": "7C7375A779BDFBBE6BF0D2AA903ABC2B206A311B119A96F8FE81A2CCAE072177"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\exports.def",
+    "exists": true,
+    "bytes": 64,
+    "sha256": "E3156A23E17166BA1603EE1BE4DDBDE1236E6D299646B1286AFE530D605F96A7"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\fn_intro_to_script_functions.h",
+    "exists": true,
+    "bytes": 3824,
+    "sha256": "4DB4BDBB553BE50042F171BF3B3BFEC0F8C953AA212EB2976DB13E027B16EB10"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\fn_typed_functions.h",
+    "exists": true,
+    "bytes": 1800,
+    "sha256": "FDF5353E0A9FB0BDCE9914C4F0C1237DF7C68568070A734F5FA73E1DB7F24A23"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\FNVGModTHUG2.vcxproj",
+    "exists": true,
+    "bytes": 22522,
+    "sha256": "9DEA3757300679449B01AFD9897A4A3BE32D7FFD6018A09DC6F5C895435EA3EF"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\FNVGModTHUG2.vcxproj.filters",
+    "exists": true,
+    "bytes": 5076,
+    "sha256": "9D47EFC730B72F090E2B05F23EF2273FC3599E6B97C9C8DA200918C40D19F05F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_npc_defs.inc",
+    "exists": true,
+    "bytes": 5247,
+    "sha256": "29FABDABD07B382ACD115A20EB08A4F40FF7A1E45CCB900D52C377E1D4CF1C81"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_overlay.inc",
+    "exists": true,
+    "bytes": 31840,
+    "sha256": "E6EF0C484AFDDC1A74C02F6BA8A72CD0899D6E80F5BA5459CD61B9C67183250F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_prop_defs.inc",
+    "exists": true,
+    "bytes": 838199,
+    "sha256": "E9B8AFC3AFB67BAFDC8CE7CBAB13CD4547F4B5F7CEE18F189C13B6B164D89E64"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_tool_defs.inc",
+    "exists": true,
+    "bytes": 1663,
+    "sha256": "559B121AF438522101F943F7C3812A058B8D35424B919E95666E82062F246DF8"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_weapon_defs.inc",
+    "exists": true,
+    "bytes": 5468,
+    "sha256": "9CA36F22F617BB5E31141497FA2E9C85C1AEB477B1C802320C3D90A4A2B75265"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_weapon_sounds.inc",
+    "exists": true,
+    "bytes": 3561,
+    "sha256": "B2A63197147AD2AD73D1E50D62AA88C0366C085B51E304DFC52CFEED3D8A9EB4"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\main.cpp",
+    "exists": true,
+    "bytes": 235430,
+    "sha256": "CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\nvse_plugin_example.sln",
+    "exists": true,
+    "bytes": 2338,
+    "sha256": "A134942F6EF57B797EC6092E7D29290631C19A0BAEBD865DE267CF24DD34003F"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\nvse_plugin_example.vcproj",
+    "exists": true,
+    "bytes": 14739,
+    "sha256": "622FEE9453C73521F2F4DC4559A492A65DE96F94A9266A06B713B314EB0067CA"
+  },
+  {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\thug2_anim_data.inc",
+    "exists": true,
+    "bytes": 473715,
+    "sha256": "64ACD47209733BDC797335B360DEAA69CEC804B7E84D7C5555F80BCB08621998"
+  }
+]
