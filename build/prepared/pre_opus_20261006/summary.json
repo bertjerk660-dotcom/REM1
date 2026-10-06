@@ -1,0 +1,22 @@
+{
+  "generated_utc": "2026-10-06T17:47:09.673494+00:00",
+  "mode": "PREPARATION_ONLY",
+  "opus_start_date": "2026-10-08",
+  "source_packets": 11,
+  "thug2_checked_assets": 72,
+  "thug2_hash_failures": [],
+  "legacy_release_drift": [
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\validation\\prop_support_phase4.json",
+      "exists": true,
+      "bytes": 27217,
+      "sha256": "EF9A473F8F107375A229F694847096121688688681642B623004EA21625AB993",
+      "previous_sha256": "10DA27E09900A2A200875160A6E788EE5F6E5E802ECAE84B33CBFD92DA5242AF",
+      "previous_hash_matches": false,
+      "previous_state": "project_source_metadata"
+    }
+  ],
+  "sidecars_disabled": true,
+  "protected_unchanged": true,
+  "reserved_work": "Opus visual/conversion/animation; Astra native/runtime; no implementation or game launch performed"
+}
