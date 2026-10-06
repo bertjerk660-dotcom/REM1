@@ -46,3 +46,12 @@ Verified 2026-10-06 from the actual local workspace, deployed files, build manif
 - v88 remains an isolated Astra candidate.
 - Combine armor staging passes static validation but is not runtime-verified.
 - Project is NOT yet verified stable/complete.
+
+## Support asset checkpoint — 2026-10-06
+- Concrete GMod/HL weapon model staging: 71/71 concrete model references covered; two missing model refs are abstract-base placeholders only.
+- FNV curated prop audit: 300 parse, 278 static-clean; 290 have collision and 31 have mass>0 authored-mobility evidence.
+- Real GMod Q-menu handoff: 105 relevant Lua files, 40 stool/tool files, 46 VGUI classes and 29/29 direct asset refs resolved.
+- GMod/Source curated prop pool: 120 conversion/collision/material-clean candidates.
+- THUG2 embedded environment extraction queue: 106 named targets across 16 levels; not standalone/spawn-ready.
+- Compact ready prop-content handoff: 290 candidates = 170 FNV + 120 GMod/Source. Keep normal menu near 300–320 and promote THUG2 by replacement where practical.
+- See context/SUPPORT_CHECKPOINT_20261006.md and the 20261006 build summaries.
