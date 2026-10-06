@@ -1,0 +1,18 @@
+{
+  "schema": "rem.agent_handoff.v1",
+  "target_agents": [
+    "GPT-6",
+    "Opus 5.5"
+  ],
+  "physgun_package": "physgun_implementation_package.json",
+  "thug2_prop_package": "thug2_85_conversion_inputs.json",
+  "thug2_count": 85,
+  "proprietary_assets_committed": false,
+  "runtime_success_claimed": false,
+  "sha256": {
+    "physgun_implementation_package.json": "C8441191B12B9D593450F444D4D9A8ECAC9F4399ED0C171A0D16057CE9E06A00",
+    "thug2_85_conversion_inputs.json": "32C8A1ED1E5190808DBCC0BAF87DC32ADAAA8091F08C47790D6EA37209227EB3"
+  }
+}
+
+[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
