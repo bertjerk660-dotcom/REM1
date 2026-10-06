@@ -78,3 +78,27 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Verify save/load.
 - Verify normal inventory and combat behavior outside imported modes.
 - Check for progression-breaking regressions.
+
+
+## Support/workflow lane
+- Keep feature/thug2-native-ui-g6 reserved for Astra's complex THUG2/UI/mechanics work.
+- Use the support lane for reproducible asset staging, xEdit records, Pip-Boy icons, manifests, validation scripts, provenance, prop curation, dependency audits, packaging and regression preparation.
+- Do not modify or deploy the v88 candidate from the support lane.
+- Re-check installed DLL, active ESP and candidate hashes immediately before any deployment because concurrent work can occur.
+- Prefer sidecar test plugins and isolated build directories for support features so gameplay/runtime changes remain attributable.
+
+## Combine Soldier armor staging
+- Static full-body Combine Soldier armor conversion exists and passes structural/skin/texture validation.
+- Dedicated REM_CombineArmor_Test.esp exists locally but remains disabled.
+- Next test gate: equip on male/female player where applicable, inspect idle/walk/run/crouch/weapon poses, first/third person, dropped world model, NPC equip, save/load and clipping.
+- Do not replace Enclave/Remnants armor records or NPC outfits until that isolated test passes.
+
+## Support lane backlog
+- Reconcile and import project-authored local conversion/validation scripts that are still missing from GitHub.
+- Maintain hashes/provenance for source-game assets without committing proprietary binaries.
+- Finish asset-only Pip-Boy icon and inventory presentation audits.
+- Continue GMod/HL weapon model staging and missing-dependency reports without rewriting weapon mechanics.
+- Continue curated prop-library indexing, collision/scale validation and thumbnail preparation for the eventual real GMod Q menu.
+- Inventory real GMod Q-menu/Tool Gun/Physics Gun script/assets and dependencies for Astra, but leave the native/runtime port and behavior implementation to Astra.
+- Prepare THUG2 UI/font/controller-glyph asset manifests and test data, but leave animation, camera, physics, scoring-runtime and model-rig behavior changes to Astra.
+- Expand repeatable boot/save/load/inventory/asset-reference validation so candidate promotion requires less manual checking.
