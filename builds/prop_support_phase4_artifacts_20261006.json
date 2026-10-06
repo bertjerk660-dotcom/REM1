@@ -1,6 +1,6 @@
 {
   "purpose": "GitHub-safe artifact index for prop support phase 4. Binary previews and proprietary assets remain local; GitHub stores scripts/docs/hashes/provenance.",
-  "artifact_count": 9,
+  "artifact_count": 16,
   "all_present": true,
   "artifacts": [
     {
@@ -48,6 +48,20 @@
       }
     },
     {
+      "path": "build/prepared/prop_support_phase4/thug2_material_collision_plan.json",
+      "exists": true,
+      "bytes": 28064,
+      "sha256": "171B900DB7CC803F3342CA4087B516350D360005AE8458F2C33AD4208690BF67",
+      "summary": {
+        "count": 20,
+        "with_materials": 20,
+        "collision_roles": {
+          "static_skate_obstacle": 16,
+          "static_environment_prop": 4
+        }
+      }
+    },
+    {
       "path": "build/prepared/prop_support_phase4/gmod_reserve_pool.json",
       "exists": true,
       "bytes": 106383,
@@ -68,43 +82,100 @@
     {
       "path": "build/prepared/prop_support_phase4/menu_taxonomy_v2.json",
       "exists": true,
-      "bytes": 229786,
-      "sha256": "E4BD3F1BE71B54FFF20150A5E30AFA092B90ABF50658E9B9F08E07C00D0A837B",
+      "bytes": 230113,
+      "sha256": "D343ECD1B10D73925D871F7702F340FB2F5FBD8601E521A60E6AEEFC0F677E82",
       "summary": {
         "current_ready_count": 290,
         "planned_first_wave_count": 310
       }
     },
     {
+      "path": "build/prepared/prop_support_phase4/category_balance_target310.json",
+      "exists": true,
+      "bytes": 3367,
+      "sha256": "94493200A9C70415A1CA893BB8C3D8BC22A387AB269A7D3D6265CE0ECFFB58B4",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/prop_support_phase4/reserve_fallback_map.json",
+      "exists": true,
+      "bytes": 407744,
+      "sha256": "5C95E83AE214C7F9314196E3DDC10C98E4FB28EAE2FC68BBBCE359FD7C5E0532",
+      "summary": {
+        "ready_count": 290,
+        "reserve_count": 80
+      }
+    },
+    {
+      "path": "build/prepared/prop_support_phase4/runtime_test_batches_with_fallbacks.json",
+      "exists": true,
+      "bytes": 89297,
+      "sha256": "0B4ABAA4B9FDF1B4C0D401F694954D4BDC49AAF42F21A1DE78EE63C0085FD0B1",
+      "summary": {
+        "batch_count": 5,
+        "selected_count": 56
+      }
+    },
+    {
       "path": "build/prepared/prop_support_phase4/promotion_plan.json",
       "exists": true,
-      "bytes": 50673,
-      "sha256": "75A995A38416C944407D612949035DF37A25D673DCA9843A93E7A0CFC5F6A198",
+      "bytes": 51125,
+      "sha256": "A6AF6152387987278DD9D2925A7B115D3869FF25957F0FC0F9091D6FDC2D57AC",
       "summary": {}
     },
     {
       "path": "build/prepared/prop_support_phase4/thug2_promotion_validation_ledger.json",
       "exists": true,
-      "bytes": 16445,
-      "sha256": "DB5F3A703ACDB34C3FC0FC99C3479C1412BEA35B56FFB1106940F969D6CBCCE7",
+      "bytes": 16539,
+      "sha256": "93C57A421B2DDA40E09590A6CC9B5832415E133DB0F0920049EE521A7220EE4B",
       "summary": {}
     },
     {
       "path": "build/prepared/prop_support_phase4/review_packet.json",
       "exists": true,
       "bytes": 533,
-      "sha256": "5A6F8A41418D7186BFDE725D33FD57B69215D3841D4A56F374757798157842F5",
+      "sha256": "9F3FBD955ADF0315566DDE9E40FB188737E3B28916260E8C6D982652CBBAF2E6",
       "summary": {}
+    },
+    {
+      "path": "build/prepared/thug2_prop_catalog_sidecar/build_report.json",
+      "exists": true,
+      "bytes": 380,
+      "sha256": "F29948D946CD52BE90124C1C0453AD35562C1DED12107262DFDEB0AD7F7D6036",
+      "summary": {
+        "status": "blocked_no_validated_candidates",
+        "ready": 0,
+        "blocked": 20
+      }
     },
     {
       "path": "build/validation/prop_support_phase4.json",
       "exists": true,
-      "bytes": 8991,
-      "sha256": "ACFF237C3E0BA44ADCC8733FB327FCCC7C58314913C293606741D1EFBFD8C567",
+      "bytes": 27217,
+      "sha256": "EF9A473F8F107375A229F694847096121688688681642B623004EA21625AB993",
       "summary": {
         "status": "pass",
         "error_count": 0,
-        "check_count": 46
+        "check_count": 66
+      }
+    },
+    {
+      "path": "build/validation/support_lane_state.json",
+      "exists": true,
+      "bytes": 38806,
+      "sha256": "C38A083EC938EAF2A169495E8138EA0F86077F795C3F5DFDF5246F2D2D0735D0",
+      "summary": {
+        "status": "pass",
+        "error_count": 0
+      }
+    },
+    {
+      "path": "build/prepared/release_install_manifest/summary.json",
+      "exists": true,
+      "bytes": 251,
+      "sha256": "9087A5B92049BA0ADA6524D43DD8D1A275B10AFAFEFBF363E7FCB7300259D57A",
+      "summary": {
+        "support_manifests": 17
       }
     }
   ],
