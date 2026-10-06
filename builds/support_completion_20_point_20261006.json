@@ -1,0 +1,119 @@
+{
+  "iteration": "support-20-point-completion-2026-10-06",
+  "goal": "Complete all practical non-Astra/non-Opus preparation, validation, catalog, documentation and handoff work while leaving high-risk runtime/model integration to Astra/Opus.",
+  "protected_state": {
+    "installed_plugin_version": 85,
+    "installed_dll_sha256": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+    "active_esp_sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+    "astra_v88_sha256": "6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439",
+    "astra_v88_modified": false
+  },
+  "outputs": {
+    "final_prop_catalog": {
+      "ready": 290,
+      "fnv_existing_forms": 170,
+      "gmod_source_sidecar_forms": 120,
+      "manifest_sha256": "BC7AC41C96A4F5D12C10D4A480D604262BAB6C320067D4CA0E78489D98A9A77F"
+    },
+    "thumbnails": {
+      "generated": 290,
+      "quality_clean": 290,
+      "failed": 0,
+      "manifest_sha256": "4A90D8E60BC86C57D655F6AB876D9A1144D13ECB5E6FDF46DC68D65FFA7378EC",
+      "quality_sha256": "8AED466C55F9C4557868E8202C64E6B8CF0886193258FBDD28B4A0D53A423B53"
+    },
+    "qmenu_adapter": {
+      "entries": 290,
+      "manifest_sha256": "266F234918407F8511F4EC2216D679701A0DAB34E6622E4CC5ED66B908E720F6"
+    },
+    "weapon_models": {
+      "concrete_model_refs": "71/71",
+      "view_candidates": 48,
+      "world_candidates": 48,
+      "missing_textures": 0
+    },
+    "weapon_sounds": {
+      "previously_unresolved_events": 15,
+      "resolved_definitions": 15,
+      "fully_payload_resolved": 14,
+      "unresolved_after": 0,
+      "manifest_sha256": "41261856AFF2760304C0EDCE1179E8DE654C58D30E9F5354E35440C47B211A3B"
+    },
+    "tool_physgun_assets": {
+      "requested": 36,
+      "resolved": 33,
+      "known_missing": [
+        "models/weapons/v_physics.mdl",
+        "models/weapons/v_physics.vvd",
+        "models/weapons/v_physics.dx90.vtx"
+      ],
+      "manifest_sha256": "6368329C44B37C16B989351FEC14C09E9E8DC7F73134474722E98E7B2973E01E"
+    },
+    "thug2_props": {
+      "targets": 106,
+      "spatial_geometry_candidates": 85,
+      "semantic_gap_identifiers": 14,
+      "unresolved_named_targets": 7,
+      "classification_sha256": "20338FC796C080FF6A0D7B7ED16E1CD245FC23C6285035D7EC16E0772CC1AA26"
+    },
+    "thug2_board": {
+      "motoskateboard_ska_assets": 20,
+      "scale_analysis_sha256": "F5528D17E548B4BBC3D5351F800770FD5AB1A4B77E2DF8B66FB82284658C77CE"
+    },
+    "thug2_ui": {
+      "assets": 49,
+      "missing": 0,
+      "image_previews": "22/22",
+      "manifest_sha256": "BBA25C2BBFFEA48B85070D6EE40867AB5A8DAF7627C9A7041B382BFA2E0E9312"
+    },
+    "input_matrix": {
+      "entries": 22,
+      "source_qb_files": 17,
+      "manifest_sha256": "5A3AD0F84F978E8BAC980D9F0ECCA63CB69DE18BEFD631339FC17269A3E486AD"
+    },
+    "regression_packs": {
+      "count": 8,
+      "manifest_sha256": "B72EADF7D6637F1A56F8A967FA5B800D5E3F86690C3ACAAD4CEF5E03F196DB1F"
+    },
+    "historical_registry": {
+      "artifacts": 63,
+      "known_bad": [
+        "research/patch_v74_advdupe_physgun.py"
+      ],
+      "manifest_sha256": "90EB51BFB7411A331181A0A7F7B419FB8315447B2C081FE05F54BE116C36E3D3"
+    },
+    "release_manifest": {
+      "core_files": 6,
+      "gmod_prop_payload_files": 205,
+      "manifest_sha256": "0CD126920013F0766F80F3579A704C50235D81102659AC2BC765A99E87046377"
+    },
+    "unified_validator": {
+      "status": "pass",
+      "checks": 94,
+      "errors": 0,
+      "report_sha256": "68ABA18984574DB48985953B29402CFA3E216E8439CE7F21554544BC4AA2BBDD"
+    }
+  },
+  "sidecars": {
+    "REM_CombineArmor_Test.esp": {
+      "enabled": false,
+      "static_validation": "pass"
+    },
+    "REM_GModProps_Catalog.esp": {
+      "enabled": false,
+      "records": 120,
+      "static_validation": "pass"
+    },
+    "REM_WeaponPresentation_Fixes.esp": {
+      "enabled": false,
+      "scope": "GMod RPG presentation only",
+      "static_validation": "pass"
+    }
+  },
+  "validation": {
+    "static": "pass",
+    "human_gameplay": "pending",
+    "astra_runtime": "pending",
+    "note": "Support completion does not promote any staged feature to gameplay-verified."
+  }
+}
