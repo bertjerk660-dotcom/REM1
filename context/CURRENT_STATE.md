@@ -45,7 +45,7 @@ An isolated v86 HUD ownership candidate compiles but is not deployed or playtest
 - Support work is separated from Astra runtime/mechanics work; see SUPPORT_WORKFLOW.md and COMBINE_ARMOR_STAGING.md.
 
 ## Support phase 2 — 20-point workflow progress
-- Unified support validator now passes 94 static/preflight checks with zero errors. This is not gameplay validation.
+- Unified support validator now passes 107 static/preflight checks with zero errors. This is not gameplay validation.
 - Final curated content remains 290 ready props: 170 native Fallout existing-form entries + 120 converted GMod/Source entries.
 - Q-menu data adapter now exposes all 290 ready entries with category/search/form-binding metadata for the future real GMod Q-menu port.
 - 290/290 fallback/support prop thumbnails pass the local quality audit.
@@ -62,7 +62,7 @@ An isolated v86 HUD ownership candidate compiles but is not deployed or playtest
 - Installed runtime remains v85 and Astra v88 remains isolated/not installed.
 ## Support completion C — 2026-10-06
 - The 20-point non-Astra support pass is complete to the intended support/human/Astra boundary; see SUPPORT_20_POINT_TRACKER.md.
-- Unified support validator passes 94 checks with zero errors; report SHA256 68ABA18984574DB48985953B29402CFA3E216E8439CE7F21554544BC4AA2BBDD.
+- Unified support validator passes 107 checks with zero errors; report SHA256 68ABA18984574DB48985953B29402CFA3E216E8439CE7F21554544BC4AA2BBDD.
 - All 15 previously unresolved staged Source/GMod named weapon sound events now resolve to original installed sound-script definitions; 14/15 have all payload paths confirmed in mounted VPKs.
 - Tool Gun/Physgun exact visual/model dependency audit covers 36 paths: 33 resolve; the only absent source-declared triplet is models/weapons/v_Physics.{mdl,vvd,dx90.vtx}. No substitute was invented.
 - THUG2 embedded prop classification is complete: 85 spatial geometry candidates, 14 semantic/gap identifiers and 7 unresolved named targets.
