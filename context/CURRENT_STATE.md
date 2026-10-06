@@ -28,3 +28,13 @@ Structural/PyFFI validation passes. Human confirmation of visibility and whether
 
 ## Status
 THUG2 is NOT VERIFIED STABLE until v82 is playtested.
+
+
+## 2026-10-06 support-lane reconciliation
+- GPT-6/Opus implementation package exists under build/handoffs/gpt6_opus/.
+- Physics Gun IDA 6.8 evidence closure is complete for handoff; native FNV implementation/playtest is NOT complete.
+- Physics Gun known presentation gap: models/weapons/v_physics.mdl + VVD + DX90.VTX provenance remains unresolved.
+- THUG2 prop evidence correction: 85 evidence-backed conversion targets are queued; the former 21 not-ready identifiers are semantic/unproven geometry and are not missing standalone models.
+- Master execution queue, dependency graph, regression spec, acceptance gates, sidecar strategy and preflight validator are prepared.
+- Preflight passed locally on 2026-10-06: 85 targets, zero semantic overlap, 16/16 source level GLBs available, both IDA 6.8 Physgun evidence exports present.
+- These preparation results do not change the verified deployed runtime version or establish THUG2/Physgun runtime success.
