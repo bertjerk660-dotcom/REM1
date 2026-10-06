@@ -69,3 +69,14 @@ Treat GMod as a contextual interaction/UI layer over the live Fallout world, not
 The overlay evidence document also records the currently durable inventories (105 Q-menu Lua files, 40 stools, 46 VGUI classes, 29/29 direct UI/material refs, Toolgun/Physgun assets/hooks, curated 290-prop catalog), an implementation-grade evidence checklist, and 12 acceptance tests.
 
 Documentation warning: the readiness audit references ASTRA_GMOD_QMENU.md, ASTRA_TOOLGUN.md and ASTRA_PHYSGUN.md, but those three paths are currently absent from canonical GitHub. Opus must not assume they are durable inputs until recovered/imported or replaced.
+
+
+## THUG2 overlay / free-roam evidence expansion
+A dedicated evidence and acceptance package now defines the skateboard as the singular gateway into the THUG2 gameplay layer:
+- context/HANDOFFS/THUG2_OVERLAY_EVIDENCE_2026-10-06.md
+
+The contract is Fallout baseline -> skateboard equipped in Fallout -> left-click transfers player-facing gameplay ownership to THUG2 -> holster/exit returns ownership to Fallout. While active, THUG2 owns skating movement/physics, camera, controls, board state, animation, tricks, grinding, balance, scoring/combo/SPECIAL, bail/recovery/board-break behavior, audio and HUD/UI, while Fallout continues supplying the physical world.
+
+The evidence package records the durable prepared inputs (17 decompiled THUG2 Q source files, original physics/controller/trick-state evidence, 20 parsed board SKA assets, 49 HUD/input files and 22/22 previews), the verified current positive/negative playtest state, 17 implementation-evidence mapping targets, animation-family gates, UI/input/world-collision/camera/audio contracts and an 18-step acceptance sequence.
+
+Do not interpret the overlay wording as a superficial HUD layer: during skate mode the THUG2 free-roam runtime itself owns player-facing gameplay. Fallout is the host world/runtime underneath it.
