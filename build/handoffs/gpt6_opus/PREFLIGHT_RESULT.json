@@ -1,0 +1,22 @@
+﻿{
+    "generated":  "2026-10-06T13:15:32",
+    "required_missing":  [
+
+                         ],
+    "prop_count":  85,
+    "semantic_overlap":  0,
+    "missing_level_glbs":  [
+
+                           ],
+    "ida68_missing":  [
+
+                      ],
+    "known_physgun_asset_gaps":  [
+                                     "models/weapons/v_physics.mdl",
+                                     "models/weapons/v_physics.vvd",
+                                     "models/weapons/v_physics.dx90.vtx"
+                                 ],
+    "pass":  true
+}
+
+[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
