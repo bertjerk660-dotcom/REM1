@@ -49,3 +49,7 @@ See context/THUG2_INTEGRATION_CHECKPOINT_87.md. Installed v85 and undeployed v86
 
 ## Integration checkpoint 88 — original bitmap HUD candidate
 See context/THUG2_INTEGRATION_CHECKPOINT_88.md. PS2 font blocker resolved using IDA 6.8 loader analysis: 8/8 original fonts decoded, seven tests pass. Isolated v88 original-bitmap HUD candidate compiles; no deployment/playtest. Original sprites/fonts are now integrated into candidate rendering, but QB runtime, combo morph/alignment, gameplay/animation/controller/menu parity remain incomplete. Live v85 hash reverified unchanged; camera/retarget quarantines retained. Checkpoint 87 font-converter limitation describes the old stock converter, superseded by the new custom decoder.
+
+
+## Integration checkpoint 89 — 2026-10-06
+Isolated v89 (parent v88) compiles with skate lifecycle cleanup on preload/main-menu exit and board/retarget cache invalidation. Not deployed or playtested; live v85 unchanged. Audited all 838 exported GLB board roots: 767 animated, 71 static, all parented to control_root. Board animation placement remains unimplemented; current ride board still uses fixed player offset. See context/THUG2_INTEGRATION_CHECKPOINT_89.md for exact evidence, remaining regression gates and concrete hand/skating attachment plan. Full original THUG2 gameplay remains incomplete.
