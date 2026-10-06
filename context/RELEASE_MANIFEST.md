@@ -26,7 +26,7 @@ This is the current staging/install ledger, not a claim that the mashup is relea
 All three remain disabled.
 
 ## Promotion gates
-- Unified support validator must pass with zero errors. Current result: 94 checks / zero errors.
+- Unified support validator must pass with zero errors. Current result: 110 checks / zero errors.
 - Baseline Fallout boot/load/save/load regression.
 - GMod/THUG2 inventory icon/name/drop/pickup/container/trade checks.
 - Representative prop material/scale/collision checks.
