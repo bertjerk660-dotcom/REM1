@@ -42,7 +42,7 @@ This is a requirements/backlog ledger, not proof of implementation.
 
 ## GMod-style prop menu content
 - Do NOT expose the entire 13,003-model Fallout prop candidate archive in the player-facing menu.
-- Use the curated approximately 300-prop set as the intended default Fallout library.
+- Use the compact cross-game ready catalog as the default: currently 290 entries = 170 statically-clean existing-form FNV props + 120 converted GMod/Source props. Keep the final player-facing library near 300–320 as validated THUG2 props are promoted.
 - Prioritize useful environmental objects and skateable geometry: rails, railings, benches, ramps, stairs, ledges, barriers, tables, counters, crates, large boxes and pipes.
 - Include a smaller supporting set of fences, signs, lamps, poles, street clutter, furniture, storage, vending machines, terminals, rocks, trees and plants.
 - Keep the full 13,003-model catalog only as archive/search data so individual curated props can be swapped later.
@@ -93,15 +93,14 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Next test gate: equip on male/female player where applicable, inspect idle/walk/run/crouch/weapon poses, first/third person, dropped world model, NPC equip, save/load and clipping.
 - Do not replace Enclave/Remnants armor records or NPC outfits until that isolated test passes.
 
-## Support lane backlog
-- Reconcile and import project-authored local conversion/validation scripts that are still missing from GitHub.
-- Maintain hashes/provenance for source-game assets without committing proprietary binaries.
-- Finish asset-only Pip-Boy icon and inventory presentation audits.
-- Continue GMod/HL weapon model staging and missing-dependency reports without rewriting weapon mechanics.
-- Continue curated prop-library indexing, collision/scale validation and thumbnail preparation for the eventual real GMod Q menu.
-- Inventory real GMod Q-menu/Tool Gun/Physics Gun script/assets and dependencies for Astra, but leave the native/runtime port and behavior implementation to Astra.
-- Prepare THUG2 UI/font/controller-glyph asset manifests and test data, but leave animation, camera, physics, scoring-runtime and model-rig behavior changes to Astra.
-- Expand repeatable boot/save/load/inventory/asset-reference validation so candidate promotion requires less manual checking.
+## Remaining support gates
+- Run the prepared human baseline/inventory/prop/armor/skateboard playtest packs and attach preflight/postflight evidence.
+- Promote no disabled sidecar until its isolated in-game pack passes.
+- When Astra/Opus changes runtime code, re-run the 94-check support validator and refresh artifact hashes/manifests.
+- Keep proprietary source assets local; continue committing only tooling, mappings, hashes, manifests and handoff knowledge.
+- Treat the 85 THUG2 spatial prop candidates as model-extraction work requiring visual leaf verification before splitting/conversion; do not force the 21 semantic/unresolved identifiers into props.
+- Preserve the recorded missing Source v_Physics view-model triplet as an explicit dependency discrepancy rather than inventing a replacement.
+- Keep the 290-entry catalog compact when THUG2 props are promoted by replacing redundant lower-priority entries.
 
 ### Support phase 2 status
 - Prop catalog data/form bindings/thumbnails/Q-menu adapter are prepared; human representative spawn/collision tests are still required.
