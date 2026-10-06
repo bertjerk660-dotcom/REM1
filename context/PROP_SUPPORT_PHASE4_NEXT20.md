@@ -2,40 +2,41 @@
 
 Purpose: continue useful prop/environment work without touching Astra/Opus-owned THUG2 runtime, animation, camera, real GMod Q-menu runtime or native Tool Gun/Physgun mechanics.
 
-Status legend: COMPLETE = reproducible support work finished; IN PROGRESS = useful evidence exists but more support work remains; HUMAN GATE = requires in-game/visual confirmation; ASTRA GATE = reserved high-risk runtime/model integration.
+Status legend: COMPLETE = reproducible support work finished; COMPLETE PREP = support side is finished but a human/Astra gate remains; HUMAN GATE = requires visual/in-game confirmation; ASTRA GATE = reserved model/runtime integration.
 
-1. Reconcile the prop source of truth from GitHub and local manifests — COMPLETE. Phase 3 remains 290 ready props + 106 THUG2 targets; phase 4 branches from prep/prop-content-phase3.
-2. Protect the active runtime before prop work — COMPLETE. v85, the main ESP and isolated v88 hashes were rechecked; no runtime/Astra code was modified.
-3. Replace the rail-heavy THUG2 top-20 with a diversified first-wave review set — COMPLETE. New quota: 6 rails, 5 ramps, 4 ledges, 2 benches/tables, 2 fences/pipes and 1 stairs/platform target.
-4. Render actual candidate-leaf previews for the diversified THUG2 wave — COMPLETE. 20 review previews generated from converted level GLB leaf geometry.
-5. Score THUG2 leaf isolation/complexity — COMPLETE. 13 high-priority and 7 medium-priority candidates; none are auto-promoted.
-6. Build a practical GMod reserve library — COMPLETE. 80 extra converted/collision-bearing props selected from 797 eligible non-default candidates, balanced 10 per category.
-7. Unify the cross-game prop taxonomy for the real Q-menu adapter — COMPLETE. Current 290 entries and the planned THUG2 first wave map into source-neutral skate/physics/environment/street buckets.
-8. Reserve THUG2 prop form metadata without creating live records — COMPLETE. 20 future REM_THUG2Props_Catalog.esp IDs/EDIDs are reserved only; no ESP records were written.
-9. Build per-candidate THUG2 material provenance — PENDING. Record material slots/texture references from each selected GLB leaf before extraction.
-10. Assign collision strategy per THUG2 candidate — PENDING. Rails/ramps/ledges normally remain static skate obstacles; movable treatment requires explicit evidence and separate testing.
-11. Create standalone extraction packages for the visually confirmed THUG2 leaves — HUMAN GATE. Do not split geometry until the preview is confirmed to match the named source object.
-12. Convert confirmed THUG2 standalone props to FNV NIF — ASTRA/MODEL GATE. Keep original source geometry/material identity and validate scale/collision independently.
-13. Build a category deficit/excess report for the 310-entry target — IN PROGRESS. Taxonomy counts exist; convert them into explicit swap/add targets before promotion.
-14. Map each failed/default prop to a reserve replacement — PENDING. Use the 80-item GMod reserve instead of returning to the full 7,507/13,003-model archives.
-15. Generate final thumbnails for promoted THUG2 props — PENDING. Only after a standalone NIF exists; support previews are not native GMod SpawnIcons.
-16. Expand runtime prop test batches with reserve fallbacks — PENDING. Add one reserve candidate behind every representative default item that fails scale/material/collision tests.
-17. Prepare the THUG2 sidecar schema/build script — IN PROGRESS. Form IDs/EDIDs are reserved; actual sidecar generation waits for validated NIFs.
-18. Run phase-4 static/preflight validation — COMPLETE. 46 checks pass with zero errors; this is not gameplay validation.
-19. Record phase-4 manifests/docs and integrate with release/support metadata — IN PROGRESS. Local phase-4 summary, review packet, reserve pool and promotion ledgers exist; GitHub artifact index/update is next.
-20. Push and verify the prop phase-4 branch — IN PROGRESS. Upload tooling/docs/manifests to prep/prop-content-phase4, verify branch diff, and leave Astra/runtime branches untouched.
+1. **Reconcile prop source truth — COMPLETE.** Phase 4 is based on the verified phase-3 set: 290 ready props (170 FNV + 120 GMod/Source), plus the 106 THUG2 target archive.
+2. **Protect runtime/Astra state — COMPLETE.** Installed v85, main ESP and isolated v88 hashes remain unchanged; no runtime code was modified.
+3. **Diversify the THUG2 first-wave review set — COMPLETE.** 20 candidates: 6 rails, 5 ramps, 4 ledges, 2 benches/tables, 2 fences/pipes and 1 stairs/platform target.
+4. **Render actual THUG2 candidate-leaf previews — COMPLETE.** All 20 diversified candidates have converted-level GLB geometry previews and leaf metrics.
+5. **Score THUG2 leaf isolation/complexity — COMPLETE.** 13 high-priority + 7 medium-priority, 0 complex; none are auto-promoted.
+6. **Build a compact GMod reserve pool — COMPLETE.** 80 reserve props selected from 797 eligible converted/collision-bearing candidates, balanced across 8 useful categories.
+7. **Unify the cross-game prop taxonomy — COMPLETE.** Current 290 + hidden future THUG2 entries map to source-neutral skate/physics/environment/street buckets for the future real GMod Q-menu adapter.
+8. **Reserve future THUG2 form metadata safely — COMPLETE PREP.** 20 future local IDs/EDIDs are reserved; no live ESP records were created.
+9. **Build THUG2 material provenance — COMPLETE.** Material/image references are recorded for all 20/20 diversified leaf candidates.
+10. **Assign collision strategy per THUG2 candidate — COMPLETE PREP.** 16 are planned as static skate obstacles and 4 as static environment props; Physgun mobility is not inferred from level geometry.
+11. **Split visually confirmed THUG2 objects from level geometry — HUMAN GATE.** Preview identity must be confirmed first; no split is considered validated yet.
+12. **Convert confirmed THUG2 standalone objects to FNV NIF — ASTRA/MODEL GATE.** Preserve original geometry/material identity and independently validate scale/collision.
+13. **Build the 310-entry category balance plan — COMPLETE.** Deficits are [('Skate / Ramps & Stairs', 3), ('Skate / Ledges & Barriers', 1), ('Environment / Utility', 2)]; excesses are [('Skate / Benches & Tables', 5)].
+14. **Map every default prop to reserve replacements — COMPLETE.** All 290 ready props have 3 ranked GMod reserve fallbacks.
+15. **Generate final thumbnails for promoted THUG2 standalone props — PENDING BY DESIGN.** This begins only after a validated standalone NIF exists; current leaf previews are review evidence only.
+16. **Expand runtime test batches with reserve fallbacks — COMPLETE PREP.** 56 representative test props in 5 batches now carry two reserve fallbacks each.
+17. **Prepare the THUG2 prop sidecar builder — COMPLETE PREP / SAFELY BLOCKED.** Builder status is blocked_no_validated_candidates with 0 ready / 20 blocked; it refuses to create an ESP until promotion gates pass.
+18. **Run prop phase-4 validation — COMPLETE.** 66 checks pass with zero errors. This is static/preflight evidence, not gameplay validation.
+19. **Integrate prop phase 4 into release/support metadata — COMPLETE.** Release index now tracks 17 support manifests; unified support validator passes 112 checks with zero errors.
+20. **Push and verify the phase-4 GitHub branch — READY FOR FINAL SYNC.** Upload the latest scripts/docs/build manifests to prep/prop-content-phase4, verify the diff against phase 3, then mark this complete.
 
-Current prop numbers:
+## Current prop numbers
 - Ready player-facing catalog: 290.
-- Planned first-wave catalog if all 20 THUG2 candidates eventually pass: 310.
+- Planned first-wave total if all 20 THUG2 candidates eventually pass: 310.
 - GMod reserve: 80 selected from 797 eligible filtered candidates.
-- THUG2 diversified review set: 20 ({'Skate - Rails Handrails': 6, 'Skate - Quarterpipes Halfpipes Ramps': 5, 'Skate - Ledges Hubbas Curbs': 4, 'Street - Benches Tables Chairs': 2, 'Street - Fences Barriers Poles Pipes': 2, 'Skate - Stairs Platforms Misc': 1}).
-- THUG2 leaf review: {'high_review_priority': 13, 'medium_review_priority': 7, 'complex_review': 0}.
+- THUG2 diversified wave: 20 ({'Skate - Rails Handrails': 6, 'Skate - Quarterpipes Halfpipes Ramps': 5, 'Skate - Ledges Hubbas Curbs': 4, 'Street - Benches Tables Chairs': 2, 'Street - Fences Barriers Poles Pipes': 2, 'Skate - Stairs Platforms Misc': 1}).
+- Leaf-review status: {'high_review_priority': 13, 'medium_review_priority': 7, 'complex_review': 0}.
+- Prop phase-4 validator: 66 / zero errors.
+- Unified support validator: 112 / zero errors.
 - Runtime playtest: NOT RUN for phase 4.
 
-Immediate safe work after this checkpoint:
-- Material provenance for the 20 THUG2 leaves.
-- Collision-strategy ledger for the 20 THUG2 leaves.
-- 310-entry category deficit/excess plan.
-- Default-to-reserve fallback mapping.
-- Phase-4 GitHub artifact index and branch verification.
+## Remaining gates that cannot be honestly marked complete here
+- Human visual confirmation that each chosen GLB leaf is the intended THUG2 object.
+- Standalone object splitting and source-faithful model conversion for confirmed THUG2 candidates.
+- In-game prop scale/material/collision/contact/cleanup testing.
+- Real GMod Q-menu runtime and native Tool Gun/Physgun behavior remain Astra-owned.
