@@ -2,7 +2,7 @@ from pathlib import Path
 import json,re,collections
 ROOT=Path(r"C:\Users\BRAD\Documents\------\Engineer Station\FNV_GMOD_THUG2")
 CAT=json.loads((ROOT/"build/prepared/final_prop_catalog_handoff/manifest.json").read_text())
-P3=json.loads((ROOT/"build/prepared/prop_support_phase3/thug2_promotion_queue.json").read_text())
+WAVE=json.loads((ROOT/"build/prepared/prop_support_phase4/thug2_diversified_first_wave.json").read_text())
 OUT=ROOT/"build/prepared/prop_support_phase4"
 OUT.mkdir(parents=True,exist_ok=True)
 
@@ -50,7 +50,7 @@ for i,r in enumerate(CAT["ready_records"],1):
     })
 
 future=[]
-for i,r in enumerate(P3["top20"],1):
+for i,r in enumerate(WAVE["records"],1):
     b=bucket(r["category"],r["identifier"])
     counts[b]+=1
     future.append({
