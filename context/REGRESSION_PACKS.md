@@ -1,167 +1,147 @@
-# Regression Packs
+# Regression Test Packs
 
-## Fallout baseline regression
-Owner: support.
+Run preflight before and postflight after every gameplay test. Static validation is not a substitute for these packs.
 
-Preconditions:
-- No support sidecar enabled unless specifically required
-- Installed runtime hash matches recorded v85 or assigned candidate
+## Baseline Fallout regression
+ID: baseline_fallout
+Astra-owned: False
 
-Steps:
-- Boot to main menu
-- Load known-safe save
-- Move/aim/fire normal Fallout weapon
-- Open/close Pip-Boy
-- Create new save
-- Reload the new save
-- Travel/enter another area if practical
+Steps
+1. Run support_playtest_preflight.ps1 with label baseline_fallout.
+2. Boot Fallout New Vegas to main menu.
+3. Load a disposable known-good save.
+4. Move, aim, attack, open/close Pip-Boy and change normal Fallout equipment.
+5. Create a new test save, return to menu, reload it.
+6. Exit normally and run support_playtest_postflight.ps1.
 
-Pass:
-- No crash
-- Normal Fallout controls remain functional
-- Save/load succeeds
-- No new high-severity plugin/Application errors
+Pass gates
+- No new crash
+- Normal Fallout controls/inventory work
+- Save and reload work
+- No unexpected plugin/DLL/ESP hash change
 
-## GMod weapon inventory/drop/pickup
-Owner: support.
+## GMod/THUG2 inventory presentation
+ID: inventory_presentation
+Astra-owned: False
 
-Preconditions:
-- Main ESP enabled
-- Presentation-fix sidecar only if testing RPG override
+Steps
+1. Run preflight with label inventory_presentation.
+2. Inspect representative GMod weapons and THUG2 Skateboard in Pip-Boy.
+3. Verify names and GMod/THUG2 origin icons.
+4. Drop, inspect world model, pick up, container-transfer and trade representative items.
+5. Exit and capture postflight.
 
-Steps:
-- Inspect GMod weapon name/icon in Pip-Boy
-- Drop weapon
-- Inspect dropped world model/name
-- Pick weapon back up
-- Move to/from container
-- Trade where base game permits
-- Repeat on representative Tool Gun/Physgun/RPG
+Pass gates
+- Correct source-origin icons
+- Representative items drop/pick up normally
+- No invisible world item in tested set
+- No new crash
 
-Pass:
-- Correct origin icon/name
-- No invisible or wildly scaled world model
-- Pickup/container/trade work normally
+## RPG presentation sidecar
+ID: rpg_presentation_fix
+Astra-owned: False
 
-## Skateboard item baseline
-Owner: support+Astra.
+Steps
+1. Enable only REM_WeaponPresentation_Fixes.esp after baseline succeeds.
+2. Run preflight with label rpg_presentation_fix.
+3. Inspect GMod RPG Pip-Boy icon and equipped/dropped world presentation.
+4. Drop and pick up the RPG.
+5. Exit, postflight, then disable the sidecar.
 
-Preconditions:
-- Use exact build assigned for test
+Pass gates
+- GMod origin icon appears
+- Prepared rocket-launcher world model appears
+- Drop/pickup remains functional
+- No new crash
 
-Steps:
-- Inspect THUG2 origin icon/name
-- Equip outside skate mode
-- Verify held board visibility
-- Drop/pickup/container test
-- Activate skate mode only on assigned Astra candidate
-- Exit skate mode
+## Curated GMod prop sidecar
+ID: gmod_prop_catalog
+Astra-owned: False
 
-Pass:
-- Inventory behavior normal
-- Board visible in required states
-- Exit restores Fallout cleanly
+Steps
+1. Enable only REM_GModProps_Catalog.esp after baseline succeeds.
+2. Run preflight with label gmod_prop_catalog.
+3. Spawn a small sample from every prepared category, not all records at once.
+4. Inspect scale, materials, collision and stability on approach/contact.
+5. For authored movable examples, check ordinary physical response.
+6. Exit, capture postflight, disable sidecar.
 
-Note: Physics/animation/tricks/camera fidelity is Astra-owned and needs a separate deep pack.
+Pass gates
+- Sample records resolve
+- Textures/materials display
+- Collision is present
+- Scale is plausible
+- No crash on spawn/contact
 
-## Curated prop representative sample
-Owner: support.
+## Combine Soldier armor sidecar
+ID: combine_armor
+Astra-owned: False
 
-Preconditions:
-- Enable only REM_GModProps_Catalog.esp for custom GMod sidecar portion
+Steps
+1. Enable only REM_CombineArmor_Test.esp after baseline succeeds.
+2. Run preflight with label combine_armor.
+3. Equip on player; inspect front/back/side in idle, walk, run, crouch and jump.
+4. Check common weapon poses, first person and third person.
+5. Drop armor and inspect world model.
+6. Equip on one test NPC.
+7. Save with armor equipped, reload, then unequip.
+8. Exit, postflight, disable sidecar.
 
-Steps:
-- Spawn one rail/fence
-- Spawn one bench/table
-- Spawn one plank/beam
-- Spawn one crate/pallet
-- Spawn one barrel/canister
-- Spawn one street prop
-- Spawn one furniture prop
-- Spawn one playground/misc prop
-- Approach/touch each
-- Check texture/scale/collision
-- Manipulate only where mobility is intended
-
-Pass:
-- No crash
-- Texture resolves
-- Plausible scale
-- Collision is usable
-- No unexpected map-sized geometry
-
-## Combine Soldier armor isolated test
-Owner: support.
-
-Preconditions:
-- Enable only REM_CombineArmor_Test.esp
-- Use disposable save
-
-Steps:
-- Add/equip test armor
-- Inspect idle/walk/run/crouch/jump
-- Inspect common weapon poses
-- Inspect first person
-- Inspect third person
-- Drop and inspect world model
-- Equip on NPC
-- Save with armor equipped
-- Reload
-- Unequip
-
-Pass:
-- No catastrophic clipping/deformation
-- No slot/body disappearance issue
-- World model visible
+Pass gates
+- No severe clipping/body disappearance
+- World model works
 - NPC equip works
 - Save/load persists
+- Unequip restores normal body
 
-Note: Do not replace Enclave/Remnants visuals until this passes.
+## Skateboard non-runtime presentation baseline
+ID: skateboard_baseline
+Astra-owned: False
 
-## Real GMod Q-menu integration
-Owner: Astra.
+Steps
+1. Run preflight with label skateboard_baseline.
+2. Equip THUG2 Skateboard without entering skate mode.
+3. Inspect held/world visibility, origin icon, drop and pickup.
+4. Do not use this pack to claim skate-mode mechanics correctness.
+5. Exit and capture postflight.
 
-Preconditions:
-- Astra source-faithful Q-menu candidate installed intentionally
+Pass gates
+- Board is visible in tested inventory/world states
+- Drop/pickup works
+- Normal Fallout remains functional before skate-mode activation
 
-Steps:
-- Press Q
-- Browse categories
-- Search
-- Spawn representative prop
-- Select Remover
-- Use Tool Gun
-- Select Duplicator
-- Use Tool Gun
-- Close/reopen Q
-- Confirm selected tool state
-- Return to Fallout input
+## Astra skate activation gate
+ID: astra_skate_activation
+Astra-owned: True
 
-Pass:
-- No flashing/missing icons
-- Real/ported GMod UI behavior
-- Tool selection controlled by Q
-- No Fallout prompt substitute
-- Input restores cleanly
+Steps
+1. Run only on the explicitly assigned Astra build/branch.
+2. Capture preflight and exact DLL/ESP hashes.
+3. Enter skate mode, remain active beyond retarget delay, move/turn/jump, then exit.
+4. Capture plugin log and Windows events immediately after.
+5. Repeat enter/exit at least three times only after first pass survives.
 
-## Release candidate smoke pack
-Owner: joint.
+Pass gates
+- No activation crash
+- No delayed retarget crash
+- Exit restores Fallout
+- Repeated transition survives
 
-Preconditions:
-- Static validator zero errors
-- Exact release hashes recorded
+## Astra GMod runtime gate
+ID: astra_qmenu_tool_physgun
+Astra-owned: True
 
-Steps:
-- Run baseline_fnv
-- Run inventory_gmod
-- Run skateboard_item
-- Run prop_sample
-- Run combine_armor if included
-- Run Astra skate deep pack
-- Run qmenu_future
-- Save/load after using imported systems
+Steps
+1. Run only after real GMod Q-menu compatibility runtime is integrated.
+2. Open Q, browse/search curated catalog, select Remover/Duplicator.
+3. Confirm selected Q-menu tool drives Tool Gun with no Fallout selection prompts.
+4. Check GMod notification feedback.
+5. Test Physgun target/hold/rotate/freeze/drop/launch behavior against source semantics.
+6. Exit Q and verify normal Fallout input restores.
 
-Pass:
-- All included packs pass
-- No new high-severity errors
-- No progression/save regression
+Pass gates
+- Real Q-menu flow works
+- No Fallout tool-selection prompts
+- Tool Gun follows selected tool
+- Physgun core behavior stable
+- Input restores
