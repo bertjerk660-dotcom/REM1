@@ -36,3 +36,16 @@ Durable rule: active skate mode must suppress the Fallout HUD and replace fallba
 ## F009 - Physics Gun range/audio/actor target regressions
 Human playtest on 2026-10-06 reports three linked Physics Gun problems: acquisition/manipulation range is extremely short, the wrong sound plays while a target is held instead of the correct continuous beam/hold loop, and final actor grab/lock applies the unconscious effect to the player rather than the acquired target.
 Durable rule: derive range and held-state audio from the preserved GMod/Source behavior; keep the active acquired target reference distinct from PlayerCharacter; apply actor ragdoll/unconscious handling only to the acquired target; add regression checks for range, loop start/stop, release, and target identity.
+
+
+## F010 - Grind activation ignores valid surfaces
+Human playtest reports that pressing G can trigger grinding anywhere.
+Durable rule: grind entry must require the recovered THUG2 grind eligibility logic, including appropriate geometry/contact/state checks. A key press alone must never create a grind state.
+
+## F011 - THUG2 animation/board-to-feet path not functioning
+Skate mode can now be entered with left-click and exited with the holster key, but the board does not move into the correct skating position at the feet and the tested THUG2 animation set does not function.
+Durable rule: do not equate successful mode switching with successful THUG2 runtime integration. Preserve working enter/exit transitions while repairing source-faithful board attachment, animation selection, retargeting, blending and state transitions.
+
+## F012 - Current GMod prop menu is a placeholder
+Human playtest reports the current GMod-style prop menu appears visually correct.
+Durable rule: this is explicitly a placeholder and is not evidence that the real GMod Q menu has been ported. Final acceptance still requires the source-faithful GMod Q/spawn-menu implementation, tool-state bridge and associated behavior.
