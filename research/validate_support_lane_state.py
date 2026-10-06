@@ -167,6 +167,123 @@ if ui_full:
        ui_full.get("image_conversions_success")==22,
        ui_full.get("image_conversions_success"))
 
+
+thumbq=load("build/prepared/final_prop_catalog_thumbnails/quality_audit.json")
+if thumbq:
+    ck("prop_thumbnail_quality_290_clean",
+       thumbq.get("count")==290 and thumbq.get("clean")==290 and thumbq.get("flagged")==0,
+       {k:thumbq.get(k) for k in ("count","clean","flagged","flag_counts")})
+
+qadapter=load("build/prepared/qmenu_content_adapter/manifest.json")
+if qadapter:
+    ck("qmenu_content_adapter_290",
+       qadapter.get("entry_count")==290,
+       {"entry_count":qadapter.get("entry_count"),"categories":len(qadapter.get("categories",[]))})
+
+sounds=load("build/prepared/gmod_weapon_runtime_candidates/weapon_sound_handoff.json")
+if sounds:
+    ck("weapon_sound_handoff_resolved",
+       sounds.get("weapon_count")==49 and sounds.get("unresolved_count")==0,
+       {"weapon_count":sounds.get("weapon_count"),"unresolved":sounds.get("unresolved")})
+
+sounddefs=load("build/prepared/gmod_weapon_runtime_candidates/resolved_sound_events/summary.json")
+if sounddefs:
+    ck("source_named_sound_definitions_resolved",
+       sounddefs.get("input_events")==15 and sounddefs.get("resolved_definitions")==15 and not sounddefs.get("unresolved_after"),
+       sounddefs)
+
+toolphys=load("build/prepared/gmod_tool_physgun_assets/manifest.json")
+if toolphys:
+    missing=toolphys.get("missing_assets",[])
+    ck("tool_physgun_assets_expected_coverage",
+       toolphys.get("asset_count")==28 and toolphys.get("asset_resolved_count")==27 and missing==["models/weapons/v_physics.mdl"],
+       {"resolved":toolphys.get("asset_resolved_count"),"missing":missing})
+    ck("tool_physgun_sound_events",
+       all(bool(x.get("definitions")) for x in toolphys.get("sound_events",[])),
+       [{"event":x.get("event"),"defs":len(x.get("definitions",[]))} for x in toolphys.get("sound_events",[])])
+
+ctrl=load("build/prepared/thug2_controller_map/manifest.json")
+if ctrl:
+    ck("thug2_controller_source_map",
+       len(ctrl.get("decompiled_source_files",[]))>=8 and bool(ctrl.get("trigger_usage")),
+       {"files":len(ctrl.get("decompiled_source_files",[])),"usage_files":len(ctrl.get("trigger_usage",{}))})
+
+spatial=load("build/prepared/thug2_prop_catalog/spatial_prop_candidates/mapping.json")
+if spatial:
+    ck("thug2_spatial_target_mapping_inventory",
+       spatial.get("targets")==106 and spatial.get("mapped",0)>0,
+       {"targets":spatial.get("targets"),"mapped":spatial.get("mapped"),"no_position":spatial.get("no_position")})
+
+components=load("build/prepared/thug2_prop_catalog/component_evidence.json")
+if components:
+    ck("thug2_component_evidence_inventory",
+       components.get("target_count")==106 and components.get("with_component_evidence",0)>0,
+       {k:components.get(k) for k in ("target_count","with_component_evidence","with_position_evidence")})
+
+sidecars=load("build/prepared/support_sidecars/manifest.json")
+if sidecars:
+    ck("support_sidecars_all_disabled",
+       sidecars.get("all_disabled") is True and len(sidecars.get("sidecars",[]))==3,
+       [{"name":x.get("name"),"enabled":x.get("enabled")} for x in sidecars.get("sidecars",[])])
+
+modelaudit=load("build/prepared/gmod_weapon_runtime_candidates/model_presentation_audit.json")
+if modelaudit:
+    unexpected=[]
+    allowed={
+      ("gmod_camera","view","missing_candidate"),
+      ("weapon_fists","view","no_geometry"),
+      ("weapon_fists","view","no_shapes"),
+      ("weapon_fists","world","missing_candidate"),
+    }
+    for r in modelaudit.get("records",[]):
+        for role in ("view","world"):
+            for f in r.get(role,{}).get("flags",[]):
+                if (r.get("class"),role,f) not in allowed:
+                    unexpected.append({"class":r.get("class"),"role":role,"flag":f})
+    ck("weapon_model_presentation_no_unexpected_flags",
+       modelaudit.get("weapon_count")==49 and not unexpected,
+       {"unexpected":unexpected,"flag_counts":modelaudit.get("flag_counts")})
+
+boardscale=load("build/prepared/thug2_skateboard_asset_handoff/scale_attachment_analysis.json")
+if boardscale:
+    ck("skateboard_scale_attachment_evidence",
+       len(boardscale.get("comparisons",[]))==4,
+       {"source_glb_dimensions":boardscale.get("source_glb_dimensions"),"comparisons":len(boardscale.get("comparisons",[]))})
+
+
+release=load("build/prepared/release_install_manifest.json")
+if release:
+    ck("release_manifest_no_required_gaps",
+       not release.get("summary",{}).get("missing_required"),
+       release.get("summary"))
+
+reg=load("build/prepared/regression_packs.json")
+if reg:
+    ids={x.get("id") for x in reg.get("packs",[])}
+    expected={"baseline_fnv","inventory_gmod","skateboard_item","prop_sample","combine_armor","qmenu_future","release_smoke"}
+    ck("regression_pack_coverage",
+       expected.issubset(ids),
+       sorted(ids))
+
+qa_matrix=load("build/prepared/weapon_inventory_qa_matrix.json")
+if qa_matrix:
+    ck("weapon_inventory_qa_matrix",
+       qa_matrix.get("gmod_weapons")==49 and not qa_matrix.get("skateboard",{}).get("static_issues"),
+       {"gmod_weapons":qa_matrix.get("gmod_weapons"),"static_clean":qa_matrix.get("static_clean_gmod"),
+        "skateboard_issues":qa_matrix.get("skateboard",{}).get("static_issues")})
+
+versioned=load("build/prepared/versioned_artifact_inventory.json")
+if versioned:
+    ck("versioned_artifact_inventory",
+       versioned.get("artifact_count",0)>0 and versioned.get("classification_counts",{}).get("known_bad",0)>0,
+       {"artifact_count":versioned.get("artifact_count"),"classification_counts":versioned.get("classification_counts")})
+
+tracker_path=ROOT/"context/SUPPORT_20_POINT_TRACKER.md"
+ck("support_20_point_tracker_exists",tracker_path.exists(),str(tracker_path))
+handoff_dir=ROOT/"context/HANDOFFS"
+handoffs=list(handoff_dir.glob("ASTRA_*.md")) if handoff_dir.exists() else []
+ck("astra_handoff_packets_8",len(handoffs)==8,[x.name for x in handoffs])
+
 errors=[x for x in checks if x["severity"]=="error" and not x["pass"]]
 result={
     "purpose":"Unified support-lane static/preflight validator. It must not be interpreted as gameplay validation.",
