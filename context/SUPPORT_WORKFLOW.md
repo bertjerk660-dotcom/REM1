@@ -40,11 +40,20 @@ The support lane should keep the project moving through lower-risk but time-cons
 5. Static validation is not a playtest. A staged feature stays staged until human gameplay checks pass.
 6. When a support task uncovers a mechanics/ABI/rig problem, record evidence and hand it to Astra rather than applying speculative runtime patches.
 
+## Current support checkpoint
+- Combine Soldier armor staging and its isolated test gate are prepared.
+- Pip-Boy origin-icon tooling is preserved.
+- GMod/HL concrete weapon-model staging has 100% model-reference coverage.
+- The curated FNV pool has a 278-item static-clean shortlist.
+- The curated GMod/Source pool contains 120 conversion/collision/material-clean candidates.
+- The real GMod Q-menu/Tool Gun/notification dependency stack is inventoried and hashed for Astra.
+- THUG2 has 106 named embedded-prop extraction targets, not yet standalone props.
+- The compact ready-content handoff currently contains 290 candidates: 170 FNV + 120 GMod/Source.
+
 ## Near-term support sequence
-1. Finish Combine Soldier armor staging and prepare its isolated playtest gate.
-2. Preserve the Pip-Boy origin-icon pipeline and verify all assigned weapon records.
-3. Import remaining project-authored conversion/validation tooling into GitHub.
-4. Continue GMod/HL weapon and curated prop staging plus dependency/collision reports.
-5. Prepare GMod Q-menu source inventories/dependency graphs for Astra without implementing the runtime port.
-6. Expand automated asset/reference/build/regression checks.
-7. Keep CURRENT_STATE, OPEN_WORK, manifests and failure knowledge synchronized after each support iteration.
+1. Audit existing ESP/base-form coverage for the 290 ready prop candidates so duplicate forms are not created.
+2. Audit thumbnail/icon coverage and prepare missing thumbnails as data assets only.
+3. Build a disabled sidecar catalog only for genuinely missing custom/GMod prop forms.
+4. Expand asset/reference/sidecar validators and promotion checklists.
+5. Continue importing reusable project-authored support tooling and manifests into GitHub.
+6. Keep the Astra handoff current without editing/deploying its runtime candidate.
