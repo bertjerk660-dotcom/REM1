@@ -37,3 +37,15 @@ Step 2 is in progress. Existing support work is not repeated: the 290-entry prop
 
 ## Safety / concurrency
 Before any runtime modification, re-check hashes and mtimes because another engineering session may be changing v88/v89 work. This lane does not deploy runtime DLL/ESP changes unless explicitly promoted after validation.
+
+## Focused preservation progress — 2026-10-06
+- Step 2: first-pass subsystem classification complete; semantic evidence classes defined.
+- Step 3: authoritative tooling, source-derived evidence, generated handoffs, runtime experiments, proprietary payloads and superseded/conflicting artifacts are now explicitly distinguished.
+- Step 4: dependency policy recorded; IDA 6.8 and source-payload provenance rules are explicit. Per-script dependency enumeration remains in progress.
+- Step 5: IDA 6.8 automation preservation contract recorded independently of IDB files.
+- Step 6: THUG2 skate string/xref evidence and native-address caveats recorded; executable hash/signature enrichment remains required.
+- Step 7: THUG2 animation/converter/bone-map provenance recorded; conflicting older bone map quarantined pending regeneration.
+- Steps 10-13: GMod Q-menu, Tool Gun and Physgun source/native boundaries and host callback contracts recorded.
+- Step 17: runtime ownership matrix recorded for Fallout, skate transitions/skate mode, Q menu, Tool Gun and Physgun.
+- No runtime DLL/ESP was modified or deployed by this preservation pass.
+
