@@ -95,4 +95,4 @@ An isolated v86 HUD ownership candidate compiles but is not deployed or playtest
 - An 80-item GMod/Source reserve pool was selected from 797 eligible converted/collision-bearing non-default props, balanced across 8 practical categories.
 - Source-neutral menu taxonomy metadata now covers current ready props plus hidden future THUG2 entries.
 - Twenty future THUG2 form IDs/EDIDs are reserved as metadata only; no new THUG2 prop ESP records were created.
-- Dedicated phase-4 validator passes 46 checks with zero errors. Runtime/visual playability validation remains pending.
+- Dedicated phase-4 validator passes 66 checks with zero errors. Runtime/visual playability validation remains pending.
