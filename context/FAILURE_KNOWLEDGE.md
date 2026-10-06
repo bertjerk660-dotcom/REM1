@@ -47,3 +47,23 @@ Rule: before attributing any gameplay result to a build, require a fresh process
 ## FS002 - Parallel support generators can leave stale duplicate manifests
 Observed 2026-10-06 while reconciling the support lane. Parallel work produced smaller duplicate artifacts beside richer canonical outputs: a 28/27 Tool Gun/Physgun inventory beside the canonical 36/33 handoff, a 7-pack regression file beside the canonical 8-pack set, and a 41-item version inventory beside the canonical 63-item historical registry. A stale local 20-point tracker also lagged the GitHub support branch.
 Durable rule: before updating support docs or validators, compare local and GitHub support state and prefer the explicitly canonical artifacts named by context/SUPPORT_20_POINT_TRACKER.md. Preserve superseded evidence, but do not overwrite a richer/newer manifest with a smaller duplicate merely because the duplicate was generated later.
+
+
+## F011 - THUG2 IDA analysis exists only in a running session
+Evidence (2026-10-06): idaq.exe PID 23616 (IDA 6.8, started 01:43, -A -c) is analysing DUMPS\thug2\SLES_526.21 into research\thug2_ida\THUG2_PS2_68.idb. No packed THUG2_PS2_68.idb exists on disk; id0/id1/nam are locked. The only packed THUG2 database found is the older THUG2_skate_batch.idb.
+Durable rule: never let an IDA database be the sole holder of reverse-engineering knowledge (PIPELINE.md). Before relying on or closing a session, save/pack the IDB, record its SHA256, and export function names, comments, types and structs to text with an IDA 6.8 script. Do not terminate a running IDA process to get a hash.
+Status: open. Owner must save/close IDA when idle, then hash and back up the .idb.
+
+## F012 - Address-only xref exports lose function identity
+Evidence: research\thug2_ida\skate_xrefs.txt has 14/14 XREF rows with blank FUNC/NAME. research\thug2_mips_xrefs.txt reports REFS=0 for every target. research\fnv_grab_xrefs.txt has 2/2 blank. The richer C:\IDA68WORK\thug2_skate_table68.txt resolves some name/handler pairs (e.g. GetSkaterVelocity -> sub_27DC08) but shows only name-pointer runs with no adjacent handler for SkaterPhysicsControl_SwitchSkatingToWalking / SwitchWalkingToSkating, DoBalanceTrick and DoNextManualTrick. Name-to-handler mapping for those is unresolved in every export read. Hypothesis (unverified): a separate handler array.
+Durable rule: an xref/table export is not accepted as evidence unless function start, name, segment and handler pointer are populated; add a validation check that fails on blank FUNC rows or REFS=0 for gameplay-critical targets.
+Status: open. Needs an IDA 6.8 re-export and handler-table resolution.
+
+## F013 - Evidence and dependency trees outside the workspace and inventory
+Evidence: C:\IDA68WORK holds 50 scripts, 45 analysis outputs, 5 packed IDBs (including GMODCLIENT/GMODSERVER physgun analysis) and 3 binaries; none of it appears in the 247-row code_preservation inventory, and 102/103 top-level files are absent from research\ by name. Workspace scripts hard-code C:\IDA68WORK, DUMPS\thug2, Steam steamapps and IDA install paths.
+Durable rule: any script or output reachable through a hard-coded external root must be inventoried with hash and provenance; scripts should read roots from one paths config. Derived unpack trees (thug2_datap_unpack, thug2_streams_unpack) are recorded by generating command, not archived.
+Status: open. See OPEN_WORK.md preservation items.
+
+## FS003 - Derived prop manifests can drift from the selected review wave
+Observed 2026-10-06 during prop support phase 4. The diversified THUG2 first-wave selection was generated correctly, but the initial taxonomy/review packet still consumed the older score-only top-20 source. This could have produced valid-looking counts while referring to the wrong prop identities.
+Durable rule: whenever a prop selection is replaced or diversified, validate candidate identity across the selection, geometry-review packet, menu taxonomy, form reservations and promotion ledger. Compare set membership where ordering is not semantically meaningful, and do not rely on matching counts alone.
