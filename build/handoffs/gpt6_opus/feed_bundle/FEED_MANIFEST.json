@@ -1,0 +1,104 @@
+{
+  "schema": "rem.opus_feed_bundle.v1",
+  "generated": "2026-10-06T18:59:12.914303+00:00",
+  "mode": "PREPARATION_ONLY",
+  "ready_for_opus_visual_work": true,
+  "source_hash": "CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5",
+  "generated_files": [
+    {
+      "path": "build/handoffs/gpt6_opus/feed_bundle/OPUS_VISUAL_QUEUE.json",
+      "exists": true,
+      "bytes": 5908,
+      "sha256": "08CE9221748341AEB48CACE214E581C0B56146D3BD5D18610FE50E90FA494346"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/feed_bundle/CODE_CONTEXT.md",
+      "exists": true,
+      "bytes": 41679,
+      "sha256": "10802084A3CC9A409F94E412822D806B3A2A670FE35D3AE75049A3D3D5AC4B24"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/feed_bundle/ASSET_REFERENCE_INDEX.json",
+      "exists": true,
+      "bytes": 72286,
+      "sha256": "B7842FBDFEEEE5A19C0C4FDCD91E5A2E5620205E919AE2A87E5C1715A5C2C850"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/feed_bundle/OPUS_START_PROMPT.md",
+      "exists": true,
+      "bytes": 1990,
+      "sha256": "FB8D63AE12792F9B65C6DB4BD779F1B4C401D8AE0108E6555241FAACC489710B"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/feed_bundle/HANDOFF_INDEX.json",
+      "exists": true,
+      "bytes": 2806,
+      "sha256": "0B86A108FF137EF517283A153AC21C4D569AFEA015B827BF25D9B120F68E5715"
+    }
+  ],
+  "primary_inputs": [
+    {
+      "path": "third_party/NVSE-6.4.9/fnv_gmod_thug2_plugin/main.cpp",
+      "exists": true,
+      "bytes": 235430,
+      "sha256": "CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/RUNTIME_INTEGRATION_MAP.json",
+      "exists": true,
+      "bytes": 8919,
+      "sha256": "939BCF8AB6112545986C8D89161D3028829F25E948CCEA2EF4E36205780DD586"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/EXECUTION_SEQUENCE.md",
+      "exists": true,
+      "bytes": 3061,
+      "sha256": "8467DB2C047DDE8F8BFDB16FD676A9466A92C77D4D10DDF0B811EDE9916504BE"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/GOLDEN_BENCH_IMPLEMENTATION_HANDOFF.md",
+      "exists": true,
+      "bytes": 3563,
+      "sha256": "6F91873EA09ECCB4D0C74516849A0FE984785C7288E111185F12165C4F8D5E69"
+    },
+    {
+      "path": "build/prepared/pre_opus_20261006/summary.json",
+      "exists": true,
+      "bytes": 892,
+      "sha256": "0F36790D3EE680253B2E16EF45C79F7C2AF57A19B2874B94191CD66797736B2C"
+    },
+    {
+      "path": "build/prepared/pre_opus_20261006/bench_source_packet.json",
+      "exists": true,
+      "bytes": 26726,
+      "sha256": "27F4A45280FD0152489AFCD3EBAE6477BA35A886CAFF6A3198CB49641DEF5CEE"
+    },
+    {
+      "path": "build/prepared/gmod_hl_weapon_models/manifest.json",
+      "exists": true,
+      "bytes": 662208,
+      "sha256": "3DBC9FDC0B43BF5BBA65D2C41F8F9A9725B5B4B2BE54DCED796973B468CB2ACD"
+    },
+    {
+      "path": "build/prepared/thug2_skateboard_asset_handoff/manifest.json",
+      "exists": true,
+      "bytes": 20043,
+      "sha256": "5ED16EA52A6C5C14C475BDBE3335FF71474CAAF5D846022FFC4184307387E7C5"
+    },
+    {
+      "path": "build/prepared/pre_opus_20261006/thug2_evidence_index.json",
+      "exists": true,
+      "bytes": 39893,
+      "sha256": "A205786383C2333F3CA6E1C467554598F157FB9B2B653B051155E4C676679D16"
+    },
+    {
+      "path": "build/prepared/pre_opus_20261006/thug2_prop_evidence_index.json",
+      "exists": true,
+      "bytes": 76416,
+      "sha256": "2E1BE39697BBBFB2F5E287BAE5D3FEEB6F1C5819C027C51F7245EA7293AD1431"
+    }
+  ],
+  "proprietary_assets_embedded": false,
+  "first_task": "O01",
+  "deep_runtime_reserved_for_astra": true
+}
