@@ -1,0 +1,143 @@
+--- v85/main.cpp
++++ input92/main.cpp
+@@ -683,7 +683,8 @@
+ static TESObjectREFR* g_skateboardRideRef = nullptr;
+ static TESForm* g_skateboardRidePendingForm = nullptr;
+ static DWORD g_skateboardRidePendingTick = 0;
+-static bool g_skateboardAttackWasDown = false;
++#include "skate_activation_gate92.h"
++static SkateActivationGate92 g_skateActivation;
+ static bool g_skateboardFightSuppressed = false;
+ static bool g_skateboardFightWasDisabledBeforeSuppress = false;
+ static const char* kSkateboardName = "THUG2 Skateboard";
+@@ -6265,11 +6266,17 @@
+     // Never run gameplay/script-command logic on the title screen or during save transitions.
+     // RunScriptLine2 depends on ConsoleManager::scriptContext, which is not valid until gameplay is loaded.
+     if (!g_gameplayReady)
+-        return;
++    {
++        g_skateActivation.Suspend();
++        return;
++    }
+ 
+     PlayerCharacter* player = PlayerCharacter::GetSingleton();
+     if (!player || !player->parentCell)
+-        return;
++    {
++        g_skateActivation.Suspend();
++        return;
++    }
+ 
+     // Runtime form creation must not run on the first NewGame/PostLoadGame frames.
+     // A loaded cell can exist before ConsoleManager::scriptContext is ready; calling
+@@ -6304,7 +6311,11 @@
+         }
+     }
+ 
+-    if (!GameHasFocus()) return;
++    if (!GameHasFocus())
++    {
++        g_skateActivation.Suspend();
++        return;
++    }
+ 
+     // Garry's Mod spawn menu convention: Q opens/closes the spawn browser.
+     // F2 remains available as a fallback while the full visual menu is being built.
+@@ -6317,6 +6328,7 @@
+ 
+     if (g_buildMenu.open)
+     {
++        g_skateActivation.Suspend();
+         UpdateBuildMenuControls();
+         UpdatePendingSpawn();
+         UpdateAutoTest();
+@@ -6327,6 +6339,7 @@
+     UpdateGModVehicle();
+     if (g_vehicle.active)
+     {
++        g_skateActivation.Suspend();
+         UpdatePendingSpawn();
+         UpdatePhysBeamOverlay();
+         return;
+@@ -6342,14 +6355,19 @@
+ 
+     // Holding/equipping the skateboard is ordinary New Vegas gameplay.
+     // Only the first attack press with this exact weapon deploys skate mode.
+-    if (!g_skate.active && skateboardEquipped && attackDown && !g_skateboardAttackWasDown)
++    const bool activationRequested = g_skateActivation.Sample(
++        runtimeFormContextReady && !g_skate.active && skateboardEquipped,
++        attackDown);
++    if (activationRequested)
++    {
++        _MESSAGE("[THUG2] activation accepted after eligible release (input92)");
+         EnterSkateMode();
++    }
+ 
+     // Switching away from the skateboard or pressing R explicitly restores FNV gameplay.
+     if (g_skate.active && (!skateboardEquipped || (GetAsyncKeyState('R') & 1)))
+         ExitSkateMode();
+ 
+-    g_skateboardAttackWasDown = attackDown;
+ 
+     // THUG2 mode is a dedicated gameplay state. While active, do not process
+     // GMod tools, vehicle controls, or ordinary merged-game interaction paths.
+@@ -6762,9 +6780,24 @@
+ {
+     if (!msg) return;
+ 
++    // Input-only invalidation: no script, scene, animation or teardown calls here.
++    // Full active-mode cleanup remains a separate Phase 1 candidate.
+     switch (msg->type)
+     {
++    case NVSEMessagingInterface::kMessage_PreLoadGame:
++    case NVSEMessagingInterface::kMessage_ExitToMainMenu:
++    case NVSEMessagingInterface::kMessage_ExitGame:
++    case NVSEMessagingInterface::kMessage_ExitGame_Console:
++        g_skateActivation.WorldUnavailable();
++        break;
++    default:
++        break;
++    }
++
++    switch (msg->type)
++    {
+     case NVSEMessagingInterface::kMessage_PostLoad:
++        g_skateActivation.WorldUnavailable();
+         g_gameplayReady = false;
+         _MESSAGE("FNVGModTHUG2: PostLoad");
+         g_autoTestEnabled = (GetFileAttributesA(kAutoTestFlag) != INVALID_FILE_ATTRIBUTES);
+@@ -6789,7 +6822,7 @@
+         g_skate = SkateState{};
+         g_skateboardWeapon = nullptr;
+         g_skateboardWorldStatic = nullptr;
+-        g_skateboardAttackWasDown = false;
++        g_skateActivation.WorldAvailable();
+         g_skateboardFightSuppressed = false;
+         g_skateboardFightWasDisabledBeforeSuppress = false;
+         g_gmodRuntimeWeapons.clear();
+@@ -6861,7 +6894,7 @@
+         g_skate = SkateState{};
+         g_skateboardWeapon = nullptr;
+         g_skateboardWorldStatic = nullptr;
+-        g_skateboardAttackWasDown = false;
++        g_skateActivation.WorldAvailable();
+         g_skateboardFightSuppressed = false;
+         g_skateboardFightWasDisabledBeforeSuppress = false;
+         g_gmodRuntimeWeapons.clear();
+@@ -6957,7 +6990,7 @@
+ {
+     info->infoVersion = PluginInfo::kInfoVersion;
+     info->name = "FNVGModTHUG2";
+-    info->version = 85;
++    info->version = 92;
+ 
+     if (!nvse || nvse->isEditor) return false;
+     if (nvse->runtimeVersion < RUNTIME_VERSION_1_4_0_525) return false;
+@@ -6987,6 +7020,6 @@
+     nvse->RegisterCommand(&kCommandInfo_gmod_undospawn);
+     nvse->RegisterCommand(&kCommandInfo_gmod_cleanup);
+ 
+-    _MESSAGE("FNVGModTHUG2 bridge loaded, version 85");
++    _MESSAGE("FNVGModTHUG2 bridge loaded, version 92 (astra-input92; parent v85)");
+     return true;
+ }
