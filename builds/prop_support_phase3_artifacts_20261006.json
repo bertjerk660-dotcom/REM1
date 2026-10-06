@@ -1,0 +1,155 @@
+{
+  "purpose": "GitHub-safe artifact index for prop support phase 3. Proprietary meshes/textures are represented only by derived metadata, paths and hashes.",
+  "artifact_count": 17,
+  "all_present": true,
+  "artifacts": [
+    {
+      "path": "build/prepared/prop_support_phase3/summary.json",
+      "exists": true,
+      "bytes": 654,
+      "sha256": "93A1E0B2AEEF93EF80160FFF55FC6F93ABA75C005E59DFE31E41279A6E61F888",
+      "summary": {
+        "ready_props": 290,
+        "redundancy_groups": 1,
+        "representative_test_props": 56,
+        "test_batches": 5
+      }
+    },
+    {
+      "path": "build/prepared/prop_support_phase3/catalog_quality_ledger.json",
+      "exists": true,
+      "bytes": 344663,
+      "sha256": "EA3CFB2779942937DAC1A7E3D9639B80ACEC6D8D0ED30A1EB62687C916D45971",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/prop_support_phase3/redundancy_audit.json",
+      "exists": true,
+      "bytes": 1117,
+      "sha256": "60ACFA8EFEEF605599484C63FA9290B2D62223BCD31AA8BF927D6CB4AFD3EDA7",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/prop_support_phase3/category_balance.json",
+      "exists": true,
+      "bytes": 3401,
+      "sha256": "512F3DBA07C15CC89D230860A015F05C67A120EB3052CABDC4EB83BB51B20D9B",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/prop_support_phase3/gmod_prop_dependency_audit.json",
+      "exists": true,
+      "bytes": 121572,
+      "sha256": "B1F8B13AB37FA3BC47ABA5FCFCB110E44DFAE9AC3829AE76FB88F550EEEAB8F9",
+      "summary": {
+        "prop_count": 120,
+        "authored_movable": 120
+      }
+    },
+    {
+      "path": "build/prepared/prop_support_phase3/fnv_prop_dependency_hints.json",
+      "exists": true,
+      "bytes": 56316,
+      "sha256": "91B3520D1703D9224600881850CBDACA6EF90AD1E0F07F3F51EB6F120483AACB",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/prop_support_phase3/runtime_test_batches.json",
+      "exists": true,
+      "bytes": 24227,
+      "sha256": "0C5BFBB629D2D50FD920D13EF4728AE3AB38A334676CFFEF5DA6B9E9BE7E77CE",
+      "summary": {
+        "batch_count": 5,
+        "selected_count": 56
+      }
+    },
+    {
+      "path": "build/prepared/prop_support_phase3/runtime_validation_ledger.json",
+      "exists": true,
+      "bytes": 144206,
+      "sha256": "8BEBE09F83D41344CA5E78DCF5D93AD8905CDE53630D0856898DBF9054A31CF9",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/prop_support_phase3/thug2_promotion_queue.json",
+      "exists": true,
+      "bytes": 80902,
+      "sha256": "AB2D718F01E66D924A08965E47B25F101D8AB8F19A9343D17CE5730F040EEAF4",
+      "summary": {
+        "candidate_count": 85
+      }
+    },
+    {
+      "path": "build/prepared/prop_support_phase3/menu_budget.json",
+      "exists": true,
+      "bytes": 25594,
+      "sha256": "4C2F4172CA5EA103B97BBCEF39E122886D7AFF97DB0749333E0751B94DD41F2B",
+      "summary": {
+        "current_ready": 290,
+        "first_wave_target": 310
+      }
+    },
+    {
+      "path": "build/prepared/prop_support_phase3/gmod_spawnicon_coverage.json",
+      "exists": true,
+      "bytes": 310,
+      "sha256": "7FE1645BA31EB81E76DF175F307BD4628F1B68F443EA8F446A27A715118A30C9",
+      "summary": {
+        "native_spawnicons_found": 0,
+        "native_spawnicons_missing": 120
+      }
+    },
+    {
+      "path": "build/prepared/prop_support_phase3/prop_payload_provenance.json",
+      "exists": true,
+      "bytes": 472,
+      "sha256": "9146A572FF605C0185EFF4512126427DD189BC8D0825312061CAA8F04F46C4CC",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/prop_menu_thumbnails/native_gmod_spawnicons/manifest.json",
+      "exists": true,
+      "bytes": 63698,
+      "sha256": "E7C77E6A50188482D8EA22C3E2CC7812E41654D5AD7E212EA489440D3573F731",
+      "summary": {
+        "native_spawnicons_found": 0,
+        "native_spawnicons_missing": 120
+      }
+    },
+    {
+      "path": "build/validation/prop_support_phase3.json",
+      "exists": true,
+      "bytes": 10292,
+      "sha256": "16ECDAEDBA34A3399204770346D402A2FFF6A408111DC680A4A1319A3894748E",
+      "summary": {
+        "status": "pass",
+        "error_count": 0,
+        "check_count": 52
+      }
+    },
+    {
+      "path": "build/validation/support_lane_state.json",
+      "exists": true,
+      "bytes": 38594,
+      "sha256": "DD4C3D2206CDD361C25BA75C9E47F1FEE87DA1E771B04A30DB31AA5598BF9CB3",
+      "summary": {
+        "status": "pass",
+        "error_count": 0
+      }
+    },
+    {
+      "path": "build/prepared/release_install_manifest/manifest.json",
+      "exists": true,
+      "bytes": 122422,
+      "sha256": "59953FBB03A10695873C541B5801AB8D899FB264628CCC1F0B307EF031B14D8B",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/release_install_manifest/summary.json",
+      "exists": true,
+      "bytes": 251,
+      "sha256": "3D5804B9962A0DC4629CB38EDA1CE713B2D3B2B4AB5FC5AA7FD7D9742A91B1E4",
+      "summary": {}
+    }
+  ]
+}
