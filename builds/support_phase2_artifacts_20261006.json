@@ -1,11 +1,13 @@
 {
-  "purpose": "Compact GitHub-safe index of support-phase-2 local manifests. Proprietary assets are represented by hashes/provenance, not committed binaries.",
+  "purpose": "Canonical GitHub-safe index of support-phase-2 local manifests. Proprietary assets are represented by hashes/provenance, not committed binaries.",
+  "artifact_count": 27,
+  "all_present": true,
   "artifacts": [
     {
       "path": "build/validation/support_lane_state.json",
       "exists": true,
-      "bytes": 32746,
-      "sha256": "68ABA18984574DB48985953B29402CFA3E216E8439CE7F21554544BC4AA2BBDD",
+      "bytes": 38382,
+      "sha256": "7C8EFA02ED6F45516083BFF790B40C435E35846D2DE6AFB9674F8B573DB2843B",
       "summary": {
         "status": "pass",
         "error_count": 0
@@ -57,6 +59,16 @@
       }
     },
     {
+      "path": "build/prepared/gmod_qmenu_source_inventory/manifest.json",
+      "exists": true,
+      "bytes": 159503,
+      "sha256": "A499117503C53710B91AE27C401DBFCF53F23C4B741B3AF29FD0A43C06B0774B",
+      "summary": {
+        "lua_file_count": 105,
+        "tool_stool_files": 40
+      }
+    },
+    {
       "path": "build/prepared/gmod_weapon_runtime_candidates/manifest.json",
       "exists": true,
       "bytes": 361804,
@@ -92,13 +104,18 @@
       "summary": {}
     },
     {
-      "path": "build/prepared/gmod_tool_physgun_assets/manifest.json",
+      "path": "build/prepared/gmod_tool_physgun_asset_handoff/manifest.json",
       "exists": true,
-      "bytes": 6262,
-      "sha256": "465B9700272749C0C0705CA50C5EF697265AAAC8C8F45EA1D1F2E9B85A0A8480",
+      "bytes": 14014,
+      "sha256": "6368329C44B37C16B989351FEC14C09E9E8DC7F73134474722E98E7B2973E01E",
       "summary": {
-        "asset_count": 28,
-        "asset_resolved_count": 27
+        "requested": 36,
+        "resolved": 33,
+        "missing": [
+          "models/weapons/v_physics.mdl",
+          "models/weapons/v_physics.vvd",
+          "models/weapons/v_physics.dx90.vtx"
+        ]
       }
     },
     {
@@ -128,14 +145,15 @@
       "bytes": 64546,
       "sha256": "BBA25C2BBFFEA48B85070D6EE40867AB5A8DAF7627C9A7041B382BFA2E0E9312",
       "summary": {
-        "asset_count": 49
+        "asset_count": 49,
+        "missing": []
       }
     },
     {
-      "path": "build/prepared/thug2_controller_map/manifest.json",
+      "path": "build/prepared/input_control_matrix/manifest.json",
       "exists": true,
-      "bytes": 41463,
-      "sha256": "1631C034ABBEF1598D82CC93FDF2E205E5054A7ABFACE7A748ED2BE3118CDB1B",
+      "bytes": 10769,
+      "sha256": "5A3AD0F84F978E8BAC980D9F0ECCA63CB69DE18BEFD631339FC17269A3E486AD",
       "summary": {}
     },
     {
@@ -167,6 +185,22 @@
       }
     },
     {
+      "path": "build/prepared/thug2_prop_catalog/target_classification.json",
+      "exists": true,
+      "bytes": 50719,
+      "sha256": "20338FC796C080FF6A0D7B7ED16E1CD245FC23C6285035D7EC16E0772CC1AA26",
+      "summary": {
+        "target_count": 106,
+        "ready_for_geometry_review": 85,
+        "not_ready_or_semantic": 21,
+        "classification_counts": {
+          "spatial_geometry_candidate": 85,
+          "unresolved_named_target": 7,
+          "semantic_or_gap_identifier": 14
+        }
+      }
+    },
+    {
       "path": "build/prepared/support_sidecars/manifest.json",
       "exists": true,
       "bytes": 2092,
@@ -176,40 +210,52 @@
       }
     },
     {
-      "path": "build/prepared/regression_packs.json",
+      "path": "build/prepared/regression_test_packs/manifest.json",
       "exists": true,
-      "bytes": 5583,
-      "sha256": "CAB3EF5FDF1D32AE9BEE3B7CB9EABDE0ACC05BE4D83B71CBBFDC0B7194670265",
+      "bytes": 6195,
+      "sha256": "B72EADF7D6637F1A56F8A967FA5B800D5E3F86690C3ACAAD4CEF5E03F196DB1F",
+      "summary": {
+        "pack_count": 8
+      }
+    },
+    {
+      "path": "build/prepared/historical_artifact_registry/manifest.json",
+      "exists": true,
+      "bytes": 18422,
+      "sha256": "90EB51BFB7411A331181A0A7F7B419FB8315447B2C081FE05F54BE116C36E3D3",
+      "summary": {
+        "artifact_count": 63
+      }
+    },
+    {
+      "path": "build/prepared/release_install_manifest/manifest.json",
+      "exists": true,
+      "bytes": 121485,
+      "sha256": "0CD126920013F0766F80F3579A704C50235D81102659AC2BC765A99E87046377",
       "summary": {}
     },
     {
-      "path": "build/prepared/versioned_artifact_inventory.json",
+      "path": "build/prepared/release_install_manifest/summary.json",
       "exists": true,
-      "bytes": 14779,
-      "sha256": "14268ED6E9794A374D433E177F408EA48DAD66A8BC08041325AB8D99EEBC0DFA",
-      "summary": {
-        "artifact_count": 41
-      }
+      "bytes": 251,
+      "sha256": "AE5FA1322D6F00B4A13BE9CFC7FA4EA7CE4D16F6A7C845CF605E5DEAFA8F7C24",
+      "summary": {}
     },
     {
-      "path": "build/prepared/release_install_manifest.json",
+      "path": "build/combine_armor/validation.json",
       "exists": true,
-      "bytes": 14213,
-      "sha256": "BE84F3886B95D62BF3EC3170B23A5EC945D3FF34EBB81EB87055D9F206853AA2",
+      "bytes": 8032,
+      "sha256": "61AF184D491B57FC3A37611003B8A85517C23B91673B2B1C6702499C5F4A11F8",
       "summary": {
-        "summary": {
-          "entry_count": 29,
-          "missing_required": [],
-          "prop_catalog_ready": 290,
-          "prop_catalog_by_source": {
-            "Fallout New Vegas": 170,
-            "Garry's Mod / mounted Source content": 120
-          },
-          "weapon_classes": 49,
-          "disabled_sidecars": true
-        }
+        "status": "static_validation_pass"
       }
     }
   ],
-  "all_present": true
+  "canonical_rules": [
+    "Prefer gmod_tool_physgun_asset_handoff over the earlier smaller gmod_tool_physgun_assets duplicate.",
+    "Prefer input_control_matrix over the earlier controller-map-only summary for authoritative control mapping.",
+    "Prefer regression_test_packs over the earlier seven-pack regression_packs duplicate.",
+    "Prefer historical_artifact_registry over the earlier smaller versioned_artifact_inventory duplicate.",
+    "Prefer release_install_manifest/manifest.json and summary.json over the earlier flat release_install_manifest.json."
+  ]
 }
