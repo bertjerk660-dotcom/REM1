@@ -108,5 +108,5 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Weapon sound/source dependencies are resolved for the staged set; first/third-person presentation and inventory/drop behavior still require gameplay checks.
 - Combine armor is still static-validation-only and must not replace Enclave/Remnants records until its isolated test pack passes.
 - Runtime Q menu, Tool Gun, Physgun, complete THUG2 skate physics/animation/camera/HUD remain Astra-owned.
-- Run research/validate_support_lane_state.py before promoting support artifacts; current pass count is 94.
+- Run research/validate_support_lane_state.py before promoting support artifacts; current pass count is 107.
 - Follow context/SUPPORT_20_POINT_TRACKER.md for exact per-task progress.
