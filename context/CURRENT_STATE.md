@@ -38,3 +38,13 @@ THUG2 is NOT VERIFIED STABLE until v82 is playtested.
 - Master execution queue, dependency graph, regression spec, acceptance gates, sidecar strategy and preflight validator are prepared.
 - Preflight passed locally on 2026-10-06: 85 targets, zero semantic overlap, 16/16 source level GLBs available, both IDA 6.8 Physgun evidence exports present.
 - These preparation results do not change the verified deployed runtime version or establish THUG2/Physgun runtime success.
+
+## 2026-10-06 latest human playtest
+- THUG2 skateboard held-weapon presentation is now visibly working: the skateboard weapon model appears in game and is positioned correctly in the player's hand. This verifies the held-weapon visibility/placement path only; board-to-feet attachment and full skate-animation transitions still require separate validation.
+- Skate mode still presents only a simple text overlay rather than the original THUG2 HUD/UI system.
+- Fallout-style alerts still appear in the top-left during skate mode. These are temporary/fallback behavior and must ultimately be replaced by the source-faithful THUG2 UI/notification/scoring presentation needed by the THUG2 skating subsystem.
+- The Fallout HUD remains visible during skate mode. Required final behavior is to suppress the Fallout HUD while skate mode is active, run the THUG2 HUD/UI stack, and restore the Fallout HUD cleanly when skate mode exits.
+- Physics Gun acquisition/manipulation range is currently extremely short compared with intended GMod behavior.
+- Physics Gun audio is incorrect while a target is held by the beam: the correct continuous beam/hold loop sound is not playing.
+- Physics Gun actor handling is mis-targeted: when the grab/lock finally engages an actor, the player is knocked unconscious instead of the acquired target.
+- These observations are regressions/implementation gaps, not evidence that THUG2 or Physics Gun runtime integration is complete.
