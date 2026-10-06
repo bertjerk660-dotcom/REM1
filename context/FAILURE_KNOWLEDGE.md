@@ -45,3 +45,10 @@ User reported no crash. Installed DLL hash matches recorded v85; runtime log ide
 
 ## F011 — Obsolete scene-graph ABI declarations
 IDA 6.8 audit confirms the SDK's UNMODIFIED OBSE NiObjects.h declares GetObject at slot 0x26 and UpdateTransform(void) at 0x2D, while the inspected FNV NiNode vtable has retn-4 null stubs at those slots. Actual name search is slot 0x27 and accepts an interned-string handle reference, not an ordinary C string. Confirmed ABI mismatch; exact runtime crash causality remains unproven. Keep animation/camera quarantine until corrected bindings and update semantics are verified. Evidence: builds/ida68_fnv_skeleton87.json; context/THUG2_INTEGRATION_CHECKPOINT_87.md.
+
+
+## F012 — Board material conversion defects (checkpoint 90)
+Live held and riding NIFs had material alpha=0 and empty texture paths, despite valid geometry/container. Restored original board GLB texture assignments, opaque alpha and depth state; installed asset-only repair with backups and hash checks. File validation passed, runtime visibility not tested; do not claim sole cause. Matching NIF/GLB vertex counts is invalid after seam splitting: compare source-transformed unique positions and triangle counts.
+
+## F011 follow-up — full transform layout
+IDA6.8 0xA68BF0 confirms local transform0x34 and world0x68, each52bytes including scale. SDK dat0064 begins at local scale and is not the world transform. v90 has an isolated explicit adapter; update-context subtype semantics and runtime ordering still require validation. Quarantines remain.
