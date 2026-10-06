@@ -1,0 +1,61 @@
+﻿{
+    "schema":  "rem.sidecar_strategy.v1",
+    "rules":  [
+                  "one risky subsystem per candidate sidecar",
+                  "never overwrite last verified candidate without backup/hash",
+                  "main ESP/DLL promotion only after isolated validation",
+                  "proprietary assets remain local"
+              ],
+    "units":  [
+                  {
+                      "system":  "toolgun_presentation",
+                      "touch":  [
+                                    "isolated ESP/model paths"
+                                ],
+                      "avoid":  [
+                                    "THUG2 runtime",
+                                    "physgun behavior"
+                                ]
+                  },
+                  {
+                      "system":  "physgun_behavior",
+                      "touch":  [
+                                    "NVSE candidate DLL",
+                                    "physgun assets/records"
+                                ],
+                      "avoid":  [
+                                    "skate runtime"
+                                ]
+                  },
+                  {
+                      "system":  "qmenu",
+                      "touch":  [
+                                    "UI bridge/content adapter"
+                                ],
+                      "avoid":  [
+                                    "skate runtime"
+                                ]
+                  },
+                  {
+                      "system":  "thug2_props",
+                      "touch":  [
+                                    "disabled prop sidecar",
+                                    "standalone NIF paths"
+                                ],
+                      "avoid":  [
+                                    "main runtime until validation"
+                                ]
+                  },
+                  {
+                      "system":  "thug2_runtime",
+                      "touch":  [
+                                    "dedicated candidate DLL/ESP/assets"
+                                ],
+                      "avoid":  [
+                                    "unrelated weapon presentation"
+                                ]
+                  }
+              ]
+}
+
+[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
