@@ -16,7 +16,7 @@ This is the current staging/install ledger, not a claim that the mashup is relea
 - 205 unique converted GMod prop payload files (NIF/material payloads) indexed.
 - Final content catalog: 290 entries = 170 native FNV references + 120 custom GMod/Source entries.
 - Native FNV assets remain host-game dependencies and are not duplicated into the package.
-- Reproducibility/support manifests are indexed separately.
+- Reproducibility/support manifests are indexed separately; current count: 15.
 
 ## Disabled support plugins
 - REM_CombineArmor_Test.esp — static validation pass; human armor pack pending.
@@ -26,7 +26,7 @@ This is the current staging/install ledger, not a claim that the mashup is relea
 All three remain disabled.
 
 ## Promotion gates
-- Unified support validator must pass with zero errors. Current result: 110 checks / zero errors.
+- Unified support validator must pass with zero errors. Current result: 111 checks / zero errors.
 - Baseline Fallout boot/load/save/load regression.
 - GMod/THUG2 inventory icon/name/drop/pickup/container/trade checks.
 - Representative prop material/scale/collision checks.
