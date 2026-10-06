@@ -42,7 +42,7 @@ This is a requirements/backlog ledger, not proof of implementation.
 
 ## GMod-style prop menu content
 - Do NOT expose the entire 13,003-model Fallout prop candidate archive in the player-facing menu.
-- Use the curated approximately 300-prop set as the intended default Fallout library.
+- Keep a compact cross-game ready library near 300–320 total entries rather than allocating ~300 entries to Fallout alone. Current support handoff is 170 statically-clean FNV props + 120 converted GMod/Source props, with THUG2 promotions expected to replace redundant entries.
 - Prioritize useful environmental objects and skateable geometry: rails, railings, benches, ramps, stairs, ledges, barriers, tables, counters, crates, large boxes and pipes.
 - Include a smaller supporting set of fences, signs, lamps, poles, street clutter, furniture, storage, vending machines, terminals, rocks, trees and plants.
 - Keep the full 13,003-model catalog only as archive/search data so individual curated props can be swapped later.
@@ -102,3 +102,18 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Inventory real GMod Q-menu/Tool Gun/Physics Gun script/assets and dependencies for Astra, but leave the native/runtime port and behavior implementation to Astra.
 - Prepare THUG2 UI/font/controller-glyph asset manifests and test data, but leave animation, camera, physics, scoring-runtime and model-rig behavior changes to Astra.
 - Expand repeatable boot/save/load/inventory/asset-reference validation so candidate promotion requires less manual checking.
+
+### Completed support preparation — 2026-10-06
+- GMod/HL concrete weapon-model staging audit: 100% concrete reference coverage.
+- FNV curated prop static audit: 278/300 static-clean.
+- FNV Havok authored-mobility audit recorded.
+- Real GMod Q-menu/Tool Gun/Physgun-visible/notification source dependency inventory recorded.
+- 120 practical GMod/Source props curated.
+- 106 THUG2 embedded prop extraction targets curated.
+- Compact 290-item ready-content handoff produced.
+
+### Next support tasks
+- Audit existing ESP/base-form coverage for the 290 ready props.
+- Audit and prepare missing content thumbnails/icons without implementing the Q-menu runtime.
+- Create only missing prop records in a disabled sidecar catalog.
+- Add automated sidecar/reference validation and preserve hashes/provenance.
