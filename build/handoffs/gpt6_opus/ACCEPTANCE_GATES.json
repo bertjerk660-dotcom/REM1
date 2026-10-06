@@ -1,0 +1,18 @@
+﻿{
+    "schema":  "rem.acceptance_gates.v1",
+    "rule":  "A subsystem is not complete merely because it compiles or deploys.",
+    "required":  [
+                     "build_pass",
+                     "asset_reference_pass",
+                     "boot_pass",
+                     "feature_reachable",
+                     "behavior_pass",
+                     "cleanup_pass",
+                     "save_load_pass",
+                     "regression_pass",
+                     "human_playability_check"
+                 ],
+    "promotion":  "Only promote isolated sidecar candidates after all applicable gates pass."
+}
+
+[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
