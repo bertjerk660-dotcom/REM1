@@ -53,3 +53,7 @@ See context/THUG2_INTEGRATION_CHECKPOINT_88.md. PS2 font blocker resolved using 
 
 ## Integration checkpoint 89 — 2026-10-06
 Isolated v89 (parent v88) compiles with skate lifecycle cleanup on preload/main-menu exit and board/retarget cache invalidation. Not deployed or playtested; live v85 unchanged. Audited all 838 exported GLB board roots: 767 animated, 71 static, all parented to control_root. Board animation placement remains unimplemented; current ride board still uses fixed player offset. See context/THUG2_INTEGRATION_CHECKPOINT_89.md for exact evidence, remaining regression gates and concrete hand/skating attachment plan. Full original THUG2 gameplay remains incomplete.
+
+
+## Checkpoint 90 — 2026-10-06
+Board material-only repair DEPLOYED: original textures restored, opacity repaired in three NIFs; lossless pixel and NIF roundtrip checks passed. Geometry/attachment placement unchanged; in-game visibility not tested. Live plugin remains v85. Separate v90 scene-ABI adapter candidate compiles, not deployed; animation quarantine retained. See context/THUG2_INTEGRATION_CHECKPOINT_90.md and builds/board_material_deployment90.json. Previous held-NIF hash is superseded by the deployment manifest.
