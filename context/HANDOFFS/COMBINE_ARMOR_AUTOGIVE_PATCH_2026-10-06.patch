@@ -1,0 +1,94 @@
+diff --git a/third_party/NVSE-6.4.9/fnv_gmod_thug2_plugin/main.cpp b/third_party/NVSE-6.4.9/fnv_gmod_thug2_plugin/main.cpp
+--- a/third_party/NVSE-6.4.9/fnv_gmod_thug2_plugin/main.cpp
++++ b/third_party/NVSE-6.4.9/fnv_gmod_thug2_plugin/main.cpp
+@@
+ #include "nvse/GameForms.h"
+ #include "nvse/GameData.h"
++#include "nvse/GameExtraData.h"
+ #include "nvse/GameUI.h"
+@@
+ static DWORD g_runtimeFormInitEarliestTick = 0;
+ static bool g_runtimeFormInitLogged = false;
++static bool g_combineArmorAutoGiveChecked = false;
+@@
+ static void GiveWeaponToPlayer(TESObjectWEAP* weapon)
+ {
+     PlayerCharacter* player = PlayerCharacter::GetSingleton();
+     if (!player || !weapon) return;
+ 
+     char cmd[96];
+     std::snprintf(cmd, sizeof(cmd), "additem %08X 1", weapon->refID);
+     Script::RunScriptLine2(cmd, player, true);
+ }
++
++static TESObjectARMO* FindCombineArmorTestForm()
++{
++    DataHandler* data = DataHandler::Get();
++    if (!data || !data->boundObjectList) return nullptr;
++
++    for (TESBoundObject* obj = data->boundObjectList->first; obj; obj = obj->next)
++    {
++        if (obj->typeID != kFormType_TESObjectARMO) continue;
++        TESObjectARMO* armor = static_cast<TESObjectARMO*>(obj);
++        const char* name = armor->fullName.name.m_data;
++        if (name && _stricmp(name, "Combine Soldier Full-Body Armor (Test)") == 0)
++            return armor;
++    }
++    return nullptr;
++}
++
++static void EnsureCombineArmorAutoGive()
++{
++    if (g_combineArmorAutoGiveChecked) return;
++
++    PlayerCharacter* player = PlayerCharacter::GetSingleton();
++    if (!player || !player->parentCell) return;
++
++    TESObjectARMO* armor = FindCombineArmorTestForm();
++    g_combineArmorAutoGiveChecked = true;
++
++    if (!armor)
++    {
++        _MESSAGE("[COMBINE] test armor form not loaded; auto-give skipped");
++        return;
++    }
++
++    InventoryItemsMap invItems;
++    const bool alreadyOwned = player->GetInventoryItems(invItems) && invItems.HasKey(armor);
++    if (alreadyOwned)
++    {
++        _MESSAGE("[COMBINE] test armor already in player inventory (%08X)", armor->refID);
++        return;
++    }
++
++    char cmd[96];
++    std::snprintf(cmd, sizeof(cmd), "additem %08X 1", armor->refID);
++    Script::RunScriptLine2(cmd, player, true);
++    _MESSAGE("[COMBINE] auto-added test armor to player inventory (%08X)", armor->refID);
++}
+@@
+         if (!g_gmodWeaponFormsReady)
+         {
+             _MESSAGE("[RUNTIME] EnsureGModWeaponForms begin");
+             EnsureGModWeaponForms();
+             _MESSAGE("[RUNTIME] EnsureGModWeaponForms end count=%u",
+                 static_cast<unsigned>(g_gmodRuntimeWeapons.size()));
+         }
++
++        EnsureCombineArmorAutoGive();
+     }
+@@
+     case NVSEMessagingInterface::kMessage_PostLoadGame:
+         g_gameplayReady = true;
+         g_runtimeFormInitEarliestTick = GetTickCount() + 2500;
+         g_runtimeFormInitLogged = false;
++        g_combineArmorAutoGiveChecked = false;
+@@
+     case NVSEMessagingInterface::kMessage_NewGame:
+         g_gameplayReady = true;
+         g_runtimeFormInitEarliestTick = GetTickCount() + 2500;
+         g_runtimeFormInitLogged = false;
++        g_combineArmorAutoGiveChecked = false;
+@@
+-    _MESSAGE("FNVGModTHUG2 bridge loaded, version 85");
++    _MESSAGE("FNVGModTHUG2 bridge loaded, version 85 support-patch combine-autogive");
