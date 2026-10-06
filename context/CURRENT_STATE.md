@@ -57,3 +57,7 @@ Isolated v89 (parent v88) compiles with skate lifecycle cleanup on preload/main-
 
 ## Checkpoint 90 — 2026-10-06
 Board material-only repair DEPLOYED: original textures restored, opacity repaired in three NIFs; lossless pixel and NIF roundtrip checks passed. Geometry/attachment placement unchanged; in-game visibility not tested. Live plugin remains v85. Separate v90 scene-ABI adapter candidate compiles, not deployed; animation quarantine retained. See context/THUG2_INTEGRATION_CHECKPOINT_90.md and builds/board_material_deployment90.json. Previous held-NIF hash is superseded by the deployment manifest.
+
+
+## Checkpoint 91 — original animated board assets
+Assembled original textured board mesh under original bone_board_root in six GLBs: idle, push, ollie, land, manual and kickflip. Source animation/mesh binary preserved. Offline hierarchy sampling passes; four clips animate the board, idle/push correctly remain static. No visual or Fallout runtime validation/deployment. This is asset assembly, not yet a native THUG2 code/runtime port. See context/THUG2_INTEGRATION_CHECKPOINT_91.md.
