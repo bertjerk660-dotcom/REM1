@@ -122,5 +122,11 @@
     "status": "blocked_no_validated_candidates",
     "ready": 0,
     "blocked": 20
+  },
+  "github": {
+    "branch": "prep/prop-content-phase4",
+    "base": "prep/prop-content-phase3",
+    "verified": true,
+    "ahead_at_verification": 36
   }
 }
