@@ -50,10 +50,21 @@ The support lane should keep the project moving through lower-risk but time-cons
 - THUG2 has 106 named embedded-prop extraction targets, not yet standalone props.
 - The compact ready-content handoff currently contains 290 candidates: 170 FNV + 120 GMod/Source.
 
-## Near-term support sequence
-1. Audit existing ESP/base-form coverage for the 290 ready prop candidates so duplicate forms are not created.
-2. Audit thumbnail/icon coverage and prepare missing thumbnails as data assets only.
-3. Build a disabled sidecar catalog only for genuinely missing custom/GMod prop forms.
-4. Expand asset/reference/sidecar validators and promotion checklists.
-5. Continue importing reusable project-authored support tooling and manifests into GitHub.
-6. Keep the Astra handoff current without editing/deploying its runtime candidate.
+## Support preparation completion state
+The requested broad non-Astra preparation pass is complete. Current durable outputs include:
+- validated Combine armor staging and origin-icon tooling;
+- 100% concrete GMod/HL weapon-model reference coverage plus view/world/sound dependency handoff;
+- 290-entry final prop catalog with form bindings and 290/290 support previews;
+- disabled validated GMod prop and RPG presentation sidecars;
+- real GMod Q-menu/Tool Gun/notification source/dependency inventory;
+- 106 THUG2 embedded-prop per-level handoffs;
+- THUG2 skateboard source/animation metadata handoff;
+- THUG2 HUD/font/controller/audio source handoff;
+- unified static validator and preflight/postflight playtest evidence tooling.
+
+## Next support sequence
+1. Do not make further runtime changes merely to keep busy; the remaining support-critical evidence is human gameplay validation.
+2. Use the prepared checklist and evidence capture scripts for isolated sidecar/inventory/armor/prop tests.
+3. Record any observed failure with exact artifact hash/log/event evidence and convert repeated manual diagnosis into validation tooling.
+4. Keep support manifests synchronized when Astra/Claude changes the canonical runtime.
+5. Hand mechanics/ABI/rig/runtime faults to Astra rather than applying speculative support patches.
