@@ -11,3 +11,4 @@
 - Astra/runtime code modified: false.
 
 Human gameplay validation is still required before prop promotion.
+- GitHub branch: prep/prop-content-phase3; phase-3 source/docs/build manifests are pushed and verified.
