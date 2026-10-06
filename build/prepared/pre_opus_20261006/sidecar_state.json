@@ -1,0 +1,35 @@
+{
+  "plugins_file": {
+    "path": "C:\\Users\\BRAD\\AppData\\Local\\FalloutNV\\plugins.txt",
+    "exists": true,
+    "bytes": 19,
+    "sha256": "079B60F30C591F522E22ADE3F8A6E419DAF9DA091CCAE862E929C7C0AA5ACD03"
+  },
+  "sidecars": [
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_CombineArmor_Test.esp",
+      "exists": true,
+      "bytes": 612,
+      "sha256": "52B06C9D1FA087B32BD2F83120603903893D24781BC9490D89C3D9EEE105979E",
+      "name": "REM_CombineArmor_Test.esp",
+      "enabled": false
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_GModProps_Catalog.esp",
+      "exists": true,
+      "bytes": 18923,
+      "sha256": "55E0758D4E96DC0C3B5F591002AD3C2C630CC76BE281DEDA0DAF2D2F91A4423E",
+      "name": "REM_GModProps_Catalog.esp",
+      "enabled": false
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_WeaponPresentation_Fixes.esp",
+      "exists": true,
+      "bytes": 762,
+      "sha256": "15380779823DA61F0F7A536E317FFB2489F35A156EFDF348348BB61D7BCA7723",
+      "name": "REM_WeaponPresentation_Fixes.esp",
+      "enabled": false
+    }
+  ],
+  "all_disabled": true
+}
