@@ -23,7 +23,7 @@ Status legend: COMPLETE = support/static preparation finished; IN PROGRESS = use
 17. **Build a replacement reserve for later THUG2 promotion — COMPLETE PREP.** 40 lower-utility/redundancy candidates are ranked; no existing prop is removed yet.
 18. **Audit native GMod SpawnIcon coverage — COMPLETE.** Native mounted spawnicons found for the curated set: 0/120; all 120 GMod entries retain generated geometry-preview fallback.
 19. **Build prop release/provenance metadata — COMPLETE.** Phase-3 outputs are folded into the release manifest and unified support validator; release support-manifest count is 15.
-20. **Validate, record and push this prop phase to GitHub — READY TO PUSH.** Prop validator passes 52 checks with zero errors and unified support validator passes 111; docs/build manifest are recorded locally. Final gate is GitHub branch verification.
+20. **Validate, record and push this prop phase to GitHub — COMPLETE.** Prop validator passes 52 checks with zero errors, unified support validator passes 111, and the prop phase is verified on prep/prop-content-phase3.
 
 ## Immediate human gates
 - Run the five representative prop batches with preflight/postflight capture.
