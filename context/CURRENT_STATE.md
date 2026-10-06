@@ -1,6 +1,6 @@
 # Current State
 
-Verified 2026-10-05 from actual source, deployed files, runtime logs and human playtests.
+Verified 2026-10-06 from actual source, deployed files, support manifests and prior runtime logs/playtests. New support sidecars remain unplaytested unless explicitly stated.
 
 ## Canonical repository
 - GitHub repository: bertjerk660-dotcom/REM1.
