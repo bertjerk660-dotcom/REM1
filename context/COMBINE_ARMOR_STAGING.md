@@ -10,6 +10,8 @@ Prepare a separate full-body Combine Soldier armor item for later testing before
 - Fallout Remnants Power Armor is used only as the FNV ARMO/container donor and humanoid skeleton compatibility target.
 - Proprietary NIF/DDS assets are local and are not committed to GitHub.
 
+- Source SMD audit confirms the converted source contains both body and head/helmet regions: 2,899 body triangles, 206 high-body/neck triangles, 1,570 head-only triangles and 7 mixed head triangles in the audit classification.
+
 ## Current local artifacts
 - Wearable NIF: `Data\meshes\rem\gmod\armor\CombineSoldierFullBody.nif`
   - SHA256 `90A836EEF689C50994ED6E5BECC7B37CEFA0B32DA6E20D88C34DC193837B6728`
