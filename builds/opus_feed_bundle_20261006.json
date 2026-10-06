@@ -1,0 +1,30 @@
+{
+  "build": "opus_feed_bundle_20261006",
+  "mode": "PREPARATION_ONLY",
+  "goal": "Produce a deterministic GitHub-safe visual/model/animation input bundle for Opus without modifying or deploying game runtime.",
+  "protected_baseline": {
+    "runtime_dll_sha256": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+    "active_esp_sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+    "active_source_sha256": "CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5"
+  },
+  "artifacts": [
+    "research/build_opus_feed_bundle.py",
+    "research/validate_opus_feed_bundle.ps1",
+    "build/handoffs/gpt6_opus/feed_bundle/OPUS_VISUAL_QUEUE.json",
+    "build/handoffs/gpt6_opus/feed_bundle/CODE_CONTEXT.md",
+    "build/handoffs/gpt6_opus/feed_bundle/ASSET_REFERENCE_INDEX.json",
+    "build/handoffs/gpt6_opus/feed_bundle/OPUS_START_PROMPT.md",
+    "build/handoffs/gpt6_opus/feed_bundle/HANDOFF_INDEX.json",
+    "build/handoffs/gpt6_opus/feed_bundle/FEED_MANIFEST.json",
+    "build/handoffs/gpt6_opus/feed_bundle/VALIDATION_RESULT.json",
+    "context/HANDOFFS/OPUS_FEED_READY_2026-10-06.md"
+  ],
+  "validation": {
+    "pass": true,
+    "required_source_components_checked": 34,
+    "required_source_component_failures": 0
+  },
+  "first_task": "O01",
+  "playtest": "not_run_preparation_only",
+  "runtime_modified": false
+}
