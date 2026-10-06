@@ -1,0 +1,596 @@
+{
+  "id": "c_crowbar",
+  "model": "models/weapons/c_crowbar.mdl",
+  "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar",
+  "model_components": [
+    {
+      "relative": "models/weapons/c_crowbar.mdl",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/c_crowbar.mdl",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_crowbar.mdl",
+      "bytes": 27320,
+      "sha256": "9FC2231AE94171609DE85781D567A9ED5380B84A7D77821ED3AD485586E59992",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "9FC2231AE94171609DE85781D567A9ED5380B84A7D77821ED3AD485586E59992"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\src\\models\\weapons\\c_crowbar.mdl",
+        "exists": true,
+        "bytes": 27320,
+        "sha256": "9FC2231AE94171609DE85781D567A9ED5380B84A7D77821ED3AD485586E59992"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/weapons/c_crowbar.vvd",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/c_crowbar.vvd",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_crowbar.vvd",
+      "bytes": 20288,
+      "sha256": "53521D9AE6116E853456B44BCA181E08DF9A3A0F43D7D95F82AA74749DC6D377",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "53521D9AE6116E853456B44BCA181E08DF9A3A0F43D7D95F82AA74749DC6D377"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\src\\models\\weapons\\c_crowbar.vvd",
+        "exists": true,
+        "bytes": 20288,
+        "sha256": "53521D9AE6116E853456B44BCA181E08DF9A3A0F43D7D95F82AA74749DC6D377"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/weapons/c_crowbar.dx90.vtx",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/c_crowbar.dx90.vtx",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_crowbar.dx90.vtx",
+      "bytes": 6084,
+      "sha256": "466FBF1DCDC2E8522EB134BA79F89D71E6BDEF36C4B3679EEFB0FD2B545DF853",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "466FBF1DCDC2E8522EB134BA79F89D71E6BDEF36C4B3679EEFB0FD2B545DF853"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\src\\models\\weapons\\c_crowbar.dx90.vtx",
+        "exists": true,
+        "bytes": 6084,
+        "sha256": "466FBF1DCDC2E8522EB134BA79F89D71E6BDEF36C4B3679EEFB0FD2B545DF853"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/weapons/c_crowbar.phy",
+      "resolved": false,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\src\\models\\weapons\\c_crowbar.phy",
+        "exists": false,
+        "bytes": null,
+        "sha256": null
+      },
+      "required": false
+    },
+    {
+      "relative": "models/weapons/c_crowbar.dx80.vtx",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/c_crowbar.dx80.vtx",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_crowbar.dx80.vtx",
+      "bytes": 6084,
+      "sha256": "9CD1536D45853647DDBB95287D2697DA9B5322D821B07CB5C58B964232B4D522",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "9CD1536D45853647DDBB95287D2697DA9B5322D821B07CB5C58B964232B4D522"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\src\\models\\weapons\\c_crowbar.dx80.vtx",
+        "exists": true,
+        "bytes": 6084,
+        "sha256": "9CD1536D45853647DDBB95287D2697DA9B5322D821B07CB5C58B964232B4D522"
+      },
+      "required": false
+    },
+    {
+      "relative": "models/weapons/c_crowbar.sw.vtx",
+      "resolved": false,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\src\\models\\weapons\\c_crowbar.sw.vtx",
+        "exists": false,
+        "bytes": null,
+        "sha256": null
+      },
+      "required": false
+    },
+    {
+      "relative": "models/weapons/c_crowbar.ani",
+      "resolved": false,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\src\\models\\weapons\\c_crowbar.ani",
+        "exists": false,
+        "bytes": null,
+        "sha256": null
+      },
+      "required": false
+    }
+  ],
+  "materials": [
+    {
+      "relative": "materials/models/weapons/v_crowbar/crowbar_cyl.vmt",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+      "entry": "materials/models/weapons/v_crowbar/crowbar_cyl.vmt",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\crowbar_cyl.vmt",
+      "bytes": 521,
+      "sha256": "4BC82B4476B1BDBF2325B8835ECD2615C8C682DD1FBC34F877DFC89101FF66BF",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "4BC82B4476B1BDBF2325B8835ECD2615C8C682DD1FBC34F877DFC89101FF66BF"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "4BC82B4476B1BDBF2325B8835ECD2615C8C682DD1FBC34F877DFC89101FF66BF"
+        }
+      ],
+      "staged_match": null,
+      "references": [
+        {
+          "key": "$basetexture",
+          "relative": "materials/models/weapons/v_crowbar/crowbar_cyl.vtf"
+        },
+        {
+          "key": "$bumpmap",
+          "relative": "materials/models/weapons/v_crowbar/crowbar_normal.vtf"
+        }
+      ]
+    },
+    {
+      "relative": "materials/models/weapons/v_crowbar/head_uvw.vmt",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+      "entry": "materials/models/weapons/v_crowbar/head_uvw.vmt",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\head_uvw.vmt",
+      "bytes": 507,
+      "sha256": "B403A63C422D35D6E7226E055D6E7DCBE688B78B2F563DB90A907AE540B21E01",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "B403A63C422D35D6E7226E055D6E7DCBE688B78B2F563DB90A907AE540B21E01"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "B403A63C422D35D6E7226E055D6E7DCBE688B78B2F563DB90A907AE540B21E01"
+        }
+      ],
+      "staged_match": null,
+      "references": [
+        {
+          "key": "$basetexture",
+          "relative": "materials/models/weapons/v_crowbar/head.vtf"
+        },
+        {
+          "key": "$bumpmap",
+          "relative": "materials/models/weapons/v_crowbar/head_normal.vtf"
+        }
+      ]
+    },
+    {
+      "relative": "materials/models/weapons/v_crowbar/crowbar_cyl.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+      "entry": "materials/models/weapons/v_crowbar/crowbar_cyl.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\crowbar_cyl.vtf",
+      "bytes": 43912,
+      "sha256": "7F6FF74719F46C039C3DD039A2CBE2FEF77C70A8FB0B5499CB832547EDCF0094",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_textures_dir.vpk",
+          "sha256": "7F6FF74719F46C039C3DD039A2CBE2FEF77C70A8FB0B5499CB832547EDCF0094"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+          "sha256": "7F6FF74719F46C039C3DD039A2CBE2FEF77C70A8FB0B5499CB832547EDCF0094"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/weapons/v_crowbar/crowbar_normal.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+      "entry": "materials/models/weapons/v_crowbar/crowbar_normal.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\crowbar_normal.vtf",
+      "bytes": 87640,
+      "sha256": "3A10AC704C4BCA2985C5F15A8AC1C5C64ABB7BA213A1BC354D1BFC3AA2D230FD",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_textures_dir.vpk",
+          "sha256": "3A10AC704C4BCA2985C5F15A8AC1C5C64ABB7BA213A1BC354D1BFC3AA2D230FD"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+          "sha256": "3A10AC704C4BCA2985C5F15A8AC1C5C64ABB7BA213A1BC354D1BFC3AA2D230FD"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/weapons/v_crowbar/head.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+      "entry": "materials/models/weapons/v_crowbar/head.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\head.vtf",
+      "bytes": 43912,
+      "sha256": "4F4C8C721EE9AD8213772E2FE0D1B9D8BEB741266A7EF834859047457C39277D",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_textures_dir.vpk",
+          "sha256": "4F4C8C721EE9AD8213772E2FE0D1B9D8BEB741266A7EF834859047457C39277D"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+          "sha256": "4F4C8C721EE9AD8213772E2FE0D1B9D8BEB741266A7EF834859047457C39277D"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/weapons/v_crowbar/head_normal.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+      "entry": "materials/models/weapons/v_crowbar/head_normal.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\head_normal.vtf",
+      "bytes": 87640,
+      "sha256": "8F23D4DB3D4359ECAA3FD4CE532BE70D701CB40BC757611214E017F0A08CC982",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_textures_dir.vpk",
+          "sha256": "8F23D4DB3D4359ECAA3FD4CE532BE70D701CB40BC757611214E017F0A08CC982"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+          "sha256": "8F23D4DB3D4359ECAA3FD4CE532BE70D701CB40BC757611214E017F0A08CC982"
+        }
+      ],
+      "staged_match": null
+    }
+  ],
+  "qc": [
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\c_crowbar.qc",
+        "exists": true,
+        "bytes": 8750,
+        "sha256": "A66D996444B7DF4311EC9608FEFFD82D6182DE56AF3FAD0376DB318093C23C4B"
+      },
+      "bbox": [
+        "7.189 -16.341 -34.009 40.095 25.866 1.163"
+      ],
+      "surfaceprop": [
+        "default"
+      ],
+      "mass": [],
+      "concave": false,
+      "collision_smd": [],
+      "sequence_names": [
+        "idle01",
+        "draw",
+        "misscenter1",
+        "misscenter2",
+        "hitcenter1",
+        "hitcenter2",
+        "hitcenter3",
+        "hitkill1",
+        "holster"
+      ],
+      "attachment_names": [
+        "0"
+      ],
+      "bone_names": [
+        "ValveBiped.Bip01_Spine4",
+        "ValveBiped.Bip01_L_Clavicle",
+        "ValveBiped.Bip01_L_UpperArm",
+        "ValveBiped.Bip01_L_Forearm",
+        "ValveBiped.Bip01_L_Hand",
+        "ValveBiped.Bip01_L_Finger4",
+        "ValveBiped.Bip01_L_Finger41",
+        "ValveBiped.Bip01_L_Finger42",
+        "ValveBiped.Bip01_L_Finger3",
+        "ValveBiped.Bip01_L_Finger31",
+        "ValveBiped.Bip01_L_Finger32",
+        "ValveBiped.Bip01_L_Finger2",
+        "ValveBiped.Bip01_L_Finger21",
+        "ValveBiped.Bip01_L_Finger22",
+        "ValveBiped.Bip01_L_Finger1",
+        "ValveBiped.Bip01_L_Finger11",
+        "ValveBiped.Bip01_L_Finger12",
+        "ValveBiped.Bip01_L_Finger0",
+        "ValveBiped.Bip01_L_Finger01",
+        "ValveBiped.Bip01_L_Finger02",
+        "ValveBiped.Bip01_R_Clavicle",
+        "ValveBiped.Bip01_R_UpperArm",
+        "ValveBiped.Bip01_R_Forearm",
+        "ValveBiped.Bip01_R_Hand",
+        "ValveBiped.Bip01_R_Finger4",
+        "ValveBiped.Bip01_R_Finger41",
+        "ValveBiped.Bip01_R_Finger42",
+        "ValveBiped.Bip01_R_Finger3",
+        "ValveBiped.Bip01_R_Finger31",
+        "ValveBiped.Bip01_R_Finger32",
+        "ValveBiped.Bip01_R_Finger2",
+        "ValveBiped.Bip01_R_Finger21",
+        "ValveBiped.Bip01_R_Finger22",
+        "ValveBiped.Bip01_R_Finger1",
+        "ValveBiped.Bip01_R_Finger11",
+        "ValveBiped.Bip01_R_Finger12",
+        "ValveBiped.Bip01_R_Finger0",
+        "ValveBiped.Bip01_R_Finger01",
+        "ValveBiped.Bip01_R_Finger02",
+        "ValveBiped.HandControlRotGrandmaR"
+      ],
+      "included_models": [],
+      "max_convex_pieces": []
+    }
+  ],
+  "geometry": [
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\crowbar_reference.smd",
+        "exists": true,
+        "bytes": 160120,
+        "sha256": "A578704D4A84039914F3D5FB323A684093FA95385E8171B89D460958B2838009"
+      },
+      "triangles": 505,
+      "materials": [
+        "crowbar_cyl",
+        "head_uvw"
+      ],
+      "bounds_min": [
+        -30.260376,
+        -19.233177,
+        -27.289913
+      ],
+      "bounds_max": [
+        -21.84506,
+        14.903314,
+        -18.431171
+      ],
+      "dimensions": [
+        8.415316,
+        34.136491,
+        8.858742
+      ],
+      "units": "source SMD coordinates; FNV scale not approved"
+    }
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\c_crowbar.qc",
+      "exists": true,
+      "bytes": 8750,
+      "sha256": "A66D996444B7DF4311EC9608FEFFD82D6182DE56AF3FAD0376DB318093C23C4B",
+      "relative": "decompiled/c_crowbar.qc",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\c_crowbar_anims\\draw.smd",
+      "exists": true,
+      "bytes": 76248,
+      "sha256": "D6CE4943965194BBC9BC8F805EE94E8289ABAC6BEB2F3A75B2D4AB3D14139B72",
+      "relative": "decompiled/c_crowbar_anims/draw.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\c_crowbar_anims\\hitcenter1.smd",
+      "exists": true,
+      "bytes": 42817,
+      "sha256": "5DB064FB6C8C62DD0F1D2E3C58242607CFE7B8B223D3D367387BE6FF66249130",
+      "relative": "decompiled/c_crowbar_anims/hitcenter1.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\c_crowbar_anims\\hitcenter2.smd",
+      "exists": true,
+      "bytes": 42799,
+      "sha256": "5CC7B7172DA51AB4EA3FC3D52CCC90222CD4659161C1C6E888FE2912126A9718",
+      "relative": "decompiled/c_crowbar_anims/hitcenter2.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\c_crowbar_anims\\hitcenter3.smd",
+      "exists": true,
+      "bytes": 42782,
+      "sha256": "421C092B1A8469CDDB0E582F45236FAE848B5AEB28BF508FA45007F12E4382D0",
+      "relative": "decompiled/c_crowbar_anims/hitcenter3.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\c_crowbar_anims\\hitkill1.smd",
+      "exists": true,
+      "bytes": 55650,
+      "sha256": "393A5033A5D50C9D04E9BA4B2AFC65EB118596D4DEF697636E8A88EE92665A1F",
+      "relative": "decompiled/c_crowbar_anims/hitkill1.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\c_crowbar_anims\\holster.smd",
+      "exists": true,
+      "bytes": 27317,
+      "sha256": "93CA67E7BA9A57FDB694107D0C9A9AFD37B8A3119833F3F041FA41A36C75EFE4",
+      "relative": "decompiled/c_crowbar_anims/holster.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\c_crowbar_anims\\idle01.smd",
+      "exists": true,
+      "bytes": 261852,
+      "sha256": "616C345E32599DD5FF3D6621148D2C296D8508FEB874F08C503095A3914C45C5",
+      "relative": "decompiled/c_crowbar_anims/idle01.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\c_crowbar_anims\\misscenter1.smd",
+      "exists": true,
+      "bytes": 55717,
+      "sha256": "B2E2D572A33C0AE332673B4F895EFE537819E14C4847FEEAA318B5DE8123543B",
+      "relative": "decompiled/c_crowbar_anims/misscenter1.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\c_crowbar_anims\\misscenter2.smd",
+      "exists": true,
+      "bytes": 55717,
+      "sha256": "F5AE41B205CAA692DE143662F215FCAB2BF5FAEA6ADE79AE88887123DE1298FE",
+      "relative": "decompiled/c_crowbar_anims/misscenter2.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\crowbar_reference.smd",
+      "exists": true,
+      "bytes": 160120,
+      "sha256": "A578704D4A84039914F3D5FB323A684093FA95385E8171B89D460958B2838009",
+      "relative": "decompiled/crowbar_reference.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\materials\\_tga\\crowbar_cyl.tga",
+      "exists": true,
+      "bytes": 197159,
+      "sha256": "7182D078A7B7EFBBF863724890C74B29C56739A4978856B935AD7428D79A6229",
+      "relative": "materials/_tga/crowbar_cyl.tga",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\materials\\_tga\\crowbar_normal.tga",
+      "exists": true,
+      "bytes": 262695,
+      "sha256": "8F320D18AC02AD3A783BB238F74DB3F788E41528804A680B459E94AACFDA78B8",
+      "relative": "materials/_tga/crowbar_normal.tga",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\materials\\_tga\\head.tga",
+      "exists": true,
+      "bytes": 197159,
+      "sha256": "EC366093CC94F7D0F27CA8D2CE6E7D005E4E34884591920499E8D93A62BBF963",
+      "relative": "materials/_tga/head.tga",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\materials\\_tga\\head_normal.tga",
+      "exists": true,
+      "bytes": 262695,
+      "sha256": "8250DF0FDC0C7AF183F3E3F91B13EFAE7B30355BB78316C1281381AE227FEF28",
+      "relative": "materials/_tga/head_normal.tga",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\materials\\materials\\models\\weapons\\v_crowbar\\crowbar_cyl.vmt",
+      "exists": true,
+      "bytes": 521,
+      "sha256": "4BC82B4476B1BDBF2325B8835ECD2615C8C682DD1FBC34F877DFC89101FF66BF",
+      "relative": "materials/materials/models/weapons/v_crowbar/crowbar_cyl.vmt",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\materials\\materials\\models\\weapons\\v_crowbar\\crowbar_cyl.vtf",
+      "exists": true,
+      "bytes": 43912,
+      "sha256": "7F6FF74719F46C039C3DD039A2CBE2FEF77C70A8FB0B5499CB832547EDCF0094",
+      "relative": "materials/materials/models/weapons/v_crowbar/crowbar_cyl.vtf",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\materials\\materials\\models\\weapons\\v_crowbar\\crowbar_normal.vtf",
+      "exists": true,
+      "bytes": 87640,
+      "sha256": "3A10AC704C4BCA2985C5F15A8AC1C5C64ABB7BA213A1BC354D1BFC3AA2D230FD",
+      "relative": "materials/materials/models/weapons/v_crowbar/crowbar_normal.vtf",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\materials\\materials\\models\\weapons\\v_crowbar\\head.vtf",
+      "exists": true,
+      "bytes": 43912,
+      "sha256": "4F4C8C721EE9AD8213772E2FE0D1B9D8BEB741266A7EF834859047457C39277D",
+      "relative": "materials/materials/models/weapons/v_crowbar/head.vtf",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\materials\\materials\\models\\weapons\\v_crowbar\\head_normal.vtf",
+      "exists": true,
+      "bytes": 87640,
+      "sha256": "8F23D4DB3D4359ECAA3FD4CE532BE70D701CB40BC757611214E017F0A08CC982",
+      "relative": "materials/materials/models/weapons/v_crowbar/head_normal.vtf",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\materials\\materials\\models\\weapons\\v_crowbar\\head_uvw.vmt",
+      "exists": true,
+      "bytes": 507,
+      "sha256": "B403A63C422D35D6E7226E055D6E7DCBE688B78B2F563DB90A907AE540B21E01",
+      "relative": "materials/materials/models/weapons/v_crowbar/head_uvw.vmt",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\src\\models\\weapons\\c_crowbar.dx80.vtx",
+      "exists": true,
+      "bytes": 6084,
+      "sha256": "9CD1536D45853647DDBB95287D2697DA9B5322D821B07CB5C58B964232B4D522",
+      "relative": "src/models/weapons/c_crowbar.dx80.vtx",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\src\\models\\weapons\\c_crowbar.dx90.vtx",
+      "exists": true,
+      "bytes": 6084,
+      "sha256": "466FBF1DCDC2E8522EB134BA79F89D71E6BDEF36C4B3679EEFB0FD2B545DF853",
+      "relative": "src/models/weapons/c_crowbar.dx90.vtx",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\src\\models\\weapons\\c_crowbar.mdl",
+      "exists": true,
+      "bytes": 27320,
+      "sha256": "9FC2231AE94171609DE85781D567A9ED5380B84A7D77821ED3AD485586E59992",
+      "relative": "src/models/weapons/c_crowbar.mdl",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\src\\models\\weapons\\c_crowbar.vvd",
+      "exists": true,
+      "bytes": 20288,
+      "sha256": "53521D9AE6116E853456B44BCA181E08DF9A3A0F43D7D95F82AA74749DC6D377",
+      "relative": "src/models/weapons/c_crowbar.vvd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\worker.json",
+      "exists": true,
+      "bytes": 1389,
+      "sha256": "E96A7D0AD9176CDB105E197E3A3DA49B406EAE0956F3D80BEAB1624D7F369A84",
+      "relative": "worker.json",
+      "previous_hash_matches": true
+    }
+  ],
+  "implementation_status": "NOT VALIDATED IN FNV",
+  "visual_owner": "Claude Opus 5.5",
+  "provenance_note": "",
+  "missing_dependencies": []
+}
