@@ -1,0 +1,79 @@
+﻿{
+    "schema":  "rem.regression_spec.v1",
+    "suites":  [
+                   {
+                       "id":  "R_BOOT",
+                       "tests":  [
+                                     "game boots",
+                                     "new/load game reaches playable state",
+                                     "no new high severity log errors"
+                                 ]
+                   },
+                   {
+                       "id":  "R_GMOD_WEAPONS",
+                       "tests":  [
+                                     "Tool Gun and Physics Gun present",
+                                     "drop/pickup preserves identity",
+                                     "first/third/world presentation",
+                                     "weapon switch cleanup",
+                                     "save/load"
+                                 ]
+                   },
+                   {
+                       "id":  "R_QMENU",
+                       "tests":  [
+                                     "Q only opens intended menu",
+                                     "no E hijack",
+                                     "no flashing",
+                                     "icons render",
+                                     "spawn selection stable",
+                                     "Duplicator/Remover selection reaches Tool Gun"
+                                 ]
+                   },
+                   {
+                       "id":  "R_PHYSGUN",
+                       "tests":  [
+                                     "valid target acquire",
+                                     "invalid target reject",
+                                     "beam endpoint",
+                                     "stable hold",
+                                     "distance",
+                                     "rotation",
+                                     "freeze/reacquire",
+                                     "drop",
+                                     "punt",
+                                     "NPC ragdoll",
+                                     "cell/weapon/save cleanup"
+                                 ]
+                   },
+                   {
+                       "id":  "R_SKATE",
+                       "tests":  [
+                                     "normal FNV before activation",
+                                     "board held visible",
+                                     "activate",
+                                     "FNV HUD hides",
+                                     "THUG2 HUD",
+                                     "camera",
+                                     "movement",
+                                     "animations",
+                                     "exit restores FNV",
+                                     "save/load",
+                                     "zoom no crash"
+                                 ]
+                   },
+                   {
+                       "id":  "R_PROPS",
+                       "tests":  [
+                                     "catalog loads",
+                                     "icons",
+                                     "spawn",
+                                     "scale",
+                                     "collision",
+                                     "no missing resource"
+                                 ]
+                   }
+               ]
+}
+
+[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
