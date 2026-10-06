@@ -1,0 +1,18 @@
+﻿{
+    "prop_count":  85,
+    "medium":  83,
+    "review":  2,
+    "excluded_overlap":  0,
+    "levels":  16,
+    "missing_level_glbs":  0,
+    "physgun_resolved_assets":  15,
+    "physgun_missing_assets":  3,
+    "physgun_missing":  [
+                            "models/weapons/v_physics.mdl",
+                            "models/weapons/v_physics.vvd",
+                            "models/weapons/v_physics.dx90.vtx"
+                        ],
+    "result":  "PASS"
+}
+
+[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
