@@ -27,3 +27,8 @@ Older status/context can lag actual implementation. Reconcile against source, de
 
 ## F007 - Concurrent state changes
 Another active engineering session may modify the workspace. Immediately before modification/deploy, re-check source version/hash, mtimes and deployed hashes. Do not overwrite newer state based on stale reads.
+
+
+## F013 - Per-bone torso scaling deforms converted Combine armor
+Human playtest showed that anisotropic per-bone torso-depth scaling made the Combine torso, back and shoulders worse even though the head correction was successful.
+Durable rule: do not correct this armor's fit by scaling individual torso bone-local axes. Preserve the validated head correction and use isolated world-space translation/region fitting for torso placement changes, validating one geometric degree of freedom at a time.
