@@ -1,0 +1,115 @@
+{
+  "purpose": "GitHub-safe artifact index for prop support phase 4. Binary previews and proprietary assets remain local; GitHub stores scripts/docs/hashes/provenance.",
+  "artifact_count": 9,
+  "all_present": true,
+  "artifacts": [
+    {
+      "path": "build/prepared/prop_support_phase4/summary.json",
+      "exists": true,
+      "bytes": 891,
+      "sha256": "B836AF92DB795D5EBCF01763C9EE7852F33F7FE98B1E8EB3D83760672C087499",
+      "summary": {
+        "current_ready_props": 290,
+        "planned_first_wave": 310,
+        "gmod_reserve_selected": 80,
+        "gmod_reserve_eligible": 797,
+        "thug2_diversified_selected": 20
+      }
+    },
+    {
+      "path": "build/prepared/prop_support_phase4/thug2_diversified_first_wave.json",
+      "exists": true,
+      "bytes": 16473,
+      "sha256": "EA30E7F9F805B4033A95450BE0564810ABC6A9BE9F5D69FE8141924A3DC55503",
+      "summary": {
+        "selected": 20,
+        "category_counts": {
+          "Skate - Rails Handrails": 6,
+          "Skate - Quarterpipes Halfpipes Ramps": 5,
+          "Skate - Ledges Hubbas Curbs": 4,
+          "Street - Benches Tables Chairs": 2,
+          "Street - Fences Barriers Poles Pipes": 2,
+          "Skate - Stairs Platforms Misc": 1
+        }
+      }
+    },
+    {
+      "path": "build/prepared/prop_support_phase4/thug2_diversified_leaf_review.json",
+      "exists": true,
+      "bytes": 50832,
+      "sha256": "1AE0682904E42B99C4813A4011899296592C7590302445221E56F8F6486DDDC0",
+      "summary": {
+        "count": 20,
+        "status_counts": {
+          "high_review_priority": 13,
+          "medium_review_priority": 7,
+          "complex_review": 0
+        }
+      }
+    },
+    {
+      "path": "build/prepared/prop_support_phase4/gmod_reserve_pool.json",
+      "exists": true,
+      "bytes": 106383,
+      "sha256": "1B7EECA0B660C5AAD4698FAF2ED13829258ED467CADB3D78F2C083691A2D2BD0",
+      "summary": {
+        "category_counts": {
+          "Skate - Rails & Barriers": 10,
+          "Skate - Benches & Tables": 10,
+          "Skate - Beams Planks Ladders": 10,
+          "Skate - Ramps Platforms Stairs": 10,
+          "Physics - Crates Pallets Boxes": 10,
+          "Physics - Barrels Canisters Tires": 10,
+          "Street - Signs Cones Carts": 10,
+          "Environment - Furniture Utility": 10
+        }
+      }
+    },
+    {
+      "path": "build/prepared/prop_support_phase4/menu_taxonomy_v2.json",
+      "exists": true,
+      "bytes": 229786,
+      "sha256": "E4BD3F1BE71B54FFF20150A5E30AFA092B90ABF50658E9B9F08E07C00D0A837B",
+      "summary": {
+        "current_ready_count": 290,
+        "planned_first_wave_count": 310
+      }
+    },
+    {
+      "path": "build/prepared/prop_support_phase4/promotion_plan.json",
+      "exists": true,
+      "bytes": 50673,
+      "sha256": "75A995A38416C944407D612949035DF37A25D673DCA9843A93E7A0CFC5F6A198",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/prop_support_phase4/thug2_promotion_validation_ledger.json",
+      "exists": true,
+      "bytes": 16445,
+      "sha256": "DB5F3A703ACDB34C3FC0FC99C3479C1412BEA35B56FFB1106940F969D6CBCCE7",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/prop_support_phase4/review_packet.json",
+      "exists": true,
+      "bytes": 533,
+      "sha256": "5A6F8A41418D7186BFDE725D33FD57B69215D3841D4A56F374757798157842F5",
+      "summary": {}
+    },
+    {
+      "path": "build/validation/prop_support_phase4.json",
+      "exists": true,
+      "bytes": 8991,
+      "sha256": "ACFF237C3E0BA44ADCC8733FB327FCCC7C58314913C293606741D1EFBFD8C567",
+      "summary": {
+        "status": "pass",
+        "error_count": 0,
+        "check_count": 46
+      }
+    }
+  ],
+  "local_binary_evidence": [
+    "build/prepared/prop_support_phase4/diversified_leaf_previews/*.png",
+    "build/prepared/prop_support_phase4/thug2_top20_contact_sheet.png"
+  ]
+}
