@@ -1,0 +1,834 @@
+{
+  "checks": [
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\engine\\buttonscripts.q",
+      "exists": true,
+      "bytes": 116,
+      "sha256": "62C3A27581ECA1D393F2B96E097019CF541CB0BB8C1BA7DC8E79D88CCCD36459",
+      "expected_sha256": "62C3A27581ECA1D393F2B96E097019CF541CB0BB8C1BA7DC8E79D88CCCD36459",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\engine\\controller_pulling.q",
+      "exists": true,
+      "bytes": 83,
+      "sha256": "DE28BC5ED46883C0523D9A1927FB0BE3C4F3D61451259DD8BBCF7FDF7777845A",
+      "expected_sha256": "DE28BC5ED46883C0523D9A1927FB0BE3C4F3D61451259DD8BBCF7FDF7777845A",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\engine\\menu\\menubuttonremap.q",
+      "exists": true,
+      "bytes": 1620,
+      "sha256": "AD725536B3C9E07DB132625BC8D267C230EE793FAF76C792B40CC28804CD309D",
+      "expected_sha256": "AD725536B3C9E07DB132625BC8D267C230EE793FAF76C792B40CC28804CD309D",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\airtricks.q",
+      "exists": true,
+      "bytes": 2439,
+      "sha256": "666F121613476491A748DF37771AD8C8BC0DDF58C6675563821E44F34805B65F",
+      "expected_sha256": "666F121613476491A748DF37771AD8C8BC0DDF58C6675563821E44F34805B65F",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\alltricks.q",
+      "exists": true,
+      "bytes": 3966,
+      "sha256": "D9E9E8C6BF77C9EB6EEDBC1CE2B5B3222CDE3CF5A910B9A8A4A0711E07C12A4A",
+      "expected_sha256": "D9E9E8C6BF77C9EB6EEDBC1CE2B5B3222CDE3CF5A910B9A8A4A0711E07C12A4A",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\grindlist.q",
+      "exists": true,
+      "bytes": 11518,
+      "sha256": "18ABB4DD663D144FB409175AE94A71EAA76C306E5C216FB5BB57453EDF1AFE60",
+      "expected_sha256": "18ABB4DD663D144FB409175AE94A71EAA76C306E5C216FB5BB57453EDF1AFE60",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\grindscripts.q",
+      "exists": true,
+      "bytes": 95,
+      "sha256": "02EE0FE0E7ACFFABF6CBDEA35B98269865BCD61715C7FBA527858AD6D17BA821",
+      "expected_sha256": "02EE0FE0E7ACFFABF6CBDEA35B98269865BCD61715C7FBA527858AD6D17BA821",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\groundtricks.q",
+      "exists": true,
+      "bytes": 2044,
+      "sha256": "C971BFB463F020951C6B056A37A0FD872706DAEE57E960D8E2325B26DA46858B",
+      "expected_sha256": "C971BFB463F020951C6B056A37A0FD872706DAEE57E960D8E2325B26DA46858B",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\liptricks.q",
+      "exists": true,
+      "bytes": 8512,
+      "sha256": "39E9AB20422CE2109F2A457C0F4ED5E454E28A89153D80DE016AFB8093EE16E8",
+      "expected_sha256": "39E9AB20422CE2109F2A457C0F4ED5E454E28A89153D80DE016AFB8093EE16E8",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\manualtricks.q",
+      "exists": true,
+      "bytes": 22740,
+      "sha256": "D3862DA9E7601CA7837B47E44BAF07C768ADE84245B3938C54B038AFBC19AF92",
+      "expected_sha256": "D3862DA9E7601CA7837B47E44BAF07C768ADE84245B3938C54B038AFBC19AF92",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\physics.q",
+      "exists": true,
+      "bytes": 34338,
+      "sha256": "C343CC8030CF6EB9A3BFC64D61FF62C7EC330242046560F7EFCCFE1BB9A53DD5",
+      "expected_sha256": "C343CC8030CF6EB9A3BFC64D61FF62C7EC330242046560F7EFCCFE1BB9A53DD5",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\pressuretricks.q",
+      "exists": true,
+      "bytes": 1069,
+      "sha256": "7046FBC3AD2F7D77A35ADF7F6FC97B428AEEB121D8078CA534CFA0B90F1A7E53",
+      "expected_sha256": "7046FBC3AD2F7D77A35ADF7F6FC97B428AEEB121D8078CA534CFA0B90F1A7E53",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\skater_profile.q",
+      "exists": true,
+      "bytes": 636,
+      "sha256": "0677A6A13F6A08D1AA808DC7B208462A5B860E075B1D7A1A32A4A62AEC6E4285",
+      "expected_sha256": "0677A6A13F6A08D1AA808DC7B208462A5B860E075B1D7A1A32A4A62AEC6E4285",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\switch_control.q",
+      "exists": true,
+      "bytes": 1298,
+      "sha256": "A093C34FFC5450441751D6CB81E42CAB8D8393F0770F4461B1C3E3FB5793EB29",
+      "expected_sha256": "A093C34FFC5450441751D6CB81E42CAB8D8393F0770F4461B1C3E3FB5793EB29",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\tricks.q",
+      "exists": true,
+      "bytes": 2413,
+      "sha256": "98CE4D76ADDA59DF2457EB5357645CEBABEC25FA62E95A4D6FCFD0D641081187",
+      "expected_sha256": "98CE4D76ADDA59DF2457EB5357645CEBABEC25FA62E95A4D6FCFD0D641081187",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\walking_control.q",
+      "exists": true,
+      "bytes": 1143,
+      "sha256": "3C8F7D74C750A4649DBD71F293E7E80D364D835CC1A3575410A8419500C0A5E8",
+      "expected_sha256": "3C8F7D74C750A4649DBD71F293E7E80D364D835CC1A3575410A8419500C0A5E8",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_controller_map\\decompiled\\game\\skater\\walltricks.q",
+      "exists": true,
+      "bytes": 592,
+      "sha256": "E400B16321C327EFEC16BDFB0B50D557BD7CFB18430DFEEAB8CBA2B9766EFB3F",
+      "expected_sha256": "E400B16321C327EFEC16BDFB0B50D557BD7CFB18430DFEEAB8CBA2B9766EFB3F",
+      "match": true,
+      "kind": "controller/trick/physics script"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\fonts\\buttonsngc.fnt.ps2",
+      "exists": true,
+      "bytes": 17714,
+      "sha256": "099C2DAE03287050F925D71421E8AE243A7A9ABF90F24944AEDFB244107D065B",
+      "expected_sha256": "099C2DAE03287050F925D71421E8AE243A7A9ABF90F24944AEDFB244107D065B",
+      "match": true,
+      "kind": "controller_fonts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\fonts\\buttonsps2.fnt.ps2",
+      "exists": true,
+      "bytes": 34112,
+      "sha256": "CC1C73E2C111A190EA1028380D596A796F402D784D45E75C6867D8FED17ED381",
+      "expected_sha256": "CC1C73E2C111A190EA1028380D596A796F402D784D45E75C6867D8FED17ED381",
+      "match": true,
+      "kind": "controller_fonts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\fonts\\buttonsxbox.fnt.ps2",
+      "exists": true,
+      "bytes": 34140,
+      "sha256": "32C2DA09AA61835F24CEF3FD13DE77808FEB485ADB0583563257D560ED1F50FD",
+      "expected_sha256": "32C2DA09AA61835F24CEF3FD13DE77808FEB485ADB0583563257D560ED1F50FD",
+      "match": true,
+      "kind": "controller_fonts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\fonts\\buttons\\buttonsngc.img.ps2",
+      "exists": true,
+      "bytes": 27356,
+      "sha256": "D01E1C3D387862A5B9D8B641B4A668DC167C982977A090C05709200419CEB18E",
+      "expected_sha256": "D01E1C3D387862A5B9D8B641B4A668DC167C982977A090C05709200419CEB18E",
+      "match": true,
+      "kind": "controller_fonts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\fonts\\buttons\\buttonsps2.img.ps2",
+      "exists": true,
+      "bytes": 36056,
+      "sha256": "AF4231B8B9746884342E1916B3722BF2CE8A6E7D70CFBD75BDF944ACB5BC11B0",
+      "expected_sha256": "AF4231B8B9746884342E1916B3722BF2CE8A6E7D70CFBD75BDF944ACB5BC11B0",
+      "match": true,
+      "kind": "controller_fonts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\fonts\\buttons\\buttonsxbox.img.ps2",
+      "exists": true,
+      "bytes": 40656,
+      "sha256": "A0C7C55FFDEF81ABBE1687084DEBD4BD7F0EA2489B72224B11F0F2BA3DA46EE0",
+      "expected_sha256": "A0C7C55FFDEF81ABBE1687084DEBD4BD7F0EA2489B72224B11F0F2BA3DA46EE0",
+      "match": true,
+      "kind": "controller_fonts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\fonts\\newtimerfont.fnt.ps2",
+      "exists": true,
+      "bytes": 17602,
+      "sha256": "9C464010CED4EC3227C676F45E85DDE849A19ADAA7923E4FE7D213232446F652",
+      "expected_sha256": "9C464010CED4EC3227C676F45E85DDE849A19ADAA7923E4FE7D213232446F652",
+      "match": true,
+      "kind": "hud_fonts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\fonts\\newtrickfont.fnt.ps2",
+      "exists": true,
+      "bytes": 68196,
+      "sha256": "720129B0E27CEF5FECBA030EEFC84FAC91D2997E66F1D17D33954675A07BFCC6",
+      "expected_sha256": "720129B0E27CEF5FECBA030EEFC84FAC91D2997E66F1D17D33954675A07BFCC6",
+      "match": true,
+      "kind": "hud_fonts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\fonts\\timerfont\\newtimerfont.img.ps2",
+      "exists": true,
+      "bytes": 33824,
+      "sha256": "39818419DDD98DC29798E7308C7D987ADA8EB69704A2515635094FB84DB44D55",
+      "expected_sha256": "39818419DDD98DC29798E7308C7D987ADA8EB69704A2515635094FB84DB44D55",
+      "match": true,
+      "kind": "hud_fonts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\fonts\\trickfont\\newtrickfont.img.ps2",
+      "exists": true,
+      "bytes": 121056,
+      "sha256": "A7C3C8D9AA9FA89C0C4C21A7CCF04DF04813FFF66940A5143973E357DE5875AC",
+      "expected_sha256": "A7C3C8D9AA9FA89C0C4C21A7CCF04DF04813FFF66940A5143973E357DE5875AC",
+      "match": true,
+      "kind": "hud_fonts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\panelsprites\\balancearrow.img.ps2",
+      "exists": true,
+      "bytes": 224,
+      "sha256": "410C37A6FD03DFFDF2F5BA4660D508F0F34CA67BBBDB972F3D02154764533D15",
+      "expected_sha256": "410C37A6FD03DFFDF2F5BA4660D508F0F34CA67BBBDB972F3D02154764533D15",
+      "match": true,
+      "kind": "hud_panels"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\panelsprites\\balancearrow_glow.img.ps2",
+      "exists": true,
+      "bytes": 352,
+      "sha256": "F6082544C8C5AC8A11360561E205755BB8FC462CD4F2A3EA6D00711EB282146B",
+      "expected_sha256": "F6082544C8C5AC8A11360561E205755BB8FC462CD4F2A3EA6D00711EB282146B",
+      "match": true,
+      "kind": "hud_panels"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\panelsprites\\balancemeter.img.ps2",
+      "exists": true,
+      "bytes": 2144,
+      "sha256": "B479701D55E84A8C36C7681D2D7D77058306630F03212CA1566B9E3930185A72",
+      "expected_sha256": "B479701D55E84A8C36C7681D2D7D77058306630F03212CA1566B9E3930185A72",
+      "match": true,
+      "kind": "hud_panels"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\panelsprites\\highscore.img.ps2",
+      "exists": true,
+      "bytes": 2144,
+      "sha256": "CE5867AF246AEEFB72020C46481186E6C65C9DCA6373FB3707C3B48656CD2769",
+      "expected_sha256": "CE5867AF246AEEFB72020C46481186E6C65C9DCA6373FB3707C3B48656CD2769",
+      "match": true,
+      "kind": "hud_panels"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\panelsprites\\mini_score_hud.img.ps2",
+      "exists": true,
+      "bytes": 1120,
+      "sha256": "5306017641A62C424A716134272D3D6A0BFE7BEE2F280A7626234F0D0E8A682D",
+      "expected_sha256": "5306017641A62C424A716134272D3D6A0BFE7BEE2F280A7626234F0D0E8A682D",
+      "match": true,
+      "kind": "hud_panels"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\panelsprites\\score_small.img.ps2",
+      "exists": true,
+      "bytes": 9248,
+      "sha256": "A27315D3C7598B1AF197B7CEEA42D2D289EF84C9921F12219C4FBA48928CF074",
+      "expected_sha256": "A27315D3C7598B1AF197B7CEEA42D2D289EF84C9921F12219C4FBA48928CF074",
+      "match": true,
+      "kind": "hud_panels"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\panelsprites\\special.img.ps2",
+      "exists": true,
+      "bytes": 608,
+      "sha256": "6090BBF3C156B8A8F2E1866BC6D2A3D5627697FC57AFF39F8A5529982F1ED8AA",
+      "expected_sha256": "6090BBF3C156B8A8F2E1866BC6D2A3D5627697FC57AFF39F8A5529982F1ED8AA",
+      "match": true,
+      "kind": "hud_panels"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\panelsprites\\specialbar.img.ps2",
+      "exists": true,
+      "bytes": 608,
+      "sha256": "98D1033E0FB0E2D579ABB65C74960F09B9725C73193916A7379F5E77DDA33A61",
+      "expected_sha256": "98D1033E0FB0E2D579ABB65C74960F09B9725C73193916A7379F5E77DDA33A61",
+      "match": true,
+      "kind": "hud_panels"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\panelsprites\\specialbar_end.img.ps2",
+      "exists": true,
+      "bytes": 608,
+      "sha256": "86DF1272CDACD24987CC633E9E7112B1B6F01C387CF3932ED3C5BE4A84778D29",
+      "expected_sha256": "86DF1272CDACD24987CC633E9E7112B1B6F01C387CF3932ED3C5BE4A84778D29",
+      "match": true,
+      "kind": "hud_panels"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\mainmenusprites\\control_icon.img.ps2",
+      "exists": true,
+      "bytes": 8288,
+      "sha256": "F6C19AC6F266D13FB2FCAFBD4E457133222BD78C776EF7150276F8B18B6E63E3",
+      "expected_sha256": "F6C19AC6F266D13FB2FCAFBD4E457133222BD78C776EF7150276F8B18B6E63E3",
+      "match": true,
+      "kind": "controller_and_menu_sprites"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\mainmenusprites\\n_dpad.img.ps2",
+      "exists": true,
+      "bytes": 608,
+      "sha256": "3433B240C0AE137CA27EE10F9272C14B2D764B2409A50CD48E0C87250EB715E2",
+      "expected_sha256": "3433B240C0AE137CA27EE10F9272C14B2D764B2409A50CD48E0C87250EB715E2",
+      "match": true,
+      "kind": "controller_and_menu_sprites"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\mainmenusprites\\p_dpad.img.ps2",
+      "exists": true,
+      "bytes": 608,
+      "sha256": "C9D9E7E5471786E2117E6F665D961762D30ED8DAF94708A7C952F09E8AA74FD6",
+      "expected_sha256": "C9D9E7E5471786E2117E6F665D961762D30ED8DAF94708A7C952F09E8AA74FD6",
+      "match": true,
+      "kind": "controller_and_menu_sprites"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\mainmenusprites\\x_dpad.img.ps2",
+      "exists": true,
+      "bytes": 608,
+      "sha256": "D5222F60D01E1F738B07DDA5DB4857AFAC8B598FEA5EA0E435C657054762A5B1",
+      "expected_sha256": "D5222F60D01E1F738B07DDA5DB4857AFAC8B598FEA5EA0E435C657054762A5B1",
+      "match": true,
+      "kind": "controller_and_menu_sprites"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\mainmenusprites\\tricks_icon.img.ps2",
+      "exists": true,
+      "bytes": 8288,
+      "sha256": "8FD4799074C36CD9A8E587B30FAE0F1B353B298BE9371D37352CC64E50984DB5",
+      "expected_sha256": "8FD4799074C36CD9A8E587B30FAE0F1B353B298BE9371D37352CC64E50984DB5",
+      "match": true,
+      "kind": "controller_and_menu_sprites"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\mainmenusprites\\mainicon_score.img.ps2",
+      "exists": true,
+      "bytes": 2144,
+      "sha256": "183E76D07C8E2B9C9D2CAB4923753D72D486E464FBAB74215643FC02D36A9B98",
+      "expected_sha256": "183E76D07C8E2B9C9D2CAB4923753D72D486E464FBAB74215643FC02D36A9B98",
+      "match": true,
+      "kind": "controller_and_menu_sprites"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\mainmenusprites\\menu_sign.img.ps2",
+      "exists": true,
+      "bytes": 32864,
+      "sha256": "D09438039A6B689E97A14AD06A7E10B7289C916DBFA504DD9D7046B28A85ACAE",
+      "expected_sha256": "D09438039A6B689E97A14AD06A7E10B7289C916DBFA504DD9D7046B28A85ACAE",
+      "match": true,
+      "kind": "controller_and_menu_sprites"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\images\\mainmenusprites\\sharedsprites\\menu_bottom.img.ps2",
+      "exists": true,
+      "bytes": 1120,
+      "sha256": "1948B897950D9EE7DA35206AE0A903B9805016B0201935D9D85B918C72FD3762",
+      "expected_sha256": "1948B897950D9EE7DA35206AE0A903B9805016B0201935D9D85B918C72FD3762",
+      "match": true,
+      "kind": "controller_and_menu_sprites"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\scripts\\engine\\buttonscripts.qb",
+      "exists": true,
+      "bytes": 5112,
+      "sha256": "DC4ED286A8C8FE62D7A81BE974E339636315D6E9C6C12F55EE46E222378519AF",
+      "expected_sha256": "DC4ED286A8C8FE62D7A81BE974E339636315D6E9C6C12F55EE46E222378519AF",
+      "match": true,
+      "kind": "ui_scripts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\scripts\\engine\\buttonscripts.qb.ps2",
+      "exists": true,
+      "bytes": 2792,
+      "sha256": "102E2550EB6CD8636E5FAF261234F0F2A12CD18F2F2F6707F8CA59490BFDBDA8",
+      "expected_sha256": "102E2550EB6CD8636E5FAF261234F0F2A12CD18F2F2F6707F8CA59490BFDBDA8",
+      "match": true,
+      "kind": "ui_scripts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\scripts\\engine\\controller_pulling.qb",
+      "exists": true,
+      "bytes": 4826,
+      "sha256": "971969A731266EF93461C85C9E778C22FED1A67821522B9BA4E9FA9CB7688603",
+      "expected_sha256": "971969A731266EF93461C85C9E778C22FED1A67821522B9BA4E9FA9CB7688603",
+      "match": true,
+      "kind": "ui_scripts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\scripts\\engine\\controller_pulling.qb.ps2",
+      "exists": true,
+      "bytes": 1920,
+      "sha256": "8EEB141578DADD0440A5436A51155130641A7C3F397FA983CDE1F7208D3E43DA",
+      "expected_sha256": "8EEB141578DADD0440A5436A51155130641A7C3F397FA983CDE1F7208D3E43DA",
+      "match": true,
+      "kind": "ui_scripts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\scripts\\engine\\menu\\menubuttonremap.qb",
+      "exists": true,
+      "bytes": 1706,
+      "sha256": "DFBA44F8C0B51BC22B23D0104D79EFC587342D7CCC00F06595F6F24F3821B485",
+      "expected_sha256": "DFBA44F8C0B51BC22B23D0104D79EFC587342D7CCC00F06595F6F24F3821B485",
+      "match": true,
+      "kind": "ui_scripts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\scripts\\engine\\menu\\menubuttonremap.qb.ps2",
+      "exists": true,
+      "bytes": 552,
+      "sha256": "C77890FBBA80A06DD436825737BF6789A7F9E16B9CDBB26CA174E65F2655E10C",
+      "expected_sha256": "C77890FBBA80A06DD436825737BF6789A7F9E16B9CDBB26CA174E65F2655E10C",
+      "match": true,
+      "kind": "ui_scripts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\scripts\\game\\skater\\walking_control.qb",
+      "exists": true,
+      "bytes": 28891,
+      "sha256": "C2B95C11F366A9DBB074BE3997D836F03C2219F31E5335627F03751D92995F12",
+      "expected_sha256": "C2B95C11F366A9DBB074BE3997D836F03C2219F31E5335627F03751D92995F12",
+      "match": true,
+      "kind": "ui_scripts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\scripts\\game\\skater\\walking_control.qb.ps2",
+      "exists": true,
+      "bytes": 25464,
+      "sha256": "7A5D90E88132DBF029E3271E17FCDB55143681AA2AE1184EE0CD694353130C30",
+      "expected_sha256": "7A5D90E88132DBF029E3271E17FCDB55143681AA2AE1184EE0CD694353130C30",
+      "match": true,
+      "kind": "ui_scripts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\scripts\\game\\menu\\gamemenu_pause.qb",
+      "exists": true,
+      "bytes": 12553,
+      "sha256": "76B10EE0B66EB744DC7BB0B5755E1C9AD123C66D17983FDCB040A4B867E81FB1",
+      "expected_sha256": "76B10EE0B66EB744DC7BB0B5755E1C9AD123C66D17983FDCB040A4B867E81FB1",
+      "match": true,
+      "kind": "ui_scripts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\scripts\\game\\menu\\gamemenu_pause.qb.ps2",
+      "exists": true,
+      "bytes": 3872,
+      "sha256": "C3FFA9EC2177B8AACAD983888A32E2992DFD516F72BF4F334868892EC2E2FF95",
+      "expected_sha256": "C3FFA9EC2177B8AACAD983888A32E2992DFD516F72BF4F334868892EC2E2FF95",
+      "match": true,
+      "kind": "ui_scripts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\scripts\\game\\menu\\menusounds.qb",
+      "exists": true,
+      "bytes": 91,
+      "sha256": "A399ACD202A83A135445BE08F8F4AA350DB16382C9D59E2F6289053D26BA67CB",
+      "expected_sha256": "A399ACD202A83A135445BE08F8F4AA350DB16382C9D59E2F6289053D26BA67CB",
+      "match": true,
+      "kind": "ui_scripts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\scripts\\game\\menu\\menusounds.qb.ps2",
+      "exists": true,
+      "bytes": 84,
+      "sha256": "35868BD24914E839D4B7E2371D288AF1A52FD77A056E860216805EB435628B35",
+      "expected_sha256": "35868BD24914E839D4B7E2371D288AF1A52FD77A056E860216805EB435628B35",
+      "match": true,
+      "kind": "ui_scripts"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\sounds\\vag\\shared\\goals\\hudspecial1.vag",
+      "exists": true,
+      "bytes": 9024,
+      "sha256": "A738AD70E8CE2B025014A3E84F3E33A51360CD6A84DEA54C369ADD9D19F3A9CF",
+      "expected_sha256": "A738AD70E8CE2B025014A3E84F3E33A51360CD6A84DEA54C369ADD9D19F3A9CF",
+      "match": true,
+      "kind": "hud_audio"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\sounds\\vag\\shared\\goals\\hudtrickperfect.vag",
+      "exists": true,
+      "bytes": 15424,
+      "sha256": "98D39814C70FE69AE00B397AB74E5F01384AEF15B84BC58C526A86B77583878D",
+      "expected_sha256": "98D39814C70FE69AE00B397AB74E5F01384AEF15B84BC58C526A86B77583878D",
+      "match": true,
+      "kind": "hud_audio"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\sounds\\vag\\shared\\goals\\hudtrickslopc.vag",
+      "exists": true,
+      "bytes": 8640,
+      "sha256": "6152D3F1E2A2EA822C594AD7914677F168925FFE478EDCCBDA4B26EE7AE60E76",
+      "expected_sha256": "6152D3F1E2A2EA822C594AD7914677F168925FFE478EDCCBDA4B26EE7AE60E76",
+      "match": true,
+      "kind": "hud_audio"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\sounds\\vag\\shared\\goals\\hud_jumpgap.vag",
+      "exists": true,
+      "bytes": 4880,
+      "sha256": "7E5EB9AD5BECB39D7E341E30FAFBEF3657B18C9F4CCF34E2D7305CD1DE16E397",
+      "expected_sha256": "7E5EB9AD5BECB39D7E341E30FAFBEF3657B18C9F4CCF34E2D7305CD1DE16E397",
+      "match": true,
+      "kind": "hud_audio"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\sounds\\vag\\shared\\goals\\hud_specialtrickaa.vag",
+      "exists": true,
+      "bytes": 17456,
+      "sha256": "0FE3235F786AC7AEB87DC78F2FA871AA56BFB71AFD5DCD981E7BCAA0E2705420",
+      "expected_sha256": "0FE3235F786AC7AEB87DC78F2FA871AA56BFB71AFD5DCD981E7BCAA0E2705420",
+      "match": true,
+      "kind": "hud_audio"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\sounds\\vag\\shared\\goals\\landcombo01.vag",
+      "exists": true,
+      "bytes": 3552,
+      "sha256": "69F95692011B175FEA2C31D2CA0DEBACDD8FCD2BB095B487AF6C9381C39121A4",
+      "expected_sha256": "69F95692011B175FEA2C31D2CA0DEBACDD8FCD2BB095B487AF6C9381C39121A4",
+      "match": true,
+      "kind": "hud_audio"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\sounds\\vag\\shared\\menu\\sk6_menu_back.vag",
+      "exists": true,
+      "bytes": 2224,
+      "sha256": "83EB45133ABAD220F7EBBF81E49C3B939CB2D262515044B06A664DD423F4E4EA",
+      "expected_sha256": "83EB45133ABAD220F7EBBF81E49C3B939CB2D262515044B06A664DD423F4E4EA",
+      "match": true,
+      "kind": "hud_audio"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\sounds\\vag\\shared\\menu\\sk6_menu_fly_in.vag",
+      "exists": true,
+      "bytes": 5760,
+      "sha256": "3E35C8C9624DDF329861F903204C76AC0BCCEDB9DA513ACC77A3D16894BBD512",
+      "expected_sha256": "3E35C8C9624DDF329861F903204C76AC0BCCEDB9DA513ACC77A3D16894BBD512",
+      "match": true,
+      "kind": "hud_audio"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\sounds\\vag\\shared\\menu\\sk6_menu_move.vag",
+      "exists": true,
+      "bytes": 3088,
+      "sha256": "5A5E4A2D1F9EE73A7BAB810401F42A8F3800FC9A294503A4C67ECAD0E9279904",
+      "expected_sha256": "5A5E4A2D1F9EE73A7BAB810401F42A8F3800FC9A294503A4C67ECAD0E9279904",
+      "match": true,
+      "kind": "hud_audio"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\thug2_ui_original\\sounds\\vag\\shared\\menu\\sk6_menu_select.vag",
+      "exists": true,
+      "bytes": 5568,
+      "sha256": "FB94F9B2178D885A1694ABA1E476CCE1700E7D6097B550DFD15E6DDB2917264F",
+      "expected_sha256": "FB94F9B2178D885A1694ABA1E476CCE1700E7D6097B550DFD15E6DDB2917264F",
+      "match": true,
+      "kind": "hud_audio"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\board_animation91\\idle.glb",
+      "exists": true,
+      "bytes": 81836,
+      "sha256": "6766808F6075D3528E962F87BB98208F250920026B3887E00EDE3189B255C4DD",
+      "expected_sha256": "6766808f6075d3528e962f87bb98208f250920026b3887e00ede3189b255c4dd",
+      "match": true,
+      "kind": "prepared original animation assembly; no visual pass"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\board_animation91\\push.glb",
+      "exists": true,
+      "bytes": 83700,
+      "sha256": "CA030AE878E1ED3D7D84D2606597D00F22054BF9B317E527588836110223E212",
+      "expected_sha256": "ca030ae878e1ed3d7d84d2606597d00f22054bf9b317e527588836110223e212",
+      "match": true,
+      "kind": "prepared original animation assembly; no visual pass"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\board_animation91\\ollie.glb",
+      "exists": true,
+      "bytes": 91220,
+      "sha256": "17990EE084D5AF8C73353A32DC4825F0E1D20B02461F2D17CBE7F190324430C5",
+      "expected_sha256": "17990ee084d5af8c73353a32dc4825f0e1d20b02461f2d17cbe7f190324430c5",
+      "match": true,
+      "kind": "prepared original animation assembly; no visual pass"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\board_animation91\\land.glb",
+      "exists": true,
+      "bytes": 93224,
+      "sha256": "8072000DBD4C6A9FC992D42A1E4502ADB4681FAC824CC19B4DA21835063BD7B5",
+      "expected_sha256": "8072000dbd4c6a9fc992d42a1e4502adb4681fac824cc19b4da21835063bd7b5",
+      "match": true,
+      "kind": "prepared original animation assembly; no visual pass"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\board_animation91\\manual.glb",
+      "exists": true,
+      "bytes": 85108,
+      "sha256": "49E3AB030B5BC64A9934650DD659B9C49E67B8D05A01DF5C0C56D67ED4CE0404",
+      "expected_sha256": "49e3ab030b5bc64a9934650dd659b9c49e67b8d05a01df5c0c56d67ed4ce0404",
+      "match": true,
+      "kind": "prepared original animation assembly; no visual pass"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\board_animation91\\kickflip.glb",
+      "exists": true,
+      "bytes": 85568,
+      "sha256": "5CC8F5F109E89369E9696EB8DB8F5B335097637942DB3DE26321A11D72C99750",
+      "expected_sha256": "5cc8f5f109e89369e9696eb8db8f5b335097637942db3de26321a11d72c99750",
+      "match": true,
+      "kind": "prepared original animation assembly; no visual pass"
+    }
+  ],
+  "matrix": [
+    {
+      "mode": "THUG2 skate",
+      "action": "Ollie / jump family",
+      "ps2_input": "X / Cross",
+      "xbox_equivalent": "A",
+      "evidence": "groundtricks.q uses PressAndRelease Up+X and JumpSlot; Xbox menu remap maps A to the PS2 choose/Cross role.",
+      "confidence": "source-supported mapping"
+    },
+    {
+      "mode": "THUG2 skate",
+      "action": "Flip trick family",
+      "ps2_input": "Square + direction/sequence",
+      "xbox_equivalent": "X + direction/sequence",
+      "evidence": "airtricks.q special-air slots use direction pairs + Square; Xbox remap maps X to pad_square.",
+      "confidence": "source-supported mapping"
+    },
+    {
+      "mode": "THUG2 skate",
+      "action": "Grab trick family",
+      "ps2_input": "Circle + direction/sequence",
+      "xbox_equivalent": "B + direction/sequence",
+      "evidence": "airtricks.q special-air slots use direction pairs + Circle; Xbox remap maps B to pad_circle.",
+      "confidence": "source-supported mapping"
+    },
+    {
+      "mode": "THUG2 skate",
+      "action": "Grind / lip / many manual-special families",
+      "ps2_input": "Triangle + direction/sequence",
+      "xbox_equivalent": "Y + direction/sequence",
+      "evidence": "grindlist.q, liptricks.q and manualtricks.q repeatedly use Triangle; Xbox remap exposes Y as triangle-style menu event.",
+      "confidence": "source-supported mapping"
+    },
+    {
+      "mode": "THUG2 skate",
+      "action": "Manual",
+      "ps2_input": "Up then Down",
+      "xbox_equivalent": "Up then Down",
+      "evidence": "manualtricks.q maps Up,Down to Trick_Manual.",
+      "confidence": "direct source"
+    },
+    {
+      "mode": "THUG2 skate",
+      "action": "Nose Manual",
+      "ps2_input": "Down then Up",
+      "xbox_equivalent": "Down then Up",
+      "evidence": "manualtricks.q maps Down,Up to Trick_NoseManual.",
+      "confidence": "direct source"
+    },
+    {
+      "mode": "THUG2 skate",
+      "action": "Nollie modifier",
+      "ps2_input": "L2",
+      "xbox_equivalent": "Left trigger full",
+      "evidence": "groundtricks.q uses L2 for ToggleNollieRegular; Xbox button-remap maps full left trigger to pad_l2.",
+      "confidence": "source-supported mapping"
+    },
+    {
+      "mode": "THUG2 skate",
+      "action": "Switch / stance modifier",
+      "ps2_input": "R2",
+      "xbox_equivalent": "Right trigger full",
+      "evidence": "groundtricks.q uses R2 for ToggleSwitchRegular; Xbox button-remap maps full right trigger to pad_r2.",
+      "confidence": "source-supported mapping"
+    },
+    {
+      "mode": "THUG2 skate",
+      "action": "Revert slots",
+      "ps2_input": "R2 / L2",
+      "xbox_equivalent": "Full right / full left trigger",
+      "evidence": "groundtricks.q Reverts array binds ExtraSlot1/2 to R2/L2.",
+      "confidence": "direct source + remap"
+    },
+    {
+      "mode": "THUG2 skate",
+      "action": "Switch skating <-> walking control trigger",
+      "ps2_input": "L1 + R1",
+      "xbox_equivalent": "Black",
+      "evidence": "switch_control.q directly declares PressTwoAnyOrder L1,R1 and xbox_trigger = Press black.",
+      "confidence": "direct source"
+    },
+    {
+      "mode": "THUG2 menu",
+      "action": "Choose/confirm",
+      "ps2_input": "X / Cross",
+      "xbox_equivalent": "A",
+      "evidence": "menubuttonremap.q maps PS2 X and Xbox A to pad_choose.",
+      "confidence": "direct source"
+    },
+    {
+      "mode": "THUG2 menu",
+      "action": "Back",
+      "ps2_input": "Triangle",
+      "xbox_equivalent": "B / Back depending context",
+      "evidence": "menubuttonremap.q maps PS2 triangle to pad_back and Xbox B plus Back to pad_back.",
+      "confidence": "direct source"
+    },
+    {
+      "mode": "THUG2 menu",
+      "action": "Square-style option",
+      "ps2_input": "Square",
+      "xbox_equivalent": "X",
+      "evidence": "menubuttonremap.q maps both to pad_square.",
+      "confidence": "direct source"
+    },
+    {
+      "mode": "THUG2 menu",
+      "action": "Circle-style option",
+      "ps2_input": "Circle",
+      "xbox_equivalent": "B",
+      "evidence": "menubuttonremap.q maps both to pad_circle.",
+      "confidence": "direct source"
+    },
+    {
+      "mode": "GMod Q menu",
+      "action": "Open/hold Q menu",
+      "keyboard_mouse": "Q",
+      "evidence": "Project requirement: real GMod Q/spawn menu workflow; runtime port remains Astra-owned.",
+      "confidence": "product requirement"
+    },
+    {
+      "mode": "GMod Tool Gun",
+      "action": "Primary tool action",
+      "keyboard_mouse": "Left mouse",
+      "evidence": "Real gmod_tool/shared.lua delegates PrimaryAttack to tool:LeftClick(trace).",
+      "confidence": "direct installed GMod source"
+    },
+    {
+      "mode": "GMod Tool Gun",
+      "action": "Secondary tool action",
+      "keyboard_mouse": "Right mouse",
+      "evidence": "Real gmod_tool/shared.lua delegates SecondaryAttack to tool:RightClick(trace).",
+      "confidence": "direct installed GMod source"
+    },
+    {
+      "mode": "GMod Tool Gun",
+      "action": "Tool reload action",
+      "keyboard_mouse": "Reload binding",
+      "evidence": "Real gmod_tool/shared.lua delegates Reload to tool:Reload(trace).",
+      "confidence": "direct installed GMod source"
+    },
+    {
+      "mode": "GMod Tool Gun",
+      "action": "Select tool",
+      "keyboard_mouse": "Real Q-menu tool panel",
+      "evidence": "Real Tool Gun reads gmod_toolmode; project forbids Fallout prompt selectors.",
+      "confidence": "direct installed GMod source + product requirement"
+    },
+    {
+      "mode": "GMod Physics Gun",
+      "action": "Pick up / hold target",
+      "keyboard_mouse": "Right mouse",
+      "evidence": "Project owner explicitly requires RMB pickup/hold for the integrated Physgun.",
+      "confidence": "product requirement override"
+    },
+    {
+      "mode": "GMod Physics Gun",
+      "action": "Launch held target",
+      "keyboard_mouse": "Left mouse",
+      "evidence": "Project owner explicitly requires LMB launch for the integrated Physgun.",
+      "confidence": "product requirement override"
+    },
+    {
+      "mode": "Fallout baseline",
+      "action": "Normal host controls",
+      "keyboard_mouse": "Use current Fallout binding",
+      "xbox_equivalent": "Use current Fallout binding",
+      "evidence": "Product rule: normal Fallout gameplay remains active outside imported modes.",
+      "confidence": "product requirement"
+    }
+  ],
+  "board_assembly_manifest": {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\board_animation91\\manifest.json",
+    "exists": true,
+    "bytes": 3818,
+    "sha256": "8B2D8FD811F16A24AE13A9032BAEEEDBF79FAF1D42708253C486ECBF7CACA8EE"
+  },
+  "limitations": [
+    "Native handler identity not implied by Q script names.",
+    "51 export failures remain unresolved per checkpoint87/91.",
+    "No new extraction, retargeting or runtime implementation performed."
+  ]
+}
