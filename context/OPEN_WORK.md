@@ -108,5 +108,26 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Weapon sound/source dependencies are resolved for the staged set; first/third-person presentation and inventory/drop behavior still require gameplay checks.
 - Combine armor is still static-validation-only and must not replace Enclave/Remnants records until its isolated test pack passes.
 - Runtime Q menu, Tool Gun, Physgun, complete THUG2 skate physics/animation/camera/HUD remain Astra-owned.
-- Run research/validate_support_lane_state.py before promoting support artifacts; current pass count is 107.
+- Run research/validate_support_lane_state.py before promoting support artifacts; current pass count is 111.
 - Follow context/SUPPORT_20_POINT_TRACKER.md for exact per-task progress.
+
+## Prop support phase 3 remaining gates
+- Execute the 5 prepared representative prop runtime batches and write results into build/prepared/prop_support_phase3/runtime_validation_ledger.json.
+- Keep REM_GModProps_Catalog.esp disabled outside its isolated prop test.
+- Visually verify the top-20 THUG2 candidate leaves before any split/conversion; none are standalone props yet.
+- Promote THUG2 props only after independent geometry, scale, collision, texture and spawn-safety validation.
+- Keep the player-facing prop browser within 300-320. First target is 310; after that, replace lower-priority/redundant entries rather than allowing unbounded growth.
+- Do not interpret generated geometry previews as native GMod SpawnIcons; the real Q-menu runtime remains Astra-owned.
+
+## Preservation and extraction readiness (added 2026-10-06)
+Backlog from the read-only preservation pass; none of these have been executed. Detail: builds\preservation_prep_20261006\PRESERVATION_PREP.md.
+- P0: Do not disturb IDA PID 23616. Owner saves/closes IDA when idle; then hash the packed THUG2_PS2_68.idb and back it up (F011).
+- P1: Bring C:\IDA68WORK scripts and text/json outputs under tracking; keep IDBs/DLLs/EXEs local with hashes; record generating commands for unpack trees (F013).
+- P2: Replace hard-coded absolute roots with one paths config.
+- P3: Commit a provenance manifest (source hashes, Steam build IDs, IDA/Python/package versions) from the values in CURRENT_STATE.md.
+- P4: Re-export every IDB's function names, comments, types and structs with an IDA 6.8 script; resolve the name-to-handler table for Switch*Physics, DoBalanceTrick, DoNextManualTrick (F012); record the target interpreter per IDA script (IDA 6.8 embeds Python 2.7; continue_v69_sourcefaithful.py uses f-strings).
+- P5: Link THUG2 animation/bone/camera evidence: thug2_exact_animation_manifest.json, thug2_fnv_bone_map.json, retarget/camera patch scripts, and C:\IDA68WORK thug_animations87.json, fnv_skeleton87.json, FNV_skeleton87.idb, FNV_attachment90.idb (in flux).
+- P6: Link native physgun evidence (GMODCLIENT.idb, GMODSERVER.idb, gmod_physgun_deep68.py, GMOD_*_physgun_ida68.txt, gmod_phys_controller_*) from the Physgun/Tool Gun/Q-menu handoffs.
+- P7: Write runtime ownership contracts (none exist): who owns player 3D root, camera, weapon/Fight state, held-board visual, HUD and input; lifecycle order; failure behaviour. Seed from the main.cpp function index in dependency_scan.json. Audit EnsureGModWeaponForms CloneForm use against F001.
+- Decision needed from project owner: policy for committing raw disassembly listings (notes/xrefs/offsets fit ASSET_POLICY; verbatim listings are a judgement call).
+- Reconcile: repo CURRENT_STATE (v82) vs local (v85+); manifest location (repo builds\ vs local build\manifests); Physgun/Tool Gun asset resolution 27/28 vs 33/36; repository identifier (OWNER/REPOSITORY vs bertjerk660-dotcom/REM1); state the PS2 PAL baseline in GOAL.md/ARCHITECTURE.md.
