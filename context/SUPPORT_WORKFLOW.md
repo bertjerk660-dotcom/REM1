@@ -68,3 +68,14 @@ The requested broad non-Astra preparation pass is complete. Current durable outp
 3. Record any observed failure with exact artifact hash/log/event evidence and convert repeated manual diagnosis into validation tooling.
 4. Keep support manifests synchronized when Astra/Claude changes the canonical runtime.
 5. Hand mechanics/ABI/rig/runtime faults to Astra rather than applying speculative support patches.
+
+## Completion snapshot C
+- Unified support validator: 94 checks / zero errors.
+- Final catalog: 290 ready entries, all form-bound, all with clean fallback thumbnails.
+- GMod/HL weapon source model staging: 71/71 concrete references; 48 view + 48 world candidates.
+- Source weapon sound events: 15/15 definitions recovered from original installed Source/GMod sound scripts; 14/15 have every referenced payload confirmed.
+- Tool Gun/Physgun asset audit: 33/36 exact paths resolve; only the source-declared v_Physics view-model triplet is absent and remains an explicit dependency discrepancy.
+- THUG2 prop queue: 106 classified = 85 spatial geometry candidates + 14 semantic/gap identifiers + 7 unresolved named targets.
+- THUG2 input handoff: 22 source-backed control entries derived from 17 decompiled evidence files.
+- Release/install ledger, eight regression packs, historical artifact registry and nine Astra subsystem handoffs are prepared.
+- Human playtesting and Astra/Opus runtime/model integration are now the primary remaining gates.
