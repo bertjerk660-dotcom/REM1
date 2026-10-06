@@ -22,4 +22,22 @@ $drift=($actualSourceHash -ne $map.active_source.sha256)
 if($drift){Write-Error ("Runtime source drift: expected "+$map.active_source.sha256+" actual "+$actualSourceHash);exit 3}
 Write-Output ("RUNTIME_MAP_SOURCE_HASH=PASS "+$actualSourceHash)
 
-[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
+# Runtime harness readiness gate
+$h=Join-Path $Root "build\handoffs\gpt6_opus\runtime_harness"
+$need=@("BASELINE.json","PATCH_MANIFEST.json","COMPLETION_LEDGER.json","LOGGING_SPEC.json","CRASH_TRIAGE.json","STAGED_TESTS.json")
+$hm=@($need|Where-Object{!(Test-Path (Join-Path $h $_))})
+$ready=($hm.Count -eq 0)
+$verdict=[ordered]@{READY_FOR_IMPLEMENTATION=if($ready){"YES"}else{"NO"};runtime_harness_missing=$hm;source_drift=$drift;preflight_base_pass=$result.pass}
+$verdict|ConvertTo-Json -Depth 4|Set-Content (Join-Path $h "READY_VERDICT.json") -Encoding UTF8
+$verdict|ConvertTo-Json -Depth 4
+if(!$ready){exit 4}
+
+# Current visual-feed validation
+$feedValidator=Join-Path $Root "research\validate_opus_feed_bundle.ps1"
+if(Test-Path $feedValidator){
+  & $feedValidator -Root $Root
+  if($LASTEXITCODE -ne 0){exit $LASTEXITCODE}
+}else{
+  Write-Error "Missing research\validate_opus_feed_bundle.ps1"
+  exit 4
+}
