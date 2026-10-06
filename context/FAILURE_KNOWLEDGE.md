@@ -27,3 +27,8 @@ Older status/context can lag actual implementation. Reconcile against source, de
 
 ## F007 - Concurrent state changes
 Another active engineering session may modify the workspace. Immediately before modification/deploy, re-check source version/hash, mtimes and deployed hashes. Do not overwrite newer state based on stale reads.
+
+## FS001 - FNVScript script selection is stateful/unreliable in this workspace
+Observed 2026-10-06 during support automation. Passing a new .pas path to FNVScript.exe did not reliably execute that script; the tool repeatedly loaded/applied a previously remembered script (REM_FixOriginIconFields). This can create false confidence that a requested audit or edit actually ran.
+Durable rule: never claim an FNVScript/xEdit automation succeeded without verifying its own expected output/log. For read-only audits, prefer reproducible binary parsers when practical. For simple disabled support sidecars, use validated deterministic generators only when the file format is fully understood, then run structural/reference validation. Complex gameplay/plugin edits remain in xEdit/Astra workflows.
+
