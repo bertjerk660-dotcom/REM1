@@ -1,0 +1,66 @@
+﻿{
+    "schema":  "rem.workflow_checkpoint.v1",
+    "generated_local":  "2026-10-06T19:33:21.9219894+01:00",
+    "protected":  {
+                      "active_source":  {
+                                            "path":  "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\main.cpp",
+                                            "exists":  true,
+                                            "bytes":  235430,
+                                            "sha256":  "CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5",
+                                            "modified":  "2026-10-05T18:11:38.5261754+01:00"
+                                        },
+                      "installed_dll":  {
+                                            "path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\NVSE\\Plugins\\FNVGModTHUG2.dll",
+                                            "exists":  true,
+                                            "bytes":  906240,
+                                            "sha256":  "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+                                            "modified":  "2026-10-05T18:11:46.4584441+01:00"
+                                        },
+                      "active_esp":  {
+                                         "path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_GModTHUG2.esp",
+                                         "exists":  true,
+                                         "bytes":  50315,
+                                         "sha256":  "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+                                         "modified":  "2026-10-05T17:45:24.6220000+01:00"
+                                     },
+                      "astra_v88":  {
+                                        "path":  "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\hud88\\bin\\FNVGModTHUG2.dll",
+                                        "exists":  true,
+                                        "bytes":  918528,
+                                        "sha256":  "6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439",
+                                        "modified":  "2026-10-06T00:48:51.2943559+01:00"
+                                    }
+                  },
+    "handoff":  {
+                    "ready_for_implementation":  "YES",
+                    "source_drift":  false,
+                    "preflight_pass":  true,
+                    "prop_count":  85,
+                    "semantic_overlap":  0,
+                    "missing_level_glbs":  {
+
+                                           },
+                    "ida68_missing":  {
+
+                                      },
+                    "known_physgun_asset_gaps":  [
+                                                     "models/weapons/v_physics.mdl",
+                                                     "models/weapons/v_physics.vvd",
+                                                     "models/weapons/v_physics.dx90.vtx"
+                                                 ]
+                },
+    "support_validator":  {
+                              "status":  "pass",
+                              "checks":  112,
+                              "error_count":  0
+                          },
+    "active_processes":  [
+
+                         ],
+    "implementation_preflight_ready":  true,
+    "notes":  [
+                  "This checkpoint is workflow evidence only; it does not prove gameplay stability or satisfy human promotion gates.",
+                  "No deployment or runtime file mutation is performed by this script.",
+                  "Re-run before each Astra/Opus implementation or promotion pass because concurrent sessions may change state."
+              ]
+}
