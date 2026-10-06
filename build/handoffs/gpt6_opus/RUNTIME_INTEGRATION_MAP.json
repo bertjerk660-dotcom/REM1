@@ -1,0 +1,178 @@
+﻿{
+    "schema":  "rem.runtime_integration_map.v1",
+    "generated":  "2026-10-06",
+    "active_source":  {
+                          "path":  "third_party/NVSE-6.4.9/fnv_gmod_thug2_plugin/main.cpp",
+                          "sha256":  "CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5",
+                          "note":  "Verified active plugin source candidate from preservation dependency scan; workspace src/ is empty."
+                      },
+    "entrypoints":  [
+                        {
+                            "symbol":  "NVSEPlugin_Load",
+                            "line":  6967,
+                            "role":  "plugin registration/startup"
+                        },
+                        {
+                            "symbol":  "MessageHandler",
+                            "line":  6761,
+                            "role":  "game lifecycle readiness/messages"
+                        },
+                        {
+                            "symbol":  "PollControls",
+                            "line":  6263,
+                            "role":  "central per-frame input/subsystem dispatcher"
+                        }
+                    ],
+    "areas":  [
+                  {
+                      "system":  "physgun",
+                      "symbols":  [
+                                      "GetCrosshairTarget:868",
+                                      "SetHavokLinearVelocity:905",
+                                      "GetHavokLinearVelocity:919",
+                                      "SetHavokAngularVelocity:934",
+                                      "DropHeld:2374",
+                                      "TogglePhysgun:2405",
+                                      "GrabCrosshairRef:4986",
+                                      "ThrowHeld:5059",
+                                      "UpdateHeldObject:5129",
+                                      "PollControls:6263"
+                                  ],
+                      "risks":  [
+                                    "actor/ragdoll state",
+                                    "cleanup on weapon switch/cell/save",
+                                    "native Havok address verification"
+                                ],
+                      "regressions":  [
+                                          "R_PHYSGUN",
+                                          "R_GMOD_WEAPONS",
+                                          "R_BOOT"
+                                      ]
+                  },
+                  {
+                      "system":  "toolgun_qmenu",
+                      "symbols":  [
+                                      "ToolgunPrimaryAction:4411",
+                                      "ToolgunSecondaryAction:4458",
+                                      "OpenBuildMenu:4752",
+                                      "ToggleBuildMenu:4810",
+                                      "UpdateBuildMenuControls:4861",
+                                      "PollControls:6263"
+                                  ],
+                      "risks":  [
+                                    "existing custom build menu is not final source-faithful Q-menu",
+                                    "input ownership"
+                                ],
+                      "regressions":  [
+                                          "R_QMENU",
+                                          "R_GMOD_WEAPONS",
+                                          "R_BOOT"
+                                      ]
+                  },
+                  {
+                      "system":  "weapon_forms_presentation",
+                      "symbols":  [
+                                      "ApplyGModWeaponAnimationProfile:1449",
+                                      "GetEquippedGModRuntimeWeapon:1519",
+                                      "EnsureGModWeaponForms:1526",
+                                      "PollControls:6263"
+                                  ],
+                      "risks":  [
+                                    "runtime form creation timing",
+                                    "view/world attachment",
+                                    "save/load"
+                                ],
+                      "regressions":  [
+                                          "R_GMOD_WEAPONS",
+                                          "R_BOOT"
+                                      ]
+                  },
+                  {
+                      "system":  "thug2_animation",
+                      "symbols":  [
+                                      "ResolveTHUG2RetargetBones:476",
+                                      "StartTHUG2RetargetClip:567",
+                                      "ApplyTHUG2RetargetAnimation:595",
+                                      "UpdateSkateMode:5462"
+                                  ],
+                      "risks":  [
+                                    "F003 unsafe bone caching",
+                                    "3D root rebuild",
+                                    "first-frame crash"
+                                ],
+                      "regressions":  [
+                                          "R_SKATE",
+                                          "R_BOOT"
+                                      ]
+                  },
+                  {
+                      "system":  "thug2_camera_mode",
+                      "symbols":  [
+                                      "GetThirdPersonCameraNode:988",
+                                      "ApplyTHUG2NativeCameraProfile:1032",
+                                      "EnterSkateMode:1745",
+                                      "ExitSkateMode:1842",
+                                      "UpdateSkateMode:5462",
+                                      "PollControls:6263"
+                                  ],
+                      "risks":  [
+                                    "F002 playerNode",
+                                    "F005 activation crash",
+                                    "zoom/camera transitions"
+                                ],
+                      "regressions":  [
+                                          "R_SKATE",
+                                          "R_BOOT"
+                                      ]
+                  },
+                  {
+                      "system":  "thug2_props",
+                      "symbols":  [
+                                      "SpawnConvertedProp:4522",
+                                      "UpdatePendingSpawn:4646",
+                                      "OpenBuildMenu:4752"
+                                  ],
+                      "risks":  [
+                                    "scale/collision/material validation",
+                                    "do not infer dynamic Physgun behavior from static level geometry"
+                                ],
+                      "regressions":  [
+                                          "R_PROPS",
+                                          "R_QMENU"
+                                      ]
+                  }
+              ],
+    "native_addresses":  [
+                             {
+                                 "address":  "0x011D8A80",
+                                 "uses":  [
+                                              "GetCrosshairTarget",
+                                              "ReadCurrentWorldFov"
+                                          ],
+                                 "rule":  "verify in IDA 6.8 before modifying/relying"
+                             },
+                             {
+                                 "address":  "0x00C9C1D0",
+                                 "uses":  [
+                                              "SetHavokLinearVelocity",
+                                              "GetHavokLinearVelocity",
+                                              "SetHavokAngularVelocity"
+                                          ],
+                                 "rule":  "verify in IDA 6.8 before modifying/relying"
+                             },
+                             {
+                                 "address":  "0x011E07D4",
+                                 "uses":  [
+                                              "GetThirdPersonCameraNode"
+                                          ],
+                                 "rule":  "verify in IDA 6.8 before modifying/relying"
+                             }
+                         ],
+    "do_not_touch_without_gate":  [
+                                      "skateboard runtime form identity",
+                                      "direct playerNode path",
+                                      "retarget bone caches across root rebuilds"
+                                  ]
+}
+
+[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
