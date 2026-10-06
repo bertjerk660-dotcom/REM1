@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "thug2_executable": {
+    "platform": "PS2",
+    "region_id": "SLES_526.21",
+    "bytes": 4518260,
+    "sha256": "91C3D11BF0F1546F8EA20A22E7C1708EA91697F3C1393F36D9D7F2D4449963D1",
+    "local_path": "C:/Users/BRAD/Documents/------/Engineer Station/DUMPS/thug2/SLES_526.21"
+  },
+  "fnv_skeleton": {
+    "source": "Fallout - Meshes.bsa :: meshes/characters/_male/skeleton.nif",
+    "bytes": 191216,
+    "sha256": "C6667DD94FD10392F851F748438B7C69C0D2CB407448BECAE6431D5ED1994C4C",
+    "local_extracted_path": "C:/IDA68WORK/THUG2/fnv_skeleton.nif"
+  },
+  "ida68": {
+    "required_version": "6.8",
+    "xref_script": "research/thug2_ida/export_skate_xrefs.py",
+    "note": "Addresses are executable-hash-bound evidence, not universal offsets."
+  },
+  "native_functions": {
+    "GetSkaterVelocity": {
+      "va": "0x0027DC08"
+    },
+    "SetSkaterVelocity": {
+      "va": "0x0027E040"
+    },
+    "AutoRail": {
+      "va": "0x002752A8"
+    }
+  },
+  "validated_bone_map": {
+    "status": "validated_target_names_against_extracted_skeleton",
+    "source": "research/thug2_exact_animation_manifest.json",
+    "mapping": {
+      "control_root": "Bip01 NonAccum",
+      "Bone_Pelvis": "Bip01 Pelvis",
+      "Bone_Stomach_Lower": "Bip01 Spine",
+      "Bone_Stomach_Upper": "Bip01 Spine1",
+      "Bone_chest": "Bip01 Spine2",
+      "bone_neck": "Bip01 Neck",
+      "bone_head": "Bip01 Head",
+      "Bone_Collar_L": "Bip01 L Clavicle",
+      "Bone_bicep_L": "Bip01 L UpperArm",
+      "Bone_forearm_L": "Bip01 L Forearm",
+      "bone_palm_l": "Bip01 L Hand",
+      "Bone_thumb_L": "Bip01 L Thumb1",
+      "Bone_forefinger_base_L": "Bip01 L Finger1",
+      "Bone_forefinger_tip_L": "Bip01 L Finger11",
+      "Bone_fingers_Base_L": "Bip01 L Finger2",
+      "Bone_Fingers_Tip_L": "Bip01 L Finger21",
+      "bone_wrist_l": "Bip01 L ForeTwist",
+      "Bone_Collar_R": "Bip01 R Clavicle",
+      "Bone_bicep_R": "Bip01 R UpperArm",
+      "Bone_forearm_R": "Bip01 R Forearm",
+      "bone_palm_r": "Bip01 R Hand",
+      "Bone_thumb_R": "Bip01 R Thumb1",
+      "Bone_forefinger_base_R": "Bip01 R Finger1",
+      "bone_forefinger_tip_r": "Bip01 R Finger11",
+      "Bone_fingers_Base_R": "Bip01 R Finger2",
+      "Bone_Fingers_Tip_R": "Bip01 R Finger21",
+      "bone_wrist_r": "Bip01 R ForeTwist",
+      "Bone_Thigh_R": "Bip01 R Thigh",
+      "Bone_knee_R": "Bip01 R Calf",
+      "bone_ankle_r": "Bip01 R Foot",
+      "Bone_toe_R": "Bip01 R Toe0",
+      "Bone_Thigh_L": "Bip01 L Thigh",
+      "Bone_knee_L": "Bip01 L Calf",
+      "bone_ankle_l": "Bip01 L Foot",
+      "Bone_toe_L": "Bip01 L Toe0"
+    },
+    "missing_targets": [],
+    "rejected_legacy_targets": [
+      "Bip01 PelvisE",
+      "Bip01 Neck/",
+      "Bip01 L Hand+",
+      "Bip01 R Hand-"
+    ],
+    "caveat": "Name validation is complete. Transform/scale/animation quality remains an integration/playtest gate."
+  }
+}
