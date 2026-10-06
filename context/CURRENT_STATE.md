@@ -48,3 +48,10 @@ THUG2 is NOT VERIFIED STABLE until v82 is playtested.
 - Physics Gun audio is incorrect while a target is held by the beam: the correct continuous beam/hold loop sound is not playing.
 - Physics Gun actor handling is mis-targeted: when the grab/lock finally engages an actor, the player is knocked unconscious instead of the acquired target.
 - These observations are regressions/implementation gaps, not evidence that THUG2 or Physics Gun runtime integration is complete.
+
+- Skate-mode state switching is now human-verified: with the skateboard equipped, left-click successfully activates skate mode and the configured holster key successfully deactivates it back to Fallout mode.
+- THUG2 sounds currently appear to be working during the tested skate-mode path; this is a positive playtest observation, not yet an exhaustive audio-parity validation.
+- Grinding is functionally broken: pressing G can initiate grinding anywhere instead of requiring valid grindable geometry/contact/state.
+- THUG2 skating animation integration remains broken. The board does not transition from the held-weapon position to the skater's feet for riding, and the tested THUG2 animation set is not functioning.
+- THUG2 UI/HUD remains unimplemented/broken in runtime as previously recorded.
+- The currently visible GMod-style prop menu appears visually correct in playtest, but it is explicitly a placeholder. It must not be treated as the finished Q menu; the final implementation remains the real/source-faithful GMod Q/spawn-menu system and compatibility bridge.
