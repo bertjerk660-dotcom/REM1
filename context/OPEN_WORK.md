@@ -33,7 +33,13 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Remove Fallout top-left alerts from skate mode; route skating/combo/status feedback through the recovered THUG2 presentation path instead.
 - Preserve the now-verified held-board hand placement while implementing board-to-feet attachment and full skate-state transitions.
 
+- Require valid grindable geometry/contact and THUG2 state conditions before grind activation; pressing G must never allow arbitrary air/ground grinding.
+- Fix the complete THUG2 animation path: board hand-to-feet transition, riding/pushing/turning/trick animations, animation selection/blending and all other recovered THUG2 skate states.
+- Preserve the now-verified left-click enter-skate and holster-key exit-skate state transitions while replacing incomplete animation/HUD behavior.
+- Perform exhaustive THUG2 audio validation later; current playtest only indicates that THUG2 sounds seem to be working.
+
 ## GMod Q / spawn menu
+- Treat the current visually correct GMod-style prop menu as a placeholder only. Do not promote or document its appearance as completion of the Q-menu requirement.
 - Replace the current custom/Fallout-style GMod prop menu rather than extending it as the final implementation.
 - Use the user's installed Garry's Mod game files as the primary source for the real Q/spawn menu implementation.
 - Inventory and preserve the actual GMod Lua/Derma menu scripts, spawnmenu definitions, tool-menu scripts, icons/materials, category definitions and dependencies needed by the original Q menu.
