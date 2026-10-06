@@ -71,6 +71,8 @@ staged_manifests=[
  "build/prepared/thug2_prop_catalog/target_classification.json",
  "build/prepared/regression_test_packs/manifest.json",
  "build/prepared/historical_artifact_registry/manifest.json",
+ "build/prepared/prop_support_phase3/summary.json",
+ "build/validation/prop_support_phase3.json",
 ]
 manifest_rows=[]
 for rel in staged_manifests:
