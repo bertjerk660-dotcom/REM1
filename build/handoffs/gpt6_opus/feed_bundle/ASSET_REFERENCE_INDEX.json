@@ -1,0 +1,1392 @@
+{
+  "schema": "rem.opus_asset_reference_index.v1",
+  "generated": "2026-10-06T18:59:12.903616+00:00",
+  "policy": "GitHub-safe metadata only. Proprietary game binaries/assets remain on the authorized local machine and are referenced by path/hash.",
+  "pre_opus_summary": {
+    "generated_utc": "2026-10-06T17:47:09.673494+00:00",
+    "mode": "PREPARATION_ONLY",
+    "opus_start_date": "2026-10-08",
+    "source_packets": 11,
+    "thug2_checked_assets": 72,
+    "thug2_hash_failures": [],
+    "legacy_release_drift": [
+      {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\validation\\prop_support_phase4.json",
+        "exists": true,
+        "bytes": 27217,
+        "sha256": "EF9A473F8F107375A229F694847096121688688681642B623004EA21625AB993",
+        "previous_sha256": "10DA27E09900A2A200875160A6E788EE5F6E5E802ECAE84B33CBFD92DA5242AF",
+        "previous_hash_matches": false,
+        "previous_state": "project_source_metadata"
+      }
+    ],
+    "sidecars_disabled": true,
+    "protected_unchanged": true,
+    "reserved_work": "Opus visual/conversion/animation; Astra native/runtime; no implementation or game launch performed"
+  },
+  "source_packets": [
+    {
+      "id": "bench",
+      "model": "models/props_c17/bench01a.mdl",
+      "packet": {
+        "path": "build/prepared/pre_opus_20261006/bench_source_packet.json",
+        "exists": true,
+        "bytes": 26726,
+        "sha256": "27F4A45280FD0152489AFCD3EBAE6477BA35A886CAFF6A3198CB49641DEF5CEE"
+      },
+      "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a",
+      "required_model_components": [
+        {
+          "relative": "models/props_c17/bench01a.mdl",
+          "resolved": true,
+          "bytes": 1520,
+          "sha256": "8751F7E234A4212016FF93C50C8951ECB793B628819957B06BA1831A899CE846",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\models\\props_c17\\bench01a.mdl",
+          "required": true
+        },
+        {
+          "relative": "models/props_c17/bench01a.vvd",
+          "resolved": true,
+          "bytes": 55232,
+          "sha256": "BC9AFFE6F4EFC8766FE77961C2BD41748D677432A1E141D6CA7F56AB1E048F7D",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\models\\props_c17\\bench01a.vvd",
+          "required": true
+        },
+        {
+          "relative": "models/props_c17/bench01a.dx90.vtx",
+          "resolved": true,
+          "bytes": 35672,
+          "sha256": "E651BB00300CFD6F843D8882BFC2FC43813CAAF3D2A6AC350AEBA5496AEDB097",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\models\\props_c17\\bench01a.dx90.vtx",
+          "required": true
+        },
+        {
+          "relative": "models/props_c17/bench01a.phy",
+          "resolved": true,
+          "bytes": 6795,
+          "sha256": "0EB277C8A413F1E27E97BF5D9FD872FCB2ED1981064F592645D23F9C4E17E475",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\models\\props_c17\\bench01a.phy",
+          "required": true
+        }
+      ],
+      "materials": [
+        {
+          "relative": "materials/models/props_c17/bench01a.vmt",
+          "resolved": true,
+          "bytes": 315,
+          "sha256": "086AC1E48FBD5531C162005775F84EA2958D892894C24D188951FD00345EBE57",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\materials\\models\\props_c17\\bench01a.vmt"
+        },
+        {
+          "relative": "materials/models/props_c17/bench01a.vtf",
+          "resolved": true,
+          "bytes": 43896,
+          "sha256": "8DCB834BD3D7454363D0A3DECC77EE3F2992F6A39CCD9076422E6BD40096E432",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\materials\\models\\props_c17\\bench01a.vtf"
+        },
+        {
+          "relative": "materials/models/props_c17/bench01a_mask.vtf",
+          "resolved": true,
+          "bytes": 43896,
+          "sha256": "E3B3973D40D7EA1C12286121A94BABE6B2DEF2380CE0F2B14F4A3244E233734A",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\materials\\models\\props_c17\\bench01a_mask.vtf"
+        }
+      ],
+      "qc": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a.qc",
+          "exists": true,
+          "bytes": 1139,
+          "sha256": "DCFE2C49C592732FB20745A2097B4B60588F6191DCAF15D96CB87055083C7B36"
+        }
+      ],
+      "geometry": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_physics.smd",
+          "exists": true,
+          "bytes": 38997,
+          "sha256": "1B903062D35C2B880D828CDA0BF741124BCC0D7CE30573810DCBCD77BD353340"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference.smd",
+          "exists": true,
+          "bytes": 131381,
+          "sha256": "6E4AB2DB5E4BBFBC348F1DDC5C47519BA96D247CBC500290CA8714F3B9B719E3"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference_lod1.smd",
+          "exists": true,
+          "bytes": 131381,
+          "sha256": "6E4AB2DB5E4BBFBC348F1DDC5C47519BA96D247CBC500290CA8714F3B9B719E3"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference_lod2.smd",
+          "exists": true,
+          "bytes": 97468,
+          "sha256": "87924037CE451D1426D31B8A7C7743BC6713FB9B83A5AA7E6BEFDB49A3A86D49"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference_lod3.smd",
+          "exists": true,
+          "bytes": 67507,
+          "sha256": "DC392B995A5D70087D9FD9B50686CDF22A7D33526B9E8E7AEEA028C5E13B76F2"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference_lod4.smd",
+          "exists": true,
+          "bytes": 44705,
+          "sha256": "87CAA332C841F18FA93CC4DEFCF9D54B3EBBA98BFD2680BE1B7C61AA46784B02"
+        }
+      ],
+      "missing_dependencies": []
+    },
+    {
+      "id": "c_toolgun",
+      "model": "models/weapons/c_toolgun.mdl",
+      "packet": {
+        "path": "build/prepared/pre_opus_20261006/c_toolgun_source_packet.json",
+        "exists": true,
+        "bytes": 40564,
+        "sha256": "6EC99ECD607B67D140A79462A6581EFC488DA8183CC7AC4FFD758979D2185C7F"
+      },
+      "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun",
+      "required_model_components": [
+        {
+          "relative": "models/weapons/c_toolgun.mdl",
+          "resolved": true,
+          "bytes": 64112,
+          "sha256": "992ED7A5ED4996B89C59FF656D93981FBA53B06B2E7A478EA52E0D7309E8CC79",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_toolgun.mdl",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/c_toolgun.vvd",
+          "resolved": true,
+          "bytes": 318336,
+          "sha256": "D3F469510B6C5B0F1979254B477BA66F228EEA01240FE97DB22AB97D57429580",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_toolgun.vvd",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/c_toolgun.dx90.vtx",
+          "resolved": true,
+          "bytes": 74933,
+          "sha256": "9A814D307A9874BBD3B3CF92BEC93069780898203783F80ABD20DEAFA9FAB6DA",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_toolgun.dx90.vtx",
+          "required": true
+        }
+      ],
+      "materials": [
+        {
+          "relative": "materials/models/weapons/v_toolgun/screen.vmt",
+          "resolved": true,
+          "bytes": 89,
+          "sha256": "CCED67B3CB3B2C569E06B3E647007F3D9B97BD8F1B5A56FD23303621F080B524",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\screen.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun.vmt",
+          "resolved": true,
+          "bytes": 338,
+          "sha256": "42B467C7C4780CA0C0644A13ABD460103B54A42FB5ADF483571C345A918C6D51",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun2.vmt",
+          "resolved": true,
+          "bytes": 336,
+          "sha256": "DC5CAF8D985C6838E789C7367CD52C10F7ECFD81B5F5CC135B5E6373589D4B9D",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun2.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun3.vmt",
+          "resolved": true,
+          "bytes": 378,
+          "sha256": "BA5BE27F9B638A00A02B760A2515C443665C1E85390ADF468EA19C30E503EEF4",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun3.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/screen_bg.vtf",
+          "resolved": true,
+          "bytes": 43912,
+          "sha256": "6D106B4B9122199B217788A2567A49E29F3B45DEEF5F22EE237578E899346590",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\screen_bg.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun.vtf",
+          "resolved": true,
+          "bytes": 699256,
+          "sha256": "A485F39B2F6D413A432F92180F14E7F1ED3A28A0D42C3A1FEA387000056D2270",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun_mask.vtf",
+          "resolved": true,
+          "bytes": 699144,
+          "sha256": "DD465F46D3F8D9775ABD19A00998F9A4FA2D79ADA88EB16B0FFB1D3CEB24DB97",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun_mask.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun_exp.vtf",
+          "resolved": true,
+          "bytes": 43784,
+          "sha256": "F34D0F7A842D4AAA3A40AD3E1C74C7F37B0AFC2F8CFBFDDEBC786DB7ECDC68DD",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun_exp.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun2.vtf",
+          "resolved": true,
+          "bytes": 349760,
+          "sha256": "897B1D2FFF6BF58D8FC759852D673327B7A303FCD2E73F7B0F58754069651312",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun2.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun2_mask.vtf",
+          "resolved": true,
+          "bytes": 174856,
+          "sha256": "6F9FFFD6A1117A54C4E83D40E98185C6BD45F4790CE470DBBE705274B68FF0E6",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun2_mask.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun3.vtf",
+          "resolved": true,
+          "bytes": 349760,
+          "sha256": "55F393A55C9060519FDBB521700BF94A50E152BC7469C235EA54B10A70FFDFBC",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun3.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun3_mask.vtf",
+          "resolved": true,
+          "bytes": 43912,
+          "sha256": "B2F6720F3CD1060429D34670309BE5BAF501098B498E008F1431EE713E575B8D",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun3_mask.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun3_exp.vtf",
+          "resolved": true,
+          "bytes": 43912,
+          "sha256": "DD32CBA99992442A6CDEF00768827E0BA0163566F5FFCF712B2122FBE612F6DA",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun3_exp.vtf"
+        }
+      ],
+      "qc": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun.qc",
+          "exists": true,
+          "bytes": 12780,
+          "sha256": "C6259150D8048F0379B6298A627E2CB7A7D392071992280CBF80AECE50022AD6"
+        }
+      ],
+      "geometry": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\toolgun_ref.smd",
+          "exists": true,
+          "bytes": 1499143,
+          "sha256": "6ECC49B65BB19AB8B4831D3CB318DB353D65C07F1B40BB004E73FC22A8401B98"
+        }
+      ],
+      "missing_dependencies": []
+    },
+    {
+      "id": "w_toolgun",
+      "model": "models/weapons/w_toolgun.mdl",
+      "packet": {
+        "path": "build/prepared/pre_opus_20261006/w_toolgun_source_packet.json",
+        "exists": true,
+        "bytes": 34370,
+        "sha256": "BF83219942D118345851C7B8DEC317B8F5DF128A7C54E401F2CCE56FC07036B3"
+      },
+      "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_toolgun",
+      "required_model_components": [
+        {
+          "relative": "models/weapons/w_toolgun.mdl",
+          "resolved": true,
+          "bytes": 3520,
+          "sha256": "19D169CCEF78F358B44E7CAA8CDF3873EEA3FBD21864F70F86E23CE1106B2703",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_toolgun.mdl",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/w_toolgun.vvd",
+          "resolved": true,
+          "bytes": 235456,
+          "sha256": "EE8CFAE44FF4BB7A6F83C77DC5F1AA077AA11EDC4ED163B3A715DC8B9CC909C6",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_toolgun.vvd",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/w_toolgun.dx90.vtx",
+          "resolved": true,
+          "bytes": 63222,
+          "sha256": "4F43009DCE55EDF1BDBE76EC46E8A0F5FB87EB70CC651E66902B5E051A01A55E",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_toolgun.dx90.vtx",
+          "required": true
+        }
+      ],
+      "materials": [
+        {
+          "relative": "materials/models/weapons/v_toolgun/screen.vmt",
+          "resolved": true,
+          "bytes": 89,
+          "sha256": "CCED67B3CB3B2C569E06B3E647007F3D9B97BD8F1B5A56FD23303621F080B524",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\screen.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun.vmt",
+          "resolved": true,
+          "bytes": 338,
+          "sha256": "42B467C7C4780CA0C0644A13ABD460103B54A42FB5ADF483571C345A918C6D51",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun2.vmt",
+          "resolved": true,
+          "bytes": 336,
+          "sha256": "DC5CAF8D985C6838E789C7367CD52C10F7ECFD81B5F5CC135B5E6373589D4B9D",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun2.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun3.vmt",
+          "resolved": true,
+          "bytes": 378,
+          "sha256": "BA5BE27F9B638A00A02B760A2515C443665C1E85390ADF468EA19C30E503EEF4",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun3.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/screen_bg.vtf",
+          "resolved": true,
+          "bytes": 43912,
+          "sha256": "6D106B4B9122199B217788A2567A49E29F3B45DEEF5F22EE237578E899346590",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\screen_bg.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun.vtf",
+          "resolved": true,
+          "bytes": 699256,
+          "sha256": "A485F39B2F6D413A432F92180F14E7F1ED3A28A0D42C3A1FEA387000056D2270",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun_mask.vtf",
+          "resolved": true,
+          "bytes": 699144,
+          "sha256": "DD465F46D3F8D9775ABD19A00998F9A4FA2D79ADA88EB16B0FFB1D3CEB24DB97",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun_mask.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun_exp.vtf",
+          "resolved": true,
+          "bytes": 43784,
+          "sha256": "F34D0F7A842D4AAA3A40AD3E1C74C7F37B0AFC2F8CFBFDDEBC786DB7ECDC68DD",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun_exp.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun2.vtf",
+          "resolved": true,
+          "bytes": 349760,
+          "sha256": "897B1D2FFF6BF58D8FC759852D673327B7A303FCD2E73F7B0F58754069651312",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun2.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun2_mask.vtf",
+          "resolved": true,
+          "bytes": 174856,
+          "sha256": "6F9FFFD6A1117A54C4E83D40E98185C6BD45F4790CE470DBBE705274B68FF0E6",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun2_mask.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun3.vtf",
+          "resolved": true,
+          "bytes": 349760,
+          "sha256": "55F393A55C9060519FDBB521700BF94A50E152BC7469C235EA54B10A70FFDFBC",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun3.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun3_mask.vtf",
+          "resolved": true,
+          "bytes": 43912,
+          "sha256": "B2F6720F3CD1060429D34670309BE5BAF501098B498E008F1431EE713E575B8D",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun3_mask.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_toolgun/toolgun3_exp.vtf",
+          "resolved": true,
+          "bytes": 43912,
+          "sha256": "DD32CBA99992442A6CDEF00768827E0BA0163566F5FFCF712B2122FBE612F6DA",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun3_exp.vtf"
+        }
+      ],
+      "qc": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_toolgun\\decompiled\\w_toolgun.qc",
+          "exists": true,
+          "bytes": 1507,
+          "sha256": "3242A2B449BC868FF9EEB92D70193EF7A19A76054BFCE4C6EDF16F714F262CDC"
+        }
+      ],
+      "geometry": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_toolgun\\decompiled\\HL2DM_toolgun_reference.smd",
+          "exists": true,
+          "bytes": 1428686,
+          "sha256": "140DA4E21173DD40BA2FBF22A6A66BBA14E59204229EF08F0F459DA232448924"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_toolgun\\decompiled\\w_toolgun_physics.smd",
+          "exists": true,
+          "bytes": 11088,
+          "sha256": "3AFFB83DF1803914B69D81560976BC58179320F3D0E923477AD4F8549ED05750"
+        }
+      ],
+      "missing_dependencies": []
+    },
+    {
+      "id": "c_superphyscannon",
+      "model": "models/weapons/c_superphyscannon.mdl",
+      "packet": {
+        "path": "build/prepared/pre_opus_20261006/c_superphyscannon_source_packet.json",
+        "exists": true,
+        "bytes": 25442,
+        "sha256": "9684A3D736FF0C4BF381EA90CB01053B33DB69DE90B9D98DAE7A9F564C5611F2"
+      },
+      "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon",
+      "required_model_components": [
+        {
+          "relative": "models/weapons/c_superphyscannon.mdl",
+          "resolved": true,
+          "bytes": 30004,
+          "sha256": "A3209CF713EC8A35C9E6167333EAC40540CB77CA0DED15879A85612837579070",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_superphyscannon.mdl",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/c_superphyscannon.vvd",
+          "resolved": true,
+          "bytes": 101440,
+          "sha256": "7A86EC2035A7AE2E096F902F31B0A4D71B8A4BA80F0C1AD8875C0E6E926875FA",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_superphyscannon.vvd",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/c_superphyscannon.dx90.vtx",
+          "resolved": true,
+          "bytes": 22139,
+          "sha256": "194DAF888ED8A44D26E2E782B6D1CA792C51A7971DA87F384954C14CE3D8F272",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_superphyscannon.dx90.vtx",
+          "required": true
+        }
+      ],
+      "materials": [
+        {
+          "relative": "materials/models/weapons/v_physcannon/v_superphyscannon_sheet.vmt",
+          "resolved": true,
+          "bytes": 1130,
+          "sha256": "819D905166C3FD7DE4448CC5FBBDBCEB4814F248BDC52ECD9D0701AE55D1A45B",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_physcannon\\v_superphyscannon_sheet.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_physcannon/v_superphyscannon_sheet.vtf",
+          "resolved": true,
+          "bytes": 349760,
+          "sha256": "EA7144D008196FBA21FA1E11926E2D1668B2E378496AAB637A17B5BC32145597",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_physcannon\\v_superphyscannon_sheet.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_physcannon/v_superphyscannon_detail.vtf",
+          "resolved": true,
+          "bytes": 699272,
+          "sha256": "D04A7ECCA66410A7E8D366A4020D196B476ED9F6CAFE6B154EEBC5E511C90595",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_physcannon\\v_superphyscannon_detail.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_physcannon/v_superphyscannon_normal.vtf",
+          "resolved": true,
+          "bytes": 349760,
+          "sha256": "B6E476290D50F49960AA80D87878B58C82A58D3B0B35C014CA9C051CA5F221D6",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_physcannon\\v_superphyscannon_normal.vtf"
+        }
+      ],
+      "qc": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\c_superphyscannon.qc",
+          "exists": true,
+          "bytes": 8326,
+          "sha256": "6AEB23EB4BC1DFF946813A5BC8EF214AB065DDA101131007629CBFC0FB943DC3"
+        }
+      ],
+      "geometry": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\SuperPhyscannon_ref.smd",
+          "exists": true,
+          "bytes": 405196,
+          "sha256": "8E966B694C55081634AF6F01995EB2A150C269A437F8F9F4D76B7079B0F127E0"
+        }
+      ],
+      "missing_dependencies": []
+    },
+    {
+      "id": "w_physics",
+      "model": "models/weapons/w_physics.mdl",
+      "packet": {
+        "path": "build/prepared/pre_opus_20261006/w_physics_source_packet.json",
+        "exists": true,
+        "bytes": 25598,
+        "sha256": "12BB3BB3B1A61E3AF04FDEF00F3CF354680A013BBABEAE7A956C0A4E7595AFA6"
+      },
+      "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics",
+      "required_model_components": [
+        {
+          "relative": "models/weapons/w_physics.mdl",
+          "resolved": true,
+          "bytes": 6256,
+          "sha256": "5C65CCD451C098DC65EDBB2DDB5B11575E8D0ED4765E9129DD75518DC1705DB6",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_physics.mdl",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/w_physics.vvd",
+          "resolved": true,
+          "bytes": 37440,
+          "sha256": "51D01245361313796B32F00AA4F157216E5E9CC34B28EDD149A78E266CEFE4C4",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_physics.vvd",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/w_physics.dx90.vtx",
+          "resolved": true,
+          "bytes": 12206,
+          "sha256": "281281A004F8AAAD77A6D6C489418171DC5A81F0DD74D2C573111D52CD880635",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_physics.dx90.vtx",
+          "required": true
+        }
+      ],
+      "materials": [
+        {
+          "relative": "materials/models/weapons/w_physics/w_physics_sheet.vmt",
+          "resolved": true,
+          "bytes": 105,
+          "sha256": "35F54EB4C60B0C46AC8B08FD08517754FD010B7296D53AD26798FBFEF6FFEB40",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\w_physics\\w_physics_sheet.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/w_physics/w_physics_sheet.vtf",
+          "resolved": true,
+          "bytes": 87600,
+          "sha256": "63549BBA356418959CF93BA8736E9EC49A97BAE84394242152271D33E8C2FB6F",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\w_physics\\w_physics_sheet.vtf"
+        }
+      ],
+      "qc": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\w_physics.qc",
+          "exists": true,
+          "bytes": 2824,
+          "sha256": "D85E725674CBF670FAC839E1349E3401D19F0073463B925A5C3A1B61A2634C44"
+        }
+      ],
+      "geometry": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\HL2DM_gravgun_reference.smd",
+          "exists": true,
+          "bytes": 140102,
+          "sha256": "A9A8B299E6793D354E090BEFE6C75F6489BD85DD2213F5CEE2B85C830DC04A60"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\HL2DM_gravgun_reference_lod1.smd",
+          "exists": true,
+          "bytes": 87476,
+          "sha256": "5D6CE32E99E33F0682707A715E1B691B23E892D90D57D96F9FF61B2CDD88A7FB"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\w_physics_physics.smd",
+          "exists": true,
+          "bytes": 17643,
+          "sha256": "1DF13CFF1E308B2BAF883F9EA3141756A4F4B793294C5975FFFA3FC62DD605FD"
+        }
+      ],
+      "missing_dependencies": []
+    },
+    {
+      "id": "c_crowbar",
+      "model": "models/weapons/c_crowbar.mdl",
+      "packet": {
+        "path": "build/prepared/pre_opus_20261006/c_crowbar_source_packet.json",
+        "exists": true,
+        "bytes": 29443,
+        "sha256": "2F88E13A1A2DFD0D5DA4AA89853ECF54DA0938A1256816839FDFBB2CAE7AD62C"
+      },
+      "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar",
+      "required_model_components": [
+        {
+          "relative": "models/weapons/c_crowbar.mdl",
+          "resolved": true,
+          "bytes": 27320,
+          "sha256": "9FC2231AE94171609DE85781D567A9ED5380B84A7D77821ED3AD485586E59992",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_crowbar.mdl",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/c_crowbar.vvd",
+          "resolved": true,
+          "bytes": 20288,
+          "sha256": "53521D9AE6116E853456B44BCA181E08DF9A3A0F43D7D95F82AA74749DC6D377",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_crowbar.vvd",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/c_crowbar.dx90.vtx",
+          "resolved": true,
+          "bytes": 6084,
+          "sha256": "466FBF1DCDC2E8522EB134BA79F89D71E6BDEF36C4B3679EEFB0FD2B545DF853",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_crowbar.dx90.vtx",
+          "required": true
+        }
+      ],
+      "materials": [
+        {
+          "relative": "materials/models/weapons/v_crowbar/crowbar_cyl.vmt",
+          "resolved": true,
+          "bytes": 521,
+          "sha256": "4BC82B4476B1BDBF2325B8835ECD2615C8C682DD1FBC34F877DFC89101FF66BF",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\crowbar_cyl.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_crowbar/head_uvw.vmt",
+          "resolved": true,
+          "bytes": 507,
+          "sha256": "B403A63C422D35D6E7226E055D6E7DCBE688B78B2F563DB90A907AE540B21E01",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\head_uvw.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_crowbar/crowbar_cyl.vtf",
+          "resolved": true,
+          "bytes": 43912,
+          "sha256": "7F6FF74719F46C039C3DD039A2CBE2FEF77C70A8FB0B5499CB832547EDCF0094",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\crowbar_cyl.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_crowbar/crowbar_normal.vtf",
+          "resolved": true,
+          "bytes": 87640,
+          "sha256": "3A10AC704C4BCA2985C5F15A8AC1C5C64ABB7BA213A1BC354D1BFC3AA2D230FD",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\crowbar_normal.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_crowbar/head.vtf",
+          "resolved": true,
+          "bytes": 43912,
+          "sha256": "4F4C8C721EE9AD8213772E2FE0D1B9D8BEB741266A7EF834859047457C39277D",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\head.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_crowbar/head_normal.vtf",
+          "resolved": true,
+          "bytes": 87640,
+          "sha256": "8F23D4DB3D4359ECAA3FD4CE532BE70D701CB40BC757611214E017F0A08CC982",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\head_normal.vtf"
+        }
+      ],
+      "qc": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\c_crowbar.qc",
+          "exists": true,
+          "bytes": 8750,
+          "sha256": "A66D996444B7DF4311EC9608FEFFD82D6182DE56AF3FAD0376DB318093C23C4B"
+        }
+      ],
+      "geometry": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_crowbar\\decompiled\\crowbar_reference.smd",
+          "exists": true,
+          "bytes": 160120,
+          "sha256": "A578704D4A84039914F3D5FB323A684093FA95385E8171B89D460958B2838009"
+        }
+      ],
+      "missing_dependencies": []
+    },
+    {
+      "id": "w_crowbar",
+      "model": "models/weapons/w_crowbar.mdl",
+      "packet": {
+        "path": "build/prepared/pre_opus_20261006/w_crowbar_source_packet.json",
+        "exists": true,
+        "bytes": 31007,
+        "sha256": "2A720115C8FF9832351F985BB4A55DC01EFBA018C04D6A9278AD47F012D717FE"
+      },
+      "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_crowbar",
+      "required_model_components": [
+        {
+          "relative": "models/weapons/w_crowbar.mdl",
+          "resolved": true,
+          "bytes": 2052,
+          "sha256": "BD31CE4CF61B75597DA0AC799E2E30D66B7F97D74B104F9F55EF537A4CB17787",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_crowbar.mdl",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/w_crowbar.vvd",
+          "resolved": true,
+          "bytes": 21872,
+          "sha256": "810C2FA423620354DCA6E04A912029C7B30570FDCADCE2DBEC7E96D945E1D92A",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_crowbar.vvd",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/w_crowbar.dx90.vtx",
+          "resolved": true,
+          "bytes": 7580,
+          "sha256": "97AE38B9228ED4D4D4934D259A1EE423B6EAB121B00FC6C5306E7FB962B3411D",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_crowbar.dx90.vtx",
+          "required": true
+        }
+      ],
+      "materials": [
+        {
+          "relative": "materials/models/weapons/v_crowbar/crowbar_cyl.vmt",
+          "resolved": true,
+          "bytes": 521,
+          "sha256": "4BC82B4476B1BDBF2325B8835ECD2615C8C682DD1FBC34F877DFC89101FF66BF",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\crowbar_cyl.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_crowbar/head_uvw.vmt",
+          "resolved": true,
+          "bytes": 507,
+          "sha256": "B403A63C422D35D6E7226E055D6E7DCBE688B78B2F563DB90A907AE540B21E01",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\head_uvw.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_crowbar/crowbar_cyl.vtf",
+          "resolved": true,
+          "bytes": 43912,
+          "sha256": "7F6FF74719F46C039C3DD039A2CBE2FEF77C70A8FB0B5499CB832547EDCF0094",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\crowbar_cyl.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_crowbar/crowbar_normal.vtf",
+          "resolved": true,
+          "bytes": 87640,
+          "sha256": "3A10AC704C4BCA2985C5F15A8AC1C5C64ABB7BA213A1BC354D1BFC3AA2D230FD",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\crowbar_normal.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_crowbar/head.vtf",
+          "resolved": true,
+          "bytes": 43912,
+          "sha256": "4F4C8C721EE9AD8213772E2FE0D1B9D8BEB741266A7EF834859047457C39277D",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\head.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_crowbar/head_normal.vtf",
+          "resolved": true,
+          "bytes": 87640,
+          "sha256": "8F23D4DB3D4359ECAA3FD4CE532BE70D701CB40BC757611214E017F0A08CC982",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_crowbar\\head_normal.vtf"
+        }
+      ],
+      "qc": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_crowbar\\decompiled\\w_crowbar.qc",
+          "exists": true,
+          "bytes": 956,
+          "sha256": "6F692A3F33DCEB60E7B2FA0538C5779806C68F4EE1224D44B092D8B19F81FB92"
+        }
+      ],
+      "geometry": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_crowbar\\decompiled\\w_crowbar_physics.smd",
+          "exists": true,
+          "bytes": 20340,
+          "sha256": "ED89EB70FCB9A5D9F8C3BA4996225F8F36BCBB851DDE6989BB28E70AAED8C521"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_crowbar\\decompiled\\w_Crowbar_reference.smd",
+          "exists": true,
+          "bytes": 98277,
+          "sha256": "B3A97028B3E90AB54ED5F139E7186EA4FB9B8B0C3F3ED258AD7772CFFDCA9BF7"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_crowbar\\decompiled\\w_Crowbar_reference_lod1.smd",
+          "exists": true,
+          "bytes": 41093,
+          "sha256": "234F5A760F86318A06DECDD7D9FEDF09979D76C1A11C6534C951B25891ABF68C"
+        }
+      ],
+      "missing_dependencies": []
+    },
+    {
+      "id": "c_pistol",
+      "model": "models/weapons/c_pistol.mdl",
+      "packet": {
+        "path": "build/prepared/pre_opus_20261006/c_pistol_source_packet.json",
+        "exists": true,
+        "bytes": 27843,
+        "sha256": "C8E580DEE237B6FAE37874352B0DBFEDB3779D8FA0D7000527A9CB3D8EDA0104"
+      },
+      "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_pistol",
+      "required_model_components": [
+        {
+          "relative": "models/weapons/c_pistol.mdl",
+          "resolved": true,
+          "bytes": 39724,
+          "sha256": "682220E528FEC38C0BED0FA62F287E12EA07CDFD59B582209BAAC4D62D808DE7",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_pistol.mdl",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/c_pistol.vvd",
+          "resolved": true,
+          "bytes": 62848,
+          "sha256": "B448AD4683FE5066D4B0D78C740D870EC3DCFCF49582D4E0B81F851AAC0B2B38",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_pistol.vvd",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/c_pistol.dx90.vtx",
+          "resolved": true,
+          "bytes": 13864,
+          "sha256": "941299832D28DEA485D8F1BF943B2C6EA1F22179AF4D5BDF3A8E062B9B27FACE",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_pistol.dx90.vtx",
+          "required": true
+        }
+      ],
+      "materials": [
+        {
+          "relative": "materials/models/weapons/v_pistol/v_pistol_sheet.vmt",
+          "resolved": true,
+          "bytes": 379,
+          "sha256": "D5A194F1F708E32E888C414FACBC8E83FB0F487F37BEB3E5E2CF3BB01B9C7121",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_pistol\\v_pistol_sheet.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_pistol/v_pistol_sheet.vtf",
+          "resolved": true,
+          "bytes": 349784,
+          "sha256": "F811F31B1C254CC95EA24E86A25CC033C77BF37D825D1C8DD69DCCD4AC06B9EE",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_pistol\\v_pistol_sheet.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_pistol/v_pistol_sheet_normal.vtf",
+          "resolved": true,
+          "bytes": 349744,
+          "sha256": "FAFFCB532C4C6FE4D67E5DB7616D77A8ECD4E2EE31FD58C918E36B52C282259E",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_pistol\\v_pistol_sheet_normal.vtf"
+        }
+      ],
+      "qc": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_pistol\\decompiled\\c_pistol.qc",
+          "exists": true,
+          "bytes": 10678,
+          "sha256": "B6F609E72E631BE691C9E2372246289E94675B17C7A625F001A6EC4D9F8BEA6A"
+        }
+      ],
+      "geometry": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_pistol\\decompiled\\v_pistol_reference.smd",
+          "exists": true,
+          "bytes": 257943,
+          "sha256": "2B1994389E0434503AA2AB9387F0D13E93D742A30E7F16E412119EAE9BA1FE6E"
+        }
+      ],
+      "missing_dependencies": []
+    },
+    {
+      "id": "w_pistol",
+      "model": "models/weapons/w_pistol.mdl",
+      "packet": {
+        "path": "build/prepared/pre_opus_20261006/w_pistol_source_packet.json",
+        "exists": true,
+        "bytes": 24163,
+        "sha256": "07BE3C3325DDE126BD7C0568E1ECCF6B31C22401F07EB86FB44AAEB946F41620"
+      },
+      "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_pistol",
+      "required_model_components": [
+        {
+          "relative": "models/weapons/w_pistol.mdl",
+          "resolved": true,
+          "bytes": 3840,
+          "sha256": "3494567C5217A2CFA7AFC67158B29EFE339B74D880D37E22D5B59926ACA3C902",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_pistol.mdl",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/w_pistol.vvd",
+          "resolved": true,
+          "bytes": 27776,
+          "sha256": "C044892FA03E73ECD73421E3995667AAE86BA9CF385CE36038CB2000CD096553",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_pistol.vvd",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/w_pistol.dx90.vtx",
+          "resolved": true,
+          "bytes": 8036,
+          "sha256": "3FB243D570D15C03709B32F8A8EB943F1B80D7CFA1DA8110CC82AB90C63D4B9F",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_pistol.dx90.vtx",
+          "required": true
+        }
+      ],
+      "materials": [
+        {
+          "relative": "materials/models/weapons/w_pistol/pistol.vmt",
+          "resolved": true,
+          "bytes": 115,
+          "sha256": "75FA6C8648C5C75A067D435644CF61ED10F1F1139DD8350F208BC97429481B0C",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\w_pistol\\pistol.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/w_pistol/pistol.vtf",
+          "resolved": true,
+          "bytes": 43896,
+          "sha256": "275DB63EF4573FF10C8A8264824C98DFD932A3A4788BC0546025CD0CF3A94E09",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\w_pistol\\pistol.vtf"
+        }
+      ],
+      "qc": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_pistol\\decompiled\\w_pistol.qc",
+          "exists": true,
+          "bytes": 1522,
+          "sha256": "28B789E0014C8F8CA5C23F2F9E5C53E13F9338C40D78EF17BDCA0CBA9D15B7DC"
+        }
+      ],
+      "geometry": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_pistol\\decompiled\\w_pistol_physics.smd",
+          "exists": true,
+          "bytes": 8349,
+          "sha256": "37F657E790ACBBF8D9F4346A20BBEE0770C3C602D411BBA18D24FEB34A5FB9B2"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_pistol\\decompiled\\w_pistol_ref.smd",
+          "exists": true,
+          "bytes": 77362,
+          "sha256": "61DFF3C05216BD03E5AE6DF1C8B71F9FA445FDA29CBD28366E50FC05037198F2"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_pistol\\decompiled\\w_pistol_ref_lod1.smd",
+          "exists": true,
+          "bytes": 40395,
+          "sha256": "06E8833D7F1E214339DAA482DCED968710D8262904CD96473DA2FDDC77C4E0E0"
+        }
+      ],
+      "missing_dependencies": []
+    },
+    {
+      "id": "c_smg1",
+      "model": "models/weapons/c_smg1.mdl",
+      "packet": {
+        "path": "build/prepared/pre_opus_20261006/c_smg1_source_packet.json",
+        "exists": true,
+        "bytes": 36870,
+        "sha256": "C3AD62B3FE260C689878ECB06E16CD71E32C21266ECA118E1B33B507C90578FC"
+      },
+      "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_smg1",
+      "required_model_components": [
+        {
+          "relative": "models/weapons/c_smg1.mdl",
+          "resolved": true,
+          "bytes": 81776,
+          "sha256": "E7B386DC6222849CB1ECA0768BA1A7975E6C02AC325B664164923EBF5ADEE5CA",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_smg1.mdl",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/c_smg1.vvd",
+          "resolved": true,
+          "bytes": 86272,
+          "sha256": "266DD7166BC458125D51B693353E0BE2F180D6FAB181F1375ABC661EEE407F48",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_smg1.vvd",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/c_smg1.dx90.vtx",
+          "resolved": true,
+          "bytes": 21060,
+          "sha256": "6F233766F7CEEFA062A69C7825F29FAD7DF01BA88BC7A94C5F9A202C1212278D",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_smg1.dx90.vtx",
+          "required": true
+        }
+      ],
+      "materials": [
+        {
+          "relative": "materials/models/weapons/v_smg1/texture4.vmt",
+          "resolved": true,
+          "bytes": 115,
+          "sha256": "0B513D553EBD14F94B8B0936F21FBE21A5F7772DA771FEE1159E957432710312",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_smg1\\texture4.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_smg1/texture5.vmt",
+          "resolved": true,
+          "bytes": 418,
+          "sha256": "106F76DA635F7170744ACB788A43DC75804D3A01F1349EE68E18E3EC3FD4F30D",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_smg1\\texture5.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_smg1/v_smg1_sheet.vmt",
+          "resolved": true,
+          "bytes": 348,
+          "sha256": "CA573EBD3408ECB6B6EADAEB1CCA21202D701E1D79EBB6959F3E8B048AB71FA6",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_smg1\\v_smg1_sheet.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/v_smg2/texture4.vtf",
+          "resolved": true,
+          "bytes": 11128,
+          "sha256": "E398A566592E833FD9A696C3117B5BD913046E4EFC038DF99115F70B2DB6B7B6",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_smg2\\texture4.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_smg1/texture5.vtf",
+          "resolved": true,
+          "bytes": 2936,
+          "sha256": "ECA6CF1BD4304BE8C2DB5B4364AFAD1CB8A98394430A0AE1615D6E80C7CFE0E3",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_smg1\\texture5.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_smg1/v_smg1_sheet.vtf",
+          "resolved": true,
+          "bytes": 175008,
+          "sha256": "D1154A2CA62653C0D0A672852E82C14D57328C0F2258CB0DDB0E61C30A7CEEFD",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_smg1\\v_smg1_sheet.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/v_smg1/smg1_normal.vtf",
+          "resolved": true,
+          "bytes": 349784,
+          "sha256": "820B763E6ED56AFF3C6E83C5C63647B39FC322E8BF95EB127437DD3515EB795E",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_smg1\\smg1_normal.vtf"
+        }
+      ],
+      "qc": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_smg1\\decompiled\\c_smg1.qc",
+          "exists": true,
+          "bytes": 11982,
+          "sha256": "5CA67FDFEB4DC69C8E68702B18E44AA1E02135ECEDCD10220A6896023A596A99"
+        }
+      ],
+      "geometry": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_smg1\\decompiled\\Smg1_ironsight.smd",
+          "exists": true,
+          "bytes": 4841,
+          "sha256": "69D0D694A2B98303EE4EBE7CD91767FD825AF63E0E1A9704B4626C2406FCF18B"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_smg1\\decompiled\\Smg1_ref.smd",
+          "exists": true,
+          "bytes": 440071,
+          "sha256": "1CDEB19838584F4F28EBFA5C13C7283E892569ECF852F029CE6F1D2C473D7AE4"
+        }
+      ],
+      "missing_dependencies": []
+    },
+    {
+      "id": "w_smg1",
+      "model": "models/weapons/w_smg1.mdl",
+      "packet": {
+        "path": "build/prepared/pre_opus_20261006/w_smg1_source_packet.json",
+        "exists": true,
+        "bytes": 29380,
+        "sha256": "4F655B92B9B5C03F731FA37B42D49459EB1EDFAEC8523BC5D3EA687B6AF3F8C9"
+      },
+      "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_smg1",
+      "required_model_components": [
+        {
+          "relative": "models/weapons/w_smg1.mdl",
+          "resolved": true,
+          "bytes": 4048,
+          "sha256": "7E228BB32E2BDFAC835FCA69D83B220E7F10C9172BFB750DF2311BCDA9D6A50B",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_smg1.mdl",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/w_smg1.vvd",
+          "resolved": true,
+          "bytes": 53936,
+          "sha256": "D1781A391DF9669B701B40084C33051ED566098A3D20CCB597693C9E3E3C7F51",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_smg1.vvd",
+          "required": true
+        },
+        {
+          "relative": "models/weapons/w_smg1.dx90.vtx",
+          "resolved": true,
+          "bytes": 16478,
+          "sha256": "E0AD514BDB104B59823BA1B45DEA5D852D9F10710E63A986E85AD20E72A29972",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_smg1.dx90.vtx",
+          "required": true
+        }
+      ],
+      "materials": [
+        {
+          "relative": "materials/models/weapons/w_smg1/smg_crosshair.vmt",
+          "resolved": true,
+          "bytes": 114,
+          "sha256": "B4485D41E594570B1D461601D951F0C7BDA5F3FCF74FACF973860D51A58F58C0",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\w_smg1\\smg_crosshair.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/w_smg1/w_smg2.vmt",
+          "resolved": true,
+          "bytes": 159,
+          "sha256": "907BBCC24DA30A3665A607089B2450042E17E3A6E912ABD982EAD6FAD666A88E",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\w_smg1\\w_smg2.vmt"
+        },
+        {
+          "relative": "materials/models/weapons/w_smg1/smg_crosshair.vtf",
+          "resolved": true,
+          "bytes": 2936,
+          "sha256": "A76792C9975892EA1F740472A3E0C75ABCB37002C8267DCCB87B68B94CEDEB92",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\w_smg1\\smg_crosshair.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/w_smg1/w_smg2.vtf",
+          "resolved": true,
+          "bytes": 43896,
+          "sha256": "3023609FE242755861E8BBB87148E10052E73817E14C9F91EFA5BA46CF787453",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\w_smg1\\w_smg2.vtf"
+        },
+        {
+          "relative": "materials/models/weapons/w_smg1/w_smg2specularmask.vtf",
+          "resolved": true,
+          "bytes": 43896,
+          "sha256": "AB6122A949F82F986EF88E269B2B72F468CB1D731193BDD026527A8F2DE392D3",
+          "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\w_smg1\\w_smg2specularmask.vtf"
+        }
+      ],
+      "qc": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_smg1\\decompiled\\w_smg1.qc",
+          "exists": true,
+          "bytes": 1679,
+          "sha256": "0C2FBAA13C5A5C06F16EC6D8958278F21F2332C557EC159198F855318F0FB3C7"
+        }
+      ],
+      "geometry": [
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_smg1\\decompiled\\smg1_reference.smd",
+          "exists": true,
+          "bytes": 142954,
+          "sha256": "73D90709888856959B4C934053EEE007452D0B98411E88ADDDE69EB481F402A9"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_smg1\\decompiled\\smg1_reference_lod1.smd",
+          "exists": true,
+          "bytes": 91509,
+          "sha256": "C26653B5B1FD815F55CFF85DA48D3A004228AAC8F9E742831BDF6D594EC56D93"
+        },
+        {
+          "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_smg1\\decompiled\\w_smg1_physics.smd",
+          "exists": true,
+          "bytes": 6272,
+          "sha256": "3F9ECEAA8060A5BD63B9C2AC112446EC8648C174CB23ABC59175D3945B8A17C3"
+        }
+      ],
+      "missing_dependencies": []
+    }
+  ],
+  "tool_physgun_asset_handoff": {
+    "requested": 36,
+    "resolved": 33,
+    "missing": [
+      "models/weapons/v_physics.mdl",
+      "models/weapons/v_physics.vvd",
+      "models/weapons/v_physics.dx90.vtx"
+    ],
+    "manifest": {
+      "path": "build/prepared/gmod_tool_physgun_asset_handoff/manifest.json",
+      "exists": true,
+      "bytes": 14014,
+      "sha256": "6368329C44B37C16B989351FEC14C09E9E8DC7F73134474722E98E7B2973E01E"
+    }
+  },
+  "skateboard": {
+    "manifest": {
+      "path": "build/prepared/thug2_skateboard_asset_handoff/manifest.json",
+      "exists": true,
+      "bytes": 20043,
+      "sha256": "5ED16EA52A6C5C14C475BDBE3335FF71474CAAF5D846022FFC4184307387E7C5"
+    },
+    "scale_analysis": {
+      "path": "build/prepared/thug2_skateboard_asset_handoff/scale_attachment_analysis.json",
+      "exists": true,
+      "bytes": 3181,
+      "sha256": "F5528D17E548B4BBC3D5351F800770FD5AB1A4B77E2DF8B66FB82284658C77CE"
+    },
+    "animation_count": 20,
+    "live_nifs": [
+      {
+        "name": "skateboard.nif",
+        "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\thug2\\skateboard.nif",
+        "exists": true,
+        "bytes": 57196,
+        "sha256": "C13CC1ABB997D85E0C5A4860410A7EF14E8DFDCA5EA14D29983EBDAAA7843E4C",
+        "stats": {
+          "root_type": "NiNode",
+          "root_name": "THUG2_Skateboard_Visual_ROOT",
+          "shapes": 4,
+          "triangles": 498,
+          "bbox": [
+            [
+              -5.375,
+              -18.0625,
+              0.0
+            ],
+            [
+              5.125,
+              18.3125,
+              6.6875
+            ]
+          ],
+          "dimensions": [
+            10.5,
+            36.375,
+            6.6875
+          ],
+          "extras": []
+        }
+      },
+      {
+        "name": "skateboard_visual.nif",
+        "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\thug2\\skateboard_visual.nif",
+        "exists": true,
+        "bytes": 57196,
+        "sha256": "C13CC1ABB997D85E0C5A4860410A7EF14E8DFDCA5EA14D29983EBDAAA7843E4C",
+        "stats": {
+          "root_type": "NiNode",
+          "root_name": "THUG2_Skateboard_Visual_ROOT",
+          "shapes": 4,
+          "triangles": 498,
+          "bbox": [
+            [
+              -5.375,
+              -18.0625,
+              0.0
+            ],
+            [
+              5.125,
+              18.3125,
+              6.6875
+            ]
+          ],
+          "dimensions": [
+            10.5,
+            36.375,
+            6.6875
+          ],
+          "extras": []
+        }
+      },
+      {
+        "name": "skateheldx.nif",
+        "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\thug2\\skateheldx.nif",
+        "exists": true,
+        "bytes": 57387,
+        "sha256": "4F12178D6D4004B29B46BCF61365A6B48D2EF007B862B292B4CDA80DF7BBD08A",
+        "stats": {
+          "root_type": "BSFadeNode",
+          "root_name": "THUG2_Skateboard_Weapon",
+          "shapes": 4,
+          "triangles": 498,
+          "bbox": [
+            [
+              -8.274915029713377,
+              -27.807560252819833,
+              -3.858674345133356e-06
+            ],
+            [
+              7.890036771302278,
+              28.19244163121589,
+              10.295535462455147
+            ]
+          ],
+          "dimensions": [
+            16.164951801015654,
+            56.000001884035726,
+            10.295539321129493
+          ],
+          "extras": [
+            {
+              "name": "Prn",
+              "value": "Weapon"
+            }
+          ]
+        }
+      },
+      {
+        "name": "skateworld.nif",
+        "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\thug2\\skateworld.nif",
+        "exists": true,
+        "bytes": 57619,
+        "sha256": "2DE82089C42543963FEE7419FF0E2B9E21E731BF6AFBF93CAAD1EF72C2C396D2",
+        "stats": {
+          "root_type": "NiNode",
+          "root_name": "REM_THUG2_Skateboard_ROOT",
+          "shapes": 4,
+          "triangles": 498,
+          "bbox": [
+            [
+              -5.375,
+              -18.0625,
+              0.0
+            ],
+            [
+              5.125,
+              18.3125,
+              6.6875
+            ]
+          ],
+          "dimensions": [
+            10.5,
+            36.375,
+            6.6875
+          ],
+          "extras": []
+        }
+      }
+    ]
+  },
+  "thug2": {
+    "evidence_index": {
+      "path": "build/prepared/pre_opus_20261006/thug2_evidence_index.json",
+      "exists": true,
+      "bytes": 39893,
+      "sha256": "A205786383C2333F3CA6E1C467554598F157FB9B2B653B051155E4C676679D16"
+    },
+    "prop_evidence_index": {
+      "path": "build/prepared/pre_opus_20261006/thug2_prop_evidence_index.json",
+      "exists": true,
+      "bytes": 76416,
+      "sha256": "2E1BE39697BBBFB2F5E287BAE5D3FEEB6F1C5819C027C51F7245EA7293AD1431"
+    },
+    "checked_assets": 72,
+    "hash_failures": []
+  },
+  "converter_inventory": {
+    "path": "build/prepared/pre_opus_20261006/converter_inventory.json",
+    "exists": true,
+    "bytes": 2399,
+    "sha256": "BFD0A0721DBB19CFA2861F06BC7BB5864FED05E1421EEC5C850DBB6027109C12"
+  },
+  "physgun_provenance_gap": {
+    "status": "BLOCKED",
+    "assets": [
+      {
+        "relative": "models/weapons/v_physics.mdl",
+        "resolved": false
+      },
+      {
+        "relative": "models/weapons/v_physics.vvd",
+        "resolved": false
+      },
+      {
+        "relative": "models/weapons/v_physics.dx90.vtx",
+        "resolved": false
+      }
+    ],
+    "do_not_substitute": true
+  }
+}
