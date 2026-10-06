@@ -4,7 +4,7 @@ from PIL import Image,ImageDraw,ImageFont
 
 ROOT=Path(r"C:\Users\BRAD\Documents\------\Engineer Station\FNV_GMOD_THUG2")
 BASE=ROOT/"build/prepared/prop_support_phase4"
-LEAF=json.loads((BASE/"thug2_leaf_review.json").read_text())
+LEAF=json.loads((BASE/"thug2_diversified_leaf_review.json").read_text())
 OUT=BASE
 PRE=BASE/"leaf_previews"
 
