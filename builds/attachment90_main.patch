@@ -1,0 +1,75 @@
+--- v89/main.cpp
++++ v90/main.cpp
+@@ -416,7 +416,8 @@
+ };
+ static std::vector<THUG2RetargetClip> g_thug2RetargetClips;
+ static NiAVObject* g_thug2RetargetBones[kTHUG2RetargetBoneCount] = {};
+-static NiAVObject::RotAndTranslate g_thug2RetargetSaved[kTHUG2RetargetBoneCount] = {};
++#include "fnv_scene_adapter90.inc"
++static FNVTransform90 g_thug2RetargetSaved[kTHUG2RetargetBoneCount] = {};
+ static NiNode* g_thug2RetargetRoot = nullptr;
+ static DWORD g_thug2RetargetEarliestTick = 0;
+ static bool g_thug2FirstUpdateDiag = false;
+@@ -500,7 +501,7 @@
+     UInt32 resolved = 0;
+     for (UInt32 i = 0; i < kTHUG2RetargetBoneCount; ++i)
+     {
+-        NiObjectNET* obj = root->GetObject(kTHUG2RetargetBoneNames[i]);
++        NiObjectNET* obj = FNVFindNode90(root, kTHUG2RetargetBoneNames[i]);
+         if (!obj)
+         {
+             g_thug2RetargetBones[i] = nullptr;
+@@ -515,7 +516,7 @@
+         if (!bone)
+             continue;
+ 
+-        g_thug2RetargetSaved[i] = bone->dat0034;
++        g_thug2RetargetSaved[i] = FNVLocal90(bone);
+         ++resolved;
+     }
+ 
+@@ -551,9 +552,9 @@
+     {
+         for (UInt32 i = 0; i < kTHUG2RetargetBoneCount; ++i)
+             if (g_thug2RetargetBones[i])
+-                g_thug2RetargetBones[i]->dat0034 = g_thug2RetargetSaved[i];
+-
+-        currentRoot->UpdateTransform();
++                FNVLocal90(g_thug2RetargetBones[i]) = g_thug2RetargetSaved[i];
++
++        FNVRefreshPose90(currentRoot);
+     }
+     else
+     {
+@@ -647,10 +648,10 @@
+             !std::isfinite(q[2]) || !std::isfinite(q[3]))
+             continue;
+ 
+-        QuaternionToNiMatrix(q, bone->dat0034.rotate);
+-    }
+-
+-    currentRoot->UpdateTransform();
++        QuaternionToNiMatrix(q, FNVLocal90(bone).rotate);
++    }
++
++    FNVRefreshPose90(currentRoot);
+ }
+ 
+ static void UpdateTHUG2RetargetSelection(bool push, bool left, bool right, SkateMoveState before, DWORD now)
+@@ -7009,7 +7010,7 @@
+ {
+     info->infoVersion = PluginInfo::kInfoVersion;
+     info->name = "FNVGModTHUG2";
+-    info->version = 89;
++    info->version = 90;
+ 
+     if (!nvse || nvse->isEditor) return false;
+     if (nvse->runtimeVersion < RUNTIME_VERSION_1_4_0_525) return false;
+@@ -7039,6 +7040,6 @@
+     nvse->RegisterCommand(&kCommandInfo_gmod_undospawn);
+     nvse->RegisterCommand(&kCommandInfo_gmod_cleanup);
+ 
+-    _MESSAGE("FNVGModTHUG2 bridge loaded, version 89 (v88 HUD plus lifecycle cleanup; incomplete THUG2 runtime)");
++    _MESSAGE("FNVGModTHUG2 bridge loaded, version 90 (scene adapter candidate; animation remains quarantined)");
+     return true;
+ }
