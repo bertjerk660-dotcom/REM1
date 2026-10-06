@@ -114,6 +114,67 @@ if packet:
  ck("contact_sheet_exists",p.exists(),str(p))
  if p.exists():ck("contact_sheet_hash",sha(p)==packet.get("contact_sheet_sha256"),{"actual":sha(p),"expected":packet.get("contact_sheet_sha256")})
 
+
+# Cross-manifest identity checks prevent a diversified review wave from drifting
+# back to an older score-only top20 in taxonomy/form/promotion outputs.
+if wave and tax and plan and ledger and leaf:
+    wave_ids=[(r["level"],r["identifier"]) for r in wave.get("records",[])]
+    leaf_ids=[(r["level"],r["identifier"]) for r in leaf.get("records",[])]
+    tax_ids=[(r["level"],r["display_name"]) for r in tax.get("planned_thug2_first_wave",[])]
+    form_ids=[(r["level"],r["identifier"]) for r in plan.get("thug2_form_reservations",[])]
+    ledger_ids=[(r["level"],r["identifier"]) for r in ledger.get("records",[])]
+    ck("diversified_wave_identity_leaf",wave_ids==leaf_ids,{"wave":wave_ids,"leaf":leaf_ids})
+    ck("diversified_wave_identity_taxonomy",wave_ids==tax_ids,{"wave":wave_ids,"taxonomy":tax_ids})
+    ck("diversified_wave_identity_forms",set(wave_ids)==set(form_ids) and len(form_ids)==len(wave_ids),{"wave":wave_ids,"forms":form_ids})
+    ck("diversified_wave_identity_ledger",set(wave_ids)==set(ledger_ids) and len(ledger_ids)==len(wave_ids),{"wave":wave_ids,"ledger":ledger_ids})
+
+
+matcol=load("thug2_material_collision_plan.json")
+if matcol:
+    ck("material_collision_plan_20",matcol.get("count")==20,matcol.get("count"))
+    ck("material_provenance_all_20",matcol.get("with_materials")==20,matcol.get("with_materials"))
+    roles=matcol.get("collision_roles",{})
+    ck("collision_roles_recorded",sum(roles.values())==20,roles)
+    ck("thug2_static_source_policy",
+       all("static" in r.get("collision_plan",{}).get("role","") for r in matcol.get("records",[])),
+       [r.get("identifier") for r in matcol.get("records",[]) if "static" not in r.get("collision_plan",{}).get("role","")])
+
+balance=load("category_balance_target310.json")
+if balance:
+    ck("category_balance_total_310",balance.get("planned_total")==310,balance.get("planned_total"))
+    ck("category_balance_deficits_recorded",len(balance.get("deficits",[]))>0,balance.get("deficits"),severity="info")
+    ck("category_balance_excesses_recorded",len(balance.get("excesses",[]))>0,balance.get("excesses"),severity="info")
+
+fallback=load("reserve_fallback_map.json")
+if fallback:
+    ck("reserve_fallback_map_290",
+       fallback.get("ready_count")==290 and fallback.get("reserve_count")==80,
+       {"ready":fallback.get("ready_count"),"reserve":fallback.get("reserve_count")})
+    fb=fallback.get("fallbacks_by_ready_index",{})
+    ck("reserve_fallback_three_each",
+       len(fb)==290 and all(len(v)==3 for v in fb.values()),
+       {"rows":len(fb),"short":[k for k,v in fb.items() if len(v)!=3][:10]})
+
+testfb=load("runtime_test_batches_with_fallbacks.json")
+if testfb:
+    members=[m for b in testfb.get("batches",[]) for m in b.get("members",[])]
+    ck("runtime_batches_with_fallbacks",
+       testfb.get("batch_count")==5 and testfb.get("selected_count")==56,
+       {"batches":testfb.get("batch_count"),"selected":testfb.get("selected_count")})
+    ck("test_members_have_reserve_fallbacks",
+       len(members)==56 and all(len(m.get("reserve_fallbacks",[]))>=2 for m in members),
+       [m.get("display_name") for m in members if len(m.get("reserve_fallbacks",[]))<2])
+
+sidecar_report_path=ROOT/"build/prepared/thug2_prop_catalog_sidecar/build_report.json"
+if sidecar_report_path.exists():
+    sidecar_report=json.loads(sidecar_report_path.read_text(encoding="utf-8"))
+    ck("thug2_sidecar_safe_block",
+       sidecar_report.get("status")=="blocked_no_validated_candidates" and
+       sidecar_report.get("ready")==0 and sidecar_report.get("blocked")==20,
+       sidecar_report)
+else:
+    ck("thug2_sidecar_safe_block",False,str(sidecar_report_path))
+
 errors=[x for x in checks if x["severity"]=="error" and not x["pass"]]
 result={
  "purpose":"Static/preflight validation for prop-focused support phase 4. This is not gameplay or visual identity validation.",
