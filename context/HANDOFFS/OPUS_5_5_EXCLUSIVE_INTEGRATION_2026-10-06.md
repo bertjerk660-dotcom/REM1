@@ -34,3 +34,27 @@ Non-Opus agents may accelerate Opus only with inventories, hashes/provenance, ID
 
 ## Acceptance
 Appearance or mode activation alone is not completion. Require source/provenance evidence, integration, human playtest and regression validation. Preserve Fallout behavior outside imported modes. Do not commit proprietary game binaries/assets to GitHub; record hashes, provenance, mappings, tooling and reproducibility metadata.
+
+
+## Reconciliation with latest "Choose Asset Merger" chat — 2026-10-06
+
+### Combine armor / Enclave replacement gate
+- The isolated Combine armor test remains a prerequisite before any Enclave/Remnants replacement or promotion.
+- Recent human tests progressed from invisibility to partial visibility and then visible armor, but the Combine head orientation is backwards and the torso appears slightly stretched. Treat fit/orientation/rigging as unresolved until corrected and human-validated.
+- Earlier symptoms included only head/hands/slave collar/Pip-Boy visibility and later a visible right lower leg; preserve these as regression cases.
+- Do not promote the Combine suit as an Enclave/Remnants replacement merely because the mesh now renders.
+
+### External-asset proof gate
+- Do not batch-promote converted external props/models based on records or conversion success alone.
+- The integration pipeline must first prove at least one externally sourced Half-Life/GMod reference prop visibly renders in Fallout with correct texture, scale and collision. Only then use the proven path for batch work.
+- Records existing in the ESP or successful conversion output are not proof that an external asset works in runtime.
+
+### Skateboard/runtime plugin discipline
+- The skateboard remains a normal droppable/pickup-able weapon while Fallout gameplay is active; attacking/left-click enters THUG2 skate mode and the holster/exit control returns to Fallout.
+- Plugin/load-order changes can alter weapon behavior; a recent test with all plugins enabled caused the THUG2 skateboard to behave like a grenade. Preserve weapon-form/type/load-order integrity as a regression gate.
+- Preserve the now-working held-board model placement while Opus repairs board-to-feet attachment and the complete THUG2 animation/free-roam stack.
+
+### Ownership clarification
+- External Opus 5.5 owns the substantive coding/visual/runtime integration: models, textures, NIF/rigging, animations, physics, camera, GMod/THUG2 code and behavior, Q-menu/Toolgun integration, and cross-game asset implementation.
+- The support/GPT lane owns preparation and orchestration only: manifests, provenance/hashes, dependency inventories, test plans, validation, load-order tracking, naming, regression/failure documentation and reproducibility evidence.
+- IDA Pro 6.8 remains the only reverse-engineering version authorized for this project.
