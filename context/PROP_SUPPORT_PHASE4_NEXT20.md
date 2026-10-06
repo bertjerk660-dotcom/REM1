@@ -23,7 +23,7 @@ Status legend: COMPLETE = reproducible support work finished; COMPLETE PREP = su
 17. **Prepare the THUG2 prop sidecar builder — COMPLETE PREP / SAFELY BLOCKED.** Builder status is blocked_no_validated_candidates with 0 ready / 20 blocked; it refuses to create an ESP until promotion gates pass.
 18. **Run prop phase-4 validation — COMPLETE.** 66 checks pass with zero errors. This is static/preflight evidence, not gameplay validation.
 19. **Integrate prop phase 4 into release/support metadata — COMPLETE.** Release index now tracks 17 support manifests; unified support validator passes 112 checks with zero errors.
-20. **Push and verify the phase-4 GitHub branch — READY FOR FINAL SYNC.** Upload the latest scripts/docs/build manifests to prep/prop-content-phase4, verify the diff against phase 3, then mark this complete.
+20. **Push and verify the phase-4 GitHub branch — COMPLETE.** Latest tooling/docs/build manifests are on prep/prop-content-phase4 and the branch was verified ahead of phase 3 without runtime/Astra changes.
 
 ## Current prop numbers
 - Ready player-facing catalog: 290.
