@@ -1,0 +1,62 @@
+[
+  {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+    "exists": true,
+    "bytes": 718054,
+    "sha256": "A42BCA25A56DE84950DD5F5FC5562401A5A776FC031A892E9FED734E635F55A4"
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_pak_dir.vpk",
+    "exists": true,
+    "bytes": 7827,
+    "sha256": "5B61D6BA33BC4EE3383E4B25A02C7D07D2E2498AD20AAF145D24E49503204E64"
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_textures_dir.vpk",
+    "exists": true,
+    "bytes": 224277,
+    "sha256": "A523334B897382FC59755036BB7502F284E39BFF4800282C9D1A4B1646E20871"
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+    "exists": true,
+    "bytes": 533006,
+    "sha256": "A3237FC7442C6C57AA924525951280F1381BC641D323B6ED4CE52FD5BE09F83E"
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\fallbacks_dir.vpk",
+    "exists": true,
+    "bytes": 327592,
+    "sha256": "4C6A35E55A7208FB77ADE8BAB469C7DC75C67A7223C3A780661081A8E299453B"
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+    "exists": true,
+    "bytes": 707232,
+    "sha256": "65522B04FB003050066C1D0BA052E8401FE08A0BB0939764D86D0D3E35293EE0"
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+    "exists": true,
+    "bytes": 213719,
+    "sha256": "344AAA8A8B450075FAF74F8A7BA4325CC360B7BA476B92696A1E4F8512DBF4F8"
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_hl2_dir.vpk",
+    "exists": true,
+    "bytes": 363239,
+    "sha256": "072ADEA4FB5DD32388659D14221CE3D5888083E5379A78458DB0A9D44A9B8288"
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_cstrike_dir.vpk",
+    "exists": true,
+    "bytes": 560709,
+    "sha256": "715781A97902D982AB16FA811785966F25A0D5F939F54D94AC88F4454784AA64"
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\platform\\platform_misc_dir.vpk",
+    "exists": true,
+    "bytes": 14073,
+    "sha256": "642115333A07632ECF878F54E5985F0F64396DF47A1CB03A49803EEC98801F98"
+  }
+]
