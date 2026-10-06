@@ -1,0 +1,203 @@
+{
+  "schema": "rem.gmod.physgun.implementation_package.v1",
+  "status": "implementation_ready_evidence_assets_not_runtime_complete",
+  "native_evidence": "context/HANDOFFS/PHYSGUN_IDA68_EVIDENCE_CLOSURE.md",
+  "asset_manifest": "build/prepared/gmod_tool_physgun_asset_handoff/manifest.json",
+  "physgun_assets": [
+    {
+      "path": "models/weapons/v_physics.mdl",
+      "resolved": false,
+      "container": null,
+      "origin": null,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "path": "models/weapons/v_physics.vvd",
+      "resolved": false,
+      "container": null,
+      "origin": null,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "path": "models/weapons/v_physics.dx90.vtx",
+      "resolved": false,
+      "container": null,
+      "origin": null,
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "path": "models/weapons/w_physics.mdl",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 6256,
+      "sha256": "5C65CCD451C098DC65EDBB2DDB5B11575E8D0ED4765E9129DD75518DC1705DB6"
+    },
+    {
+      "path": "models/weapons/w_physics.vvd",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 37440,
+      "sha256": "51D01245361313796B32F00AA4F157216E5E9CC34B28EDD149A78E266CEFE4C4"
+    },
+    {
+      "path": "models/weapons/w_physics.dx90.vtx",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 12206,
+      "sha256": "281281A004F8AAAD77A6D6C489418171DC5A81F0DD74D2C573111D52CD880635"
+    },
+    {
+      "path": "models/weapons/w_physics.phy",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 2332,
+      "sha256": "6B5CF81BEBEBF1A70B1412C6045A2297DE23E2E255AE88F7902D7DE41D445CF5"
+    },
+    {
+      "path": "materials/entities/weapon_physgun.png",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 35180,
+      "sha256": "FF72E62FD294BB4B25A8FBDC64E1BE54DFD23F3F1E12CD6E712D2A8C6BC2935F"
+    },
+    {
+      "path": "materials/cable/physbeam.vmt",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 117,
+      "sha256": "F4072EACE50A3E24CC523DAA23C08D59DF8B2E1F48BE0EA46722683E90D71582"
+    },
+    {
+      "path": "materials/sprites/physbeam.vmt",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 151,
+      "sha256": "5B59BB1AF3E27C72886F28DD6AF2380E691DB8F9937479C4FF9916297FFCED84"
+    },
+    {
+      "path": "materials/sprites/physbeam_white.vtf",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 32913,
+      "sha256": "0BC695A3D8321FA9A96A2144245E7CF565BB588BFFA276A366B00CA1F9C79314"
+    },
+    {
+      "path": "materials/sprites/physbeam_active_white.vtf",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 5624,
+      "sha256": "30CE72F0A1BC49515B60940A6ED7805CF12E56FCF90C1CEFF225F8EC32D876FB"
+    },
+    {
+      "path": "materials/sprites/physbeama.vmt",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 159,
+      "sha256": "E79823D6E7983954E8E776EA8E5A9ED63DC2DE37527BAA02A4CF268CBCD4A2CE"
+    },
+    {
+      "path": "materials/sprites/physg_glow1.vmt",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 197,
+      "sha256": "AAAAC122027C6AD24AF3E989138CD2C974EFC4231AE79031A4C55C340122CBED"
+    },
+    {
+      "path": "materials/sprites/physg_glow2.vmt",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 197,
+      "sha256": "456A3178215EF082C2CE4759EEADF8DCB06A55F482959396CF225B5A0F38D481"
+    },
+    {
+      "path": "materials/sprites/physgbeamb.vmt",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 146,
+      "sha256": "1DF122CB80DC460D8C1249AD30715EE70D64DA1A37916F295DA719F1879EF2B8"
+    },
+    {
+      "path": "materials/sprites/physgun_glow.vtf",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 16575,
+      "sha256": "FF96533E4231D636F5D6FA5710DD5BF40550E8F1615AF21BF8ADA6380DB3A98C"
+    },
+    {
+      "path": "materials/models/weapons/w_physics/w_physics_sheet2.vmt",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 620,
+      "sha256": "F920EB2384C0856B227CB2B3D57CC34ED8017A34C7B6A3E502C5720412018E2C"
+    },
+    {
+      "path": "materials/models/weapons/w_physics/w_physics_sheet2.vtf",
+      "resolved": true,
+      "container": "vpk",
+      "origin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "bytes": 87616,
+      "sha256": "6D4074735EA7B714350837ABF7A2AA2432F63201EDFE2B50A8BA0BEB6CEE6057"
+    }
+  ],
+  "known_asset_gap": [
+    "models/weapons/v_physics.mdl",
+    "models/weapons/v_physics.vvd",
+    "models/weapons/v_physics.dx90.vtx"
+  ],
+  "state_machine": [
+    "IDLE_TRACE",
+    "ACQUIRE",
+    "HOLD",
+    "ROTATE",
+    "DISTANCE_ADJUST",
+    "FREEZE",
+    "DROP",
+    "PUNT",
+    "CLEANUP"
+  ],
+  "required_state": [
+    "grabbed entity/reference",
+    "target-local hit offset",
+    "hold distance",
+    "target orientation",
+    "actor/ragdoll state",
+    "beam endpoint",
+    "hold-controller state"
+  ],
+  "integration_gates": [
+    "ordinary movable prop pickup",
+    "beam endpoint attachment",
+    "stable hold while moving",
+    "wheel distance adjustment",
+    "rotation",
+    "freeze/reacquire",
+    "drop",
+    "punt",
+    "invalid/static rejection",
+    "NPC/ragdoll",
+    "weapon-switch cleanup",
+    "cell/save/load cleanup",
+    "original sounds/effects transitions"
+  ],
+  "rule": "Use IDA Pro 6.8 evidence and original GMod assets/scripts; do not substitute invented behavior."
+}
+
+[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
