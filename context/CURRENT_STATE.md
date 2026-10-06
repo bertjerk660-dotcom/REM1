@@ -15,6 +15,7 @@ Verified 2026-10-06 from actual source, deployed files, support manifests and pr
 - Held skateboard path: rem\thug2\skateheldx.nif.
 - Held skateboard NIF SHA256: 4F12178D6D4004B29B46BCF61365A6B48D2EF007B862B292B4CDA80DF7BBD08A.
 - Held NIF structure: BSFadeNode + Prn=Weapon containing authentic converted THUG2 board geometry.
+- Product requirement now explicitly requires the final assembled THUG2 skating board and the Pip-Boy-equipped held board to be the same visual mesh/material set, with only attachment/container transforms differing. The existing held container is structurally compatible with this requirement, but exact identity with the final Astra animation-board assembly and live in-hand visibility are not yet human-verified.
 
 ## v84 human playtest result: FAIL
 - Raw Camera3rd transform writes were quarantined.
