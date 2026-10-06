@@ -1,0 +1,33 @@
+{
+  "purpose": "Final support-lane prop catalog handoff for later real GMod Q-menu integration.",
+  "ready_count": 290,
+  "sources": {
+    "Fallout New Vegas": 170,
+    "GMod / mounted Source": 120
+  },
+  "fnv_policy": "Only statically-clean entries with existing real base forms are included.",
+  "fnv_static_clean_pool": {
+    "total": 278,
+    "with_existing_form": 246,
+    "missing_form": 32
+  },
+  "previous_ready_missing_forms_replaced": 17,
+  "gmod_sidecar": {
+    "records": 120,
+    "plugin": "REM_GModProps_Catalog.esp",
+    "sha256": "55E0758D4E96DC0C3B5F591002AD3C2C630CC76BE281DEDA0DAF2D2F91A4423E",
+    "enabled": false
+  },
+  "thumbnails": {
+    "coverage": "290/290",
+    "manifest_sha256": "4A90D8E60BC86C57D655F6AB876D9A1144D13ECB5E6FDF46DC68D65FFA7378EC",
+    "role": "support/fallback only"
+  },
+  "future_thug2_queue": {
+    "targets": 106,
+    "levels": 16,
+    "state": "requires split/conversion/collision validation"
+  },
+  "local_manifest_sha256": "BC7AC41C96A4F5D12C10D4A480D604262BAB6C320067D4CA0E78489D98A9A77F",
+  "runtime_menu_integration_performed": false
+}
