@@ -1,0 +1,74 @@
+{
+  "stage": 91,
+  "source_board": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_prop_catalog\\standalone_glb\\models\\board_default\\board_default\\board_default.glb",
+  "source_board_sha256": "9a8276180a0b8ef213044938a79611b69ee051c194170a34bebec31d489421e8",
+  "clips": [
+    {
+      "clip": "thps6_skater_basics/idle.glb",
+      "output": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\board_animation91\\idle.glb",
+      "source_sha256": "e2407a364341c45872bb66e44149df5bee2ea5b483d3ec6a452f6c8ad271f8b7",
+      "output_sha256": "6766808f6075d3528e962f87bb98208f250920026b3887e00ede3189b255c4dd",
+      "board_tracks": 0,
+      "source_animation_and_binary_preserved": true,
+      "mesh_binary_preserved": true,
+      "validation": "pass"
+    },
+    {
+      "clip": "thps6_skater_basics/push.glb",
+      "output": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\board_animation91\\push.glb",
+      "source_sha256": "6cbab49450e52dc3bef98e95b4877ad4207a2db337d9deeb4c11742c3acb4d6a",
+      "output_sha256": "ca030ae878e1ed3d7d84d2606597d00f22054bf9b317e527588836110223e212",
+      "board_tracks": 0,
+      "source_animation_and_binary_preserved": true,
+      "mesh_binary_preserved": true,
+      "validation": "pass"
+    },
+    {
+      "clip": "thps6_skater_basics/ollie.glb",
+      "output": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\board_animation91\\ollie.glb",
+      "source_sha256": "eb7034b2b69219ac256288cf8d4b0f2ee33976dbb55a6dd556408be4da3ccff7",
+      "output_sha256": "17990ee084d5af8c73353a32dc4825f0e1d20b02461f2d17cbe7f190324430c5",
+      "board_tracks": 2,
+      "source_animation_and_binary_preserved": true,
+      "mesh_binary_preserved": true,
+      "validation": "pass"
+    },
+    {
+      "clip": "thps6_skater_basics/land.glb",
+      "output": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\board_animation91\\land.glb",
+      "source_sha256": "0096820f3db2aea2b9d7b5adda9bdba20039d5feff286401c0265c78b7ae40be",
+      "output_sha256": "8072000dbd4c6a9fc992d42a1e4502adb4681fac824cc19b4da21835063bd7b5",
+      "board_tracks": 2,
+      "source_animation_and_binary_preserved": true,
+      "mesh_binary_preserved": true,
+      "validation": "pass"
+    },
+    {
+      "clip": "thps6_skater_basics/manual.glb",
+      "output": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\board_animation91\\manual.glb",
+      "source_sha256": "f921ea96f199bec94c867ac5a039e2ac45cb0114fc9ab3869197417c0a844fe0",
+      "output_sha256": "49e3ab030b5bc64a9934650dd659b9c49e67b8d05a01df5c0c56d67ed4ce0404",
+      "board_tracks": 2,
+      "source_animation_and_binary_preserved": true,
+      "mesh_binary_preserved": true,
+      "validation": "pass"
+    },
+    {
+      "clip": "thps6_skater_fliptricks/kickflip.glb",
+      "output": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\board_animation91\\kickflip.glb",
+      "source_sha256": "70592bbd1162c0ffb87602fe852da5ba2bd0a82b84a9ae8fb0c5f1144198c91e",
+      "output_sha256": "5cc8f5f109e89369e9696eb8db8f5b335097637942db3de26321a11d72c99750",
+      "board_tracks": 2,
+      "source_animation_and_binary_preserved": true,
+      "mesh_binary_preserved": true,
+      "validation": "pass"
+    }
+  ],
+  "deployed": false,
+  "scope": "Original mesh attached to original bone_board_root with complete source animation hierarchy; asset assembly, not a native THUG2 code port",
+  "remaining": [
+    "Visual bind-origin/scale validation",
+    "Source attachment events and transition code",
+    "Fallout runtime player/board shared clock and rig integration"
+  ]
+}
