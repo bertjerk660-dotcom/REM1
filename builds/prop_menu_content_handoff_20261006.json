@@ -1,0 +1,13 @@
+{
+  "purpose": "Compact cross-game content handoff for the future source-faithful GMod Q menu port.",
+  "ready_candidate_count": 290,
+  "ready_by_source": {
+    "Fallout New Vegas": 170,
+    "Garry's Mod / mounted Source content": 120
+  },
+  "thug2_future_embedded_queue": 106,
+  "default_menu_policy": "Keep the ready player-facing environment/skate library near 300-320 items. Promote THUG2 props by replacing redundant lower-priority entries rather than continually expanding the menu.",
+  "local_manifest_sha256": "294505279929642D7DC7344317F3FC8871EB82DC9D9718BDB45942E514022A36",
+  "local_summary_sha256": "BF8D82FB3B5470B235950A9D3FEF8B1931ABF51D7B30558A8FF574CA09B13EB3",
+  "runtime_menu_integration_performed": false
+}

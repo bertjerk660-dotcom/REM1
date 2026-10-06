@@ -1,0 +1,34 @@
+{
+  "iteration": "support-combine-armor-2026-10-06",
+  "goal": "Prepare a separate Combine Soldier full-body armor for later isolated testing without changing Astra v88.",
+  "runtime_parent": {
+    "installed_plugin_version": 85,
+    "dll_sha256": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41"
+  },
+  "astra_candidate": {
+    "branch": "feature/thug2-native-ui-g6",
+    "candidate": 88,
+    "dll_sha256": "6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439",
+    "modified": false
+  },
+  "armor": {
+    "wearable_nif_sha256": "90A836EEF689C50994ED6E5BECC7B37CEFA0B32DA6E20D88C34DC193837B6728",
+    "world_nif_sha256": "1878E5E9E776F70897504EBC31A4B9E13CDF0C496384974453FDF4601D68D3A5",
+    "vertices": 3535,
+    "triangles": 4682,
+    "skin": "NiSkinInstance",
+    "bones": 41,
+    "max_influences": 3,
+    "uncovered_vertices": 0
+  },
+  "test_plugin": {
+    "name": "REM_CombineArmor_Test.esp",
+    "sha256": "52B06C9D1FA087B32BD2F83120603903893D24781BC9490D89C3D9EEE105979E",
+    "enabled": false
+  },
+  "validation": {
+    "static": "pass",
+    "playtest": "not_run"
+  },
+  "promotion": "Do not replace Enclave/Remnants records or NPC outfits until isolated runtime armor tests pass."
+}

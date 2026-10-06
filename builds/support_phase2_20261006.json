@@ -1,0 +1,62 @@
+{
+  "build": "support_phase2_20261006",
+  "parent_runtime": "v85",
+  "goal": "Advance all 20 non-Astra support/workflow tasks without altering Astra v88 or complex runtime mechanics.",
+  "changes": [
+    "final 290-prop catalog + Q-menu data adapter + clean fallback thumbnails",
+    "THUG2 106-target component/position/spatial evidence",
+    "weapon model presentation + inventory QA matrices",
+    "Source/GMod named sound event resolution and per-weapon handoff",
+    "Tool Gun/Physgun source asset/script inventory",
+    "THUG2 controller/trick/physics decompile handoff",
+    "sidecar inventory, regression packs, playtest session tooling",
+    "versioned artifact classification",
+    "release/install manifest and eight Astra subsystem handoffs"
+  ],
+  "validation": {
+    "status": "pass",
+    "checks": 110,
+    "error_count": 0
+  },
+  "playtest": "not_run_for_phase2_support_artifacts",
+  "known_issues": [
+    "THUG2 embedded props are candidates only; not standalone/promoted.",
+    "Combine armor not runtime-tested.",
+    "Most weapon first/third-person/drop presentation not human-tested.",
+    "Real GMod Q-menu/Tool Gun/Physgun runtime and full THUG2 skate runtime remain Astra-owned.",
+    "Legacy Source physgun view path models/weapons/v_Physics.mdl is not mounted; discrepancy handed to Astra."
+  ],
+  "baseline": {
+    "installed_v85_sha256": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+    "astra_v88_sha256": "6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439",
+    "main_esp_sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7"
+  },
+  "artifacts": {
+    "tracker": "context/SUPPORT_20_POINT_TRACKER.md",
+    "release_manifest": "build/prepared/release_install_manifest.json",
+    "validator": "build/validation/support_lane_state.json",
+    "regression_packs": "build/prepared/regression_packs.json",
+    "handoff_dir": "context/HANDOFFS"
+  },
+  "canonical_support": {
+    "input_control_matrix_entries": 22,
+    "input_source_files": 17,
+    "tool_physgun_assets": {
+      "requested": 36,
+      "resolved": 33,
+      "missing": [
+        "models/weapons/v_physics.mdl",
+        "models/weapons/v_physics.vvd",
+        "models/weapons/v_physics.dx90.vtx"
+      ]
+    },
+    "thug2_prop_classification": {
+      "spatial_geometry_candidate": 85,
+      "unresolved_named_target": 7,
+      "semantic_or_gap_identifier": 14
+    },
+    "historical_artifact_count": 63,
+    "regression_pack_count": 8,
+    "gmod_prop_payload_files": 205
+  }
+}

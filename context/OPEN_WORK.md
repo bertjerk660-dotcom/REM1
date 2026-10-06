@@ -24,6 +24,7 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Cover the full skating animation/state set: normal riding/pushing/coasting, turning/carving, crouch/ollie/landing, manuals, grinds, lips, wallrides/wallplants, reverts, grabs, flips, specials and every other reachable THUG2 trick/state used by the selected skater runtime.
 - Reproduce the original transition logic, timing, velocity/momentum changes, balance behavior, collision/ground interaction and camera coupling for those states.
 - Extract and port the correct non-trick board-use animation states as well, including carrying/holding the skateboard weapon, walking/running with the board equipped, mounting into skate mode, normal riding and returning from skate mode to Fallout movement.
+- Enforce model identity across states: the exact assembled board mesh/material set used for THUG2 skate animation must be visible in-hand immediately when the Skateboard weapon is equipped from the Pip-Boy, remain the board attached under the feet in skate mode, and be the same visual board when dropped. Use attachment/container transforms to reposition it; do not swap to a separate substitute mesh.
 - Retarget the original THUG2 animation data to the Fallout player rig without changing the intended motion, timing or trick logic, and validate that the board remains correctly attached to hand/feet across every transition.
 - Preserve keyboard/mouse and Xbox-controller operation for the complete trick/state machine once the source-faithful behavior is stable.
 - Validate the integrated free-roam stack subsystem-by-subsystem and then as a complete loop: enter mode -> push/ride -> turn -> ollie -> perform tricks -> land -> grind/manual/lip -> chain combo -> use SPECIAL -> bail/recover where applicable -> continue riding -> exit mode -> normal Fallout restored.
@@ -42,7 +43,7 @@ This is a requirements/backlog ledger, not proof of implementation.
 
 ## GMod-style prop menu content
 - Do NOT expose the entire 13,003-model Fallout prop candidate archive in the player-facing menu.
-- Use the curated approximately 300-prop set as the intended default Fallout library.
+- Use the compact cross-game ready catalog as the default: currently 290 entries = 170 statically-clean existing-form FNV props + 120 converted GMod/Source props. Keep the final player-facing library near 300–320 as validated THUG2 props are promoted.
 - Prioritize useful environmental objects and skateable geometry: rails, railings, benches, ramps, stairs, ledges, barriers, tables, counters, crates, large boxes and pipes.
 - Include a smaller supporting set of fences, signs, lamps, poles, street clutter, furniture, storage, vending machines, terminals, rocks, trees and plants.
 - Keep the full 13,003-model catalog only as archive/search data so individual curated props can be swapped later.
@@ -78,3 +79,35 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Verify save/load.
 - Verify normal inventory and combat behavior outside imported modes.
 - Check for progression-breaking regressions.
+
+
+## Support/workflow lane
+- Keep feature/thug2-native-ui-g6 reserved for Astra's complex THUG2/UI/mechanics work.
+- Use the support lane for reproducible asset staging, xEdit records, Pip-Boy icons, manifests, validation scripts, provenance, prop curation, dependency audits, packaging and regression preparation.
+- Do not modify or deploy the v88 candidate from the support lane.
+- Re-check installed DLL, active ESP and candidate hashes immediately before any deployment because concurrent work can occur.
+- Prefer sidecar test plugins and isolated build directories for support features so gameplay/runtime changes remain attributable.
+
+## Combine Soldier armor staging
+- Static full-body Combine Soldier armor conversion exists and passes structural/skin/texture validation.
+- Dedicated REM_CombineArmor_Test.esp exists locally but remains disabled.
+- Next test gate: equip on male/female player where applicable, inspect idle/walk/run/crouch/weapon poses, first/third person, dropped world model, NPC equip, save/load and clipping.
+- Do not replace Enclave/Remnants armor records or NPC outfits until that isolated test passes.
+
+## Remaining support gates
+- Run the prepared human baseline/inventory/prop/armor/skateboard playtest packs and attach preflight/postflight evidence.
+- Promote no disabled sidecar until its isolated in-game pack passes.
+- When Astra/Opus changes runtime code, re-run the 94-check support validator and refresh artifact hashes/manifests.
+- Keep proprietary source assets local; continue committing only tooling, mappings, hashes, manifests and handoff knowledge.
+- Treat the 85 THUG2 spatial prop candidates as model-extraction work requiring visual leaf verification before splitting/conversion; do not force the 21 semantic/unresolved identifiers into props.
+- Preserve the recorded missing Source v_Physics view-model triplet as an explicit dependency discrepancy rather than inventing a replacement.
+- Keep the 290-entry catalog compact when THUG2 props are promoted by replacing redundant lower-priority entries.
+
+### Support phase 2 status
+- Prop catalog data/form bindings/thumbnails/Q-menu adapter are prepared; human representative spawn/collision tests are still required.
+- THUG2 prop extraction is advanced to QB component/position evidence and spatial leaf candidates; standalone split/conversion/validation remains open.
+- Weapon sound/source dependencies are resolved for the staged set; first/third-person presentation and inventory/drop behavior still require gameplay checks.
+- Combine armor is still static-validation-only and must not replace Enclave/Remnants records until its isolated test pack passes.
+- Runtime Q menu, Tool Gun, Physgun, complete THUG2 skate physics/animation/camera/HUD remain Astra-owned.
+- Run research/validate_support_lane_state.py before promoting support artifacts; current pass count is 107.
+- Follow context/SUPPORT_20_POINT_TRACKER.md for exact per-task progress.

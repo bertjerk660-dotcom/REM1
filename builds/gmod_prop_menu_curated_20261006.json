@@ -1,0 +1,18 @@
+{
+  "purpose": "Compact practical GMod/Source prop pool for later use by the real Q menu port.",
+  "source_registry_entries": 7507,
+  "selected": 120,
+  "materials_unresolved": 0,
+  "category_counts": {
+    "Skate - Rails Fences Barriers": 15,
+    "Skate - Benches Tables": 15,
+    "Skate - Planks Ladders Beams": 15,
+    "Physics - Crates Boxes Pallets": 18,
+    "Physics - Barrels Canisters": 12,
+    "Street - Signs Cones Trash Carts": 15,
+    "Environment - Furniture": 20,
+    "Fun - Playground Misc": 10
+  },
+  "local_manifest_sha256": "4DBABE799424858F26F0A4B016BE5F2D0514EAE2ECEEA462A79119CAC1936B7A",
+  "runtime_integration_performed": false
+}

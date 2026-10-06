@@ -1,0 +1,15 @@
+{
+  "purpose": "Static validation of the 300-item curated Fallout prop candidate pool.",
+  "selected": 300,
+  "parse_ok": 300,
+  "static_clean": 278,
+  "flags": {
+    "missing_texture_refs": 10,
+    "no_havok_collision": 10,
+    "very_large": 3
+  },
+  "local_audit_sha256": "5A4B87A17AF3F81C616D73788FD225635908AD6A26FA9BC4728FA1E0573EA952",
+  "local_shortlist_sha256": "6F4F5A80A8B683C896536D85D43AD161DA9D168522E0A33146F8DB6D7762C447",
+  "note": "Static-clean does not equal runtime/playability validation. Flagged assets remain in the archive but are excluded from the default ready shortlist.",
+  "runtime_integration_performed": false
+}

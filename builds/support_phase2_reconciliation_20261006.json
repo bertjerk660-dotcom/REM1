@@ -1,0 +1,31 @@
+{
+  "purpose": "Reconcile concurrent support outputs and restore the intended disabled-sidecar baseline without changing v85/v88 runtime binaries.",
+  "validator": {
+    "status": "pass",
+    "checks": 110,
+    "errors": 0
+  },
+  "canonical_counts": {
+    "props_ready": 290,
+    "thug2_targets": 106,
+    "thug2_target_classes": {
+      "spatial_geometry_candidate": 85,
+      "unresolved_named_target": 7,
+      "semantic_or_gap_identifier": 14
+    },
+    "control_matrix_entries": 22,
+    "tool_physgun_requested": 36,
+    "tool_physgun_resolved": 33,
+    "historical_artifacts": 63,
+    "regression_packs": 8,
+    "gmod_prop_payload_files": 205
+  },
+  "baseline_restored": {
+    "plugins_txt": "REM_GModTHUG2.esp only",
+    "combine_test_sidecar_disabled": true,
+    "runtime_dll_unchanged": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+    "astra_v88_unchanged": "6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439",
+    "main_esp_unchanged": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7"
+  },
+  "playtest": "not_run"
+}
