@@ -31,4 +31,7 @@ Support agents prepare evidence, manifests, validators, dependency/order plannin
 - No fabricated/recreated source-game assets when original evidence is required.
 - Do not treat historical v59 implementation claims as proof of current runtime stability.
 
-[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
+## Current ownership/read-order override — 2026-10-06 evening
+Use `build/handoffs/gpt6_opus/EXECUTION_SEQUENCE.md` and `build/handoffs/gpt6_opus/feed_bundle/OPUS_VISUAL_QUEUE.json` as the current ownership authority. The older `MASTER_EXECUTION_QUEUE.json` remains useful for dependency/regression history, but some of its GPT6_OPUS owner labels predate the confirmed split where Opus handles visual/model/material/rigging/conversion/animation work and Astra handles native/deep runtime mechanics.
+
+Before implementation, run both `research/validate_gpt6_opus_handoff.ps1` and `research/validate_opus_feed_bundle.ps1`. Start at O01, the golden Source bench proof, and do not batch visual conversion until it passes.
