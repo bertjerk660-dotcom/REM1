@@ -58,3 +58,14 @@ Appearance or mode activation alone is not completion. Require source/provenance
 - External Opus 5.5 owns the substantive coding/visual/runtime integration: models, textures, NIF/rigging, animations, physics, camera, GMod/THUG2 code and behavior, Q-menu/Toolgun integration, and cross-game asset implementation.
 - The support/GPT lane owns preparation and orchestration only: manifests, provenance/hashes, dependency inventories, test plans, validation, load-order tracking, naming, regression/failure documentation and reproducibility evidence.
 - IDA Pro 6.8 remains the only reverse-engineering version authorized for this project.
+
+
+## GMod overlay evidence expansion
+A dedicated preparation document now defines the required GMod presentation/input architecture:
+- context/HANDOFFS/GMOD_OVERLAY_EVIDENCE_2026-10-06.md
+
+Treat GMod as a contextual interaction/UI layer over the live Fallout world, not as a permanent Fallout HUD reskin. Fallout owns normal play; the real/ported Q menu temporarily owns menu/cursor input while visible; Toolgun and Physgun own their source-faithful actions/feedback while equipped; GMod-owned transient feedback uses GMod presentation rather than Fallout alerts; closing the GMod layer returns input/presentation cleanly to Fallout.
+
+The overlay evidence document also records the currently durable inventories (105 Q-menu Lua files, 40 stools, 46 VGUI classes, 29/29 direct UI/material refs, Toolgun/Physgun assets/hooks, curated 290-prop catalog), an implementation-grade evidence checklist, and 12 acceptance tests.
+
+Documentation warning: the readiness audit references ASTRA_GMOD_QMENU.md, ASTRA_TOOLGUN.md and ASTRA_PHYSGUN.md, but those three paths are currently absent from canonical GitHub. Opus must not assume they are durable inputs until recovered/imported or replaced.
