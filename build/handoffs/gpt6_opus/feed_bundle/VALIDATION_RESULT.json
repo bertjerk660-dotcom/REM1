@@ -1,0 +1,84 @@
+﻿{
+    "generated":  "2026-10-06T19:59:13",
+    "mode":  "PREPARATION_ONLY",
+    "missing_feed_files":  [
+
+                           ],
+    "source_hash":  {
+                        "actual":  "CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5",
+                        "expected":  "CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5",
+                        "pass":  true
+                    },
+    "generated_files_pass":  true,
+    "generated_files":  [
+                            {
+                                "path":  "build/handoffs/gpt6_opus/feed_bundle/OPUS_VISUAL_QUEUE.json",
+                                "exists":  true,
+                                "expected":  "08CE9221748341AEB48CACE214E581C0B56146D3BD5D18610FE50E90FA494346",
+                                "actual":  "08CE9221748341AEB48CACE214E581C0B56146D3BD5D18610FE50E90FA494346",
+                                "pass":  true
+                            },
+                            {
+                                "path":  "build/handoffs/gpt6_opus/feed_bundle/CODE_CONTEXT.md",
+                                "exists":  true,
+                                "expected":  "10802084A3CC9A409F94E412822D806B3A2A670FE35D3AE75049A3D3D5AC4B24",
+                                "actual":  "10802084A3CC9A409F94E412822D806B3A2A670FE35D3AE75049A3D3D5AC4B24",
+                                "pass":  true
+                            },
+                            {
+                                "path":  "build/handoffs/gpt6_opus/feed_bundle/ASSET_REFERENCE_INDEX.json",
+                                "exists":  true,
+                                "expected":  "B7842FBDFEEEE5A19C0C4FDCD91E5A2E5620205E919AE2A87E5C1715A5C2C850",
+                                "actual":  "B7842FBDFEEEE5A19C0C4FDCD91E5A2E5620205E919AE2A87E5C1715A5C2C850",
+                                "pass":  true
+                            },
+                            {
+                                "path":  "build/handoffs/gpt6_opus/feed_bundle/OPUS_START_PROMPT.md",
+                                "exists":  true,
+                                "expected":  "FB8D63AE12792F9B65C6DB4BD779F1B4C401D8AE0108E6555241FAACC489710B",
+                                "actual":  "FB8D63AE12792F9B65C6DB4BD779F1B4C401D8AE0108E6555241FAACC489710B",
+                                "pass":  true
+                            },
+                            {
+                                "path":  "build/handoffs/gpt6_opus/feed_bundle/HANDOFF_INDEX.json",
+                                "exists":  true,
+                                "expected":  "0B86A108FF137EF517283A153AC21C4D569AFEA015B827BF25D9B120F68E5715",
+                                "actual":  "0B86A108FF137EF517283A153AC21C4D569AFEA015B827BF25D9B120F68E5715",
+                                "pass":  true
+                            }
+                        ],
+    "required_source_components_pass":  true,
+    "required_source_components_checked":  34,
+    "required_source_component_failures":  [
+
+                                           ],
+    "protected_baseline":  {
+                               "dll_actual":  "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+                               "dll_expected":  "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+                               "esp_actual":  "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+                               "esp_expected":  "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+                               "pass":  true
+                           },
+    "queue":  {
+                  "task_ids":  [
+                                   "O01",
+                                   "O02",
+                                   "O03",
+                                   "O04",
+                                   "O05",
+                                   "O06"
+                               ],
+                  "pass":  true,
+                  "astra_reserved":  [
+                                         "real GMod Q-menu compatibility runtime",
+                                         "Tool Gun lifecycle/tool execution mechanics",
+                                         "Physics Gun target/hold/rotate/freeze/drop/launch mechanics",
+                                         "THUG2 movement/physics/camera/runtime state machine",
+                                         "crash-sensitive NVSE/native hooks",
+                                         "final runtime promotion"
+                                     ]
+              },
+    "proprietary_assets_embedded":  false,
+    "asset_policy_pass":  true,
+    "pass":  true
+}
