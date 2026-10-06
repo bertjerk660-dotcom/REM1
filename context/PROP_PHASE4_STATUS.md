@@ -14,3 +14,4 @@
 - Release/support manifest count: 17.
 - Runtime/Astra code changed: false.
 - Runtime/visual playtest for phase 4: not run.
+- GitHub branch verified: prep/prop-content-phase4, based on prep/prop-content-phase3.
