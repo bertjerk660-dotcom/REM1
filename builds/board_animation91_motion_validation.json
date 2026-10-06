@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "clip": "idle.glb",
+      "duration": 1.3333333730697632,
+      "samples": 17,
+      "finite_world_transforms": true,
+      "max_matrix_delta": 0.0,
+      "status": "pass"
+    },
+    {
+      "clip": "kickflip.glb",
+      "duration": 0.5666666626930237,
+      "samples": 17,
+      "finite_world_transforms": true,
+      "max_matrix_delta": 8.15834017939317,
+      "status": "pass"
+    },
+    {
+      "clip": "land.glb",
+      "duration": 1.0666667222976685,
+      "samples": 17,
+      "finite_world_transforms": true,
+      "max_matrix_delta": 3.5918403044084894,
+      "status": "pass"
+    },
+    {
+      "clip": "manual.glb",
+      "duration": 0.4333333373069763,
+      "samples": 17,
+      "finite_world_transforms": true,
+      "max_matrix_delta": 9.899721990861064,
+      "status": "pass"
+    },
+    {
+      "clip": "ollie.glb",
+      "duration": 0.6333333253860474,
+      "samples": 17,
+      "finite_world_transforms": true,
+      "max_matrix_delta": 12.420049151994649,
+      "status": "pass"
+    },
+    {
+      "clip": "push.glb",
+      "duration": 0.30000001192092896,
+      "samples": 17,
+      "finite_world_transforms": true,
+      "max_matrix_delta": 0.0,
+      "status": "pass"
+    }
+  ],
+  "interpretation": "Offline GLTF transform evaluation only; no engine/visual parity claim"
+}
