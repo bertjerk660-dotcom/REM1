@@ -1,0 +1,16 @@
+{
+  "purpose": "Support-lane audit of staged Source/GMod/Half-Life weapon model packages.",
+  "weapon_classes_total": 52,
+  "unique_model_refs": 73,
+  "concrete_model_refs": 71,
+  "concrete_model_refs_staged": 71,
+  "concrete_coverage_percent": 100,
+  "blocking_unstaged": [],
+  "nonblocking_abstract_only_unstaged": [
+    "models/weapons/v_eq_flashbang.mdl",
+    "models/weapons/v_pistol.mdl"
+  ],
+  "finding": "The only unstaged refs belong to abstract base classes; concrete weapon references are fully staged.",
+  "local_audit_sha256": "D8435F3482CB32E6EC5A21D40C394B55B4E7E2C89247C918E79E065D3AE659FF",
+  "runtime_integration_performed": false
+}
