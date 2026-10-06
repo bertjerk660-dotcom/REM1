@@ -12,9 +12,16 @@
     "phase-4 static validator"
   ],
   "validation": {
-    "status": "pass",
-    "checks": 46,
-    "errors": 0
+    "phase4": {
+      "status": "pass",
+      "checks": 66,
+      "errors": 0
+    },
+    "unified_support": {
+      "status": "pass",
+      "checks": 112,
+      "errors": 0
+    }
   },
   "playtest": "not_run",
   "runtime_changes": false,
@@ -53,5 +60,67 @@
     "standalone split/conversion/material/collision/scale validation",
     "human prop runtime batches",
     "real GMod Q-menu runtime remains Astra-owned"
-  ]
+  ],
+  "release_support_manifests": 17,
+  "material_collision": {
+    "with_materials": 20,
+    "count": 20,
+    "collision_roles": {
+      "static_skate_obstacle": 16,
+      "static_environment_prop": 4
+    }
+  },
+  "category_balance": {
+    "deficits": [
+      {
+        "bucket": "Skate / Ramps & Stairs",
+        "planned_count": 25,
+        "target_min": 28,
+        "target_max": 36,
+        "state": "deficit",
+        "delta": 3
+      },
+      {
+        "bucket": "Skate / Ledges & Barriers",
+        "planned_count": 23,
+        "target_min": 24,
+        "target_max": 32,
+        "state": "deficit",
+        "delta": 1
+      },
+      {
+        "bucket": "Environment / Utility",
+        "planned_count": 6,
+        "target_min": 8,
+        "target_max": 14,
+        "state": "deficit",
+        "delta": 2
+      }
+    ],
+    "excesses": [
+      {
+        "bucket": "Skate / Benches & Tables",
+        "planned_count": 50,
+        "target_min": 32,
+        "target_max": 45,
+        "state": "excess",
+        "delta": 5
+      }
+    ]
+  },
+  "reserve_fallbacks": {
+    "ready_count": 290,
+    "reserve_count": 80,
+    "fallbacks_per_ready": 3
+  },
+  "runtime_batches_with_fallbacks": {
+    "batches": 5,
+    "selected": 56,
+    "fallbacks_per_test": 2
+  },
+  "thug2_sidecar_builder": {
+    "status": "blocked_no_validated_candidates",
+    "ready": 0,
+    "blocked": 20
+  }
 }
