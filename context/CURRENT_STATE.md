@@ -38,3 +38,16 @@ THUG2 is NOT VERIFIED STABLE until v82 is playtested.
 - Master execution queue, dependency graph, regression spec, acceptance gates, sidecar strategy and preflight validator are prepared.
 - Preflight passed locally on 2026-10-06: 85 targets, zero semantic overlap, 16/16 source level GLBs available, both IDA 6.8 Physgun evidence exports present.
 - These preparation results do not change the verified deployed runtime version or establish THUG2/Physgun runtime success.
+
+## 2026-10-06 Prompt 4 workflow checkpoint
+- A fresh local GPT-6/Opus preflight passed at 19:29 BST.
+- runtime_harness/READY_VERDICT.json still reports READY_FOR_IMPLEMENTATION = YES and source_drift = false.
+- Active runtime source SHA256 still matches RUNTIME_INTEGRATION_MAP.json: CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5.
+- Installed v85 DLL SHA256 remains BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41.
+- Active REM_GModTHUG2.esp SHA256 remains 0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7.
+- Isolated v88 DLL SHA256 remains 6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439.
+- Support validator passed 112 checks with zero errors.
+- research/capture_project_workflow_checkpoint.ps1 now automates protected hashes + GPT-6/Opus preflight + support validation + active-process detection. It does not deploy or modify runtime files.
+- Astra Prompt 4 is stored at context/HANDOFFS/ASTRA_PROMPT_4.md. Its primary runtime milestone is the dependency-gated Physics Gun path (G02 -> G04).
+- These results establish preparation/readiness only. They do not establish Physics Gun, Q-menu or THUG2 gameplay stability.
+
