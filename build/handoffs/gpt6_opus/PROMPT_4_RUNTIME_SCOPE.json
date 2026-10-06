@@ -1,0 +1,42 @@
+{
+  "schema": "rem.astra_prompt4_scope.v1",
+  "generated": "2026-10-06T19:33:21+01:00",
+  "branch": "prep/astra-prompt4-workflow",
+  "objective": "Advance the next dependency-valid runtime milestone without duplicating support/model work.",
+  "primary_runtime_milestone": "Physics Gun: close G02 provenance if possible, then isolated G04 implementation and validation.",
+  "required_inputs": [
+    "context/HANDOFFS/ASTRA_PROMPT_4.md",
+    "context/HANDOFFS/START_HERE_GPT6_OPUS.md",
+    "build/handoffs/gpt6_opus/MASTER_EXECUTION_QUEUE.json",
+    "build/handoffs/gpt6_opus/DEPENDENCY_GRAPH.json",
+    "build/handoffs/gpt6_opus/REGRESSION_SPEC.json",
+    "build/handoffs/gpt6_opus/ACCEPTANCE_GATES.json",
+    "build/handoffs/gpt6_opus/SIDECAR_STRATEGY.json",
+    "build/handoffs/gpt6_opus/RUNTIME_INTEGRATION_MAP.json",
+    "build/handoffs/gpt6_opus/runtime_harness/READY_VERDICT.json"
+  ],
+  "verified_checkpoint": {
+    "handoff_preflight_pass": true,
+    "ready_for_implementation": "YES",
+    "source_drift": false,
+    "support_validator": {
+      "status": "pass",
+      "checks": 112,
+      "errors": 0
+    },
+    "active_source_sha256": "CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5",
+    "installed_v85_sha256": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+    "active_esp_sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+    "isolated_v88_sha256": "6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439"
+  },
+  "known_blocker": {
+    "system": "physgun presentation",
+    "unresolved": [
+      "models/weapons/v_physics.mdl",
+      "models/weapons/v_physics.vvd",
+      "models/weapons/v_physics.dx90.vtx"
+    ],
+    "rule": "Do not invent or silently substitute provenance."
+  },
+  "promotion_rule": "No task complete or promoted until applicable ACCEPTANCE_GATES and human playability requirements pass."
+}

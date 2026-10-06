@@ -78,3 +78,12 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Verify save/load.
 - Verify normal inventory and combat behavior outside imported modes.
 - Check for progression-breaking regressions.
+
+## Workflow coordination after Prompt 4
+- Use context/HANDOFFS/ASTRA_PROMPT_4.md for the next Astra runtime pass.
+- Re-run research/capture_project_workflow_checkpoint.ps1 before and after every Astra/Opus candidate iteration.
+- Record candidate branch, commit, parent build, source/DLL/ESP hashes, MASTER_EXECUTION_QUEUE task, applicable regression suites and human-playability result.
+- Normal ChatGPT/support work should continue with repository reconciliation, validation, manifests, provenance, playtest preparation, build history and project-knowledge updates rather than duplicating Astra runtime implementation.
+- Keep the unresolved Source-declared Physgun v_physics MDL/VVD/DX90.VTX provenance gap explicit until proven. Do not silently substitute.
+- Do not promote a candidate solely because static preflight/compile passes; ACCEPTANCE_GATES.json still requires runtime behavior, cleanup, save/load, regressions and human playability.
+
