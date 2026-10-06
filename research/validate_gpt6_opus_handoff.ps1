@@ -14,4 +14,12 @@ $result|ConvertTo-Json -Depth 6
 $result|ConvertTo-Json -Depth 6|Set-Content (Join-Path $Root "build\handoffs\gpt6_opus\PREFLIGHT_RESULT.json") -Encoding UTF8
 if(!$result.pass){exit 2}
 
+# Runtime-map drift gate
+$map=Get-Content (Join-Path $Root "build\handoffs\gpt6_opus\RUNTIME_INTEGRATION_MAP.json") -Raw|ConvertFrom-Json
+$mappedSource=Join-Path $Root $map.active_source.path
+$actualSourceHash=if(Test-Path $mappedSource){(Get-FileHash $mappedSource -Algorithm SHA256).Hash}else{"MISSING"}
+$drift=($actualSourceHash -ne $map.active_source.sha256)
+if($drift){Write-Error ("Runtime source drift: expected "+$map.active_source.sha256+" actual "+$actualSourceHash);exit 3}
+Write-Output ("RUNTIME_MAP_SOURCE_HASH=PASS "+$actualSourceHash)
+
 [executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
