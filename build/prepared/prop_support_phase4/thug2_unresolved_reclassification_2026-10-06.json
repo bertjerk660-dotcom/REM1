@@ -1,0 +1,159 @@
+﻿{
+    "schema":  "rem.thug2.unresolved_reclassification.v1",
+    "generated":  "2026-10-06",
+    "old_not_ready_count":  21,
+    "standalone_geometry_still_missing":  0,
+    "semantic_or_non_geometry_count":  21,
+    "rule":  "Do not fabricate geometry. Reopen only with concrete original scene-component/mesh binding evidence.",
+    "entries":  [
+                    {
+                        "level":  "ap",
+                        "identifier":  "AP_circlebench",
+                        "previous_classification":  "unresolved_named_target",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "ba",
+                        "identifier":  "BA_BridgeRailTransfer02",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "ba",
+                        "identifier":  "GapID_SantsBench02",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "be",
+                        "identifier":  "BE_Bench2Ledge",
+                        "previous_classification":  "unresolved_named_target",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "be",
+                        "identifier":  "BE_ledge2bench01",
+                        "previous_classification":  "unresolved_named_target",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "dj",
+                        "identifier":  "LA_HitLedgeLeftE",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "dj",
+                        "identifier":  "LA_HitLedgeLeftS",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "dj",
+                        "identifier":  "DJ_WoodBarrier",
+                        "previous_classification":  "unresolved_named_target",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "la",
+                        "identifier":  "CPF_PershingRamp1",
+                        "previous_classification":  "unresolved_named_target",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "la",
+                        "identifier":  "LA_ManualCutLedge_Gap",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "no",
+                        "identifier":  "Bouncy_MetalTableHit02",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "no",
+                        "identifier":  "Bouncy_WoodenTableHit02",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "ph",
+                        "identifier":  "PH_Railing2Planter_Gap",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "ph",
+                        "identifier":  "PH_LedgeToHandE",
+                        "previous_classification":  "unresolved_named_target",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "sc",
+                        "identifier":  "SC_QP2PoolEdge_GapE",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "sc",
+                        "identifier":  "SC_Planter2Bench_GapE",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "se",
+                        "identifier":  "SE_GapEnd_Ramp",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "st",
+                        "identifier":  "ST_BigRamp",
+                        "previous_classification":  "unresolved_named_target",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "st",
+                        "identifier":  "Bouncy_MetalTableHit02",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "st",
+                        "identifier":  "Bouncy_WoodenTableHit02",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    },
+                    {
+                        "level":  "tr",
+                        "identifier":  "Bouncy_WoodenTableHit02",
+                        "previous_classification":  "semantic_or_gap_identifier",
+                        "new_classification":  "semantic_or_unproven_geometry_identifier",
+                        "standalone_geometry_required":  false
+                    }
+                ]
+}
+
+[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
