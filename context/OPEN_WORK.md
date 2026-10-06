@@ -93,27 +93,25 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Next test gate: equip on male/female player where applicable, inspect idle/walk/run/crouch/weapon poses, first/third person, dropped world model, NPC equip, save/load and clipping.
 - Do not replace Enclave/Remnants armor records or NPC outfits until that isolated test passes.
 
-## Support lane backlog
-- Reconcile and import project-authored local conversion/validation scripts that are still missing from GitHub.
-- Maintain hashes/provenance for source-game assets without committing proprietary binaries.
-- Finish asset-only Pip-Boy icon and inventory presentation audits.
-- Continue GMod/HL weapon model staging and missing-dependency reports without rewriting weapon mechanics.
-- Continue curated prop-library indexing, collision/scale validation and thumbnail preparation for the eventual real GMod Q menu.
-- Inventory real GMod Q-menu/Tool Gun/Physics Gun script/assets and dependencies for Astra, but leave the native/runtime port and behavior implementation to Astra.
-- Prepare THUG2 UI/font/controller-glyph asset manifests and test data, but leave animation, camera, physics, scoring-runtime and model-rig behavior changes to Astra.
-- Expand repeatable boot/save/load/inventory/asset-reference validation so candidate promotion requires less manual checking.
+## Support lane status after preparation pass B
+- Source inventories, weapon-model staging, prop curation, collision/reference audits, thumbnails, sidecar catalogs, THUG2 asset handoffs, HUD/controller source manifests and regression capture tooling are prepared.
+- Final compact content catalog: 290 ready entries, all with form bindings. The FNV half uses only existing real base forms; the GMod/Source half uses a disabled validated sidecar.
+- Three support sidecars remain disabled until isolated human tests: REM_CombineArmor_Test.esp, REM_GModProps_Catalog.esp and REM_WeaponPresentation_Fixes.esp.
+- Support-generated thumbnails are audit/fallback data only; final GMod SpawnIcon behavior remains part of Astra's real Q-menu runtime.
+- GMod/HL view/world model packages and sound-event evidence are staged, but first-person attachment/animation behavior remains Astra-owned.
+- THUG2 embedded props and board/HUD assets are source-indexed for Astra; support has not implemented animation, physics, camera or HUD runtime behavior.
 
-### Completed support preparation — 2026-10-06
-- GMod/HL concrete weapon-model staging audit: 100% concrete reference coverage.
-- FNV curated prop static audit: 278/300 static-clean.
-- FNV Havok authored-mobility audit recorded.
-- Real GMod Q-menu/Tool Gun/Physgun-visible/notification source dependency inventory recorded.
-- 120 practical GMod/Source props curated.
-- 106 THUG2 embedded prop extraction targets curated.
-- Compact 290-item ready-content handoff produced.
+### Remaining non-Astra gates
+- Run isolated human gameplay tests using context/SUPPORT_PLAYTEST_CHECKLIST.md and preserve preflight/postflight evidence.
+- Verify Combine armor deformation/clipping/world model/NPC/save-load before any Enclave/Remnants replacement.
+- Verify prop sidecar representative spawning, scale, texture, collision and stability before menu promotion.
+- Verify RPG presentation-fix sidecar before incorporating its change into the main content plugin.
+- Verify ordinary weapon drop/pickup/container/trade presentation and origin icons in-game.
+- Continue keeping manifests/hashes/project notes synchronized as Astra promotes runtime candidates.
 
-### Next support tasks
-- Audit existing ESP/base-form coverage for the 290 ready props.
-- Audit and prepare missing content thumbnails/icons without implementing the Q-menu runtime.
-- Create only missing prop records in a disabled sidecar catalog.
-- Add automated sidecar/reference validation and preserve hashes/provenance.
+### Astra / Claude handoff remains
+- Complete THUG2 free-roam state machine, physics, tricks, camera and exact animation integration.
+- Complete source-faithful THUG2 HUD runtime.
+- Implement the real GMod Q-menu compatibility runtime from the prepared source/dependency inventory.
+- Implement real Tool Gun behavior/state flow and native/source-faithful Physics Gun manipulation/beam behavior.
+- Resolve exact Source named sound-event behavior and any first-person attachment/animation runtime issues.
