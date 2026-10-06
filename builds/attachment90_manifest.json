@@ -1,0 +1,11 @@
+{
+  "candidate": 90,
+  "parent": 89,
+  "compile": "pass",
+  "runtime": "not_tested",
+  "deployed": false,
+  "retarget_enabled": false,
+  "main_sha256": "3f9da45b0fa0b2ae8f0d5399d0a6c2cd2b9d33622096d3ba857ef98128ac3cba",
+  "dll_sha256": "04d93fcbcd3429b01c526292573568eac198b58e6d752f2e80cc758a1b925375",
+  "live_sha256": "bc24e9b15bca28b33569bc9ff7fd59db66e962150fd00a9350ce3367dcf06f41"
+}
