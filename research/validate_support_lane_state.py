@@ -284,6 +284,94 @@ handoff_dir=ROOT/"context/HANDOFFS"
 handoffs=list(handoff_dir.glob("ASTRA_*.md")) if handoff_dir.exists() else []
 ck("astra_handoff_packets_8",len(handoffs)==8,[x.name for x in handoffs])
 
+
+canonical_release=load("build/prepared/release_install_manifest/summary.json")
+if canonical_release:
+    ck("canonical_release_manifest_payload",
+       canonical_release.get("gmod_prop_payload_files")==205 and
+       canonical_release.get("fnv_native_catalog_refs")==170 and
+       canonical_release.get("gmod_custom_catalog_refs")==120 and
+       not canonical_release.get("missing_core"),
+       canonical_release)
+
+control_matrix=load("build/prepared/input_control_matrix/manifest.json")
+if control_matrix:
+    ck("canonical_input_control_matrix",
+       len(control_matrix.get("matrix",[]))==22 and
+       len(control_matrix.get("source_files",[]))==17,
+       {"matrix_entries":len(control_matrix.get("matrix",[])),
+        "source_files":len(control_matrix.get("source_files",[]))})
+
+canonical_toolphys=load("build/prepared/gmod_tool_physgun_asset_handoff/manifest.json")
+if canonical_toolphys:
+    expected_missing={
+      "models/weapons/v_physics.mdl",
+      "models/weapons/v_physics.vvd",
+      "models/weapons/v_physics.dx90.vtx",
+    }
+    ck("canonical_tool_physgun_asset_handoff",
+       canonical_toolphys.get("requested")==36 and
+       canonical_toolphys.get("resolved")==33 and
+       set(canonical_toolphys.get("missing",[]))==expected_missing,
+       {"requested":canonical_toolphys.get("requested"),
+        "resolved":canonical_toolphys.get("resolved"),
+        "missing":canonical_toolphys.get("missing")})
+
+target_classes=load("build/prepared/thug2_prop_catalog/target_classification.json")
+if target_classes:
+    c=target_classes.get("classification_counts",{})
+    ck("canonical_thug2_prop_target_classification",
+       target_classes.get("target_count")==106 and
+       c.get("spatial_geometry_candidate")==85 and
+       c.get("semantic_or_gap_identifier")==14 and
+       c.get("unresolved_named_target")==7,
+       {"target_count":target_classes.get("target_count"),
+        "classification_counts":c})
+
+historical=load("build/prepared/historical_artifact_registry/manifest.json")
+if historical:
+    known_bad=[r for r in historical.get("records",[]) if r.get("category")=="known_bad_do_not_run"]
+    ck("canonical_historical_artifact_registry",
+       historical.get("artifact_count")==63 and
+       any(r.get("path")=="research/patch_v74_advdupe_physgun.py" for r in known_bad),
+       {"artifact_count":historical.get("artifact_count"),
+        "known_bad":[r.get("path") for r in known_bad]})
+
+canonical_reg=load("build/prepared/regression_test_packs/manifest.json")
+if canonical_reg:
+    ids={x.get("id") for x in canonical_reg.get("packs",[])}
+    expected_ids={
+      "baseline_fallout","inventory_presentation","rpg_presentation_fix",
+      "gmod_prop_catalog","combine_armor","skateboard_baseline",
+      "astra_skate_activation","astra_qmenu_tool_physgun",
+    }
+    ck("canonical_regression_test_packs",
+       canonical_reg.get("pack_count")==8 and ids==expected_ids,
+       {"pack_count":canonical_reg.get("pack_count"),"ids":sorted(ids)})
+
+if tracker_path.exists():
+    tracker_text=tracker_path.read_text(encoding="utf-8",errors="ignore")
+    ck("support_tracker_reconciled_canonical",
+       "205 GMod prop payload files" in tracker_text and
+       "85 have source QB position" in tracker_text and
+       "Eight repeatable packs" in tracker_text,
+       {"bytes":tracker_path.stat().st_size})
+
+
+artifact_index=load("builds/support_phase2_artifacts_20261006.json")
+if artifact_index:
+    ck("canonical_support_artifact_index",
+       artifact_index.get("artifact_count")==27 and artifact_index.get("all_present") is True,
+       {"artifact_count":artifact_index.get("artifact_count"),
+        "all_present":artifact_index.get("all_present")})
+
+failure_path=ROOT/"context/FAILURE_KNOWLEDGE.md"
+if failure_path.exists():
+    failure_text=failure_path.read_text(encoding="utf-8",errors="ignore")
+    ck("parallel_support_manifest_failure_rule_recorded",
+       "FS002 - Parallel support generators can leave stale duplicate manifests" in failure_text,
+       str(failure_path))
+
 errors=[x for x in checks if x["severity"]=="error" and not x["pass"]]
 result={
     "purpose":"Unified support-lane static/preflight validator. It must not be interpreted as gameplay validation.",
