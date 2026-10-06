@@ -1,0 +1,245 @@
+{
+  "source": "build/prepared/thug2_prop_catalog/target_classification.json",
+  "original_not_ready_count": 21,
+  "semantic_non_prop_count": 14,
+  "named_without_geometry_binding_count": 7,
+  "extractable_geometry_from_unresolved": 0,
+  "resolution": "Remove all 21 from the extractable-prop queue unless later original-game evidence binds an entry to a LevelGeometry component. The existing 85 spatial_geometry_candidate records remain the embedded geometry extraction pool.",
+  "semantic_non_props": [
+    {
+      "level": "ba",
+      "identifier": "BA_BridgeRailTransfer02",
+      "category": "Skate - Rails Handrails",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "ba",
+      "identifier": "GapID_SantsBench02",
+      "category": "Street - Benches Tables Chairs",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "dj",
+      "identifier": "LA_HitLedgeLeftE",
+      "category": "Skate - Ledges Hubbas Curbs",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "dj",
+      "identifier": "LA_HitLedgeLeftS",
+      "category": "Skate - Ledges Hubbas Curbs",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "la",
+      "identifier": "LA_ManualCutLedge_Gap",
+      "category": "Skate - Ledges Hubbas Curbs",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "no",
+      "identifier": "Bouncy_MetalTableHit02",
+      "category": "Street - Benches Tables Chairs",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "no",
+      "identifier": "Bouncy_WoodenTableHit02",
+      "category": "Street - Benches Tables Chairs",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "ph",
+      "identifier": "PH_Railing2Planter_Gap",
+      "category": "Skate - Rails Handrails",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "sc",
+      "identifier": "SC_QP2PoolEdge_GapE",
+      "category": "Skate - Ledges Hubbas Curbs",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "sc",
+      "identifier": "SC_Planter2Bench_GapE",
+      "category": "Street - Benches Tables Chairs",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "se",
+      "identifier": "SE_GapEnd_Ramp",
+      "category": "Skate - Quarterpipes Halfpipes Ramps",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "st",
+      "identifier": "Bouncy_MetalTableHit02",
+      "category": "Street - Benches Tables Chairs",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "st",
+      "identifier": "Bouncy_WoodenTableHit02",
+      "category": "Street - Benches Tables Chairs",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "tr",
+      "identifier": "Bouncy_WoodenTableHit02",
+      "category": "Street - Benches Tables Chairs",
+      "classification": "semantic_or_gap_identifier",
+      "confidence": "not_ready",
+      "reason": "Identifier appears to describe a gap/trigger/hit/transfer semantic and has no object position binding.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    }
+  ],
+  "named_without_geometry_binding": [
+    {
+      "level": "ap",
+      "identifier": "AP_circlebench",
+      "category": "Street - Benches Tables Chairs",
+      "classification": "unresolved_named_target",
+      "confidence": "not_ready",
+      "reason": "No reliable Name-block/nearby QB position was recovered; keep as research only.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "be",
+      "identifier": "BE_Bench2Ledge",
+      "category": "Skate - Ledges Hubbas Curbs",
+      "classification": "unresolved_named_target",
+      "confidence": "not_ready",
+      "reason": "No reliable Name-block/nearby QB position was recovered; keep as research only.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "be",
+      "identifier": "BE_ledge2bench01",
+      "category": "Skate - Ledges Hubbas Curbs",
+      "classification": "unresolved_named_target",
+      "confidence": "not_ready",
+      "reason": "No reliable Name-block/nearby QB position was recovered; keep as research only.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "dj",
+      "identifier": "DJ_WoodBarrier",
+      "category": "Street - Fences Barriers Poles Pipes",
+      "classification": "unresolved_named_target",
+      "confidence": "not_ready",
+      "reason": "No reliable Name-block/nearby QB position was recovered; keep as research only.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "la",
+      "identifier": "CPF_PershingRamp1",
+      "category": "Skate - Quarterpipes Halfpipes Ramps",
+      "classification": "unresolved_named_target",
+      "confidence": "not_ready",
+      "reason": "No reliable Name-block/nearby QB position was recovered; keep as research only.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "ph",
+      "identifier": "PH_LedgeToHandE",
+      "category": "Skate - Ledges Hubbas Curbs",
+      "classification": "unresolved_named_target",
+      "confidence": "not_ready",
+      "reason": "No reliable Name-block/nearby QB position was recovered; keep as research only.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    },
+    {
+      "level": "st",
+      "identifier": "ST_BigRamp",
+      "category": "Skate - Quarterpipes Halfpipes Ramps",
+      "classification": "unresolved_named_target",
+      "confidence": "not_ready",
+      "reason": "No reliable Name-block/nearby QB position was recovered; keep as research only.",
+      "position": null,
+      "candidate_leaf_count": 0,
+      "nearest_box_distance": null
+    }
+  ]
+}
+
+[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
