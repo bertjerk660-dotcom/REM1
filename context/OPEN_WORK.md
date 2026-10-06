@@ -42,7 +42,7 @@ This is a requirements/backlog ledger, not proof of implementation.
 
 ## GMod-style prop menu content
 - Do NOT expose the entire 13,003-model Fallout prop candidate archive in the player-facing menu.
-- Keep a compact cross-game ready library near 300–320 total entries rather than allocating ~300 entries to Fallout alone. Current support handoff is 170 statically-clean FNV props + 120 converted GMod/Source props, with THUG2 promotions expected to replace redundant entries.
+- Use the curated approximately 300-prop set as the intended default Fallout library.
 - Prioritize useful environmental objects and skateable geometry: rails, railings, benches, ramps, stairs, ledges, barriers, tables, counters, crates, large boxes and pipes.
 - Include a smaller supporting set of fences, signs, lamps, poles, street clutter, furniture, storage, vending machines, terminals, rocks, trees and plants.
 - Keep the full 13,003-model catalog only as archive/search data so individual curated props can be swapped later.
@@ -93,25 +93,21 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Next test gate: equip on male/female player where applicable, inspect idle/walk/run/crouch/weapon poses, first/third person, dropped world model, NPC equip, save/load and clipping.
 - Do not replace Enclave/Remnants armor records or NPC outfits until that isolated test passes.
 
-## Support lane status after preparation pass B
-- Source inventories, weapon-model staging, prop curation, collision/reference audits, thumbnails, sidecar catalogs, THUG2 asset handoffs, HUD/controller source manifests and regression capture tooling are prepared.
-- Final compact content catalog: 290 ready entries, all with form bindings. The FNV half uses only existing real base forms; the GMod/Source half uses a disabled validated sidecar.
-- Three support sidecars remain disabled until isolated human tests: REM_CombineArmor_Test.esp, REM_GModProps_Catalog.esp and REM_WeaponPresentation_Fixes.esp.
-- Support-generated thumbnails are audit/fallback data only; final GMod SpawnIcon behavior remains part of Astra's real Q-menu runtime.
-- GMod/HL view/world model packages and sound-event evidence are staged, but first-person attachment/animation behavior remains Astra-owned.
-- THUG2 embedded props and board/HUD assets are source-indexed for Astra; support has not implemented animation, physics, camera or HUD runtime behavior.
+## Support lane backlog
+- Reconcile and import project-authored local conversion/validation scripts that are still missing from GitHub.
+- Maintain hashes/provenance for source-game assets without committing proprietary binaries.
+- Finish asset-only Pip-Boy icon and inventory presentation audits.
+- Continue GMod/HL weapon model staging and missing-dependency reports without rewriting weapon mechanics.
+- Continue curated prop-library indexing, collision/scale validation and thumbnail preparation for the eventual real GMod Q menu.
+- Inventory real GMod Q-menu/Tool Gun/Physics Gun script/assets and dependencies for Astra, but leave the native/runtime port and behavior implementation to Astra.
+- Prepare THUG2 UI/font/controller-glyph asset manifests and test data, but leave animation, camera, physics, scoring-runtime and model-rig behavior changes to Astra.
+- Expand repeatable boot/save/load/inventory/asset-reference validation so candidate promotion requires less manual checking.
 
-### Remaining non-Astra gates
-- Run isolated human gameplay tests using context/SUPPORT_PLAYTEST_CHECKLIST.md and preserve preflight/postflight evidence.
-- Verify Combine armor deformation/clipping/world model/NPC/save-load before any Enclave/Remnants replacement.
-- Verify prop sidecar representative spawning, scale, texture, collision and stability before menu promotion.
-- Verify RPG presentation-fix sidecar before incorporating its change into the main content plugin.
-- Verify ordinary weapon drop/pickup/container/trade presentation and origin icons in-game.
-- Continue keeping manifests/hashes/project notes synchronized as Astra promotes runtime candidates.
-
-### Astra / Claude handoff remains
-- Complete THUG2 free-roam state machine, physics, tricks, camera and exact animation integration.
-- Complete source-faithful THUG2 HUD runtime.
-- Implement the real GMod Q-menu compatibility runtime from the prepared source/dependency inventory.
-- Implement real Tool Gun behavior/state flow and native/source-faithful Physics Gun manipulation/beam behavior.
-- Resolve exact Source named sound-event behavior and any first-person attachment/animation runtime issues.
+### Support phase 2 status
+- Prop catalog data/form bindings/thumbnails/Q-menu adapter are prepared; human representative spawn/collision tests are still required.
+- THUG2 prop extraction is advanced to QB component/position evidence and spatial leaf candidates; standalone split/conversion/validation remains open.
+- Weapon sound/source dependencies are resolved for the staged set; first/third-person presentation and inventory/drop behavior still require gameplay checks.
+- Combine armor is still static-validation-only and must not replace Enclave/Remnants records until its isolated test pack passes.
+- Runtime Q menu, Tool Gun, Physgun, complete THUG2 skate physics/animation/camera/HUD remain Astra-owned.
+- Run research/validate_support_lane_state.py before promoting support artifacts; current pass count is 94.
+- Follow context/SUPPORT_20_POINT_TRACKER.md for exact per-task progress.
