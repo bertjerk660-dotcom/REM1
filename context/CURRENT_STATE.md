@@ -1,73 +1,62 @@
-# Current Verified State
+# Current State
 
-Verified 2026-10-06 from the actual local workspace, deployed files, build manifests and static validation.
+Verified 2026-10-05 from actual source, deployed files, runtime logs and human playtests.
 
 ## Canonical repository
 - GitHub repository: bertjerk660-dotcom/REM1.
 - Default branch: main.
-- Astra THUG2/UI work branch: feature/thug2-native-ui-g6.
-- Support/preparation work branch: prep/support-workflow.
-- Local workspace: C:\Users\BRAD\Documents\------\Engineer Station\FNV_GMOD_THUG2.
+- Latest inspected main commit: 1733d70cb4f4d20d5b339d4510aceb7b356c5794.
+- Local workspace remains the build/test environment; GitHub is the durable source/history layer.
 
-## Installed runtime
-- Installed NVSE plugin remains v85.
-- Installed FNVGModTHUG2.dll SHA256: BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41.
-- A matched v85 activation playtest previously reached skate frame 180 with skeleton retarget quarantined. This is not broad stability proof.
-- Current REM_GModTHUG2.esp SHA256: 0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7.
-- The active ESP currently contains the support-pass Pip-Boy origin-icon assignments and a staging Combine armor record. No existing Enclave/Remnants records were replaced.
+## Active experimental build: v85
+- Source/plugin version: 85.
+- Deployed FNVGModTHUG2.dll SHA256: BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41.
+- Active REM_GModTHUG2.esp SHA256 at last verification: 3E30300C00241A044F73D476F9497716413DA467278A72AFE29CCAE6767DFEBB.
+- Held skateboard path: rem\thug2\skateheldx.nif.
+- Held skateboard NIF SHA256: 4F12178D6D4004B29B46BCF61365A6B48D2EF007B862B292B4CDA80DF7BBD08A.
+- Held NIF structure: BSFadeNode + Prn=Weapon containing authentic converted THUG2 board geometry.
 
-## Astra v88 candidate
-- feature/thug2-native-ui-g6 contains the isolated v88 bitmap-HUD candidate and checkpoint 88 evidence.
-- Local hud88 candidate DLL SHA256: 6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439.
-- v88 is not installed and has not been gameplay-tested.
-- Support-lane work must not overwrite, deploy, rebuild in-place or otherwise alter the v88 candidate unless explicitly assigned.
+## v84 human playtest result: FAIL
+- Raw Camera3rd transform writes were quarantined.
+- Left-click still crashed, proving the raw camera transform path was not the sole crash cause.
+- v84 log completed the entire first skate update, including ride-board update and the delayed-retarget no-op for that first frame.
+- Therefore the crash occurs after at least one complete active skate frame.
+- Windows still reported c0000005 / StackHash_2beb.
 
-## Pip-Boy origin icons
-- GMod and THUG2 Pip-Boy origin icons were generated from the user's installed source-game assets and installed as loose FNV DDS files.
-- xEdit support report recorded 49 REMGW_ weapons assigned the GMod icon and 1 REMTHUG2 weapon assigned the THUG2 icon.
-- GMod large icon SHA256: 9D22854C96241AFC6C3FC596E15356D38DCFA75EB073E61F943B8FC094F3161E.
-- GMod small/glow icon SHA256: 9CAC7740C145C1CAE6F6823EAB03F6ADEAAB9D06A14ABA647E0AC4619EBCD25B.
-- THUG2 large icon SHA256: 5820CA60BA0EFC811F5D623F1D53BA12AADE4194A5252FC8E3A7A42FEA4B9633.
-- THUG2 small/glow icon SHA256: 4DA787896197E76DF3C2E04BC17F929064EEB8FF65833A39B3B20362F6B62F40.
-
-## Combine Soldier full-body armor staging
-- A separate Combine Soldier full-body wearable NIF now exists for later testing.
-- Biped NIF SHA256: 90A836EEF689C50994ED6E5BECC7B37CEFA0B32DA6E20D88C34DC193837B6728.
-- Geometry: 3,535 vertices / 4,682 triangles.
-- Skin: NiSkinInstance, 41 Fallout humanoid bones, every vertex weighted, maximum 3 influences, weight-sum maximum error 4.47e-08.
-- Source-faithful Combine textures resolve locally.
-- World NIF SHA256: 1878E5E9E776F70897504EBC31A4B9E13CDF0C496384974453FDF4601D68D3A5.
-- A dedicated sidecar test plugin REM_CombineArmor_Test.esp was created from the Remnants Power Armor donor, using the Combine full-body biped/world model. SHA256: 52B06C9D1FA087B32BD2F83120603903893D24781BC9490D89C3D9EEE105979E.
-- The sidecar plugin is NOT enabled in plugins.txt and no runtime armor playtest has been run.
-- Do not replace Enclave/Remnants NPC equipment until deformation, clipping, world-drop, first/third-person, save/load and NPC equipment tests pass.
+## v85 diagnostic change
+- THUG2 skeleton retarget selection/application is fully quarantined while the rest of skate mode remains active.
+- First 15 frames receive full stage diagnostics; later frames receive periodic heartbeat diagnostics up to frame 180.
+- Purpose: test whether the delayed retarget activation around 900 ms is causal. If v85 does not crash, retarget is proven causal. If v85 still crashes, retarget is cleared and the heartbeat timing will narrow the remaining asynchronous/frame-path failure.
 
 ## Status
-- v85 remains the installed runtime.
-- v88 remains an isolated Astra candidate.
-- Combine armor staging passes static validation but is not runtime-verified.
-- Project is NOT yet verified stable/complete.
+v85 compile/deploy validation passed. Human playability validation is pending. THUG2 remains NOT VERIFIED STABLE.
 
-## Support asset checkpoint — 2026-10-06
-- Concrete GMod/HL weapon model staging: 71/71 concrete model references covered; two missing model refs are abstract-base placeholders only.
-- FNV curated prop audit: 300 parse, 278 static-clean; 290 have collision and 31 have mass>0 authored-mobility evidence.
-- Real GMod Q-menu handoff: 105 relevant Lua files, 40 stool/tool files, 46 VGUI classes and 29/29 direct asset refs resolved.
-- GMod/Source curated prop pool: 120 conversion/collision/material-clean candidates.
-- THUG2 embedded environment extraction queue: 106 named targets across 16 levels; not standalone/spawn-ready.
-- Compact ready prop-content handoff: 290 candidates = 170 FNV + 120 GMod/Source. Keep normal menu near 300–320 and promote THUG2 by replacement where practical.
-- See context/SUPPORT_CHECKPOINT_20261006.md and the 20261006 build summaries.
 
-## Completed support pass B — 2026-10-06
-- Unified support validator passes 61 static/preflight checks with zero errors.
-- Final ready prop catalog contains 290 entries: 170 native FNV entries with existing real base forms + 120 curated GMod/Source entries with disabled sidecar form bindings.
-- The earlier 17 missing-form FNV entries were replaced by existing-form alternatives; no arbitrary custom FNV forms are needed by the final ready set.
-- Disabled REM_GModProps_Catalog.esp contains 120 statically-validated MSTT records; SHA256 55E0758D4E96DC0C3B5F591002AD3C2C630CC76BE281DEDA0DAF2D2F91A4423E.
-- Final 290-item catalog has 290/290 local 128x128 support preview thumbnails. These are fallback/audit previews, not a replacement for GMod SpawnIcon behavior.
-- GMod/HL weapon support handoff covers all concrete model references, separates view/world candidates, preserves QC/SMD animation evidence, resolves all model/material dependencies, and records exact/unresolved Source sound-event evidence.
-- Weapon presentation audit found one clear RPG presentation defect; disabled REM_WeaponPresentation_Fixes.esp fixes only RPG world model + origin icons and passes static validation. SHA256 15380779823DA61F0F7A536E317FFB2489F35A156EFDF348348BB61D7BCA7723.
-- THUG2 embedded-prop handoff now has QB context for 106/106 queued targets across 16 levels.
-- THUG2 skateboard handoff records original pickup/skater/moto-board source assets, live board NIF geometry/container evidence and 20 parsed moto-skateboard SKA animation assets.
-- THUG2 UI/controller handoff indexes 49 original assets with zero missing and converts 22/22 IMG atlases/sprites to local PNG previews.
-- Preflight/postflight playtest evidence-capture tooling and a support playtest checklist are ready.
-- No support step changed the installed v85 DLL, active REM_GModTHUG2.esp, or Astra v88 candidate.
-- See context/SUPPORT_CHECKPOINT_20261006_B.md for the detailed handoff.
+## G6 native UI work, 2026-10-05
+An isolated v86 HUD ownership candidate compiles but is not deployed or playtested. Active source and DLL remain v85. IDA 6.8 HUD/score discovery and original UI extraction/decompilation completed with a partial parser failure. Exact THUG2 UI/runtime, model and animation replacement remain incomplete. See G6_NATIVE_UI_STATUS.md and build/manifests/g6_hud_candidate.json. GitHub work branch: feature/thug2-native-ui-g6.
 
+## Support lane update — 2026-10-06
+- Installed runtime is v85; deployed DLL SHA256 BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41.
+- Astra v88 remains isolated and undeployed; local candidate DLL SHA256 6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439.
+- Current active REM_GModTHUG2.esp SHA256 is 0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7.
+- Pip-Boy source-game origin icons are installed for the staged GMod/THUG2 weapons.
+- Combine Soldier full-body armor NIF is staged and statically validated. Wearable NIF SHA256 90A836EEF689C50994ED6E5BECC7B37CEFA0B32DA6E20D88C34DC193837B6728.
+- REM_CombineArmor_Test.esp SHA256 52B06C9D1FA087B32BD2F83120603903893D24781BC9490D89C3D9EEE105979E exists but is disabled and unplaytested.
+- Support work is separated from Astra runtime/mechanics work; see SUPPORT_WORKFLOW.md and COMBINE_ARMOR_STAGING.md.
+
+## Support phase 2 — 20-point workflow progress
+- Unified support validator now passes 94 static/preflight checks with zero errors. This is not gameplay validation.
+- Final curated content remains 290 ready props: 170 native Fallout existing-form entries + 120 converted GMod/Source entries.
+- Q-menu data adapter now exposes all 290 ready entries with category/search/form-binding metadata for the future real GMod Q-menu port.
+- 290/290 fallback/support prop thumbnails pass the local quality audit.
+- THUG2 embedded-prop queue remains 106 targets. Source QB evidence now records 86 targets with level-component evidence and 85 with position evidence; 85 targets have spatial GLB candidate mappings. These are not yet standalone/promoted props.
+- GMod/HL weapon staging has a 49-class inventory QA matrix, 48 view candidates and 48 world candidates; camera/fists remain intentional special cases.
+- Original Source/GMod sound dependency handoff resolves all named weapon sound references used by the staged 49-class set; unresolved runtime refs: 0.
+- Tool Gun/Physgun source asset/script handoff is indexed; one legacy Source-declared path (models/weapons/v_Physics.mdl) is absent from mounted content and is explicitly recorded rather than recreated.
+- THUG2 controller/trick/physics handoff contains 17 decompiled source files plus source-backed Xbox equivalence/trigger evidence.
+- Three isolated support sidecars exist and are all disabled: Combine armor test, GMod prop catalog, RPG presentation fix.
+- Playtest preflight/postflight capture, regression packs and a session-plan generator are prepared.
+- A non-destructive inventory classifies legacy version-labelled artifacts; known-bad v74 evidence is preserved and must not be reapplied.
+- Release/install staging manifest reports no currently missing required baseline files. This does not mean release-ready.
+- Eight Astra handoff packets plus context/SUPPORT_20_POINT_TRACKER.md define the current support-to-Astra boundary.
+- Installed runtime remains v85 and Astra v88 remains isolated/not installed.
