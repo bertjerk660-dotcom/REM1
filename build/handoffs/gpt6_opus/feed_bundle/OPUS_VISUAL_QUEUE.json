@@ -1,0 +1,174 @@
+{
+  "schema": "rem.opus_visual_execution_queue.v2",
+  "generated": "2026-10-06T18:59:12.885269+00:00",
+  "ownership": {
+    "chatgpt": "workflow/orchestration, manifests, evidence, validation planning",
+    "opus": "visual/model/material/rigging/conversion/animation implementation and related visual integration code",
+    "astra": "native/deep runtime mechanics, physics, camera hooks, crash-sensitive state integration",
+    "ida": "IDA Pro 6.8 only"
+  },
+  "protected_baseline": {
+    "runtime_dll_sha256": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+    "main_esp_sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+    "active_source_sha256": "CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5",
+    "rule": "Do not overwrite the deployed baseline during Opus visual work."
+  },
+  "tasks": [
+    {
+      "id": "O01",
+      "title": "Golden Source bench end-to-end proof",
+      "priority": 1,
+      "inputs": [
+        "build/handoffs/gpt6_opus/GOLDEN_BENCH_IMPLEMENTATION_HANDOFF.md",
+        "build/prepared/pre_opus_20261006/bench_source_packet.json"
+      ],
+      "outputs": [
+        "isolated bench NIF/materials/collision",
+        "disabled test sidecar",
+        "implementation manifest"
+      ],
+      "gates": [
+        "visible",
+        "source-faithful materials",
+        "credible scale/orientation",
+        "collision",
+        "spawnable",
+        "save/load",
+        "no crash"
+      ],
+      "stop_on_failure": true
+    },
+    {
+      "id": "O02",
+      "title": "Tool Gun first/third/world visual implementation",
+      "priority": 2,
+      "depends": [
+        "O01"
+      ],
+      "inputs": [
+        "build/prepared/pre_opus_20261006/c_toolgun_source_packet.json",
+        "build/prepared/pre_opus_20261006/w_toolgun_source_packet.json",
+        "build/prepared/gmod_hl_weapon_models/manifest.json",
+        "build/handoffs/gpt6_opus/WEAPON_VISIBILITY_ACCEPTANCE_MATRIX.md"
+      ],
+      "outputs": [
+        "isolated Tool Gun visual candidate",
+        "attachment/scale manifest"
+      ],
+      "gates": [
+        "first-person visible",
+        "third-person visible",
+        "world/drop visible",
+        "hands/attachment credible",
+        "no missing materials",
+        "no crash"
+      ]
+    },
+    {
+      "id": "O03",
+      "title": "Physics Gun presentation provenance + visual candidate",
+      "priority": 3,
+      "depends": [
+        "O01"
+      ],
+      "inputs": [
+        "build/prepared/pre_opus_20261006/c_superphyscannon_source_packet.json",
+        "build/prepared/pre_opus_20261006/w_physics_source_packet.json",
+        "build/prepared/pre_opus_20261006/physgun_provenance_gap.json",
+        "build/prepared/gmod_tool_physgun_asset_handoff/manifest.json"
+      ],
+      "outputs": [
+        "provenance verdict",
+        "isolated visual candidate only if source constraint is satisfied"
+      ],
+      "gates": [
+        "no fabricated v_Physics substitute",
+        "world model identity proven",
+        "materials resolve",
+        "candidate isolated",
+        "no mechanics changes"
+      ]
+    },
+    {
+      "id": "O04",
+      "title": "THUG2 skateboard visual identity and attachment pipeline",
+      "priority": 4,
+      "depends": [
+        "O01"
+      ],
+      "inputs": [
+        "build/prepared/thug2_skateboard_asset_handoff/manifest.json",
+        "build/prepared/thug2_skateboard_asset_handoff/scale_attachment_analysis.json",
+        "build/prepared/pre_opus_20261006/thug2_evidence_index.json"
+      ],
+      "outputs": [
+        "one canonical board visual identity",
+        "held attachment candidate",
+        "riding/feet attachment candidate",
+        "animation-ready rig/attachment manifest"
+      ],
+      "gates": [
+        "same mesh/material identity held/riding/world",
+        "no geometry recreation",
+        "scale/axes documented",
+        "attachment parents documented",
+        "source animation names preserved"
+      ]
+    },
+    {
+      "id": "O05",
+      "title": "THUG2 animation asset/retarget preparation",
+      "priority": 5,
+      "depends": [
+        "O04"
+      ],
+      "inputs": [
+        "third_party/NVSE-6.4.9/fnv_gmod_thug2_plugin/thug2_anim_data.inc",
+        "build/prepared/pre_opus_20261006/thug2_evidence_index.json"
+      ],
+      "outputs": [
+        "retarget map",
+        "animation asset candidates",
+        "visual/animation implementation manifest"
+      ],
+      "gates": [
+        "original timing preserved",
+        "bone mapping explicit",
+        "no stale bone-pointer assumptions",
+        "no runtime camera/physics rewrite"
+      ]
+    },
+    {
+      "id": "O06",
+      "title": "THUG2 environment prop visual conversion wave",
+      "priority": 6,
+      "depends": [
+        "O01"
+      ],
+      "inputs": [
+        "build/handoffs/gpt6_opus/thug2_props/conversion_queue.json",
+        "build/prepared/pre_opus_20261006/thug2_prop_evidence_index.json"
+      ],
+      "outputs": [
+        "independently split/converted visual candidates",
+        "per-prop provenance/scale/material manifests"
+      ],
+      "gates": [
+        "original geometry only",
+        "visual identity reviewed",
+        "materials/UVs preserved",
+        "scale documented",
+        "collision candidate documented"
+      ],
+      "note": "Do not import THUG2 maps or force semantic/gap identifiers into props."
+    }
+  ],
+  "reserved_for_astra": [
+    "real GMod Q-menu compatibility runtime",
+    "Tool Gun lifecycle/tool execution mechanics",
+    "Physics Gun target/hold/rotate/freeze/drop/launch mechanics",
+    "THUG2 movement/physics/camera/runtime state machine",
+    "crash-sensitive NVSE/native hooks",
+    "final runtime promotion"
+  ]
+}
