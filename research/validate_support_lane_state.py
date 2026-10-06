@@ -372,6 +372,16 @@ if failure_path.exists():
        "FS002 - Parallel support generators can leave stale duplicate manifests" in failure_text,
        str(failure_path))
 
+
+prop_phase3_path=ROOT/"build/validation/prop_support_phase3.json"
+if prop_phase3_path.exists():
+    prop_phase3=json.loads(prop_phase3_path.read_text(encoding="utf-8"))
+    ck("prop_support_phase3_validator",
+       prop_phase3.get("status")=="pass" and prop_phase3.get("error_count")==0 and prop_phase3.get("check_count")==52,
+       {"status":prop_phase3.get("status"),"checks":prop_phase3.get("check_count"),"errors":prop_phase3.get("error_count")})
+else:
+    ck("prop_support_phase3_validator",False,str(prop_phase3_path))
+
 errors=[x for x in checks if x["severity"]=="error" and not x["pass"]]
 result={
     "purpose":"Unified support-lane static/preflight validator. It must not be interpreted as gameplay validation.",
