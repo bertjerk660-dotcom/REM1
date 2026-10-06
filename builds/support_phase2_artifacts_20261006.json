@@ -1,0 +1,215 @@
+{
+  "purpose": "Compact GitHub-safe index of support-phase-2 local manifests. Proprietary assets are represented by hashes/provenance, not committed binaries.",
+  "artifacts": [
+    {
+      "path": "build/validation/support_lane_state.json",
+      "exists": true,
+      "bytes": 32746,
+      "sha256": "68ABA18984574DB48985953B29402CFA3E216E8439CE7F21554544BC4AA2BBDD",
+      "summary": {
+        "status": "pass",
+        "error_count": 0
+      }
+    },
+    {
+      "path": "build/prepared/final_prop_catalog_handoff/manifest.json",
+      "exists": true,
+      "bytes": 403382,
+      "sha256": "BC7AC41C96A4F5D12C10D4A480D604262BAB6C320067D4CA0E78489D98A9A77F",
+      "summary": {
+        "ready_count": 290
+      }
+    },
+    {
+      "path": "build/prepared/final_prop_catalog_thumbnails/manifest.json",
+      "exists": true,
+      "bytes": 200770,
+      "sha256": "4A90D8E60BC86C57D655F6AB876D9A1144D13ECB5E6FDF46DC68D65FFA7378EC",
+      "summary": {
+        "candidate_count": 290,
+        "generated": 290,
+        "failed": 0
+      }
+    },
+    {
+      "path": "build/prepared/final_prop_catalog_thumbnails/quality_audit.json",
+      "exists": true,
+      "bytes": 132212,
+      "sha256": "8AED466C55F9C4557868E8202C64E6B8CF0886193258FBDD28B4A0D53A423B53",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/qmenu_content_adapter/manifest.json",
+      "exists": true,
+      "bytes": 376276,
+      "sha256": "266F234918407F8511F4EC2216D679701A0DAB34E6622E4CC5ED66B908E720F6",
+      "summary": {
+        "entry_count": 290
+      }
+    },
+    {
+      "path": "build/prepared/gmod_prop_catalog_sidecar/validation.json",
+      "exists": true,
+      "bytes": 41949,
+      "sha256": "5E8927D5B043F48A7696E1A8F828E72660C2C362F1487D212012F033D52F5A24",
+      "summary": {
+        "status": "pass"
+      }
+    },
+    {
+      "path": "build/prepared/gmod_weapon_runtime_candidates/manifest.json",
+      "exists": true,
+      "bytes": 361804,
+      "sha256": "AABE583D91313F938DCDFAC3F432F129B515D61297F2E95E92BA28468E106D49",
+      "summary": {
+        "status": "pass_with_sound_review"
+      }
+    },
+    {
+      "path": "build/prepared/gmod_weapon_runtime_candidates/model_presentation_audit.json",
+      "exists": true,
+      "bytes": 118884,
+      "sha256": "ABCAED3A50A4C7C0E5DAF8F7409ED0EA4570AFFCD5AD3F7087B761389FA65705",
+      "summary": {
+        "weapon_count": 49
+      }
+    },
+    {
+      "path": "build/prepared/gmod_weapon_runtime_candidates/weapon_sound_handoff.json",
+      "exists": true,
+      "bytes": 52076,
+      "sha256": "963A86FAEFC0C98D4567AD1F62F95217B80F50FFE18AD5251C23D048C485AE0A",
+      "summary": {
+        "weapon_count": 49,
+        "unresolved_count": 0
+      }
+    },
+    {
+      "path": "build/prepared/gmod_weapon_runtime_candidates/resolved_sound_events/manifest.json",
+      "exists": true,
+      "bytes": 46479,
+      "sha256": "41261856AFF2760304C0EDCE1179E8DE654C58D30E9F5354E35440C47B211A3B",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/gmod_tool_physgun_assets/manifest.json",
+      "exists": true,
+      "bytes": 6262,
+      "sha256": "465B9700272749C0C0705CA50C5EF697265AAAC8C8F45EA1D1F2E9B85A0A8480",
+      "summary": {
+        "asset_count": 28,
+        "asset_resolved_count": 27
+      }
+    },
+    {
+      "path": "build/prepared/weapon_inventory_qa_matrix.json",
+      "exists": true,
+      "bytes": 169495,
+      "sha256": "CFC4DEB37E1C28A1257875F50CF0345AADA00A152D008EB2CFD041B376A64CFE",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/thug2_skateboard_asset_handoff/manifest.json",
+      "exists": true,
+      "bytes": 20043,
+      "sha256": "5ED16EA52A6C5C14C475BDBE3335FF71474CAAF5D846022FFC4184307387E7C5",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/thug2_skateboard_asset_handoff/scale_attachment_analysis.json",
+      "exists": true,
+      "bytes": 3181,
+      "sha256": "F5528D17E548B4BBC3D5351F800770FD5AB1A4B77E2DF8B66FB82284658C77CE",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/thug2_ui_asset_handoff/manifest.json",
+      "exists": true,
+      "bytes": 64546,
+      "sha256": "BBA25C2BBFFEA48B85070D6EE40867AB5A8DAF7627C9A7041B382BFA2E0E9312",
+      "summary": {
+        "asset_count": 49
+      }
+    },
+    {
+      "path": "build/prepared/thug2_controller_map/manifest.json",
+      "exists": true,
+      "bytes": 41463,
+      "sha256": "1631C034ABBEF1598D82CC93FDF2E205E5054A7ABFACE7A748ED2BE3118CDB1B",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/thug2_prop_catalog/embedded_prop_handoff/manifest.json",
+      "exists": true,
+      "bytes": 2360,
+      "sha256": "728E9F338EFF30C970F6718E05D6A0C771B06FD6AD3BE1C890AD11B26F54DB82",
+      "summary": {
+        "target_count": 106
+      }
+    },
+    {
+      "path": "build/prepared/thug2_prop_catalog/component_evidence.json",
+      "exists": true,
+      "bytes": 506705,
+      "sha256": "42F29A8671D703827D88E3EB39E1AB3E75C7C581F912086A310F40F4F9B6D1DE",
+      "summary": {
+        "target_count": 106
+      }
+    },
+    {
+      "path": "build/prepared/thug2_prop_catalog/spatial_prop_candidates/mapping.json",
+      "exists": true,
+      "bytes": 562907,
+      "sha256": "9400CBFD87CAB8E0EF2D56FBBF260B5513A7DD40C1175CD742118EAFCBBCBE85",
+      "summary": {
+        "mapped": 85,
+        "no_position": 21
+      }
+    },
+    {
+      "path": "build/prepared/support_sidecars/manifest.json",
+      "exists": true,
+      "bytes": 2092,
+      "sha256": "828C50AE795DE6398E94F8C927960E1A4130B66CC9955BD1562A8A1FAB315C32",
+      "summary": {
+        "all_disabled": true
+      }
+    },
+    {
+      "path": "build/prepared/regression_packs.json",
+      "exists": true,
+      "bytes": 5583,
+      "sha256": "CAB3EF5FDF1D32AE9BEE3B7CB9EABDE0ACC05BE4D83B71CBBFDC0B7194670265",
+      "summary": {}
+    },
+    {
+      "path": "build/prepared/versioned_artifact_inventory.json",
+      "exists": true,
+      "bytes": 14779,
+      "sha256": "14268ED6E9794A374D433E177F408EA48DAD66A8BC08041325AB8D99EEBC0DFA",
+      "summary": {
+        "artifact_count": 41
+      }
+    },
+    {
+      "path": "build/prepared/release_install_manifest.json",
+      "exists": true,
+      "bytes": 14213,
+      "sha256": "BE84F3886B95D62BF3EC3170B23A5EC945D3FF34EBB81EB87055D9F206853AA2",
+      "summary": {
+        "summary": {
+          "entry_count": 29,
+          "missing_required": [],
+          "prop_catalog_ready": 290,
+          "prop_catalog_by_source": {
+            "Fallout New Vegas": 170,
+            "Garry's Mod / mounted Source content": 120
+          },
+          "weapon_classes": 49,
+          "disabled_sidecars": true
+        }
+      }
+    }
+  ],
+  "all_present": true
+}
