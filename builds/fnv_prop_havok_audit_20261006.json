@@ -1,0 +1,9 @@
+{
+  "purpose": "Conservative authored-mobility audit of curated Fallout props.",
+  "curated_total": 300,
+  "collision_props": 290,
+  "authored_movable_mass_gt_zero": 31,
+  "finding": "Most skate/environment NIFs are authored as fixed/zero-mass collision. They remain useful obstacles, but source-faithful Physgun manipulation may require runtime dynamic wrappers or separate physics forms.",
+  "local_audit_sha256": "5E04B39ADAB3E2BE975A3B86861B9F499B0EA915A9F33EAAF6A41D3B7E5CB627",
+  "nif_modification_performed": false
+}
