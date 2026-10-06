@@ -15,7 +15,7 @@
   ],
   "validation": {
     "status": "pass",
-    "checks": 94,
+    "checks": 110,
     "error_count": 0
   },
   "playtest": "not_run_for_phase2_support_artifacts",
@@ -37,5 +37,26 @@
     "validator": "build/validation/support_lane_state.json",
     "regression_packs": "build/prepared/regression_packs.json",
     "handoff_dir": "context/HANDOFFS"
+  },
+  "canonical_support": {
+    "input_control_matrix_entries": 22,
+    "input_source_files": 17,
+    "tool_physgun_assets": {
+      "requested": 36,
+      "resolved": 33,
+      "missing": [
+        "models/weapons/v_physics.mdl",
+        "models/weapons/v_physics.vvd",
+        "models/weapons/v_physics.dx90.vtx"
+      ]
+    },
+    "thug2_prop_classification": {
+      "spatial_geometry_candidate": 85,
+      "unresolved_named_target": 7,
+      "semantic_or_gap_identifier": 14
+    },
+    "historical_artifact_count": 63,
+    "regression_pack_count": 8,
+    "gmod_prop_payload_files": 205
   }
 }
