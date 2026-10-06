@@ -1,0 +1,16 @@
+{
+  "candidate": 89,
+  "parent": 88,
+  "compile": "pass",
+  "runtime": "not_tested",
+  "deployed": false,
+  "main_sha256": "8a025d885a51daf6594141976eb9daa659f6fb25d76f2d7485794755b33bbbdb",
+  "dll_sha256": "119491c453bc0bad97ade3aea76c2c312568ffcbfc75b297abac912a1f7a7051",
+  "live_sha256": "bc24e9b15bca28b33569bc9ff7fd59db66e962150fd00a9350ce3367dcf06f41",
+  "limitations": [
+    "Not a THUG2 mechanics port",
+    "Original physics/animation/camera integration still pending",
+    "Lifecycle dispatch cleanup needs in-game save/load/main-menu regression",
+    "No board alignment fix yet"
+  ]
+}
