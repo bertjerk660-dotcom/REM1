@@ -1,0 +1,511 @@
+{
+  "id": "c_superphyscannon",
+  "model": "models/weapons/c_superphyscannon.mdl",
+  "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon",
+  "model_components": [
+    {
+      "relative": "models/weapons/c_superphyscannon.mdl",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/c_superphyscannon.mdl",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_superphyscannon.mdl",
+      "bytes": 30004,
+      "sha256": "A3209CF713EC8A35C9E6167333EAC40540CB77CA0DED15879A85612837579070",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "A3209CF713EC8A35C9E6167333EAC40540CB77CA0DED15879A85612837579070"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\src\\models\\weapons\\c_superphyscannon.mdl",
+        "exists": true,
+        "bytes": 30004,
+        "sha256": "A3209CF713EC8A35C9E6167333EAC40540CB77CA0DED15879A85612837579070"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/weapons/c_superphyscannon.vvd",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/c_superphyscannon.vvd",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_superphyscannon.vvd",
+      "bytes": 101440,
+      "sha256": "7A86EC2035A7AE2E096F902F31B0A4D71B8A4BA80F0C1AD8875C0E6E926875FA",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "7A86EC2035A7AE2E096F902F31B0A4D71B8A4BA80F0C1AD8875C0E6E926875FA"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\src\\models\\weapons\\c_superphyscannon.vvd",
+        "exists": true,
+        "bytes": 101440,
+        "sha256": "7A86EC2035A7AE2E096F902F31B0A4D71B8A4BA80F0C1AD8875C0E6E926875FA"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/weapons/c_superphyscannon.dx90.vtx",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/c_superphyscannon.dx90.vtx",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_superphyscannon.dx90.vtx",
+      "bytes": 22139,
+      "sha256": "194DAF888ED8A44D26E2E782B6D1CA792C51A7971DA87F384954C14CE3D8F272",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "194DAF888ED8A44D26E2E782B6D1CA792C51A7971DA87F384954C14CE3D8F272"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\src\\models\\weapons\\c_superphyscannon.dx90.vtx",
+        "exists": true,
+        "bytes": 22139,
+        "sha256": "194DAF888ED8A44D26E2E782B6D1CA792C51A7971DA87F384954C14CE3D8F272"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/weapons/c_superphyscannon.phy",
+      "resolved": false,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\src\\models\\weapons\\c_superphyscannon.phy",
+        "exists": false,
+        "bytes": null,
+        "sha256": null
+      },
+      "required": false
+    },
+    {
+      "relative": "models/weapons/c_superphyscannon.dx80.vtx",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/c_superphyscannon.dx80.vtx",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_superphyscannon.dx80.vtx",
+      "bytes": 22139,
+      "sha256": "49F768AF005C278D245B88F712B8D921055F9158DD65A1293E6F2D96371A9E4B",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "49F768AF005C278D245B88F712B8D921055F9158DD65A1293E6F2D96371A9E4B"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\src\\models\\weapons\\c_superphyscannon.dx80.vtx",
+        "exists": true,
+        "bytes": 22139,
+        "sha256": "49F768AF005C278D245B88F712B8D921055F9158DD65A1293E6F2D96371A9E4B"
+      },
+      "required": false
+    },
+    {
+      "relative": "models/weapons/c_superphyscannon.sw.vtx",
+      "resolved": false,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\src\\models\\weapons\\c_superphyscannon.sw.vtx",
+        "exists": false,
+        "bytes": null,
+        "sha256": null
+      },
+      "required": false
+    },
+    {
+      "relative": "models/weapons/c_superphyscannon.ani",
+      "resolved": false,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\src\\models\\weapons\\c_superphyscannon.ani",
+        "exists": false,
+        "bytes": null,
+        "sha256": null
+      },
+      "required": false
+    }
+  ],
+  "materials": [
+    {
+      "relative": "materials/models/weapons/v_physcannon/v_superphyscannon_sheet.vmt",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_physcannon/v_superphyscannon_sheet.vmt",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_physcannon\\v_superphyscannon_sheet.vmt",
+      "bytes": 1130,
+      "sha256": "819D905166C3FD7DE4448CC5FBBDBCEB4814F248BDC52ECD9D0701AE55D1A45B",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "C3B73503F3FBEDFB80F9F1237D400202C897D696E0C48990FACCD9A1D99A9212"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "819D905166C3FD7DE4448CC5FBBDBCEB4814F248BDC52ECD9D0701AE55D1A45B"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "C3B73503F3FBEDFB80F9F1237D400202C897D696E0C48990FACCD9A1D99A9212"
+        }
+      ],
+      "staged_match": null,
+      "references": [
+        {
+          "key": "$basetexture",
+          "relative": "materials/models/weapons/v_physcannon/v_superphyscannon_sheet.vtf"
+        },
+        {
+          "key": "$detail",
+          "relative": "materials/models/weapons/v_physcannon/v_superphyscannon_detail.vtf"
+        },
+        {
+          "key": "$bumpmap",
+          "relative": "materials/models/weapons/v_physcannon/v_superphyscannon_normal.vtf"
+        }
+      ]
+    },
+    {
+      "relative": "materials/models/weapons/v_physcannon/v_superphyscannon_sheet.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_physcannon/v_superphyscannon_sheet.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_physcannon\\v_superphyscannon_sheet.vtf",
+      "bytes": 349760,
+      "sha256": "EA7144D008196FBA21FA1E11926E2D1668B2E378496AAB637A17B5BC32145597",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_textures_dir.vpk",
+          "sha256": "896E2EF25781C0218274438E69B60F59D0FE56FF7F8CE3F0B73B92E37B83C90A"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "EA7144D008196FBA21FA1E11926E2D1668B2E378496AAB637A17B5BC32145597"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+          "sha256": "896E2EF25781C0218274438E69B60F59D0FE56FF7F8CE3F0B73B92E37B83C90A"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/weapons/v_physcannon/v_superphyscannon_detail.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_physcannon/v_superphyscannon_detail.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_physcannon\\v_superphyscannon_detail.vtf",
+      "bytes": 699272,
+      "sha256": "D04A7ECCA66410A7E8D366A4020D196B476ED9F6CAFE6B154EEBC5E511C90595",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "D04A7ECCA66410A7E8D366A4020D196B476ED9F6CAFE6B154EEBC5E511C90595"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/weapons/v_physcannon/v_superphyscannon_normal.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_physcannon/v_superphyscannon_normal.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_physcannon\\v_superphyscannon_normal.vtf",
+      "bytes": 349760,
+      "sha256": "B6E476290D50F49960AA80D87878B58C82A58D3B0B35C014CA9C051CA5F221D6",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "B6E476290D50F49960AA80D87878B58C82A58D3B0B35C014CA9C051CA5F221D6"
+        }
+      ],
+      "staged_match": null
+    }
+  ],
+  "qc": [
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\c_superphyscannon.qc",
+        "exists": true,
+        "bytes": 8326,
+        "sha256": "6AEB23EB4BC1DFF946813A5BC8EF214AB065DDA101131007629CBFC0FB943DC3"
+      },
+      "bbox": [
+        "-38.904 -19.648 -34.644 69.834 58.813 0.048"
+      ],
+      "surfaceprop": [
+        "default"
+      ],
+      "mass": [],
+      "concave": false,
+      "collision_smd": [],
+      "sequence_names": [
+        "idle",
+        "hold_idle",
+        "draw",
+        "holster",
+        "fire",
+        "altfire",
+        "chargeup",
+        "prong_blend"
+      ],
+      "attachment_names": [
+        "muzzle",
+        "fork1b",
+        "fork1m",
+        "fork1t",
+        "fork2b",
+        "fork2m",
+        "fork2t"
+      ],
+      "bone_names": [
+        "ValveBiped.Bip01",
+        "ValveBiped.Bip01_Spine",
+        "ValveBiped.Bip01_Spine1",
+        "ValveBiped.Bip01_Spine2",
+        "ValveBiped.Bip01_Spine4",
+        "ValveBiped.Bip01_L_Clavicle",
+        "ValveBiped.Bip01_L_UpperArm",
+        "ValveBiped.Bip01_L_Forearm",
+        "ValveBiped.Bip01_L_Hand",
+        "ValveBiped.Bip01_L_Finger4",
+        "ValveBiped.Bip01_L_Finger41",
+        "ValveBiped.Bip01_L_Finger42",
+        "ValveBiped.Bip01_L_Finger3",
+        "ValveBiped.Bip01_L_Finger31",
+        "ValveBiped.Bip01_L_Finger32",
+        "ValveBiped.Bip01_L_Finger2",
+        "ValveBiped.Bip01_L_Finger21",
+        "ValveBiped.Bip01_L_Finger22",
+        "ValveBiped.Bip01_L_Finger1",
+        "ValveBiped.Bip01_L_Finger11",
+        "ValveBiped.Bip01_L_Finger12",
+        "ValveBiped.Bip01_L_Finger0",
+        "ValveBiped.Bip01_L_Finger01",
+        "ValveBiped.Bip01_L_Finger02",
+        "Base",
+        "Prong_A",
+        "Base_A",
+        "Prong_B",
+        "Tip_B",
+        "Base_B",
+        "Tip_A",
+        "Doodad_4",
+        "Doodad_3",
+        "Doodad_2",
+        "Doodad_1",
+        "Handle",
+        "square"
+      ],
+      "included_models": [],
+      "max_convex_pieces": []
+    }
+  ],
+  "geometry": [
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\SuperPhyscannon_ref.smd",
+        "exists": true,
+        "bytes": 405196,
+        "sha256": "8E966B694C55081634AF6F01995EB2A150C269A437F8F9F4D76B7079B0F127E0"
+      },
+      "triangles": 1281,
+      "materials": [
+        "v_superphyscannon_sheet"
+      ],
+      "bounds_min": [
+        46.591537,
+        28.7087,
+        29.39592
+      ],
+      "bounds_max": [
+        66.622749,
+        72.725792,
+        50.866146
+      ],
+      "dimensions": [
+        20.031211999999996,
+        44.017092,
+        21.470226
+      ],
+      "units": "source SMD coordinates; FNV scale not approved"
+    }
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\c_superphyscannon.qc",
+      "exists": true,
+      "bytes": 8326,
+      "sha256": "6AEB23EB4BC1DFF946813A5BC8EF214AB065DDA101131007629CBFC0FB943DC3",
+      "relative": "decompiled/c_superphyscannon.qc",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\c_superphyscannon_anims\\altfire.smd",
+      "exists": true,
+      "bytes": 32115,
+      "sha256": "D2F04C7882AA8F3DA4C097299B3B8D8F2F2E1091720FAEC4F68F2E4BA3AB0AD8",
+      "relative": "decompiled/c_superphyscannon_anims/altfire.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\c_superphyscannon_anims\\chargeup.smd",
+      "exists": true,
+      "bytes": 194094,
+      "sha256": "A3481EE2EDD8A49A68448E2D96D432B592B797FD9B2B7CADF68DE457AB17BCD6",
+      "relative": "decompiled/c_superphyscannon_anims/chargeup.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\c_superphyscannon_anims\\draw.smd",
+      "exists": true,
+      "bytes": 72632,
+      "sha256": "5EDB9AA20C1CABDA8CF0BDD130D0F316ADDC3100BD2AC9338B70CB6FA3A2F7D6",
+      "relative": "decompiled/c_superphyscannon_anims/draw.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\c_superphyscannon_anims\\fire.smd",
+      "exists": true,
+      "bytes": 46428,
+      "sha256": "BC4772A2115FE40306E81E9F588DD2D4D586EF32495D9F36B127373B65C30526",
+      "relative": "decompiled/c_superphyscannon_anims/fire.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\c_superphyscannon_anims\\hold_idle.smd",
+      "exists": true,
+      "bytes": 74947,
+      "sha256": "81903C8509EC7F8C07B91765235FDA1C1B53D4F47E962084EEEF973CCB45FB57",
+      "relative": "decompiled/c_superphyscannon_anims/hold_idle.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\c_superphyscannon_anims\\holster.smd",
+      "exists": true,
+      "bytes": 22603,
+      "sha256": "18EFF08BAA10EBE9C6D7ABED1E6F2B3DA8CF1FB6B408E182CC2471B7D913D30B",
+      "relative": "decompiled/c_superphyscannon_anims/holster.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\c_superphyscannon_anims\\idle.smd",
+      "exists": true,
+      "bytes": 193813,
+      "sha256": "3A26F7B445C6847F9F087830FD1050795EFF61A26317130FD4BE561214DC21D5",
+      "relative": "decompiled/c_superphyscannon_anims/idle.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\c_superphyscannon_anims\\ProngsOpen.smd",
+      "exists": true,
+      "bytes": 3551,
+      "sha256": "85B75705EE8B245C70A7367BA197B31ED20C60E81E1B5AEE74A1881F7B34642E",
+      "relative": "decompiled/c_superphyscannon_anims/ProngsOpen.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\c_superphyscannon_anims\\ProngsShut.smd",
+      "exists": true,
+      "bytes": 3553,
+      "sha256": "7DB4CFC7CEE892103DB9581AE0EB3F1DFA349D701C4952AC1501E21EE702040F",
+      "relative": "decompiled/c_superphyscannon_anims/ProngsShut.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\decompiled\\SuperPhyscannon_ref.smd",
+      "exists": true,
+      "bytes": 405196,
+      "sha256": "8E966B694C55081634AF6F01995EB2A150C269A437F8F9F4D76B7079B0F127E0",
+      "relative": "decompiled/SuperPhyscannon_ref.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\materials\\_tga\\v_superphyscannon_normal.tga",
+      "exists": true,
+      "bytes": 1049127,
+      "sha256": "9BC1EDED5D142E41B106C19486A8247E04219D42DF8EF01457729938B6F631CF",
+      "relative": "materials/_tga/v_superphyscannon_normal.tga",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\materials\\_tga\\v_superphyscannon_sheet.tga",
+      "exists": true,
+      "bytes": 1049127,
+      "sha256": "1BA11F5374CAB528652879A2428CCF24AF4E6FF0063F06F19022F5B8DFFADBD8",
+      "relative": "materials/_tga/v_superphyscannon_sheet.tga",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\materials\\materials\\models\\weapons\\v_physcannon\\v_superphyscannon_normal.vtf",
+      "exists": true,
+      "bytes": 349760,
+      "sha256": "B6E476290D50F49960AA80D87878B58C82A58D3B0B35C014CA9C051CA5F221D6",
+      "relative": "materials/materials/models/weapons/v_physcannon/v_superphyscannon_normal.vtf",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\materials\\materials\\models\\weapons\\v_physcannon\\v_superphyscannon_sheet.vmt",
+      "exists": true,
+      "bytes": 1130,
+      "sha256": "819D905166C3FD7DE4448CC5FBBDBCEB4814F248BDC52ECD9D0701AE55D1A45B",
+      "relative": "materials/materials/models/weapons/v_physcannon/v_superphyscannon_sheet.vmt",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\materials\\materials\\models\\weapons\\v_physcannon\\v_superphyscannon_sheet.vtf",
+      "exists": true,
+      "bytes": 349760,
+      "sha256": "EA7144D008196FBA21FA1E11926E2D1668B2E378496AAB637A17B5BC32145597",
+      "relative": "materials/materials/models/weapons/v_physcannon/v_superphyscannon_sheet.vtf",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\src\\models\\weapons\\c_superphyscannon.dx80.vtx",
+      "exists": true,
+      "bytes": 22139,
+      "sha256": "49F768AF005C278D245B88F712B8D921055F9158DD65A1293E6F2D96371A9E4B",
+      "relative": "src/models/weapons/c_superphyscannon.dx80.vtx",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\src\\models\\weapons\\c_superphyscannon.dx90.vtx",
+      "exists": true,
+      "bytes": 22139,
+      "sha256": "194DAF888ED8A44D26E2E782B6D1CA792C51A7971DA87F384954C14CE3D8F272",
+      "relative": "src/models/weapons/c_superphyscannon.dx90.vtx",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\src\\models\\weapons\\c_superphyscannon.mdl",
+      "exists": true,
+      "bytes": 30004,
+      "sha256": "A3209CF713EC8A35C9E6167333EAC40540CB77CA0DED15879A85612837579070",
+      "relative": "src/models/weapons/c_superphyscannon.mdl",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\src\\models\\weapons\\c_superphyscannon.vvd",
+      "exists": true,
+      "bytes": 101440,
+      "sha256": "7A86EC2035A7AE2E096F902F31B0A4D71B8A4BA80F0C1AD8875C0E6E926875FA",
+      "relative": "src/models/weapons/c_superphyscannon.vvd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_superphyscannon\\worker.json",
+      "exists": true,
+      "bytes": 1057,
+      "sha256": "E3C89972E8BE1C031D240145F66861D09BCE4D4A41F2D248704BC74A0700B294",
+      "relative": "worker.json",
+      "previous_hash_matches": true
+    }
+  ],
+  "implementation_status": "NOT VALIDATED IN FNV",
+  "visual_owner": "Claude Opus 5.5",
+  "provenance_note": "c_superphyscannon is a candidate, not proof of exact Physgun first-person identity",
+  "missing_dependencies": []
+}
