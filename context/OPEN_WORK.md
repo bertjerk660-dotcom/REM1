@@ -126,4 +126,4 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Build a category deficit/excess plan for the 310 target and map failed/default props to the 80-item GMod reserve.
 - Generate THUG2 sidecar records only after standalone NIF conversion plus scale/collision/material validation.
 - Keep all support sidecars disabled outside isolated tests.
-- Do not treat phase-4 static validation (46 checks) as gameplay validation.
+- Do not treat phase-4 static validation (66 checks) as gameplay validation.
