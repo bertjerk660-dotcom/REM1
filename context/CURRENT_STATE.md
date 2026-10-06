@@ -87,21 +87,12 @@ An isolated v86 HUD ownership candidate compiles but is not deployed or playtest
 - Release/install metadata now indexes 15 support manifests and still reports no missing core files.
 - No phase-3 prop has been called gameplay-verified; sidecars remain disabled and human collision/scale/contact testing is required.
 
-## Preservation prep - 2026-10-06 (read-only pass, Claude)
-Scope: dependency and evidence preservation ahead of THUG2 / GMod script extraction for Astra. No runtime source, ESP, DLL, NIF or deployed file was changed; installed runtime remains v85. This is not gameplay validation.
-
-What was done
-- Re-read the repo context documents and inspected the live local workspace through Desktop Commander (device DESKTOP-6PTSS3D). GitHub was not available in that session: nothing was committed or pushed, and the workspace has no .git.
-- Hashed and dependency-mapped 138 files in four groups: IDA 6.8 scripts/xrefs (37), THUG2 animation/bone/camera (36), GMod Q-menu/Tool Gun/Physgun (34), runtime ownership (35). 0 seed files missing.
-- Inventoried C:\IDA68WORK, the THUG2 source dump, Steam build IDs and tool versions.
-- Indexed third_party\NVSE-6.4.9\fnv_gmod_thug2_plugin\main.cpp with a heuristic regex index: 212 functions, 104 globals, 3 raw native addresses (0x011D8A80, 0x00C9C1D0, 0x011E07D4), no SafeWrite/WriteRel* inline patches.
-- Created: builds\preservation_prep_20261006\ (scan_preservation_deps.py, dependency_scan.json, inventory_external_deps.py, external_dependency_inventory.json, provenance_addendum.json, PRESERVATION_PREP.md, pre_edit_backups\). Appended (existing text untouched) to CURRENT_STATE.md, FAILURE_KNOWLEDGE.md (F011-F013) and OPEN_WORK.md. Pre-edit copies of those three files are in pre_edit_backups\.
-
-Verified findings (as of 07:20 local)
-- IDA 6.8 (idaq.exe PID 23616, running since 01:43) is analysing DUMPS\thug2\SLES_526.21 into research\thug2_ida\THUG2_PS2_68.idb. No packed .idb exists; id0/id1/nam are locked. Do not terminate it; save/close normally when idle.
-- C:\IDA68WORK is outside the workspace and outside the 247-row code preservation inventory: 50 scripts, 45 outputs, 5 packed IDBs (FNV_attachment90, FNV_skeleton87, FalloutNV_live, GMODCLIENT, GMODSERVER), 3 binaries. 102 of 103 top-level files have no same-name file in research\.
-- Workspace xref exports are address-only (see F012). The THUG2 reverse-engineering baseline is the PS2 PAL build (SLES_526.21, MIPS); GOAL.md/ARCHITECTURE.md do not state this.
-- Provenance: Fallout NV Steam buildid 1510068; Garry's Mod buildid 25375506; THUG2 DATAP.WAD SHA256 BDBFACF570024191B95FD920808A2CAEBA755FF94EEB19EB839B43ADB9902895; IDA 6.8 idaq.exe SHA256 EC5095959B5B09EA039CAF2F4239E9B712A9C02CF01395EDE0C82FFFC61F5461; SLES_526.21, DATAP.HED, SYSTEM.CNF hashes in external_dependency_inventory.json. Python 3.13.15; capstone 5.0.9, pefile 2024.8.26, pillow 12.3.0, PyFFI 2.2.3, vpk 1.4.0.
-- Concurrency: another session was writing to context\ and research\ throughout (89/90 lifecycle, attachment and prop phase 3 work). Re-check mtimes/hashes before writing (F007).
-
-Status: preservation actions P0-P7 are pending (see OPEN_WORK.md). None executed beyond the read-only pass. Full detail: builds\preservation_prep_20261006\PRESERVATION_PREP.md.
+## Prop support phase 4 — 2026-10-06
+- Phase-4 prop work is isolated from Astra/runtime code and tracked in context/PROP_SUPPORT_PHASE4_NEXT20.md.
+- Ready catalog remains 290. The planned first-wave target is 310 only if individually validated THUG2 props pass promotion gates.
+- A diversified THUG2 review wave now contains 20 candidates: {'Skate - Rails Handrails': 6, 'Skate - Quarterpipes Halfpipes Ramps': 5, 'Skate - Ledges Hubbas Curbs': 4, 'Street - Benches Tables Chairs': 2, 'Street - Fences Barriers Poles Pipes': 2, 'Skate - Stairs Platforms Misc': 1}.
+- Actual converted-level geometry previews exist for all 20; review scoring finds 13 high and 7 medium candidates, with no automatic promotion.
+- An 80-item GMod/Source reserve pool was selected from 797 eligible converted/collision-bearing non-default props, balanced across 8 practical categories.
+- Source-neutral menu taxonomy metadata now covers current ready props plus hidden future THUG2 entries.
+- Twenty future THUG2 form IDs/EDIDs are reserved as metadata only; no new THUG2 prop ESP records were created.
+- Dedicated phase-4 validator passes 46 checks with zero errors. Runtime/visual playability validation remains pending.
