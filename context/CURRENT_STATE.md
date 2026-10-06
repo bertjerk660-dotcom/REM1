@@ -5,13 +5,13 @@ Verified 2026-10-05 from actual source, deployed files, runtime logs and human p
 ## Canonical repository
 - GitHub repository: bertjerk660-dotcom/REM1.
 - Default branch: main.
-- Latest inspected main commit: 1733d70cb4f4d20d5b339d4510aceb7b356c5794.
+- Latest inspected main commit: 8082e64b10a40fcd451225e0a0d37847f5a0ff3e.
 - Local workspace remains the build/test environment; GitHub is the durable source/history layer.
 
 ## Active experimental build: v85
 - Source/plugin version: 85.
 - Deployed FNVGModTHUG2.dll SHA256: BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41.
-- Active REM_GModTHUG2.esp SHA256 at last verification: 3E30300C00241A044F73D476F9497716413DA467278A72AFE29CCAE6767DFEBB.
+- Active REM_GModTHUG2.esp SHA256 at last verification: 0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7.
 - Held skateboard path: rem\thug2\skateheldx.nif.
 - Held skateboard NIF SHA256: 4F12178D6D4004B29B46BCF61365A6B48D2EF007B862B292B4CDA80DF7BBD08A.
 - Held NIF structure: BSFadeNode + Prn=Weapon containing authentic converted THUG2 board geometry.
@@ -60,3 +60,15 @@ An isolated v86 HUD ownership candidate compiles but is not deployed or playtest
 - Release/install staging manifest reports no currently missing required baseline files. This does not mean release-ready.
 - Eight Astra handoff packets plus context/SUPPORT_20_POINT_TRACKER.md define the current support-to-Astra boundary.
 - Installed runtime remains v85 and Astra v88 remains isolated/not installed.
+## Support completion C — 2026-10-06
+- The 20-point non-Astra support pass is complete to the intended support/human/Astra boundary; see SUPPORT_20_POINT_TRACKER.md.
+- Unified support validator passes 94 checks with zero errors; report SHA256 68ABA18984574DB48985953B29402CFA3E216E8439CE7F21554544BC4AA2BBDD.
+- All 15 previously unresolved staged Source/GMod named weapon sound events now resolve to original installed sound-script definitions; 14/15 have all payload paths confirmed in mounted VPKs.
+- Tool Gun/Physgun exact visual/model dependency audit covers 36 paths: 33 resolve; the only absent source-declared triplet is models/weapons/v_Physics.{mdl,vvd,dx90.vtx}. No substitute was invented.
+- THUG2 embedded prop classification is complete: 85 spatial geometry candidates, 14 semantic/gap identifiers and 7 unresolved named targets.
+- Input/control handoff contains 22 source-backed matrix entries synthesized from 17 decompiled THUG2 QB evidence files.
+- Final 290-prop catalog has 290/290 form bindings and 290/290 clean fallback thumbnails.
+- Eight regression packs, a 63-artifact non-destructive history registry and an eventual release/install manifest are prepared.
+- Dedicated Astra handoffs exist for Q menu, Tool Gun, Physgun, skate physics, animation/board, camera, HUD/input, weapon presentation and THUG2 embedded props.
+- The later main-branch Fallout 3 Combine staging handoff has been carried into the support branch; no Fallout 3 runtime replacement was performed.
+- New support sidecars remain disabled. Human gameplay validation is still required and no staged feature is promoted to stable by these static checks.
