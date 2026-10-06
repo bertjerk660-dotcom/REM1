@@ -15,7 +15,7 @@ Status reflects support/preparation work only. Human gameplay validation and Ast
 11. **Controller-map research/documentation — SUPPORT PREP COMPLETE.** 17 relevant THUG2 QB source files were decompiled locally for evidence; a 22-entry source-backed control matrix covers PS2/Xbox equivalences, manuals, nollie/switch/revert, grind/lip/air families and walking/skating switch behavior.
 12. **Inventory/drop/trade QA — STATIC PREP COMPLETE / HUMAN QA PENDING.** 49 GMod weapons + skateboard audited. A clear RPG world-model/icon defect has a separate disabled presentation-fix sidecar. Drop/pickup/container/trade must still be tested in-game.
 13. **Isolated test plugins — SUPPORT PREP COMPLETE.** Combine armor, 120-prop GMod catalog and RPG presentation fix sidecars exist, validate statically and remain disabled.
-14. **Automated validation — COMPLETE AND ACTIVE.** Unified support validator now passes 107 checks with zero errors, including protected v85/v88 hashes, sidecar state, catalogs, thumbnails, UI/assets and handoff manifests.
+14. **Automated validation — COMPLETE AND ACTIVE.** Unified support validator now passes 111 checks with zero errors, including protected v85/v88 hashes, sidecar state, catalogs, thumbnails, UI/assets and handoff manifests.
 15. **Playtest evidence automation — SUPPORT PREP COMPLETE.** Preflight/postflight scripts capture hashes, sidecar enablement, plugin logs and Windows Application events without altering saves or deploying v88.
 16. **Regression test packs — SUPPORT PREP COMPLETE.** Eight repeatable packs cover baseline Fallout, inventory, RPG presentation, curated props, Combine armor, skateboard baseline and Astra-only skate/Q-menu runtime gates.
 17. **Old artifact cleanup/consolidation — SUPPORT PREP COMPLETE NON-DESTRUCTIVELY.** 63 historical artifacts are classified; nothing was deleted. `research/patch_v74_advdupe_physgun.py` is explicitly marked known-bad/do-not-run.
@@ -26,3 +26,6 @@ Status reflects support/preparation work only. Human gameplay validation and Ast
 ## Remaining non-support gates
 
 The remaining blockers are not unfinished clerical/support work: they are human gameplay validation or the intentionally reserved high-risk runtime/model integration layer. These include THUG2 physics/animation/camera implementation, real GMod Q-menu compatibility runtime, Tool Gun/Physgun native behavior, final first-person animation integration, visual verification/splitting of THUG2 embedded geometry, and in-game tests of the disabled sidecars.
+
+## Prop phase continuation
+A new prop-focused non-Astra/non-Opus continuation is tracked in context/PROP_SUPPORT_NEXT_20.md on prep/prop-content-phase3. It extends the support lane without modifying Astra v88.
