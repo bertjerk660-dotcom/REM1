@@ -55,3 +55,19 @@ Verified 2026-10-06 from the actual local workspace, deployed files, build manif
 - THUG2 embedded environment extraction queue: 106 named targets across 16 levels; not standalone/spawn-ready.
 - Compact ready prop-content handoff: 290 candidates = 170 FNV + 120 GMod/Source. Keep normal menu near 300–320 and promote THUG2 by replacement where practical.
 - See context/SUPPORT_CHECKPOINT_20261006.md and the 20261006 build summaries.
+
+## Completed support pass B — 2026-10-06
+- Unified support validator passes 61 static/preflight checks with zero errors.
+- Final ready prop catalog contains 290 entries: 170 native FNV entries with existing real base forms + 120 curated GMod/Source entries with disabled sidecar form bindings.
+- The earlier 17 missing-form FNV entries were replaced by existing-form alternatives; no arbitrary custom FNV forms are needed by the final ready set.
+- Disabled REM_GModProps_Catalog.esp contains 120 statically-validated MSTT records; SHA256 55E0758D4E96DC0C3B5F591002AD3C2C630CC76BE281DEDA0DAF2D2F91A4423E.
+- Final 290-item catalog has 290/290 local 128x128 support preview thumbnails. These are fallback/audit previews, not a replacement for GMod SpawnIcon behavior.
+- GMod/HL weapon support handoff covers all concrete model references, separates view/world candidates, preserves QC/SMD animation evidence, resolves all model/material dependencies, and records exact/unresolved Source sound-event evidence.
+- Weapon presentation audit found one clear RPG presentation defect; disabled REM_WeaponPresentation_Fixes.esp fixes only RPG world model + origin icons and passes static validation. SHA256 15380779823DA61F0F7A536E317FFB2489F35A156EFDF348348BB61D7BCA7723.
+- THUG2 embedded-prop handoff now has QB context for 106/106 queued targets across 16 levels.
+- THUG2 skateboard handoff records original pickup/skater/moto-board source assets, live board NIF geometry/container evidence and 20 parsed moto-skateboard SKA animation assets.
+- THUG2 UI/controller handoff indexes 49 original assets with zero missing and converts 22/22 IMG atlases/sprites to local PNG previews.
+- Preflight/postflight playtest evidence-capture tooling and a support playtest checklist are ready.
+- No support step changed the installed v85 DLL, active REM_GModTHUG2.esp, or Astra v88 candidate.
+- See context/SUPPORT_CHECKPOINT_20261006_B.md for the detailed handoff.
+
