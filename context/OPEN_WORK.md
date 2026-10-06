@@ -119,15 +119,11 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Keep the player-facing prop browser within 300-320. First target is 310; after that, replace lower-priority/redundant entries rather than allowing unbounded growth.
 - Do not interpret generated geometry previews as native GMod SpawnIcons; the real Q-menu runtime remains Astra-owned.
 
-## Preservation and extraction readiness (added 2026-10-06)
-Backlog from the read-only preservation pass; none of these have been executed. Detail: builds\preservation_prep_20261006\PRESERVATION_PREP.md.
-- P0: Do not disturb IDA PID 23616. Owner saves/closes IDA when idle; then hash the packed THUG2_PS2_68.idb and back it up (F011).
-- P1: Bring C:\IDA68WORK scripts and text/json outputs under tracking; keep IDBs/DLLs/EXEs local with hashes; record generating commands for unpack trees (F013).
-- P2: Replace hard-coded absolute roots with one paths config.
-- P3: Commit a provenance manifest (source hashes, Steam build IDs, IDA/Python/package versions) from the values in CURRENT_STATE.md.
-- P4: Re-export every IDB's function names, comments, types and structs with an IDA 6.8 script; resolve the name-to-handler table for Switch*Physics, DoBalanceTrick, DoNextManualTrick (F012); record the target interpreter per IDA script (IDA 6.8 embeds Python 2.7; continue_v69_sourcefaithful.py uses f-strings).
-- P5: Link THUG2 animation/bone/camera evidence: thug2_exact_animation_manifest.json, thug2_fnv_bone_map.json, retarget/camera patch scripts, and C:\IDA68WORK thug_animations87.json, fnv_skeleton87.json, FNV_skeleton87.idb, FNV_attachment90.idb (in flux).
-- P6: Link native physgun evidence (GMODCLIENT.idb, GMODSERVER.idb, gmod_physgun_deep68.py, GMOD_*_physgun_ida68.txt, gmod_phys_controller_*) from the Physgun/Tool Gun/Q-menu handoffs.
-- P7: Write runtime ownership contracts (none exist): who owns player 3D root, camera, weapon/Fight state, held-board visual, HUD and input; lifecycle order; failure behaviour. Seed from the main.cpp function index in dependency_scan.json. Audit EnsureGModWeaponForms CloneForm use against F001.
-- Decision needed from project owner: policy for committing raw disassembly listings (notes/xrefs/offsets fit ASSET_POLICY; verbatim listings are a judgement call).
-- Reconcile: repo CURRENT_STATE (v82) vs local (v85+); manifest location (repo builds\ vs local build\manifests); Physgun/Tool Gun asset resolution 27/28 vs 33/36; repository identifier (OWNER/REPOSITORY vs bertjerk660-dotcom/REM1); state the PS2 PAL baseline in GOAL.md/ARCHITECTURE.md.
+## Prop support phase 4 remaining gates
+- Add material/texture provenance for each of the 20 diversified THUG2 leaf candidates.
+- Assign and document collision strategy for each THUG2 candidate before conversion.
+- Visually confirm candidate leaf identity before any geometry split or NIF conversion.
+- Build a category deficit/excess plan for the 310 target and map failed/default props to the 80-item GMod reserve.
+- Generate THUG2 sidecar records only after standalone NIF conversion plus scale/collision/material validation.
+- Keep all support sidecars disabled outside isolated tests.
+- Do not treat phase-4 static validation (46 checks) as gameplay validation.
