@@ -1,0 +1,82 @@
+{
+  "files": [
+    {
+      "path": "context/HANDOFFS/START_HERE_GPT6_OPUS.md",
+      "exists": true,
+      "bytes": 2850,
+      "sha256": "7066A5227A8383935C8A37B09E4153C202B16AE2A63E436E9D72CFAEBC107292"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/EXECUTION_SEQUENCE.md",
+      "exists": true,
+      "bytes": 3061,
+      "sha256": "8467DB2C047DDE8F8BFDB16FD676A9466A92C77D4D10DDF0B811EDE9916504BE"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/GOLDEN_BENCH_IMPLEMENTATION_HANDOFF.md",
+      "exists": true,
+      "bytes": 3563,
+      "sha256": "6F91873EA09ECCB4D0C74516849A0FE984785C7288E111185F12165C4F8D5E69"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/WEAPON_VISIBILITY_ACCEPTANCE_MATRIX.md",
+      "exists": true,
+      "bytes": 3713,
+      "sha256": "31BFEFDEA32E88F7B4E2E6936603EB8BCBAEE1E27EF1660D1DFE4867F0B00A70"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/ACCEPTANCE_GATES.json",
+      "exists": true,
+      "bytes": 638,
+      "sha256": "3B8B40EC14339CF4C147DF7D04DB44E8CF4843B682A15CC50B16106C285BC5EA"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/REGRESSION_SPEC.json",
+      "exists": true,
+      "bytes": 3467,
+      "sha256": "F50F4CB56D18679B8147B0746DC9BF63C4DC345D6C200B2B2EB598B5ED4F0962"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/SIDECAR_STRATEGY.json",
+      "exists": true,
+      "bytes": 2370,
+      "sha256": "0ED8BB9B53A410CE37C897407E4A9352D621D1015DEF275C8B2D3CC9297548B0"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/RUNTIME_INTEGRATION_MAP.json",
+      "exists": true,
+      "bytes": 8919,
+      "sha256": "939BCF8AB6112545986C8D89161D3028829F25E948CCEA2EF4E36205780DD586"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/runtime_harness/BASELINE.json",
+      "exists": true,
+      "bytes": 4203,
+      "sha256": "7F0BFA3AB8F3BFEE73DCCC6A9D1712440EE119BA2C1B4A2090520E01FDE0E5DE"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/runtime_harness/STAGED_TESTS.json",
+      "exists": true,
+      "bytes": 844,
+      "sha256": "F8F285A45C83DD726A7E5A1535D0E962E2FE622A2759BFFB2C0971F762C72E8D"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/runtime_harness/LOGGING_SPEC.json",
+      "exists": true,
+      "bytes": 810,
+      "sha256": "02DF53F32185C25F27A49BAB28547068944AF054B87D3193D72382EA81DE70C4"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/runtime_harness/CRASH_TRIAGE.json",
+      "exists": true,
+      "bytes": 770,
+      "sha256": "FA900299A1D07EF6D0201985DAF5263434BBE1F316029F1D24891FD7432A7547"
+    },
+    {
+      "path": "research/validate_gpt6_opus_handoff.ps1",
+      "exists": true,
+      "bytes": 3561,
+      "sha256": "F67CAF35FA7C6F9649B8AF4F6F91DA2DBA9E1418EE92C70F3529D3116E2F19C5"
+    }
+  ]
+}
