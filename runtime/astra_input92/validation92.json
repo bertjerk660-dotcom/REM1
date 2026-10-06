@@ -1,0 +1,238 @@
+{
+  "candidate": "astra-input92",
+  "version": 92,
+  "parent_build": "v85",
+  "branch": "runtime/astra-phase1-input92",
+  "changed_functions": [
+    "PollControls",
+    "MessageHandler",
+    "NVSEPlugin_Query",
+    "NVSEPlugin_Load",
+    "SkateActivationGate92::WorldUnavailable/WorldAvailable/Suspend/Sample"
+  ],
+  "scope": "Phase 1 subsection: release-to-rearm activation ownership only; not full lifecycle cleanup",
+  "native_addresses_changed": [],
+  "new_native_signatures": [],
+  "ida_required": false,
+  "dll": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\bin\\FNVGModTHUG2.dll",
+  "dll_sha256": "3FB4FB4CFB83D161B6FEE4FCACCD07FFF451E9358C16A3546996F6F4C68CD6BD",
+  "esp_changed": false,
+  "esp_sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+  "parent": {
+    "parent": "v85",
+    "protected": {
+      "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\main.cpp": "CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\NVSE\\Plugins\\FNVGModTHUG2.dll": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_GModTHUG2.esp": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7"
+    },
+    "candidate": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate",
+    "rollback": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\runtime\\astra_input92\\rollback_v85"
+  },
+  "checks": [
+    {
+      "name": "protected unchanged: C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\main.cpp",
+      "pass": true
+    },
+    {
+      "name": "rollback exact: main.cpp",
+      "pass": true
+    },
+    {
+      "name": "protected unchanged: C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\NVSE\\Plugins\\FNVGModTHUG2.dll",
+      "pass": true
+    },
+    {
+      "name": "rollback exact: FNVGModTHUG2.dll",
+      "pass": true
+    },
+    {
+      "name": "protected unchanged: C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_GModTHUG2.esp",
+      "pass": true
+    },
+    {
+      "name": "rollback exact: REM_GModTHUG2.esp",
+      "pass": true
+    },
+    {
+      "name": "native hexadecimal constants unchanged",
+      "pass": true
+    },
+    {
+      "name": "retarget quarantine remains",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 686",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6268",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6272",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6307",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6320",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6330",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6345",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6347",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6352",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6765",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6767",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6768",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6792",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6864",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6960",
+      "pass": true
+    },
+    {
+      "name": "diff scope at parent line 6990",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: dllmain.c",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: exports.def",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: FNVGModTHUG2.vcxproj.filters",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: fn_intro_to_script_functions.h",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: fn_typed_functions.h",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: gmod_npc_defs.inc",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: gmod_overlay.inc",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: gmod_prop_defs.inc",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: gmod_tool_defs.inc",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: gmod_weapon_defs.inc",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: gmod_weapon_sounds.inc",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: nvse_plugin_example.sln",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: nvse_plugin_example.vcproj",
+      "pass": true
+    },
+    {
+      "name": "inherited file unchanged: thug2_anim_data.inc",
+      "pass": true
+    },
+    {
+      "name": "all deployment commands removed",
+      "pass": true
+    },
+    {
+      "name": "PE signature",
+      "pass": true
+    },
+    {
+      "name": "x86 machine",
+      "pass": true
+    },
+    {
+      "name": "DLL flag",
+      "pass": true
+    },
+    {
+      "name": "plugin exports present",
+      "pass": true
+    },
+    {
+      "name": "loaded identity marker",
+      "pass": true
+    },
+    {
+      "name": "C++ state machine tests",
+      "pass": true
+    }
+  ],
+  "automated_tests": {
+    "checks": 979826,
+    "exhaustive_traces": 279936,
+    "observed": "PASS"
+  },
+  "build": "PASS; initial quoting and dependency-path failures resolved; warnings retained in logs",
+  "common_lib_sha256": "5397703340AA20B615FA403DE31D9A00CC91D902367BC9AC0BF97A65D5F38510",
+  "targeted_gameplay_test": {
+    "status": "NOT RUN",
+    "expected": "held LMB across load/focus/Q-menu/vehicle/equip cannot activate; release then fresh press activates once",
+    "observed": null
+  },
+  "plugin_log_evidence": null,
+  "windows_crash_event_evidence": null,
+  "deployment": "NOT PERFORMED",
+  "known_issues": [
+    "Full v85 active-mode cleanup on load/title is still unresolved; v89 not merged.",
+    "Fallout native menu/Pip-Boy gating and console skatemode bypass are unchanged.",
+    "Failed-load gameplay readiness remains a separate lifecycle review.",
+    "Xbox routing, complete mechanics, camera and visual/animation integration remain incomplete.",
+    "Host tests exercise the actual pure gate, not Fallout engine callbacks."
+  ],
+  "opus_dependency": "None for this input-only subsection; validated held/mount/ride/exit animation and attachment interface needed before later integration.",
+  "next_runtime_step": "Phase 1 active-mode teardown and safe restoration, including failed load; keep separate candidate.",
+  "rollback": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\runtime\\astra_input92\\rollback_v85"
+}
