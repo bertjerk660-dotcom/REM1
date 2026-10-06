@@ -1,0 +1,57 @@
+{
+  "build": "prop_support_phase4_20261006",
+  "branch": "prep/prop-content-phase4",
+  "parent": "prep/prop-content-phase3",
+  "goal": "Advance the merged game's prop side with a diversified THUG2 review wave and practical GMod reserve, without runtime changes.",
+  "changes": [
+    "diversified 20-item THUG2 review wave",
+    "actual converted-level candidate-leaf previews and isolation metrics",
+    "80-item balanced GMod reserve pool",
+    "source-neutral menu taxonomy v2",
+    "future THUG2 form-ID/EDID reservations and promotion ledger",
+    "phase-4 static validator"
+  ],
+  "validation": {
+    "status": "pass",
+    "checks": 46,
+    "errors": 0
+  },
+  "playtest": "not_run",
+  "runtime_changes": false,
+  "protected_hashes": {
+    "installed_v85": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+    "astra_v88": "6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439",
+    "main_esp": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7"
+  },
+  "summary": {
+    "purpose": "Prop-focused support phase 4: diversify THUG2 first-wave review and build a compact replacement/reserve path without changing runtime code.",
+    "current_ready_props": 290,
+    "planned_first_wave": 310,
+    "gmod_reserve_selected": 80,
+    "gmod_reserve_eligible": 797,
+    "thug2_diversified_selected": 20,
+    "thug2_diversified_categories": {
+      "Skate - Rails Handrails": 6,
+      "Skate - Quarterpipes Halfpipes Ramps": 5,
+      "Skate - Ledges Hubbas Curbs": 4,
+      "Street - Benches Tables Chairs": 2,
+      "Street - Fences Barriers Poles Pipes": 2,
+      "Skate - Stairs Platforms Misc": 1
+    },
+    "leaf_review_status_counts": {
+      "high_review_priority": 13,
+      "medium_review_priority": 7,
+      "complex_review": 0
+    },
+    "form_reservations": 20,
+    "promotion_ledger_entries": 20,
+    "runtime_playtest": "not_run",
+    "runtime_or_astra_code_modified": false
+  },
+  "known_gates": [
+    "visual identity confirmation for THUG2 leaves",
+    "standalone split/conversion/material/collision/scale validation",
+    "human prop runtime batches",
+    "real GMod Q-menu runtime remains Astra-owned"
+  ]
+}
