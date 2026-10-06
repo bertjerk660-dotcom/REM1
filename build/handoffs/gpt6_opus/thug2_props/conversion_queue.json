@@ -1,0 +1,2002 @@
+﻿{
+    "schema":  "rem.thug2.prop_conversion_queue.v1",
+    "generated":  "2026-10-06",
+    "status":  "conversion_inputs_ready_runtime_conversion_not_claimed",
+    "target_count":  85,
+    "medium_count":  83,
+    "review_count":  2,
+    "classification_source":  "build/prepared/thug2_prop_catalog/target_classification.json",
+    "excluded_semantic_manifest":  "build/prepared/prop_support_phase4/thug2_unresolved_reclassification_2026-10-06.json",
+    "targets":  [
+                    {
+                        "level":  "ap",
+                        "identifier":  "EndArea_UnderRamp_05",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -1122.2852,
+                                         -1361.523,
+                                         6819.9766
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ap/ap.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ap",
+                        "identifier":  "EndArea_stairrail09",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -2129.7876,
+                                         -1045.6655,
+                                         1846.5852
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ap/ap.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ap",
+                        "identifier":  "EndArea_stairrails01",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -2477.335,
+                                         -1045.6655,
+                                         8086.4473
+                                     ],
+                        "candidate_leaf_count":  15,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ap/ap.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "au",
+                        "identifier":  "Geo_MiniRamp_BorderLedge01",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         1085.4055,
+                                         79.833374,
+                                         6256.3687
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/au/au.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "au",
+                        "identifier":  "MiniRampTempFence",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         791.46027,
+                                         36.87671,
+                                         6884.9023
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/au/au.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "au",
+                        "identifier":  "BigStairRailLeft",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -2553.2559,
+                                         95.39819,
+                                         7284.115
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/au/au.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "au",
+                        "identifier":  "BigStairRailRight",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -2577.2961,
+                                         95.39819,
+                                         7284.115
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/au/au.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "au",
+                        "identifier":  "Geo_Sec_Ledges01",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         8273.967,
+                                         -803.0084,
+                                         4847.2676
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/au/au.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "au",
+                        "identifier":  "Geo_FootShower_BorderLedge01",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         1417.8276,
+                                         175.2518,
+                                         6830.37
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/au/au.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ba",
+                        "identifier":  "BA_Paralel_BigBuild_Ramp01",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         2969.999,
+                                         728.0,
+                                         445.23322
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  85.133,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ba/ba.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ba",
+                        "identifier":  "RDM_bridgeA_North_Railing01",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         4363.9233,
+                                         109.07691,
+                                         3948.945
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ba/ba.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ba",
+                        "identifier":  "RDM_bridgeA_South_Railing01",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         5673.623,
+                                         108.844604,
+                                         7580.507
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ba/ba.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ba",
+                        "identifier":  "guell_stairsX_ledge",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         1996.4727,
+                                         228.07164,
+                                         -2701.7637
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ba/ba.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ba",
+                        "identifier":  "BA_ParcGuell_House_Ledge02",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         3096.4666,
+                                         146.03954,
+                                         -2361.0566
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ba/ba.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "be",
+                        "identifier":  "g_planterkicker02",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -1428.7183,
+                                         190.66168,
+                                         1115.9716
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/be/be.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "be",
+                        "identifier":  "g_sign_rail02",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -1259.6841,
+                                         142.29666,
+                                         -353.84567
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/be/be.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "be",
+                        "identifier":  "g_sign_rail_base01",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -906.0176,
+                                         147.52206,
+                                         -357.0737
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/be/be.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "be",
+                        "identifier":  "g_shop_ledge_01",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         2360.5073,
+                                         88.79987,
+                                         -1727.8633
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/be/be.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "be",
+                        "identifier":  "g_signs_stairs",
+                        "category":  "Skate - Stairs Platforms Misc",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -1685.7831,
+                                         142.79997,
+                                         247.80042
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/be/be.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "bo",
+                        "identifier":  "BO_Teahouse_Ply_Ramp_01",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         3079.9248,
+                                         681.12537,
+                                         -621.5837
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/bo/bo.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "bo",
+                        "identifier":  "StraightStair_rail_02",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         2532.2317,
+                                         145.68253,
+                                         -479.2191
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/bo/bo.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "bo",
+                        "identifier":  "JG_CO_StairRails01",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -885.95337,
+                                         141.33768,
+                                         -694.5812
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/bo/bo.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "bo",
+                        "identifier":  "JG_YMCA_StairRails",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -2608.0762,
+                                         154.36543,
+                                         -767.0966
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/bo/bo.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "bo",
+                        "identifier":  "BO_Hubba_Ledge_01c",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         2867.9946,
+                                         135.63669,
+                                         -727.95056
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/bo/bo.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "bo",
+                        "identifier":  "Bench_Park01",
+                        "category":  "Street - Benches Tables Chairs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -161.89322,
+                                         8.731827,
+                                         828.5483
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/bo/bo.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "bo",
+                        "identifier":  "BO_Bench_Park07",
+                        "category":  "Street - Benches Tables Chairs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         1434.1667,
+                                         129.32309,
+                                         -1494.544
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/bo/bo.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "bo",
+                        "identifier":  "BO_GVC_OfficeExitSignPipe",
+                        "category":  "Street - Fences Barriers Poles Pipes",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         3924.4155,
+                                         691.3976,
+                                         -898.2022
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/bo/bo.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "bo",
+                        "identifier":  "BO_TSign_Pole01",
+                        "category":  "Street - Fences Barriers Poles Pipes",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         203.06581,
+                                         268.44797,
+                                         1400.6655
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/bo/bo.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ca",
+                        "identifier":  "Parking_Lot_Ramp0",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         1985.9972,
+                                         -336.00003,
+                                         7651.464
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ca/ca.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ca",
+                        "identifier":  "Conc_Park_Ramp_Spine",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -464.64844,
+                                         -324.00003,
+                                         6599.6553
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ca/ca.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ca",
+                        "identifier":  "Conc_Park_Rail02",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         481.0111,
+                                         -338.05945,
+                                         4698.229
+                                     ],
+                        "candidate_leaf_count":  16,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ca/ca.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ca",
+                        "identifier":  "Conc_Park_RailM05",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -2065.73,
+                                         -305.4271,
+                                         4065.206
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ca/ca.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ca",
+                        "identifier":  "Conc_Park_Fence01",
+                        "category":  "Street - Fences Barriers Poles Pipes",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -3179.9507,
+                                         -63.76694,
+                                         2950.9932
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ca/ca.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ca",
+                        "identifier":  "Conc_Park_Fence_Coping01",
+                        "category":  "Street - Fences Barriers Poles Pipes",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -804.0559,
+                                         -298.24728,
+                                         6939.076
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ca/ca.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ca",
+                        "identifier":  "Concrete_Park_Fence_Coping01",
+                        "category":  "Street - Fences Barriers Poles Pipes",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         341.44092,
+                                         -298.24734,
+                                         3841.9302
+                                     ],
+                        "candidate_leaf_count":  12,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ca/ca.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ca",
+                        "identifier":  "Concrete_Park_Fence01",
+                        "category":  "Street - Fences Barriers Poles Pipes",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         1571.8105,
+                                         -327.76697,
+                                         4054.064
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ca/ca.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ca",
+                        "identifier":  "Parking_Lot_Fence_Post2",
+                        "category":  "Street - Fences Barriers Poles Pipes",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         1547.2032,
+                                         -110.39154,
+                                         8453.302
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ca/ca.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ca",
+                        "identifier":  "Concrete_Fullpipe_top2",
+                        "category":  "Street - Fences Barriers Poles Pipes",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         596.02,
+                                         -228.8877,
+                                         7365.946
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ca/ca.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "dj",
+                        "identifier":  "Jam_Ramp02",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         1748.1377,
+                                         -742.95215,
+                                         5626.588
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/dj/dj.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "dj",
+                        "identifier":  "Jam_Mondo_Ramp01",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -558.2037,
+                                         -3734.344,
+                                         -4577.534
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/dj/dj.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "dj",
+                        "identifier":  "Jam_Sign_Rail02",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         0.897141,
+                                         -2987.8394,
+                                         -1298.0896
+                                     ],
+                        "candidate_leaf_count":  9,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/dj/dj.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "dj",
+                        "identifier":  "Jam_Sign_Poles01",
+                        "category":  "Street - Fences Barriers Poles Pipes",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         194.39261,
+                                         -1997.4008,
+                                         -2782.8916
+                                     ],
+                        "candidate_leaf_count":  10,
+                        "nearest_box_distance":  109.015,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/dj/dj.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "la",
+                        "identifier":  "Arco_Ramp_01",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -4614.673,
+                                         -342.76547,
+                                         2281.294
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/la/la.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "la",
+                        "identifier":  "Arco_Rail_Stair_02",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -4869.0005,
+                                         -285.05603,
+                                         3254.8774
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/la/la.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "la",
+                        "identifier":  "TRGP_ledge01",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -225.15543,
+                                         -314.35,
+                                         3774.19
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  30.372,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/la/la.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "la",
+                        "identifier":  "Pershing_Bench_Curved_01",
+                        "category":  "Street - Benches Tables Chairs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -217.41861,
+                                         -391.67117,
+                                         4804.7266
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/la/la.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "la",
+                        "identifier":  "Arco_StairWall_01",
+                        "category":  "Skate - Stairs Platforms Misc",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -3927.753,
+                                         -360.63718,
+                                         4242.811
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/la/la.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "no",
+                        "identifier":  "g_blockB_tb_railing01",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -1401.0002,
+                                         743.0987,
+                                         -635.8835
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/no/no.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "no",
+                        "identifier":  "g_blockC_balcony_railing01",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         1821.6476,
+                                         261.0216,
+                                         206.35277
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/no/no.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "no",
+                        "identifier":  "g_blockC_rs_rail03",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         579.8788,
+                                         763.7043,
+                                         547.80597
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/no/no.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "no",
+                        "identifier":  "g_blockC_FastFoodFront_Ledge",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         1680.8372,
+                                         148.02283,
+                                         1117.9023
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  5.46,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/no/no.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ph",
+                        "identifier":  "PH_Phillyside_Halfpipe0",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "review",
+                        "position":  [
+                                         4650.0396,
+                                         -533.9253,
+                                         2608.903
+                                     ],
+                        "candidate_leaf_count":  1,
+                        "nearest_box_distance":  407.575,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ph/ph.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ph",
+                        "identifier":  "PH_Love_Ramp01",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -2237.5596,
+                                         -1607.1953,
+                                         -1590.3154
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ph/ph.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ph",
+                        "identifier":  "PH_Love_Railing_Pole12",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -3310.5886,
+                                         -1684.3662,
+                                         -1897.2976
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ph/ph.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ph",
+                        "identifier":  "PH_Love_Bench9",
+                        "category":  "Street - Benches Tables Chairs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -3246.7847,
+                                         -1669.7672,
+                                         -451.51608
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ph/ph.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "ph",
+                        "identifier":  "PH_Love_Park_Pipe01",
+                        "category":  "Street - Fences Barriers Poles Pipes",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -2531.3696,
+                                         -1759.7313,
+                                         1563.0502
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/ph/ph.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sc",
+                        "identifier":  "Park_QuarterPipe93",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         6652.522,
+                                         -526.23413,
+                                         902.5041
+                                     ],
+                        "candidate_leaf_count":  16,
+                        "nearest_box_distance":  96.166,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sc/sc.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sc",
+                        "identifier":  "School_Gym_QuarterPipe04",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -2091.75,
+                                         -209.45792,
+                                         -6234.3535
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sc/sc.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sc",
+                        "identifier":  "School_Stair_BoxRail01",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -2006.9161,
+                                         -662.30566,
+                                         -858.1251
+                                     ],
+                        "candidate_leaf_count":  10,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sc/sc.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sc",
+                        "identifier":  "School_BoxRail01",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         1606.8407,
+                                         -763.87695,
+                                         -164.47852
+                                     ],
+                        "candidate_leaf_count":  12,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sc/sc.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sc",
+                        "identifier":  "SC_Planter2Bench_GapS",
+                        "category":  "Street - Benches Tables Chairs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -3260.9983,
+                                         210.20328,
+                                         -6476.9604
+                                     ],
+                        "candidate_leaf_count":  16,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sc/sc.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sc",
+                        "identifier":  "School_Fence_Roof01",
+                        "category":  "Street - Fences Barriers Poles Pipes",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -989.2345,
+                                         -438.36014,
+                                         2793.411
+                                     ],
+                        "candidate_leaf_count":  13,
+                        "nearest_box_distance":  14.922,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sc/sc.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sc",
+                        "identifier":  "School_Stairs01",
+                        "category":  "Skate - Stairs Platforms Misc",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -1747.84,
+                                         -725.1709,
+                                         -748.2035
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sc/sc.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sc",
+                        "identifier":  "School_Planter01",
+                        "category":  "Skate - Stairs Platforms Misc",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -1176.3331,
+                                         -242.0037,
+                                         -2723.283
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sc/sc.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "se",
+                        "identifier":  "NEWSHIT_PoolLedge_01",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -612.22516,
+                                         -108.8208,
+                                         -10558.21
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/se/se.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "se",
+                        "identifier":  "NEWSHIT_ROG_ObsRoom_Ledge_01",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -2254.076,
+                                         -952.389,
+                                         -357.4429
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/se/se.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "se2",
+                        "identifier":  "Geo_ChinRamp_Railings01",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -5309.0938,
+                                         259.50003,
+                                         6058.488
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/se2/se2.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "se2",
+                        "identifier":  "Geo_ChinRamp_Coping01",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -6231.911,
+                                         157.68231,
+                                         6347.917
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/se2/se2.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "se2",
+                        "identifier":  "Geo_Ship_HandRail01",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -8416.819,
+                                         147.3066,
+                                         3363.4973
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/se2/se2.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "se2",
+                        "identifier":  "Geo_Mtn_EastHighLedges01",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -3296.4998,
+                                         164.26064,
+                                         4041.2275
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/se2/se2.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "se2",
+                        "identifier":  "Geo_PlaneCrash_LedgeRocks01",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -4424.5806,
+                                         77.035904,
+                                         8590.214
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/se2/se2.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "se2",
+                        "identifier":  "Geo_WLedge01",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -5409.261,
+                                         87.83714,
+                                         5014.776
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/se2/se2.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sk5ed",
+                        "identifier":  "sk5ed_KickerWall",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         0.0,
+                                         0.0,
+                                         0.0
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sk5ed/sk5ed.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sk5ed",
+                        "identifier":  "sk6ed_SSrampmidBooster",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         0.0,
+                                         0.0,
+                                         0.0
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sk5ed/sk5ed.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sk5ed",
+                        "identifier":  "sk6ed_RailStair01",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         0.0,
+                                         0.0,
+                                         0.0
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sk5ed/sk5ed.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sk5ed",
+                        "identifier":  "sk6ed_SSrailbox",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         0.0,
+                                         0.0,
+                                         0.0
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sk5ed/sk5ed.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sk5ed",
+                        "identifier":  "sk6ed_NYqpledge",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         0.0,
+                                         0.0,
+                                         0.0
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sk5ed/sk5ed.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "sk5ed",
+                        "identifier":  "sk5ed_curvedLedge",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         0.0,
+                                         0.0,
+                                         0.0
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/sk5ed/sk5ed.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "st",
+                        "identifier":  "Wood_Railing",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "review",
+                        "position":  [
+                                         -1170.6376,
+                                         171.92899,
+                                         1672.5046
+                                     ],
+                        "candidate_leaf_count":  1,
+                        "nearest_box_distance":  1599.961,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/st/st.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "st",
+                        "identifier":  "g_henry_SledgeHammer",
+                        "category":  "Skate - Ledges Hubbas Curbs",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -501.25574,
+                                         6264.841,
+                                         -3353.858
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/st/st.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "tr",
+                        "identifier":  "WH_TB_Halfpipe_02",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         720.10376,
+                                         -765.72565,
+                                         -2714.6033
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/tr/tr.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "tr",
+                        "identifier":  "g_halfpipe_radiosity",
+                        "category":  "Skate - Quarterpipes Halfpipes Ramps",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         886.6697,
+                                         -864.8368,
+                                         -2714.8335
+                                     ],
+                        "candidate_leaf_count":  18,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/tr/tr.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+                                         ]
+                    },
+                    {
+                        "level":  "tr",
+                        "identifier":  "SkWare_RailPost01",
+                        "category":  "Skate - Rails Handrails",
+                        "classification":  "spatial_geometry_candidate",
+                        "confidence":  "medium",
+                        "position":  [
+                                         -2883.6663,
+                                         -243.1106,
+                                         -3754.5508
+                                     ],
+                        "candidate_leaf_count":  10,
+                        "nearest_box_distance":  0.0,
+                        "source_glb":  "build/prepared/thug2_prop_catalog/level_glb/tr/tr.glb",
+                        "requirements":  [
+                                             "original evidence-backed leaf/component only",
+                                             "preserve materials and UVs",
+                                             "split standalone asset",
+                                             "convert to FNV NIF",
+                                             "silhouette-appropriate static collision",
+                                             "validate FNV scale",
+                                             "visual identity review"
+
+[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]
