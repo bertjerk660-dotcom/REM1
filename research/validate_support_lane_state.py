@@ -382,6 +382,16 @@ if prop_phase3_path.exists():
 else:
     ck("prop_support_phase3_validator",False,str(prop_phase3_path))
 
+
+prop_phase4_path=ROOT/"build/validation/prop_support_phase4.json"
+if prop_phase4_path.exists():
+    prop_phase4=json.loads(prop_phase4_path.read_text(encoding="utf-8"))
+    ck("prop_support_phase4_validator",
+       prop_phase4.get("status")=="pass" and prop_phase4.get("error_count")==0 and prop_phase4.get("check_count",0)>=60,
+       {"status":prop_phase4.get("status"),"checks":prop_phase4.get("check_count"),"errors":prop_phase4.get("error_count")})
+else:
+    ck("prop_support_phase4_validator",False,str(prop_phase4_path))
+
 errors=[x for x in checks if x["severity"]=="error" and not x["pass"]]
 result={
     "purpose":"Unified support-lane static/preflight validator. It must not be interpreted as gameplay validation.",
