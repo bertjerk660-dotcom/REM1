@@ -1,0 +1,30 @@
+{
+  "purpose": "Dependency inventory for the real installed GMod Q menu, Tool Gun, Physgun-visible hooks and notification system.",
+  "gmod_buildid": "25375506",
+  "steam_appmanifest_sha256": "55648202F35A9165220C98975F59CDEB0079AE20D0C377FCC5CC83682449EA8A",
+  "garrysmod_dir_vpk_sha256": "A3237FC7442C6C57AA924525951280F1381BC641D323B6ED4CE52FD5BE09F83E",
+  "relevant_lua_files": 105,
+  "roles": {
+    "core_module": 14,
+    "menu_population": 2,
+    "notifications": 1,
+    "physgun_hooks": 5,
+    "qmenu_entry": 1,
+    "qmenu_search": 1,
+    "qmenu_spawnmenu": 33,
+    "toolgun": 48
+  },
+  "tool_stool_files": 40,
+  "vgui_classes_created_or_referenced": 46,
+  "direct_asset_refs": 29,
+  "direct_asset_refs_unresolved": 0,
+  "findings": [
+    "The real Q/spawn menu is substantially implemented in Lua/Derma under sandbox spawnmenu plus the spawnmenu module.",
+    "The Tool Gun is script-rich and registers tool-menu entries through spawnmenu APIs.",
+    "Physgun pickup/drop/freeze/draw hooks are script-visible, but weapon_physgun core manipulation is engine-native and remains an Astra/IDA 6.8 task.",
+    "GMod notification Lua is the correct source for notification bubbles instead of Fallout prompts."
+  ],
+  "local_manifest_sha256": "A499117503C53710B91AE27C401DBFCF53F23C4B741B3AF29FD0A43C06B0774B",
+  "local_summary_sha256": "BFD1F6819E5BDF2C43F9A58002583C5B61078F7BACD458C52E2D03351F9651B4",
+  "runtime_port_performed": false
+}
