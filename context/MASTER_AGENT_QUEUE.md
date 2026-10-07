@@ -126,3 +126,9 @@ A subsystem becomes implementation-ready only after required Codex evidence is r
 
 34. **S34 next Codex C04 request packet** — COMPLETE. `context/HANDOFFS/NEXT_CODEX_REQUEST_THUG2_C04_2026-10-07.md` is the next new investigation request; it explicitly forbids Opus-owned implementation work.
 35. **S35 Codex C04 evidence return** — WAITING FOR CODEX. Review with `context/HANDOFFS/CODEX_C04_REVIEW_CHECKLIST_2026-10-07.md`; award the 3 C04 readiness points only on semantic COMPLETE.
+
+
+36. **S36 Opus candidate manifest validator** — COMPLETE. O00/O01/O08a/O08b/O08c seeds all pass preflight with 0 errors; freeze validation is mandatory before Codex runtime handoff.
+37. **S37 semantic Opus gate validator** — COMPLETE. Current package states are consistent with reviewed C01-C08 states; validation PASS at 81/100 with 0 false unlocks.
+38. **S38 O00 deterministic runtime handoff** — COMPLETE. Session checklist + O00 Codex validation packet + common post-O00 visual validation packet are ready.
+39. **S39 consolidated launch baseline** — COMPLETE. `context/OPUS_LAUNCH_PREFLIGHT_BASELINE_2026-10-07.md` is the current launch checkpoint.
