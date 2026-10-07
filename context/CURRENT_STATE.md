@@ -38,3 +38,27 @@ THUG2 is NOT VERIFIED STABLE until v82 is playtested.
 - Master execution queue, dependency graph, regression spec, acceptance gates, sidecar strategy and preflight validator are prepared.
 - Preflight passed locally on 2026-10-06: 85 targets, zero semantic overlap, 16/16 source level GLBs available, both IDA 6.8 Physgun evidence exports present.
 - These preparation results do not change the verified deployed runtime version or establish THUG2/Physgun runtime success.
+
+## Goodsprings Deathclaw Response support candidate — 2026-10-07
+A separate support encounter is staged and deployed without modifying the protected Astra runtime lane.
+
+Verified deployed artifacts:
+- `Data\REM_Goodsprings_CombineDeathclawEncounter.esp` SHA256 `B37B2087B75701AFAAE64FEA62B580774B99965A8B4C37CED32E4161FECB590F`
+- `Data\NVSE\Plugins\REMGoodspringsResponse.dll` SHA256 `2FCEAC8BB4B3AD11B774F9B9B0D9F97A08E9D9372205C9A7E4E34F2BF4F0F13F`, Win32/x86
+- `Data\Sound\fx\rem\goodsprings\captain_claw_thanks.wav` SHA256 `F0C6A0DAE22B6122DAC741E14CC3A8F255F50BC13A1A7B860AA42C8B4B74F62C`
+
+Encounter facts:
+- Combine Solider: 100,000 HP, speed 200, Frenzied/Foolhardy, Minigun, 10,000,000 5mm, current torso-lowered Combine armor.
+- Ten `DEATHCLAW RESPONSE UNIT` actors are Unaggressive/factionless/package-free at base and the support DLL explicitly targets only the Combine guard while he is alive.
+- Captain Claw local ref `080E` starts disabled and has Bethesda `RunToPlayerForever [000CAFC6]` persistently authored on his creature base.
+- On guard defeat Captain is enabled + EVP, then naturally pathfinds to the player. No MoveTo/teleport command exists.
+- At <=275 units one TTS-backed message-box prompt fires and grants one vanilla Deathclaw Egg `000E6627`.
+- `REMCaptainClawRewarded` local global `080F` provides one-time save/load reward state.
+
+Validation:
+- ESP recursive binary validation: PASS.
+- Support DLL build: PASS, 0 errors.
+- xNVSE 6.4.9 runtime main-menu smoke test: PASS; loader logged `REMGoodspringsResponse` v2 loaded correctly alongside `FNVGModTHUG2`.
+- Actual Goodsprings encounter/playability test: PENDING human observation.
+
+See `context/HANDOFFS/GOODSPRINGS_DEATHCLAW_RESPONSE_2026-10-07.md` and `build/goodsprings_response/manifest_v2.json`.
