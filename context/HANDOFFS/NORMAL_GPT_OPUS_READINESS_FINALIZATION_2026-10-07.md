@@ -7,8 +7,8 @@ Workflow / documentation / provenance / handoff preparation only. No Codex rever
 Using the explicit weighted rubric in `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md`:
 
 - **before:** 58/100 Opus-preparation readiness;
-- **after:** 80/100 Opus-preparation readiness;
-- **gain:** +22 percentage points.
+- **after:** 81/100 Opus-preparation readiness;
+- **gain:** +23 percentage points.
 
 This measures preparation quality, not game completion or runtime-validation completion.
 
@@ -73,7 +73,7 @@ Therefore the old feed bundle is reference/provenance input only and cannot defi
 - O09 polish/fix loop: waits for implemented candidates and Codex runtime reports.
 
 ## Remaining preparation bottleneck
-The remaining 20 readiness points are dominated by missing **Codex implementation-grade evidence**. Normal GPT must not fabricate those points from source inventories.
+The remaining 19 readiness points are entirely missing **Codex implementation-grade evidence**. Normal GPT must not fabricate those points from source inventories.
 
 As each C01-C08 result lands, normal GPT should:
 1. ingest/review it;
@@ -115,3 +115,11 @@ Do not wholesale merge runtime/specialist branches. Promote coordination artifac
 - O00 bench source geometry/collision/material inputs were freshly re-hashed and match provenance.
 - O00 is the first Opus implementation task.
 - O01 is fully prepared but starts only after O00 passes visual/collision/runtime acceptance.
+
+
+### Clean main-descended branch
+Preferred preparation branch: `prep/opus-ready-20261007`.
+
+It was created directly from current canonical main and verified zero commits behind at reconciliation. This closes the final global normal-GPT preparation gap. Use `context/CLEAN_OPUS_BRANCH_RECONCILIATION_2026-10-07.md`.
+
+The exact remaining 19-point closure map is `context/OPUS_READINESS_81_TO_100_PLAN_2026-10-07.md`.
