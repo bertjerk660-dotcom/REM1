@@ -49,7 +49,9 @@ Opus preparation controls:
 - `context/HANDOFFS/OPUS_FIX_PACKET_TEMPLATE.md`
 - `build/templates/OPUS_IMPLEMENTATION_MANIFEST_TEMPLATE.json`
 
-Ready package:
+Ready packages:
+- `context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md`
+- `build/prepared/opus_o00_golden_bench_20261007.json`
 - `context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md`
 - `build/prepared/opus_o01_toolgun_presentation_20261007.json`
 
