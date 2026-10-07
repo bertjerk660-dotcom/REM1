@@ -37,6 +37,8 @@ Purpose: durable index of important technical evidence. This is not itself proof
 | E027 | 2026-10-07 | prop-content provenance reconciliation | normal GPT workflow | context/PROVENANCE_INDEX.md + prep/prop-content-phase4 manifests | high for catalog/provenance snapshot | cross-branch/source-manifest comparison | no runtime implementation claimed | no | 290 ready entries (170 FNV + 120 GMod/Source), 20 THUG2 review candidates remain unpromoted, phase-4 validation is static-only. |
 | E028 | 2026-10-07 | current local preflight identity | normal GPT + Remote Desktop Commander | context/LOCAL_OPUS_PREFLIGHT_SNAPSHOT_2026-10-07.md; build/prepared/opus_readiness_20261007/local_preflight_snapshot.json | high for observed file identity | current-machine SHA256 re-hash | n/a | no gameplay claim | GMod appmanifest/VPK, THUG2 executable and FNV skeleton match recorded provenance; old Opus feed-bundle main.cpp hash is stale versus current local source. |
 
+| E029 | 2026-10-07 | O01 Toolgun source/presentation preflight | normal GPT + Remote Desktop Commander | context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md; build/prepared/opus_o01_toolgun_presentation_20261007.json | high for source identity/presentation inputs | current-machine SHA256 verification against source packets | no implementation performed | no | c/w Toolgun required model companions, QC/reference SMD and 13 material/texture inputs match recorded provenance; visual-only O01 is ready for Opus, behavior remains C01/C02-gated. |
+
 ## Intake rule for new evidence
 
 Every new Codex or Opus report should add or update an entry with:
