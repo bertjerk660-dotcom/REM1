@@ -4,6 +4,8 @@ Purpose: define the exact remaining work required for **100% preparation readine
 
 This is preparation readiness, not game-completion percentage.
 
+GitHub tracker: issue #5 — `Opus readiness: close C01-C08 evidence gates to reach 100%`.
+
 ## Current position
 
 After normal-GPT reconciliation is moved onto the clean main-descended branch `prep/opus-ready-20261007`, the score becomes:
