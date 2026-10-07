@@ -103,11 +103,17 @@ Older files such as `build/handoffs/gpt6_opus/MASTER_EXECUTION_QUEUE.json` use c
 
 Do not silently change product or architecture decisions while remapping ownership.
 
-## Owner directive 2026-10-07: Opus may investigate when necessary
+## Opus investigation exception
 
-Recorded by the Haiku final preflight audit from the project owner's instruction.
+Codex remains the **default** owner of reverse-engineering investigation, evidence closure and runtime validation.
 
-- Claude Opus may perform Codex-type investigation (tracing, reverse engineering, dependency and state mapping, runtime debugging) when Opus judges it necessary to unblock implementation.
-- That work must be recorded as evidence with branch, commit, source identity and hashes, with IDA Pro 6.8 where native reversing is used, and must be reviewed against the same Codex stop conditions before any readiness point is awarded.
-- Codex remains the default owner of investigation and runtime validation. This directive does not award C01-C08 readiness points by itself.
-- Statements earlier in this file that exclude Opus from investigation are superseded for task assignment by this directive. The owner should confirm whether to rewrite those sections in full.
+Claude Opus may perform narrowly scoped investigation when it is inseparable from, or necessary to unblock, Opus-owned implementation. This is an exception, not a transfer of the investigation lane.
+
+When Opus performs such investigation:
+- record branch, commit, source identity and hashes;
+- use IDA Pro 6.8 for native reversing that requires IDA;
+- separate direct evidence from inference;
+- review the result against the same C01-C08 stop conditions before awarding readiness points;
+- do not treat implementation success as proof that the original-game behavior was correctly recovered.
+
+The Haiku findings branch `prep/haiku-findings-20261007` proposed broader Opus ownership of reverse engineering. That proposal is preserved as historical findings, but it does not supersede this current ownership document without a later explicit owner directive.
