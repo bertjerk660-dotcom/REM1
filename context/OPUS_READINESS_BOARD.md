@@ -50,3 +50,15 @@ Codex evidence complete
 -> Opus fixes
 -> Codex regresses
 -> GPT-5.5 records VALIDATED only after gates pass.
+
+
+## Preparation control documents
+
+Before starting any Opus package, use:
+- `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md` — reproducible overall preparation score and remaining gap;
+- `context/OPUS_LAUNCH_SEQUENCE_2026-10-07.md` — exact allowed launch order and package dependencies;
+- `context/OPUS_PACKAGE_INTAKE_CHECKLIST_2026-10-07.md` — evidence review, packet assembly, candidate freeze and promotion checklist.
+
+Current preparation score after the 2026-10-07 workflow finalization pass: **71/100**.
+
+This percentage measures preparation/handoff readiness only. Package unlock state in the table above remains authoritative: most core systems are still waiting for Codex evidence.
