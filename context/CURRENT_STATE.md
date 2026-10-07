@@ -97,3 +97,17 @@ Report: `build/validation/opus_visual_source_validation_20261007.json`.
 One real staging omission was found and corrected during preparation: the original `w_smg2.vmt` references `w_smg2specularmask.vtf`; the old staged w_smg1 package omitted it. The exact VPK source file was copied into staging and hash-matches the original. No replacement texture was created.
 
 The remaining path to 100% Opus preparation is fixed in `context/OPUS_READINESS_81_TO_100_PLAN_2026-10-07.md`. After clean-branch reconciliation, all remaining readiness points are C01-C08 evidence work.
+
+
+## 2026-10-07 clean Opus-ready branch
+A new preparation branch was created directly from canonical main:
+`prep/opus-ready-20261007`
+
+GitHub comparison after coordination/transplant:
+- status: ahead;
+- ahead of main: 78 commits;
+- behind main: 0 commits.
+
+This replaces the conflicted/diverged finalization branch as the preferred preparation branch for future Codex closure work and Claude Opus launch.
+
+Preparation readiness on this branch is **81/100**. All remaining 19 points are explicitly assigned to C01-C08 evidence gates in `context/OPUS_READINESS_81_TO_100_PLAN_2026-10-07.md`.
