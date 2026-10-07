@@ -23,7 +23,7 @@ Purpose: durable index of important technical evidence. This is not itself proof
 
 ## Intake rule for new evidence
 
-Every new Codex/Opus/Astra report should add or update an entry with:
+Every new Codex or Opus report should add or update an entry with:
 - source agent and date;
 - subsystem;
 - exact repository path/commit or build/hash;
