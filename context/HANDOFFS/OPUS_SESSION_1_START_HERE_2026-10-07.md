@@ -14,6 +14,9 @@ Current preparation readiness:
 
 This is preparation readiness, not game-completion percentage.
 
+Current consolidated launch checkpoint:
+`context/OPUS_LAUNCH_PREFLIGHT_BASELINE_2026-10-07.md`
+
 Unified source validation currently passes O00/O01/O08a/O08b/O08c: **87 files, 0 errors**. Report: `build/validation/opus_visual_source_validation_20261007.json`.
 
 ## Ownership
