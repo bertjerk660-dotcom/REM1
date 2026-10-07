@@ -163,3 +163,32 @@ Only preflight has passed so far (O00 seed: 0 errors). Freeze has not been run.
 - Provenance issues: skateheldx.nif identity drift; the C01 baseline expects absent files; first-person Physgun model and the four other unresolved dependencies (section 5); THUG2 target is PS2 and IDA work must say so.
 - Candidate and runtime risks: held-board identity is unproven against the v82 record; the LMB crash history (F005); the Physgun actor-target cause is a source-level candidate, not proven (F009); sidecar leakage if the O00 ESP is enabled by default.
 - Safe to start O00: YES. No preparation blocker prevents O00. Its conditions are in section 2.
+
+## Post-audit reconciliation — 2026-10-08
+
+The four documentation/provenance items left open by this audit have now been reconciled without touching implementation or game files.
+
+1. **Held-board hash drift — RESOLVED.**
+   - v82 pre-material-repair hash: `4F12178D...`.
+   - v90 material-repair manifest explicitly records `4F121...` → `1FB3CE19...`.
+   - later release inventory and local re-hash match `1FB3...`.
+   - see `context/HANDOFFS/SKATEHELDX_PROVENANCE_RESOLUTION_2026-10-08.md`.
+
+2. **Ownership wording — RESOLVED.**
+   - Codex remains the default investigation/evidence/runtime-validation owner.
+   - Claude Opus remains the sole substantive implementation/integration owner.
+   - Opus may investigate a narrow gap only when necessary to unblock its own implementation, under the same evidence rules.
+   - current authority: `context/AGENT_OWNERSHIP.md`, `context/DECISIONS.md`, `context/LEGACY_ROLE_PATH_MAP.md`.
+
+3. **C01-C08 missing-output baseline — RESOLVED AS LIFECYCLE SEMANTICS.**
+   - those paths are future Codex deliverables;
+   - pre-delivery absence is now PENDING rather than a structural failure;
+   - delivery mode still fails missing/invalid outputs after Codex claims delivery;
+   - new report: `build/validation/codex_c01_c08_output_baseline_20261008.json`.
+
+4. **Quarantined branch indexing — RESOLVED.**
+   - exact current heads and main-relative status are pinned in:
+     - `context/QUARANTINED_BRANCH_INDEX_2026-10-08.md`
+     - `build/prepared/quarantined_branch_index_20261008.json`.
+
+Preparation readiness remains 81/100 because these are documentation/provenance corrections, not newly completed C01-C08 evidence gates.
