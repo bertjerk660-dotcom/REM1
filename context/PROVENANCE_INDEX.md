@@ -91,11 +91,18 @@ Status: **BLOCKED — Codex C03 must resolve provenance or prove the actual sour
 
 Source: `prep/opus-feed-bundle-20261006:ASSET_REFERENCE_INDEX.json`
 
-Recorded live/staged assets include:
+Historical v82/source-feed identities include:
 - `skateboard.nif` SHA256 `C13CC1ABB997D85E0C5A4860410A7EF14E8DFDCA5EA14D29983EBDAAA7843E4C`
 - `skateboard_visual.nif` same SHA256
-- `skateheldx.nif` SHA256 `4F12178D6D4004B29B46BCF61365A6B48D2EF007B862B292B4CDA80DF7BBD08A`
+- `skateheldx.nif` v82 pre-material-repair SHA256 `4F12178D6D4004B29B46BCF61365A6B48D2EF007B862B292B4CDA80DF7BBD08A`
 - `skateworld.nif` SHA256 `2DE82089C42543963FEE7419FF0E2B9E21E731BF6AFBF93CAAD1EF72C2C396D2`
+
+Later v90 material-repair provenance explicitly transforms `skateheldx.nif` from `4F121...` to the deployed SHA256:
+`1FB3CE190CC0E32D2F06EEC144605CE3E2EB84BE4E3A90A33B227B9639C6D852`.
+
+Evidence: `feature/thug2-native-ui-g6:builds/board_material_deployment90.json` (Git blob `27aa43117a633eb942616eade6fd16cadfd1fc0a`). The manifest records `deployed=true`, `roundtrip=pass`, and material-only scope with geometry/placement unchanged. Later release inventory and the 2026-10-07 local re-hash both match `1FB3...`.
+
+Resolution: see `context/HANDOFFS/SKATEHELDX_PROVENANCE_RESOLUTION_2026-10-08.md`.
 - 20 board animation assets recorded
 - held board uses `BSFadeNode` + `Prn=Weapon`
 
