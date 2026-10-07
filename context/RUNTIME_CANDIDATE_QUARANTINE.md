@@ -2,6 +2,10 @@
 
 Purpose: retain later runtime/build evidence without allowing an unvalidated candidate to become canonical merely because its version number or branch is newer.
 
+## Current pinned branch-head index
+
+Use `context/QUARANTINED_BRANCH_INDEX_2026-10-08.md` and `build/prepared/quarantined_branch_index_20261008.json` for the current exact branch heads and relations to canonical `main`. Counts in older reconciliation notes are historical snapshots only.
+
 ## Rules
 
 A quarantined candidate may be inspected by Codex and used as historical/debug evidence. It may not update `CURRENT_STATE.md`, milestone completion, or "validated" claims until:
