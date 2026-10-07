@@ -16,7 +16,7 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Verify explicit normal-Fallout <-> skate-mode state transitions.
 - Verify THUG2-derived camera, movement, physics and animation behavior against source evidence.
 - Verify skeleton/rig adaptation.
-- GPT-6 Astra must treat skate mode as a complete THUG2 free-roam gameplay subsystem, not as a small collection of THUG2-inspired mechanics.
+- Codex must investigate and map skate mode as a complete THUG2 free-roam gameplay subsystem, not as a small collection of THUG2-inspired mechanics.
 - Reverse engineer and extract/rebuild the complete set of THUG2 code paths required to actually free-roam and skate: skater state machine, controller/input interpretation, ground/air movement, acceleration, momentum, friction, turning/carving, ollie/air/landing logic, manuals, grinds, lips, wallrides/wallplants, reverts, grabs, flip tricks, specials, trick/combo chaining, balance behavior, collision/ground interaction, bails/recovery where required, camera coupling, board attachment, animation selection/blending/transitions, scoring/special state and all other systems that participate in ordinary skating gameplay.
 - The target behavior in active skate mode is source-faithful THUG2 free roam inside the Fallout world: entering skate mode should feel like seamlessly switching from Fallout into THUG2 gameplay, and exiting should restore Fallout cleanly.
 - Do not import THUG2 maps, missions/goals, NPC population, dialogue, cutscenes, campaign/story progression or unrelated game modes. Fallout supplies the world/content; THUG2 supplies the complete skating/free-roam gameplay system.
@@ -96,8 +96,40 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Check for progression-breaking regressions.
 
 
-## 2026-10-07 original GMOD evidence handoff
+## Pre-Opus workflow / coordination
+- Treat `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md` as the reproducible preparation-readiness metric.
+- Current score after workflow finalization: **80/100 preparation readiness**; this is not game-completion percentage.
+- Ingest each Codex C01-C08 result through `context/OPUS_PACKAGE_INTAKE_CHECKLIST_2026-10-07.md`.
+- Assemble an Opus implementation packet immediately when its evidence gate unlocks rather than waiting for unrelated Codex packages.
+- Use `context/OPUS_LAUNCH_SEQUENCE_2026-10-07.md` for package order.
+- Use `build/templates/OPUS_IMPLEMENTATION_MANIFEST_TEMPLATE.json` for every Opus candidate.
+- Re-hash only package-relevant local source/assets immediately before implementation.
+- Preserve the warning in `context/LOCAL_OPUS_PREFLIGHT_SNAPSHOT_2026-10-07.md`: the old 2026-10-06 feed-bundle main.cpp hash no longer matches current local source.
+- Keep unrelated support sidecars isolated or explicitly listed in every candidate manifest.
+- Promote coordination artifacts to the chosen long-term integration branch selectively; do not wholesale merge runtime/specialist branches.
+- Convert every deterministic Codex failure into `context/HANDOFFS/OPUS_FIX_PACKET_TEMPLATE.md` and protect already-passing behavior.
 
-Use [GMOD_2026-10-07/README.md](GMOD_2026-10-07/README.md), its original-system reports, dependency graph, provenance and compatibility matrix before integration. Preserve the curated prop/form library and working inventory/cleanup paths. Repair source-evidenced differences through the thin adapter: actual Q press/release/focus lifecycle; click-based tool selection and original mode identifiers; native ModelImage/SpawnIcon rendering; separate acquisition trace and held-controller state; continuous audio and acquired-actor identity.
 
-Outstanding original boundaries are indexed in [unresolved_dependencies.json](../manifests/gmod_2026-10-07/unresolved_dependencies.json). Native icon/bind/text-loader services, GLua runtime hosting, full physics/render interface labels, exact legacy Physgun viewmodel provenance, missing original sound/texture payloads and runtime mounts remain unresolved. Opus implements; Codex performs subsequent focused investigation/validation. No runtime parity is implied by staging.
+### Immediate Opus-ready package
+- O00 Golden Source bench conversion proof is **READY FOR OPUS** and must run first.
+- Packet: `context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md`.
+- O01 Toolgun presentation is fully prepared but **READY AFTER O00 PASS**.
+- O01 packet: `context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md`.
+- Q-menu/Toolgun behavior remains blocked on Codex C01/C02 gap closure.
+
+
+### GMod evidence gap closure
+- Do not repeat the broad GMod investigation merged at main commit `19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0`.
+- C01 and C02 are substantial partial; C03 is partial.
+- Next Codex task: `context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md`.
+- O02/O03/O04 preassembly packets already exist; normal GPT should convert them to final READY FOR OPUS packets immediately when the corresponding gap closure is reviewed.
+
+
+### 81-to-100 readiness closure
+- Finalize clean main-descended branch `prep/opus-ready-20261007` and set branch-reconciliation rubric to 10/10.
+- Then only C01-C08 evidence points remain.
+- Master closure plan: `context/OPUS_READINESS_81_TO_100_PLAN_2026-10-07.md`.
+- Codex execution packet: `context/HANDOFFS/CODEX_MASTER_100_READINESS_CLOSURE_2026-10-07.md`.
+- Machine gate map: `build/prepared/opus_readiness_81_to_100_20261007.json`.
+- O08b Pistol and O08c SMG1 are READY AFTER O00 PASS.
+- Unified source validator currently passes 87/87 files.
