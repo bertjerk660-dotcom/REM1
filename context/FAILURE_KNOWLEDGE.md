@@ -32,3 +32,18 @@ Another active engineering session may modify the workspace. Immediately before 
 ## F013 - Per-bone torso scaling deforms converted Combine armor
 Human playtest showed that anisotropic per-bone torso-depth scaling made the Combine torso, back and shoulders worse even though the head correction was successful.
 Durable rule: do not correct this armor's fit by scaling individual torso bone-local axes. Preserve the validated head correction and use isolated world-space translation/region fitting for torso placement changes, validating one geometric degree of freedom at a time.
+
+
+## FS002 - xEdit FNVScript master-confirmation/save state can leave a successful-looking run unsaved
+**Symptom:** `FNVScript.exe` reached the script window and showed expected in-memory records, but the output ESP was absent or an earlier report remained on disk because modal master confirmations/save state had not completed.
+
+**Evidence:** The Goodsprings response v2 rebuild paused on separate master-confirmation dialogs for `FalloutNV.esm` and `REM_CombineArmor_Test_TorsoLowered.esp`; checking only the window title/report was insufficient to prove a new ESP was saved.
+
+**Proven handling:**
+- verify the actual output file exists and its hash/mtime changed;
+- recursively parse all group/record/subrecord sizes before deployment;
+- for small, well-understood post-generation edits, prefer the checked-in deterministic binary patcher over repeatedly driving xEdit GUI state;
+- keep the original generated ESP as an immutable backup;
+- never treat xEdit's in-memory “script done” state as a successful build until the on-disk artifact validates.
+
+**Prevention:** `support/goodsprings_response/patch_goodsprings_response_v2.py` and `validate_goodsprings_response.py` are the reproducible fallback/validation path for this encounter.
