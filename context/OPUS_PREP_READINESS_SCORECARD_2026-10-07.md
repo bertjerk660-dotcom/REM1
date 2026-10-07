@@ -37,8 +37,8 @@ It means:
 - Opus handoffs can be composed consistently as Codex evidence arrives;
 - validation expectations are already defined.
 
-It does **not** mean 71% of the game is implemented.
-It does **not** mean 71% of the final runtime is validated.
+It does **not** mean 74% of the game is implemented.
+It does **not** mean 74% of the final runtime is validated.
 It does **not** mean C01-C08 are complete.
 
 ## Why the remaining 26% cannot all be closed by normal ChatGPT
