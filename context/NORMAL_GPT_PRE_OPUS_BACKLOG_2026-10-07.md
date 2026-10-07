@@ -50,8 +50,8 @@ Immediately before each Opus package:
 - freeze the implementation parent branch/commit;
 - do not re-scan unrelated archives.
 
-### N04 — O01 Toolgun presentation preflight
-O01 is currently READY WITH PREFLIGHT.
+### N04 — O01 Toolgun presentation preflight — COMPLETE
+O01 is now READY FOR OPUS.
 Normal GPT may prepare:
 - exact c_toolgun/w_toolgun packet references;
 - current hashes;
@@ -59,6 +59,8 @@ Normal GPT may prepare:
 - preserved inventory behavior;
 - candidate manifest skeleton;
 - Codex visual/runtime validation handoff.
+
+Final packet: `context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md`.
 
 Opus still performs the actual model/material/attachment implementation.
 
