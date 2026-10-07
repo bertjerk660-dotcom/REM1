@@ -115,9 +115,37 @@
       ],
       "packet": "context/HANDOFFS/OPUS_O08A_CROWBAR_PRESENTATION_2026-10-07.md",
       "behavior_changes_authorized": false
+    },
+    "O08b": {
+      "name": "GMod/HL Pistol presentation",
+      "status": "READY_AFTER_O00_PASS",
+      "required_evidence": [
+        "direct archive-verified c_pistol/w_pistol source provenance",
+        "material closure",
+        "O00 PASS"
+      ],
+      "packet": "context/HANDOFFS/OPUS_O08B_PISTOL_PRESENTATION_2026-10-07.md",
+      "behavior_changes_authorized": false
+    },
+    "O08c": {
+      "name": "GMod/HL SMG1 presentation",
+      "status": "READY_AFTER_O00_PASS",
+      "required_evidence": [
+        "direct archive-verified c_smg1/w_smg1 source provenance",
+        "material closure including w_smg2specularmask",
+        "O00 PASS"
+      ],
+      "packet": "context/HANDOFFS/OPUS_O08C_SMG1_PRESENTATION_2026-10-07.md",
+      "behavior_changes_authorized": false
     }
   },
   "gmod_evidence_source_commit": "19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0",
   "next_codex_packet": "context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md",
-  "promotion_rule": "No package becomes VALIDATED until exact candidate runtime/regression gates pass."
+  "promotion_rule": "No package becomes VALIDATED until exact candidate runtime/regression gates pass.",
+  "visual_source_validation": {
+    "pass": true,
+    "file_count": 87,
+    "error_count": 0,
+    "report": "build/validation/opus_visual_source_validation_20261007.json"
+  }
 }
