@@ -1,7 +1,7 @@
 {
   "schema": "rem.opus_gate_matrix.v1",
   "date": "2026-10-07",
-  "preparation_readiness_percent": 80,
+  "preparation_readiness_percent": 81,
   "packages": {
     "O00": {
       "name": "Golden Source bench conversion proof",
@@ -147,5 +147,8 @@
     "file_count": 87,
     "error_count": 0,
     "report": "build/validation/opus_visual_source_validation_20261007.json"
-  }
+  },
+  "preparation_branch": "prep/opus-ready-20261007",
+  "remaining_readiness_points": 19,
+  "remaining_tracker_issue": 5
 }
