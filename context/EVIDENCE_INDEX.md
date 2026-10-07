@@ -27,6 +27,9 @@ Purpose: durable index of important technical evidence. This is not itself proof
 | E020 | 2026-10-06 | Physgun view-model provenance gap | support audit | prep/opus-feed-bundle-20261006: build/prepared/pre_opus_20261006/physgun_provenance_gap.json | high | corroborates main preflight gap | blocked | no | v_physics MDL/VVD/DX90.VTX unresolved; do-not-substitute remains active. C03 must close. |
 | E021 | 2026-10-07 | branch reconciliation | GPT workflow coordination | context/SELECTIVE_BRANCH_RECONCILIATION_2026-10-07.md | high for classification | based on GitHub branch inspection | n/a | n/a | Separates promotable evidence from historical/runtime-candidate state and prevents wholesale merges/version-number promotion. |
 
+| E022 | 2026-10-07 | documentation governance | GPT workflow coordination | context/DOCUMENTATION_AUTHORITY_MAP.md | high | repository-derived policy | n/a | n/a | Defines which project artifact is authoritative for goal, architecture, verified runtime, ownership, evidence, implementation and validation; prevents version-number promotion. |
+| E023 | 2026-10-07 | runtime validation protocol | GPT workflow coordination | context/CODEX_RUNTIME_TEST_PACKS.md + context/HANDOFFS/CODEX_RUNTIME_VALIDATION_TEMPLATE_2026-10-07.md | high | internally cross-checked | n/a | protocol ready; execution pending | Makes runtime claims candidate-bound by branch/commit/build/DLL/ESP/assets/save/location/inventory and required logs/visual evidence. |
+
 ## Intake rule for new evidence
 
 Every new Codex or Opus report should add or update an entry with:
