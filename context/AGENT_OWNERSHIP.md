@@ -2,6 +2,10 @@
 
 This document records the current project-agent split supplied by the project owner. It supersedes older **role labels** that grouped GPT-6 and Opus together, but it does not invalidate the technical evidence inside those older handoffs.
 
+## Non-negotiable separation
+
+**Claude Opus is the sole primary implementation/integration agent. GPT-6/Astra must never be grouped with Opus as a co-implementation owner.** Astra may inspect implementation for debugging, but its lane is runtime execution, crash diagnosis, live-game validation and regression testing. Historical repository names such as `gpt6_opus` are retained only as legacy path names and do not define current ownership.
+
 ## Owners
 
 ### Codex — investigation and evidence
