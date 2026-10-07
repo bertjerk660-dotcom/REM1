@@ -3,7 +3,7 @@
 ## Objective
 Recover and document the source-faithful THUG2 free-roam skating state machine, movement and physics needed for **Claude Opus** to implement THUG2 gameplay inside the Fallout world.
 
-Codex investigates; Opus implements; GPT-6/Astra later validates the live result.
+Codex investigates; Opus implements; Codex later validates the live result after Opus implementation.
 
 ## Scope
 Focus on ordinary free-roam skating systems, not THUG2 maps, missions, story, dialogue, NPC population or campaign progression.
