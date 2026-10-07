@@ -9,24 +9,24 @@ This score exists because earlier milestone documents correctly avoided unsuppor
 | Area | Weight | Before this pass | After this pass | Notes |
 |---|---:|---:|---:|---|
 | Product goal / architecture / ownership clarity | 10 | 10 | 10 | Goal, architecture, authority map and agent ownership are explicit. |
-| Source / asset provenance and staging | 15 | 13 | 14 | Strong GMod/HL/THUG2 inventories; phase-4 prop evidence is now reconciled into the coordination layer. Exact current local hashes still require re-check immediately before implementation. |
+| Source / asset provenance and staging | 15 | 13 | 15 | Strong GMod/HL/THUG2 inventories; phase-4 prop evidence is reconciled and current GMod/THUG2/FNV-skeleton hashes were re-checked on the local machine. |
 | Branch reconciliation / durable project memory | 10 | 5 | 8 | Runtime candidates remain quarantined; high-value branch-only prop/manifests are now classified. Main still does not contain the full coordination layer, so canonical promotion remains deliberate future work. |
 | Codex implementation-grade evidence completeness | 30 | 7 | 7 | This cannot be increased by the workflow lane. C01-C08 result packages are still the dominant blocker. Existing source inventories and partial Physgun/THUG2 evidence earn partial credit only. |
-| Opus implementation packet readiness | 15 | 8 | 12 | Package launch order, evidence intake gates, preserved-behavior rules and required inputs are now explicit. O01 is ready-with-preflight; most system packages still await Codex evidence. |
+| Opus implementation packet readiness | 15 | 8 | 14 | Launch order, evidence intake gates, hardened implementation/fix packet templates and a machine-readable candidate-manifest template are now explicit. Most system packages still await Codex evidence. |
 | Acceptance / deterministic validation preparation | 10 | 9 | 10 | Acceptance matrix and Codex runtime packs are already strong; package intake now requires exact candidate identity and regression obligations. |
 | Runtime-candidate / baseline safety | 5 | 5 | 5 | v84-v92 and historical branches stay quarantined; version number never overrides runtime evidence. |
 | Opus launch/runbook clarity | 5 | 1 | 5 | New launch sequence and package intake checklist remove ambiguity about what Opus may start and what must wait. |
-| **TOTAL** | **100** | **58** | **71** | |
+| **TOTAL** | **100** | **58** | **74** | |
 
 ## Headline
 
 **Before this workflow pass: 58% Opus-preparation ready.**
 
-**After this workflow pass: 71% Opus-preparation ready.**
+**After this workflow pass: 74% Opus-preparation ready.**
 
-This is a **+13 percentage-point preparation gain** produced only by coordination/reconciliation/handoff work. It does not pretend that missing reverse-engineering evidence has been solved.
+This is a **+16 percentage-point preparation gain** produced only by coordination/reconciliation/handoff work. It does not pretend that missing reverse-engineering evidence has been solved.
 
-## What the 71% does and does not mean
+## What the 74% does and does not mean
 
 It means:
 - the desired product is well specified;
@@ -41,7 +41,7 @@ It does **not** mean 71% of the game is implemented.
 It does **not** mean 71% of the final runtime is validated.
 It does **not** mean C01-C08 are complete.
 
-## Why the remaining 29% cannot all be closed by normal ChatGPT
+## Why the remaining 26% cannot all be closed by normal ChatGPT
 
 The largest remaining block is the 23 unearned points inside the 30-point Codex evidence category. Normal workflow work must not invent:
 - GMod Q-menu function/dependency traces;
@@ -56,8 +56,8 @@ The largest remaining block is the 23 unearned points inside the 30-point Codex 
 Those are Codex investigation tasks.
 
 The remaining non-Codex preparation gap consists mainly of:
-- current-local hash refresh immediately before Opus work;
-- selective promotion of coordination artifacts to the chosen canonical branch;
+- selecting/promoting the coordination artifacts onto the branch the user chooses as the long-term canonical integration base;
+- package-specific asset/source reconciliation immediately before each Opus package;
 - final package assembly after each Codex result arrives.
 
 ## Subsystem gate reality
@@ -79,4 +79,4 @@ Only change this score when underlying evidence changes. Do not raise it because
 - an old Astra/GPT6 handoff says “ready”;
 - an implementation visually resembles the source game.
 
-Re-score after each reviewed Codex C01-C08 package and after local preflight hash reconciliation.
+Re-score after each reviewed Codex C01-C08 package, after package-specific preflight reconciliation, or after deliberate canonical-branch promotion.
