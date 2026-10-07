@@ -1,0 +1,83 @@
+{
+  "schema": "rem.opus_implementation_candidate.v1",
+  "package_id": "O00",
+  "package_name": "Golden Source Bench Conversion Proof",
+  "goal": "Prove the isolated Source/HL2 -> Fallout visual/material/collision conversion pipeline before weapon presentation conversion.",
+  "owner": "Claude Opus",
+  "preparation_branch": "prep/opus-ready-20261007",
+  "parent_branch": "",
+  "parent_commit": "",
+  "implementation_branch": "",
+  "implementation_commit": "",
+  "source_identity": {
+    "main_source_path": "models/props_c17/bench01a.mdl",
+    "main_source_sha256": "8751F7E234A4212016FF93C50C8951ECB793B628819957B06BA1831A899CE846",
+    "required_evidence_commits": [],
+    "required_provenance_files": [
+      "context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md",
+      "build/prepared/opus_o00_golden_bench_20261007.json",
+      "build/validation/opus_visual_source_validation_20261007.json"
+    ]
+  },
+  "inputs": {
+    "codex_evidence": [],
+    "asset_packets": [
+      "build/prepared/opus_o00_golden_bench_20261007.json"
+    ],
+    "failure_knowledge": [
+      "historical bench01a_mask.vtf omission",
+      "historical Wood_Furniture -> Fallout metal Havok fallback"
+    ],
+    "acceptance_rows": [
+      "O00 visibility/material",
+      "O00 scale/orientation/placement",
+      "O00 collision",
+      "O00 save/load",
+      "Fallout baseline regression"
+    ],
+    "preserved_working_behavior": [
+      "main REM_GModTHUG2.esp unchanged",
+      "main NVSE DLL unchanged",
+      "normal Fallout baseline",
+      "runtime candidates remain quarantined"
+    ]
+  },
+  "changes": [],
+  "outputs": {
+    "dlls": [],
+    "esps": [],
+    "meshes": [],
+    "textures": [],
+    "audio": [],
+    "ui": [],
+    "other": []
+  },
+  "runtime_identity": {
+    "plugins_txt": [],
+    "loadorder_txt": [],
+    "test_save": "",
+    "test_location": "",
+    "required_inventory": [],
+    "required_mode_state": "NORMAL_FALLOUT with isolated O00 sidecar enabled"
+  },
+  "validation": {
+    "build": "pending",
+    "static": "pending",
+    "asset_reference_resolution": "pending",
+    "runtime_owner": "Codex",
+    "runtime_test_pack": "context/HANDOFFS/CODEX_O00_GOLDEN_BENCH_RUNTIME_VALIDATION_2026-10-07.md",
+    "runtime_status": "not_run",
+    "regression_status": "not_run",
+    "human_playability_status": "not_run"
+  },
+  "known_issues": [],
+  "rollback": {
+    "backup_paths": [],
+    "previous_hashes": {},
+    "revert_commit": ""
+  },
+  "promotion": {
+    "canonical_state_updated": false,
+    "reason": "Do not promote until Codex O00 runtime/regression gates pass."
+  }
+}
