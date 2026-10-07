@@ -39,6 +39,8 @@ Purpose: durable index of important technical evidence. This is not itself proof
 
 | E029 | 2026-10-07 | O01 Toolgun source/presentation preflight | normal GPT + Remote Desktop Commander | context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md; build/prepared/opus_o01_toolgun_presentation_20261007.json | high for source identity/presentation inputs | current-machine SHA256 verification against source packets | no implementation performed | no | c/w Toolgun required model companions, QC/reference SMD and 13 material/texture inputs match recorded provenance; visual-only O01 is ready for Opus, behavior remains C01/C02-gated. |
 
+| E030 | 2026-10-07 | authenticated GMod system investigation intake | main commit 19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0 + normal GPT review | context/GMOD_2026-10-07/*; manifests/gmod_2026-10-07/*; context/GMOD_CODEX_EVIDENCE_INTAKE_REVIEW_2026-10-07.md | high for traced Lua/source architecture; partial for unresolved native boundaries | 36,078-check metadata validation + direct source/IDA evidence review | no runtime implementation claimed | no | C01/C02 substantial partial; C03 partial. Broad investigation should not be repeated; use narrow gap-closure packet. |
+
 ## Intake rule for new evidence
 
 Every new Codex or Opus report should add or update an entry with:
