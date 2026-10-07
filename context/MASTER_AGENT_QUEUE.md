@@ -83,6 +83,9 @@ Legacy branches such as `runtime/astra-phase1-input92` remain historical candida
 15. **S15 Opus readiness scorecard** — COMPLETE with explicit weighted rubric in `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md`; current preparation score after this pass is 71/100.
 16. **S16 Opus launch sequence** — COMPLETE in `context/OPUS_LAUNCH_SEQUENCE_2026-10-07.md`; distinguishes immediate O01/O08 work from Codex-gated packages.
 17. **S17 Opus evidence/package intake gate** — COMPLETE in `context/OPUS_PACKAGE_INTAKE_CHECKLIST_2026-10-07.md`; use after every Codex evidence or runtime report.
+18. **S18 current-local Opus preflight identity** — COMPLETE; GMod appmanifest/VPK, THUG2 executable and FNV skeleton were re-hashed on the local machine and the stale old feed-bundle source hash is explicitly flagged.
+19. **S19 Opus candidate/fix templates** — COMPLETE; implementation manifest, implementation packet and Codex-failure fix packet templates are ready.
+20. **S20 normal-GPT pre-Opus backlog** — COMPLETE in `context/NORMAL_GPT_PRE_OPUS_BACKLOG_2026-10-07.md`; future workflow work is now package-triggered and Codex-result-driven.
 
 ## BLOCKED
 
