@@ -102,3 +102,8 @@ A subsystem becomes implementation-ready only after required Codex evidence is r
 
 21. **S21 O01 Toolgun presentation preflight** — COMPLETE. Exact c/w Toolgun source models, QC/reference geometry and 13 materials/textures re-hashed and matched; final visual-only packet is `context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md`. Status: READY FOR OPUS.
 22. **S22 canonical coordination promotion plan** — COMPLETE in `context/CANONICAL_COORDINATION_PROMOTION_PLAN_2026-10-07.md`; actual promotion remains deferred until the destination integration branch is selected.
+
+
+23. **S23 GMod evidence intake review** — COMPLETE. Main commit `19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0` reviewed and imported into preparation branch. C01/C02 = SUBSTANTIAL PARTIAL; C03 = PARTIAL; none is falsely marked complete.
+24. **S24 GMod narrow gap-closure handoff** — COMPLETE in `context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md`; broad GMod rediscovery is explicitly forbidden.
+25. **S25 O02/O03/O04 preassembly** — COMPLETE. Packet shells exist and list only the unresolved evidence needed before READY FOR OPUS.
