@@ -51,7 +51,7 @@ Immediately before each Opus package:
 - do not re-scan unrelated archives.
 
 ### N04 — O01 Toolgun presentation preflight — COMPLETE
-O01 is now READY FOR OPUS.
+O01 source/presentation packet is complete and is **READY AFTER O00 PASS**.
 Normal GPT may prepare:
 - exact c_toolgun/w_toolgun packet references;
 - current hashes;
@@ -131,3 +131,18 @@ Before a major Opus session:
 
 ## Current bottleneck
 The remaining preparation gap is dominated by C01-C08 Codex evidence. Normal GPT can keep the project synchronized and convert each completed Codex result directly into a ready-to-execute Opus packet, but cannot legitimately replace that evidence work.
+
+
+### N11 — O00 golden conversion gate — COMPLETE
+- Bench MDL/VVD/DX90/PHY, QC/reference/physics SMD and material/mask inputs re-hashed on the current machine.
+- All match recorded provenance.
+- Final packet: `context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md`.
+- O00 is READY FOR OPUS and is the mandatory first visual/conversion task.
+- O01 begins only after O00 runtime/human acceptance.
+
+### N12 — Current Opus Session 1 bootstrap — COMPLETE
+- `context/HANDOFFS/OPUS_SESSION_1_START_HERE_2026-10-07.md`
+- `build/prepared/opus_session1_inputs_20261007.json`
+- `build/prepared/opus_readiness_gate_matrix_20261007.json`
+
+These replace stale historical execution-order prompts as the current preparation entrypoint.
