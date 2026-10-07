@@ -43,6 +43,8 @@ Purpose: durable index of important technical evidence. This is not itself proof
 
 | E031 | 2026-10-07 | O00 golden Source bench preflight | normal GPT + Remote Desktop Commander | context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md; build/prepared/opus_o00_golden_bench_20261007.json | high for current source identity | current-machine SHA256 re-verification of MDL/VVD/DX90/PHY, QC/SMD and VMT/VTF/mask | no implementation performed | no | All required inputs match recorded provenance; historical mask omission/wood→metal collision fallback remain explicit failure risks; runtime visual/collision acceptance is still pending. |
 
+| E032 | 2026-10-07 | O08a crowbar source/presentation preflight | normal GPT + Remote Desktop Commander | context/HANDOFFS/OPUS_O08A_CROWBAR_PRESENTATION_2026-10-07.md; build/prepared/opus_o08a_crowbar_presentation_20261007.json | high for source identity/presentation inputs | direct extraction from installed GMod/Source VPKs + current staged SHA256 comparison | no implementation performed | no | c_crowbar and w_crowbar source companions match installed archives; material/normal-map closure verified; visual-only package ready after O00. |
+
 ## Intake rule for new evidence
 
 Every new Codex or Opus report should add or update an entry with:
