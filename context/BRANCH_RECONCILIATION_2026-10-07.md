@@ -9,10 +9,10 @@ Rule: branch-only work is evidence/candidate state, not verified canonical runti
 | Branch | Relation to main | Coordination interpretation |
 |---|---:|---|
 | prep/gmod-dependency-evidence-20261007 | identical | Safe empty preparation base; no unique work yet. |
-| prep/astra-prompt4-workflow | +7 / -13 | Contains useful workflow/Astra prompt documentation, but predates latest main commits. Selective review only. |
+| prep/astra-prompt4-workflow | +7 / -13 | Legacy GPT-6/Astra workflow documentation. Preserve only useful technical evidence; do not dispatch to GPT-6/Astra. |
 | prep/code-preservation-20 | +135 / -43 | Large support/preparation lane. Contains tracker, regression packs, source/provenance tooling and many handoffs missing on main. Do not merge wholesale. |
 | prep/pre-opus-thursday | +184 / -43 | Very large later candidate history including v84-v91-era THUG2/UI/animation evidence. Branch-only until reconciled and validated. |
-| runtime/astra-phase1-input92 | +63 / -55 | Astra/runtime candidate containing v92 input work and v84-v91 history. Not canonical main runtime. Astra owns any live validation. |
+| runtime/astra-phase1-input92 | +63 / -55 | Legacy-named runtime candidate containing v92 input work and v84-v91 history. Not canonical main runtime. Codex owns any future runtime validation after deliberate reconciliation. |
 | feature/thug2-native-ui-g6 | +53 / -55 | Specialist THUG2 UI/animation candidate. Treat as implementation evidence, not validated completion. |
 | diag/v85-retarget-quarantine | +4 / -55 | Diagnostic v84/v85 branch. Preserve failure evidence; not current canonical implementation. |
 | prep/gmod-weapon-props | +13 / -55 | Older model/prop staging branch. Useful inventory evidence; reconcile before reuse. |
@@ -29,7 +29,7 @@ Rule: branch-only work is evidence/candidate state, not verified canonical runti
 2. Diverged branches contain v84-v92 implementation/evidence. Those newer labels do **not** automatically supersede main because they are unmerged and not uniformly human-validated.
 3. `context/HANDOFFS/GPT6_OPUS_READINESS_2026-10-06.md` on main references handoffs such as `ASTRA_GMOD_QMENU.md`, `ASTRA_TOOLGUN.md`, and `ASTRA_PHYSGUN.md`; equivalent files exist on large diverged support branches but are absent from main.
 4. `context/SUPPORT_20_POINT_TRACKER.md` is absent from main but exists on `prep/code-preservation-20`, where it reports support preparation largely complete. Treat it as branch evidence until selectively reconciled.
-5. Historical combined `GPT6_OPUS` ownership labels conflict with the 2026-10-07 agent split. Technical tasks remain usable; ownership must be remapped via `context/AGENT_OWNERSHIP.md`.
+5. Historical `GPT6_OPUS`, `ASTRA_*`, `runtime/astra-*`, and `*-g6` labels are obsolete ownership labels. Technical evidence may remain useful, but new work must be remapped via `context/AGENT_OWNERSHIP.md`: Codex investigates/tests, Opus implements.
 
 ## Reconciliation policy
 
@@ -37,4 +37,4 @@ Rule: branch-only work is evidence/candidate state, not verified canonical runti
 - Compare source hashes, parent build, manifests, validation output and human playtest evidence.
 - Preserve failure knowledge before cherry-picking a fix.
 - Prefer small cherry-picks or recreated coordination documents over merging large divergent histories.
-- Do not touch active Opus/Astra implementation branches from the workflow lane.
+- Do not touch active Opus implementation or legacy specialist/runtime branches from the workflow lane. GPT-6/Astra is not used; Codex owns future runtime validation.
