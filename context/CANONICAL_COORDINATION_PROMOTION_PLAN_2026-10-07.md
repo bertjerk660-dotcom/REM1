@@ -5,7 +5,7 @@ Purpose: define how to promote preparation/workflow artifacts without merging sp
 ## Current state
 
 Preparation branch:
-`prep/opus-readiness-finalization-20261007`
+`prep/opus-ready-20261007`
 
 This branch is derived from:
 `prep/workflow-coordination-20261007`
@@ -84,3 +84,7 @@ Avoid wholesale merge because the source branch contains historical context inhe
 ## Promotion readiness
 
 The plan is complete. Actual promotion is deliberately deferred until the user selects the long-term integration branch or explicitly authorizes promotion to `main`.
+
+
+## Clean branch status
+The long-term preparation/integration base selected by this workflow is now `prep/opus-ready-20261007`, created from current main and verified zero commits behind at reconciliation. The older finalization branch remains historical/conflicted evidence only.
