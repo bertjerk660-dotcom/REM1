@@ -63,3 +63,30 @@ Current ownership: Codex investigates and runtime-validates; Claude Opus alone i
 ## Immediate downstream effect
 
 This reconciliation does not bypass C01-C08. It reduces rediscovery by telling Codex which branch artifacts are trusted inputs, historical sources or runtime candidates.
+
+
+## Reconciliation update — Opus readiness finalization
+
+The remaining high-value prop-content branch evidence has now been selectively mined into `PROVENANCE_INDEX.md`.
+
+### prep/prop-content-phase4
+- final 290-entry catalog: **INDEXED PROVENANCE**; source manifest remains branch-only;
+- 120-entry GMod curated pool: **INDEXED PROVENANCE**; no runtime claim promoted;
+- cross-game prop-menu handoff: **INDEXED POLICY/EVIDENCE**;
+- 20-item THUG2 diversified wave: **KEEP BRANCH-ONLY / REVIEW CANDIDATES**;
+- phase-4 validator results: **STATIC EVIDENCE ONLY**;
+- disabled GMod prop sidecar: **KEEP BRANCH-ONLY / RUNTIME CANDIDATE ONLY**.
+
+No THUG2 candidate was promoted. The documented 0-ready/20-blocked sidecar state is preserved as the correct outcome.
+
+### prep/pre-opus-thursday
+Useful bench/source-packet and pre-Opus validator evidence remains a valid Opus input source after current-local hash re-check. Historical Astra ownership text is superseded. Do not wholesale merge this branch.
+
+### Remaining reconciliation work
+The workflow lane has now reconciled the highest-value provenance needed for Opus planning. Remaining branch work is intentionally deferred until package selection:
+- per-weapon source packets;
+- large converter/support tooling families;
+- candidate-specific sidecars;
+- runtime branches requiring Codex validation.
+
+This changes S11 from broad branch archaeology to **package-triggered reconciliation**: reconcile only the assets/manifests needed by the next selected Opus package, with a fresh local hash check.
