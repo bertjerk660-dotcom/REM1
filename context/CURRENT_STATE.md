@@ -55,3 +55,17 @@ THUG2 is NOT VERIFIED STABLE until v82 is playtested.
 - THUG2 skating animation integration remains broken. The board does not transition from the held-weapon position to the skater's feet for riding, and the tested THUG2 animation set is not functioning.
 - THUG2 UI/HUD remains unimplemented/broken in runtime as previously recorded.
 - The currently visible GMod-style prop menu appears visually correct in playtest, but it is explicitly a placeholder. It must not be treated as the finished Q menu; the final implementation remains the real/source-faithful GMod Q/spawn-menu system and compatibility bridge.
+
+
+## 2026-10-07 authenticated GMod evidence intake
+Canonical `main` commit `19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0` now contains a source/IDA-backed GMod investigation bundle. The preparation branch selectively imported the primary reports and unresolved-dependency/validation manifests.
+
+Coordination review result:
+- C01 Q-menu: **SUBSTANTIAL PARTIAL**;
+- C02 Toolgun behavior: **SUBSTANTIAL PARTIAL**;
+- C03 Physgun closure: **PARTIAL**;
+- O02/O03/O04 remain **WAITING FOR CODEX GAP CLOSURE**;
+- broad GMod investigation should not be repeated;
+- exact remaining gaps are enumerated in `context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md`.
+
+The GMod evidence bundle passed 36,078 metadata/graph/report checks with 0 errors. This is evidence-package validation only and does not establish runtime parity or final implementation.
