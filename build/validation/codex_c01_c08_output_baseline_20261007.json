@@ -1,0 +1,333 @@
+{
+  "schema": "rem.codex_readiness_output_validation.v1",
+  "structural_pass": false,
+  "semantic_review_required": true,
+  "packages": {
+    "C01": {
+      "points": 3,
+      "structural_pass": false,
+      "files": [
+        {
+          "path": "context/CODEX/GMOD_QMENU_C01_EVIDENCE_2026-10-07.md",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_qmenu_c01/function_map.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_qmenu_c01/dependency_manifest.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_qmenu_c01/ui_state_machine.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_qmenu_c01/opus_interface_contract.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        }
+      ]
+    },
+    "C02": {
+      "points": 3,
+      "structural_pass": false,
+      "files": [
+        {
+          "path": "context/CODEX/GMOD_TOOLGUN_C02_EVIDENCE_2026-10-07.md",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_toolgun_c02/function_map.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_toolgun_c02/tool_registry_manifest.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_toolgun_c02/remover_dependency_graph.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_toolgun_c02/duplicator_dependency_graph.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_toolgun_c02/opus_interface_contract.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        }
+      ]
+    },
+    "C03": {
+      "points": 3,
+      "structural_pass": false,
+      "files": [
+        {
+          "path": "context/CODEX/GMOD_PHYSGUN_C03_EVIDENCE_2026-10-07.md",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_physgun_c03/viewmodel_provenance.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_physgun_c03/native_behavior_map.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_physgun_c03/audio_visual_state_map.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_physgun_c03/fnv_failure_delta.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/gmod_physgun_c03/opus_interface_contract.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        }
+      ]
+    },
+    "C04": {
+      "points": 3,
+      "structural_pass": false,
+      "files": [
+        {
+          "path": "context/CODEX/THUG2_C04_SKATE_STATE_PHYSICS_EVIDENCE_2026-10-07.md",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c04/master_state_machine.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c04/movement_physics_map.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c04/collision_query_contract.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c04/grind_manual_lip_eligibility.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c04/opus_world_adapter_contract.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        }
+      ]
+    },
+    "C05": {
+      "points": 2,
+      "structural_pass": false,
+      "files": [
+        {
+          "path": "context/CODEX/THUG2_C05_CAMERA_EVIDENCE_2026-10-07.md",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c05/camera_function_map.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c05/camera_state_map.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c05/state_coupling_matrix.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c05/opus_camera_adapter_contract.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        }
+      ]
+    },
+    "C06": {
+      "points": 2,
+      "structural_pass": false,
+      "files": [
+        {
+          "path": "context/CODEX/THUG2_C06_ANIMATION_BOARD_EVIDENCE_2026-10-07.md",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c06/animation_catalog.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c06/animation_state_binding.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c06/skeleton_bone_contract.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c06/board_attachment_state_machine.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c06/opus_retarget_contract.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        }
+      ]
+    },
+    "C07": {
+      "points": 2,
+      "structural_pass": false,
+      "files": [
+        {
+          "path": "context/CODEX/THUG2_C07_HUD_UI_EVIDENCE_2026-10-07.md",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c07/hud_surface_manifest.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c07/gameplay_event_binding.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c07/ui_asset_font_manifest.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c07/scaling_layout_contract.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/thug2_c07/opus_ui_adapter_contract.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        }
+      ]
+    },
+    "C08": {
+      "points": 1,
+      "structural_pass": false,
+      "files": [
+        {
+          "path": "context/CODEX/C08_UNIFIED_INPUT_EVIDENCE_2026-10-07.md",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/input_c08/source_action_map.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/input_c08/keyboard_mouse_map.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/input_c08/xbox_map.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/input_c08/conflict_matrix.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        },
+        {
+          "path": "build/evidence/input_c08/opus_input_adapter_contract.json",
+          "exists": false,
+          "pass": false,
+          "error": "missing"
+        }
+      ]
+    }
+  },
+  "missing_count": 46,
+  "invalid_json_count": 0
+}
