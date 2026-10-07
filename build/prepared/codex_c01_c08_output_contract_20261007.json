@@ -1,5 +1,5 @@
 {
-  "schema": "rem.codex_readiness_output_contract.v1",
+  "schema": "rem.codex_readiness_output_contract.v2",
   "date": "2026-10-07",
   "note": "Structural presence/JSON validity only. Passing this contract never substitutes for normal-GPT semantic evidence review against the original stop condition.",
   "packages": {
@@ -11,7 +11,9 @@
         "build/evidence/gmod_qmenu_c01/dependency_manifest.json",
         "build/evidence/gmod_qmenu_c01/ui_state_machine.json",
         "build/evidence/gmod_qmenu_c01/opus_interface_contract.json"
-      ]
+      ],
+      "expected_before_delivery": "PENDING_OR_PARTIAL",
+      "delivery_claim_required_before_failure": true
     },
     "C02": {
       "points": 3,
@@ -22,7 +24,9 @@
         "build/evidence/gmod_toolgun_c02/remover_dependency_graph.json",
         "build/evidence/gmod_toolgun_c02/duplicator_dependency_graph.json",
         "build/evidence/gmod_toolgun_c02/opus_interface_contract.json"
-      ]
+      ],
+      "expected_before_delivery": "PENDING_OR_PARTIAL",
+      "delivery_claim_required_before_failure": true
     },
     "C03": {
       "points": 3,
@@ -33,7 +37,9 @@
         "build/evidence/gmod_physgun_c03/audio_visual_state_map.json",
         "build/evidence/gmod_physgun_c03/fnv_failure_delta.json",
         "build/evidence/gmod_physgun_c03/opus_interface_contract.json"
-      ]
+      ],
+      "expected_before_delivery": "PENDING_OR_PARTIAL",
+      "delivery_claim_required_before_failure": true
     },
     "C04": {
       "points": 3,
@@ -44,7 +50,9 @@
         "build/evidence/thug2_c04/collision_query_contract.json",
         "build/evidence/thug2_c04/grind_manual_lip_eligibility.json",
         "build/evidence/thug2_c04/opus_world_adapter_contract.json"
-      ]
+      ],
+      "expected_before_delivery": "PENDING_OR_PARTIAL",
+      "delivery_claim_required_before_failure": true
     },
     "C05": {
       "points": 2,
@@ -54,7 +62,9 @@
         "build/evidence/thug2_c05/camera_state_map.json",
         "build/evidence/thug2_c05/state_coupling_matrix.json",
         "build/evidence/thug2_c05/opus_camera_adapter_contract.json"
-      ]
+      ],
+      "expected_before_delivery": "PENDING_OR_PARTIAL",
+      "delivery_claim_required_before_failure": true
     },
     "C06": {
       "points": 2,
@@ -65,7 +75,9 @@
         "build/evidence/thug2_c06/skeleton_bone_contract.json",
         "build/evidence/thug2_c06/board_attachment_state_machine.json",
         "build/evidence/thug2_c06/opus_retarget_contract.json"
-      ]
+      ],
+      "expected_before_delivery": "PENDING_OR_PARTIAL",
+      "delivery_claim_required_before_failure": true
     },
     "C07": {
       "points": 2,
@@ -76,7 +88,9 @@
         "build/evidence/thug2_c07/ui_asset_font_manifest.json",
         "build/evidence/thug2_c07/scaling_layout_contract.json",
         "build/evidence/thug2_c07/opus_ui_adapter_contract.json"
-      ]
+      ],
+      "expected_before_delivery": "PENDING_OR_PARTIAL",
+      "delivery_claim_required_before_failure": true
     },
     "C08": {
       "points": 1,
@@ -87,7 +101,13 @@
         "build/evidence/input_c08/xbox_map.json",
         "build/evidence/input_c08/conflict_matrix.json",
         "build/evidence/input_c08/opus_input_adapter_contract.json"
-      ]
+      ],
+      "expected_before_delivery": "PENDING_OR_PARTIAL",
+      "delivery_claim_required_before_failure": true
     }
+  },
+  "lifecycle": {
+    "baseline_mode": "Required paths are future Codex deliverables. Absence before a Codex delivery claim is expected and must be reported as PENDING, not structural failure.",
+    "delivery_mode": "After Codex claims a package delivery, every required path must exist and JSON files must parse before semantic review."
   }
 }
