@@ -1,0 +1,84 @@
+{
+  "schema": "rem.gmod_codex_evidence_intake.v1",
+  "date": "2026-10-07",
+  "source_commit": "19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0",
+  "source_branch": "main",
+  "metadata_validation": {
+    "pass": true,
+    "checks": 36078,
+    "errors": 0
+  },
+  "gates": {
+    "C01": {
+      "status": "SUBSTANTIAL_PARTIAL",
+      "unlocks_opus": false,
+      "target_package": "O02",
+      "proven": [
+        "Q/+menu source bind identity",
+        "spawnmenu create/open/close lifecycle",
+        "HangOpen/text focus semantics",
+        "panel hierarchy/layout",
+        "content/search/spawn path",
+        "tool click selection path",
+        "host compatibility surface"
+      ],
+      "remaining": [
+        "native menu command registration/dispatch",
+        "ModelImage/SpawnIcon native service",
+        "spawnlist native precedence",
+        "search aggregation/ranking closure",
+        "IconEditor/property closure",
+        "remaining native interface identifiers"
+      ]
+    },
+    "C02": {
+      "status": "SUBSTANTIAL_PARTIAL",
+      "unlocks_opus": false,
+      "target_package": "O03",
+      "proven": [
+        "string-mode tool registry and selection",
+        "LeftClick/RightClick/Reload architecture",
+        "Remover semantics",
+        "Duplicator graph copy/paste semantics",
+        "undo/cleanup ownership",
+        "entity/trace/constraint host boundary"
+      ],
+      "remaining": [
+        "Toolgun.Single sound event closure",
+        "ToolTracer dispatch",
+        "RenderScreen caller",
+        "util.GetPlayerTrace native range/filter",
+        "SWEP prediction/input boundary",
+        "Duplicator supported host constraint representation",
+        "supported stool transitive closure"
+      ]
+    },
+    "C03": {
+      "status": "PARTIAL",
+      "unlocks_opus": false,
+      "target_package": "O04",
+      "proven": [
+        "native build/base identity",
+        "selected native function/import evidence",
+        "Physgun host adapter responsibilities",
+        "FNV failure delta categories"
+      ],
+      "remaining": [
+        "v_physics first-person provenance",
+        "acquisition range/filter",
+        "hold controller tuning/branches",
+        "release/freeze/reload/punt semantics",
+        "beam/halo render closure",
+        "held loop audio semantics",
+        "actor/ragdoll semantics and cleanup"
+      ]
+    }
+  },
+  "next_codex_packet": "context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md",
+  "preassembled_opus_packets": [
+    "context/HANDOFFS/OPUS_O02_QMENU_PREASSEMBLY_2026-10-07.md",
+    "context/HANDOFFS/OPUS_O03_TOOLGUN_BEHAVIOR_PREASSEMBLY_2026-10-07.md",
+    "context/HANDOFFS/OPUS_O04_PHYSGUN_PREASSEMBLY_2026-10-07.md"
+  ],
+  "runtime_claim": false
+}
