@@ -126,8 +126,8 @@ This is a requirements/backlog ledger, not proof of implementation.
 
 
 ### 81-to-100 readiness closure
-- Finalize clean main-descended branch `prep/opus-ready-20261007` and set branch-reconciliation rubric to 10/10.
-- Then only C01-C08 evidence points remain.
+- Clean main-descended branch `prep/opus-ready-20261007` is COMPLETE and branch-reconciliation rubric is 10/10.
+- Only C01-C08 evidence points remain before 100/100 preparation.
 - Master closure plan: `context/OPUS_READINESS_81_TO_100_PLAN_2026-10-07.md`.
 - Codex execution packet: `context/HANDOFFS/CODEX_MASTER_100_READINESS_CLOSURE_2026-10-07.md`.
 - Machine gate map: `build/prepared/opus_readiness_81_to_100_20261007.json`.
