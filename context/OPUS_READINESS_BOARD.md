@@ -112,3 +112,20 @@ O00 is the first Opus implementation task:
 Its source MDL/VVD/DX90/PHY, QC/reference/physics SMDs and VMT/VTF/mask were re-hashed on the current machine and match recorded provenance.
 
 O00 must pass isolated human/runtime visual + collision acceptance before O01 weapon conversion begins. This restores the original safe pipeline ordering and prevents a converter/material/collision defect from being multiplied across weapon packages.
+
+
+## O08a crowbar presentation
+
+**READY AFTER O00 PASS**
+
+Direct installed-archive verification now covers both Source presentation models:
+- `c_crowbar` from `garrysmod_dir.vpk`;
+- `w_crowbar` from `sourceengine/hl2_misc_dir.vpk`.
+
+Extracted archive hashes match the current staged model companions exactly. Material/normal-map closure is also hash-verified.
+
+Use:
+- `context/HANDOFFS/OPUS_O08A_CROWBAR_PRESENTATION_2026-10-07.md`
+- `build/prepared/opus_o08a_crowbar_presentation_20261007.json`
+
+This authorizes visual/model/material/attachment work only and begins only after O00 passes.
