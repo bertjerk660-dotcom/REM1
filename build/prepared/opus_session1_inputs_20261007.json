@@ -2,8 +2,8 @@
   "schema": "rem.opus_session1_inputs.v1",
   "date": "2026-10-07",
   "repository": "bertjerk660-dotcom/REM1",
-  "preparation_branch": "prep/opus-readiness-finalization-20261007",
-  "preparation_readiness_percent": 80,
+  "preparation_branch": "prep/opus-ready-20261007",
+  "preparation_readiness_percent": 81,
   "first_package": "O00",
   "first_package_status": "READY_FOR_OPUS",
   "required_reading": [
@@ -46,5 +46,11 @@
     "preflight": "build/prepared/opus_o00_golden_bench_20261007.json",
     "candidate_manifest_template": "build/templates/OPUS_IMPLEMENTATION_MANIFEST_TEMPLATE.json",
     "purpose": "Prove Source-to-FNV conversion/material/collision pipeline before weapon conversion"
+  },
+  "visual_source_validation": {
+    "pass": true,
+    "file_count": 87,
+    "error_count": 0,
+    "report": "build/validation/opus_visual_source_validation_20261007.json"
   }
 }
