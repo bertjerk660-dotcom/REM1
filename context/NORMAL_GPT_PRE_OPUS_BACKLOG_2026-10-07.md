@@ -146,3 +146,24 @@ The remaining preparation gap is dominated by C01-C08 Codex evidence. Normal GPT
 - `build/prepared/opus_readiness_gate_matrix_20261007.json`
 
 These replace stale historical execution-order prompts as the current preparation entrypoint.
+
+
+### N13 — Candidate-manifest validation automation — COMPLETE
+- `research/validate_opus_candidate_manifest.py` supports preflight and freeze validation.
+- O00/O01/O08a/O08b/O08c prefilled manifest seeds exist.
+- All five seeds pass preflight mode with 0 errors.
+- Freeze PASS is now mandatory before Codex runtime validation.
+
+### N14 — Semantic Opus/Codex gate validator — COMPLETE
+- `build/prepared/codex_semantic_gate_status_20261007.json` stores normal-GPT reviewed gate states.
+- `research/validate_opus_gate_state.py` prevents false package unlocks.
+- Current result: PASS, computed readiness 81/100, 0 errors.
+
+### N15 — O00 runtime handoff pipeline — COMPLETE
+- exact Session 1 execution checklist prepared;
+- O00 candidate seed prepared;
+- deterministic Codex O00 runtime-validation packet prepared;
+- common post-O00 visual-presentation Codex validation packet prepared.
+
+### N16 — consolidated Opus launch baseline — COMPLETE
+Use `context/OPUS_LAUNCH_PREFLIGHT_BASELINE_2026-10-07.md` and `build/validation/opus_launch_preflight_baseline_20261007.json` as the one-page/machine-readable preparation checkpoint.
