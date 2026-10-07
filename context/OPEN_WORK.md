@@ -98,7 +98,7 @@ This is a requirements/backlog ledger, not proof of implementation.
 
 ## Pre-Opus workflow / coordination
 - Treat `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md` as the reproducible preparation-readiness metric.
-- Current score after workflow finalization: **80/100 preparation readiness**; this is not game-completion percentage.
+- Current clean-branch baseline: **81/100 preparation readiness**; this is not game-completion percentage.
 - Ingest each Codex C01-C08 result through `context/OPUS_PACKAGE_INTAKE_CHECKLIST_2026-10-07.md`.
 - Assemble an Opus implementation packet immediately when its evidence gate unlocks rather than waiting for unrelated Codex packages.
 - Use `context/OPUS_LAUNCH_SEQUENCE_2026-10-07.md` for package order.
@@ -133,3 +133,10 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Machine gate map: `build/prepared/opus_readiness_81_to_100_20261007.json`.
 - O08b Pistol and O08c SMG1 are READY AFTER O00 PASS.
 - Unified source validator currently passes 87/87 files.
+
+
+### Clean preparation branch
+- Current preparation branch: `prep/opus-ready-20261007`.
+- Verified against current `main`: 0 commits behind.
+- Older `prep/opus-readiness-finalization-20261007` is historical only and should not receive new preparation work.
+- Remaining preparation gap: C01-C08 evidence only.
