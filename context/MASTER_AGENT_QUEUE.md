@@ -76,14 +76,14 @@ Legacy branches such as `runtime/astra-phase1-input92` remain historical candida
 8. **S08 stale-reference cleanup plan** — COMPLETE initial pass in `context/LEGACY_ROLE_PATH_MAP.md`.
 9. **S09 failure-history normalization** — COMPLETE initial pass in `context/FAILURE_LEDGER.md`.
 10. **S10 milestone/readiness rollup** — COMPLETE initial rollup in `context/MILESTONE_STATUS.md`; update as evidence lands.
-11. **S11 selective branch reconciliation plan** — COMPLETE initial classification in `context/SELECTIVE_BRANCH_RECONCILIATION_2026-10-07.md`; execute promotions only after hash/evidence checks.
+11. **S11 selective branch reconciliation** — IN PROGRESS. GMod Q-menu inventory and weapon-staging manifests are now indexed/corroborated; v85/v88/v92 runtime/install candidates are explicitly quarantined. Continue with remaining prop-content/support/provenance manifests.
 12. **S12 documentation authority map** — COMPLETE in `context/DOCUMENTATION_AUTHORITY_MAP.md`; use it for future conflict resolution.
 13. **S13 runtime packet hardening** — COMPLETE initial pass; all Codex test packs now require exact candidate/save/location/inventory/hashes and evidence capture.
 14. **S14 THUG2 audio implementation packet** — COMPLETE as a gated Opus packet; remains WAITING FOR CODEX evidence.
 
 ## BLOCKED
 
-- **B01 canonical runtime version reconciliation:** main v81/v82-era verified state versus branch-only v84-v92 candidates.
+- **B01 canonical runtime version reconciliation:** main v81/v82-era verified state versus quarantined branch-only v84-v92 candidates; candidate identities are preserved but require Codex local/runtime evidence before promotion.
 - **B02 main handoff completeness:** some readiness references point to files present only on diverged branches.
 - **B03 Physics Gun first-person provenance:** `v_physics.mdl/.vvd/.dx90.vtx` unresolved on main.
 - **B04 THUG2 deep evidence:** full Codex-grade state/function/dependency maps still required.
