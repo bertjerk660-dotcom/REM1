@@ -1,0 +1,115 @@
+{
+    "schema":  "rem.haiku_final_opus_preflight_audit.v1",
+    "date":  "2026-10-07",
+    "auditor":  "Claude Haiku 5.5 (final preparation/audit lane)",
+    "repository":  "bertjerk660-dotcom/REM1",
+    "canonical_main":  "19a8046",
+    "preparation_branch":  "prep/opus-ready-20261007",
+    "preparation_branch_head_at_audit_start":  "14aee9a",
+    "preparation_branch_ahead_behind_main":  {
+                                                 "ahead":  151,
+                                                 "behind":  0
+                                             },
+    "audit_branch":  "prep/haiku-final-audit-20261007",
+    "readiness":  {
+                      "before":  81,
+                      "max":  100,
+                      "rubric":  "context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md",
+                      "after":  81
+                  },
+    "required_paths_checked":  58,
+    "required_paths_missing":  0,
+    "validators":  {
+                       "gate_state":  {
+                                          "result":  "PASS",
+                                          "errors":  0,
+                                          "readiness":  81
+                                      },
+                       "visual_source_packets":  {
+                                                     "result":  "PASS",
+                                                     "errors":  0,
+                                                     "files":  87
+                                                 },
+                       "candidate_preflight_O00_seed":  {
+                                                            "errors":  0,
+                                                            "result":  "PASS"
+                                                        }
+                   },
+    "codex_gates":  {
+                        "C08":  "WAITING_FOR_CODEX",
+                        "C04":  "WAITING_FOR_CODEX",
+                        "C01":  "SUBSTANTIAL_PARTIAL",
+                        "C05":  "WAITING_FOR_CODEX",
+                        "C02":  "SUBSTANTIAL_PARTIAL",
+                        "C06":  "WAITING_FOR_CODEX",
+                        "C03":  "PARTIAL",
+                        "C07":  "WAITING_FOR_CODEX"
+                    },
+    "codex_points_earned":  0,
+    "opus_packages":  {
+                          "O07b":  "BLOCKED_C04_C06_C07",
+                          "O05b":  "BLOCKED_C05",
+                          "O09":  "NOT_READY",
+                          "O01":  "READY_AFTER_O00_PASS",
+                          "O08a":  "READY_AFTER_O00_PASS",
+                          "O05":  "BLOCKED_C04_C08",
+                          "O04":  "BLOCKED_C03",
+                          "O00":  "READY_FOR_OPUS",
+                          "O08c":  "READY_AFTER_O00_PASS",
+                          "O07":  "BLOCKED_C07_C04",
+                          "O06":  "BLOCKED_C06",
+                          "O03":  "BLOCKED_C01_C02",
+                          "O08b":  "READY_AFTER_O00_PASS",
+                          "O02":  "BLOCKED_C01"
+                      },
+    "safe_to_start_O00":  true,
+    "safe_to_start_O00_conditions":  [
+                                         "create implementation branch from prep/opus-ready-20261007 and record parent commit",
+                                         "re-check source hashes at start",
+                                         "keep outputs isolated under meshes/rem/golden_bench and textures/rem/golden_bench",
+                                         "sidecar REM_GoldenBench_Test.esp disabled by default and never merged into REM_GModTHUG2.esp",
+                                         "do not modify main NVSE DLL, REM_GModTHUG2.esp or quarantined candidates",
+                                         "freeze validator must pass before any Codex handoff"
+                                     ],
+    "contradictions":  {
+                           "open_for_owner_or_codex":  4,
+                           "found":  9,
+                           "fixed_by_addendum":  2,
+                           "fixed_directly":  3
+                       },
+    "open_drift":  [
+                       {
+                           "v82_record_sha256":  "4F12178D6D4004B29B46BCF61365A6B48D2EF007B862B292B4CDA80DF7BBD08A",
+                           "status":  "unresolved",
+                           "live_sha256":  "1FB3CE190CC0E32D2F06EEC144605CE3E2EB84BE4E3A90A33B227B9639C6D852",
+                           "item":  "skateheldx.nif"
+                       }
+                   ],
+    "thug2_target":  {
+                         "architecture":  "MIPS R5900 32-bit little-endian ELF",
+                         "platform":  "PS2",
+                         "sha256":  "91C3D11BF0F1546F8EA20A22E7C1708EA91697F3C1393F36D9D7F2D4449963D1",
+                         "executable":  "SLES_526.21"
+                     },
+    "live_hashes":  {
+                        "main.cpp":  "4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE",
+                        "REM_GModTHUG2.esp":  "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+                        "gmod_overlay.inc":  "E6EF0C484AFDDC1A74C02F6BA8A72CD0899D6E80F5BA5459CD61B9C67183250F",
+                        "FNVGModTHUG2.dll":  "D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206"
+                    },
+    "first_task":  "O00 Golden Source Bench (context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md)",
+    "first_read":  [
+                       "AGENTS.md",
+                       "CLAUDE.md",
+                       "context/BOOTSTRAP.md",
+                       "context/GOAL.md",
+                       "context/CURRENT_STATE.md",
+                       "context/AGENT_OWNERSHIP.md",
+                       "context/DECISIONS.md",
+                       "context/HANDOFFS/OPUS_FAILURE_PROTECTIONS_HAIKU_2026-10-07.md",
+                       "context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md",
+                       "build/templates/OPUS_O00_CANDIDATE_MANIFEST_SEED.json",
+                       "build/prepared/opus_o00_golden_bench_20261007.json",
+                       "context/HANDOFFS/HAIKU_FINAL_OPUS_PREFLIGHT_AUDIT_2026-10-07.md"
+                   ]
+}

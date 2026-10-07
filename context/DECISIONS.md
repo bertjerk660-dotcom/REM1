@@ -43,3 +43,9 @@ Accepted: 2026-10-07.
 - GPT-6/Astra is not used for current project work.
 
 Historical branch/file names containing `ASTRA`, `GPT6`, `gpt6_opus` or `*-g6` remain traceability labels only and must not dispatch new work.
+
+## D-009 Opus may investigate when necessary
+Accepted: 2026-10-07 by owner instruction, recorded by the Haiku final audit. Claude Opus may perform Codex-type investigation when necessary. The evidence must be recorded and reviewed under the Codex stop conditions. Codex remains the default investigator and runtime validator. See context/AGENT_OWNERSHIP.md.
+
+## D-010 Documentation fixes do not change the readiness score
+Accepted: 2026-10-07 by the Haiku final audit. Readiness is scored only from reviewed evidence under context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md. Contradiction fixes and added failure-protection notes improve consistency but do not raise the score.

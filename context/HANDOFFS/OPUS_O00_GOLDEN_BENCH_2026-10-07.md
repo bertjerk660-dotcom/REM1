@@ -124,3 +124,12 @@ O00 passes only after the isolated candidate is observed in Fallout and:
 **O01 Toolgun presentation may begin only after O00 passes this visual/collision proof.**
 
 A failed O00 is a conversion-pipeline failure. Fix the pipeline before using it on weapon models.
+
+## Haiku audit addendum (2026-10-07): O00 rollback, sidecar and freeze rules
+
+- Rollback: reset the implementation branch to the parent_commit recorded in build/templates/OPUS_O00_CANDIDATE_MANIFEST_SEED.json. Delete the outputs under meshes/rem/golden_bench/ and textures/rem/golden_bench/. Restore every touched file from its recorded hash. Remove the sidecar from every plugin list.
+- Sidecar disabled means: REM_GoldenBench_Test.esp is absent from the default plugins.txt and loadorder.txt. It is enabled only in a recorded candidate load order for the O00 test. It is never merged into REM_GModTHUG2.esp or the main NVSE DLL.
+- Core validation: O00 results are isolated sidecar evidence. They must not be counted as core Fallout baseline or as THUG2 or GMod validation.
+- Freeze: only preflight has passed (validate_opus_candidate_manifest.py --mode preflight). Freeze mode must pass on the completed candidate before Codex receives it.
+- Protected files: main NVSE DLL FNVGModTHUG2.dll and REM_GModTHUG2.esp must not be modified by O00. Their live hashes are in the CURRENT_STATE 2026-10-07 audit section.
+- Live identity: re-check live deployed hashes and source hashes before the candidate is built (P-F007).

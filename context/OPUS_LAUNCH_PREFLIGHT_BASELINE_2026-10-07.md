@@ -5,7 +5,7 @@ This is the current one-page launch checkpoint for Claude Opus preparation.
 ## Branch/state
 - repository: `bertjerk660-dotcom/REM1`
 - preparation branch: `prep/opus-ready-20261007`
-- compared with current `main`: **145 ahead / 0 behind**
+- compared with current `main`: **145 ahead / 0 behind at writing; re-verified by the Haiku audit on 2026-10-07 as 151 ahead / 0 behind**
 - preparation readiness: **81/100**
 - remaining 19 points: C01-C08 Codex evidence only
 
@@ -55,10 +55,10 @@ Blocked behavior packages remain blocked.
 
 ## Post-O00 queue
 Only after reviewed O00 PASS:
-- O01 Toolgun presentation → READY FOR OPUS
-- O08a Crowbar presentation → READY FOR OPUS
-- O08b Pistol presentation → READY FOR OPUS
-- O08c SMG1 presentation → READY FOR OPUS
+- O01 Toolgun presentation → READY AFTER O00 PASS
+- O08a Crowbar presentation → READY AFTER O00 PASS
+- O08b Pistol presentation → READY AFTER O00 PASS
+- O08c SMG1 presentation → READY AFTER O00 PASS
 
 Their common Codex presentation-validation packet is:
 `context/HANDOFFS/CODEX_VISUAL_WEAPON_PRESENTATION_RUNTIME_VALIDATION_2026-10-07.md`

@@ -132,3 +132,5 @@ A subsystem becomes implementation-ready only after required Codex evidence is r
 37. **S37 semantic Opus gate validator** — COMPLETE. Current package states are consistent with reviewed C01-C08 states; validation PASS at 81/100 with 0 false unlocks.
 38. **S38 O00 deterministic runtime handoff** — COMPLETE. Session checklist + O00 Codex validation packet + common post-O00 visual validation packet are ready.
 39. **S39 consolidated launch baseline** — COMPLETE. `context/OPUS_LAUNCH_PREFLIGHT_BASELINE_2026-10-07.md` is the current launch checkpoint.
+
+- **H01 Haiku final Opus preflight audit** - COMPLETE 2026-10-07 on branch prep/haiku-final-audit-20261007. Report: context/HANDOFFS/HAIKU_FINAL_OPUS_PREFLIGHT_AUDIT_2026-10-07.md. Readiness 81/100 unchanged. O00 may start; O01/O08a/O08b/O08c stay gated behind O00 PASS.

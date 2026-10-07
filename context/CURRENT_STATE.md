@@ -7,6 +7,7 @@ Path: C:\Users\BRAD\Documents\------\Engineer Station\FNV_GMOD_THUG2
 The workspace contains the NVSE plugin source, research/conversion/patch tooling, build outputs, backups, context documents and third-party tooling.
 
 ## Active runtime
+> Haiku audit note (2026-10-07): the DLL/ESP hashes and 'source version remains 81' lines below are superseded. Live deployed hashes on the Windows machine: FNVGModTHUG2.dll D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206; REM_GModTHUG2.esp 0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7. Plugin main.cpp labels itself version 85. Authority: manifests/gmod_2026-10-07/runtime_snapshot.json.
 - DLL source version remains 81 for the current diagnostic branch.
 - Deployed FNVGModTHUG2.dll SHA256: A801DC80F96F6269CB8516ECC47CE48E4FAA2DDB315308A8476F4658D7FB5EF5.
 - Active REM_GModTHUG2.esp SHA256: 3E30300C00241A044F73D476F9497716413DA467278A72AFE29CCAE6767DFEBB.
@@ -105,7 +106,7 @@ A new preparation branch was created directly from canonical main:
 
 GitHub comparison after coordination/transplant:
 - status: ahead;
-- ahead of main: 78 commits;
+- ahead of main: 78 commits at that verification (Haiku audit 2026-10-07: 151 ahead / 0 behind);
 - behind main: 0 commits.
 
 This replaces the conflicted/diverged finalization branch as the preferred preparation branch for future Codex closure work and Claude Opus launch.
@@ -141,3 +142,13 @@ Normal-GPT preparation now has machine-enforced implementation handoff gates wit
 - consolidated checkpoint: `context/OPUS_LAUNCH_PREFLIGHT_BASELINE_2026-10-07.md`.
 
 This is preparation/pipeline evidence only. No Opus implementation or Codex C01-C08 completion is claimed.
+
+## 2026-10-07 Haiku final preflight audit
+
+- Preparation readiness: 81/100 before and after the audit. No C01-C08 gate changed state.
+- Validators re-run on the audit branch on 2026-10-07. Visual source packets: PASS, 87 files, 0 errors, root = local FNV_GMOD_THUG2 workspace. Candidate preflight for the O00 seed: PASS, 0 errors. Gate state: PASS, 81/100, 0 errors. These are metadata and hash checks only. They do not validate any game feature.
+- Live deployed hashes re-checked on the Windows machine. FNVGModTHUG2.dll D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206 and REM_GModTHUG2.esp 0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7 match runtime_snapshot.json. main.cpp 4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE and gmod_overlay.inc E6EF0C484AFDDC1A74C02F6BA8A72CD0899D6E80F5BA5459CD61B9C67183250F also match.
+- UNRESOLVED IDENTITY DRIFT: the deployed Data/meshes/rem/thug2/skateheldx.nif hashes to 1FB3CE190CC0E32D2F06EEC144605CE3E2EB84BE4E3A90A33B227B9639C6D852. The v82 record expects 4F12178D6D4004B29B46BCF61365A6B48D2EF007B862B292B4CDA80DF7BBD08A. Either the file changed after the v82 record was written or the record is stale. The cause is not established (F007). Do not claim v82 build identity until this is reconciled.
+- THUG2 platform: the local disc executable is PS2 SLES_526.21, SHA256 91C3D11BF0F1546F8EA20A22E7C1708EA91697F3C1393F36D9D7F2D4449963D1, which matches PROVENANCE_INDEX. It is a 32-bit little-endian MIPS ELF. Any THUG2 IDA work must name this PS2 target. No PC THUG2 binary is recorded.
+- Codex: no C01-C08 evidence output exists beyond the gap-closure and request packets. The C01 structural baseline expects files that are not present (structural_pass false). This is consistent with 0 points for every gate.
+- Corrections made by this audit: O01/O08a/O08b/O08c described as READY AFTER O00 PASS, not READY FOR OPUS, in OPUS_LAUNCH_PREFLIGHT_BASELINE and the scorecard; commit counts dated; the Active runtime hashes above are marked superseded.

@@ -102,3 +102,12 @@ Older files such as `build/handoffs/gpt6_opus/MASTER_EXECUTION_QUEUE.json` use c
 - manifests/checklists/coordination -> GPT-5.5 workflow lane
 
 Do not silently change product or architecture decisions while remapping ownership.
+
+## Owner directive 2026-10-07: Opus may investigate when necessary
+
+Recorded by the Haiku final preflight audit from the project owner's instruction.
+
+- Claude Opus may perform Codex-type investigation (tracing, reverse engineering, dependency and state mapping, runtime debugging) when Opus judges it necessary to unblock implementation.
+- That work must be recorded as evidence with branch, commit, source identity and hashes, with IDA Pro 6.8 where native reversing is used, and must be reviewed against the same Codex stop conditions before any readiness point is awarded.
+- Codex remains the default owner of investigation and runtime validation. This directive does not award C01-C08 readiness points by itself.
+- Statements earlier in this file that exclude Opus from investigation are superseded for task assignment by this directive. The owner should confirm whether to rewrite those sections in full.
