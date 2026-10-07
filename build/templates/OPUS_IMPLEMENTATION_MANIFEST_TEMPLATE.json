@@ -1,0 +1,62 @@
+{
+  "schema": "rem.opus_implementation_candidate.v1",
+  "package_id": "OXX",
+  "package_name": "",
+  "goal": "",
+  "owner": "Claude Opus",
+  "parent_branch": "",
+  "parent_commit": "",
+  "implementation_branch": "",
+  "implementation_commit": "",
+  "source_identity": {
+    "main_source_path": "",
+    "main_source_sha256": "",
+    "required_evidence_commits": [],
+    "required_provenance_files": []
+  },
+  "inputs": {
+    "codex_evidence": [],
+    "asset_packets": [],
+    "failure_knowledge": [],
+    "acceptance_rows": [],
+    "preserved_working_behavior": []
+  },
+  "changes": [],
+  "outputs": {
+    "dlls": [],
+    "esps": [],
+    "meshes": [],
+    "textures": [],
+    "audio": [],
+    "ui": [],
+    "other": []
+  },
+  "runtime_identity": {
+    "plugins_txt": [],
+    "loadorder_txt": [],
+    "test_save": "",
+    "test_location": "",
+    "required_inventory": [],
+    "required_mode_state": ""
+  },
+  "validation": {
+    "build": "pending",
+    "static": "pending",
+    "asset_reference_resolution": "pending",
+    "runtime_owner": "Codex",
+    "runtime_test_pack": "",
+    "runtime_status": "not_run",
+    "regression_status": "not_run",
+    "human_playability_status": "not_run"
+  },
+  "known_issues": [],
+  "rollback": {
+    "backup_paths": [],
+    "previous_hashes": {},
+    "revert_commit": ""
+  },
+  "promotion": {
+    "canonical_state_updated": false,
+    "reason": "Do not promote until Codex runtime/regression gates pass."
+  }
+}
