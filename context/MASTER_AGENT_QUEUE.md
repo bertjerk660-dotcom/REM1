@@ -111,3 +111,7 @@ A subsystem becomes implementation-ready only after required Codex evidence is r
 
 26. **S26 O00 golden conversion preflight** — COMPLETE. Bench source geometry/collision/material inputs re-hashed and matched; O00 packet is READY FOR OPUS.
 27. **S27 Opus Session 1 bootstrap** — COMPLETE. Current start-here, session input manifest and machine-readable gate matrix now point to O00 first, then O01 after PASS.
+
+
+28. **S28 O08a Crowbar presentation preflight** — COMPLETE. First-person and world crowbar model packages were directly extracted from installed Source/GMod VPKs and matched current staged hashes; material closure also reverified. Status: READY AFTER O00 PASS.
+29. **S29 current Opus visual queue** — COMPLETE in `context/OPUS_VISUAL_ASSET_QUEUE_2026-10-07.md`; old GPT6/Astra visual queues are historical only.
