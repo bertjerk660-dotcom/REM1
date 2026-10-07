@@ -1,0 +1,17 @@
+{
+  "schema": "rem.source_weapon_staging_dependency_repair.v1",
+  "date": "2026-10-07",
+  "changes": [
+    {
+      "package": "models__weapons__w_smg1",
+      "dependency": "materials/models/weapons/w_smg1/w_smg2specularmask.vtf",
+      "required_by": "materials/models/weapons/w_smg1/w_smg2.vmt",
+      "source_archive": "GarrysMod/sourceengine/hl2_textures_dir.vpk",
+      "source_sha256": "AB6122A949F82F986EF88E269B2B72F468CB1D731193BDD026527A8F2DE392D3",
+      "staged_sha256": "AB6122A949F82F986EF88E269B2B72F468CB1D731193BDD026527A8F2DE392D3",
+      "byte_identical": true,
+      "recreated": false,
+      "runtime_change": false
+    }
+  ]
+}
