@@ -152,3 +152,18 @@ This is preparation/pipeline evidence only. No Opus implementation or Codex C01-
 - THUG2 platform: the local disc executable is PS2 SLES_526.21, SHA256 91C3D11BF0F1546F8EA20A22E7C1708EA91697F3C1393F36D9D7F2D4449963D1, which matches PROVENANCE_INDEX. It is a 32-bit little-endian MIPS ELF. Any THUG2 IDA work must name this PS2 target. No PC THUG2 binary is recorded.
 - Codex: no C01-C08 evidence output exists beyond the gap-closure and request packets. The C01 structural baseline expects files that are not present (structural_pass false). This is consistent with 0 points for every gate.
 - Corrections made by this audit: O01/O08a/O08b/O08c described as READY AFTER O00 PASS, not READY FOR OPUS, in OPUS_LAUNCH_PREFLIGHT_BASELINE and the scorecard; commit counts dated; the Active runtime hashes above are marked superseded.
+
+## 2026-10-08 documentation/provenance reconciliation
+
+The held-board identity discrepancy is resolved as an intentional historical supersession:
+- v82 pre-material-repair: `4F12178D...`;
+- v90 material-repaired deployed identity: `1FB3CE19...`.
+
+No game file was changed during this reconciliation.
+
+Further documentation-only work in this pass:
+- current ownership wording is normalized in `AGENT_OWNERSHIP.md` and `LEGACY_ROLE_PATH_MAP.md`;
+- Codex C01-C08 output expectations are being separated into pre-delivery PENDING versus post-delivery structural validation;
+- quarantined branch heads are being pinned in a current machine-readable index.
+
+Preparation readiness remains evidence-scored; documentation cleanup alone does not award C01-C08 points.
