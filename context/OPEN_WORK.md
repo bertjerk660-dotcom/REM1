@@ -98,7 +98,7 @@ This is a requirements/backlog ledger, not proof of implementation.
 
 ## Pre-Opus workflow / coordination
 - Treat `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md` as the reproducible preparation-readiness metric.
-- Current score after workflow finalization: **76/100 preparation readiness**; this is not game-completion percentage.
+- Current score after workflow finalization: **80/100 preparation readiness**; this is not game-completion percentage.
 - Ingest each Codex C01-C08 result through `context/OPUS_PACKAGE_INTAKE_CHECKLIST_2026-10-07.md`.
 - Assemble an Opus implementation packet immediately when its evidence gate unlocks rather than waiting for unrelated Codex packages.
 - Use `context/OPUS_LAUNCH_SEQUENCE_2026-10-07.md` for package order.
@@ -114,3 +114,10 @@ This is a requirements/backlog ledger, not proof of implementation.
 - O01 Toolgun presentation is **READY FOR OPUS** for visual/model/material/attachment work only.
 - Packet: `context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md`.
 - Q-menu/Toolgun behavior remains blocked on Codex C01/C02.
+
+
+### GMod evidence gap closure
+- Do not repeat the broad GMod investigation merged at main commit `19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0`.
+- C01 and C02 are substantial partial; C03 is partial.
+- Next Codex task: `context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md`.
+- O02/O03/O04 preassembly packets already exist; normal GPT should convert them to final READY FOR OPUS packets immediately when the corresponding gap closure is reviewed.
