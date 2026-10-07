@@ -1,0 +1,43 @@
+{
+  "package_id": "O01",
+  "package_name": "Toolgun presentation",
+  "status": "READY FOR OPUS",
+  "prepared_on": "2026-10-07",
+  "implementation_owner": "Claude Opus",
+  "runtime_validation_owner": "Codex",
+  "behavior_scope_excluded": true,
+  "source_archive": {
+    "path": "GarrysMod/garrysmod/garrysmod_dir.vpk",
+    "sha256": "A3237FC7442C6C57AA924525951280F1381BC641D323B6ED4CE52FD5BE09F83E"
+  },
+  "verified_models": {
+    "c_toolgun.mdl": "992ED7A5ED4996B89C59FF656D93981FBA53B06B2E7A478EA52E0D7309E8CC79",
+    "c_toolgun.vvd": "D3F469510B6C5B0F1979254B477BA66F228EEA01240FE97DB22AB97D57429580",
+    "c_toolgun.dx90.vtx": "9A814D307A9874BBD3B3CF92BEC93069780898203783F80ABD20DEAFA9FAB6DA",
+    "c_toolgun.qc": "C6259150D8048F0379B6298A627E2CB7A7D392071992280CBF80AECE50022AD6",
+    "toolgun_ref.smd": "6ECC49B65BB19AB8B4831D3CB318DB353D65C07F1B40BB004E73FC22A8401B98",
+    "w_toolgun.mdl": "19D169CCEF78F358B44E7CAA8CDF3873EEA3FBD21864F70F86E23CE1106B2703",
+    "w_toolgun.vvd": "EE8CFAE44FF4BB7A6F83C77DC5F1AA077AA11EDC4ED163B3A715DC8B9CC909C6",
+    "w_toolgun.dx90.vtx": "4F43009DCE55EDF1BDBE76EC46E8A0F5FB87EB70CC651E66902B5E051A01A55E"
+  },
+  "verified_material_count": 13,
+  "missing_blocking_dependencies": [],
+  "current_main_cpp_sha256": "4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE",
+  "old_feed_main_cpp_sha256": "CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5",
+  "old_feed_is_current_baseline": false,
+  "behavior_dependencies": {
+    "C01": "not required for visual O01; required before Q-menu implementation",
+    "C02": "not required for visual O01; required before final Toolgun behavior"
+  },
+  "required_post_implementation_validation": [
+    "first-person render",
+    "third-person/world render",
+    "scale/orientation",
+    "weapon-hand attachment",
+    "material/texture resolution",
+    "holster/re-equip",
+    "Pip-Boy switch",
+    "save/load regression",
+    "no unrelated behavior changes"
+  ]
+}
