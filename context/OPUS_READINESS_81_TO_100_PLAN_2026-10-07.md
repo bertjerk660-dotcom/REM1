@@ -106,3 +106,17 @@ Preparation is **100/100** when:
 - no known authority/ownership/version contradiction remains.
 
 100% preparation does **not** mean the game is implemented or runtime validated. It means Opus can implement every planned package without first rediscovering core source behavior.
+
+
+## Next new Codex request
+
+Use:
+`context/HANDOFFS/NEXT_CODEX_REQUEST_THUG2_C04_2026-10-07.md`
+
+Reason:
+- the broad GMod pass already exists and C01-C03 have a separate narrow closure packet;
+- the THUG2 evidence branch currently contains no new evidence beyond main;
+- C04 is the dependency hub whose state vocabulary is needed by C05 camera, C06 animation/board, C07 HUD/scoring and C08 unified input.
+
+Ownership rule:
+Codex investigates and produces evidence/contracts only. Claude Opus performs all final implementation, retargeting, visual/UI work and gameplay integration.
