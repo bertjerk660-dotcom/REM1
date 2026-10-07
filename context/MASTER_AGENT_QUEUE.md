@@ -6,16 +6,16 @@ Before dispatching any item, check current repository evidence and recent commit
 
 ## CODEX — INVESTIGATION NEXT
 
-1. **C01 — GMod Q-menu dependency trace** — NOT STARTED IN CANONICAL MAIN.
+1. **C01 — GMod Q-menu dependency trace** — SUBSTANTIAL PARTIAL. Authenticated broad evidence is on canonical main; only narrow native/icon/search/editor gap closure remains.
    Trace installed spawnmenu/Q-menu lifecycle, VGUI/Derma classes, content registration, search/icon-grid behavior, Q bind, cursor/focus/input ownership, close/restore behavior and native interfaces.
    - Unlocks: O02 real Q-menu implementation.
 
-2. **C02 — Toolgun dispatch and tool-state trace** — NOT STARTED IN CANONICAL MAIN.
+2. **C02 — Toolgun dispatch and tool-state trace** — SUBSTANTIAL PARTIAL. Original registry/selection/Remover/Duplicator architecture is traced; narrow trace/prediction/effect/audio/host-representation closure remains.
    Map gmod_tool, stool lifecycle, selected mode, LeftClick/RightClick/Reload, DoToolTrace, Duplicator, Remover, notification and undo/cleanup dependencies.
    - Depends on: C01 menu/tool-state boundary.
    - Unlocks: O03 Toolgun integration.
 
-3. **C03 — Physgun remaining provenance/native trace** — PARTIAL INVESTIGATION COMPLETE.
+3. **C03 — Physgun remaining provenance/native trace** — PARTIAL. Build/native boundaries are documented; first-person provenance, acquisition/controller/audio/render/actor-state closure remains.
    Close exact first-person presentation provenance and any remaining range/hold/audio/actor-target semantics not already proven by the IDA 6.8 evidence package.
    - Unlocks: O04 Physgun parity fix.
 
@@ -37,7 +37,8 @@ Before dispatching any item, check current repository evidence and recent commit
 
 ## OPUS — IMPLEMENTATION READY / WAITING
 
-- **O01 Toolgun view/world presentation** — READY FOR IMPLEMENTATION from existing staged packages after fresh branch/hash check.
+- **O00 Golden Source bench conversion proof** — READY FOR IMPLEMENTATION and must pass first.
+- **O01 Toolgun view/world presentation** — READY AFTER O00 PASS; 87-file unified visual-source validator currently passes.
 - **O02 Real Q-menu compatibility/renderer** — WAITING FOR C01.
 - **O03 Toolgun Q-state + Duplicator/Remover integration** — WAITING FOR C01/C02.
 - **O04 Physgun parity implementation** — WAITING FOR C03 evidence closure; reuse existing IDA 6.8 evidence.
@@ -80,7 +81,7 @@ Legacy branches such as `runtime/astra-phase1-input92` remain historical candida
 12. **S12 documentation authority map** — COMPLETE in `context/DOCUMENTATION_AUTHORITY_MAP.md`; use it for future conflict resolution.
 13. **S13 runtime packet hardening** — COMPLETE initial pass; all Codex test packs now require exact candidate/save/location/inventory/hashes and evidence capture.
 14. **S14 THUG2 audio implementation packet** — COMPLETE as a gated Opus packet; remains WAITING FOR CODEX evidence.
-15. **S15 Opus readiness scorecard** — COMPLETE with explicit weighted rubric in `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md`; current preparation score after this pass is 71/100.
+15. **S15 Opus readiness scorecard** — COMPLETE with explicit weighted rubric in `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md`; current preparation score is 80/100 on the legacy finalization branch and becomes 81/100 when the clean main-descended Opus-ready branch is finalized.
 16. **S16 Opus launch sequence** — COMPLETE in `context/OPUS_LAUNCH_SEQUENCE_2026-10-07.md`; distinguishes immediate O01/O08 work from Codex-gated packages.
 17. **S17 Opus evidence/package intake gate** — COMPLETE in `context/OPUS_PACKAGE_INTAKE_CHECKLIST_2026-10-07.md`; use after every Codex evidence or runtime report.
 18. **S18 current-local Opus preflight identity** — COMPLETE; GMod appmanifest/VPK, THUG2 executable and FNV skeleton were re-hashed on the local machine and the stale old feed-bundle source hash is explicitly flagged.
@@ -100,7 +101,7 @@ Legacy branches such as `runtime/astra-phase1-input92` remain historical candida
 A subsystem becomes implementation-ready only after required Codex evidence is reviewed. A feature becomes complete only after Opus implementation and Codex runtime/regression validation satisfy all applicable acceptance gates.
 
 
-21. **S21 O01 Toolgun presentation preflight** — COMPLETE. Exact c/w Toolgun source models, QC/reference geometry and 13 materials/textures re-hashed and matched; final visual-only packet is `context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md`. Status: READY FOR OPUS.
+21. **S21 O01 Toolgun presentation preflight** — COMPLETE. Exact c/w Toolgun source models, QC/reference geometry and 13 materials/textures re-hashed and matched; final visual-only packet is `context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md`. Status: READY AFTER O00 PASS.
 22. **S22 canonical coordination promotion plan** — COMPLETE in `context/CANONICAL_COORDINATION_PROMOTION_PLAN_2026-10-07.md`; actual promotion remains deferred until the destination integration branch is selected.
 
 
@@ -115,3 +116,9 @@ A subsystem becomes implementation-ready only after required Codex evidence is r
 
 28. **S28 O08a Crowbar presentation preflight** — COMPLETE. First-person and world crowbar model packages were directly extracted from installed Source/GMod VPKs and matched current staged hashes; material closure also reverified. Status: READY AFTER O00 PASS.
 29. **S29 current Opus visual queue** — COMPLETE in `context/OPUS_VISUAL_ASSET_QUEUE_2026-10-07.md`; old GPT6/Astra visual queues are historical only.
+
+
+30. **S30 O08b Pistol presentation preflight** — COMPLETE. c/w pistol models were directly extracted from installed GMod archives and matched staged hashes; original VMT/VTF closure verified. Status: READY AFTER O00 PASS.
+31. **S31 O08c SMG1 presentation preflight** — COMPLETE. c/w SMG1 models were directly archive-verified; original material closure verified and the missing world-SMG specular mask was repaired with the exact original VPK file. Status: READY AFTER O00 PASS.
+32. **S32 unified visual-source validation** — COMPLETE. O00/O01/O08a/O08b/O08c: 87 files checked, 0 errors. Report: `build/validation/opus_visual_source_validation_20261007.json`.
+33. **S33 clean main-descended Opus-ready branch** — IN PROGRESS. Target branch: `prep/opus-ready-20261007`; its purpose is to remove the four-commit divergence/conflict of the older finalization branch.
