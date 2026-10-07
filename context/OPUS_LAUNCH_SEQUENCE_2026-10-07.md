@@ -25,8 +25,22 @@ Do not ask Opus to rediscover original-game behavior that Codex should map first
 
 ## Phase 1 — work Opus may begin immediately
 
+### O00 — Golden Source bench conversion proof
+Status: READY FOR OPUS.
+
+Purpose:
+- prove Source→FNV mesh/material/collision conversion in an isolated sidecar before weapon conversion;
+- validate shader/material mapping, scale/axis handling and Havok collision mapping;
+- stop weapon conversion if the pipeline fails.
+
+Packet:
+- `context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md`
+
 ### O01 — Toolgun view/world presentation
-Status: READY WITH PREFLIGHT.
+Status: READY AFTER O00 PASS.
+
+Prerequisite:
+- O00 human/runtime PASS.
 
 Inputs:
 - existing c_toolgun / w_toolgun source packets;
