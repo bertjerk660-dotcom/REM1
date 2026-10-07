@@ -1,0 +1,41 @@
+{
+  "schema": "rem.opus_candidate_preflight_baseline.v1",
+  "date": "2026-10-07",
+  "preparation_branch": "prep/opus-ready-20261007",
+  "preparation_readiness_percent": 81,
+  "validator": "research/validate_opus_candidate_manifest.py",
+  "mode": "preflight",
+  "packages": {
+    "O00": {
+      "pass": true,
+      "error_count": 0,
+      "seed": "build/templates/OPUS_O00_CANDIDATE_MANIFEST_SEED.json",
+      "status": "READY_FOR_OPUS"
+    },
+    "O01": {
+      "pass": true,
+      "error_count": 0,
+      "seed": "build/templates/O01_CANDIDATE_MANIFEST_SEED.json",
+      "status": "READY_AFTER_O00_PASS"
+    },
+    "O08a": {
+      "pass": true,
+      "error_count": 0,
+      "seed": "build/templates/O08a_CANDIDATE_MANIFEST_SEED.json",
+      "status": "READY_AFTER_O00_PASS"
+    },
+    "O08b": {
+      "pass": true,
+      "error_count": 0,
+      "seed": "build/templates/O08b_CANDIDATE_MANIFEST_SEED.json",
+      "status": "READY_AFTER_O00_PASS"
+    },
+    "O08c": {
+      "pass": true,
+      "error_count": 0,
+      "seed": "build/templates/O08c_CANDIDATE_MANIFEST_SEED.json",
+      "status": "READY_AFTER_O00_PASS"
+    }
+  },
+  "note": "Preflight PASS verifies package identity/evidence/provenance/acceptance/runtime-test references before implementation. It is not implementation or runtime validation."
+}
