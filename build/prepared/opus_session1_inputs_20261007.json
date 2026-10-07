@@ -1,0 +1,33 @@
+{
+  "schema": "rem.opus_session1_inputs.v1",
+  "date": "2026-10-07",
+  "repository": "bertjerk660-dotcom/REM1",
+  "preparation_branch": "prep/opus-readiness-finalization-20261007",
+  "preparation_readiness_percent": 80,
+  "first_package": "O01",
+  "first_package_status": "READY_FOR_OPUS",
+  "required_reading": [
+    "AGENTS.md",
+    "context/BOOTSTRAP.md",
+    "context/GOAL.md",
+    "context/ARCHITECTURE.md",
+    "context/CURRENT_STATE.md",
+    "context/DECISIONS.md",
+    "context/FAILURE_KNOWLEDGE.md",
+    "context/AGENT_OWNERSHIP.md",
+    "context/OPUS_READINESS_BOARD.md",
+    "context/OPUS_LAUNCH_SEQUENCE_2026-10-07.md",
+    "context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md"
+  ],
+  "o01_inputs": {
+    "packet": "context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md",
+    "preflight": "build/prepared/opus_o01_toolgun_presentation_20261007.json",
+    "candidate_manifest_template": "build/templates/OPUS_IMPLEMENTATION_MANIFEST_TEMPLATE.json",
+    "source_archive_sha256": "A3237FC7442C6C57AA924525951280F1381BC641D323B6ED4CE52FD5BE09F83E",
+    "current_local_main_cpp_snapshot_sha256": "4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE",
+    "warning": "Re-hash selected implementation source immediately before edit; this snapshot may drift."
+  },
+  "blocked_behavior_packages": ["O02","O03","O04","O05","O05b","O06","O07","O07b"],
+  "gmod_gap_closure": "context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md",
+  "unrelated_runtime_candidates_must_remain_quarantined": true
+}
