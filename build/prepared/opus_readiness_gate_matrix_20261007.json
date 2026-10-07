@@ -3,67 +3,107 @@
   "date": "2026-10-07",
   "preparation_readiness_percent": 80,
   "packages": {
+    "O00": {
+      "name": "Golden Source bench conversion proof",
+      "status": "READY_FOR_OPUS",
+      "required_evidence": [
+        "verified bench source provenance and current hashes"
+      ],
+      "packet": "context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md",
+      "unlocks": [
+        "O01",
+        "other Source visual conversion packages"
+      ]
+    },
     "O01": {
       "name": "Toolgun presentation",
-      "status": "READY_FOR_OPUS",
-      "required_evidence": ["verified c_toolgun/w_toolgun provenance and fresh hashes"],
+      "status": "READY_AFTER_O00_PASS",
+      "required_evidence": [
+        "verified c_toolgun/w_toolgun provenance and fresh hashes",
+        "O00 PASS"
+      ],
       "packet": "context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md"
     },
     "O02": {
       "name": "Real GMod Q-menu renderer/compatibility",
       "status": "WAITING_FOR_CODEX_GAP_CLOSURE",
-      "required_evidence": ["C01 COMPLETE"],
+      "required_evidence": [
+        "C01 COMPLETE"
+      ],
       "current_evidence": "C01 SUBSTANTIAL_PARTIAL",
       "preassembly": "context/HANDOFFS/OPUS_O02_QMENU_PREASSEMBLY_2026-10-07.md"
     },
     "O03": {
       "name": "Q-selected Toolgun + Remover/Duplicator",
       "status": "WAITING_FOR_CODEX_GAP_CLOSURE",
-      "required_evidence": ["C01 COMPLETE","C02 COMPLETE"],
+      "required_evidence": [
+        "C01 COMPLETE",
+        "C02 COMPLETE"
+      ],
       "current_evidence": "C01 SUBSTANTIAL_PARTIAL; C02 SUBSTANTIAL_PARTIAL",
       "preassembly": "context/HANDOFFS/OPUS_O03_TOOLGUN_BEHAVIOR_PREASSEMBLY_2026-10-07.md"
     },
     "O04": {
       "name": "Physgun parity",
       "status": "WAITING_FOR_CODEX_GAP_CLOSURE",
-      "required_evidence": ["C03 COMPLETE"],
+      "required_evidence": [
+        "C03 COMPLETE"
+      ],
       "current_evidence": "C03 PARTIAL",
       "preassembly": "context/HANDOFFS/OPUS_O04_PHYSGUN_PREASSEMBLY_2026-10-07.md"
     },
     "O05": {
       "name": "THUG2 movement/state/physics/input",
       "status": "WAITING_FOR_CODEX",
-      "required_evidence": ["C04 COMPLETE","C08 COMPLETE"]
+      "required_evidence": [
+        "C04 COMPLETE",
+        "C08 COMPLETE"
+      ]
     },
     "O05b": {
       "name": "THUG2 camera",
       "status": "WAITING_FOR_CODEX",
-      "required_evidence": ["C05 COMPLETE"]
+      "required_evidence": [
+        "C05 COMPLETE"
+      ]
     },
     "O06": {
       "name": "THUG2 animation/board attachment",
       "status": "WAITING_FOR_CODEX",
-      "required_evidence": ["C06 COMPLETE"]
+      "required_evidence": [
+        "C06 COMPLETE"
+      ]
     },
     "O07": {
       "name": "THUG2 HUD/UI",
       "status": "WAITING_FOR_CODEX",
-      "required_evidence": ["C07 COMPLETE","C04 event interfaces"]
+      "required_evidence": [
+        "C07 COMPLETE",
+        "C04 event interfaces"
+      ]
     },
     "O07b": {
       "name": "THUG2 audio",
       "status": "WAITING_FOR_CODEX",
-      "required_evidence": ["reviewed C04/C06/C07 audio evidence or narrow Codex audio addendum"]
+      "required_evidence": [
+        "reviewed C04/C06/C07 audio evidence or narrow Codex audio addendum"
+      ]
     },
     "O08": {
       "name": "Model/asset visual integration",
       "status": "PARTIAL_PACKAGE_SPECIFIC",
-      "required_evidence": ["current per-asset provenance","no unresolved behavior dependency for chosen asset"]
+      "required_evidence": [
+        "current per-asset provenance",
+        "no unresolved behavior dependency for chosen asset"
+      ]
     },
     "O09": {
       "name": "Cross-system fixes/polish",
       "status": "NOT_READY",
-      "required_evidence": ["implemented candidate","deterministic Codex runtime failure/regression report"]
+      "required_evidence": [
+        "implemented candidate",
+        "deterministic Codex runtime failure/regression report"
+      ]
     }
   },
   "gmod_evidence_source_commit": "19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0",
