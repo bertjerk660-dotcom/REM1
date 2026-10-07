@@ -7,12 +7,14 @@ Repository:
 `bertjerk660-dotcom/REM1`
 
 Preparation branch:
-`prep/opus-readiness-finalization-20261007`
+`prep/opus-ready-20261007`
 
 Current preparation readiness:
-**80/100**
+**81/100**
 
 This is preparation readiness, not game-completion percentage.
+
+Unified source validation currently passes O00/O01/O08a/O08b/O08c: **87 files, 0 errors**. Report: `build/validation/opus_visual_source_validation_20261007.json`.
 
 ## Ownership
 - Claude Opus: implementation, visual/model/animation/UI integration.
