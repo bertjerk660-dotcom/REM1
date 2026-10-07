@@ -126,3 +126,18 @@ Latest GitHub reconciliation:
 Preparation baseline is therefore **81/100**.
 
 The remaining 19 preparation points are exclusively C01-C08 Codex evidence gates. Normal GPT must not manufacture those points, and Claude Opus must not be asked to rediscover them during implementation.
+
+
+## 2026-10-07 Opus launch preflight automation
+Normal-GPT preparation now has machine-enforced implementation handoff gates without changing the 81/100 evidence score.
+
+- reusable candidate-manifest validator: `research/validate_opus_candidate_manifest.py`;
+- preflight mode passes O00/O01/O08a/O08b/O08c with 0 errors;
+- freeze mode is mandatory before any Opus candidate is handed to Codex;
+- semantic package-gate validator: `research/validate_opus_gate_state.py`;
+- current semantic-gate validation PASS: 81/100, 0 false-unlock errors;
+- O00 deterministic Codex runtime validation packet is prepared;
+- common O01/O08a/O08b/O08c Codex visual-presentation validation packet is prepared;
+- consolidated checkpoint: `context/OPUS_LAUNCH_PREFLIGHT_BASELINE_2026-10-07.md`.
+
+This is preparation/pipeline evidence only. No Opus implementation or Codex C01-C08 completion is claimed.
