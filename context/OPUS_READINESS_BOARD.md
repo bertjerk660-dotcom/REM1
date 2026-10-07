@@ -5,10 +5,10 @@ This board prevents implementation from starting before the necessary Codex evid
 
 | Opus package | Required Codex evidence | Current readiness | Start condition |
 |---|---|---|---|
-| O01 Toolgun view/world presentation | existing staged model provenance; fresh hash check | READY WITH PREFLIGHT | verify source/staged package hashes immediately before Opus work |
-| O02 Real GMod Q-menu renderer/compatibility | C01 | WAITING FOR CODEX | C01 evidence/function/dependency/interface package reviewed |
-| O03 Toolgun Q-state + Remover/Duplicator | C01 + C02 | WAITING FOR CODEX | C01/C02 reviewed and Q-selected tool-state contract stable |
-| O04 Physgun parity | C03 + existing IDA 6.8 evidence | WAITING FOR CODEX | exact view-model provenance/source path resolved or explicitly proven; behavior delta ready |
+| O01 Toolgun view/world presentation | existing staged model provenance; fresh hash check | READY FOR OPUS | final hash-verified packet exists; Opus may perform visual/presentation work only |
+| O02 Real GMod Q-menu renderer/compatibility | C01 | WAITING FOR CODEX GAP CLOSURE | broad source architecture is reviewed; native opener/icon/search/editor gaps still require closure |
+| O03 Toolgun Q-state + Remover/Duplicator | C01 + C02 | WAITING FOR CODEX GAP CLOSURE | Q/tool architecture is reviewed; trace/prediction/effect/duplicator-host gaps remain |
+| O04 Physgun parity | C03 + existing IDA 6.8 evidence | WAITING FOR CODEX GAP CLOSURE | native/build evidence exists, but view-model/acquisition/controller/audio/render/actor gaps remain |
 | O05 THUG2 core movement/state/physics/input | C04 + C08 | WAITING FOR CODEX | state/collision/input contracts reviewed |
 | O05b THUG2 camera | C05 | WAITING FOR CODEX | camera state/function/host-adapter contract reviewed |
 | O06 THUG2 animation/board attachment | C06 | WAITING FOR CODEX | complete animation/skeleton/attachment catalogue reviewed |
@@ -60,7 +60,7 @@ Before starting any Opus package, use:
 - `context/OPUS_PACKAGE_INTAKE_CHECKLIST_2026-10-07.md` — evidence review, packet assembly, candidate freeze and promotion checklist.
 - `context/LOCAL_OPUS_PREFLIGHT_SNAPSHOT_2026-10-07.md` — current local hashes and stale-feed-bundle warning.
 
-Current preparation score after the 2026-10-07 workflow finalization pass: **76/100**.
+Current preparation score after the 2026-10-07 workflow finalization pass: **80/100**.
 
 This percentage measures preparation/handoff readiness only. Package unlock state in the table above remains authoritative: most core systems are still waiting for Codex evidence.
 
@@ -77,3 +77,26 @@ Use:
 - `build/prepared/opus_o01_toolgun_presentation_20261007.json`
 
 This unlocks visual/presentation work only. O02/O03 behavior remains gated on Codex C01/C02.
+
+
+## GMod C01-C03 evidence intake
+
+Reviewed source commit:
+`19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0`
+
+Current evidence status:
+- C01 Q-menu — SUBSTANTIAL PARTIAL;
+- C02 Toolgun — SUBSTANTIAL PARTIAL;
+- C03 Physgun — PARTIAL.
+
+Use:
+- `context/GMOD_CODEX_EVIDENCE_INTAKE_REVIEW_2026-10-07.md`
+- `build/prepared/gmod_codex_evidence_intake_20261007.json`
+- `context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md`
+
+Preassembled Opus packets:
+- `context/HANDOFFS/OPUS_O02_QMENU_PREASSEMBLY_2026-10-07.md`
+- `context/HANDOFFS/OPUS_O03_TOOLGUN_BEHAVIOR_PREASSEMBLY_2026-10-07.md`
+- `context/HANDOFFS/OPUS_O04_PHYSGUN_PREASSEMBLY_2026-10-07.md`
+
+Do not repeat the broad GMod investigation; close only the enumerated gaps.
