@@ -1,0 +1,84 @@
+{
+  "schema": "rem.opus_implementation_candidate.v1",
+  "package_id": "O08a",
+  "package_name": "GMod/HL Crowbar presentation",
+  "goal": "Implement source-faithful visual/model/material/attachment presentation for GMod/HL Crowbar presentation after O00 PASS without changing unauthorized gameplay behavior.",
+  "owner": "Claude Opus",
+  "preparation_branch": "prep/opus-ready-20261007",
+  "prerequisite": "O00 PASS",
+  "parent_branch": "",
+  "parent_commit": "",
+  "implementation_branch": "",
+  "implementation_commit": "",
+  "source_identity": {
+    "main_source_path": "models/weapons/c_crowbar.mdl",
+    "main_source_sha256": "9FC2231AE94171609DE85781D567A9ED5380B84A7D77821ED3AD485586E59992",
+    "required_evidence_commits": [],
+    "required_provenance_files": [
+      "context/HANDOFFS/OPUS_O08A_CROWBAR_PRESENTATION_2026-10-07.md",
+      "build/prepared/opus_o08a_crowbar_presentation_20261007.json",
+      "build/validation/opus_visual_source_validation_20261007.json"
+    ]
+  },
+  "inputs": {
+    "codex_evidence": [],
+    "asset_packets": [
+      "build/prepared/opus_o08a_crowbar_presentation_20261007.json"
+    ],
+    "failure_knowledge": [
+      "Visual package must not change crowbar combat behavior",
+      "Use authentic archive-verified source geometry/materials"
+    ],
+    "acceptance_rows": [
+      "first-person presentation",
+      "third-person/world presentation",
+      "material/reference resolution",
+      "equip/switch/save-load regression"
+    ],
+    "preserved_working_behavior": [
+      "existing inventory behavior",
+      "normal Fallout melee behavior unless separately authorized",
+      "Toolgun/Physgun/skateboard unaffected"
+    ]
+  },
+  "changes": [],
+  "outputs": {
+    "dlls": [],
+    "esps": [],
+    "meshes": [],
+    "textures": [],
+    "audio": [],
+    "ui": [],
+    "other": []
+  },
+  "runtime_identity": {
+    "plugins_txt": [],
+    "loadorder_txt": [],
+    "test_save": "",
+    "test_location": "",
+    "required_inventory": [
+      "GMod/HL Crowbar presentation"
+    ],
+    "required_mode_state": "NORMAL_FALLOUT; O00 already validated"
+  },
+  "validation": {
+    "build": "pending",
+    "static": "pending",
+    "asset_reference_resolution": "pending",
+    "runtime_owner": "Codex",
+    "runtime_test_pack": "context/HANDOFFS/CODEX_VISUAL_WEAPON_PRESENTATION_RUNTIME_VALIDATION_2026-10-07.md",
+    "runtime_status": "not_run",
+    "regression_status": "not_run",
+    "human_playability_status": "not_run"
+  },
+  "known_issues": [],
+  "rollback": {
+    "backup_paths": [],
+    "previous_hashes": {},
+    "revert_commit": ""
+  },
+  "promotion": {
+    "canonical_state_updated": false,
+    "reason": "Do not promote until package-specific Codex visual/runtime validation passes."
+  }
+}
