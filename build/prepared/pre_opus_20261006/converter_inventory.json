@@ -1,0 +1,54 @@
+{
+  "tools": [
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\research\\convert_gmod_props.py",
+      "exists": true,
+      "bytes": 13914,
+      "sha256": "35E8B237D8BEF3FB6780E2CAAE656FC0C8BE3586807F0CCD57891E210A5AB318"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\research\\blender_prop_worker.py",
+      "exists": true,
+      "bytes": 4307,
+      "sha256": "7BDB031A4BD21F94940CF66CAE11D20DD569BD36A2BDD1AA2B458ACE4BEA1B71"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\research\\convert_gmod_weapon_views.py",
+      "exists": true,
+      "bytes": 840,
+      "sha256": "4EFBAA609C4B69AC26960B768A84E0AF66DDF3CAD30A84FAAC60D1799EAF1737"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\research\\convert_gmod_weapon_worlds.py",
+      "exists": true,
+      "bytes": 702,
+      "sha256": "DC4629315FA8A184BF36E24B66EFB5D3E7A73ADD2C91532C937C5AE770EC02B9"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\research\\prepare_gmod_hl_actual_weapon_models.py",
+      "exists": true,
+      "bytes": 5054,
+      "sha256": "63C6B6D79411BC980CD90D6751038B4C4137988C2E7924FF38E69C70CC31F725"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\tools\\CrowbarCommandLineDecomp.exe",
+      "exists": true,
+      "bytes": 4053504,
+      "sha256": "4B5FC8F5092448C1F8FE12F6849BF8EE3996406F02109EC90AB800C6CF145B2A"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\tools\\VTFEdit_Reloaded\\VTFCmd.exe",
+      "exists": true,
+      "bytes": 193536,
+      "sha256": "F6F6F604178A7CE1D03B9C5876F4E2C973962DCA0C70A7F92F7B81CF5AAD84C2"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\tools\\blender-3.6.23-windows-x64\\blender.exe",
+      "exists": true,
+      "bytes": 162772624,
+      "sha256": "FC104BCAE000C8EDAD75BBC7B55EE6137929F6FD1BE4501EF3E28C6E3BC8986C"
+    }
+  ],
+  "execution": "NONE: inventory only",
+  "warning": "Legacy converters can write directly into Fallout Data; Opus must isolate destinations before running."
+}
