@@ -68,13 +68,13 @@ Legacy branches such as `runtime/astra-phase1-input92` remain historical candida
 1. **S01 branch reconciliation ledger** — COMPLETE initial pass.
 2. **S02 master project map + owner split** — COMPLETE initial pass.
 3. **S03 evidence index** — COMPLETE initial index; keep updated.
-4. **S04 work-package conversion** — IN PROGRESS: Codex C01-C08 packets and later Opus/runtime packets.
+4. **S04 work-package conversion** — COMPLETE initial pass: C01-C08, Opus work packages and Codex runtime packs are defined.
 5. **S05 acceptance matrix** — COMPLETE initial version; expand as evidence arrives.
 6. **S06 input ownership matrix** — COMPLETE initial version.
-7. **S07 provenance reconciliation** — NEXT: vet useful manifests/hashes from large divergent support branches.
-8. **S08 stale-reference cleanup plan** — NEXT: map obsolete GPT-6/Astra filenames to current Codex/Opus roles without rewriting historical evidence.
-9. **S09 failure-history normalization** — NEXT: build failure ledger by build/action/evidence/fix/retest.
-10. **S10 milestone/readiness rollup** — ONGOING.
+7. **S07 provenance reconciliation** — COMPLETE initial pass in `context/PROVENANCE_INDEX.md`; refresh hashes before implementation.
+8. **S08 stale-reference cleanup plan** — COMPLETE initial pass in `context/LEGACY_ROLE_PATH_MAP.md`.
+9. **S09 failure-history normalization** — COMPLETE initial pass in `context/FAILURE_LEDGER.md`.
+10. **S10 milestone/readiness rollup** — COMPLETE initial rollup in `context/MILESTONE_STATUS.md`; update as evidence lands.
 
 ## BLOCKED
 
