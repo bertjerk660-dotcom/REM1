@@ -38,3 +38,17 @@ This supersedes the execution meaning of older `GPT6_OPUS`/Astra visual queues w
 - 0 errors.
 
 Re-run `research/validate_opus_visual_source_packets.py` before Opus starts or after any staging change.
+
+
+## Candidate manifest readiness
+
+Prefilled candidate manifests:
+- O00: `build/templates/OPUS_O00_CANDIDATE_MANIFEST_SEED.json`
+- O01: `build/templates/O01_CANDIDATE_MANIFEST_SEED.json`
+- O08a: `build/templates/O08a_CANDIDATE_MANIFEST_SEED.json`
+- O08b: `build/templates/O08b_CANDIDATE_MANIFEST_SEED.json`
+- O08c: `build/templates/O08c_CANDIDATE_MANIFEST_SEED.json`
+
+All five pass `research/validate_opus_candidate_manifest.py --mode preflight` with 0 errors.
+
+This does not bypass O00 gating and does not prove any implementation candidate.
