@@ -41,6 +41,8 @@ Purpose: durable index of important technical evidence. This is not itself proof
 
 | E030 | 2026-10-07 | authenticated GMod system investigation intake | main commit 19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0 + normal GPT review | context/GMOD_2026-10-07/*; manifests/gmod_2026-10-07/*; context/GMOD_CODEX_EVIDENCE_INTAKE_REVIEW_2026-10-07.md | high for traced Lua/source architecture; partial for unresolved native boundaries | 36,078-check metadata validation + direct source/IDA evidence review | no runtime implementation claimed | no | C01/C02 substantial partial; C03 partial. Broad investigation should not be repeated; use narrow gap-closure packet. |
 
+| E031 | 2026-10-07 | O00 golden Source bench preflight | normal GPT + Remote Desktop Commander | context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md; build/prepared/opus_o00_golden_bench_20261007.json | high for current source identity | current-machine SHA256 re-verification of MDL/VVD/DX90/PHY, QC/SMD and VMT/VTF/mask | no implementation performed | no | All required inputs match recorded provenance; historical mask omission/wood→metal collision fallback remain explicit failure risks; runtime visual/collision acceptance is still pending. |
+
 ## Intake rule for new evidence
 
 Every new Codex or Opus report should add or update an entry with:
