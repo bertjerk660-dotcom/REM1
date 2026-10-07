@@ -44,6 +44,7 @@ Before dispatching any item, check current repository evidence and recent commit
 - **O05 THUG2 full free-roam runtime** — WAITING FOR C04/C05/C08.
 - **O06 THUG2 animation/board-to-feet integration** — WAITING FOR C06.
 - **O07 THUG2 HUD/UI** — WAITING FOR C07 and event/state interfaces from C04.
+- **O07b THUG2 audio integration** — WAITING FOR C04/C06/C07 audio-event evidence or a narrow Codex audio addendum.
 - **O08 final model/asset placement and visual matching** — OPUS ONLY; consume staged assets/provenance.
 
 ## CODEX — RUNTIME / VALIDATION QUEUE
@@ -75,6 +76,10 @@ Legacy branches such as `runtime/astra-phase1-input92` remain historical candida
 8. **S08 stale-reference cleanup plan** — COMPLETE initial pass in `context/LEGACY_ROLE_PATH_MAP.md`.
 9. **S09 failure-history normalization** — COMPLETE initial pass in `context/FAILURE_LEDGER.md`.
 10. **S10 milestone/readiness rollup** — COMPLETE initial rollup in `context/MILESTONE_STATUS.md`; update as evidence lands.
+11. **S11 selective branch reconciliation plan** — COMPLETE initial classification in `context/SELECTIVE_BRANCH_RECONCILIATION_2026-10-07.md`; execute promotions only after hash/evidence checks.
+12. **S12 documentation authority map** — COMPLETE in `context/DOCUMENTATION_AUTHORITY_MAP.md`; use it for future conflict resolution.
+13. **S13 runtime packet hardening** — COMPLETE initial pass; all Codex test packs now require exact candidate/save/location/inventory/hashes and evidence capture.
+14. **S14 THUG2 audio implementation packet** — COMPLETE as a gated Opus packet; remains WAITING FOR CODEX evidence.
 
 ## BLOCKED
 
