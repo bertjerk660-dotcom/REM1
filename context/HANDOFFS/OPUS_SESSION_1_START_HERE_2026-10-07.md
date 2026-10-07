@@ -35,15 +35,25 @@ This is preparation readiness, not game-completion percentage.
 
 ## First implementation package
 
-### O01 — Toolgun presentation
+### O00 — Golden Source Bench conversion proof
 **READY FOR OPUS**
+
+Read:
+- `context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md`
+- `build/prepared/opus_o00_golden_bench_20261007.json`
+- `build/templates/OPUS_IMPLEMENTATION_MANIFEST_TEMPLATE.json`
+
+O00 exists to prove the Source→FNV model/material/collision pipeline in an isolated sidecar. Do not start weapon conversion until O00 passes its human/runtime gate.
+
+### O01 — Toolgun presentation
+**READY AFTER O00 PASS**
 
 Read:
 - `context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md`
 - `build/prepared/opus_o01_toolgun_presentation_20261007.json`
 - `build/templates/OPUS_IMPLEMENTATION_MANIFEST_TEMPLATE.json`
 
-O01 authorizes:
+After O00 passes, O01 authorizes:
 - authentic GMod c_toolgun first-person visual conversion/adaptation;
 - authentic w_toolgun third-person/world visual conversion/adaptation;
 - material/texture conversion;
