@@ -29,3 +29,17 @@ The final Tool Gun and Physics Gun must not be Fallout-authored recreations. GPT
 ## D-008 GMod notifications replace Fallout tool prompts
 Accepted: 2026-10-05.
 Normal Tool Gun/Physics Gun feedback and transient tool notifications should use a source-faithful port of Garry's Mod's own notification/bubble UI and related original scripts/assets where applicable. Fallout HUD notifications and Fallout-style popup menus must not be used as substitutes for GMod tool selection or normal GMod tool feedback.
+
+
+## D-GS-001 - Goodsprings response encounter uses an isolated support ESP + support NVSE DLL
+**Decision:** Keep the Goodsprings Combine/Deathclaw set-piece outside the protected main Astra runtime. Persistent encounter identities/placement live in `REM_Goodsprings_CombineDeathclawEncounter.esp`; only narrowly-scoped targeting/death/proximity behavior lives in `REMGoodspringsResponse.dll`.
+
+**Rationale:**
+- avoids modifying `FNVGModTHUG2.dll` for a support encounter;
+- keeps rollback trivial;
+- preserves ESP-owned actor/reference identity;
+- response Deathclaws are authored Unaggressive/factionless and are explicitly targeted only at the Combine guard;
+- Captain Claw owns Bethesda `RunToPlayerForever` persistently and is only enabled + EVP at runtime, so his approach uses normal pathfinding rather than teleporting;
+- a persistent global prevents duplicate reward delivery across save/load.
+
+**Validation rule:** The encounter is not considered playability-verified until a human observes the full Goodsprings combat, Captain approach, TTS/dialogue, and egg reward in-game.
