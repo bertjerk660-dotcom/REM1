@@ -2,6 +2,8 @@
 
 Current ownership: Codex investigates and runtime-validates; Claude Opus alone implements; normal GPT coordinates. Legacy GPT-6/Astra labels are historical only.
 
+Current exact branch heads and main-relative status: `context/QUARANTINED_BRANCH_INDEX_2026-10-08.md`. The classifications below remain useful; any old ahead/behind assumptions are superseded by that pinned index.
+
 ## Classification rules
 
 - CHERRY-PICK CANDIDATE — durable evidence/manifests that remain useful after current hash/path checks and ownership normalization.
