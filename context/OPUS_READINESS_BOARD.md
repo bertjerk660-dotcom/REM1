@@ -129,3 +129,29 @@ Use:
 - `build/prepared/opus_o08a_crowbar_presentation_20261007.json`
 
 This authorizes visual/model/material/attachment work only and begins only after O00 passes.
+
+
+## O08b/O08c presentation packages
+
+Both are **READY AFTER O00 PASS**.
+
+O08b Pistol:
+- c/w model families directly extracted from installed GMod VPK and matched staged hashes;
+- first/world material closure matched original Source VPKs;
+- packet: `context/HANDOFFS/OPUS_O08B_PISTOL_PRESENTATION_2026-10-07.md`.
+
+O08c SMG1:
+- c/w model families directly extracted and matched;
+- VMT/VTF closure verified;
+- missing `w_smg2specularmask.vtf` staging dependency repaired with the exact original archive file;
+- packet: `context/HANDOFFS/OPUS_O08C_SMG1_PRESENTATION_2026-10-07.md`.
+
+Unified local source validation:
+- O00/O01/O08a/O08b/O08c all PASS;
+- 87 files;
+- 0 errors;
+- report: `build/validation/opus_visual_source_validation_20261007.json`.
+
+## Path to 100% preparation
+Use `context/OPUS_READINESS_81_TO_100_PLAN_2026-10-07.md`.
+After the clean main-descended preparation branch is finalized, baseline readiness is 81/100 and the remaining 19 points are exclusively C01-C08 evidence gates.
