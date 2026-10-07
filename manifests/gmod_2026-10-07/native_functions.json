@@ -1,0 +1,2812 @@
+{
+  "schema": "rem.gmod.native_functions.v1",
+  "generated": "2026-10-07",
+  "required_ida_version": "6.8",
+  "verified_installed_file_version": "6.8.15.0423",
+  "runtime_modified": false,
+  "fresh_ida_execution_status": "actual_completed_both_copied_databases_ida_kernel_6.8",
+  "evidence_status": "partial_build_identified_native_contracts",
+  "proprietary_payload_committed": false,
+  "base_offset_note": "Image base0x10000000 verified by actual IDA6.8 pass for both modules. RVAs computed from verified base. File offsets joined from fresh metadata only; null offsets intentionally unresolved.",
+  "modules": [
+    {
+      "relative_path": "garrysmod/bin/client.dll",
+      "bytes": 8007496,
+      "sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "analysis_input": "C:\\IDA68WORK\\GMODCLIENT.dll",
+      "installed_input_hash_matches": true
+    },
+    {
+      "relative_path": "garrysmod/bin/server.dll",
+      "bytes": 11816784,
+      "sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "analysis_input": "C:\\IDA68WORK\\GMODSERVER.dll",
+      "installed_input_hash_matches": true
+    }
+  ],
+  "functions": [
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10103B60",
+      "rva": "0x103B60",
+      "file_offset": null,
+      "range_end_va": "0x10103E78",
+      "size_bytes": 792,
+      "ida_name": "sub_10103B60",
+      "authored_role": "controller_attachment_candidate",
+      "description": "Stores object/owner/target, local point and original pose; creates and attaches native motion controller; handles special vehicle and arrival cases.",
+      "confidence": "high_for_attachment_medium_for_full_weapon_ownership",
+      "callers": [],
+      "caller_coverage": "only_reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x100C32E0",
+        "0x100EAC80",
+        "0x1025E510",
+        "0x106F9360",
+        "0x107168EC"
+      ],
+      "indirect_call_sites": [
+        "0x10103B76",
+        "0x10103B8D",
+        "0x10103BC0",
+        "0x10103C0E",
+        "0x10103C23",
+        "0x10103C4B",
+        "0x10103CBF",
+        "0x10103CD2",
+        "0x10103CE7",
+        "0x10103CF5",
+        "0x10103D04",
+        "0x10103D11",
+        "0x10103D18",
+        "0x10103D27",
+        "0x10103D31",
+        "0x10103D6A",
+        "0x10103DF2",
+        "0x10103E03",
+        "0x10103E61"
+      ],
+      "strings": [
+        "CPhysGunControllerPoint already has con",
+        "prop_vehicle_jeep",
+        "prop_vehicle_jeep",
+        "prop_vehicle_jeep",
+        "prop_vehicle_jeep",
+        "prop_vehicle_apc",
+        "prop_vehicle_apc",
+        "prop_vehicle_jeep_old",
+        "prop_vehicle_jeep_old"
+      ],
+      "imported_apis": [
+        "Error"
+      ],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native physical object/controller/environment virtual interfaces; vtable owner names unresolved"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Stores object/owner/target, local point and original pose; creates and attaches native motion controller; handles special vehicle and arrival cases.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_phys_controller_methods_ida68.txt",
+      "source_evidence_sha256": "2EECC7CD089F43A548135ECBEE24A36BA74A8D42F6B1FF9A1173992C0E51E032",
+      "review_status": "directly_read_existing_ida68_export"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10103E80",
+      "rva": "0x103E80",
+      "file_offset": null,
+      "range_end_va": "0x10103FF1",
+      "size_bytes": 369,
+      "ida_name": "sub_10103E80",
+      "authored_role": "controller_detach_reset",
+      "description": "Optionally restores original physical-object properties/flags, destroys controller, clears handles and pointer.",
+      "confidence": "high_for_controller_teardown",
+      "callers": [
+        "0x10104710"
+      ],
+      "caller_coverage": "only_reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x1006C920",
+        "0x100C32E0",
+        "0x105E5580"
+      ],
+      "indirect_call_sites": [
+        "0x10103F21",
+        "0x10103F30",
+        "0x10103F7F",
+        "0x10103F92",
+        "0x10103FA6"
+      ],
+      "strings": [],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native physical object/controller/environment virtual interfaces; vtable owner names unresolved"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Optionally restores original physical-object properties/flags, destroys controller, clears handles and pointer.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_phys_controller_methods_ida68.txt",
+      "source_evidence_sha256": "2EECC7CD089F43A548135ECBEE24A36BA74A8D42F6B1FF9A1173992C0E51E032",
+      "review_status": "directly_read_existing_ida68_export"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10104000",
+      "rva": "0x104000",
+      "file_offset": null,
+      "range_end_va": "0x101040F8",
+      "size_bytes": 248,
+      "ida_name": "sub_10104000",
+      "authored_role": "target_position_update",
+      "description": "Computes transformed local attachment offset from physical-object pose, subtracts it from desired point, writes target translation.",
+      "confidence": "high_for_observed_math",
+      "callers": [],
+      "caller_coverage": "only_reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x100C32E0",
+        "0x100EAC80"
+      ],
+      "indirect_call_sites": [
+        "0x1010406E",
+        "0x1010407F",
+        "0x101040E2"
+      ],
+      "strings": [],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native physical object/controller/environment virtual interfaces; vtable owner names unresolved"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Computes transformed local attachment offset from physical-object pose, subtracts it from desired point, writes target translation.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_phys_controller_methods_ida68.txt",
+      "source_evidence_sha256": "2EECC7CD089F43A548135ECBEE24A36BA74A8D42F6B1FF9A1173992C0E51E032",
+      "review_status": "directly_read_existing_ida68_export"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10104100",
+      "rva": "0x104100",
+      "file_offset": null,
+      "range_end_va": "0x10104121",
+      "size_bytes": 33,
+      "ida_name": "sub_10104100",
+      "authored_role": "target_orientation_set",
+      "description": "Copies three floats to controller target-orientation storage when physical object exists.",
+      "confidence": "high_for_state_copy",
+      "callers": [],
+      "caller_coverage": "only_reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [],
+      "indirect_call_sites": [],
+      "strings": [],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native physical object/controller/environment virtual interfaces; vtable owner names unresolved"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Copies three floats to controller target-orientation storage when physical object exists.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_phys_controller_methods_ida68.txt",
+      "source_evidence_sha256": "2EECC7CD089F43A548135ECBEE24A36BA74A8D42F6B1FF9A1173992C0E51E032",
+      "review_status": "directly_read_existing_ida68_export"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10104130",
+      "rva": "0x104130",
+      "file_offset": null,
+      "range_end_va": "0x10104404",
+      "size_bytes": 724,
+      "ida_name": "sub_10104130",
+      "authored_role": "controller_simulation_candidate",
+      "description": "Assembles target pose, tuning scalars and arrival/timestep for physical-object virtual call; special vehicle angular adjustment; clears output vectors.",
+      "confidence": "high_for_parameterized_physics_update",
+      "callers": [],
+      "caller_coverage": "only_reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x1066D980",
+        "0x106F9360",
+        "0x107168EC"
+      ],
+      "indirect_call_sites": [
+        "0x10104143",
+        "0x1010414A",
+        "0x1010430D",
+        "0x101043C5"
+      ],
+      "strings": [],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native physical object/controller/environment virtual interfaces; vtable owner names unresolved"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Assembles target pose, tuning scalars and arrival/timestep for physical-object virtual call; special vehicle angular adjustment; clears output vectors.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_phys_controller_methods_ida68.txt",
+      "source_evidence_sha256": "2EECC7CD089F43A548135ECBEE24A36BA74A8D42F6B1FF9A1173992C0E51E032",
+      "review_status": "directly_read_existing_ida68_export"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10104410",
+      "rva": "0x104410",
+      "file_offset": null,
+      "range_end_va": "0x10104513",
+      "size_bytes": 259,
+      "ida_name": "sub_10104410",
+      "authored_role": "weapon_factory_candidate",
+      "description": "Allocates 0x1720 object, initializes vtable/handles/vectors, embeds controller at 0x16D0.",
+      "confidence": "medium_pending_server_registration",
+      "callers": [],
+      "caller_coverage": "only_reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x1006E310",
+        "0x10103A70",
+        "0x1025AE60",
+        "0x105E1E50"
+      ],
+      "indirect_call_sites": [
+        "0x101044F0",
+        "0x10104506"
+      ],
+      "strings": [],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native physical object/controller/environment virtual interfaces; vtable owner names unresolved"
+        }
+      ],
+      "vtables": [
+        "0x10785AFC"
+      ],
+      "pseudocode": null,
+      "pseudocode_narrative": "Allocates 0x1720 object, initializes vtable/handles/vectors, embeds controller at 0x16D0.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_phys_controller_methods_ida68.txt",
+      "source_evidence_sha256": "2EECC7CD089F43A548135ECBEE24A36BA74A8D42F6B1FF9A1173992C0E51E032",
+      "review_status": "directly_read_existing_ida68_export"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10104710",
+      "rva": "0x104710",
+      "file_offset": null,
+      "range_end_va": "0x1010487F",
+      "size_bytes": 367,
+      "ida_name": "sub_10104710",
+      "authored_role": "weapon_held_cleanup_candidate",
+      "description": "Invokes embedded controller detach and entity callbacks then clears held handle and local-hit vector.",
+      "confidence": "high_for_cleanup_medium_for_named_event",
+      "callers": [
+        "0x10104A50"
+      ],
+      "caller_coverage": "only_reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x1006E310",
+        "0x100E1D90",
+        "0x100E1E80",
+        "0x101038A0",
+        "0x10103E80",
+        "0x10104990",
+        "0x1014D000",
+        "0x10252E30"
+      ],
+      "indirect_call_sites": [
+        "0x1010472D",
+        "0x10104829"
+      ],
+      "strings": [],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native physical object/controller/environment virtual interfaces; vtable owner names unresolved"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Invokes embedded controller detach and entity callbacks then clears held handle and local-hit vector.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_phys_controller_methods_ida68.txt",
+      "source_evidence_sha256": "2EECC7CD089F43A548135ECBEE24A36BA74A8D42F6B1FF9A1173992C0E51E032",
+      "review_status": "directly_read_existing_ida68_export"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10104990",
+      "rva": "0x104990",
+      "file_offset": null,
+      "range_end_va": "0x101049BB",
+      "size_bytes": 43,
+      "ida_name": "sub_10104990",
+      "authored_role": "m_hGrabbedEntity_resolver",
+      "description": "Resolves network-named heldentity field1698 usingindex/serial checks.",
+      "confidence": "high_for_handle_resolution",
+      "callers": [
+        "0x10104710",
+        "0x10104A50"
+      ],
+      "caller_coverage": "only_reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [],
+      "indirect_call_sites": [],
+      "strings": [],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native physical object/controller/environment virtual interfaces; vtable owner names unresolved"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Resolves member0x1698 through entity index/serial.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_phys_controller_methods_ida68.txt",
+      "source_evidence_sha256": "2EECC7CD089F43A548135ECBEE24A36BA74A8D42F6B1FF9A1173992C0E51E032",
+      "review_status": "directly_read_existing_ida68_export"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x101049C0",
+      "rva": "0x1049C0",
+      "file_offset": null,
+      "range_end_va": "0x101049C6",
+      "size_bytes": 6,
+      "ida_name": "sub_101049C0",
+      "authored_role": "physgun_name_getter",
+      "description": "Returns literal physgun.",
+      "confidence": "high_for_string_return",
+      "callers": [],
+      "caller_coverage": "only_reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [],
+      "indirect_call_sites": [],
+      "strings": [
+        "physgun"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native physical object/controller/environment virtual interfaces; vtable owner names unresolved"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Returns literal physgun.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_phys_controller_methods_ida68.txt",
+      "source_evidence_sha256": "2EECC7CD089F43A548135ECBEE24A36BA74A8D42F6B1FF9A1173992C0E51E032",
+      "review_status": "directly_read_existing_ida68_export"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x101049D0",
+      "rva": "0x1049D0",
+      "file_offset": null,
+      "range_end_va": "0x101049FB",
+      "size_bytes": 43,
+      "ida_name": "sub_101049D0",
+      "authored_role": "m_hPhysBeam_resolver",
+      "description": "Resolves network-named beam field169C usingindex/serial checks.",
+      "confidence": "high_for_handle_resolution",
+      "callers": [],
+      "caller_coverage": "only_reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [],
+      "indirect_call_sites": [],
+      "strings": [],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native physical object/controller/environment virtual interfaces; vtable owner names unresolved"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Resolves member0x169C through entity index/serial.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_phys_controller_methods_ida68.txt",
+      "source_evidence_sha256": "2EECC7CD089F43A548135ECBEE24A36BA74A8D42F6B1FF9A1173992C0E51E032",
+      "review_status": "directly_read_existing_ida68_export"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x10038E00",
+      "rva": "0x38E00",
+      "file_offset": "0x38200",
+      "range_end_va": "0x10038E21",
+      "size_bytes": 33,
+      "ida_name": "sub_10038E00",
+      "authored_role": "weapon_class_registration",
+      "description": "Registers weapon_physgun and CWeaponPhysGun with allocation0x18C8 and callback100B7E00 through factory vtable slot4.",
+      "confidence": "high_for_registration",
+      "callers": [],
+      "caller_coverage": "not_available_in_read_export_prefix",
+      "direct_callees_or_tail_targets": [
+        "0x101D61E0"
+      ],
+      "callee_coverage": "complete_for_small_registration",
+      "strings": [
+        "weapon_physgun",
+        "CWeaponPhysGun"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Unlabeled virtual factory/interface"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Registers weapon_physgun and CWeaponPhysGun with allocation0x18C8 and callback100B7E00 through factory vtable slot4.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_GMODCLIENT_dll_physgun_ida68.txt",
+      "source_evidence_sha256": "2F09F0D3999A2F593BEDE9EACB5B27FEBD84B1F578EDF6328DE306437F0554D7",
+      "review_status": "directly_read_export_first100_lines",
+      "chunks": [
+        {
+          "end_va": "0x10038E21",
+          "start_va": "0x10038E00"
+        }
+      ],
+      "chunk_size_bytes": 33,
+      "fresh_direct_caller_sites": [],
+      "fresh_direct_callees": [
+        "0x101D61E0"
+      ],
+      "fresh_indirect_call_sites": [
+        "0x10038E1D"
+      ],
+      "fresh_metadata_source": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "fresh_metadata_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x10039090",
+      "rva": "0x39090",
+      "file_offset": "0x38490",
+      "range_end_va": "0x100390A5",
+      "size_bytes": 21,
+      "ida_name": "sub_10039090",
+      "authored_role": "weapon_registry_registration",
+      "description": "Named weapon registration through10269F90 with callback1026A020 and registry107227B4.",
+      "confidence": "high_for_registration",
+      "callers": [],
+      "caller_coverage": "not_available_in_read_export_prefix",
+      "direct_callees_or_tail_targets": [
+        "0x10269F90"
+      ],
+      "callee_coverage": "complete_for_small_registration",
+      "strings": [
+        "weapon_physgun"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Unlabeled virtual factory/interface"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Named weapon registration through10269F90 with callback1026A020 and registry107227B4.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_GMODCLIENT_dll_physgun_ida68.txt",
+      "source_evidence_sha256": "2F09F0D3999A2F593BEDE9EACB5B27FEBD84B1F578EDF6328DE306437F0554D7",
+      "review_status": "directly_read_export_first100_lines",
+      "chunks": [
+        {
+          "end_va": "0x100390A5",
+          "start_va": "0x10039090"
+        }
+      ],
+      "chunk_size_bytes": 21,
+      "fresh_direct_caller_sites": [],
+      "fresh_direct_callees": [
+        "0x10269F90"
+      ],
+      "fresh_indirect_call_sites": [],
+      "fresh_metadata_source": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "fresh_metadata_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x10065390",
+      "rva": "0x65390",
+      "file_offset": "0x64790",
+      "range_end_va": "0x100653BA",
+      "size_bytes": 42,
+      "ida_name": "sub_10065390",
+      "authored_role": "default_weapon_convar_registration",
+      "description": "Registers cl_defaultweapon valueweapon_physgun; default spawn weapon description and flags0x280.",
+      "confidence": "high_for_registration",
+      "callers": [],
+      "caller_coverage": "not_available_in_read_export_prefix",
+      "direct_callees_or_tail_targets": [
+        "0x1047AC60",
+        "0x10500F70"
+      ],
+      "callee_coverage": "complete_for_small_registration",
+      "strings": [
+        "cl_defaultweapon",
+        "weapon_physgun",
+        "Default Spawn Weapon"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Unlabeled virtual factory/interface"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Registers cl_defaultweapon valueweapon_physgun; default spawn weapon description and flags0x280.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_GMODCLIENT_dll_physgun_ida68.txt",
+      "source_evidence_sha256": "2F09F0D3999A2F593BEDE9EACB5B27FEBD84B1F578EDF6328DE306437F0554D7",
+      "review_status": "directly_read_export_first100_lines",
+      "chunks": [
+        {
+          "end_va": "0x100653BA",
+          "start_va": "0x10065390"
+        }
+      ],
+      "chunk_size_bytes": 42,
+      "fresh_direct_caller_sites": [],
+      "fresh_direct_callees": [
+        "0x1047AC60",
+        "0x10500F70"
+      ],
+      "fresh_indirect_call_sites": [],
+      "fresh_metadata_source": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "fresh_metadata_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x100B6980",
+      "rva": "0xB6980",
+      "file_offset": "0xB5D80",
+      "range_end_va": "0x100B7219",
+      "size_bytes": 2201,
+      "ida_name": "sub_100B6980",
+      "authored_role": "client_physgun_consumer_candidate",
+      "description": "Observed prefix performs handle resolution/RTTI/vtable calls and export identifies weapon_physgun comparison100B6A4C; body not completely reviewed.",
+      "confidence": "medium_candidate_partial_body",
+      "callers": [],
+      "caller_coverage": "not_available_in_read_export_prefix",
+      "direct_callees_or_tail_targets": [
+        "0x10082020",
+        "0x100AA690",
+        "0x100AA8A0",
+        "0x100B6060",
+        "0x100B60B0",
+        "0x100B6240",
+        "0x100B65A0",
+        "0x100B67B0",
+        "0x100B7580",
+        "0x100B7920",
+        "0x100B7960",
+        "0x100B7A20",
+        "0x10117FF0",
+        "0x10137D90",
+        "0x1015AFE0",
+        "0x1018AAA0",
+        "0x1018CFA0",
+        "0x1019F4F0",
+        "0x102AC310",
+        "0x103AC430",
+        "0x103B2590",
+        "0x10479A40",
+        "0x1047B030",
+        "0x1047BA80",
+        "0x1050104A",
+        "0x10501094",
+        "0x10503308",
+        "0x10517C38",
+        "0x105193AB"
+      ],
+      "callee_coverage": "whole_export_structural_metadata_semantics_prefix_review",
+      "strings": [
+        "weapon_physgun"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Unlabeled virtual factory/interface"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Observed prefix performs handle resolution/RTTI/vtable calls and export identifies weapon_physgun comparison100B6A4C; body not completely reviewed.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_GMODCLIENT_dll_physgun_ida68.txt",
+      "source_evidence_sha256": "2F09F0D3999A2F593BEDE9EACB5B27FEBD84B1F578EDF6328DE306437F0554D7",
+      "review_status": "directly_reviewed_prefix_and_recovered_full_export",
+      "chunks": [
+        {
+          "end_va": "0x100B7219",
+          "start_va": "0x100B6980"
+        }
+      ],
+      "chunk_size_bytes": 2201,
+      "fresh_direct_caller_sites": [],
+      "fresh_direct_callees": [
+        "0x10082020",
+        "0x100AA690",
+        "0x100AA8A0",
+        "0x100B6060",
+        "0x100B60B0",
+        "0x100B6240",
+        "0x100B65A0",
+        "0x100B67B0",
+        "0x100B7580",
+        "0x100B7920",
+        "0x100B7960",
+        "0x100B7A20",
+        "0x10117FF0",
+        "0x10137D90",
+        "0x1015AFE0",
+        "0x1018AAA0",
+        "0x1018CFA0",
+        "0x1019F4F0",
+        "0x102AC310",
+        "0x103AC430",
+        "0x103B2590",
+        "0x10479A40",
+        "0x1047B030",
+        "0x1047BA80",
+        "0x1050104A",
+        "0x10501094",
+        "0x10503308",
+        "0x10517C38",
+        "0x105193AB"
+      ],
+      "fresh_indirect_call_sites": [
+        "0x100B6A0E",
+        "0x100B6A35",
+        "0x100B6A6F",
+        "0x100B6AC9",
+        "0x100B6B03",
+        "0x100B6B29",
+        "0x100B6BA8",
+        "0x100B6BD9",
+        "0x100B6BF5",
+        "0x100B6CDF",
+        "0x100B6CE9",
+        "0x100B6D3B",
+        "0x100B6D9E",
+        "0x100B6DDC",
+        "0x100B6E64",
+        "0x100B6F5B",
+        "0x100B703B",
+        "0x100B709C",
+        "0x100B7101",
+        "0x100B71C0",
+        "0x100B71D0"
+      ],
+      "fresh_metadata_source": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "fresh_metadata_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x100063A0",
+      "rva": "0x63A0",
+      "file_offset": "0x57A0",
+      "range_end_va": "0x100064B6",
+      "size_bytes": 278,
+      "ida_name": "sub_100063A0",
+      "authored_role": "DT_WeaponPhysGun_network_registration",
+      "description": "Registers beam169C, local_hit16A0, held_entity1698; class DT_WeaponPhysGun.",
+      "confidence": "high_for_named_network_field_offsets",
+      "callers": [],
+      "caller_coverage": "reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x102AA2E0",
+        "0x102AA600",
+        "0x102AA7B0",
+        "0x102AA940",
+        "0x103A0520",
+        "0x10706B0B",
+        "0x10706C08",
+        "0x10706C52"
+      ],
+      "indirect_call_sites": [],
+      "strings": [
+        "should_never_see_this",
+        "baseclass",
+        "m_hPhysBeam",
+        "m_vHitPosLocal",
+        "m_hGrabbedEntity"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native vtable interfaces pending labels"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Registers beam169C, local_hit16A0, held_entity1698; class DT_WeaponPhysGun.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_GMODSERVER_dll_physgun_ida68.txt",
+      "source_evidence_sha256": "4CA27607660E3C1DE8A709E31B4E666B71D3855E2AA85D7DAA4C127B46F616BC",
+      "review_status": "directly_read_existing_ida68_full_export",
+      "chunks": [
+        {
+          "end_va": "0x100064B6",
+          "start_va": "0x100063A0"
+        }
+      ],
+      "chunk_size_bytes": 278,
+      "fresh_direct_caller_sites": [],
+      "fresh_direct_callees": [
+        "0x102AA2E0",
+        "0x102AA600",
+        "0x102AA7B0",
+        "0x102AA940",
+        "0x103A0520",
+        "0x10706B0B",
+        "0x10706C08",
+        "0x10706C52"
+      ],
+      "fresh_indirect_call_sites": [],
+      "fresh_metadata_source": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "fresh_metadata_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10006580",
+      "rva": "0x6580",
+      "file_offset": "0x5980",
+      "range_end_va": "0x10006595",
+      "size_bytes": 21,
+      "ida_name": "sub_10006580",
+      "authored_role": "weapon_name_registry",
+      "description": "Registers weapon_physgun template callback1036C1C0.",
+      "confidence": "high_for_registration",
+      "callers": [],
+      "caller_coverage": "reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x1036C140"
+      ],
+      "indirect_call_sites": [],
+      "strings": [
+        "weapon_physgun"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native vtable interfaces pending labels"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Registers weapon_physgun template callback1036C1C0.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_GMODSERVER_dll_physgun_ida68.txt",
+      "source_evidence_sha256": "4CA27607660E3C1DE8A709E31B4E666B71D3855E2AA85D7DAA4C127B46F616BC",
+      "review_status": "directly_read_existing_ida68_full_export",
+      "chunks": [
+        {
+          "end_va": "0x10006595",
+          "start_va": "0x10006580"
+        }
+      ],
+      "chunk_size_bytes": 21,
+      "fresh_direct_caller_sites": [],
+      "fresh_direct_callees": [
+        "0x1036C140"
+      ],
+      "fresh_indirect_call_sites": [],
+      "fresh_metadata_source": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "fresh_metadata_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x100065A0",
+      "rva": "0x65A0",
+      "file_offset": "0x59A0",
+      "range_end_va": "0x100065B6",
+      "size_bytes": 22,
+      "ida_name": "sub_100065A0",
+      "authored_role": "weapon_factory_registry",
+      "description": "Registers weapon_physgun factorymetadata10987458.",
+      "confidence": "high_for_registration",
+      "callers": [],
+      "caller_coverage": "reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x103D18E0"
+      ],
+      "indirect_call_sites": [
+        "0x100065B3"
+      ],
+      "strings": [
+        "weapon_physgun"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native vtable interfaces pending labels"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Registers weapon_physgun factorymetadata10987458.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_GMODSERVER_dll_physgun_ida68.txt",
+      "source_evidence_sha256": "4CA27607660E3C1DE8A709E31B4E666B71D3855E2AA85D7DAA4C127B46F616BC",
+      "review_status": "directly_read_existing_ida68_full_export",
+      "chunks": [
+        {
+          "end_va": "0x100065B6",
+          "start_va": "0x100065A0"
+        }
+      ],
+      "chunk_size_bytes": 22,
+      "fresh_direct_caller_sites": [],
+      "fresh_direct_callees": [
+        "0x103D18E0"
+      ],
+      "fresh_indirect_call_sites": [
+        "0x100065B3"
+      ],
+      "fresh_metadata_source": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "fresh_metadata_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10104A50",
+      "rva": "0x104A50",
+      "file_offset": "0x103E50",
+      "range_end_va": "0x10105038",
+      "size_bytes": 1512,
+      "ida_name": "sub_10104A50",
+      "authored_role": "held_input_consumer",
+      "description": "Checks input2000/800 dispatchslots520/530; held(current&801)==1 calls52C, usesheldgetter; use20 manipulation with mouseaxes/wheel/distanceclamps; targetposition updates andcalls10105F90/10105B20; otherwisecleanup.",
+      "confidence": "high_for_observed_input_stateflow_medium_for_named_virtual_attacks",
+      "callers": [],
+      "caller_coverage": "reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x10104530",
+        "0x10104710",
+        "0x10104880",
+        "0x10104990",
+        "0x10105B20",
+        "0x10105F90",
+        "0x10252E30",
+        "0x10356A40",
+        "0x1066D360",
+        "0x1066DB90",
+        "0x10670780",
+        "0x10672990",
+        "0x10672A90",
+        "0x10674040",
+        "0x106F9360",
+        "0x107168EC"
+      ],
+      "indirect_call_sites": [
+        "0x10104A79",
+        "0x10104A8D",
+        "0x10104AA8",
+        "0x10104ABD",
+        "0x10104ADF",
+        "0x10104CC3",
+        "0x10104D39",
+        "0x10104E1D",
+        "0x10104E54",
+        "0x10104E85",
+        "0x10104FD1"
+      ],
+      "strings": [
+        "physgun_rotation_sensitivity",
+        "physgun_wheelspeed"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native vtable interfaces pending labels"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Checks input2000/800 dispatchslots520/530; held(current&801)==1 calls52C, usesheldgetter; use20 manipulation with mouseaxes/wheel/distanceclamps; targetposition updates andcalls10105F90/10105B20; otherwisecleanup.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_GMODSERVER_dll_physgun_ida68.txt",
+      "source_evidence_sha256": "4CA27607660E3C1DE8A709E31B4E666B71D3855E2AA85D7DAA4C127B46F616BC",
+      "review_status": "directly_read_existing_ida68_full_export",
+      "chunks": [
+        {
+          "end_va": "0x10105038",
+          "start_va": "0x10104A50"
+        }
+      ],
+      "chunk_size_bytes": 1512,
+      "fresh_direct_caller_sites": [],
+      "fresh_direct_callees": [
+        "0x10104530",
+        "0x10104710",
+        "0x10104880",
+        "0x10104990",
+        "0x10105B20",
+        "0x10105F90",
+        "0x10252E30",
+        "0x10356A40",
+        "0x1066D360",
+        "0x1066DB90",
+        "0x10670780",
+        "0x10672990",
+        "0x10672A90",
+        "0x10674040",
+        "0x106F9360",
+        "0x107168EC"
+      ],
+      "fresh_indirect_call_sites": [
+        "0x10104A79",
+        "0x10104A8D",
+        "0x10104AA8",
+        "0x10104ABD",
+        "0x10104ADF",
+        "0x10104CC3",
+        "0x10104D39",
+        "0x10104E1D",
+        "0x10104E54",
+        "0x10104E85",
+        "0x10104FD1"
+      ],
+      "fresh_metadata_source": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "fresh_metadata_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x101037B0",
+      "rva": "0x1037B0",
+      "file_offset": "0x102BB0",
+      "range_end_va": "0x1010389A",
+      "size_bytes": 234,
+      "ida_name": "sub_101037B0",
+      "authored_role": "beam_entity_create",
+      "description": "Creates physgun_beam, RTTIvalidates andconfiguresowner/flags/bounds.",
+      "confidence": "high_for_named_beam_creation",
+      "callers": [],
+      "caller_coverage": "reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x1025EF40",
+        "0x1025F2F0",
+        "0x10268980",
+        "0x1026B860",
+        "0x1029CA90",
+        "0x103D5C60",
+        "0x10708329"
+      ],
+      "indirect_call_sites": [
+        "0x10103870",
+        "0x1010387C"
+      ],
+      "strings": [
+        "physgun_beam"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native vtable interfaces pending labels"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Creates physgun_beam, RTTIvalidates andconfiguresowner/flags/bounds.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_GMODSERVER_dll_physgun_ida68.txt",
+      "source_evidence_sha256": "4CA27607660E3C1DE8A709E31B4E666B71D3855E2AA85D7DAA4C127B46F616BC",
+      "review_status": "directly_read_existing_ida68_full_export",
+      "chunks": [
+        {
+          "end_va": "0x1010389A",
+          "start_va": "0x101037B0"
+        }
+      ],
+      "chunk_size_bytes": 234,
+      "fresh_direct_caller_sites": [
+        "0x1010467B"
+      ],
+      "fresh_direct_callees": [
+        "0x1025EF40",
+        "0x1025F2F0",
+        "0x10268980",
+        "0x1026B860",
+        "0x1029CA90",
+        "0x103D5C60",
+        "0x10708329"
+      ],
+      "fresh_indirect_call_sites": [
+        "0x10103870",
+        "0x1010387C"
+      ],
+      "fresh_metadata_source": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "fresh_metadata_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x101032D0",
+      "rva": "0x1032D0",
+      "file_offset": "0x1026D0",
+      "range_end_va": "0x101037B0",
+      "size_bytes": 1248,
+      "ida_name": "sub_101032D0",
+      "authored_role": "beam_owner_aim_trace_candidate",
+      "description": "Owner-derived aimtrace usingmaxrange, mask600400B, nativeinterface10 and storesendpoint13D0; notprovenweaponacquisition.",
+      "confidence": "high_for_trace_medium_for_weapon_acquisition_relationship",
+      "callers": [],
+      "caller_coverage": "reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x1023C390",
+        "0x1024D650",
+        "0x1025D770",
+        "0x1027BD40",
+        "0x1030B770",
+        "0x103D64C0",
+        "0x1066D980",
+        "0x106F8A90",
+        "0x106F9360",
+        "0x10706C08",
+        "0x10706C52",
+        "0x10708329",
+        "0x107168EC",
+        "0x10717D5A"
+      ],
+      "indirect_call_sites": [
+        "0x10103331",
+        "0x101033D3",
+        "0x1010341E",
+        "0x101035A4",
+        "0x101035D1",
+        "0x101036E3"
+      ],
+      "strings": [
+        "physgun_maxrange"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native vtable interfaces pending labels"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Owner-derived aimtrace usingmaxrange, mask600400B, nativeinterface10 and storesendpoint13D0; notprovenweaponacquisition.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_GMODSERVER_dll_physgun_ida68.txt",
+      "source_evidence_sha256": "4CA27607660E3C1DE8A709E31B4E666B71D3855E2AA85D7DAA4C127B46F616BC",
+      "review_status": "directly_read_existing_ida68_full_export",
+      "chunks": [
+        {
+          "end_va": "0x101037B0",
+          "start_va": "0x101032D0"
+        }
+      ],
+      "chunk_size_bytes": 1248,
+      "fresh_direct_caller_sites": [
+        "0x10103A5E"
+      ],
+      "fresh_direct_callees": [
+        "0x1023C390",
+        "0x1024D650",
+        "0x1025D770",
+        "0x1027BD40",
+        "0x1030B770",
+        "0x103D64C0",
+        "0x1066D980",
+        "0x106F8A90",
+        "0x106F9360",
+        "0x10706C08",
+        "0x10706C52",
+        "0x10708329",
+        "0x107168EC",
+        "0x10717D5A"
+      ],
+      "fresh_indirect_call_sites": [
+        "0x10103331",
+        "0x101033D3",
+        "0x1010341E",
+        "0x101035A4",
+        "0x101035D1",
+        "0x101036E3"
+      ],
+      "fresh_metadata_source": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "fresh_metadata_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x10038E70",
+      "rva": "0x38E70",
+      "file_offset": "0x38270",
+      "range_end_va": "0x10038F60",
+      "size_bytes": 240,
+      "ida_name": "sub_10038E70",
+      "authored_role": "DT_WeaponPhysGun_receive_registration",
+      "description": "Named receiveentriesheld18A8, beam18AC, localhit18B0.",
+      "confidence": "high_for_named_receive_offsets",
+      "callers": [],
+      "caller_coverage": "reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x101FF1C0",
+        "0x101FF400",
+        "0x101FF520",
+        "0x101FF620",
+        "0x1027CD10",
+        "0x1050104A",
+        "0x10501094"
+      ],
+      "indirect_call_sites": [],
+      "strings": [
+        "DT_WeaponPhysGun",
+        "should_never_see_this",
+        "baseclass",
+        "m_hPhysBeam",
+        "m_vHitPosLocal",
+        "m_hGrabbedEntity"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native vtable interfaces pending labels"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Named receiveentriesheld18A8, beam18AC, localhit18B0.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_GMODCLIENT_dll_physgun_ida68.txt",
+      "source_evidence_sha256": "2F09F0D3999A2F593BEDE9EACB5B27FEBD84B1F578EDF6328DE306437F0554D7",
+      "review_status": "directly_read_existing_ida68_full_export",
+      "chunks": [
+        {
+          "end_va": "0x10038F60",
+          "start_va": "0x10038E70"
+        }
+      ],
+      "chunk_size_bytes": 240,
+      "fresh_direct_caller_sites": [],
+      "fresh_direct_callees": [
+        "0x101FF1C0",
+        "0x101FF400",
+        "0x101FF520",
+        "0x101FF620",
+        "0x1027CD10",
+        "0x1050104A",
+        "0x10501094"
+      ],
+      "fresh_indirect_call_sites": [],
+      "fresh_metadata_source": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "fresh_metadata_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x100B7990",
+      "rva": "0xB7990",
+      "file_offset": "0xB6D90",
+      "range_end_va": "0x100B7A07",
+      "size_bytes": 119,
+      "ida_name": "sub_100B7990",
+      "authored_role": "physbeam_glow_resource_initialization",
+      "description": "Initializes sprites/physg_glow1/2 and sprites/physbeam.vmt/physbeama.vmt via material-like virtualinterface34.",
+      "confidence": "high_for_exact_original_material_references",
+      "callers": [],
+      "caller_coverage": "reviewed_export_subset_incomplete",
+      "direct_callees_or_tail_targets": [
+        "0x10190390",
+        "0x10486650"
+      ],
+      "indirect_call_sites": [
+        "0x100B79E1",
+        "0x100B79F9"
+      ],
+      "strings": [
+        "ClientEffect textures",
+        "sprites/physg_glow1",
+        "ClientEffect textures",
+        "sprites/physg_glow2",
+        "sprites/physbeam.vmt",
+        "sprites/physbeama.vmt"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [
+        {
+          "identity": null,
+          "description": "Native vtable interfaces pending labels"
+        }
+      ],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": "Initializes sprites/physg_glow1/2 and sprites/physbeam.vmt/physbeama.vmt via material-like virtualinterface34.",
+      "source_evidence_path": "C:\\IDA68WORK\\GMOD_GMODCLIENT_dll_physgun_ida68.txt",
+      "source_evidence_sha256": "2F09F0D3999A2F593BEDE9EACB5B27FEBD84B1F578EDF6328DE306437F0554D7",
+      "review_status": "directly_read_existing_ida68_full_export",
+      "chunks": [
+        {
+          "end_va": "0x100B7A07",
+          "start_va": "0x100B7990"
+        }
+      ],
+      "chunk_size_bytes": 119,
+      "fresh_direct_caller_sites": [],
+      "fresh_direct_callees": [
+        "0x10190390",
+        "0x10486650"
+      ],
+      "fresh_indirect_call_sites": [
+        "0x100B79E1",
+        "0x100B79F9"
+      ],
+      "fresh_metadata_source": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "fresh_metadata_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x10038C30",
+      "rva": "0x38C30",
+      "file_offset": "0x38030",
+      "range_end_va": "0x10038C51",
+      "size_bytes": 33,
+      "chunk_size_bytes": 33,
+      "chunks": [
+        {
+          "end_va": "0x10038C51",
+          "start_va": "0x10038C30"
+        }
+      ],
+      "ida_name": "sub_10038C30",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x101D61E0"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [
+        "0x10038C4D"
+      ],
+      "strings": [
+        "CPhysBeam",
+        "physgun_beam"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "source_evidence_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x10038CA0",
+      "rva": "0x38CA0",
+      "file_offset": "0x380A0",
+      "range_end_va": "0x10038DA8",
+      "size_bytes": 264,
+      "chunk_size_bytes": 264,
+      "chunks": [
+        {
+          "end_va": "0x10038DA8",
+          "start_va": "0x10038CA0"
+        }
+      ],
+      "ida_name": "sub_10038CA0",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x101FF1C0",
+        "0x101FF400",
+        "0x101FF520",
+        "0x101FF620",
+        "0x1027CCC0",
+        "0x1027CD10",
+        "0x1050104A",
+        "0x10501094"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [],
+      "strings": [
+        "DT_PhysBeam"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "source_evidence_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x10038F60",
+      "rva": "0x38F60",
+      "file_offset": "0x38360",
+      "range_end_va": "0x10038FA2",
+      "size_bytes": 66,
+      "chunk_size_bytes": 66,
+      "chunks": [
+        {
+          "end_va": "0x10038FA2",
+          "start_va": "0x10038F60"
+        }
+      ],
+      "ida_name": "sub_10038F60",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x1047AE00",
+        "0x10500F70"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [],
+      "strings": [
+        "physgun_maxrange"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "source_evidence_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x10038FF0",
+      "rva": "0x38FF0",
+      "file_offset": "0x383F0",
+      "range_end_va": "0x10039037",
+      "size_bytes": 71,
+      "chunk_size_bytes": 71,
+      "chunks": [
+        {
+          "end_va": "0x10039037",
+          "start_va": "0x10038FF0"
+        }
+      ],
+      "ida_name": "sub_10038FF0",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x1047AE70",
+        "0x10500F70"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [],
+      "strings": [
+        "physgun_rotation_sensitivity"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "source_evidence_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x10039040",
+      "rva": "0x39040",
+      "file_offset": "0x38440",
+      "range_end_va": "0x10039087",
+      "size_bytes": 71,
+      "chunk_size_bytes": 71,
+      "chunks": [
+        {
+          "end_va": "0x10039087",
+          "start_va": "0x10039040"
+        }
+      ],
+      "ida_name": "sub_10039040",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x1047AE70",
+        "0x10500F70"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [],
+      "strings": [
+        "physgun_wheelspeed"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "source_evidence_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x100B6240",
+      "rva": "0xB6240",
+      "file_offset": "0xB5640",
+      "range_end_va": "0x100B659A",
+      "size_bytes": 858,
+      "chunk_size_bytes": 858,
+      "chunks": [
+        {
+          "end_va": "0x100B659A",
+          "start_va": "0x100B6240"
+        }
+      ],
+      "ida_name": "sub_100B6240",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x100B6060",
+        "0x100B7A20",
+        "0x1015A190",
+        "0x103AC430",
+        "0x1047B030",
+        "0x1047BA80",
+        "0x1050104A",
+        "0x10501094",
+        "0x10503308",
+        "0x10517C38"
+      ],
+      "fresh_direct_caller_sites": [
+        "0x100B6C73"
+      ],
+      "indirect_call_sites": [
+        "0x100B628E",
+        "0x100B62BD",
+        "0x100B62E4",
+        "0x100B62F4",
+        "0x100B6356",
+        "0x100B63A1",
+        "0x100B641C",
+        "0x100B64AB",
+        "0x100B651D"
+      ],
+      "strings": [
+        "physgun_maxrange"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "source_evidence_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x100CE610",
+      "rva": "0xCE610",
+      "file_offset": "0xCDA10",
+      "range_end_va": "0x100CE9C1",
+      "size_bytes": 945,
+      "chunk_size_bytes": 945,
+      "chunks": [
+        {
+          "end_va": "0x100CE9C1",
+          "start_va": "0x100CE610"
+        }
+      ],
+      "ida_name": "sub_100CE610",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x100709B0",
+        "0x10089890",
+        "0x1013B9B0",
+        "0x10241770",
+        "0x1048B230",
+        "0x1049C560",
+        "0x104A1530",
+        "0x104A2C70",
+        "0x104AAF90",
+        "0x104AB2B0",
+        "0x104AD7F0",
+        "0x104B00D0",
+        "0x104B8DA0",
+        "0x104B93D0",
+        "0x104BDD30",
+        "0x104BE450",
+        "0x10528000"
+      ],
+      "fresh_direct_caller_sites": [
+        "0x100CEBAA"
+      ],
+      "indirect_call_sites": [
+        "0x100CE826",
+        "0x100CE839"
+      ],
+      "strings": [
+        "ModelImage"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "source_evidence_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "va": "0x1033B250",
+      "rva": "0x33B250",
+      "file_offset": "0x33A650",
+      "range_end_va": "0x1033B35E",
+      "size_bytes": 270,
+      "chunk_size_bytes": 270,
+      "chunks": [
+        {
+          "end_va": "0x1033B35E",
+          "start_va": "0x1033B250"
+        }
+      ],
+      "ida_name": "sub_1033B250",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x101D8B60",
+        "0x1029E470"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [
+        "0x1033B294",
+        "0x1033B355"
+      ],
+      "strings": [
+        "sprites/physbeam.vmt"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "source_evidence_sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10005F90",
+      "rva": "0x5F90",
+      "file_offset": "0x5390",
+      "range_end_va": "0x1000600E",
+      "size_bytes": 126,
+      "chunk_size_bytes": 126,
+      "chunks": [
+        {
+          "end_va": "0x1000600E",
+          "start_va": "0x10005F90"
+        }
+      ],
+      "ida_name": "sub_10005F90",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x107169B0"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [],
+      "strings": [
+        "CPhysBeam"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10006160",
+      "rva": "0x6160",
+      "file_offset": "0x5560",
+      "range_end_va": "0x10006176",
+      "size_bytes": 22,
+      "chunk_size_bytes": 22,
+      "chunks": [
+        {
+          "end_va": "0x10006176",
+          "start_va": "0x10006160"
+        }
+      ],
+      "ida_name": "sub_10006160",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x103D18E0"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [
+        "0x10006173"
+      ],
+      "strings": [
+        "physgun_beam"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10006300",
+      "rva": "0x6300",
+      "file_offset": "0x5700",
+      "range_end_va": "0x1000637E",
+      "size_bytes": 126,
+      "chunk_size_bytes": 126,
+      "chunks": [
+        {
+          "end_va": "0x1000637E",
+          "start_va": "0x10006300"
+        }
+      ],
+      "ida_name": "sub_10006300",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x107169B0"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [],
+      "strings": [
+        "CWeaponPhysGun"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x100064F0",
+      "rva": "0x64F0",
+      "file_offset": "0x58F0",
+      "range_end_va": "0x10006532",
+      "size_bytes": 66,
+      "chunk_size_bytes": 66,
+      "chunks": [
+        {
+          "end_va": "0x10006532",
+          "start_va": "0x100064F0"
+        }
+      ],
+      "ida_name": "sub_100064F0",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x106F8860",
+        "0x10706B0B"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [],
+      "strings": [
+        "physgun_maxrange"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x1006DB20",
+      "rva": "0x6DB20",
+      "file_offset": "0x6CF20",
+      "range_end_va": "0x1006DCC4",
+      "size_bytes": 420,
+      "chunk_size_bytes": 420,
+      "chunks": [
+        {
+          "end_va": "0x1006DCC4",
+          "start_va": "0x1006DB20"
+        }
+      ],
+      "ida_name": "sub_1006DB20",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x10248240",
+        "0x1034F070"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [
+        "0x1006DBFA",
+        "0x1006DC0B",
+        "0x1006DC1C",
+        "0x1006DC2D",
+        "0x1006DC3E",
+        "0x1006DC4F",
+        "0x1006DC60",
+        "0x1006DC71",
+        "0x1006DC82",
+        "0x1006DC93",
+        "0x1006DCA4",
+        "0x1006DCB5"
+      ],
+      "strings": [
+        "weapon_physgun"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10105130",
+      "rva": "0x105130",
+      "file_offset": "0x104530",
+      "range_end_va": "0x101058A5",
+      "size_bytes": 1909,
+      "chunk_size_bytes": 1909,
+      "chunks": [
+        {
+          "end_va": "0x101058A5",
+          "start_va": "0x10105130"
+        }
+      ],
+      "ida_name": "sub_10105130",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x1006E310",
+        "0x100725D0",
+        "0x100BCC90",
+        "0x100E1D20",
+        "0x100E1D90",
+        "0x100E1E80",
+        "0x101038A0",
+        "0x10103940",
+        "0x10103B60",
+        "0x10104880",
+        "0x10104990",
+        "0x101049D0",
+        "0x1014D000",
+        "0x10252E30",
+        "0x1025D770",
+        "0x102EE150",
+        "0x1030B770",
+        "0x103D64C0",
+        "0x10672E60",
+        "0x106734D0",
+        "0x106F9360",
+        "0x10706EC0",
+        "0x10708329",
+        "0x107168EC",
+        "0x10717D5A"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [
+        "0x1010518A",
+        "0x101051CA",
+        "0x10105334",
+        "0x1010540F",
+        "0x10105499",
+        "0x10105668",
+        "0x10105771",
+        "0x10105792",
+        "0x101057A2",
+        "0x101057C6",
+        "0x101057FF",
+        "0x10105822",
+        "0x1010583F",
+        "0x10105896"
+      ],
+      "strings": [],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x101058B0",
+      "rva": "0x1058B0",
+      "file_offset": "0x104CB0",
+      "range_end_va": "0x1010591B",
+      "size_bytes": 107,
+      "chunk_size_bytes": 107,
+      "chunks": [
+        {
+          "end_va": "0x1010591B",
+          "start_va": "0x101058B0"
+        }
+      ],
+      "ida_name": "sub_101058B0",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x100E1D90",
+        "0x100E1E80",
+        "0x1014D000",
+        "0x10252E30"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [],
+      "strings": [],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10105990",
+      "rva": "0x105990",
+      "file_offset": "0x104D90",
+      "range_end_va": "0x10105AF3",
+      "size_bytes": 355,
+      "chunk_size_bytes": 355,
+      "chunks": [
+        {
+          "end_va": "0x10105AF3",
+          "start_va": "0x10105990"
+        }
+      ],
+      "ida_name": "sub_10105990",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x1006E310",
+        "0x100C32E0",
+        "0x100E1D90",
+        "0x100E1E80",
+        "0x10104710",
+        "0x10104990",
+        "0x1014D000",
+        "0x10164C20",
+        "0x10252E30"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [
+        "0x101059D4",
+        "0x10105AE0"
+      ],
+      "strings": [],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10239530",
+      "rva": "0x239530",
+      "file_offset": "0x238930",
+      "range_end_va": "0x10239A4C",
+      "size_bytes": 1308,
+      "chunk_size_bytes": 1308,
+      "chunks": [
+        {
+          "end_va": "0x10239A4C",
+          "start_va": "0x10239530"
+        }
+      ],
+      "ida_name": "sub_10239530",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x10706B0B",
+        "0x10706C08",
+        "0x10706C52"
+      ],
+      "fresh_direct_caller_sites": [
+        "0x1001D2D2"
+      ],
+      "indirect_call_sites": [],
+      "strings": [
+        "SetModel"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10344160",
+      "rva": "0x344160",
+      "file_offset": "0x343560",
+      "range_end_va": "0x1034457B",
+      "size_bytes": 1051,
+      "chunk_size_bytes": 1051,
+      "chunks": [
+        {
+          "end_va": "0x1034457B",
+          "start_va": "0x10344160"
+        }
+      ],
+      "ida_name": "sub_10344160",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x100EE8B0",
+        "0x10706B0B",
+        "0x10706C08",
+        "0x10706C52"
+      ],
+      "fresh_direct_caller_sites": [
+        "0x10031BE2"
+      ],
+      "indirect_call_sites": [],
+      "strings": [
+        "OnPhysGunPunt"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x10374350",
+      "rva": "0x374350",
+      "file_offset": "0x373750",
+      "range_end_va": "0x103748C0",
+      "size_bytes": 1392,
+      "chunk_size_bytes": 1392,
+      "chunks": [
+        {
+          "end_va": "0x103748C0",
+          "start_va": "0x10374350"
+        }
+      ],
+      "ida_name": "sub_10374350",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x100EE8B0",
+        "0x10706B0B",
+        "0x10706C08",
+        "0x10706C52"
+      ],
+      "fresh_direct_caller_sites": [
+        "0x10035282"
+      ],
+      "indirect_call_sites": [],
+      "strings": [
+        "OnPhysGunPunt"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x103B8FC0",
+      "rva": "0x3B8FC0",
+      "file_offset": "0x3B83C0",
+      "range_end_va": "0x103B9018",
+      "size_bytes": 88,
+      "chunk_size_bytes": 88,
+      "chunks": [
+        {
+          "end_va": "0x103B9018",
+          "start_va": "0x103B8FC0"
+        }
+      ],
+      "ida_name": "sub_103B8FC0",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x1006B260",
+        "0x1006E310",
+        "0x102EDC30"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [
+        "0x103B9008"
+      ],
+      "strings": [
+        "sprites/physbeam.vmt"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x104AEB90",
+      "rva": "0x4AEB90",
+      "file_offset": "0x4ADF90",
+      "range_end_va": "0x104AEBCF",
+      "size_bytes": 63,
+      "chunk_size_bytes": 63,
+      "chunks": [
+        {
+          "end_va": "0x104AEBCF",
+          "start_va": "0x104AEB90"
+        }
+      ],
+      "ida_name": "sub_104AEB90",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x102654C0",
+        "0x102E2120",
+        "0x103A6D90"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [],
+      "strings": [
+        "sprites/physbeam.vmt"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x105303F0",
+      "rva": "0x5303F0",
+      "file_offset": "0x52F7F0",
+      "range_end_va": "0x10530536",
+      "size_bytes": 326,
+      "chunk_size_bytes": 326,
+      "chunks": [
+        {
+          "end_va": "0x10530536",
+          "start_va": "0x105303F0"
+        }
+      ],
+      "ida_name": "sub_105303F0",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x102654C0",
+        "0x102E2120",
+        "0x1037BD20",
+        "0x103A6D90",
+        "0x103D4E50",
+        "0x104EBD80",
+        "0x106F9360",
+        "0x10717D5A"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [],
+      "strings": [
+        "sprites/physbeam.vmt"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x1058BFF0",
+      "rva": "0x58BFF0",
+      "file_offset": "0x58B3F0",
+      "range_end_va": "0x1058C163",
+      "size_bytes": 371,
+      "chunk_size_bytes": 371,
+      "chunks": [
+        {
+          "end_va": "0x1058C163",
+          "start_va": "0x1058BFF0"
+        }
+      ],
+      "ida_name": "sub_1058BFF0",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x101B8430",
+        "0x1025F2F0",
+        "0x102654C0",
+        "0x102E2120",
+        "0x1037BD20",
+        "0x103A6D90",
+        "0x103D4E50"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [
+        "0x1058BFFF",
+        "0x1058C020",
+        "0x1058C042"
+      ],
+      "strings": [
+        "sprites/physbeam.vmt"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "va": "0x105E5CC0",
+      "rva": "0x5E5CC0",
+      "file_offset": "0x5E50C0",
+      "range_end_va": "0x105E608A",
+      "size_bytes": 970,
+      "chunk_size_bytes": 970,
+      "chunks": [
+        {
+          "end_va": "0x105E608A",
+          "start_va": "0x105E5CC0"
+        }
+      ],
+      "ida_name": "sub_105E5CC0",
+      "authored_role": "fresh_string_xref_or_vtable_target_candidate",
+      "description": "Actual IDA 6.8 metadata; full semantics remain unresolved.",
+      "confidence": "string_xref_candidate_unlabelled_semantics",
+      "callers": [],
+      "caller_coverage": "actual_direct_call_sites_recorded_no_indirect_caller_recovery",
+      "direct_callees_or_tail_targets": [
+        "0x1006E310",
+        "0x100725D0",
+        "0x10250DA0",
+        "0x10252E30",
+        "0x10360510",
+        "0x103A5E00",
+        "0x105E3800",
+        "0x105E3C50",
+        "0x105E40D0",
+        "0x105E5260",
+        "0x105E5500",
+        "0x105E6600",
+        "0x105E6730",
+        "0x105E89F0",
+        "0x106F9360",
+        "0x10708329",
+        "0x10717D5A"
+      ],
+      "fresh_direct_caller_sites": [],
+      "indirect_call_sites": [
+        "0x105E5CE3",
+        "0x105E5DFD",
+        "0x105E5E5A",
+        "0x105E5FAF",
+        "0x105E6018",
+        "0x105E6020"
+      ],
+      "strings": [
+        "Weapon_Physgun.Off"
+      ],
+      "imported_apis": [],
+      "source_interfaces": [],
+      "vtables": [],
+      "pseudocode": null,
+      "pseudocode_narrative": null,
+      "source_evidence_path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "source_evidence_sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "review_status": "actual_fresh_ida68_metadata_semantic_body_unreviewed"
+    }
+  ],
+  "unresolved": [
+    "registered_server_class_vtable_connection",
+    "native_attack_input_flags_secondary_freeze_and_project_launch_split",
+    "full_controller_simulation_interface_algorithm",
+    "acquisition_trace_and_range_units",
+    "native_beam_render_hook_caller",
+    "actual_beam_color_material_proxy_path",
+    "sound_event_loop_start_stop_prediction",
+    "current_first_person_model_path",
+    "native_ui_command_hook_dispatch",
+    "SpawnIcon_ModelImage_native_icon_service",
+    "VGUI_focus_surface_render_interface_versions"
+  ],
+  "historical_evidence_corrections": [
+    "Prior evidence complete headline does not close all source behavior dependencies.",
+    "Shared OnPhysGunPunt output is not proof of GMOD physgun secondary launch.",
+    "Current user LMBgrab/RMBlaunch supersedes older project RMBgrab/LMBlaunch mapping."
+  ],
+  "configuration_registrars": [
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "va": "0x10006240",
+      "size_bytes": 34,
+      "name": "physgun_maxAngular",
+      "default_literal": "5000",
+      "configuration_object_va": "0x10A3F6C0",
+      "evidence": "C:\\IDA68WORK\\GMOD_phys_controller_xrefs_ida68.txt",
+      "confidence": "high_direct_ida68_registrar_read"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "va": "0x100061B0",
+      "size_bytes": 34,
+      "name": "physgun_maxAngularDamping",
+      "default_literal": "10000",
+      "configuration_object_va": "0x10A3F710",
+      "evidence": "C:\\IDA68WORK\\GMOD_phys_controller_xrefs_ida68.txt",
+      "confidence": "high_direct_ida68_registrar_read"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "va": "0x10006210",
+      "size_bytes": 34,
+      "name": "physgun_maxSpeed",
+      "default_literal": "5000",
+      "configuration_object_va": "0x10A3F760",
+      "evidence": "C:\\IDA68WORK\\GMOD_phys_controller_xrefs_ida68.txt",
+      "confidence": "high_direct_ida68_registrar_read"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "va": "0x100061E0",
+      "size_bytes": 34,
+      "name": "physgun_maxSpeedDamping",
+      "default_literal": "10000",
+      "configuration_object_va": "0x10A3F7B0",
+      "evidence": "C:\\IDA68WORK\\GMOD_phys_controller_xrefs_ida68.txt",
+      "confidence": "high_direct_ida68_registrar_read"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "va": "0x10006180",
+      "size_bytes": 34,
+      "name": "physgun_DampingFactor",
+      "default_literal": "0.8",
+      "configuration_object_va": "0x10A3F800",
+      "evidence": "C:\\IDA68WORK\\GMOD_phys_controller_xrefs_ida68.txt",
+      "confidence": "high_direct_ida68_registrar_read"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "va": "0x10006270",
+      "size_bytes": 34,
+      "name": "physgun_teleportDistance",
+      "default_literal": null,
+      "configuration_object_va": "0x10A3F850",
+      "evidence": "C:\\IDA68WORK\\GMOD_phys_controller_xrefs_ida68.txt",
+      "confidence": "high_direct_ida68_registrar_read"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "va": "0x100062A0",
+      "size_bytes": 34,
+      "name": "physgun_timeToArrive",
+      "default_literal": "0.05",
+      "configuration_object_va": "0x10A3F8A0",
+      "evidence": "C:\\IDA68WORK\\GMOD_phys_controller_xrefs_ida68.txt",
+      "confidence": "high_direct_ida68_registrar_read"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "va": "0x100062D0",
+      "size_bytes": 34,
+      "name": "physgun_timeToArriveRagdoll",
+      "default_literal": "0.1",
+      "configuration_object_va": "0x10A3F8F0",
+      "evidence": "C:\\IDA68WORK\\GMOD_phys_controller_xrefs_ida68.txt",
+      "confidence": "high_direct_ida68_registrar_read"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "va": "0x100064C0",
+      "size_bytes": 39,
+      "name": "phys_spinspeed",
+      "default_literal": "200",
+      "configuration_object_va": "0x10A3F968",
+      "evidence": "C:\\IDA68WORK\\GMOD_phys_controller_xrefs_ida68.txt",
+      "confidence": "high_direct_ida68_registrar_read"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "va": "0x100064F0",
+      "size_bytes": 66,
+      "name": "physgun_maxrange",
+      "default_literal": "4096",
+      "configuration_object_va": "0x10A3FA08",
+      "evidence": "C:\\IDA68WORK\\GMOD_GMODSERVER_dll_physgun_ida68.txt",
+      "confidence": "high_direct_registrar"
+    },
+    {
+      "module": "garrysmod/bin/server.dll",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "va": "0x10006540",
+      "size_bytes": 63,
+      "name": "physgun_minrange",
+      "default_literal": "40",
+      "configuration_object_va": "0x10A3F9B8",
+      "evidence": "C:\\IDA68WORK\\GMOD_GMODSERVER_dll_physgun_ida68.txt",
+      "confidence": "high_direct_registrar"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "va": "0x10038FF0",
+      "size_bytes": 71,
+      "name": "physgun_rotation_sensitivity",
+      "default_literal": "0.05",
+      "configuration_object_va": "0x107227D8",
+      "evidence": "C:\\IDA68WORK\\GMOD_GMODCLIENT_dll_physgun_ida68.txt",
+      "confidence": "high_direct_registrar"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "va": "0x10039040",
+      "size_bytes": 71,
+      "name": "physgun_wheelspeed",
+      "default_literal": "10.0",
+      "configuration_object_va": "0x10722828",
+      "evidence": "C:\\IDA68WORK\\GMOD_GMODCLIENT_dll_physgun_ida68.txt",
+      "confidence": "high_direct_registrar"
+    }
+  ],
+  "controller_layout": {
+    "module": "garrysmod/bin/server.dll",
+    "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+    "status": "provisional_build_specific_no_FNV_memory_reinterpretation",
+    "fields": [
+      {
+        "offset": "0x4",
+        "role": "physical_object_pointer",
+        "confidence": "medium_to_high_observed_dataflow_interface_names_pending"
+      },
+      {
+        "offset": "0x8",
+        "role": "local_attachment_vector",
+        "confidence": "medium_to_high_observed_dataflow_interface_names_pending"
+      },
+      {
+        "offset": "0x14",
+        "role": "target_translation_vector",
+        "confidence": "medium_to_high_observed_dataflow_interface_names_pending"
+      },
+      {
+        "offset": "0x20",
+        "role": "target_orientation_vector",
+        "confidence": "medium_to_high_observed_dataflow_interface_names_pending"
+      },
+      {
+        "offset": "0x2C",
+        "role": "target_entity_handle",
+        "confidence": "medium_to_high_observed_dataflow_interface_names_pending"
+      },
+      {
+        "offset": "0x34",
+        "role": "saved_object_scalar",
+        "confidence": "medium_to_high_observed_dataflow_interface_names_pending"
+      },
+      {
+        "offset": "0x38",
+        "role": "arrival_parameter",
+        "confidence": "medium_to_high_observed_dataflow_interface_names_pending"
+      },
+      {
+        "offset": "0x3C",
+        "role": "saved_object_scalar",
+        "confidence": "medium_to_high_observed_dataflow_interface_names_pending"
+      },
+      {
+        "offset": "0x40",
+        "role": "special_vehicle_flag",
+        "confidence": "medium_to_high_observed_dataflow_interface_names_pending"
+      },
+      {
+        "offset": "0x44",
+        "role": "owner_entity_handle",
+        "confidence": "medium_to_high_observed_dataflow_interface_names_pending"
+      },
+      {
+        "offset": "0x48",
+        "role": "motion_controller_pointer",
+        "confidence": "medium_to_high_observed_dataflow_interface_names_pending"
+      }
+    ]
+  },
+  "network_layouts": [
+    {
+      "module": "garrysmod/bin/server.dll",
+      "DT": "DT_WeaponPhysGun",
+      "fields": {
+        "m_hGrabbedEntity": "0x1698",
+        "m_hPhysBeam": "0x169C",
+        "m_vHitPosLocal": "0x16A0"
+      },
+      "registrar_va": "0x100063A0",
+      "confidence": "high_direct_named_registration"
+    },
+    {
+      "module": "garrysmod/bin/client.dll",
+      "DT": "DT_WeaponPhysGun",
+      "fields": {
+        "m_hGrabbedEntity": "0x18A8",
+        "m_hPhysBeam": "0x18AC",
+        "m_vHitPosLocal": "0x18B0"
+      },
+      "registrar_va": "0x10038E70",
+      "confidence": "high_direct_named_registration"
+    }
+  ],
+  "beam_trace_candidate": {
+    "va": "0x101032D0",
+    "mask_literal": "0x600400B",
+    "interface_global": "0x10AB488C",
+    "virtual_slot": "0x10",
+    "endpoint_field": "0x13D0",
+    "scope": "beam_owner_aimtrace_not_yet_weapon_acquisition"
+  },
+  "fresh_metadata_evidence": [
+    {
+      "path": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "sha256": "7F8D20A6578027A3AE23C9296E156FE8A2D03E5A740650C0982D2D6EC6B3E7BA",
+      "ida_kernel_version": "6.8",
+      "module_sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6",
+      "image_base_va": "0x10000000",
+      "string_count": 20,
+      "function_count": 14,
+      "vtable_probes": [],
+      "import_modules": [
+        "KERNEL32",
+        "USER32",
+        "WS2_32",
+        "steam_api",
+        "tier0",
+        "RPCRT4",
+        "vstdlib",
+        "ADVAPI32",
+        "CRYPT32",
+        "Kinect10"
+      ],
+      "requested_strings_not_found": [
+        "+menu",
+        "+menu_context",
+        "-menu",
+        "-menu_context",
+        "CPhysGunControllerPoint",
+        "CPhysGunControllerPoint already has controller?",
+        "CloseSpawnMenu",
+        "DrawPhysgunBeam",
+        "OnContextMenuClose",
+        "OnContextMenuOpen",
+        "OnPhysGunPunt",
+        "OnSpawnMenuClose",
+        "OnSpawnMenuOpen",
+        "OpenSpawnMenu",
+        "PhysgunBeam",
+        "RenderSpawnIcons",
+        "SpawnIcon",
+        "Weapon_Physgun.Off",
+        "Weapon_Physgun.On",
+        "Weapon_Physgun.Special1"
+      ]
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "sha256": "73E88FEC51D0A01655D78B5112241C05D685D3E0C80358DE969EC48D52377C03",
+      "ida_kernel_version": "6.8",
+      "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943",
+      "image_base_va": "0x10000000",
+      "string_count": 16,
+      "function_count": 22,
+      "vtable_probes": [
+        {
+          "candidate_vtable_va": "0x10785AFC",
+          "cell_va": "0x1078601C",
+          "confidence": "observed_candidate_vtable_slot_only_semantic_label_pending",
+          "function": "0x101058B0",
+          "slot_offset": "0x520",
+          "target_va": "0x101058B0"
+        },
+        {
+          "candidate_vtable_va": "0x10785AFC",
+          "cell_va": "0x1078602C",
+          "confidence": "observed_candidate_vtable_slot_only_semantic_label_pending",
+          "function": "0x10105990",
+          "slot_offset": "0x530",
+          "target_va": "0x10105990"
+        },
+        {
+          "candidate_vtable_va": "0x10785AFC",
+          "cell_va": "0x10786028",
+          "confidence": "observed_candidate_vtable_slot_only_semantic_label_pending",
+          "function": "0x10105130",
+          "slot_offset": "0x52C",
+          "target_va": "0x10105130"
+        }
+      ],
+      "import_modules": [
+        "KERNEL32",
+        "USER32",
+        "WS2_32",
+        "steam_api",
+        "tier0",
+        "RPCRT4",
+        "vstdlib",
+        "ADVAPI32",
+        "CRYPT32"
+      ],
+      "requested_strings_not_found": [
+        "+menu",
+        "+menu_context",
+        "-menu",
+        "-menu_context",
+        "CPhysGunControllerPoint",
+        "CPhysGunControllerPoint already has controller?",
+        "CloseSpawnMenu",
+        "DrawPhysgunBeam",
+        "MakePopup",
+        "ModelImage",
+        "OnContextMenuClose",
+        "OnContextMenuOpen",
+        "OnSpawnMenuClose",
+        "OnSpawnMenuOpen",
+        "OpenSpawnMenu",
+        "PhysgunBeam",
+        "RebuildSpawnIcon",
+        "RebuildSpawnIconEx",
+        "RenderSpawnIcons",
+        "SetSpawnIcon",
+        "SpawnIcon",
+        "Weapon_Physgun.On",
+        "Weapon_Physgun.Special1",
+        "sprites/physbeama.vmt"
+      ]
+    }
+  ],
+  "actual_probed_attack_slot_targets": [
+    {
+      "slot_offset": "0x520",
+      "target_va": "0x101058B0",
+      "candidate_vtable_va": "0x10785AFC",
+      "status": "actual_slot_pointer_metadata_semantic_body_unreviewed"
+    },
+    {
+      "slot_offset": "0x530",
+      "target_va": "0x10105990",
+      "candidate_vtable_va": "0x10785AFC",
+      "status": "actual_slot_pointer_metadata_semantic_body_unreviewed"
+    },
+    {
+      "slot_offset": "0x52C",
+      "target_va": "0x10105130",
+      "candidate_vtable_va": "0x10785AFC",
+      "status": "actual_slot_pointer_metadata_semantic_body_unreviewed"
+    }
+  ]
+}

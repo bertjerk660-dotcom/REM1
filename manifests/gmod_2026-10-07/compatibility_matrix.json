@@ -1,0 +1,364 @@
+{
+  "schema": "rem.gmod_fnv_compatibility_matrix.v1",
+  "date_utc": "2026-10-07",
+  "canonical_main": "3610b370d62fb0daa86b10f819b7704ab096809b",
+  "scope": "Read-only current-source audit; gameplay and source/deployed build correspondence unverified.",
+  "runtime_snapshot": "runtime_snapshot.json",
+  "runtime_mutations": false,
+  "ownership": "Opus implementation; support evidence only",
+  "rows": [
+    {
+      "id": "q_input",
+      "component": "Q input/lifecycle",
+      "classes": [
+        "Lua",
+        "configuration",
+        "native input",
+        "engine-provided interface"
+      ],
+      "original_contract": "Original command press/release; persistent SpawnMenu; cursor/focus/hang-open",
+      "required_bridge": "Single input owner, bind/command events, cursor and host-control restoration",
+      "current_observation": "Q/F2 rising-edge toggle; Tool Gun R opens; Fight/Movement flags only",
+      "classification": "incomplete",
+      "evidence": [
+        "main.cpp:PollControls (6301-6630 inspected)",
+        "main.cpp:OpenBuildMenu/CloseBuildMenu (4781-4970 inspected)"
+      ]
+    },
+    {
+      "id": "vgui",
+      "component": "VGUI/Derma menu",
+      "classes": [
+        "Lua",
+        "engine-provided interface",
+        "asset",
+        "font"
+      ],
+      "original_contract": "Original panel/skin/layout/surface service contracts",
+      "required_bridge": "Measured Lua/native panel/render adapter",
+      "current_observation": "Win32/GDI fixed grid/Tahoma",
+      "classification": "temporary placeholder; recreated/imitation implementation",
+      "evidence": [
+        "gmod_overlay.inc:PaintGModSpawnMenu",
+        "gmod_overlay.inc:ShowGModSpawnOverlay"
+      ]
+    },
+    {
+      "id": "prop_browser",
+      "component": "Prop browser/search",
+      "classes": [
+        "Lua",
+        "configuration",
+        "native code",
+        "model"
+      ],
+      "original_contract": "CreationMenu/content registry; spawnlists/search/model preview",
+      "required_bridge": "Curated data adapter preserving original panels and filters",
+      "current_observation": "Compiled category/page grid; search/model preview absent inspected path",
+      "classification": "incomplete; recreated/imitation implementation",
+      "evidence": [
+        "main.cpp:GetSelectedBuildProp",
+        "gmod_overlay.inc:PaintGModSpawnMenu"
+      ]
+    },
+    {
+      "id": "prop_icons",
+      "component": "Prop icons",
+      "classes": [
+        "Lua",
+        "native code",
+        "texture/material",
+        "model"
+      ],
+      "original_contract": "SpawnIcon/ModelImage model-render and cache services",
+      "required_bridge": "Model/icon render/cache and original-material resolution",
+      "current_observation": "FNV-1a PNG paths; cached null misses; generic fallback",
+      "classification": "temporary placeholder; incomplete",
+      "evidence": [
+        "gmod_overlay.inc:LoadPropThumbnail",
+        "gmod_overlay.inc:IconForBuildProp"
+      ]
+    },
+    {
+      "id": "spawn",
+      "component": "Spawn/undo",
+      "classes": [
+        "Lua",
+        "engine-provided interface",
+        "compatibility/adaptation requirement"
+      ],
+      "original_contract": "Content click/concommand, validation/trace/entity/undo",
+      "required_bridge": "Source entity to FNV reference; trace/spawn/undo translation",
+      "current_observation": "SpawnSelectedBuildProp calls SpawnConvertedProp or NPC proxy",
+      "classification": "compatibility bridge; correctness unverified",
+      "evidence": [
+        "main.cpp:SpawnSelectedBuildProp",
+        "main.cpp:UpdateBuildMenuControls"
+      ]
+    },
+    {
+      "id": "tool_selection",
+      "component": "Tool selection",
+      "classes": [
+        "Lua",
+        "configuration",
+        "native code"
+      ],
+      "original_contract": "Selected tool command/convar/SWEP id",
+      "required_bridge": "Selected id/state dispatch preserving original workflow",
+      "current_observation": "Hover or click writes compiled index7/29, debug enabled only when id changed",
+      "classification": "recreated/imitation implementation; incomplete",
+      "evidence": [
+        "gmod_overlay.inc:SetToolModeFromSpawnMenu",
+        "gmod_overlay.inc:GModSpawnOverlayWndProc"
+      ]
+    },
+    {
+      "id": "toolgun",
+      "component": "Tool Gun firing",
+      "classes": [
+        "Lua",
+        "engine-provided interface",
+        "asset",
+        "sound"
+      ],
+      "original_contract": "gmod_tool/tool/stool trace/prediction/hooks/effects",
+      "required_bridge": "Realm/prediction trace/action/effect/audio services",
+      "current_observation": "Hard-coded custom action dispatcher; unsupported primary reports port pending; secondary invokes Fallout status.",
+      "classification": "recreated/imitation implementation; incomplete",
+      "evidence": [
+        "main.cpp:4459 ToolgunPrimaryAction",
+        "main.cpp:4506 ToolgunSecondaryAction",
+        "main.cpp:2529 ShowToolModeStatus"
+      ]
+    },
+    {
+      "id": "tool_screen",
+      "component": "Tool screen/HUD",
+      "classes": [
+        "Lua",
+        "texture/material",
+        "font",
+        "native code"
+      ],
+      "original_contract": "Original render-target/material/font/tool HUD",
+      "required_bridge": "Render-target and draw services",
+      "current_observation": "Not demonstrated inspected runtime",
+      "classification": "unresolved",
+      "evidence": []
+    },
+    {
+      "id": "duplicator",
+      "component": "Duplicator",
+      "classes": [
+        "Lua",
+        "engine-provided interface",
+        "compatibility/adaptation requirement"
+      ],
+      "original_contract": "Original entity/constraint serialization; undo/cleanup/progress",
+      "required_bridge": "Reference/constraint persistence preserving original semantics",
+      "current_observation": "Copies only NIF path/name and spawns that model at fixed220 distance; no entity/constraint graph serialization.",
+      "classification": "recreated/imitation implementation; incomplete",
+      "evidence": [
+        "main.cpp:3844 ToolgunDuplicatorCopy",
+        "main.cpp:3870 ToolgunDuplicatorPaste"
+      ]
+    },
+    {
+      "id": "remover",
+      "component": "Remover",
+      "classes": [
+        "Lua",
+        "engine-provided interface",
+        "compatibility/adaptation requirement"
+      ],
+      "original_contract": "Original permissions/trace/removal/undo",
+      "required_bridge": "Safe target/removal/undo translation",
+      "current_observation": "Disables generic crosshair ref; undo re-enables refid; original permissions and constraint semantics absent.",
+      "classification": "recreated/imitation implementation; incomplete",
+      "evidence": [
+        "main.cpp:2477 ToolgunRemove",
+        "main.cpp:2492 UndoLastRemoved"
+      ]
+    },
+    {
+      "id": "camera",
+      "component": "Camera tool/weapon",
+      "classes": [
+        "Lua",
+        "native code",
+        "engine-provided interface"
+      ],
+      "original_contract": "Separate camera stool/entity and gmod_camera weapon",
+      "required_bridge": "Camera entity/control and JPEG/FOV bridge",
+      "current_observation": "Camera weapon JPEG/FOV routine dispatch; stool not demonstrated",
+      "classification": "compatibility bridge; original semantics unverified",
+      "evidence": [
+        "main.cpp:PollControls camera branch"
+      ]
+    },
+    {
+      "id": "physgun",
+      "component": "Physgun interaction",
+      "classes": [
+        "native code",
+        "Lua",
+        "engine-provided interface"
+      ],
+      "original_contract": "Original weapon/hold controller; permission/input hooks",
+      "required_bridge": "Trace/ref/body/bone/controller and input mapping",
+      "current_observation": "Fallout crosshairRef acquisition;4096 only hold clamp; reference-origin velocity controller and teleport fallback; LMB press grab/drop, RMB throw.",
+      "classification": "compatibility/adaptation implementation; original parity unresolved",
+      "evidence": [
+        "main.cpp:870 GetCrosshairTarget",
+        "main.cpp:5034 GrabCrosshairRef",
+        "main.cpp:5177 UpdateHeldObject",
+        "main.cpp:6461 equipped Physgun branch"
+      ],
+      "diagnostic_confidence": {
+        "crosshair_only_acquisition": "verified source fact",
+        "reported_short_range_cause": "strong hypothesis pending engine crosshair distance and deployed identity test"
+      }
+    },
+    {
+      "id": "beam",
+      "component": "Physgun beam/color",
+      "classes": [
+        "native code",
+        "texture/material",
+        "engine-provided interface"
+      ],
+      "original_contract": "Attachment/hitpoint/state-driven beam; original materials/player color",
+      "required_bridge": "World rendering/material/color adapter",
+      "current_observation": "Fixed screen strip (72%,80%) to center, cyan matrix/glow",
+      "classification": "recreated/imitation implementation; incomplete",
+      "evidence": [
+        "gmod_overlay.inc:PaintPhysBeam"
+      ]
+    },
+    {
+      "id": "highlight",
+      "component": "Physgun highlight",
+      "classes": [
+        "Lua",
+        "native code",
+        "engine-provided interface"
+      ],
+      "original_contract": "Acquired target halo and beam color",
+      "required_bridge": "Target outline tied to acquired ref/color",
+      "current_observation": "No halo/outline implementation found in full main/overlay; original DrawPhysgunBeam records acquired target for PreDrawHalos/player color.",
+      "classification": "incomplete; external backend unproved",
+      "evidence": [
+        "gmod_overlay.inc:505 PaintPhysBeam",
+        "garrysmod/gamemodes/sandbox/gamemode/cl_init.lua:127 DrawPhysgunBeam",
+        "garrysmod/gamemodes/sandbox/gamemode/cl_init.lua:139 AddPhysgunHalos"
+      ]
+    },
+    {
+      "id": "physgun_audio",
+      "component": "Physgun audio",
+      "classes": [
+        "sound",
+        "configuration",
+        "native code"
+      ],
+      "original_contract": "Original event payloads and state transition loop lifecycle",
+      "required_bridge": "Audio event/loop/spatialization adapter",
+      "current_observation": "GetOrCreateGModSound clears loopflag; actions use2D one-shots; no continuous hold-loop start/update/stop lifecycle found.",
+      "classification": "incomplete; source omission proved; exact original event unresolved",
+      "evidence": [
+        "main.cpp:1239 GetOrCreateGModSound",
+        "main.cpp:1256 clears kFlag_Loop",
+        "main.cpp:1267 PlayGModSound",
+        "main.cpp:1322-1353 Physgun one-shot helpers"
+      ],
+      "diagnostic_confidence": {
+        "runtime_hold_loop_omission": "verified in full main/overlay source",
+        "original_native_event_timing": "unresolved"
+      }
+    },
+    {
+      "id": "actor",
+      "component": "Actor/ragdoll",
+      "classes": [
+        "native code",
+        "engine-provided interface",
+        "compatibility/adaptation requirement"
+      ],
+      "original_contract": "Source physics entity/body and permissions",
+      "required_bridge": "Acquired FNV target/Havok actor, distinct player identity",
+      "current_observation": "SetUnconscious targets acquired ref; PushActorAway explicitly names player as argument; single wake slot and original-unconscious state missing.",
+      "classification": "compatibility/adaptation implementation; incomplete safeguards; player-symptom cause hypothesis",
+      "evidence": [
+        "main.cpp:797 TrySetActorKnockedState",
+        "main.cpp:5055-5056 actor grab commands",
+        "main.cpp:5131-5137 actor throw commands",
+        "main.cpp:2422 DropHeld",
+        "main.cpp:5302 UpdateThrow"
+      ],
+      "diagnostic_confidence": {
+        "command_argument_player": "verified source fact",
+        "player_knockdown_cause": "strong hypothesis; engine command caller/argument semantics and isolated gameplay test required",
+        "setunconscious_receiver": "verified acquired target, not direct player receiver",
+        "wake_scheduler_overwrite": "verified single-slot source design; gameplay consequence untested"
+      }
+    },
+    {
+      "id": "notifications",
+      "component": "Notifications/hints",
+      "classes": [
+        "Lua",
+        "asset",
+        "font",
+        "sound",
+        "engine-provided interface"
+      ],
+      "original_contract": "Original notification panels/stack/expiry and bindings/localization",
+      "required_bridge": "Original panel/audio/timer/binding service adapter",
+      "current_observation": "Notify directly calls Fallout QueueUIMessage; unsupported-tool secondary shows stale Rnext/ShiftRprevious hint.",
+      "classification": "temporary placeholder; incomplete; stale control text",
+      "evidence": [
+        "main.cpp:767 Notify",
+        "main.cpp:2529 ShowToolModeStatus",
+        "main.cpp:4538 secondary fallback"
+      ]
+    },
+    {
+      "id": "models",
+      "component": "View/world/inventory models",
+      "classes": [
+        "model",
+        "texture/material",
+        "native code",
+        "compatibility/adaptation requirement"
+      ],
+      "original_contract": "Original model components/animations/materials",
+      "required_bridge": "Validated NIF/rig/animation/form/drop translation",
+      "current_observation": "Processes first14 compiled defs; reuses/clones real inventory forms; sets imported worldNIF; copies Fallout donor primitive animation fields.",
+      "classification": "authentic original dependency prepared; adaptation implementation; original-animation parity and human QA pending",
+      "evidence": [
+        "main.cpp:1451 ApplyGModWeaponAnimationProfile",
+        "main.cpp:1567 GetEquippedGModRuntimeWeapon",
+        "main.cpp:1574 EnsureGModWeaponForms",
+        "context/SUPPORT_20_POINT_TRACKER.md"
+      ]
+    },
+    {
+      "id": "filesystem",
+      "component": "Shared filesystem",
+      "classes": [
+        "Source-engine dependency",
+        "configuration",
+        "asset"
+      ],
+      "original_contract": "Source mount order/VPK/addon and path/event resolution",
+      "required_bridge": "Retain exact original path and mount-origin precedence",
+      "current_observation": "UI PNG paths relative process working directory",
+      "classification": "incomplete; package evidence required",
+      "evidence": [
+        "gmod_overlay.inc:LoadOverlayImage"
+      ]
+    }
+  ],
+  "extended_local_inspection": "Full supplied v85 main.cpp and gmod_overlay.inc inspected through private ignored normalized cache; protected source hashes retained in runtime_snapshot.json."
+}

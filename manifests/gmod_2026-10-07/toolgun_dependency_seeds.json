@@ -1,0 +1,2292 @@
+{
+  "schema_version": 1,
+  "generated": "2026-10-07",
+  "scope": "source-grounded Toolgun support investigation",
+  "game_root": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod",
+  "canonical_commit_read": "3610b370d62fb0daa86b10f819b7704ab096809b",
+  "report": "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md",
+  "payload_staging_by_this_investigator": false,
+  "hash_policy": "Historical hashes explicitly identified; current root staging manifest is authoritative for revalidation and actual destination",
+  "nodes": [
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/init.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/init.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\init.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "tool_selection"
+      ],
+      "reason": "Server concommand gmod_tool and client source delivery",
+      "dependencies": [
+        "gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "E77954036ADBB306D1114BDC7B56BFA5A1585E5DA323F9938EC760D9F992C594",
+      "local_evidence_cache_bytes": 875,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/init.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\shared.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "tool_selection",
+        "input"
+      ],
+      "reason": "SWEP per-instance lifecycle, mode, traces and firing",
+      "dependencies": [
+        "gamemodes/sandbox/entities/weapons/gmod_tool/stool.lua",
+        "engine:trace",
+        "engine:effects",
+        "engine:weapon_prediction"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": "BDD3127030C651127A02F7E208EE0B953A7A374EBA10ACBCC8B6522EF47DA1C3",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "04C9F1DD3CF943002179087DD3E8F6FF6B1258DC2E97982B49705C1047307260",
+      "local_evidence_cache_bytes": 9378,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua",
+      "local_cache_matches_historical_source_hash": false
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/cl_init.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/cl_init.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\cl_init.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "tool_selection",
+        "hud"
+      ],
+      "reason": "Archived userinfo gmod_toolmode; nonrecursive panel callback and tool help",
+      "dependencies": [
+        "gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua",
+        "gamemodes/sandbox/entities/weapons/gmod_tool/cl_viewscreen.lua",
+        "lua/includes/modules/spawnmenu.lua"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "A59B80F32190DA40AA031411329DA036389F9A26008F696CE1EC3558224A2F46",
+      "local_evidence_cache_bytes": 5978,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/cl_init.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/stool.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stool.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\stool.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "tool_selection",
+        "qmenu"
+      ],
+      "reason": "Registry and PopulateToolMenu; ContentIcon and tool search",
+      "dependencies": [
+        "gamemodes/sandbox/entities/weapons/gmod_tool/object.lua",
+        "gamemodes/sandbox/entities/weapons/gmod_tool/ghostentity.lua",
+        "gamemodes/sandbox/entities/weapons/gmod_tool/stool_cl.lua",
+        "lua/includes/modules/spawnmenu.lua"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": "6CCED8F5FD1109FDA23B6AE0D89325831C7D5F2D9469CF8DD447FA0677A30FB3",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "CE6FC53D978FD2BB21E452020E48A8A3BB610B51E9FDA0FC305E3C8D6885E5B4",
+      "local_evidence_cache_bytes": 6304,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/stool.lua",
+      "local_cache_matches_historical_source_hash": false
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/object.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/object.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\object.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "constraints"
+      ],
+      "reason": "Selected physics-local points, stage/op network vars and help",
+      "dependencies": [
+        "engine:entity_physics"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "0330D9D15A6321E1B4AD8C20FFE3FF5C538F1B5441007DB29523D0C47F70DBD1",
+      "local_evidence_cache_bytes": 3579,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/object.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/ghostentity.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/ghostentity.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\ghostentity.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "constraints"
+      ],
+      "reason": "Predicted client/singleplayer ghost lifecycle",
+      "dependencies": [
+        "engine:entity_physics",
+        "engine:model_rendering"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "52674F04AA38953B7A841A124A8D5D881C575B64803FF2EAD2B2AC188DF74F63",
+      "local_evidence_cache_bytes": 4099,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/ghostentity.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/stool_cl.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stool_cl.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\stool_cl.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "qmenu"
+      ],
+      "reason": "Custom HUD/FreezeMovement methods and controlpanel rebuild",
+      "dependencies": [
+        "gamemodes/sandbox/gamemode/spawnmenu/controlpanel.lua"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "C81367EDB94D2DFCEF9AB2FF69CC38B3CAAD640871D3D50488AB70E6174F8FCF",
+      "local_evidence_cache_bytes": 456,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/stool_cl.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/cl_viewscreen.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/cl_viewscreen.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\cl_viewscreen.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "tool_screen"
+      ],
+      "reason": "Original 256x256 render target and scrolling tool-name draw",
+      "dependencies": [
+        "materials/models/weapons/v_toolgun/screen.vmt",
+        "materials/models/weapons/v_toolgun/screen_bg.vmt",
+        "engine:render_target"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "33B78ADC50F84B3F3C6553817D68A43905D9D4AEF4CE34C675D563715A2DBB4E",
+      "local_evidence_cache_bytes": 1896,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/cl_viewscreen.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/remover.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/remover.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\stools\\remover.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "remover"
+      ],
+      "reason": "Player immunity, constrained-set removal/reload, delayed effect deletion",
+      "dependencies": [
+        "lua/includes/modules/constraint.lua",
+        "gamemodes/sandbox/entities/effects/entity_remove.lua"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "336A1A1B7F2F5EEAD534A7952A3A3852D846E3136DFDE0B75502D19434147E8E",
+      "local_evidence_cache_bytes": 2019,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/stools/remover.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\stools\\duplicator.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "duplicator"
+      ],
+      "reason": "Constrained graph copy/paste; dupe preview/controlpanel metadata",
+      "dependencies": [
+        "lua/includes/modules/duplicator.lua",
+        "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/transport.lua",
+        "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/arming.lua",
+        "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/icon.lua",
+        "lua/includes/modules/undo.lua",
+        "lua/includes/modules/cleanup.lua"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "B6D66EC8EE62384EA6EC53DFAC742B6FF4289E49D20AC160592AAFE62912625F",
+      "local_evidence_cache_bytes": 11130,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/camera.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/camera.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\stools\\camera.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "camera_tool"
+      ],
+      "reason": "Spawn tracking/control-key camera entity; not screenshot SWEP",
+      "dependencies": [
+        "gamemodes/sandbox/entities/entities/gmod_cameraprop.lua",
+        "lua/includes/modules/duplicator.lua",
+        "lua/includes/modules/numpad.lua"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "4E4E8F3F81D169A41952971D0000A8ADC00AF0E03A9C1B8B543346E40487B09C",
+      "local_evidence_cache_bytes": 3379,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/stools/camera.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/weld.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/weld.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\stools\\weld.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "constraints"
+      ],
+      "reason": "Original two-point/weld/easy-weld ghost align rotate stage machine",
+      "dependencies": [
+        "lua/includes/modules/constraint.lua",
+        "lua/includes/modules/undo.lua",
+        "gamemodes/sandbox/entities/weapons/gmod_tool/object.lua",
+        "gamemodes/sandbox/entities/weapons/gmod_tool/ghostentity.lua"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "29EE1E03D22AE23DAA30C6CA794B6DA161A3547DCFF45D48DB8C8408D74F04AE",
+      "local_evidence_cache_bytes": 6902,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/stools/weld.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/rope.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/rope.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\stools\\rope.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "constraints"
+      ],
+      "reason": "Default tool mode; bone-local anchors and continuing rope chains",
+      "dependencies": [
+        "lua/includes/modules/constraint.lua",
+        "lua/includes/modules/undo.lua",
+        "materials/cable/rope.vmt"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "C26FE47620CDC1EF621B82FBB155D03E86D7AB425F7BEB2C6427D6A69FA5A5F5",
+      "local_evidence_cache_bytes": 5983,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/stools/rope.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/transport.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/transport.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\stools\\duplicator\\transport.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "duplicator"
+      ],
+      "reason": "dupe_save compresses graph JSON, ReceiveDupe chunking, client save state",
+      "dependencies": [
+        "engine:compression",
+        "engine:network"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "6A76E94EC95BCCD20E5F1B0DEA583E4C0DDC87ECBF62761FD8C5E182E69F7BC8",
+      "local_evidence_cache_bytes": 2442,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/transport.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/arming.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/arming.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\stools\\duplicator\\arming.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "duplicator"
+      ],
+      "reason": "dupe_arm engine.OpenDupe, bounded decompression validation, ArmDupe and selection",
+      "dependencies": [
+        "engine:dupe_container",
+        "engine:compression",
+        "engine:network"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "AD770E6DCE2B1951779E7ECCA6E6DB76D87CBBC5D7275A560B058DCD88F8B111",
+      "local_evidence_cache_bytes": 4227,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/arming.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/icon.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/icon.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_tool\\stools\\duplicator\\icon.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "duplicator"
+      ],
+      "reason": "PostRender source dupe thumbnail capture and engine.WriteDupe",
+      "dependencies": [
+        "engine:model_rendering",
+        "engine:dupe_container",
+        "materials/gui/dupe_bg.png",
+        "materials/models/debug/debugwhite.vmt"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "544B90AF76DD49495372A01ECCF6C9318BD9E3E26FAF49010B96B298CF8DE613",
+      "local_evidence_cache_bytes": 6409,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator/icon.lua"
+    },
+    {
+      "id": "lua/includes/modules/duplicator.lua",
+      "source_relative": "lua/includes/modules/duplicator.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\lua\\includes\\modules\\duplicator.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "duplicator",
+        "constraints"
+      ],
+      "reason": "Entity/physics serialization, factories, modifiers, graph traversal and paste order",
+      "dependencies": [
+        "lua/includes/modules/constraint.lua",
+        "engine:entity_physics"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "49CBF8C153F774A06858F37FCE26FA85A9F73F5CD076A34A3206A44CE3669DE5",
+      "local_evidence_cache_bytes": 26430,
+      "local_evidence_cache": ".local_gmod_evidence/lua/includes/modules/duplicator.lua"
+    },
+    {
+      "id": "lua/includes/modules/spawnmenu.lua",
+      "source_relative": "lua/includes/modules/spawnmenu.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\lua\\includes\\modules\\spawnmenu.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "qmenu",
+        "tool_selection"
+      ],
+      "reason": "ActivateTool registered command dispatch; noCommand panel synchronization",
+      "dependencies": [
+        "gamemodes/sandbox/gamemode/spawnmenu/controlpanel.lua"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "E1CD6139BF5A696FD1E2BD97BE037ADA559377C5629914B97B9B9CBD1905AE0B",
+      "local_evidence_cache_bytes": 6494,
+      "local_evidence_cache": ".local_gmod_evidence/lua/includes/modules/spawnmenu.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/gamemode/spawnmenu/toolpanel.lua",
+      "source_relative": "gamemodes/sandbox/gamemode/spawnmenu/toolpanel.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\gamemode\\spawnmenu\\toolpanel.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "qmenu",
+        "tool_selection"
+      ],
+      "reason": "Original DoClick selection, filters, disabled-state policy and selected button",
+      "dependencies": [
+        "lua/includes/modules/spawnmenu.lua",
+        "gamemodes/sandbox/gamemode/spawnmenu/controlpanel.lua"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "B4F50E5DB528F818A77963B25BD7CB8FE8FABF067855C30D49B2A3D405454F51",
+      "local_evidence_cache_bytes": 8916,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/gamemode/spawnmenu/toolpanel.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/gamemode/player_extension.lua",
+      "source_relative": "gamemodes/sandbox/gamemode/player_extension.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\gamemode\\player_extension.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "duplicator",
+        "notifications"
+      ],
+      "reason": "Player GetTool and cleanup/limit/count/hint entry points",
+      "dependencies": [
+        "lua/includes/modules/cleanup.lua"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "173F7A5C7047AEADE7D1AC35BA5CAFC5D3F6B92E203EBF9C06BF2375C47EC826",
+      "local_evidence_cache_bytes": 4452,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/gamemode/player_extension.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/gamemode/shared.lua",
+      "source_relative": "gamemodes/sandbox/gamemode/shared.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\gamemode\\shared.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "physgun"
+      ],
+      "reason": "Original CanTool entity policy and physgun allowed behavior",
+      "dependencies": [],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "B47C362DF699FBD227D48860642739532C2A05498FCF46DE6F3246242319F587",
+      "local_evidence_cache_bytes": 9120,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/gamemode/shared.lua"
+    },
+    {
+      "id": "gamemodes/sandbox/entities/entities/gmod_cameraprop.lua",
+      "source_relative": "gamemodes/sandbox/entities/entities/gmod_cameraprop.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\entities\\gmod_cameraprop.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "camera_tool"
+      ],
+      "reason": "Network camera tracking, numpad view switching, locked camera policy",
+      "dependencies": [
+        "models/dav0r/camera.mdl",
+        "lua/includes/modules/numpad.lua",
+        "engine:view_entity"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "gamemodes/sandbox/entities/weapons/gmod_camera.lua",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_camera.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\weapons\\gmod_camera.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "camera_weapon"
+      ],
+      "reason": "Separate screenshot Camera SWEP, FOV/roll/mouse behavior",
+      "dependencies": [
+        "models/weapons/c_arms_animations.mdl",
+        "models/MaxOfS2D/camera.mdl",
+        "sound_event:NPC_CScanner.TakePhoto",
+        "engine:screenshot"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "gamemodes/sandbox/entities/effects/selection_indicator.lua",
+      "source_relative": "gamemodes/sandbox/entities/effects/selection_indicator.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\effects\\selection_indicator.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "effects"
+      ],
+      "reason": "Toolgun hit mark parented to physics bone",
+      "dependencies": [
+        "materials/effects/select_dot.vmt",
+        "gamemodes/sandbox/entities/effects/selection_ring.lua"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "gamemodes/sandbox/entities/effects/selection_ring.lua",
+      "source_relative": "gamemodes/sandbox/entities/effects/selection_ring.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\effects\\selection_ring.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "effects"
+      ],
+      "reason": "Six expanding original hit rings",
+      "dependencies": [
+        "materials/effects/select_ring.vmt"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "gamemodes/sandbox/entities/effects/entity_remove.lua",
+      "source_relative": "gamemodes/sandbox/entities/effects/entity_remove.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\entities\\effects\\entity_remove.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "effects"
+      ],
+      "reason": "Original Remover AABB/radius spark effect",
+      "dependencies": [
+        "materials/effects/spark.vmt"
+      ],
+      "evidence": "direct_installed_source_read",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "gamemodes/sandbox/gamemode/spawnmenu/controlpanel.lua",
+      "source_relative": "gamemodes/sandbox/gamemode/spawnmenu/controlpanel.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gamemodes\\sandbox\\gamemode\\spawnmenu\\controlpanel.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "support"
+      ],
+      "reason": "Explicit Lua dependency referenced by inspected original implementation",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "local_evidence_cache_sha256": "50FEA7B7C79B3999E45AA6EDF71E4E518431669B42ABEB950455860A1C761F82",
+      "local_evidence_cache_bytes": 9662,
+      "local_evidence_cache": ".local_gmod_evidence/gamemodes/sandbox/gamemode/spawnmenu/controlpanel.lua"
+    },
+    {
+      "id": "lua/includes/modules/constraint.lua",
+      "source_relative": "lua/includes/modules/constraint.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\lua\\includes\\modules\\constraint.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "support"
+      ],
+      "reason": "Explicit Lua dependency referenced by inspected original implementation",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "lua/includes/modules/undo.lua",
+      "source_relative": "lua/includes/modules/undo.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\lua\\includes\\modules\\undo.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "support"
+      ],
+      "reason": "Explicit Lua dependency referenced by inspected original implementation",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "lua/includes/modules/cleanup.lua",
+      "source_relative": "lua/includes/modules/cleanup.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\lua\\includes\\modules\\cleanup.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "support"
+      ],
+      "reason": "Explicit Lua dependency referenced by inspected original implementation",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "lua/includes/modules/numpad.lua",
+      "source_relative": "lua/includes/modules/numpad.lua",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\lua\\includes\\modules\\numpad.lua",
+      "classification": "Lua",
+      "subsystems": [
+        "toolgun",
+        "support"
+      ],
+      "reason": "Explicit Lua dependency referenced by inspected original implementation",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "models/weapons/c_toolgun.mdl",
+      "source_relative": "models/weapons/c_toolgun.mdl",
+      "source_absolute": null,
+      "classification": "model",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "992ED7A5ED4996B89C59FF656D93981FBA53B06B2E7A478EA52E0D7309E8CC79",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "models/weapons/c_toolgun.mdl",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "models/weapons/c_toolgun.vvd",
+      "source_relative": "models/weapons/c_toolgun.vvd",
+      "source_absolute": null,
+      "classification": "model",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "D3F469510B6C5B0F1979254B477BA66F228EEA01240FE97DB22AB97D57429580",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "models/weapons/c_toolgun.vvd",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "models/weapons/c_toolgun.dx90.vtx",
+      "source_relative": "models/weapons/c_toolgun.dx90.vtx",
+      "source_absolute": null,
+      "classification": "model",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "9A814D307A9874BBD3B3CF92BEC93069780898203783F80ABD20DEAFA9FAB6DA",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "models/weapons/c_toolgun.dx90.vtx",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "models/weapons/w_toolgun.mdl",
+      "source_relative": "models/weapons/w_toolgun.mdl",
+      "source_absolute": null,
+      "classification": "model",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "19D169CCEF78F358B44E7CAA8CDF3873EEA3FBD21864F70F86E23CE1106B2703",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "models/weapons/w_toolgun.mdl",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "models/weapons/w_toolgun.vvd",
+      "source_relative": "models/weapons/w_toolgun.vvd",
+      "source_absolute": null,
+      "classification": "model",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "EE8CFAE44FF4BB7A6F83C77DC5F1AA077AA11EDC4ED163B3A715DC8B9CC909C6",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "models/weapons/w_toolgun.vvd",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "models/weapons/w_toolgun.dx90.vtx",
+      "source_relative": "models/weapons/w_toolgun.dx90.vtx",
+      "source_absolute": null,
+      "classification": "model",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "4F43009DCE55EDF1BDBE76EC46E8A0F5FB87EB70CC651E66902B5E051A01A55E",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "models/weapons/w_toolgun.dx90.vtx",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "models/weapons/w_toolgun.phy",
+      "source_relative": "models/weapons/w_toolgun.phy",
+      "source_absolute": null,
+      "classification": "model",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "01870158139EE6C071FFBA9663D42BED5A94471F54736E172FA487245E1B444F",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "models/weapons/w_toolgun.phy",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "materials/models/weapons/v_toolgun/screen.vmt",
+      "source_relative": "materials/models/weapons/v_toolgun/screen.vmt",
+      "source_absolute": null,
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "CCED67B3CB3B2C569E06B3E647007F3D9B97BD8F1B5A56FD23303621F080B524",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "materials/models/weapons/v_toolgun/screen.vmt",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "materials/models/weapons/v_toolgun/screen_bg.vmt",
+      "source_relative": "materials/models/weapons/v_toolgun/screen_bg.vmt",
+      "source_absolute": null,
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "08B110D41D4D1122BC33AC071D5527443907675E3A974C8A3FD255E0CCF7ADF1",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "materials/models/weapons/v_toolgun/screen_bg.vmt",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "materials/models/weapons/v_toolgun/screen_bg.vtf",
+      "source_relative": "materials/models/weapons/v_toolgun/screen_bg.vtf",
+      "source_absolute": null,
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "6D106B4B9122199B217788A2567A49E29F3B45DEEF5F22EE237578E899346590",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "materials/models/weapons/v_toolgun/screen_bg.vtf",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "materials/models/weapons/v_toolgun/toolgun.vmt",
+      "source_relative": "materials/models/weapons/v_toolgun/toolgun.vmt",
+      "source_absolute": null,
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "42B467C7C4780CA0C0644A13ABD460103B54A42FB5ADF483571C345A918C6D51",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "materials/models/weapons/v_toolgun/toolgun.vmt",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "materials/models/weapons/v_toolgun/toolgun.vtf",
+      "source_relative": "materials/models/weapons/v_toolgun/toolgun.vtf",
+      "source_absolute": null,
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "A485F39B2F6D413A432F92180F14E7F1ED3A28A0D42C3A1FEA387000056D2270",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "materials/models/weapons/v_toolgun/toolgun.vtf",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "materials/models/weapons/v_toolgun/toolgun_mask.vtf",
+      "source_relative": "materials/models/weapons/v_toolgun/toolgun_mask.vtf",
+      "source_absolute": null,
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "DD465F46D3F8D9775ABD19A00998F9A4FA2D79ADA88EB16B0FFB1D3CEB24DB97",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "materials/models/weapons/v_toolgun/toolgun_mask.vtf",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "materials/models/weapons/v_toolgun/toolgun_exp.vtf",
+      "source_relative": "materials/models/weapons/v_toolgun/toolgun_exp.vtf",
+      "source_absolute": null,
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "F34D0F7A842D4AAA3A40AD3E1C74C7F37B0AFC2F8CFBFDDEBC786DB7ECDC68DD",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "materials/models/weapons/v_toolgun/toolgun_exp.vtf",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "materials/effects/tool_tracer.vmt",
+      "source_relative": "materials/effects/tool_tracer.vmt",
+      "source_absolute": null,
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "EB0101782FB887E3EBB998239974C1D016ACA2EC4ABA3DE8CFAE535D743BE36C",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "materials/effects/tool_tracer.vmt",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "materials/effects/tool_tracer.vtf",
+      "source_relative": "materials/effects/tool_tracer.vtf",
+      "source_absolute": null,
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "3C4C381609888C2509150F3FC6944859D97EE482854A75ECB0D22B74BE198837",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "materials/effects/tool_tracer.vtf",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "materials/entities/gmod_tool.png",
+      "source_relative": "materials/entities/gmod_tool.png",
+      "source_absolute": null,
+      "classification": "asset",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original weapon/model/material resource from existing asset handoff",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "C49B057C14AD315C3909C389A89BE99591990EDB5C72B6162809A3FEEAC83CBE",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "source_internal": "materials/entities/gmod_tool.png",
+      "hash_basis": "previous_local_gmod_tool_physgun_asset_handoff_manifest_not_new_calculation"
+    },
+    {
+      "id": "materials/gui/tool.png",
+      "source_relative": "materials/gui/tool.png",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\gui\\tool.png",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "materials/vgui/gmod_tool.vmt",
+      "source_relative": "materials/vgui/gmod_tool.vmt",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\vgui\\gmod_tool.vmt",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "materials/vgui/gmod_tool.vtf",
+      "source_relative": "materials/vgui/gmod_tool.vtf",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\vgui\\gmod_tool.vtf",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "materials/gui/gradient.vmt",
+      "source_relative": "materials/gui/gradient.vmt",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\gui\\gradient.vmt",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "materials/gui/info.vmt",
+      "source_relative": "materials/gui/info.vmt",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\gui\\info.vmt",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "materials/gui/lmb.png",
+      "source_relative": "materials/gui/lmb.png",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\gui\\lmb.png",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "materials/gui/rmb.png",
+      "source_relative": "materials/gui/rmb.png",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\gui\\rmb.png",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "materials/gui/r.png",
+      "source_relative": "materials/gui/r.png",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\gui\\r.png",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "materials/gui/e.png",
+      "source_relative": "materials/gui/e.png",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\gui\\e.png",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "materials/effects/select_dot.vmt",
+      "source_relative": "materials/effects/select_dot.vmt",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\effects\\select_dot.vmt",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "materials/effects/select_ring.vmt",
+      "source_relative": "materials/effects/select_ring.vmt",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\effects\\select_ring.vmt",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "materials/effects/spark.vmt",
+      "source_relative": "materials/effects/spark.vmt",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\effects\\spark.vmt",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "materials/gui/dupe_bg.png",
+      "source_relative": "materials/gui/dupe_bg.png",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\gui\\dupe_bg.png",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "materials/models/debug/debugwhite.vmt",
+      "source_relative": "materials/models/debug/debugwhite.vmt",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\materials\\models\\debug\\debugwhite.vmt",
+      "classification": "texture/material",
+      "subsystems": [
+        "toolgun",
+        "hud",
+        "effects"
+      ],
+      "reason": "Explicit reference in original toolgun/stool/effect code; resolve texture closure",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "sound/ui/buttonclickrelease.wav",
+      "source_relative": "sound/ui/buttonclickrelease.wav",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\sound\\ui\\buttonclickrelease.wav",
+      "classification": "sound",
+      "subsystems": [
+        "tool_selection"
+      ],
+      "reason": "Original tool ContentIcon click sound",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": null,
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    },
+    {
+      "id": "scripts/sounds/lua.txt",
+      "source_relative": "scripts/sounds/lua.txt",
+      "source_absolute": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\scripts\\sounds\\lua.txt",
+      "classification": "configuration",
+      "subsystems": [
+        "toolgun"
+      ],
+      "reason": "Original Toolgun.Single named event located by prior sound inventory",
+      "dependencies": [],
+      "evidence": "prior_manifest_or_source_reference",
+      "sha256": "E89DF9CB57ED79F2E8133120C67ADDA3716A07B6FFC39161ED356D97AA510D33",
+      "status": "investigated_seed_staging_root_manifest_authoritative",
+      "commit_payload": false,
+      "proprietary": true,
+      "staging_destination": null
+    }
+  ],
+  "nonfile_resources": [
+    {
+      "id": "sound_event:Toolgun.Single",
+      "definition": "scripts/sounds/lua.txt",
+      "wave_payloads": [],
+      "status": "exact_wave_closure_pending_later_sound_manifest",
+      "reason": "Old manifest waves=[] does not establish payload"
+    },
+    {
+      "id": "font:GModToolName",
+      "family": "Roboto Bk",
+      "size": 80,
+      "weight": 1000,
+      "extended": true,
+      "status": "font_file_closure_root_staging"
+    },
+    {
+      "id": "font:GModToolSubtitle",
+      "family": "Roboto Bk",
+      "size": 24,
+      "weight": 1000,
+      "extended": true,
+      "status": "font_file_closure_root_staging"
+    },
+    {
+      "id": "font:GModToolHelp",
+      "family": "Roboto Bk",
+      "size": 17,
+      "weight": 1000,
+      "extended": true,
+      "status": "font_file_closure_root_staging"
+    },
+    {
+      "id": "font:GModToolScreen",
+      "family": "Helvetica",
+      "size": 60,
+      "weight": 900,
+      "status": "font_resolution_pending"
+    }
+  ],
+  "evidence_functions": [
+    {
+      "symbol": "ToolPanel:AddCategory",
+      "file": "gamemodes/sandbox/gamemode/spawnmenu/toolpanel.lua",
+      "description": "button.DoClick calls spawnmenu.ActivateTool; no hover selection in inspected implementation",
+      "confidence": "high_script",
+      "start_line": 234
+    },
+    {
+      "symbol": "spawnmenu.ActivateTool",
+      "file": "lua/includes/modules/spawnmenu.lua",
+      "description": "run registered command unless noCommand, initialize controlpanel, activate panel/tab/button",
+      "confidence": "high_script",
+      "start_line": 101
+    },
+    {
+      "symbol": "CC_GMOD_Tool",
+      "file": "gamemodes/sandbox/entities/weapons/gmod_tool/init.lua",
+      "description": "SERVER allow check; player gmod_toolmode command; SelectWeapon gmod_tool",
+      "confidence": "high_script",
+      "start_line": 22
+    },
+    {
+      "symbol": "SWEP:Think",
+      "file": "gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua",
+      "description": "read owner userinfo mode; cleanup/holster old; deploy new; flags/think",
+      "confidence": "high_script",
+      "start_line": 121
+    },
+    {
+      "symbol": "SWEP:DoToolTrace",
+      "file": "gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua",
+      "description": "Source GetPlayerTrace/mask/filter line then hull fallback; require Hit",
+      "confidence": "high_script",
+      "start_line": 209
+    },
+    {
+      "symbol": "SWEP:PrimaryAttack",
+      "file": "gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua",
+      "description": "CheckObjects/Allowed/CanTool button1/LeftClick then predicted effects",
+      "confidence": "high_script",
+      "start_line": 233
+    },
+    {
+      "symbol": "SWEP:SecondaryAttack",
+      "file": "gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua",
+      "description": "CheckObjects/Allowed/CanTool button2/RightClick then effects",
+      "confidence": "high_script",
+      "start_line": 256
+    },
+    {
+      "symbol": "SWEP:Reload",
+      "file": "gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua",
+      "description": "IN_RELOAD KeyPressed/CanTool button3/Reload; never mode selector",
+      "confidence": "high_script",
+      "start_line": 279
+    },
+    {
+      "symbol": "SWEP:RenderScreen",
+      "file": "gamemodes/sandbox/entities/weapons/gmod_tool/cl_viewscreen.lua",
+      "description": "256x256 RT, material basetexture, background, tool DrawToolScreen or scrolling translated name",
+      "confidence": "high_script",
+      "start_line": 45
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "engine:trace",
+      "classification": "engine-provided interface",
+      "native_implementation_status": "untraced_here_use_IDA_6_8_if_needed"
+    },
+    {
+      "id": "engine:effects",
+      "classification": "engine-provided interface",
+      "native_implementation_status": "untraced_here_use_IDA_6_8_if_needed"
+    },
+    {
+      "id": "engine:weapon_prediction",
+      "classification": "engine-provided interface",
+      "native_implementation_status": "untraced_here_use_IDA_6_8_if_needed"
+    },
+    {
+      "id": "engine:entity_physics",
+      "classification": "engine-provided interface",
+      "native_implementation_status": "untraced_here_use_IDA_6_8_if_needed"
+    },
+    {
+      "id": "engine:model_rendering",
+      "classification": "engine-provided interface",
+      "native_implementation_status": "untraced_here_use_IDA_6_8_if_needed"
+    },
+    {
+      "id": "engine:render_target",
+      "classification": "engine-provided interface",
+      "native_implementation_status": "untraced_here_use_IDA_6_8_if_needed"
+    },
+    {
+      "id": "engine:compression",
+      "classification": "engine-provided interface",
+      "native_implementation_status": "untraced_here_use_IDA_6_8_if_needed"
+    },
+    {
+      "id": "engine:network",
+      "classification": "engine-provided interface",
+      "native_implementation_status": "untraced_here_use_IDA_6_8_if_needed"
+    },
+    {
+      "id": "engine:dupe_container",
+      "classification": "engine-provided interface",
+      "native_implementation_status": "untraced_here_use_IDA_6_8_if_needed"
+    },
+    {
+      "id": "engine:view_entity",
+      "classification": "engine-provided interface",
+      "native_implementation_status": "untraced_here_use_IDA_6_8_if_needed"
+    },
+    {
+      "id": "engine:screenshot",
+      "classification": "engine-provided interface",
+      "native_implementation_status": "untraced_here_use_IDA_6_8_if_needed"
+    }
+  ],
+  "unresolved": [
+    "Exact Toolgun.Single wave closure",
+    "ToolTracer native/packaged implementation",
+    "RenderScreen native invocation",
+    "GetPlayerTrace native ray/range boundary",
+    "Original SWEP base and native input/prediction dispatch",
+    "Font resource fidelity",
+    "All supported modes from 37-mode/40-file tree full behavioral/transitive closure",
+    "FNV entity/Havok constraint graph and grouped undo",
+    "View/world animation and screen-surface playtest"
+  ],
+  "comparison": {
+    "selection": "Original click/string-mode/concommand chain differs from project hover/numeric index",
+    "reload": "Original current stool callback differs from project R selector",
+    "camera": "Camera stool differs from gmod_camera screenshot SWEP"
+  },
+  "installed_stool_registry": [
+    {
+      "mode": "axis",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/axis.lua",
+      "category": "Constraints",
+      "name_key": "#tool.axis.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Axis",
+        "RemoveConstraints"
+      ],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {},
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "FCD356617542658DD355E96317BE27181FE11C3956907FB64D0A82C338C8F8E3"
+    },
+    {
+      "mode": "balloon",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/balloon.lua",
+      "category": "Construction",
+      "name_key": "#tool.balloon.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Rope"
+      ],
+      "created_entities": [
+        "gmod_balloon"
+      ],
+      "entity_modifiers": [],
+      "client_convars": {
+        "ropelength": "64",
+        "force": "500",
+        "r": "255",
+        "g": "255",
+        "b": "0",
+        "model": "normal_skin1"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "A29FABDBE544246D6DBC4A888095A0BF44B5621A67AB6D60CB1C197D4D25AA28"
+    },
+    {
+      "mode": "ballsocket",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/ballsocket.lua",
+      "category": "Constraints",
+      "name_key": "#tool.ballsocket.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Ballsocket",
+        "RemoveConstraints"
+      ],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "forcelimit": "0",
+        "torquelimit": "0",
+        "nocollide": "0"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "BE1AF8EC539D95510DEA77E0CEE18975BD650BA8FE7645EB3C0AD1791E4CF8E8"
+    },
+    {
+      "mode": "button",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/button.lua",
+      "category": "Construction",
+      "name_key": "#tool.button.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Weld"
+      ],
+      "created_entities": [
+        "gmod_button"
+      ],
+      "entity_modifiers": [],
+      "client_convars": {
+        "model": "models/maxofs2d/button_05.mdl",
+        "keygroup": "37",
+        "description": "",
+        "toggle": "1"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "5278D02C843BCF67F3685390FB8D06C686FAABBC39E1E168C05F17BFA62B8D0B"
+    },
+    {
+      "mode": "camera",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/camera.lua",
+      "category": "Render",
+      "name_key": "#tool.camera.name",
+      "add_to_menu": true,
+      "constraint_calls": [],
+      "created_entities": [
+        "gmod_cameraprop"
+      ],
+      "entity_modifiers": [],
+      "client_convars": {
+        "locked": "0",
+        "key": "37",
+        "toggle": "1"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "4E4E8F3F81D169A41952971D0000A8ADC00AF0E03A9C1B8B543346E40487B09C"
+    },
+    {
+      "mode": "colour",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/colour.lua",
+      "category": "Render",
+      "name_key": "#tool.colour.name",
+      "add_to_menu": true,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [
+        "colour"
+      ],
+      "client_convars": {
+        "mode": "0",
+        "fx": "0"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "31CCFFACA13CCB8CCD7D5C1B07DE00F20A3AA9EAFE4464F3352FE2B8BB604706"
+    },
+    {
+      "mode": "creator",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/creator.lua",
+      "category": null,
+      "name_key": null,
+      "add_to_menu": false,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "type": "0",
+        "name": "0",
+        "override": ""
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "5A901A7424328291C68C916075DA9F5C886F6B73362843550D286E15359456AC"
+    },
+    {
+      "mode": "duplicator",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator.lua",
+      "category": "Construction",
+      "name_key": "#tool.duplicator.name",
+      "add_to_menu": true,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {},
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "B6D66EC8EE62384EA6EC53DFAC742B6FF4289E49D20AC160592AAFE62912625F"
+    },
+    {
+      "mode": "dynamite",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/dynamite.lua",
+      "category": "Construction",
+      "name_key": "#tool.dynamite.name",
+      "add_to_menu": true,
+      "constraint_calls": [],
+      "created_entities": [
+        "gmod_dynamite"
+      ],
+      "entity_modifiers": [],
+      "client_convars": {
+        "model": "models/dav0r/tnt/tnt.mdl"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "350E749D273BC371C6E1EA966CB5F0B122DE4136E63ED0BCD00679301B43D404"
+    },
+    {
+      "mode": "editentity",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/editentity.lua",
+      "category": "Construction",
+      "name_key": "#tool.editentity.name",
+      "add_to_menu": false,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {},
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "35B32B4239AF2E1B5D176B3438A9A52793BD6516EAB94158518B0A8756C15849"
+    },
+    {
+      "mode": "elastic",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/elastic.lua",
+      "category": "Constraints",
+      "name_key": "#tool.elastic.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Elastic",
+        "RemoveConstraints"
+      ],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "constant": "500",
+        "damping": "3",
+        "rdamping": "0.01",
+        "material": "cable/cable",
+        "width": "2",
+        "stretch_only": "1",
+        "color_r": "255",
+        "color_g": "255",
+        "color_b": "255"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "BB73C0DAD538189E78FE5723E9DC1404E7053935C5E48ECADEB59F0228F6A7E3"
+    },
+    {
+      "mode": "emitter",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/emitter.lua",
+      "category": "Construction",
+      "name_key": "#tool.emitter.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Weld"
+      ],
+      "created_entities": [
+        "gmod_emitter"
+      ],
+      "entity_modifiers": [],
+      "client_convars": {
+        "key": "51",
+        "delay": "1",
+        "toggle": "1",
+        "starton": "0",
+        "effect": "sparks",
+        "scale": "1"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "4408846DC7E1131DC08FB2904B83965ADA8D774B38D72B403F71E85D1AE05641"
+    },
+    {
+      "mode": "example",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/example.lua",
+      "category": "My Category",
+      "name_key": "#tool.example.name",
+      "add_to_menu": false,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "CLIENTSIDE": "default"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "24CD745FECC3B020D7D2B7A047E9AEE6CF220AAADDB62BD2EA8B385A455BDFA0"
+    },
+    {
+      "mode": "eyeposer",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/eyeposer.lua",
+      "category": "Poser",
+      "name_key": "#tool.eyeposer.name",
+      "add_to_menu": true,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [
+        "eyetarget"
+      ],
+      "client_convars": {
+        "x": "0",
+        "y": "0",
+        "strabismus": "0"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "048AB95ADC600BBD09AF023D5024B4E837DB4C3B7B8FA2B816FB707333C2C25B"
+    },
+    {
+      "mode": "faceposer",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/faceposer.lua",
+      "category": "Poser",
+      "name_key": "#tool.faceposer.name",
+      "add_to_menu": true,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "scale": "1.0"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "6D309B4C46579FF6F615FC5AA65498F5BDE6033E6E3D5850298BCDC1B4C18624"
+    },
+    {
+      "mode": "finger",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/finger.lua",
+      "category": "Poser",
+      "name_key": "#tool.finger.name",
+      "add_to_menu": true,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {},
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "1EEB20386A6B84055EA704412B3AD9DE87705BA680F1CAA479C796FF52DB5696"
+    },
+    {
+      "mode": "hoverball",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/hoverball.lua",
+      "category": "Construction",
+      "name_key": "#tool.hoverball.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Weld"
+      ],
+      "created_entities": [
+        "gmod_hoverball"
+      ],
+      "entity_modifiers": [],
+      "client_convars": {
+        "keyup": "46",
+        "keydn": "43",
+        "keyon": "40",
+        "speed": "5",
+        "resistance": "5",
+        "strength": "10",
+        "model": "models/dav0r/hoverball.mdl"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "2D2C41FE05E27A2B26CBE3486EEAE39FB8238A05A1F1A965F1D5E77346208ADB"
+    },
+    {
+      "mode": "hydraulic",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/hydraulic.lua",
+      "category": "Constraints",
+      "name_key": "#tool.hydraulic.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Hydraulic",
+        "RemoveConstraints"
+      ],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "group": "37",
+        "width": "3",
+        "addlength": "100",
+        "fixed": "1",
+        "speed": "64",
+        "toggle": "1",
+        "material": "cable/rope",
+        "color_r": "255",
+        "color_g": "255",
+        "color_b": "255"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "34ADC883FCEB679841A18830E8D94DA0623B16BD8C2B60E47B4EAC2D949C5978"
+    },
+    {
+      "mode": "inflator",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/inflator.lua",
+      "category": "Poser",
+      "name_key": "#tool.inflator.name",
+      "add_to_menu": true,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {},
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "A04E50C2855FD49FC78B8E1F915FE510443E5FD77480DE0D9B1AD1A901F56A07"
+    },
+    {
+      "mode": "lamp",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/lamp.lua",
+      "category": "Construction",
+      "name_key": "#tool.lamp.name",
+      "add_to_menu": true,
+      "constraint_calls": [],
+      "created_entities": [
+        "gmod_lamp"
+      ],
+      "entity_modifiers": [],
+      "client_convars": {
+        "r": "255",
+        "g": "255",
+        "b": "255",
+        "key": "37",
+        "fov": "90",
+        "distance": "1024",
+        "brightness": "4",
+        "texture": "effects/flashlight001",
+        "model": "models/lamps/torch.mdl",
+        "toggle": "1"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "23676AB1F21567704438C6B5A1024DD81557115541862D8AC6A40832ECB76782"
+    },
+    {
+      "mode": "leafblower",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/leafblower.lua",
+      "category": null,
+      "name_key": "#tool.leafblower.name",
+      "add_to_menu": false,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {},
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "F10EA001AEB82173B7716585B6D3F22EA7B9390822C7C6848A51DFCE0895191A"
+    },
+    {
+      "mode": "light",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/light.lua",
+      "category": "Construction",
+      "name_key": "#tool.light.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Rope"
+      ],
+      "created_entities": [
+        "gmod_light"
+      ],
+      "entity_modifiers": [],
+      "client_convars": {
+        "ropelength": "64",
+        "ropematerial": "cable/rope",
+        "r": "255",
+        "g": "255",
+        "b": "255",
+        "brightness": "2",
+        "size": "256",
+        "key": "37",
+        "toggle": "1"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "EEFF46D99224FABC45CF3FAB7E829465BF86D1CB0C637F05D3679676A3BD5AE7"
+    },
+    {
+      "mode": "material",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/material.lua",
+      "category": "Render",
+      "name_key": "#tool.material.name",
+      "add_to_menu": true,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [
+        "material"
+      ],
+      "client_convars": {
+        "override": "debug/env_cubemap_model"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "4C3052F7BC79B33750A1E7EE90B7732A62479987BAFFD372AC5C873FB4641DD7"
+    },
+    {
+      "mode": "motor",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/motor.lua",
+      "category": "Constraints",
+      "name_key": "#tool.motor.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Motor",
+        "RemoveConstraints"
+      ],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "torque": "500",
+        "friction": "1",
+        "nocollide": "1",
+        "forcetime": "0",
+        "fwd": "45",
+        "bwd": "42",
+        "toggle": "0",
+        "forcelimit": "0"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "8891051163C745B8B44069DB66D2F931BC1C545A957008F57D69F28309333BA8"
+    },
+    {
+      "mode": "muscle",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/muscle.lua",
+      "category": "Constraints",
+      "name_key": "#tool.muscle.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Muscle",
+        "RemoveConstraints"
+      ],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "group": "37",
+        "width": "2",
+        "addlength": "100",
+        "fixed": "1",
+        "period": "1",
+        "material": "cable/rope",
+        "starton": "0",
+        "color_r": "255",
+        "color_g": "255",
+        "color_b": "255"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "2812F3A3FE25FDDE62AE523812F6D32C00CDC1F024F7BEAA64663098D5A4EB56"
+    },
+    {
+      "mode": "nocollide",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/nocollide.lua",
+      "category": "Construction",
+      "name_key": "#tool.nocollide.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "NoCollide",
+        "RemoveConstraints"
+      ],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {},
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "3EAC02501EB565EDD77614AEDAF8667645DEE1BB8E64898E63BB8F348ADC34EE"
+    },
+    {
+      "mode": "paint",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/paint.lua",
+      "category": "Render",
+      "name_key": "#tool.paint.name",
+      "add_to_menu": true,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [
+        "decal"
+      ],
+      "client_convars": {
+        "decal": "Blood"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "FD3AC99CF645B8FDFB763A8D81B66CACD3ECD633A92353927399443A581B7613"
+    },
+    {
+      "mode": "physprop",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/physprop.lua",
+      "category": "Construction",
+      "name_key": "#tool.physprop.name",
+      "add_to_menu": true,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "gravity_toggle": "1",
+        "material": "metal_bouncy"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "81274F667F9256256A60EA6FA93644921D08B7990624FD21EB78E940320BFA5E"
+    },
+    {
+      "mode": "pulley",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/pulley.lua",
+      "category": "Constraints",
+      "name_key": "#tool.pulley.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Pulley",
+        "RemoveConstraints"
+      ],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "width": "3",
+        "forcelimit": "0",
+        "rigid": "0",
+        "material": "cable/cable",
+        "color_r": "255",
+        "color_g": "255",
+        "color_b": "255"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "3A974E9CAE372B963A6334615F47C4AD89A1179605E3FEA77F1B5294DE0CB3E8"
+    },
+    {
+      "mode": "remover",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/remover.lua",
+      "category": "Construction",
+      "name_key": "#tool.remover.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "GetAllConstrainedEntities",
+        "RemoveAll"
+      ],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {},
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "336A1A1B7F2F5EEAD534A7952A3A3852D846E3136DFDE0B75502D19434147E8E"
+    },
+    {
+      "mode": "rope",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/rope.lua",
+      "category": "Constraints",
+      "name_key": "#tool.rope.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "RemoveConstraints",
+        "Rope"
+      ],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "forcelimit": "0",
+        "addlength": "0",
+        "material": "cable/rope",
+        "width": "2",
+        "rigid": "0",
+        "color_r": "255",
+        "color_g": "255",
+        "color_b": "255"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "C26FE47620CDC1EF621B82FBB155D03E86D7AB425F7BEB2C6427D6A69FA5A5F5"
+    },
+    {
+      "mode": "slider",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/slider.lua",
+      "category": "Constraints",
+      "name_key": "#tool.slider.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "RemoveConstraints",
+        "Slider"
+      ],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "width": "1.5",
+        "material": "cable/cable",
+        "color_r": "255",
+        "color_g": "255",
+        "color_b": "255"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "722335C4594F2132F8D7EE80725A8F0BA012964C72C908D56BFADD26B4CA2B0F"
+    },
+    {
+      "mode": "thruster",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/thruster.lua",
+      "category": "Construction",
+      "name_key": "#tool.thruster.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Weld"
+      ],
+      "created_entities": [
+        "gmod_thruster"
+      ],
+      "entity_modifiers": [],
+      "client_convars": {
+        "force": "1500",
+        "model": "models/props_phx2/garbage_metalcan001a.mdl",
+        "keygroup": "45",
+        "keygroup_back": "42",
+        "toggle": "0",
+        "collision": "0",
+        "effect": "fire",
+        "damageable": "0",
+        "soundname": "PhysicsCannister.ThrusterLoop"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "0CE1FB894A732424B3D6906C74808384201937B3BA2F58D67CB180D54D65A935"
+    },
+    {
+      "mode": "trails",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/trails.lua",
+      "category": "Render",
+      "name_key": "#tool.trails.name",
+      "add_to_menu": true,
+      "constraint_calls": [],
+      "created_entities": [],
+      "entity_modifiers": [
+        "trail"
+      ],
+      "client_convars": {
+        "material": "trails/lol"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "6B734A116B72F1A57647CC82555BD37E97C079C13DAD96E594786A3BD58B822A"
+    },
+    {
+      "mode": "weld",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/weld.lua",
+      "category": "Constraints",
+      "name_key": "#tool.weld.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "RemoveConstraints",
+        "Weld"
+      ],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "forcelimit": "0",
+        "nocollide": "0"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "29EE1E03D22AE23DAA30C6CA794B6DA161A3547DCFF45D48DB8C8408D74F04AE"
+    },
+    {
+      "mode": "wheel",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/wheel.lua",
+      "category": "Construction",
+      "name_key": "#tool.wheel.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "Motor"
+      ],
+      "created_entities": [
+        "gmod_wheel"
+      ],
+      "entity_modifiers": [],
+      "client_convars": {
+        "torque": "3000",
+        "friction": "1",
+        "nocollide": "1",
+        "forcelimit": "0",
+        "fwd": "45",
+        "bck": "42",
+        "toggle": "0",
+        "model": "models/props_vehicles/carparts_wheel01a.mdl",
+        "rx": "90",
+        "ry": "0",
+        "rz": "90"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "AE29E9A6F827FD03BFFF472BA2F4AEEAB76EE361105C368158F35D53F75C30C6"
+    },
+    {
+      "mode": "winch",
+      "source_relative": "gamemodes/sandbox/entities/weapons/gmod_tool/stools/winch.lua",
+      "category": "Constraints",
+      "name_key": "#tool.winch.name",
+      "add_to_menu": true,
+      "constraint_calls": [
+        "RemoveConstraints",
+        "Winch"
+      ],
+      "created_entities": [],
+      "entity_modifiers": [],
+      "client_convars": {
+        "rope_material": "cable/rope",
+        "rope_width": "3",
+        "fwd_speed": "64",
+        "bwd_speed": "64",
+        "fwd_group": "44",
+        "bwd_group": "41",
+        "color_r": "255",
+        "color_g": "255",
+        "color_b": "255"
+      },
+      "inspection_scope": "static_registry_and_dependency_summary_full_behavior_only_for_reported_priority_stools",
+      "local_evidence_cache_sha256": "B83E9ECE92033DD33100449465BFCA309E5A6016764F3BD014110E9962899A0E"
+    }
+  ],
+  "installed_stool_registry_count": 37,
+  "local_cache_hash_warning": "Read_file text-transfer cache uses LF instead of original CRLF; cache hashes are not original file provenance hashes."
+}

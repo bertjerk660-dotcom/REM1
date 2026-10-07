@@ -1,0 +1,1667 @@
+{
+  "schema_version": 1,
+  "investigation_date": "2026-10-07",
+  "source_root": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod",
+  "source_authority": "supplied local installation",
+  "payload_commit_policy": "local-only proprietary originals; authored report and path/hash metadata may be committed",
+  "hash_policy": "join exact current-source SHA-256 and staging destination from asset provenance; no hash invented here",
+  "runtime_modified": false,
+  "verified_files": [
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/cl_spawnmenu.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "complete supplied file directly read, 136 lines",
+      "anchors": [
+        "GM:SpawnMenuEnabled",
+        "GM:SpawnMenuOpen",
+        "GM:SpawnMenuOpened",
+        "GM:ContextMenuOpened",
+        "GM:AddGamemodeToolMenuTabs",
+        "GM:AddGamemodeToolMenuCategories",
+        "GM:PopulatePropMenu"
+      ],
+      "dependencies": [
+        "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/spawnmenu.lua",
+        "spawnmenu.PopulateFromEngineTextFiles",
+        "sandbox hints",
+        "language keys",
+        "icon16/wrench.png",
+        "icon16/page_white_wrench.png"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/spawnmenu.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "complete supplied file directly read, 384 lines",
+      "anchors": [
+        "PANEL:Init",
+        "PANEL:Open",
+        "PANEL:Close",
+        "PANEL:StartKeyFocus",
+        "PANEL:EndKeyFocus",
+        "CreateSpawnMenu",
+        "GM:OnSpawnMenuOpen",
+        "GM:OnSpawnMenuClose",
+        "SpawnMenuLanguageChanged",
+        "SpawnMenuLanguageRefresh"
+      ],
+      "dependencies": [
+        "toolmenu.lua",
+        "contextmenu.lua",
+        "creationmenu.lua",
+        "EditablePanel",
+        "DHorizontalDivider",
+        "DImageButton",
+        "CreationMenu",
+        "ToolMenu",
+        "spawnmenu",
+        "menubar",
+        "Derma menus",
+        "gui/spawnmenu_toggle",
+        "gui/spawnmenu_toggle_back",
+        "VGUI popup/focus/cursor services",
+        "hook",
+        "concommand",
+        "cvars",
+        "clocks"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/creationmenu.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "PANEL:Init",
+          "line": 6
+        },
+        {
+          "symbol": "PANEL:GetCreationTab",
+          "line": 15
+        },
+        {
+          "symbol": "PANEL:GetCreationTabs",
+          "line": 21
+        },
+        {
+          "symbol": "PANEL:Populate",
+          "line": 27
+        },
+        {
+          "symbol": "vgui.Register CreationMenu",
+          "line": 59
+        }
+      ],
+      "includes": [
+        "creationmenu/manifest.lua"
+      ],
+      "created_panel_classes": [
+        "Panel"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/content.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "PANEL:Init",
+          "line": 24
+        },
+        {
+          "symbol": "PANEL:EnableModify",
+          "line": 48
+        },
+        {
+          "symbol": "PANEL:EnableSearch",
+          "line": 52
+        },
+        {
+          "symbol": "PANEL:CallPopulateHook",
+          "line": 56
+        },
+        {
+          "symbol": "PANEL:SwitchPanel",
+          "line": 62
+        },
+        {
+          "symbol": "PANEL:OnSizeChanged",
+          "line": 81
+        },
+        {
+          "symbol": "BuildCategorizedList",
+          "line": 85
+        },
+        {
+          "symbol": "AddCategory",
+          "line": 116
+        },
+        {
+          "symbol": "PANEL:PopulateFromList",
+          "line": 183
+        },
+        {
+          "symbol": "vgui.Register SpawnmenuContentPanel",
+          "line": 271
+        },
+        {
+          "symbol": "CreateContentPanel",
+          "line": 273
+        },
+        {
+          "symbol": "spawnmenu.AddCreationTab #spawnmenu.content_tab",
+          "line": 290
+        }
+      ],
+      "includes": [
+        "contenticon.lua",
+        "postprocessicon.lua",
+        "contentcontainer.lua",
+        "contentsidebar.lua",
+        "contenttypes/custom.lua",
+        "contenttypes/npcs.lua",
+        "contenttypes/weapons.lua",
+        "contenttypes/entities.lua",
+        "contenttypes/postprocess.lua",
+        "contenttypes/vehicles.lua",
+        "contenttypes/saves.lua",
+        "contenttypes/dupes.lua",
+        "contenttypes/gameprops.lua",
+        "contenttypes/addonprops.lua"
+      ],
+      "created_panel_classes": [
+        "ContentContainer",
+        "ContentHeader",
+        "ContentSidebar",
+        "DHorizontalDivider",
+        "SpawnmenuContentPanel"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contentsearch.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "PANEL:Init",
+          "line": 6
+        },
+        {
+          "symbol": "PANEL:Paint",
+          "line": 54
+        },
+        {
+          "symbol": "PANEL:SetSearchType",
+          "line": 64
+        },
+        {
+          "symbol": "PANEL:RefreshResults",
+          "line": 101
+        },
+        {
+          "symbol": "PANEL:AddSearchResult",
+          "line": 146
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": [
+        "ContentContainer",
+        "ContentHeader",
+        "DTextEntry"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contentsidebar.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "PANEL:Init",
+          "line": 8
+        },
+        {
+          "symbol": "PANEL:EnableSearch",
+          "line": 20
+        },
+        {
+          "symbol": "PANEL:EnableModify",
+          "line": 25
+        },
+        {
+          "symbol": "PANEL:CreateSaveNotification",
+          "line": 43
+        },
+        {
+          "symbol": "vgui.Register ContentSidebar",
+          "line": 87
+        }
+      ],
+      "includes": [
+        "contentsidebartoolbox.lua"
+      ],
+      "created_panel_classes": [
+        "ContentSidebarToolbox",
+        "DButton",
+        "DTree",
+        "Panel"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contentcontainer.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "PANEL:Init",
+          "line": 13
+        },
+        {
+          "symbol": "PANEL:Add",
+          "line": 64
+        },
+        {
+          "symbol": "PANEL:Layout",
+          "line": 76
+        },
+        {
+          "symbol": "PANEL:PerformLayout",
+          "line": 83
+        },
+        {
+          "symbol": "PANEL:RebuildAll",
+          "line": 93
+        },
+        {
+          "symbol": "PANEL:GetCount",
+          "line": 106
+        },
+        {
+          "symbol": "PANEL:Clear",
+          "line": 112
+        },
+        {
+          "symbol": "PANEL:SetTriggerSpawnlistChange",
+          "line": 118
+        },
+        {
+          "symbol": "PANEL:OnModified",
+          "line": 125
+        },
+        {
+          "symbol": "PANEL:ContentsToTable",
+          "line": 133
+        },
+        {
+          "symbol": "PANEL:Copy",
+          "line": 147
+        },
+        {
+          "symbol": "vgui.Register ContentContainer",
+          "line": 158
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": [
+        "ContentContainer",
+        "ContentHeader",
+        "DTileLayout"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenticon.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "PANEL:OpenGenericSpawnmenuRightClickMenu",
+          "line": 20
+        },
+        {
+          "symbol": "PANEL:Init",
+          "line": 45
+        },
+        {
+          "symbol": "PANEL:SetName",
+          "line": 61
+        },
+        {
+          "symbol": "PANEL:SetMaterial",
+          "line": 68
+        },
+        {
+          "symbol": "PANEL:DoRightClick",
+          "line": 92
+        },
+        {
+          "symbol": "PANEL:DoClick",
+          "line": 103
+        },
+        {
+          "symbol": "PANEL:OpenMenu",
+          "line": 106
+        },
+        {
+          "symbol": "PANEL:OnDepressionChanged",
+          "line": 109
+        },
+        {
+          "symbol": "DrawTextShadow",
+          "line": 113
+        },
+        {
+          "symbol": "PANEL:Paint",
+          "line": 118
+        },
+        {
+          "symbol": "PANEL:ScanForNPCWeapons",
+          "line": 203
+        },
+        {
+          "symbol": "PANEL:PaintOver",
+          "line": 215
+        },
+        {
+          "symbol": "PANEL:ToTable",
+          "line": 221
+        },
+        {
+          "symbol": "PANEL:Copy",
+          "line": 236
+        },
+        {
+          "symbol": "vgui.Register ContentIcon",
+          "line": 256
+        },
+        {
+          "symbol": "spawnmenu.AddContentType entity",
+          "line": 258
+        },
+        {
+          "symbol": "spawnmenu.AddContentType vehicle",
+          "line": 307
+        },
+        {
+          "symbol": "spawnmenu.AddContentType npc",
+          "line": 357
+        },
+        {
+          "symbol": "spawnmenu.AddContentType weapon",
+          "line": 470
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": [
+        "ContentIcon",
+        "DImage"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contentheader.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "PANEL:Init",
+          "line": 10
+        },
+        {
+          "symbol": "PANEL:PerformLayout",
+          "line": 23
+        },
+        {
+          "symbol": "PANEL:SizeToContents",
+          "line": 29
+        },
+        {
+          "symbol": "PANEL:ToTable",
+          "line": 44
+        },
+        {
+          "symbol": "PANEL:Copy",
+          "line": 55
+        },
+        {
+          "symbol": "PANEL:PaintOver",
+          "line": 65
+        },
+        {
+          "symbol": "PANEL:OnLabelTextChanged",
+          "line": 71
+        },
+        {
+          "symbol": "PANEL:IsEnabled",
+          "line": 78
+        },
+        {
+          "symbol": "PANEL:DoRightClick",
+          "line": 85
+        },
+        {
+          "symbol": "PANEL:UpdateColours",
+          "line": 96
+        },
+        {
+          "symbol": "PANEL:OpenMenu",
+          "line": 106
+        },
+        {
+          "symbol": "vgui.Register ContentHeader",
+          "line": 117
+        },
+        {
+          "symbol": "spawnmenu.AddContentType header",
+          "line": 119
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": [
+        "ContentHeader"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenttypes/custom.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "SetupCustomNode",
+          "line": 4
+        },
+        {
+          "symbol": "ReadSpawnlists",
+          "line": 90
+        },
+        {
+          "symbol": "ConstructSpawnlist",
+          "line": 124
+        },
+        {
+          "symbol": "AddPropsOfParent",
+          "line": 139
+        },
+        {
+          "symbol": "CheckIfAnyVisible",
+          "line": 176
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": [
+        "ContentContainer"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenttypes/gameprops.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "recurseAddFiles",
+          "line": 2
+        },
+        {
+          "symbol": "GenerateSpawnlistFromPath",
+          "line": 25
+        },
+        {
+          "symbol": "GamePropsRightClick",
+          "line": 44
+        },
+        {
+          "symbol": "InstallNodeRightclick",
+          "line": 71
+        },
+        {
+          "symbol": "AddBrowseContent",
+          "line": 76
+        },
+        {
+          "symbol": "RefreshGames",
+          "line": 126
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": [
+        "ContentContainer"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contenttypes/addonprops.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "AddRecursive",
+          "line": 2
+        },
+        {
+          "symbol": "recurseAddFilesSpawnlist",
+          "line": 33
+        },
+        {
+          "symbol": "GenerateSpawnlistFromAddon",
+          "line": 58
+        },
+        {
+          "symbol": "AddonsRightClick",
+          "line": 76
+        },
+        {
+          "symbol": "RefreshAddons",
+          "line": 95
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": [
+        "ContentContainer",
+        "Panel"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/toolmenu.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "PANEL:Init",
+          "line": 9
+        },
+        {
+          "symbol": "PANEL:LoadTools",
+          "line": 22
+        },
+        {
+          "symbol": "PANEL:AddToolPanel",
+          "line": 37
+        },
+        {
+          "symbol": "PANEL:Paint",
+          "line": 55
+        },
+        {
+          "symbol": "PANEL:GetToolPanel",
+          "line": 64
+        },
+        {
+          "symbol": "vgui.Register ToolMenu",
+          "line": 70
+        }
+      ],
+      "includes": [
+        "toolpanel.lua"
+      ],
+      "created_panel_classes": [
+        "ToolPanel"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/toolpanel.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "PANEL:Init",
+          "line": 11
+        },
+        {
+          "symbol": "PANEL:Think",
+          "line": 73
+        },
+        {
+          "symbol": "PANEL:PerformToolFiltering",
+          "line": 98
+        },
+        {
+          "symbol": "PANEL:UpdateToolDisabledStatus",
+          "line": 144
+        },
+        {
+          "symbol": "PANEL:LoadToolsFromTable",
+          "line": 205
+        },
+        {
+          "symbol": "PANEL:AddCategory",
+          "line": 234
+        },
+        {
+          "symbol": "PANEL:SetActiveToolText",
+          "line": 284
+        },
+        {
+          "symbol": "PANEL:SetActive",
+          "line": 302
+        },
+        {
+          "symbol": "vgui.Register ToolPanel",
+          "line": 316
+        }
+      ],
+      "includes": [
+        "controlpanel.lua"
+      ],
+      "created_panel_classes": [
+        "DCategoryList",
+        "DCheckBox",
+        "DHorizontalDivider",
+        "DTextEntry",
+        "Panel"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/controlpanel.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "PANEL:Init",
+          "line": 15
+        },
+        {
+          "symbol": "PANEL:ClearControls",
+          "line": 19
+        },
+        {
+          "symbol": "PANEL:GetEmbeddedPanel",
+          "line": 23
+        },
+        {
+          "symbol": "PANEL:AddPanel",
+          "line": 29
+        },
+        {
+          "symbol": "PANEL:MatSelect",
+          "line": 36
+        },
+        {
+          "symbol": "PANEL:RopeSelect",
+          "line": 59
+        },
+        {
+          "symbol": "PANEL:PropSelect",
+          "line": 69
+        },
+        {
+          "symbol": "PANEL:ToolPresets",
+          "line": 100
+        },
+        {
+          "symbol": "PANEL:KeyBinder",
+          "line": 117
+        },
+        {
+          "symbol": "PANEL:ColorPicker",
+          "line": 135
+        },
+        {
+          "symbol": "PANEL:ComboBoxMulti",
+          "line": 158
+        },
+        {
+          "symbol": "PANEL:FillViaTable",
+          "line": 179
+        },
+        {
+          "symbol": "PANEL:FillViaFunction",
+          "line": 196
+        },
+        {
+          "symbol": "PANEL:ControlValues",
+          "line": 202
+        },
+        {
+          "symbol": "PANEL:AddControl",
+          "line": 212
+        },
+        {
+          "symbol": "vgui.Register ControlPanel",
+          "line": 491
+        }
+      ],
+      "includes": [
+        "controls/manifest.lua"
+      ],
+      "created_panel_classes": [
+        "ControlPresets",
+        "CtrlColor",
+        "CtrlListBox",
+        "CtrlNumPad",
+        "DButton",
+        "DLabel",
+        "DListView",
+        "MatSelect",
+        "PropSelect",
+        "RopeMaterial"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/contextmenu.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "PANEL:Init",
+          "line": 6
+        },
+        {
+          "symbol": "PANEL:Open",
+          "line": 21
+        },
+        {
+          "symbol": "PANEL:Close",
+          "line": 67
+        },
+        {
+          "symbol": "PANEL:PerformLayout",
+          "line": 87
+        },
+        {
+          "symbol": "PANEL:StartKeyFocus",
+          "line": 104
+        },
+        {
+          "symbol": "PANEL:EndKeyFocus",
+          "line": 111
+        },
+        {
+          "symbol": "PANEL:RestoreControlPanel",
+          "line": 117
+        },
+        {
+          "symbol": "vgui.Register ContextMenu",
+          "line": 135
+        },
+        {
+          "symbol": "CreateContextMenu",
+          "line": 137
+        },
+        {
+          "symbol": "GM:OnContextMenuOpen",
+          "line": 233
+        },
+        {
+          "symbol": "GM:OnContextMenuClose",
+          "line": 251
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": [
+        "ContextMenu",
+        "DCategoryList"
+      ]
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/cl_search_models.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "GetAllFiles",
+          "line": 9
+        },
+        {
+          "symbol": "AddSearchProvider",
+          "line": 121
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": []
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/commands.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "fixupProp",
+          "line": 6
+        },
+        {
+          "symbol": "TryFixPropPosition",
+          "line": 29
+        },
+        {
+          "symbol": "GetSpawnTrace",
+          "line": 35
+        },
+        {
+          "symbol": "ReportErrorToPlayer",
+          "line": 47
+        },
+        {
+          "symbol": "Spawn_SandboxModel",
+          "line": 56
+        },
+        {
+          "symbol": "CCSpawn",
+          "line": 113
+        },
+        {
+          "symbol": "concommand.Add gm_spawn",
+          "line": 121
+        },
+        {
+          "symbol": "MakeRagdoll",
+          "line": 123
+        },
+        {
+          "symbol": "GMODSpawnRagdoll",
+          "line": 154
+        },
+        {
+          "symbol": "MakeProp",
+          "line": 176
+        },
+        {
+          "symbol": "MakeEffect",
+          "line": 211
+        },
+        {
+          "symbol": "FixInvalidPhysicsObject",
+          "line": 250
+        },
+        {
+          "symbol": "GMODSpawnProp",
+          "line": 286
+        },
+        {
+          "symbol": "GMODSpawnEffect",
+          "line": 316
+        },
+        {
+          "symbol": "DoPlayerEntitySpawn",
+          "line": 344
+        },
+        {
+          "symbol": "InternalSpawnNPC",
+          "line": 412
+        },
+        {
+          "symbol": "Spawn_NPC",
+          "line": 606
+        },
+        {
+          "symbol": "concommand.Add gmod_spawnnpc",
+          "line": 656
+        },
+        {
+          "symbol": "GenericNPCDuplicator",
+          "line": 659
+        },
+        {
+          "symbol": "CanPlayerSpawnSENT",
+          "line": 745
+        },
+        {
+          "symbol": "Spawn_SENT",
+          "line": 777
+        },
+        {
+          "symbol": "concommand.Add gm_spawnsent",
+          "line": 892
+        },
+        {
+          "symbol": "CCGiveSWEP",
+          "line": 897
+        },
+        {
+          "symbol": "concommand.Add gm_giveswep",
+          "line": 928
+        },
+        {
+          "symbol": "Spawn_Weapon",
+          "line": 933
+        },
+        {
+          "symbol": "concommand.Add gm_spawnswep",
+          "line": 1003
+        },
+        {
+          "symbol": "MakeVehicle",
+          "line": 1011
+        },
+        {
+          "symbol": "Spawn_Vehicle",
+          "line": 1086
+        },
+        {
+          "symbol": "concommand.Add gm_spawnvehicle",
+          "line": 1133
+        }
+      ],
+      "includes": [
+        "prop_tools.lua"
+      ],
+      "created_panel_classes": []
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/player.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "GM:PlayerSpawnObject",
+          "line": 6
+        },
+        {
+          "symbol": "GM:CanPlayerUnfreeze",
+          "line": 14
+        },
+        {
+          "symbol": "LimitReachedProcess",
+          "line": 24
+        },
+        {
+          "symbol": "GM:PlayerSpawnRagdoll",
+          "line": 37
+        },
+        {
+          "symbol": "GM:PlayerSpawnProp",
+          "line": 48
+        },
+        {
+          "symbol": "GM:PlayerSpawnEffect",
+          "line": 58
+        },
+        {
+          "symbol": "GM:PlayerSpawnVehicle",
+          "line": 68
+        },
+        {
+          "symbol": "GM:PlayerSpawnSWEP",
+          "line": 79
+        },
+        {
+          "symbol": "GM:PlayerGiveSWEP",
+          "line": 90
+        },
+        {
+          "symbol": "GM:PlayerSpawnSENT",
+          "line": 101
+        },
+        {
+          "symbol": "GM:PlayerSpawnNPC",
+          "line": 111
+        },
+        {
+          "symbol": "GM:PlayerSpawnedRagdoll",
+          "line": 121
+        },
+        {
+          "symbol": "GM:PlayerSpawnedProp",
+          "line": 131
+        },
+        {
+          "symbol": "GM:PlayerSpawnedEffect",
+          "line": 141
+        },
+        {
+          "symbol": "GM:PlayerSpawnedVehicle",
+          "line": 151
+        },
+        {
+          "symbol": "GM:PlayerSpawnedNPC",
+          "line": 161
+        },
+        {
+          "symbol": "GM:PlayerSpawnedSENT",
+          "line": 172
+        },
+        {
+          "symbol": "GM:PlayerSpawnedSWEP",
+          "line": 182
+        },
+        {
+          "symbol": "GM:PlayerEnteredVehicle",
+          "line": 193
+        },
+        {
+          "symbol": "GM:PlayerButtonDown",
+          "line": 203
+        },
+        {
+          "symbol": "GM:PlayerButtonUp",
+          "line": 213
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": []
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/prop_tools.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "CheckPropSolid",
+          "line": 9
+        },
+        {
+          "symbol": "DoPropSpawnedEffect",
+          "line": 39
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": []
+    },
+    {
+      "path": "garrysmod/lua/includes/modules/spawnmenu.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "SetActiveControlPanel",
+          "line": 20
+        },
+        {
+          "symbol": "ActiveControlPanel",
+          "line": 24
+        },
+        {
+          "symbol": "GetTools",
+          "line": 28
+        },
+        {
+          "symbol": "GetToolMenu",
+          "line": 32
+        },
+        {
+          "symbol": "ClearToolMenus",
+          "line": 60
+        },
+        {
+          "symbol": "AddToolTab",
+          "line": 66
+        },
+        {
+          "symbol": "SwitchToolTab",
+          "line": 72
+        },
+        {
+          "symbol": "ActivateToolPanel",
+          "line": 81
+        },
+        {
+          "symbol": "ActivateTool",
+          "line": 101
+        },
+        {
+          "symbol": "AddToolCategory",
+          "line": 131
+        },
+        {
+          "symbol": "AddToolMenuOption",
+          "line": 147
+        },
+        {
+          "symbol": "AddCreationTab",
+          "line": 182
+        },
+        {
+          "symbol": "GetCreationTabs",
+          "line": 192
+        },
+        {
+          "symbol": "SwitchCreationTab",
+          "line": 198
+        },
+        {
+          "symbol": "GetPropTable",
+          "line": 212
+        },
+        {
+          "symbol": "GetCustomPropTable",
+          "line": 218
+        },
+        {
+          "symbol": "AddPropCategory",
+          "line": 224
+        },
+        {
+          "symbol": "PopulateFromEngineTextFiles",
+          "line": 240
+        },
+        {
+          "symbol": "DoSaveToTextFiles",
+          "line": 260
+        },
+        {
+          "symbol": "MyFunction",
+          "line": 272
+        },
+        {
+          "symbol": "spawnmenu.AddContentType model",
+          "line": 279
+        },
+        {
+          "symbol": "AddContentType",
+          "line": 285
+        },
+        {
+          "symbol": "GetContentType",
+          "line": 289
+        },
+        {
+          "symbol": "CreateContentIcon",
+          "line": 306
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": []
+    },
+    {
+      "path": "garrysmod/lua/vgui/spawnicon.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "PANEL:Init",
+          "line": 9
+        },
+        {
+          "symbol": "PANEL:DoRightClick",
+          "line": 25
+        },
+        {
+          "symbol": "PANEL:DoClick",
+          "line": 35
+        },
+        {
+          "symbol": "PANEL:OpenMenu",
+          "line": 38
+        },
+        {
+          "symbol": "PANEL:Paint",
+          "line": 41
+        },
+        {
+          "symbol": "PANEL:Think",
+          "line": 45
+        },
+        {
+          "symbol": "PANEL:PaintOver",
+          "line": 60
+        },
+        {
+          "symbol": "PANEL:PerformLayout",
+          "line": 70
+        },
+        {
+          "symbol": "PANEL:OnSizeChanged",
+          "line": 80
+        },
+        {
+          "symbol": "PANEL:SetSpawnIcon",
+          "line": 84
+        },
+        {
+          "symbol": "PANEL:SetBodyGroup",
+          "line": 89
+        },
+        {
+          "symbol": "PANEL:SetModel",
+          "line": 100
+        },
+        {
+          "symbol": "PANEL:RebuildSpawnIcon",
+          "line": 123
+        },
+        {
+          "symbol": "PANEL:RebuildSpawnIconEx",
+          "line": 129
+        },
+        {
+          "symbol": "PANEL:ToTable",
+          "line": 135
+        },
+        {
+          "symbol": "PANEL:Copy",
+          "line": 162
+        },
+        {
+          "symbol": "PANEL:SkinChanged",
+          "line": 178
+        },
+        {
+          "symbol": "PANEL:BodyGroupChanged",
+          "line": 190
+        },
+        {
+          "symbol": "PANEL:InternalAddResizeMenu",
+          "line": 201
+        },
+        {
+          "symbol": "vgui.Register SpawnIcon",
+          "line": 229
+        },
+        {
+          "symbol": "spawnmenu.AddContentType model",
+          "line": 235
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": [
+        "IconEditor",
+        "ModelImage",
+        "SpawnIcon"
+      ]
+    },
+    {
+      "path": "garrysmod/lua/vgui/dmodelpanel.lua",
+      "type": "Lua",
+      "subsystem": "qmenu",
+      "evidence": "original private cache read; public record contains only authored descriptions and symbol/path metadata",
+      "anchors": [
+        {
+          "symbol": "PANEL:Init",
+          "line": 14
+        },
+        {
+          "symbol": "PANEL:SetDirectionalLight",
+          "line": 38
+        },
+        {
+          "symbol": "PANEL:SetModel",
+          "line": 42
+        },
+        {
+          "symbol": "PANEL:GetModel",
+          "line": 69
+        },
+        {
+          "symbol": "PANEL:DrawModel",
+          "line": 77
+        },
+        {
+          "symbol": "PANEL:PreDrawModel",
+          "line": 96
+        },
+        {
+          "symbol": "PANEL:PostDrawModel",
+          "line": 100
+        },
+        {
+          "symbol": "PANEL:Paint",
+          "line": 104
+        },
+        {
+          "symbol": "PANEL:RunAnimation",
+          "line": 141
+        },
+        {
+          "symbol": "PANEL:StartScene",
+          "line": 145
+        },
+        {
+          "symbol": "PANEL:LayoutEntity",
+          "line": 155
+        },
+        {
+          "symbol": "PANEL:OnRemove",
+          "line": 169
+        },
+        {
+          "symbol": "PANEL:GenerateExample",
+          "line": 175
+        }
+      ],
+      "includes": [],
+      "created_panel_classes": []
+    }
+  ],
+  "required_file_seeds": [
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/toolmenu.lua",
+      "type": "Lua",
+      "status": "original read; function anchors indexed"
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/contextmenu.lua",
+      "type": "Lua",
+      "status": "original read; function anchors indexed"
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/creationmenu.lua",
+      "type": "Lua",
+      "status": "original read; function anchors indexed"
+    },
+    {
+      "path": "garrysmod/lua/includes/modules/spawnmenu.lua",
+      "type": "Lua",
+      "status": "original read; function anchors indexed"
+    },
+    {
+      "path": "garrysmod/lua/vgui/dhorizontaldivider.lua",
+      "type": "Lua",
+      "status": "class source path to resolve from original class registry"
+    },
+    {
+      "path": "garrysmod/lua/vgui/dimagebutton.lua",
+      "type": "Lua",
+      "status": "class source path to resolve from original class registry"
+    },
+    {
+      "path": "garrysmod/lua/vgui/spawnicon.lua",
+      "type": "Lua",
+      "status": "original read; function anchors indexed"
+    },
+    {
+      "path": "garrysmod/lua/vgui/dmodelpanel.lua",
+      "type": "Lua",
+      "status": "original read; function anchors indexed"
+    },
+    {
+      "path": "garrysmod/gamemodes/sandbox/gamemode/gui/IconEditor.lua",
+      "type": "Lua",
+      "status": "cl_init.lua:16 include and SpawnIcon editor action verified; editor full flow pending"
+    },
+    {
+      "path": "garrysmod/lua/includes/modules/search.lua",
+      "type": "Lua",
+      "status": "search.GetResults/AddProvider library boundary verified; aggregation/ranking source pending"
+    },
+    {
+      "path": "garrysmod/html/dupes.html",
+      "type": "asset",
+      "status": "original DHTML asset URL verified; HTML/CSS/JS closure pending"
+    },
+    {
+      "path": "garrysmod/html/saves.html",
+      "type": "asset",
+      "status": "save tab source URL verified; HTML/CSS/JS closure pending"
+    }
+  ],
+  "verified_material_seeds": [
+    {
+      "virtual_path": "gui/spawnmenu_toggle",
+      "owning_subsystem": "qmenu",
+      "reason": "root tool-pane toggle image"
+    },
+    {
+      "virtual_path": "gui/spawnmenu_toggle_back",
+      "owning_subsystem": "qmenu",
+      "reason": "root collapsed tool-pane toggle image"
+    },
+    {
+      "virtual_path": "icon16/wrench.png",
+      "owning_subsystem": "tool_selection",
+      "reason": "original Main tab icon"
+    },
+    {
+      "virtual_path": "icon16/page_white_wrench.png",
+      "owning_subsystem": "qmenu",
+      "reason": "original Utilities tab icon"
+    },
+    {
+      "virtual_path": "gui/sm_hover.png",
+      "owning_subsystem": "qmenu",
+      "reason": "SpawnIcon GWEN hover border"
+    },
+    {
+      "virtual_path": "gui/ContentIcon-normal.png",
+      "owning_subsystem": "qmenu",
+      "reason": "ContentIcon resting overlay"
+    },
+    {
+      "virtual_path": "gui/ContentIcon-hovered.png",
+      "owning_subsystem": "qmenu",
+      "reason": "ContentIcon hover overlay"
+    },
+    {
+      "virtual_path": "icon16/shield.png",
+      "owning_subsystem": "qmenu",
+      "reason": "ContentIcon admin badge"
+    },
+    {
+      "virtual_path": "icon16/monkey.png",
+      "owning_subsystem": "qmenu",
+      "reason": "NPC tab/weapon badge"
+    },
+    {
+      "virtual_path": "icon16/monkey_tick.png",
+      "owning_subsystem": "qmenu",
+      "reason": "selected NPC weapon badge"
+    },
+    {
+      "virtual_path": "icon16/magnifier.png",
+      "owning_subsystem": "qmenu",
+      "reason": "search submit button"
+    },
+    {
+      "virtual_path": "icon16/disk.png",
+      "owning_subsystem": "qmenu",
+      "reason": "save spawnlist button"
+    },
+    {
+      "virtual_path": "icon16/arrow_rotate_clockwise.png",
+      "owning_subsystem": "qmenu",
+      "reason": "revert spawnlist button"
+    },
+    {
+      "virtual_path": "icon16/application_view_tile.png",
+      "owning_subsystem": "qmenu",
+      "reason": "Content creation tab"
+    },
+    {
+      "virtual_path": "icon16/gun.png",
+      "owning_subsystem": "qmenu",
+      "reason": "Weapons tab"
+    },
+    {
+      "virtual_path": "icon16/bricks.png",
+      "owning_subsystem": "qmenu",
+      "reason": "Entities tab"
+    },
+    {
+      "virtual_path": "icon16/car.png",
+      "owning_subsystem": "qmenu",
+      "reason": "Vehicles tab"
+    },
+    {
+      "virtual_path": "icon16/picture.png",
+      "owning_subsystem": "qmenu",
+      "reason": "Postprocess tab and icon rerender"
+    },
+    {
+      "virtual_path": "icon16/control_repeat_blue.png",
+      "owning_subsystem": "qmenu",
+      "reason": "Dupes tab"
+    },
+    {
+      "virtual_path": "icon16/disk_multiple.png",
+      "owning_subsystem": "qmenu",
+      "reason": "Saves tab"
+    }
+  ],
+  "verified_lifecycle": {
+    "menu_creation_event": "OnGamemodeLoaded",
+    "explicit_reload_command": "spawnmenu_reload",
+    "persistent_panel": true,
+    "toggle_convar": "spawnmenu_toggle",
+    "toggle_default": 0,
+    "toggle_quick_release_seconds": 0.18,
+    "initial_keyboard_capture": false,
+    "mouse_capture_open": true,
+    "text_entry_uses_keyboard_and_hang_open": true,
+    "language_refresh_protects_unsaved_spawnlists": true,
+    "spawn_open_closes_context": "requests Close; competing HangOpen can consume close without hiding",
+    "closed_hook_can_fire_while_hang_open_keeps_visible": true
+  },
+  "unresolved": [
+    "native Source +menu/-menu command-to-OnSpawnMenuOpen/Close dispatch",
+    "native spawnmenu PopulateFromTextFiles/SaveToTextFiles exact paths and loader precedence",
+    "ModelImage native/class implementation, cache naming, queued render/rebuild and underlying interfaces",
+    "search library aggregate/ranking module source (providers/UI traced)",
+    "IconEditor/adjustable-model panel and properties/desktop widget transitive closure",
+    "DHTML dupes/saves HTML/CSS/JS plus JS_Workshop/WorkshopFileBase dependencies",
+    "DermaDefault/DermaLarge original font-definition/resolution/metrics and host font availability",
+    "native VGUI/Lua/render/filesystem interface IDs, addresses and implementation evidence",
+    "runtime flicker/icon/input-conflict root causes need instrumented reproduction"
+  ],
+  "current_implementation_comparison": {
+    "persistent_hwnd": "independently verified; avoid unsupported per-frame recreation diagnosis",
+    "input": "current rising-edge Q/F2 toggle differs from original default hold/release plus optional toggle",
+    "render": "current fixed GDI/Tahoma grid is a placeholder, not established original VGUI/Derma execution",
+    "icons": "current lowercased-path FNV1a32 PNG cache not established original ModelImage/SpawnIcon semantics",
+    "tool_hover": "incorrect original activation trigger: original ToolPanel category item DoClick activates tool; current hover custom index arming diverges",
+    "replace_runtime_now": false
+  },
+  "verified_sound_seeds": [
+    {
+      "virtual_path": "ui/buttonclickrelease.wav",
+      "reason": "original model/content click callback"
+    },
+    {
+      "virtual_path": "buttons/button10.wav",
+      "reason": "server spawn error feedback"
+    }
+  ],
+  "verified_font_requirements": [
+    {
+      "identity": "ContentHeader",
+      "family": "Helvetica",
+      "size": 50,
+      "weight": 1000,
+      "owner": "spawnmenu/creationmenu/content/contentheader.lua"
+    },
+    {
+      "identity": "DermaDefault",
+      "owner": "ContentIcon text measurement and draw",
+      "font_definition": "Derma original definitions pending"
+    },
+    {
+      "identity": "DermaLarge",
+      "owner": "ToolPanel warning markup",
+      "font_definition": "Derma original definitions pending"
+    }
+  ],
+  "vertical_slice": [
+    {
+      "from": "installed q +menu and c +menu_context (also controller +menu)",
+      "to": "GM:OnSpawnMenuOpen/Close and OnContextMenuOpen/Close",
+      "status": "configuration identities and Lua endpoints verified; native command-handler dispatch pending"
+    },
+    {
+      "from": "GM:OnSpawnMenuOpen",
+      "to": "SpawnMenu:Open",
+      "status": "traced"
+    },
+    {
+      "from": "SpawnMenu:Init",
+      "to": "CreationMenu / ToolMenu / DHorizontalDivider",
+      "status": "traced"
+    },
+    {
+      "from": "CreationMenu",
+      "to": "spawnmenu.GetCreationTabs factories",
+      "status": "traced; zero-delay timer"
+    },
+    {
+      "from": "Content factory",
+      "to": "SpawnmenuContentPanel/Sidebar/DTree",
+      "status": "traced"
+    },
+    {
+      "from": "custom/game/addon model records",
+      "to": "spawnmenu.GetContentType model",
+      "status": "traced"
+    },
+    {
+      "from": "model content callback",
+      "to": "SpawnIcon / ModelImage SetModel",
+      "status": "Lua traced; native ModelImage renderer/cache pending"
+    },
+    {
+      "from": "SpawnIcon DoClick",
+      "to": "gm_spawn(model,skin,body)",
+      "status": "traced; exact original sound"
+    },
+    {
+      "from": "gm_spawn",
+      "to": "CCSpawn / Spawn_SandboxModel",
+      "status": "traced; model/alive/path/PlayerSpawnObject validation"
+    },
+    {
+      "from": "valid prop",
+      "to": "GMODSpawnProp / PlayerSpawnProp CheckLimit",
+      "status": "traced"
+    },
+    {
+      "from": "DoPlayerEntitySpawn",
+      "to": "Source entity/trace/model/physics native services",
+      "status": "Lua orchestration traced; host/native implementation separate"
+    },
+    {
+      "from": "spawned prop",
+      "to": "PlayerSpawnedProp/AddCount + spawn effect + undo + cleanup",
+      "status": "traced"
+    },
+    {
+      "from": "ToolPanel item DoClick",
+      "to": "spawnmenu.ActivateTool",
+      "status": "traced; hover does not activate"
+    },
+    {
+      "from": "spawnmenu.ActivateTool",
+      "to": "original item.Command + controlpanel.Get/init + selected panel/tab",
+      "status": "traced; Toolgun report closes gmod_tool SWEP chain"
+    }
+  ],
+  "binding_evidence": {
+    "verified_by": "root investigator direct installed configuration read",
+    "active_config": {
+      "path": "garrysmod/cfg/config.cfg",
+      "sha256": "EE298E04B3D29BAADBE26BA74A8D3BAE59907285D113F843EA34DF109DD34F0A",
+      "bindings": [
+        {
+          "key": "q",
+          "command": "+menu",
+          "line": 28
+        },
+        {
+          "key": "c",
+          "command": "+menu_context",
+          "line": 14
+        }
+      ]
+    },
+    "default_config": {
+      "path": "garrysmod/cfg/config_default.cfg",
+      "sha256": "6FE58D8C55A3322093B1A99EC8E556A09AC97141046C38C0DFFDEB54E427FFF4",
+      "bindings": [
+        {
+          "key": "q",
+          "command": "+menu",
+          "line": 51
+        },
+        {
+          "key": "c",
+          "command": "+menu_context",
+          "line": 62
+        }
+      ]
+    },
+    "controller": "root verified controller binding definitions also use +menu; per-controller line/hash evidence in configuration inventory",
+    "native_dispatch": "pending exact IDA 6.8 command-to-hook relationships"
+  }
+}

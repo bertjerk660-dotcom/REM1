@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "investigated_at": "2026-10-07",
+  "source_root": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod",
+  "report": "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md",
+  "status": "script_semantics_traced_native_host_unimplemented",
+  "components": [
+    {
+      "id": "notifications",
+      "type": "Lua",
+      "source": "garrysmod/lua/includes/modules/notification.lua",
+      "sha256": "869769b67a4c505f62be7f7410e37e0a430a3995932fa853ccb266cb8c170690",
+      "depends_on": [
+        "vgui",
+        "DPanel",
+        "DLabel",
+        "DImage",
+        "GetOverlayPanel",
+        "surface",
+        "render",
+        "SysTime",
+        "RealFrameTime",
+        "GModNotify",
+        "vgui/notices/generic",
+        "vgui/notices/error",
+        "vgui/notices/undo",
+        "vgui/notices/hint",
+        "vgui/notices/cleanup"
+      ],
+      "entry_points": [
+        "notification.AddLegacy",
+        "notification.AddProgress",
+        "notification.Kill",
+        "Think/NotificationThink"
+      ],
+      "proprietary_payload_commit_safe": false
+    },
+    {
+      "id": "sandbox_notify_dispatch",
+      "type": "Lua",
+      "source": "garrysmod/gamemodes/sandbox/gamemode/cl_notice.lua",
+      "sha256": "bb15a9b66ee9cb03df07f4125fee145f806d0951b731e7db10e569635ac9e584",
+      "depends_on": [
+        "notifications"
+      ],
+      "entry_points": [
+        "GM:AddNotify"
+      ],
+      "proprietary_payload_commit_safe": false
+    },
+    {
+      "id": "sandbox_hints",
+      "type": "Lua",
+      "source": "garrysmod/gamemodes/sandbox/gamemode/cl_hints.lua",
+      "sha256": "d3eacf4a4aa1496c8f3a30b02809822ac67d7561f68039bfd95b9118a21ddcd5",
+      "depends_on": [
+        "sandbox_notify_dispatch",
+        "timer",
+        "language",
+        "input.LookupBinding",
+        "surface.PlaySound",
+        "ambient/water/drip1.wav",
+        "ambient/water/drip2.wav",
+        "ambient/water/drip3.wav",
+        "ambient/water/drip4.wav"
+      ],
+      "entry_points": [
+        "GM:AddHint",
+        "GM:SuppressHint"
+      ],
+      "proprietary_payload_commit_safe": false
+    },
+    {
+      "id": "death_notices",
+      "type": "Lua",
+      "source": "garrysmod/gamemodes/base/gamemode/cl_deathnotice.lua",
+      "sha256": "029d702602e6d5a6d4ec2d3e550b28680b019adb3553b56164a6e86b5626b3f1",
+      "depends_on": [
+        "kill_icons",
+        "ChatFont",
+        "HL2MPTypeDeath",
+        "net",
+        "CurTime",
+        "draw.SimpleText",
+        "team",
+        "cl_drawhud"
+      ],
+      "entry_points": [
+        "GM:AddDeathNotice",
+        "GM:DrawDeathNotice",
+        "net.Receive/DeathNoticeEvent"
+      ],
+      "proprietary_payload_commit_safe": false
+    },
+    {
+      "id": "kill_icons",
+      "type": "Lua",
+      "source": "garrysmod/lua/includes/modules/killicon.lua",
+      "sha256": "946c83aaf9db57a3374d0203c972dc79515137e066b1cd7895c29df739020234",
+      "depends_on": [
+        "surface",
+        "Material",
+        "HL2MPTypeDeath",
+        "HUD/killicons/default"
+      ],
+      "entry_points": [
+        "killicon.AddFont",
+        "killicon.Add",
+        "killicon.AddTexCoord",
+        "killicon.AddAlias",
+        "killicon.GetSize",
+        "killicon.Render"
+      ],
+      "proprietary_payload_commit_safe": false
+    }
+  ],
+  "unresolved": [
+    "Native GetOverlayPanel and panel lifecycle backend",
+    "Native HUD crosshair dispatch",
+    "Event ownership for ordinary Fallout kills",
+    "Exact native font registration implementation",
+    "Complete GMOD Lua execution/metatable environment",
+    "Rendering and material compatibility"
+  ],
+  "evidence_limit": "Descriptions come from installed script reads and file hashes; named native services are required interfaces, not recovered native implementations."
+}

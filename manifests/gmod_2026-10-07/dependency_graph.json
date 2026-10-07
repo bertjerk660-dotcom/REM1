@@ -1,0 +1,1477 @@
+{
+  "schema": "rem.gmod_dependency_graph.v1",
+  "date": "2026-10-07",
+  "direction": "from component to required or delegated component",
+  "root_systems": [
+    "qmenu",
+    "prop_browser",
+    "prop_icons",
+    "toolgun",
+    "tool_selection",
+    "duplicator",
+    "remover",
+    "camera",
+    "physgun",
+    "physgun_beam",
+    "physgun_highlighting",
+    "notifications",
+    "hud",
+    "input"
+  ],
+  "status": "evidence_graph_integration_unimplemented",
+  "evidence_limit": "Script/native evidence is differentiated by each node status. An edge to a native service is an API dependency, not proof that its implementation was reverse engineered. Asset records and exact files live in asset_provenance.json and subsystem manifests.",
+  "nodes": [
+    {
+      "id": "qmenu",
+      "type": "Lua",
+      "label": "Q / spawnmenu",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/gamemode/cl_spawnmenu.lua",
+        "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/spawnmenu.lua"
+      ]
+    },
+    {
+      "id": "prop_browser",
+      "type": "Lua",
+      "label": "Prop browser, spawnlists and search",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/creationmenu.lua",
+        "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contentsearch.lua",
+        "garrysmod/gamemodes/sandbox/gamemode/cl_search_models.lua"
+      ]
+    },
+    {
+      "id": "prop_icons",
+      "type": "Lua",
+      "label": "Original Lua SpawnIcon wrapper and delegated native ModelImage",
+      "status": "lua_wrapper_traced_native_ModelImage_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/lua/vgui/spawnicon.lua",
+        "garrysmod/lua/vgui/dmodelpanel.lua"
+      ]
+    },
+    {
+      "id": "toolgun",
+      "type": "Lua",
+      "label": "gmod_tool SWEP and tool dispatch",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua",
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_tool/init.lua"
+      ]
+    },
+    {
+      "id": "tool_selection",
+      "type": "Lua",
+      "label": "Q menu tool mode selection",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/lua/includes/modules/spawnmenu.lua",
+        "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/toolpanel.lua"
+      ]
+    },
+    {
+      "id": "duplicator",
+      "type": "Lua",
+      "label": "Original duplicator tool/module",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_tool/stools/duplicator.lua",
+        "garrysmod/lua/includes/modules/duplicator.lua"
+      ]
+    },
+    {
+      "id": "remover",
+      "type": "Lua",
+      "label": "Original remover tool",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_tool/stools/remover.lua"
+      ]
+    },
+    {
+      "id": "camera",
+      "type": "Lua",
+      "label": "Camera tool versus gmod_camera weapon",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_tool/stools/camera.lua",
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_camera.lua",
+        "garrysmod/gamemodes/sandbox/entities/entities/gmod_cameraprop.lua"
+      ]
+    },
+    {
+      "id": "physgun",
+      "type": "native code",
+      "label": "Physics Gun native acquisition/manipulation",
+      "status": "partial_native_evidence",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "sourceengine/scripts/weapon_physgun.txt",
+        "garrysmod/gamemodes/sandbox/gamemode/shared.lua"
+      ]
+    },
+    {
+      "id": "physgun_beam",
+      "type": "native code",
+      "label": "Physics Gun native beam rendering and hook boundary",
+      "status": "partial_native_evidence",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "physgun_highlighting",
+      "type": "Lua",
+      "label": "Original sandbox target queue, weapon-color sampling and halo.Add hook",
+      "status": "lua_hook_traced_native_callsite_and_halo_table_traversal_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/gamemode/cl_init.lua"
+      ]
+    },
+    {
+      "id": "notifications",
+      "type": "Lua",
+      "label": "Original notification NoticePanel lifecycle",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "source_paths": [
+        "garrysmod/lua/includes/modules/notification.lua"
+      ]
+    },
+    {
+      "id": "hud",
+      "type": "Lua",
+      "label": "Relevant original GMOD HUD/tool hints/kill feed",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/gamemode/cl_hints.lua",
+        "garrysmod/gamemodes/base/gamemode/cl_deathnotice.lua",
+        "garrysmod/lua/includes/modules/killicon.lua"
+      ]
+    },
+    {
+      "id": "input",
+      "type": "engine-provided interface",
+      "label": "Source rebound command identities, native dispatch and GUI focus services",
+      "status": "config_bind_and_lua_endpoint_traced_native_command_wrappers_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "context_menu",
+      "type": "Lua",
+      "label": "Original context-menu panel lifecycle",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/gamemode/spawnmenu/contextmenu.lua"
+      ]
+    },
+    {
+      "id": "derma_vgui",
+      "type": "Lua",
+      "label": "Original Derma/VGUI panel classes and skin code",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "vgui_native",
+      "type": "engine-provided interface",
+      "label": "Native panel lifecycle, layout/focus primitive services",
+      "status": "native_implementation_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "surface_render",
+      "type": "engine-provided interface",
+      "label": "surface/render/cam text, material, clipping and draw services",
+      "status": "native_implementation_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "icon_native",
+      "type": "engine-provided interface",
+      "label": "Native model image/spawn icon generation/cache/preview",
+      "status": "native_implementation_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "lua_host",
+      "type": "Source-engine dependency",
+      "label": "GMOD Lua dialect, globals, entity metatables and realms",
+      "status": "host_contract_incomplete",
+      "evidence": [
+        "context/GMOD_2026-10-07/INTEGRATION_BOUNDARY.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "registries_hooks",
+      "type": "Lua",
+      "label": "Original hook/list/spawnmenu/concommand/cvar registries",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "spawnlists",
+      "type": "configuration",
+      "label": "Original spawnlist record configuration and native text-file population boundary",
+      "status": "lua_record_contract_traced_native_parser_paths_and_precedence_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "ui_resources",
+      "type": "texture/material",
+      "label": "Original UI icons/materials/skin atlas with partial transitive closure",
+      "status": "referenced_and_selectively_staged_transitive_closure_partial",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "ui_fonts",
+      "type": "font",
+      "label": "Original scheme/custom files and Lua-defined system-font metrics",
+      "status": "lua_definitions_and_scheme_traced_host_font_registration_unverified",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "font_scheme",
+      "type": "configuration",
+      "label": "ClientScheme.res and custom-font registrations",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "source_paths": [
+        "garrysmod/resource/ClientScheme.res"
+      ]
+    },
+    {
+      "id": "notice_resources",
+      "type": "texture/material",
+      "label": "Original generic/error/undo/hint/cleanup notice materials",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "hint_sounds",
+      "type": "sound",
+      "label": "Original ambient water hint sound payloads",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "filesystem",
+      "type": "Source-engine dependency",
+      "label": "Virtual GAME/LUA/DATA/MOD paths, VPKs and mount resolution",
+      "status": "mount_configuration_observed_runtime_mount_state_unverified",
+      "evidence": [
+        "context/GMOD_2026-10-07/INTEGRATION_BOUNDARY.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "catalog_adapter",
+      "type": "compatibility/adaptation requirement",
+      "label": "Curated project prop data with original menu identities",
+      "status": "prepared_data_runtime_incomplete",
+      "evidence": [
+        "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "spawn_dispatch",
+      "type": "Lua",
+      "label": "Original content click -> GMOD spawn commands -> server handlers",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/gamemode/commands.lua",
+        "garrysmod/gamemodes/sandbox/gamemode/player.lua"
+      ]
+    },
+    {
+      "id": "source_entities",
+      "type": "engine-provided interface",
+      "label": "Source entity handles, traces, bones and physics objects",
+      "status": "required_native_host",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "tool_base",
+      "type": "Lua",
+      "label": "Original stool base/tool registry and lifecycle",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_tool/stool.lua",
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_tool/object.lua",
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_tool/ghostentity.lua"
+      ]
+    },
+    {
+      "id": "undo_cleanup",
+      "type": "Lua",
+      "label": "Original undo/cleanup APIs and selected callers; complete module closure pending",
+      "status": "selected_Lua_ownership_calls_traced_full_module_closure_unverified",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "constraints",
+      "type": "Lua",
+      "label": "Weld/Rope Lua calls and duplicator graph records; remaining factories/backend incomplete",
+      "status": "selected_Lua_constraint_calls_and_dupe_records_traced_native_backend_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_tool/stools/weld.lua",
+        "garrysmod/gamemodes/sandbox/entities/weapons/gmod_tool/stools/rope.lua"
+      ]
+    },
+    {
+      "id": "toolgun_models",
+      "type": "model",
+      "label": "Original Tool Gun first/world model and animation components",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "toolgun_screen",
+      "type": "texture/material",
+      "label": "Original tool screen material/render target resources",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "tooltracer",
+      "type": "engine-provided interface",
+      "label": "Original ToolTracer effect invocation; native or packaged implementation unresolved",
+      "status": "lua_invocation_and_material_reference_traced_effect_implementation_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "toolgun_sound",
+      "type": "sound",
+      "label": "Original Toolgun.Single event and payload",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "net_prediction",
+      "type": "engine-provided interface",
+      "label": "Original realm/network/prediction guards; native behavior and FNV execution unresolved",
+      "status": "lua_realm_guards_traced_native_prediction_and_host_adapter_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "physgun_models",
+      "type": "model",
+      "label": "Original Physics Gun declared/current view/world model packages",
+      "status": "view_model_path_reconciliation_required",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "physgun_materials",
+      "type": "texture/material",
+      "label": "Original beam/glow materials, proxies and textures",
+      "status": "source_traced",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "physgun_audio",
+      "type": "sound",
+      "label": "Original On/Off/Special1 sound-event dependencies",
+      "status": "event_payload_traced_native_transition_evidence_partial",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "halo_renderer",
+      "type": "engine-provided interface",
+      "label": "Original halo API with unresolved table traversal and native stencil/depth backend",
+      "status": "lua_module_traversal_and_native_backend_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "physics_native",
+      "type": "Source-engine dependency",
+      "label": "Source VPhysics motion controller/body services",
+      "status": "partial_native_evidence",
+      "evidence": [
+        "context/GMOD_2026-10-07/IDA68_NATIVE_REPORT.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "gmod_client_server",
+      "type": "native code",
+      "label": "Build-specific client.dll/server.dll native routines",
+      "status": "partial_native_evidence",
+      "evidence": [
+        "context/GMOD_2026-10-07/IDA68_NATIVE_REPORT.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "shaders",
+      "type": "Source-engine dependency",
+      "label": "Original material/shader render semantics",
+      "status": "host_translation_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/INTEGRATION_BOUNDARY.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "fnv_input",
+      "type": "compatibility/adaptation requirement",
+      "label": "Single FNV contextual input owner and cursor/focus restoration",
+      "status": "incomplete",
+      "evidence": [
+        "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "fnv_ui",
+      "type": "compatibility/adaptation requirement",
+      "label": "Original-script-driven VGUI contract on FNV overlay backend",
+      "status": "unimplemented",
+      "evidence": [
+        "context/GMOD_2026-10-07/INTEGRATION_BOUNDARY.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "fnv_entity",
+      "type": "compatibility/adaptation requirement",
+      "label": "Source entity/trace/spawn -> FNV reference/raycast bridge",
+      "status": "partial_placeholder",
+      "evidence": [
+        "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "fnv_physics",
+      "type": "compatibility/adaptation requirement",
+      "label": "Source physics controller/local hit/bone -> Havok/actor bridge",
+      "status": "regressions_and_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "fnv_models",
+      "type": "compatibility/adaptation requirement",
+      "label": "Provenance-preserving model/animation/material conversion",
+      "status": "prepared_human_validation_pending",
+      "evidence": [
+        "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "fnv_audio",
+      "type": "compatibility/adaptation requirement",
+      "label": "Original sound event/loop -> host runtime audio bridge",
+      "status": "partial_loop_parity_unverified",
+      "evidence": [
+        "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "fnv_host",
+      "type": "compatibility/adaptation requirement",
+      "label": "FNV host world/inventory/saves/device/HUD boundary",
+      "status": "preserve_existing_host",
+      "evidence": [
+        "context/GMOD_2026-10-07/INTEGRATION_BOUNDARY.md"
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "input_bindings",
+      "type": "configuration",
+      "label": "Installed keyboard/controller bind definitions use Source command identities",
+      "status": "installed_config_binds_verified",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/cfg/config.cfg",
+        "garrysmod/cfg/config_default.cfg"
+      ]
+    },
+    {
+      "id": "search_aggregation",
+      "type": "Lua",
+      "label": "Original search.lua module GetResults aggregation/ranking; complete read pending",
+      "status": "provider_and_callsite_traced_module_implementation_read_pending",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/lua/includes/modules/search.lua"
+      ]
+    },
+    {
+      "id": "model_preview",
+      "type": "Lua",
+      "label": "DModelPanel live model preview distinct from native ModelImage cache",
+      "status": "Lua_preview_traced_native_render_services_unresolved",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/lua/vgui/dmodelpanel.lua"
+      ]
+    },
+    {
+      "id": "icon_editor",
+      "type": "Lua",
+      "label": "Original IconEditor rerender camera workflow",
+      "status": "include_and_invocation_traced_complete_editor_read_pending",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/gamemode/gui/IconEditor.lua"
+      ]
+    },
+    {
+      "id": "tool_selection_effect",
+      "type": "Lua",
+      "label": "Original selection_indicator/selection_ring physics-bone feedback",
+      "status": "Lua_effects_traced_native_particle_and_render_host_required",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "source_paths": [
+        "garrysmod/gamemodes/sandbox/entities/effects/selection_indicator.lua",
+        "garrysmod/gamemodes/sandbox/entities/effects/selection_ring.lua"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "qmenu",
+      "to": "input",
+      "relationship": "opened_and_closed_by",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "qmenu",
+      "to": "derma_vgui",
+      "relationship": "instantiates",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "qmenu",
+      "to": "context_menu",
+      "relationship": "coordinates_focus_with",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "qmenu",
+      "to": "prop_browser",
+      "relationship": "contains",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "qmenu",
+      "to": "tool_selection",
+      "relationship": "contains",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "qmenu",
+      "to": "registries_hooks",
+      "relationship": "populates_through",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "prop_browser",
+      "to": "spawnlists",
+      "relationship": "loads",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "prop_browser",
+      "to": "prop_icons",
+      "relationship": "creates",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "prop_browser",
+      "to": "catalog_adapter",
+      "relationship": "consumes_host_content_through",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "proposed_curated_host_content_integration_not_original_runtime"
+    },
+    {
+      "from": "prop_browser",
+      "to": "spawn_dispatch",
+      "relationship": "click_dispatches",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "prop_icons",
+      "to": "icon_native",
+      "relationship": "delegates_model_image_to",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "prop_icons",
+      "to": "ui_resources",
+      "relationship": "draws_chrome_from",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "prop_icons",
+      "to": "filesystem",
+      "relationship": "requires_model_resolution_and_native_icon_cache",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "Lua_model_identity_traced_native_cache_path_unresolved"
+    },
+    {
+      "from": "tool_selection",
+      "to": "tool_base",
+      "relationship": "enumerates_registry",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "tool_selection",
+      "to": "toolgun",
+      "relationship": "sets_original_mode_for",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "toolgun",
+      "to": "tool_base",
+      "relationship": "dispatches_through",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "toolgun",
+      "to": "source_entities",
+      "relationship": "traces_and_targets",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "toolgun",
+      "to": "net_prediction",
+      "relationship": "preserves_realms_and_prediction",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "toolgun",
+      "to": "toolgun_models",
+      "relationship": "presents",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "toolgun",
+      "to": "toolgun_screen",
+      "relationship": "draws_selected_tool_screen",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "toolgun",
+      "to": "tooltracer",
+      "relationship": "invokes_original_effect_name",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "Lua_invocation_traced_effect_implementation_unresolved"
+    },
+    {
+      "from": "toolgun",
+      "to": "toolgun_sound",
+      "relationship": "plays",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "tool_base",
+      "to": "duplicator",
+      "relationship": "registers",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "tool_base",
+      "to": "remover",
+      "relationship": "registers",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "tool_base",
+      "to": "camera",
+      "relationship": "registers",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "duplicator",
+      "to": "constraints",
+      "relationship": "serializes_and_pastes",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "duplicator",
+      "to": "source_entities",
+      "relationship": "copies_and_creates",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "duplicator",
+      "to": "undo_cleanup",
+      "relationship": "registers_ownership",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "duplicator",
+      "to": "notifications",
+      "relationship": "reports_progress_through",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "original_progress_dependency_requires_callsite_verification"
+    },
+    {
+      "from": "remover",
+      "to": "source_entities",
+      "relationship": "validates_and_removes",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "remover",
+      "to": "undo_cleanup",
+      "relationship": "requires_bridge_registry_invalidation_on_removal",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "proposed_host_cleanup_requirement_not_original_remover_undo"
+    },
+    {
+      "from": "camera",
+      "to": "source_entities",
+      "relationship": "creates_camera_entity",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "camera",
+      "to": "surface_render",
+      "relationship": "depends_for_camera_presentation",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "context_menu",
+      "to": "derma_vgui",
+      "relationship": "instantiates",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "context_menu",
+      "to": "input",
+      "relationship": "captures_and_releases",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "context_menu",
+      "to": "source_entities",
+      "relationship": "operates_on_world_entities",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "derma_vgui",
+      "to": "vgui_native",
+      "relationship": "uses_native_panel_primitives",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "derma_vgui",
+      "to": "surface_render",
+      "relationship": "paints_through",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "derma_vgui",
+      "to": "ui_resources",
+      "relationship": "uses",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "derma_vgui",
+      "to": "ui_fonts",
+      "relationship": "measures_and_draws",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "ui_fonts",
+      "to": "font_scheme",
+      "relationship": "configured_by",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "ui_resources",
+      "to": "filesystem",
+      "relationship": "resolved_by",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "font_scheme",
+      "to": "filesystem",
+      "relationship": "loaded_by",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "notifications",
+      "to": "derma_vgui",
+      "relationship": "creates_NoticePanel",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "notifications",
+      "to": "notice_resources",
+      "relationship": "uses",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "notifications",
+      "to": "ui_fonts",
+      "relationship": "defines_GModNotify_and_uses_metrics",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "notifications",
+      "to": "surface_render",
+      "relationship": "draws_and_filters",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "hud",
+      "to": "notifications",
+      "relationship": "hints_use",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "hud",
+      "to": "hint_sounds",
+      "relationship": "hint_callers_play",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "hud",
+      "to": "surface_render",
+      "relationship": "draws_kill_icons_and_text",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "physgun",
+      "to": "gmod_client_server",
+      "relationship": "implemented_in",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "partial_or_contract"
+    },
+    {
+      "from": "physgun",
+      "to": "physics_native",
+      "relationship": "holds_through",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "partial_or_contract"
+    },
+    {
+      "from": "physgun",
+      "to": "source_entities",
+      "relationship": "acquires_and_tracks",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "partial_or_contract"
+    },
+    {
+      "from": "physgun",
+      "to": "input",
+      "relationship": "consumes_manipulation_input",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "partial_or_contract"
+    },
+    {
+      "from": "physgun",
+      "to": "physgun_beam",
+      "relationship": "provides_target_and_beam_state_required_by",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "partial_native_state_evidence_final_endpoint_renderer_unresolved"
+    },
+    {
+      "from": "physgun",
+      "to": "physgun_highlighting",
+      "relationship": "dispatches_draw_hook_target_to",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "Lua_callback_traced_native_callsite_and_trigger_unresolved"
+    },
+    {
+      "from": "physgun",
+      "to": "physgun_models",
+      "relationship": "presents",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "partial_or_contract"
+    },
+    {
+      "from": "physgun",
+      "to": "physgun_audio",
+      "relationship": "uses_named_sound_events",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "partial_or_contract"
+    },
+    {
+      "from": "physgun_beam",
+      "to": "physgun_materials",
+      "relationship": "renders_with",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "partial_or_contract"
+    },
+    {
+      "from": "physgun_highlighting",
+      "to": "halo_renderer",
+      "relationship": "renders_outline_through",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "halo_renderer",
+      "to": "surface_render",
+      "relationship": "requires_depth_stencil_and_render_pass",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "physgun_materials",
+      "to": "shaders",
+      "relationship": "requires_material_semantics",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "toolgun_screen",
+      "to": "surface_render",
+      "relationship": "requires_render_target",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "toolgun_models",
+      "to": "filesystem",
+      "relationship": "resolved_from_packages",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "physgun_models",
+      "to": "filesystem",
+      "relationship": "resolves_world_package_with_view_path_gap",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "world_payload_provenance_view_identity_unresolved"
+    },
+    {
+      "from": "qmenu",
+      "to": "lua_host",
+      "relationship": "requires",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "toolgun",
+      "to": "lua_host",
+      "relationship": "requires",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "notifications",
+      "to": "lua_host",
+      "relationship": "requires",
+      "evidence": [
+        "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "lua_host",
+      "to": "registries_hooks",
+      "relationship": "loads_original_lua_modules",
+      "evidence": [
+        "context/GMOD_2026-10-07/INTEGRATION_BOUNDARY.md"
+      ],
+      "confidence": "source_semantics_or_documented_boundary"
+    },
+    {
+      "from": "input",
+      "to": "fnv_input",
+      "relationship": "adapted_by",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "vgui_native",
+      "to": "fnv_ui",
+      "relationship": "adapted_by",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "surface_render",
+      "to": "fnv_ui",
+      "relationship": "adapted_by",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "icon_native",
+      "to": "fnv_ui",
+      "relationship": "requires_preview_adapter",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "source_entities",
+      "to": "fnv_entity",
+      "relationship": "adapted_by",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "physics_native",
+      "to": "fnv_physics",
+      "relationship": "adapted_by",
+      "evidence": [
+        "context/GMOD_2026-10-07/IDA68_NATIVE_REPORT.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "toolgun_models",
+      "to": "fnv_models",
+      "relationship": "converted_with_provenance_by",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "physgun_models",
+      "to": "fnv_models",
+      "relationship": "converted_with_provenance_by",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "toolgun_sound",
+      "to": "fnv_audio",
+      "relationship": "requires_original_event_playback_adapter",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "physgun_audio",
+      "to": "fnv_audio",
+      "relationship": "requires_original_event_and_loop_adapter",
+      "evidence": [
+        "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "fnv_input",
+      "to": "fnv_host",
+      "relationship": "hooks",
+      "evidence": [
+        "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "fnv_ui",
+      "to": "fnv_host",
+      "relationship": "requires_host_graphics_pass",
+      "evidence": [
+        "context/GMOD_2026-10-07/INTEGRATION_BOUNDARY.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "fnv_entity",
+      "to": "fnv_host",
+      "relationship": "creates_and_tracks_refs",
+      "evidence": [
+        "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "fnv_physics",
+      "to": "fnv_host",
+      "relationship": "uses_host_Havok_and_actor_state",
+      "evidence": [
+        "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "fnv_audio",
+      "to": "fnv_host",
+      "relationship": "uses_host_audio_services",
+      "evidence": [
+        "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md"
+      ],
+      "confidence": "proposed_compatibility_requirement_not_execution_proof"
+    },
+    {
+      "from": "input",
+      "to": "input_bindings",
+      "relationship": "resolves_rebound_command_identities_using",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "config_binds_verified_native_dispatch_unresolved"
+    },
+    {
+      "from": "prop_browser",
+      "to": "search_aggregation",
+      "relationship": "queries_results_from",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "Lua_callsite_and_providers_traced_aggregator_unresolved"
+    },
+    {
+      "from": "prop_icons",
+      "to": "icon_editor",
+      "relationship": "right_click_opens",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "Lua_invocation_traced_editor_closure_pending"
+    },
+    {
+      "from": "model_preview",
+      "to": "surface_render",
+      "relationship": "requires_cam_render_and_model_services",
+      "evidence": [
+        "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md"
+      ],
+      "confidence": "Lua_render_calls_traced_native_backend_unresolved"
+    },
+    {
+      "from": "toolgun",
+      "to": "tool_selection_effect",
+      "relationship": "emits_selection_feedback",
+      "evidence": [
+        "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md"
+      ],
+      "confidence": "Lua_effect_call_and_implementation_traced"
+    }
+  ],
+  "review": {
+    "date": "2026-10-07",
+    "basis": "Completed original-system architecture reports and existing implementation audit; no new native-run results assumed.",
+    "status_scope": "source_traced means observed source/API contract, not a running FNV implementation. Nodes containing unresolved delegation explicitly separate it.",
+    "root_count_preserved": 14,
+    "classification_policy": "Exact user-approved classifications retained; ToolTracer corrected from Lua to engine-provided interface because its implementation was not found."
+  }
+}

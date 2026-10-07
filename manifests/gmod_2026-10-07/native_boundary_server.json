@@ -1,0 +1,2644 @@
+{
+  "analysis_kind": "existing_database_narrow_string_xref_metadata", 
+  "functions": {
+    "0x10005F90": {
+      "chunk_size": 126, 
+      "chunks": [
+        {
+          "end_va": "0x1000600E", 
+          "start_va": "0x10005F90"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x107169B0"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x5390", 
+      "ida_name": "sub_10005F90", 
+      "indirect_call_sites": [], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x1000600E", 
+      "range_size": 126, 
+      "rva": "0x5F90", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x10005F90", 
+      "vtable_class": null
+    }, 
+    "0x10006160": {
+      "chunk_size": 22, 
+      "chunks": [
+        {
+          "end_va": "0x10006176", 
+          "start_va": "0x10006160"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x103D18E0"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x5560", 
+      "ida_name": "sub_10006160", 
+      "indirect_call_sites": [
+        "0x10006173"
+      ], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x10006176", 
+      "range_size": 22, 
+      "rva": "0x6160", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x10006160", 
+      "vtable_class": null
+    }, 
+    "0x10006300": {
+      "chunk_size": 126, 
+      "chunks": [
+        {
+          "end_va": "0x1000637E", 
+          "start_va": "0x10006300"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x107169B0"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x5700", 
+      "ida_name": "sub_10006300", 
+      "indirect_call_sites": [], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x1000637E", 
+      "range_size": 126, 
+      "rva": "0x6300", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x10006300", 
+      "vtable_class": null
+    }, 
+    "0x100063A0": {
+      "chunk_size": 278, 
+      "chunks": [
+        {
+          "end_va": "0x100064B6", 
+          "start_va": "0x100063A0"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x102AA2E0", 
+        "0x102AA600", 
+        "0x102AA7B0", 
+        "0x102AA940", 
+        "0x103A0520", 
+        "0x10706B0B", 
+        "0x10706C08", 
+        "0x10706C52"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x57A0", 
+      "ida_name": "sub_100063A0", 
+      "indirect_call_sites": [], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x100064B6", 
+      "range_size": 278, 
+      "rva": "0x63A0", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x100063A0", 
+      "vtable_class": null
+    }, 
+    "0x100064F0": {
+      "chunk_size": 66, 
+      "chunks": [
+        {
+          "end_va": "0x10006532", 
+          "start_va": "0x100064F0"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x106F8860", 
+        "0x10706B0B"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x58F0", 
+      "ida_name": "sub_100064F0", 
+      "indirect_call_sites": [], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x10006532", 
+      "range_size": 66, 
+      "rva": "0x64F0", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x100064F0", 
+      "vtable_class": null
+    }, 
+    "0x10006580": {
+      "chunk_size": 21, 
+      "chunks": [
+        {
+          "end_va": "0x10006595", 
+          "start_va": "0x10006580"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x1036C140"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x5980", 
+      "ida_name": "sub_10006580", 
+      "indirect_call_sites": [], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x10006595", 
+      "range_size": 21, 
+      "rva": "0x6580", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x10006580", 
+      "vtable_class": null
+    }, 
+    "0x100065A0": {
+      "chunk_size": 22, 
+      "chunks": [
+        {
+          "end_va": "0x100065B6", 
+          "start_va": "0x100065A0"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x103D18E0"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x59A0", 
+      "ida_name": "sub_100065A0", 
+      "indirect_call_sites": [
+        "0x100065B3"
+      ], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x100065B6", 
+      "range_size": 22, 
+      "rva": "0x65A0", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x100065A0", 
+      "vtable_class": null
+    }, 
+    "0x1006DB20": {
+      "chunk_size": 420, 
+      "chunks": [
+        {
+          "end_va": "0x1006DCC4", 
+          "start_va": "0x1006DB20"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x10248240", 
+        "0x1034F070"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x6CF20", 
+      "ida_name": "sub_1006DB20", 
+      "indirect_call_sites": [
+        "0x1006DBFA", 
+        "0x1006DC0B", 
+        "0x1006DC1C", 
+        "0x1006DC2D", 
+        "0x1006DC3E", 
+        "0x1006DC4F", 
+        "0x1006DC60", 
+        "0x1006DC71", 
+        "0x1006DC82", 
+        "0x1006DC93", 
+        "0x1006DCA4", 
+        "0x1006DCB5"
+      ], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x1006DCC4", 
+      "range_size": 420, 
+      "rva": "0x6DB20", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x1006DB20", 
+      "vtable_class": null
+    }, 
+    "0x101032D0": {
+      "chunk_size": 1248, 
+      "chunks": [
+        {
+          "end_va": "0x101037B0", 
+          "start_va": "0x101032D0"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x1023C390", 
+        "0x1024D650", 
+        "0x1025D770", 
+        "0x1027BD40", 
+        "0x1030B770", 
+        "0x103D64C0", 
+        "0x1066D980", 
+        "0x106F8A90", 
+        "0x106F9360", 
+        "0x10706C08", 
+        "0x10706C52", 
+        "0x10708329", 
+        "0x107168EC", 
+        "0x10717D5A"
+      ], 
+      "direct_callers": [
+        "0x10103A5E"
+      ], 
+      "file_offset": "0x1026D0", 
+      "ida_name": "sub_101032D0", 
+      "indirect_call_sites": [
+        "0x10103331", 
+        "0x101033D3", 
+        "0x1010341E", 
+        "0x101035A4", 
+        "0x101035D1", 
+        "0x101036E3"
+      ], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x101037B0", 
+      "range_size": 1248, 
+      "rva": "0x1032D0", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x101032D0", 
+      "vtable_class": null
+    }, 
+    "0x101037B0": {
+      "chunk_size": 234, 
+      "chunks": [
+        {
+          "end_va": "0x1010389A", 
+          "start_va": "0x101037B0"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x1025EF40", 
+        "0x1025F2F0", 
+        "0x10268980", 
+        "0x1026B860", 
+        "0x1029CA90", 
+        "0x103D5C60", 
+        "0x10708329"
+      ], 
+      "direct_callers": [
+        "0x1010467B"
+      ], 
+      "file_offset": "0x102BB0", 
+      "ida_name": "sub_101037B0", 
+      "indirect_call_sites": [
+        "0x10103870", 
+        "0x1010387C"
+      ], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x1010389A", 
+      "range_size": 234, 
+      "rva": "0x1037B0", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x101037B0", 
+      "vtable_class": null
+    }, 
+    "0x10104A50": {
+      "chunk_size": 1512, 
+      "chunks": [
+        {
+          "end_va": "0x10105038", 
+          "start_va": "0x10104A50"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x10104530", 
+        "0x10104710", 
+        "0x10104880", 
+        "0x10104990", 
+        "0x10105B20", 
+        "0x10105F90", 
+        "0x10252E30", 
+        "0x10356A40", 
+        "0x1066D360", 
+        "0x1066DB90", 
+        "0x10670780", 
+        "0x10672990", 
+        "0x10672A90", 
+        "0x10674040", 
+        "0x106F9360", 
+        "0x107168EC"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x103E50", 
+      "ida_name": "sub_10104A50", 
+      "indirect_call_sites": [
+        "0x10104A79", 
+        "0x10104A8D", 
+        "0x10104AA8", 
+        "0x10104ABD", 
+        "0x10104ADF", 
+        "0x10104CC3", 
+        "0x10104D39", 
+        "0x10104E1D", 
+        "0x10104E54", 
+        "0x10104E85", 
+        "0x10104FD1"
+      ], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x10105038", 
+      "range_size": 1512, 
+      "rva": "0x104A50", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x10104A50", 
+      "vtable_class": null
+    }, 
+    "0x10105130": {
+      "chunk_size": 1909, 
+      "chunks": [
+        {
+          "end_va": "0x101058A5", 
+          "start_va": "0x10105130"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x1006E310", 
+        "0x100725D0", 
+        "0x100BCC90", 
+        "0x100E1D20", 
+        "0x100E1D90", 
+        "0x100E1E80", 
+        "0x101038A0", 
+        "0x10103940", 
+        "0x10103B60", 
+        "0x10104880", 
+        "0x10104990", 
+        "0x101049D0", 
+        "0x1014D000", 
+        "0x10252E30", 
+        "0x1025D770", 
+        "0x102EE150", 
+        "0x1030B770", 
+        "0x103D64C0", 
+        "0x10672E60", 
+        "0x106734D0", 
+        "0x106F9360", 
+        "0x10706EC0", 
+        "0x10708329", 
+        "0x107168EC", 
+        "0x10717D5A"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x104530", 
+      "ida_name": "sub_10105130", 
+      "indirect_call_sites": [
+        "0x1010518A", 
+        "0x101051CA", 
+        "0x10105334", 
+        "0x1010540F", 
+        "0x10105499", 
+        "0x10105668", 
+        "0x10105771", 
+        "0x10105792", 
+        "0x101057A2", 
+        "0x101057C6", 
+        "0x101057FF", 
+        "0x10105822", 
+        "0x1010583F", 
+        "0x10105896"
+      ], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x101058A5", 
+      "range_size": 1909, 
+      "rva": "0x105130", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x10105130", 
+      "vtable_class": null
+    }, 
+    "0x101058B0": {
+      "chunk_size": 107, 
+      "chunks": [
+        {
+          "end_va": "0x1010591B", 
+          "start_va": "0x101058B0"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x100E1D90", 
+        "0x100E1E80", 
+        "0x1014D000", 
+        "0x10252E30"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x104CB0", 
+      "ida_name": "sub_101058B0", 
+      "indirect_call_sites": [], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x1010591B", 
+      "range_size": 107, 
+      "rva": "0x1058B0", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x101058B0", 
+      "vtable_class": null
+    }, 
+    "0x10105990": {
+      "chunk_size": 355, 
+      "chunks": [
+        {
+          "end_va": "0x10105AF3", 
+          "start_va": "0x10105990"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x1006E310", 
+        "0x100C32E0", 
+        "0x100E1D90", 
+        "0x100E1E80", 
+        "0x10104710", 
+        "0x10104990", 
+        "0x1014D000", 
+        "0x10164C20", 
+        "0x10252E30"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x104D90", 
+      "ida_name": "sub_10105990", 
+      "indirect_call_sites": [
+        "0x101059D4", 
+        "0x10105AE0"
+      ], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x10105AF3", 
+      "range_size": 355, 
+      "rva": "0x105990", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x10105990", 
+      "vtable_class": null
+    }, 
+    "0x10239530": {
+      "chunk_size": 1308, 
+      "chunks": [
+        {
+          "end_va": "0x10239A4C", 
+          "start_va": "0x10239530"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x10706B0B", 
+        "0x10706C08", 
+        "0x10706C52"
+      ], 
+      "direct_callers": [
+        "0x1001D2D2"
+      ], 
+      "file_offset": "0x238930", 
+      "ida_name": "sub_10239530", 
+      "indirect_call_sites": [], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x10239A4C", 
+      "range_size": 1308, 
+      "rva": "0x239530", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x10239530", 
+      "vtable_class": null
+    }, 
+    "0x10344160": {
+      "chunk_size": 1051, 
+      "chunks": [
+        {
+          "end_va": "0x1034457B", 
+          "start_va": "0x10344160"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x100EE8B0", 
+        "0x10706B0B", 
+        "0x10706C08", 
+        "0x10706C52"
+      ], 
+      "direct_callers": [
+        "0x10031BE2"
+      ], 
+      "file_offset": "0x343560", 
+      "ida_name": "sub_10344160", 
+      "indirect_call_sites": [], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x1034457B", 
+      "range_size": 1051, 
+      "rva": "0x344160", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x10344160", 
+      "vtable_class": null
+    }, 
+    "0x10374350": {
+      "chunk_size": 1392, 
+      "chunks": [
+        {
+          "end_va": "0x103748C0", 
+          "start_va": "0x10374350"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x100EE8B0", 
+        "0x10706B0B", 
+        "0x10706C08", 
+        "0x10706C52"
+      ], 
+      "direct_callers": [
+        "0x10035282"
+      ], 
+      "file_offset": "0x373750", 
+      "ida_name": "sub_10374350", 
+      "indirect_call_sites": [], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x103748C0", 
+      "range_size": 1392, 
+      "rva": "0x374350", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x10374350", 
+      "vtable_class": null
+    }, 
+    "0x103B8FC0": {
+      "chunk_size": 88, 
+      "chunks": [
+        {
+          "end_va": "0x103B9018", 
+          "start_va": "0x103B8FC0"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x1006B260", 
+        "0x1006E310", 
+        "0x102EDC30"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x3B83C0", 
+      "ida_name": "sub_103B8FC0", 
+      "indirect_call_sites": [
+        "0x103B9008"
+      ], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x103B9018", 
+      "range_size": 88, 
+      "rva": "0x3B8FC0", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x103B8FC0", 
+      "vtable_class": null
+    }, 
+    "0x104AEB90": {
+      "chunk_size": 63, 
+      "chunks": [
+        {
+          "end_va": "0x104AEBCF", 
+          "start_va": "0x104AEB90"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x102654C0", 
+        "0x102E2120", 
+        "0x103A6D90"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x4ADF90", 
+      "ida_name": "sub_104AEB90", 
+      "indirect_call_sites": [], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x104AEBCF", 
+      "range_size": 63, 
+      "rva": "0x4AEB90", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x104AEB90", 
+      "vtable_class": null
+    }, 
+    "0x105303F0": {
+      "chunk_size": 326, 
+      "chunks": [
+        {
+          "end_va": "0x10530536", 
+          "start_va": "0x105303F0"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x102654C0", 
+        "0x102E2120", 
+        "0x1037BD20", 
+        "0x103A6D90", 
+        "0x103D4E50", 
+        "0x104EBD80", 
+        "0x106F9360", 
+        "0x10717D5A"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x52F7F0", 
+      "ida_name": "sub_105303F0", 
+      "indirect_call_sites": [], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x10530536", 
+      "range_size": 326, 
+      "rva": "0x5303F0", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x105303F0", 
+      "vtable_class": null
+    }, 
+    "0x1058BFF0": {
+      "chunk_size": 371, 
+      "chunks": [
+        {
+          "end_va": "0x1058C163", 
+          "start_va": "0x1058BFF0"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x101B8430", 
+        "0x1025F2F0", 
+        "0x102654C0", 
+        "0x102E2120", 
+        "0x1037BD20", 
+        "0x103A6D90", 
+        "0x103D4E50"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x58B3F0", 
+      "ida_name": "sub_1058BFF0", 
+      "indirect_call_sites": [
+        "0x1058BFFF", 
+        "0x1058C020", 
+        "0x1058C042"
+      ], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x1058C163", 
+      "range_size": 371, 
+      "rva": "0x58BFF0", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x1058BFF0", 
+      "vtable_class": null
+    }, 
+    "0x105E5CC0": {
+      "chunk_size": 970, 
+      "chunks": [
+        {
+          "end_va": "0x105E608A", 
+          "start_va": "0x105E5CC0"
+        }
+      ], 
+      "confidence": "string_xref_candidate_unlabelled_semantics", 
+      "direct_callees": [
+        "0x1006E310", 
+        "0x100725D0", 
+        "0x10250DA0", 
+        "0x10252E30", 
+        "0x10360510", 
+        "0x103A5E00", 
+        "0x105E3800", 
+        "0x105E3C50", 
+        "0x105E40D0", 
+        "0x105E5260", 
+        "0x105E5500", 
+        "0x105E6600", 
+        "0x105E6730", 
+        "0x105E89F0", 
+        "0x106F9360", 
+        "0x10708329", 
+        "0x10717D5A"
+      ], 
+      "direct_callers": [], 
+      "file_offset": "0x5E50C0", 
+      "ida_name": "sub_105E5CC0", 
+      "indirect_call_sites": [
+        "0x105E5CE3", 
+        "0x105E5DFD", 
+        "0x105E5E5A", 
+        "0x105E5FAF", 
+        "0x105E6018", 
+        "0x105E6020"
+      ], 
+      "interfaces": [], 
+      "pseudocode": null, 
+      "range_end_va": "0x105E608A", 
+      "range_size": 970, 
+      "rva": "0x5E5CC0", 
+      "scope_note": "IDA metadata; an xref or name does not prove full subsystem ownership.", 
+      "va": "0x105E5CC0", 
+      "vtable_class": null
+    }
+  }, 
+  "ida_version": "6.8", 
+  "image_base_va": "0x10000000", 
+  "imports": [
+    {
+      "module": "KERNEL32", 
+      "symbols": [
+        {
+          "iat_va": "0x10757060", 
+          "name": "GetCurrentProcessId", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757064", 
+          "name": "LeaveCriticalSection", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757068", 
+          "name": "GetCurrentThreadId", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075706C", 
+          "name": "WriteConsoleW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757070", 
+          "name": "FreeEnvironmentStringsW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757074", 
+          "name": "GetEnvironmentStringsW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757078", 
+          "name": "GetCommandLineW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075707C", 
+          "name": "GetCommandLineA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757080", 
+          "name": "GetOEMCP", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757084", 
+          "name": "GetACP", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757088", 
+          "name": "IsValidCodePage", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075708C", 
+          "name": "FindNextFileW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757090", 
+          "name": "FindFirstFileExW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757094", 
+          "name": "GetTimeZoneInformation", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757098", 
+          "name": "SetStdHandle", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075709C", 
+          "name": "SetFilePointerEx", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570A0", 
+          "name": "EnumSystemLocalesW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570A4", 
+          "name": "GetUserDefaultLCID", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570A8", 
+          "name": "IsValidLocale", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570AC", 
+          "name": "GetLocaleInfoW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570B0", 
+          "name": "LCMapStringW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570B4", 
+          "name": "CompareStringW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570B8", 
+          "name": "VirtualProtect", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570BC", 
+          "name": "FlsFree", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570C0", 
+          "name": "FlsSetValue", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570C4", 
+          "name": "FlsGetValue", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570C8", 
+          "name": "FlsAlloc", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570CC", 
+          "name": "GetConsoleOutputCP", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570D0", 
+          "name": "ReadConsoleW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570D4", 
+          "name": "GetConsoleMode", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570D8", 
+          "name": "GetModuleFileNameW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570DC", 
+          "name": "GetCurrentDirectoryW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570E0", 
+          "name": "SetEnvironmentVariableW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570E4", 
+          "name": "FileTimeToSystemTime", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570E8", 
+          "name": "SystemTimeToTzSpecificLocalTime", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570EC", 
+          "name": "PeekNamedPipe", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570F0", 
+          "name": "GetFileType", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570F4", 
+          "name": "GetFileInformationByHandle", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570F8", 
+          "name": "FreeLibraryAndExitThread", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107570FC", 
+          "name": "ExitThread", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757100", 
+          "name": "CreateThread", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757104", 
+          "name": "GetDriveTypeW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757108", 
+          "name": "GetModuleHandleExW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075710C", 
+          "name": "ExitProcess", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757110", 
+          "name": "LoadLibraryExW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757114", 
+          "name": "TlsFree", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757118", 
+          "name": "TlsSetValue", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075711C", 
+          "name": "TlsGetValue", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757120", 
+          "name": "TlsAlloc", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757124", 
+          "name": "RtlUnwind", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757128", 
+          "name": "RaiseException", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075712C", 
+          "name": "InterlockedFlushSList", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757130", 
+          "name": "InterlockedPushEntrySList", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757134", 
+          "name": "GetStartupInfoW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757138", 
+          "name": "IsDebuggerPresent", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075713C", 
+          "name": "IsProcessorFeaturePresent", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757140", 
+          "name": "TerminateProcess", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757144", 
+          "name": "GetCurrentProcess", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757148", 
+          "name": "SetUnhandledExceptionFilter", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075714C", 
+          "name": "UnhandledExceptionFilter", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757150", 
+          "name": "InitializeSListHead", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757154", 
+          "name": "GetModuleHandleW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757158", 
+          "name": "FindClose", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075715C", 
+          "name": "FindFirstFileExA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757160", 
+          "name": "FindNextFileA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757164", 
+          "name": "GetTempPathA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757168", 
+          "name": "OutputDebugStringA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075716C", 
+          "name": "GetLastError", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757170", 
+          "name": "QueryPerformanceCounter", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757174", 
+          "name": "QueryPerformanceFrequency", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757178", 
+          "name": "Sleep", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075717C", 
+          "name": "GetTickCount", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757180", 
+          "name": "FreeLibrary", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757184", 
+          "name": "GetProcAddress", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757188", 
+          "name": "LoadLibraryA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075718C", 
+          "name": "FormatMessageA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757190", 
+          "name": "InitializeCriticalSection", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757194", 
+          "name": "EnterCriticalSection", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757198", 
+          "name": "DeleteCriticalSection", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075719C", 
+          "name": "CloseHandle", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571A0", 
+          "name": "CreateFileA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571A4", 
+          "name": "GetFileAttributesA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571A8", 
+          "name": "GetOverlappedResult", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571AC", 
+          "name": "CancelIo", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571B0", 
+          "name": "ResetEvent", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571B4", 
+          "name": "CreateEventA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571B8", 
+          "name": "ReadDirectoryChangesW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571BC", 
+          "name": "GetStdHandle", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571C0", 
+          "name": "GetConsoleScreenBufferInfo", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571C4", 
+          "name": "SetConsoleCursorPosition", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571C8", 
+          "name": "SetConsoleTextAttribute", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571CC", 
+          "name": "SetEvent", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571D0", 
+          "name": "WaitForSingleObject", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571D4", 
+          "name": "GetSystemInfo", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571D8", 
+          "name": "VirtualAlloc", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571DC", 
+          "name": "VirtualFree", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571E0", 
+          "name": "SetLastError", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571E4", 
+          "name": "FormatMessageW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571E8", 
+          "name": "GetModuleHandleA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571EC", 
+          "name": "GetSystemDirectoryA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571F0", 
+          "name": "MultiByteToWideChar", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571F4", 
+          "name": "WideCharToMultiByte", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571F8", 
+          "name": "MoveFileExA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107571FC", 
+          "name": "GetEnvironmentVariableA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757200", 
+          "name": "SleepEx", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757204", 
+          "name": "VerSetConditionMask", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757208", 
+          "name": "VerifyVersionInfoW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075720C", 
+          "name": "GetFileSizeEx", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757210", 
+          "name": "ReadFile", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757214", 
+          "name": "FlushFileBuffers", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757218", 
+          "name": "MapViewOfFile", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075721C", 
+          "name": "CreateFileMappingW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757220", 
+          "name": "GetSystemTime", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757224", 
+          "name": "GetSystemTimeAsFileTime", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757228", 
+          "name": "SystemTimeToFileTime", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075722C", 
+          "name": "GetProcessHeap", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757230", 
+          "name": "GetFileSize", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757234", 
+          "name": "LockFileEx", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757238", 
+          "name": "LocalFree", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075723C", 
+          "name": "UnlockFile", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757240", 
+          "name": "HeapDestroy", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757244", 
+          "name": "HeapCompact", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757248", 
+          "name": "HeapAlloc", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075724C", 
+          "name": "HeapReAlloc", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757250", 
+          "name": "DeleteFileW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757254", 
+          "name": "DeleteFileA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757258", 
+          "name": "WaitForSingleObjectEx", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075725C", 
+          "name": "FlushViewOfFile", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757260", 
+          "name": "OutputDebugStringW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757264", 
+          "name": "GetFileAttributesExW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757268", 
+          "name": "GetDiskFreeSpaceA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075726C", 
+          "name": "HeapSize", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757270", 
+          "name": "HeapValidate", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757274", 
+          "name": "UnmapViewOfFile", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757278", 
+          "name": "GetFileAttributesW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075727C", 
+          "name": "CreateFileW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757280", 
+          "name": "CreateMutexW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757284", 
+          "name": "GetTempPathW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757288", 
+          "name": "UnlockFileEx", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075728C", 
+          "name": "SetEndOfFile", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757290", 
+          "name": "GetFullPathNameA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757294", 
+          "name": "SetFilePointer", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757298", 
+          "name": "LockFile", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075729C", 
+          "name": "GetDiskFreeSpaceW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572A0", 
+          "name": "WriteFile", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572A4", 
+          "name": "GetFullPathNameW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572A8", 
+          "name": "HeapFree", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572AC", 
+          "name": "HeapCreate", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572B0", 
+          "name": "AreFileApisANSI", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572B4", 
+          "name": "GetDateFormatW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572B8", 
+          "name": "GetTimeFormatW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572BC", 
+          "name": "InitializeCriticalSectionEx", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572C0", 
+          "name": "EncodePointer", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572C4", 
+          "name": "DecodePointer", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572C8", 
+          "name": "LCMapStringEx", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572CC", 
+          "name": "GetStringTypeW", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572D0", 
+          "name": "GetCPInfo", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572D4", 
+          "name": "InitializeCriticalSectionAndSpinCount", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572D8", 
+          "name": "CreateEventW", 
+          "ordinal": 0
+        }
+      ]
+    }, 
+    {
+      "module": "USER32", 
+      "symbols": [
+        {
+          "iat_va": "0x107572EC", 
+          "name": "FindWindowA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572F0", 
+          "name": "MessageBoxA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572F4", 
+          "name": "GetWindowThreadProcessId", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572F8", 
+          "name": "wsprintfA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572FC", 
+          "name": "GetForegroundWindow", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757300", 
+          "name": "SendMessageA", 
+          "ordinal": 0
+        }
+      ]
+    }, 
+    {
+      "module": "WS2_32", 
+      "symbols": [
+        {
+          "iat_va": "0x10757310", 
+          "name": "freeaddrinfo", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757314", 
+          "name": "getaddrinfo", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757338", 
+          "name": "WSAIoctl", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757360", 
+          "name": "WSACreateEvent", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757364", 
+          "name": "WSACloseEvent", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757330", 
+          "name": "accept", 
+          "ordinal": 1
+        }, 
+        {
+          "iat_va": "0x1075732C", 
+          "name": "bind", 
+          "ordinal": 2
+        }, 
+        {
+          "iat_va": "0x1075735C", 
+          "name": "closesocket", 
+          "ordinal": 3
+        }, 
+        {
+          "iat_va": "0x10757328", 
+          "name": "connect", 
+          "ordinal": 4
+        }, 
+        {
+          "iat_va": "0x1075730C", 
+          "name": "getpeername", 
+          "ordinal": 5
+        }, 
+        {
+          "iat_va": "0x10757324", 
+          "name": "getsockname", 
+          "ordinal": 6
+        }, 
+        {
+          "iat_va": "0x1075736C", 
+          "name": "getsockopt", 
+          "ordinal": 7
+        }, 
+        {
+          "iat_va": "0x10757320", 
+          "name": "htonl", 
+          "ordinal": 8
+        }, 
+        {
+          "iat_va": "0x10757344", 
+          "name": "htons", 
+          "ordinal": 9
+        }, 
+        {
+          "iat_va": "0x10757308", 
+          "name": "ioctlsocket", 
+          "ordinal": 10
+        }, 
+        {
+          "iat_va": "0x1075731C", 
+          "name": "listen", 
+          "ordinal": 13
+        }, 
+        {
+          "iat_va": "0x10757354", 
+          "name": "ntohs", 
+          "ordinal": 15
+        }, 
+        {
+          "iat_va": "0x10757318", 
+          "name": "recv", 
+          "ordinal": 16
+        }, 
+        {
+          "iat_va": "0x10757370", 
+          "name": "select", 
+          "ordinal": 18
+        }, 
+        {
+          "iat_va": "0x10757368", 
+          "name": "send", 
+          "ordinal": 19
+        }, 
+        {
+          "iat_va": "0x1075733C", 
+          "name": "setsockopt", 
+          "ordinal": 21
+        }, 
+        {
+          "iat_va": "0x10757340", 
+          "name": "socket", 
+          "ordinal": 23
+        }, 
+        {
+          "iat_va": "0x10757358", 
+          "name": "WSAGetLastError", 
+          "ordinal": 111
+        }, 
+        {
+          "iat_va": "0x10757350", 
+          "name": "WSASetLastError", 
+          "ordinal": 112
+        }, 
+        {
+          "iat_va": "0x1075734C", 
+          "name": "WSAStartup", 
+          "ordinal": 115
+        }, 
+        {
+          "iat_va": "0x10757348", 
+          "name": "WSACleanup", 
+          "ordinal": 116
+        }, 
+        {
+          "iat_va": "0x10757334", 
+          "name": "__imp___WSAFDIsSet", 
+          "ordinal": 151
+        }
+      ]
+    }, 
+    {
+      "module": "steam_api", 
+      "symbols": [
+        {
+          "iat_va": "0x10757378", 
+          "name": "SteamAPI_UnregisterCallback", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075737C", 
+          "name": "SteamAPI_RegisterCallResult", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757380", 
+          "name": "SteamAPI_UnregisterCallResult", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757384", 
+          "name": "SteamAPI_GetHSteamUser", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757388", 
+          "name": "SteamInternal_ContextInit", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075738C", 
+          "name": "SteamAPI_RegisterCallback", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757390", 
+          "name": "SteamInternal_FindOrCreateUserInterface", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757394", 
+          "name": "SteamAPI_GetHSteamPipe", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757398", 
+          "name": "SteamInternal_CreateInterface", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075739C", 
+          "name": "SteamGameServer_GetHSteamUser", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573A0", 
+          "name": "SteamInternal_FindOrCreateGameServerInterface", 
+          "ordinal": 0
+        }
+      ]
+    }, 
+    {
+      "module": "tier0", 
+      "symbols": [
+        {
+          "iat_va": "0x107573A8", 
+          "name": "GMOD_SpewBufferFlush", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573AC", 
+          "name": "?FindOrCreateCounter@CVProfile@@QAEPA_JPBDW4CounterGroup_t@@@Z", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573B0", 
+          "name": "?DevWarning@@YAXPBDZZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573B4", 
+          "name": "g_pMemAlloc", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573B8", 
+          "name": "MemFreeScratch", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573BC", 
+          "name": "?Lock@CThreadMutex@@QAEXXZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573C0", 
+          "name": "ThreadInterlockedAssignIf64", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573C4", 
+          "name": "?ConColorMsg@@YAXABVColor@@PBDZZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573C8", 
+          "name": "??1CThreadSyncObject@@QAE@XZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573CC", 
+          "name": "g_VProfCurrentProfile", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573D0", 
+          "name": "GetCPUInformation", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573D4", 
+          "name": "?ExitScope@CVProfile@@QAEXXZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573D8", 
+          "name": "?EnterScope@CVProfile@@QAEXPBDH0_NH@Z", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573DC", 
+          "name": "Error", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573E0", 
+          "name": "Warning", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573E4", 
+          "name": "Msg", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573E8", 
+          "name": "ThreadInMainThread", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573EC", 
+          "name": "CommandLine_Tier0", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573F0", 
+          "name": "g_ClockSpeedSecondsMultiplier", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573F4", 
+          "name": "Plat_DebugString", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573F8", 
+          "name": "ColorSpewMessage", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107573FC", 
+          "name": "ThreadSleep", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757400", 
+          "name": "g_ClockSpeedMillisecondsMultiplier", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757404", 
+          "name": "??1CThread@@UAE@XZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757408", 
+          "name": "?SetName@CThread@@QAEXPBD@Z", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075740C", 
+          "name": "?IsAlive@CThread@@QAE_NXZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757410", 
+          "name": "??0CWorkerThread@@QAE@XZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757414", 
+          "name": "?CallWorker@CWorkerThread@@QAEHII_NPAVCFunctor@@@Z", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757418", 
+          "name": "?WaitForCall@CWorkerThread@@QAE_NPAI@Z", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075741C", 
+          "name": "?Reply@CWorkerThread@@QAEXI@Z", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757420", 
+          "name": "DevMsg", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757424", 
+          "name": "DevWarning", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757428", 
+          "name": "g_pVCR", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075742C", 
+          "name": "Plat_MSTime", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757430", 
+          "name": "?OutputReport@CVProfile@@QAEXHPBDH@Z", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757434", 
+          "name": "?BudgetGroupNameToBudgetGroupID@CVProfile@@QAEHPBD@Z", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757438", 
+          "name": "Plat_IsInDebugSession", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075743C", 
+          "name": "?Lock@CThreadFastMutex@@ACEXII@Z", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757440", 
+          "name": "??0CThreadLocalBase@@QAE@XZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757444", 
+          "name": "??1CThreadLocalBase@@QAE@XZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757448", 
+          "name": "?Get@CThreadLocalBase@@QBEPAXXZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075744C", 
+          "name": "?Set@CThreadLocalBase@@QAEXPAX@Z", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757450", 
+          "name": "??0CThreadSpinRWLock@@QAE@XZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757454", 
+          "name": "?LockForRead@CThreadSpinRWLock@@QAEXXZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757458", 
+          "name": "?UnlockRead@CThreadSpinRWLock@@QAEXXZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075745C", 
+          "name": "?LockForWrite@CThreadSpinRWLock@@QAEXXZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757460", 
+          "name": "?UnlockWrite@CThreadSpinRWLock@@QAEXXZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757464", 
+          "name": "_SpewInfo", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757468", 
+          "name": "_SpewMessage", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075746C", 
+          "name": "_ExitOnFatalAssert", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757470", 
+          "name": "ShouldUseNewAssertDialog", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757474", 
+          "name": "DoNewAssertDialog", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757478", 
+          "name": "CallAssertFailedNotifyFunc", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075747C", 
+          "name": "Log", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757480", 
+          "name": "?IsThreadRunning@CThread@@MAE_NXZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757484", 
+          "name": "?GetThreadProc@CThread@@MAEP6GIPAX@ZXZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757488", 
+          "name": "?WaitForCreateComplete@CThread@@MAE_NPAVCThreadEvent@@@Z", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075748C", 
+          "name": "?OnExit@CThread@@MAEXXZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757490", 
+          "name": "?Init@CThread@@MAE_NXZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757494", 
+          "name": "?Start@CThread@@UAE_NI@Z", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757498", 
+          "name": "Plat_FloatTime", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075749C", 
+          "name": "MemAllocScratch", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107574A0", 
+          "name": "?Set@CThreadEvent@@QAE_NXZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107574A4", 
+          "name": "?DevMsg@@YAXPBDZZ", 
+          "ordinal": 0
+        }
+      ]
+    }, 
+    {
+      "module": "RPCRT4", 
+      "symbols": [
+        {
+          "iat_va": "0x107572E0", 
+          "name": "UuidCreate", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107572E4", 
+          "name": "UuidFromStringA", 
+          "ordinal": 0
+        }
+      ]
+    }, 
+    {
+      "module": "vstdlib", 
+      "symbols": [
+        {
+          "iat_va": "0x107574AC", 
+          "name": "RandomFloat", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107574B0", 
+          "name": "RandomInt", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107574B4", 
+          "name": "g_pThreadPool", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107574B8", 
+          "name": "??0CUniformRandomStream@@QAE@XZ", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107574BC", 
+          "name": "KeyValuesSystem", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x107574C0", 
+          "name": "RandomSeed", 
+          "ordinal": 0
+        }
+      ]
+    }, 
+    {
+      "module": "ADVAPI32", 
+      "symbols": [
+        {
+          "iat_va": "0x10757000", 
+          "name": "CryptAcquireContextA", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757004", 
+          "name": "CryptGenRandom", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757008", 
+          "name": "CryptGetHashParam", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075700C", 
+          "name": "CryptCreateHash", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757010", 
+          "name": "CryptHashData", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757014", 
+          "name": "CryptDestroyHash", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757018", 
+          "name": "CryptReleaseContext", 
+          "ordinal": 0
+        }
+      ]
+    }, 
+    {
+      "module": "CRYPT32", 
+      "symbols": [
+        {
+          "iat_va": "0x10757020", 
+          "name": "CryptDecodeObjectEx", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757024", 
+          "name": "PFXImportCertStore", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757028", 
+          "name": "CertFindExtension", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075702C", 
+          "name": "CertFreeCertificateContext", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757030", 
+          "name": "CertFindCertificateInStore", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757034", 
+          "name": "CertEnumCertificatesInStore", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757038", 
+          "name": "CertCloseStore", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075703C", 
+          "name": "CertOpenStore", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757040", 
+          "name": "CertAddCertificateContextToStore", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757044", 
+          "name": "CryptQueryObject", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757048", 
+          "name": "CertCreateCertificateChainEngine", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x1075704C", 
+          "name": "CertFreeCertificateChainEngine", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757050", 
+          "name": "CertGetCertificateChain", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757054", 
+          "name": "CertFreeCertificateChain", 
+          "ordinal": 0
+        }, 
+        {
+          "iat_va": "0x10757058", 
+          "name": "CryptStringToBinaryA", 
+          "ordinal": 0
+        }
+      ]
+    }
+  ], 
+  "input_path": "C:\\IDA68WORK\\GMODSERVER.dll", 
+  "missing_strings_note": "Absence may reflect spelling, realm/module, Lua-only hook, stripped binding or string recognition. Not absence of feature.", 
+  "module_sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943", 
+  "requested_strings_not_found": [
+    "+menu", 
+    "+menu_context", 
+    "-menu", 
+    "-menu_context", 
+    "CPhysGunControllerPoint", 
+    "CPhysGunControllerPoint already has controller?", 
+    "CloseSpawnMenu", 
+    "DrawPhysgunBeam", 
+    "MakePopup", 
+    "ModelImage", 
+    "OnContextMenuClose", 
+    "OnContextMenuOpen", 
+    "OnSpawnMenuClose", 
+    "OnSpawnMenuOpen", 
+    "OpenSpawnMenu", 
+    "PhysgunBeam", 
+    "RebuildSpawnIcon", 
+    "RebuildSpawnIconEx", 
+    "RenderSpawnIcons", 
+    "SetSpawnIcon", 
+    "SpawnIcon", 
+    "Weapon_Physgun.On", 
+    "Weapon_Physgun.Special1", 
+    "sprites/physbeama.vmt"
+  ], 
+  "schema": "rem.gmod.ida68.boundary_metadata.v1", 
+  "strings": [
+    {
+      "string_rva": "0x75E93C", 
+      "string_va": "0x1075E93C", 
+      "value": "weapon_physgun", 
+      "xrefs": [
+        {
+          "function": "0x10006580", 
+          "xref_rva": "0x6580", 
+          "xref_type": 1, 
+          "xref_va": "0x10006580"
+        }, 
+        {
+          "function": "0x100065A0", 
+          "xref_rva": "0x65A5", 
+          "xref_type": 1, 
+          "xref_va": "0x100065A5"
+        }, 
+        {
+          "function": "0x1006DB20", 
+          "xref_rva": "0x6DCB0", 
+          "xref_type": 1, 
+          "xref_va": "0x1006DCB0"
+        }, 
+        {
+          "function": null, 
+          "xref_rva": "0x986A70", 
+          "xref_type": 1, 
+          "xref_va": "0x10986A70"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x77E4C4", 
+      "string_va": "0x1077E4C4", 
+      "value": "physgun_beam", 
+      "xrefs": [
+        {
+          "function": "0x10006160", 
+          "xref_rva": "0x6165", 
+          "xref_type": 1, 
+          "xref_va": "0x10006165"
+        }, 
+        {
+          "function": "0x101037B0", 
+          "xref_rva": "0x1037DC", 
+          "xref_type": 1, 
+          "xref_va": "0x101037DC"
+        }, 
+        {
+          "function": null, 
+          "xref_rva": "0x986E40", 
+          "xref_type": 1, 
+          "xref_va": "0x10986E40"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x785470", 
+      "string_va": "0x10785470", 
+      "value": "CPhysBeam", 
+      "xrefs": [
+        {
+          "function": "0x10005F90", 
+          "xref_rva": "0x5FB1", 
+          "xref_type": 1, 
+          "xref_va": "0x10005FB1"
+        }, 
+        {
+          "function": "0x10005F90", 
+          "xref_rva": "0x5FE4", 
+          "xref_type": 1, 
+          "xref_va": "0x10005FE4"
+        }, 
+        {
+          "function": null, 
+          "xref_rva": "0x9873AC", 
+          "xref_type": 1, 
+          "xref_va": "0x109873AC"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x785854", 
+      "string_va": "0x10785854", 
+      "value": "DT_PhysBeam", 
+      "xrefs": [
+        {
+          "function": null, 
+          "xref_rva": "0x9873C0", 
+          "xref_type": 1, 
+          "xref_va": "0x109873C0"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x785890", 
+      "string_va": "0x10785890", 
+      "value": "physgun_maxrange", 
+      "xrefs": [
+        {
+          "function": "0x100064F0", 
+          "xref_rva": "0x6517", 
+          "xref_type": 1, 
+          "xref_va": "0x10006517"
+        }, 
+        {
+          "function": "0x101032D0", 
+          "xref_rva": "0x10378F", 
+          "xref_type": 1, 
+          "xref_va": "0x1010378F"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x785A0C", 
+      "string_va": "0x10785A0C", 
+      "value": "CWeaponPhysGun", 
+      "xrefs": [
+        {
+          "function": "0x10006300", 
+          "xref_rva": "0x6321", 
+          "xref_type": 1, 
+          "xref_va": "0x10006321"
+        }, 
+        {
+          "function": "0x10006300", 
+          "xref_rva": "0x6354", 
+          "xref_type": 1, 
+          "xref_va": "0x10006354"
+        }, 
+        {
+          "function": null, 
+          "xref_rva": "0x98745C", 
+          "xref_type": 1, 
+          "xref_va": "0x1098745C"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x7861B4", 
+      "string_va": "0x107861B4", 
+      "value": "DT_WeaponPhysGun", 
+      "xrefs": [
+        {
+          "function": null, 
+          "xref_rva": "0x987470", 
+          "xref_type": 1, 
+          "xref_va": "0x10987470"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x7861C8", 
+      "string_va": "0x107861C8", 
+      "value": "m_hPhysBeam", 
+      "xrefs": [
+        {
+          "function": "0x100063A0", 
+          "xref_rva": "0x6437", 
+          "xref_type": 1, 
+          "xref_va": "0x10006437"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x7861D4", 
+      "string_va": "0x107861D4", 
+      "value": "m_vHitPosLocal", 
+      "xrefs": [
+        {
+          "function": "0x100063A0", 
+          "xref_rva": "0x646B", 
+          "xref_type": 1, 
+          "xref_va": "0x1000646B"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x7861E4", 
+      "string_va": "0x107861E4", 
+      "value": "m_hGrabbedEntity", 
+      "xrefs": [
+        {
+          "function": "0x100063A0", 
+          "xref_rva": "0x6488", 
+          "xref_type": 1, 
+          "xref_va": "0x10006488"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x7861F8", 
+      "string_va": "0x107861F8", 
+      "value": "physgun_rotation_sensitivity", 
+      "xrefs": [
+        {
+          "function": "0x10104A50", 
+          "xref_rva": "0x104CB7", 
+          "xref_type": 1, 
+          "xref_va": "0x10104CB7"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x786218", 
+      "string_va": "0x10786218", 
+      "value": "physgun_wheelspeed", 
+      "xrefs": [
+        {
+          "function": "0x10104A50", 
+          "xref_rva": "0x104E48", 
+          "xref_type": 1, 
+          "xref_va": "0x10104E48"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x78EAE0", 
+      "string_va": "0x1078EAE0", 
+      "value": "SetModel", 
+      "xrefs": [
+        {
+          "function": "0x10239530", 
+          "xref_rva": "0x2397EC", 
+          "xref_type": 1, 
+          "xref_va": "0x102397EC"
+        }, 
+        {
+          "function": null, 
+          "xref_rva": "0x98A584", 
+          "xref_type": 1, 
+          "xref_va": "0x1098A584"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x80FFF8", 
+      "string_va": "0x1080FFF8", 
+      "value": "OnPhysGunPunt", 
+      "xrefs": [
+        {
+          "function": "0x10344160", 
+          "xref_rva": "0x344417", 
+          "xref_type": 1, 
+          "xref_va": "0x10344417"
+        }, 
+        {
+          "function": "0x10374350", 
+          "xref_rva": "0x374566", 
+          "xref_type": 1, 
+          "xref_va": "0x10374566"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x82E424", 
+      "string_va": "0x1082E424", 
+      "value": "sprites/physbeam.vmt", 
+      "xrefs": [
+        {
+          "function": "0x103B8FC0", 
+          "xref_rva": "0x3B8FDD", 
+          "xref_type": 1, 
+          "xref_va": "0x103B8FDD"
+        }, 
+        {
+          "function": "0x104AEB90", 
+          "xref_rva": "0x4AEB93", 
+          "xref_type": 1, 
+          "xref_va": "0x104AEB93"
+        }, 
+        {
+          "function": "0x105303F0", 
+          "xref_rva": "0x53050F", 
+          "xref_type": 1, 
+          "xref_va": "0x1053050F"
+        }, 
+        {
+          "function": "0x1058BFF0", 
+          "xref_rva": "0x58C0F1", 
+          "xref_type": 1, 
+          "xref_va": "0x1058C0F1"
+        }
+      ]
+    }, 
+    {
+      "string_rva": "0x91C248", 
+      "string_va": "0x1091C248", 
+      "value": "Weapon_Physgun.Off", 
+      "xrefs": [
+        {
+          "function": "0x105E5CC0", 
+          "xref_rva": "0x5E5D82", 
+          "xref_type": 1, 
+          "xref_va": "0x105E5D82"
+        }
+      ]
+    }
+  ], 
+  "vtable_probes": [
+    {
+      "candidate_vtable_va": "0x10785AFC", 
+      "cell_va": "0x1078601C", 
+      "confidence": "observed_candidate_vtable_slot_only_semantic_label_pending", 
+      "function": "0x101058B0", 
+      "slot_offset": "0x520", 
+      "target_va": "0x101058B0"
+    }, 
+    {
+      "candidate_vtable_va": "0x10785AFC", 
+      "cell_va": "0x1078602C", 
+      "confidence": "observed_candidate_vtable_slot_only_semantic_label_pending", 
+      "function": "0x10105990", 
+      "slot_offset": "0x530", 
+      "target_va": "0x10105990"
+    }, 
+    {
+      "candidate_vtable_va": "0x10785AFC", 
+      "cell_va": "0x10786028", 
+      "confidence": "observed_candidate_vtable_slot_only_semantic_label_pending", 
+      "function": "0x10105130", 
+      "slot_offset": "0x52C", 
+      "target_va": "0x10105130"
+    }
+  ]
+}
