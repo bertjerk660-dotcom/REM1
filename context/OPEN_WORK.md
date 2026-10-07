@@ -111,9 +111,11 @@ This is a requirements/backlog ledger, not proof of implementation.
 
 
 ### Immediate Opus-ready package
-- O01 Toolgun presentation is **READY FOR OPUS** for visual/model/material/attachment work only.
-- Packet: `context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md`.
-- Q-menu/Toolgun behavior remains blocked on Codex C01/C02.
+- O00 Golden Source bench conversion proof is **READY FOR OPUS** and must run first.
+- Packet: `context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md`.
+- O01 Toolgun presentation is fully prepared but **READY AFTER O00 PASS**.
+- O01 packet: `context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md`.
+- Q-menu/Toolgun behavior remains blocked on Codex C01/C02 gap closure.
 
 
 ### GMod evidence gap closure
