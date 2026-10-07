@@ -5,7 +5,8 @@ This board prevents implementation from starting before the necessary Codex evid
 
 | Opus package | Required Codex evidence | Current readiness | Start condition |
 |---|---|---|---|
-| O01 Toolgun view/world presentation | existing staged model provenance; fresh hash check | READY FOR OPUS | final hash-verified packet exists; Opus may perform visual/presentation work only |
+| O00 Golden Source bench conversion proof | provenance/current hashes only | READY FOR OPUS | isolated conversion/material/collision proof; must pass before weapon conversion |
+| O01 Toolgun view/world presentation | existing staged model provenance; fresh hash check | READY AFTER O00 PASS | source packet is complete; start only after the golden bench proves the conversion pipeline |
 | O02 Real GMod Q-menu renderer/compatibility | C01 | WAITING FOR CODEX GAP CLOSURE | broad source architecture is reviewed; native opener/icon/search/editor gaps still require closure |
 | O03 Toolgun Q-state + Remover/Duplicator | C01 + C02 | WAITING FOR CODEX GAP CLOSURE | Q/tool architecture is reviewed; trace/prediction/effect/duplicator-host gaps remain |
 | O04 Physgun parity | C03 + existing IDA 6.8 evidence | WAITING FOR CODEX GAP CLOSURE | native/build evidence exists, but view-model/acquisition/controller/audio/render/actor gaps remain |
@@ -66,7 +67,7 @@ This percentage measures preparation/handoff readiness only. Package unlock stat
 
 
 ## O01 ready packet
-O01 Toolgun presentation is now **READY FOR OPUS** after current-local hash verification of:
+O01 Toolgun presentation is now **READY AFTER O00 PASS** after current-local hash verification of:
 - c_toolgun required MDL/VVD/DX90;
 - c_toolgun QC/reference SMD;
 - w_toolgun required MDL/VVD/DX90;
@@ -100,3 +101,14 @@ Preassembled Opus packets:
 - `context/HANDOFFS/OPUS_O04_PHYSGUN_PREASSEMBLY_2026-10-07.md`
 
 Do not repeat the broad GMod investigation; close only the enumerated gaps.
+
+
+## O00 golden conversion gate
+
+O00 is the first Opus implementation task:
+- `context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md`
+- `build/prepared/opus_o00_golden_bench_20261007.json`
+
+Its source MDL/VVD/DX90/PHY, QC/reference/physics SMDs and VMT/VTF/mask were re-hashed on the current machine and match recorded provenance.
+
+O00 must pass isolated human/runtime visual + collision acceptance before O01 weapon conversion begins. This restores the original safe pipeline ordering and prevents a converter/material/collision defect from being multiplied across weapon packages.
