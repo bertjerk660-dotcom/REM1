@@ -104,6 +104,17 @@
         "implemented candidate",
         "deterministic Codex runtime failure/regression report"
       ]
+    },
+    "O08a": {
+      "name": "GMod/HL Crowbar presentation",
+      "status": "READY_AFTER_O00_PASS",
+      "required_evidence": [
+        "direct archive-verified c_crowbar/w_crowbar source provenance",
+        "material closure",
+        "O00 PASS"
+      ],
+      "packet": "context/HANDOFFS/OPUS_O08A_CROWBAR_PRESENTATION_2026-10-07.md",
+      "behavior_changes_authorized": false
     }
   },
   "gmod_evidence_source_commit": "19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0",
