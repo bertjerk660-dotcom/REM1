@@ -98,3 +98,7 @@ Legacy branches such as `runtime/astra-phase1-input92` remain historical candida
 ## Downstream rule
 
 A subsystem becomes implementation-ready only after required Codex evidence is reviewed. A feature becomes complete only after Opus implementation and Codex runtime/regression validation satisfy all applicable acceptance gates.
+
+
+21. **S21 O01 Toolgun presentation preflight** — COMPLETE. Exact c/w Toolgun source models, QC/reference geometry and 13 materials/textures re-hashed and matched; final visual-only packet is `context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md`. Status: READY FOR OPUS.
+22. **S22 canonical coordination promotion plan** — COMPLETE in `context/CANONICAL_COORDINATION_PROMOTION_PLAN_2026-10-07.md`; actual promotion remains deferred until the destination integration branch is selected.
