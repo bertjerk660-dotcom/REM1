@@ -13,6 +13,7 @@ This board prevents implementation from starting before the necessary Codex evid
 | O05b THUG2 camera | C05 | WAITING FOR CODEX | camera state/function/host-adapter contract reviewed |
 | O06 THUG2 animation/board attachment | C06 | WAITING FOR CODEX | complete animation/skeleton/attachment catalogue reviewed |
 | O07 THUG2 HUD/UI | C07 + C04 event interfaces | WAITING FOR CODEX | HUD/state/scoring event bindings and renderer contract reviewed |
+| O07b THUG2 audio | C04 + C06 + C07 event/audio evidence or narrow Codex audio addendum | WAITING FOR CODEX | original sound-event names, source assets and loop/transition semantics reviewed |
 | O08 final model/asset visual integration | per-asset provenance + corresponding subsystem evidence | PARTIAL / PACKAGE-SPECIFIC | source provenance current; no unresolved dependency relevant to selected asset |
 | O09 cross-system fixes/polish | Codex runtime failure reports | NOT READY | subsystem candidates exist and Codex has produced deterministic failures/regressions |
 
