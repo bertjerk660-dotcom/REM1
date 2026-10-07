@@ -2,6 +2,8 @@
 
 Baseline inspected: `main` at `3610b370d62fb0daa86b10f819b7704ab096809b`.
 
+> **2026-10-08 supersession note:** the ahead/behind counts below are a historical 2026-10-07 snapshot. Current exact branch heads and relations to canonical `main` are pinned in `context/QUARANTINED_BRANCH_INDEX_2026-10-08.md` / `build/prepared/quarantined_branch_index_20261008.json`. Use that index for current decisions.
+
 Rule: branch-only work is evidence/candidate state, not verified canonical runtime state. Do not wholesale-merge divergent branches into `main`; review/cherry-pick coherent documentation, manifests, or validated implementation only after ownership and runtime gates are satisfied.
 
 ## Current branch relationships to main
