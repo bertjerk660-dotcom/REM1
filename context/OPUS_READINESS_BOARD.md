@@ -60,6 +60,20 @@ Before starting any Opus package, use:
 - `context/OPUS_PACKAGE_INTAKE_CHECKLIST_2026-10-07.md` — evidence review, packet assembly, candidate freeze and promotion checklist.
 - `context/LOCAL_OPUS_PREFLIGHT_SNAPSHOT_2026-10-07.md` — current local hashes and stale-feed-bundle warning.
 
-Current preparation score after the 2026-10-07 workflow finalization pass: **74/100**.
+Current preparation score after the 2026-10-07 workflow finalization pass: **76/100**.
 
 This percentage measures preparation/handoff readiness only. Package unlock state in the table above remains authoritative: most core systems are still waiting for Codex evidence.
+
+
+## O01 ready packet
+O01 Toolgun presentation is now **READY FOR OPUS** after current-local hash verification of:
+- c_toolgun required MDL/VVD/DX90;
+- c_toolgun QC/reference SMD;
+- w_toolgun required MDL/VVD/DX90;
+- 13 Toolgun material/texture inputs.
+
+Use:
+- `context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md`
+- `build/prepared/opus_o01_toolgun_presentation_20261007.json`
+
+This unlocks visual/presentation work only. O02/O03 behavior remains gated on Codex C01/C02.
