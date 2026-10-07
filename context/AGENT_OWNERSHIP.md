@@ -1,54 +1,104 @@
 # Agent Ownership — effective 2026-10-07
 
-This document records the current project-agent split supplied by the project owner. It supersedes older **role labels** that grouped GPT-6 and Opus together, but it does not invalidate the technical evidence inside those older handoffs.
+This document records the current project-agent split supplied by the project owner. It supersedes all older role labels that grouped GPT-6/Astra with Opus or assigned runtime work to GPT-6/Astra. Historical filenames may remain for traceability, but they no longer define ownership.
 
 ## Non-negotiable separation
 
-**Claude Opus is the sole primary implementation/integration agent. GPT-6/Astra must never be grouped with Opus as a co-implementation owner.** Astra may inspect implementation for debugging, but its lane is runtime execution, crash diagnosis, live-game validation and regression testing. Historical repository names such as `gpt6_opus` are retained only as legacy path names and do not define current ownership.
+**Claude Opus is the sole implementation/integration agent.**
+
+**GPT-6/Astra is not to be used for this project.**
+
+**Codex owns both investigation/evidence work and runtime investigation/testing/debugging/validation.**
+
+Historical repository names such as `gpt6_opus`, `ASTRA_*`, `runtime/astra-*`, or `feature/*-g6` are legacy path/branch names only. Do not dispatch new work to GPT-6/Astra because of those names.
 
 ## Owners
 
-### Codex — investigation and evidence
-Owns investigation of original-game code and data: codebase analysis, reverse-engineering research, function tracing, state-machine mapping, dependency discovery, UI/system internals, call graphs, asset identification, binary/decompiled behavior, and source-behavior documentation.
+### Codex — investigation, reverse engineering, runtime testing and debugging
+Codex owns:
+- codebase analysis;
+- reverse-engineering research;
+- function tracing;
+- state-machine mapping;
+- dependency discovery;
+- UI/system internals;
+- call graphs;
+- asset identification;
+- binary/decompiled behavior;
+- source-behavior documentation;
+- executing candidate builds where the available Codex environment supports it;
+- live-game/runtime investigation;
+- crash diagnosis;
+- memory/runtime failures;
+- camera/input/animation runtime validation;
+- difficult integration debugging;
+- performance/regression tests;
+- state-transition tests;
+- confirming behavior in the running game;
+- preparing precise failure evidence for Opus when fixes are needed.
 
-Codex must not be treated as the final implementation owner. Its output should end in evidence packages, function/asset maps, dependencies, and implementation-facing specifications.
+Codex does **not** own final implementation. Its investigation outputs should end in evidence packages, function/asset maps, dependencies and implementation-facing specifications. Its runtime outputs should end in deterministic pass/fail reports, logs, crash evidence and fix-focused handoffs to Opus.
 
-### Claude Opus — implementation and visual integration
-Owns actual implementation: code integration, source-faithful GMod/THUG2 system ports, models, textures, attachment, animation, retargeting, skeleton work, UI rendering/hosting, gameplay behavior, effects, audio integration, difficult coding, and final asset placement.
+### Claude Opus — sole implementation and visual integration owner
+Opus owns all substantive implementation:
+- code integration;
+- source-faithful GMod and THUG2 system ports;
+- model integration and conversion;
+- textures and materials;
+- weapon/board attachments;
+- animation implementation;
+- retargeting and skeleton work;
+- UI rendering/hosting;
+- gameplay-system implementation;
+- effects;
+- audio integration;
+- physics/gameplay code;
+- final asset placement;
+- fixes resulting from Codex runtime failure reports.
 
-Opus should consume prepared Codex evidence and repository handoffs rather than rediscovering the whole subsystem unless the evidence is demonstrably incomplete.
-
-### GPT-6 / Astra — runtime investigation and validation
-Owns live-game/runtime work: executing candidate builds, crash diagnosis, memory/runtime failures, camera/input/animation validation, difficult integration debugging, performance/regression tests, state-transition testing, and confirming behavior in the running game.
-
-Astra should not be used as the primary implementation owner under the current split.
+Opus should consume prepared Codex evidence and repository handoffs rather than rediscovering the whole subsystem unless evidence is demonstrably incomplete.
 
 ### Normal GPT-5.5 workflow lane
-Owns orchestration only: planning, decomposition, documentation, manifests, provenance, inventories, dependency tracking, handoffs, acceptance criteria, test plans, validation matrices, milestone tracking, branch reconciliation, evidence indexing, stale/conflicting-state detection, and duplicate-work prevention.
+Owns orchestration only:
+- planning and decomposition;
+- documentation;
+- manifests and provenance;
+- inventories;
+- dependency tracking;
+- handoffs;
+- acceptance criteria;
+- deterministic test plans;
+- validation matrices;
+- milestone tracking;
+- branch reconciliation;
+- evidence indexing;
+- stale/conflicting-state detection;
+- duplicate-work prevention;
+- comparing Codex investigation/runtime reports against Opus implementation claims.
 
-This lane must not implement Opus-owned game systems, perform Codex-owned reverse engineering, or replace Astra-owned runtime validation.
+This lane must not implement Opus-owned systems or perform Codex-owned reverse-engineering/runtime-debugging work.
 
 ## Required flow
 
 Codex investigation
 -> evidence report
 -> asset/function/dependency manifest
--> integration interface/work package
+-> implementation interface/work package
 -> Opus implementation
 -> candidate build
--> Astra runtime validation
+-> Codex runtime validation/debugging
 -> failure report if needed
 -> Opus fix
--> Astra regression
+-> Codex regression test
 -> workflow lane records validated completion.
 
 ## Interpretation of historical files
 
-Older files such as `build/handoffs/gpt6_opus/MASTER_EXECUTION_QUEUE.json` use combined labels such as `GPT6_OPUS`. Preserve their technical task ordering and gates, but remap ownership under this document:
+Older files such as `build/handoffs/gpt6_opus/MASTER_EXECUTION_QUEUE.json` use combined or obsolete labels. Preserve technical task ordering and evidence where still valid, but remap ownership:
 
 - investigation/evidence portions -> Codex
-- implementation/visual/runtime-code portions -> Opus
-- live testing/debug/runtime validation -> Astra
+- implementation/visual/model/animation/runtime-code portions -> Opus
+- live testing/debug/runtime validation -> Codex
 - manifests/checklists/coordination -> GPT-5.5 workflow lane
 
-Do not silently change product/architecture decisions while remapping ownership.
+Do not silently change product or architecture decisions while remapping ownership.
