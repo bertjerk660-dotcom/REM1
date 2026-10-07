@@ -4,7 +4,7 @@
   "repository": "bertjerk660-dotcom/REM1",
   "preparation_branch": "prep/opus-readiness-finalization-20261007",
   "preparation_readiness_percent": 80,
-  "first_package": "O01",
+  "first_package": "O00",
   "first_package_status": "READY_FOR_OPUS",
   "required_reading": [
     "AGENTS.md",
@@ -25,9 +25,26 @@
     "candidate_manifest_template": "build/templates/OPUS_IMPLEMENTATION_MANIFEST_TEMPLATE.json",
     "source_archive_sha256": "A3237FC7442C6C57AA924525951280F1381BC641D323B6ED4CE52FD5BE09F83E",
     "current_local_main_cpp_snapshot_sha256": "4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE",
-    "warning": "Re-hash selected implementation source immediately before edit; this snapshot may drift."
+    "warning": "Re-hash selected implementation source immediately before edit; this snapshot may drift.",
+    "status": "READY_AFTER_O00_PASS",
+    "prerequisite": "O00 human/runtime PASS"
   },
-  "blocked_behavior_packages": ["O02","O03","O04","O05","O05b","O06","O07","O07b"],
+  "blocked_behavior_packages": [
+    "O02",
+    "O03",
+    "O04",
+    "O05",
+    "O05b",
+    "O06",
+    "O07",
+    "O07b"
+  ],
   "gmod_gap_closure": "context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md",
-  "unrelated_runtime_candidates_must_remain_quarantined": true
+  "unrelated_runtime_candidates_must_remain_quarantined": true,
+  "o00_inputs": {
+    "packet": "context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md",
+    "preflight": "build/prepared/opus_o00_golden_bench_20261007.json",
+    "candidate_manifest_template": "build/templates/OPUS_IMPLEMENTATION_MANIFEST_TEMPLATE.json",
+    "purpose": "Prove Source-to-FNV conversion/material/collision pipeline before weapon conversion"
+  }
 }
