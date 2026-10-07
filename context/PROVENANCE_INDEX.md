@@ -115,6 +115,53 @@ Any future use requires Codex to reconcile:
 - build manifest;
 - human/runtime evidence.
 
+
+## Cross-branch corroboration — GMod source/staging manifests
+
+The following project-authored manifests were observed with the same Git blob SHA on multiple later preparation branches:
+
+- `builds/gmod_qmenu_source_inventory_20261006.json` — Git blob `b1234b17745f1de0b28be81b987d7a56ae3d7478` on at least `prep/pre-opus-thursday` and `prep/prop-content-phase4`.
+- `builds/gmod_hl_weapon_staging_audit_20261006.json` — Git blob `52c364e6125cef4729177ef462a326d1bd9140a7` on at least those same branches.
+
+This corroborates that later support work reused the same inventory/audit rather than silently changing its recorded source snapshot.
+
+Recorded Q-menu inventory details:
+- GMod build ID `25375506`;
+- appmanifest SHA256 `55648202F35A9165220C98975F59CDEB0079AE20D0C377FCC5CC83682449EA8A`;
+- `garrysmod_dir.vpk` SHA256 `A3237FC7442C6C57AA924525951280F1381BC641D323B6ED4CE52FD5BE09F83E`;
+- 105 relevant Lua files;
+- 40 stool files;
+- 46 VGUI classes;
+- 29 direct asset refs, zero unresolved;
+- local manifest SHA256 `A499117503C53710B91AE27C401DBFCF53F23C4B741B3AF29FD0A43C06B0774B`;
+- runtime port performed: false.
+
+Recorded weapon staging audit:
+- 52 weapon classes;
+- 73 unique model refs;
+- 71 concrete refs;
+- 71/71 concrete refs staged;
+- two abstract-only unstaged references: `models/weapons/v_eq_flashbang.mdl` and `models/weapons/v_pistol.mdl`;
+- local audit SHA256 `D8435F3482CB32E6EC5A21D40C394B55B4E7E2C89247C918E79E065D3AE659FF`;
+- runtime integration performed: false.
+
+**Promotion status:** provenance/index evidence is accepted for coordination use. Before Codex or Opus relies on the installed-game hashes as current local truth, re-check the current installation. This does not promote any runtime implementation.
+
+## Quarantined v85/v88 install snapshot
+
+Branch-only `context/RELEASE_MANIFEST.md` on `prep/prop-content-phase4` and `prep/support-workflow` records:
+- installed runtime label v85;
+- DLL SHA256 `BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41`;
+- active `REM_GModTHUG2.esp` SHA256 `0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7`;
+- isolated/not-installed v88 candidate SHA256 `6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439`;
+- 290-entry catalog (170 native FNV + 120 custom GMod/Source);
+- 205 unique converted GMod prop payload files;
+- disabled support plugins for Combine armor, GMod prop catalog and weapon presentation.
+
+The two branch manifests differ in support-validator count (110 versus 111 checks) while sharing the same local release-manifest SHA256 `0CD126920013F0766F80F3579A704C50235D81102659AC2BC765A99E87046377`. That inconsistency is itself evidence that prose branch ledgers must not define canonical runtime state.
+
+**Quarantine status:** RUNTIME CANDIDATE / INSTALL-SNAPSHOT EVIDENCE ONLY. Do not update CURRENT_STATE to v85 or v88 from these documents. Codex must identify the actual installed files/hashes and run the required baseline/runtime gates before promotion.
+
 ## Provenance policy
 
 For every imported or converted asset track:
