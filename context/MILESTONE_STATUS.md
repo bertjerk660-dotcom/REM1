@@ -86,3 +86,14 @@ C01/C02/C03 -> Opus GMod implementation -> Codex GMod runtime validation
 C04/C05/C06/C07/C08 -> Opus THUG2 implementation -> Codex THUG2 runtime validation
 
 then cross-system stability -> regression/polish.
+
+
+## Quantified Opus preparation readiness
+
+A percentage is now permitted for **Opus preparation readiness** because an explicit weighted rubric exists in `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md`.
+
+- before the current workflow-finalization pass: **58/100**;
+- after the pass: **71/100**;
+- improvement: **+13 percentage points**.
+
+This is not game-completion percentage. The principal remaining readiness deficit is Codex C01-C08 implementation-grade evidence; normal GPT cannot legitimately award those missing evidence points.
