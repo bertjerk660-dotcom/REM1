@@ -93,11 +93,15 @@ then cross-system stability -> regression/polish.
 A percentage is now permitted for **Opus preparation readiness** because an explicit weighted rubric exists in `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md`.
 
 - before the current workflow-finalization pass: **58/100**;
-- after the pass: **76/100**;
-- improvement: **+18 percentage points**.
+- after the pass: **80/100**;
+- improvement: **+22 percentage points**.
 
 This is not game-completion percentage. The principal remaining readiness deficit is Codex C01-C08 implementation-grade evidence; normal GPT cannot legitimately award those missing evidence points.
 
 
 ## O01 preparation milestone
 O01 Toolgun presentation preflight is now complete and **READY FOR OPUS**. Required Source model companions, QC/reference geometry and all Toolgun material/texture inputs were re-hashed on the current machine and match the recorded source packets. This does not unlock Toolgun behavior; O02/O03 still wait for Codex C01/C02.
+
+
+## Authenticated GMod evidence milestone
+Main commit `19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0` added a validated GMod evidence bundle. Normal-GPT intake classifies C01/C02 as substantial partial and C03 as partial. The broad investigation is now reusable and should not be repeated; only the narrow gap-closure packet remains before O02/O03/O04 can unlock.
