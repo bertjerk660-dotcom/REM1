@@ -20,9 +20,9 @@ Current ownership: Codex investigates and runtime-validates; Claude Opus alone i
 | context/RUNTIME_OWNERSHIP_CONTRACT.md | CHERRY-PICK CANDIDATE after wording check | State ownership remains useful; current INPUT_OWNERSHIP_MATRIX is more explicit. Promote invariants selectively. |
 | context/THUG2_INTEGRATION_PROVENANCE.json | CHERRY-PICK CANDIDATE after local hash re-check | High-value executable/skeleton/IDA 6.8 provenance and bone-name map. |
 | context/GMOD_INTERFACE_PRESERVATION.md | CHERRY-PICK CANDIDATE after ownership normalization | High-value installed-GMod provenance and interface contracts. Feed C01-C03. |
-| context/RELEASE_MANIFEST.md | KEEP BRANCH-ONLY / NEEDS REVIEW | v85/v88 branch install state conflicts with main verified state. Codex must reconcile actual local deployment. |
-| GMod/HL weapon staging audit | CHERRY-PICK CANDIDATE after hash re-check | 71/71 concrete model refs staged; runtime presentation remains unverified. |
-| Q-menu source inventory | CHERRY-PICK CANDIDATE after installed-GMod hash re-check | 105 Lua / 46 VGUI / 29 refs is strong Codex input, not final-behavior proof. |
+| context/RELEASE_MANIFEST.md | RUNTIME CANDIDATE ONLY — INDEXED/QUARANTINED | v85/v88 identities are preserved in PROVENANCE_INDEX/EVIDENCE_INDEX and RUNTIME_CANDIDATE_QUARANTINE; they do not change canonical runtime state. |
+| GMod/HL weapon staging audit | INDEXED PROVENANCE / SOURCE MANIFEST REMAINS BRANCH-ONLY | Identical Git blob corroborated across inspected later prep branches; 71/71 concrete refs staged. Current local hash check still required before implementation; runtime presentation unverified. |
+| Q-menu source inventory | INDEXED PROVENANCE / SOURCE MANIFEST REMAINS BRANCH-ONLY | Identical Git blob corroborated across inspected later prep branches; 105 Lua / 46 VGUI / 29 refs. Current installed-GMod hash check still required; not runtime proof. |
 | support validators/preflight/postflight scripts | CHERRY-PICK CANDIDATE | Reusable project tooling if current paths/hashes remain valid. |
 | disabled sidecar plugins/manifests | KEEP BRANCH-ONLY / RUNTIME CANDIDATE ONLY | Static pass is not runtime proof. |
 | THUG2 embedded-prop mapping | NEEDS REVIEW | 85 geometry candidates are evidence-backed; visual verification/conversion/collision remain Opus + Codex gates. |
@@ -42,9 +42,9 @@ Current ownership: Codex investigates and runtime-validates; Claude Opus alone i
 
 | Branch/artifact family | Classification | Rule |
 |---|---|---|
-| runtime/astra-phase1-input92 | RUNTIME CANDIDATE ONLY | Legacy name. Codex must reconcile exact branch/commit/build/hashes and validate before promotion. |
-| feature/thug2-native-ui-g6 | RUNTIME CANDIDATE ONLY | Later implementation evidence, not canonical completion. Opus is sole current implementation owner. |
-| diag/v85-retarget-quarantine | HISTORICAL FAILURE EVIDENCE | Preserve crash/retarget diagnostic history and fixes. |
+| runtime/astra-phase1-input92 | RUNTIME CANDIDATE ONLY — QUARANTINED | Registered in RUNTIME_CANDIDATE_QUARANTINE. Codex must reconcile exact branch/commit/build/hashes before deciding whether it is worth testing. |
+| feature/thug2-native-ui-g6 | RUNTIME CANDIDATE ONLY — QUARANTINED | Registered in RUNTIME_CANDIDATE_QUARANTINE. Mine technical evidence selectively; no canonical completion claim. |
+| diag/v85-retarget-quarantine | HISTORICAL FAILURE EVIDENCE — QUARANTINED | Registered in RUNTIME_CANDIDATE_QUARANTINE; preserve crash/retarget history for regression design, not release state. |
 | prep/pre-opus-thursday | NEEDS REVIEW | Large later history; extract manifests selectively, never wholesale merge. |
 | prep/prop-content-phase3/phase4 | NEEDS REVIEW | Extract provenance/catalog/validation artifacts selectively. |
 | prep/support-workflow | NEEDS REVIEW | Useful support docs but overlaps other lanes and contains obsolete ownership wording. |
