@@ -122,3 +122,7 @@ A subsystem becomes implementation-ready only after required Codex evidence is r
 31. **S31 O08c SMG1 presentation preflight** — COMPLETE. c/w SMG1 models were directly archive-verified; original material closure verified and the missing world-SMG specular mask was repaired with the exact original VPK file. Status: READY AFTER O00 PASS.
 32. **S32 unified visual-source validation** — COMPLETE. O00/O01/O08a/O08b/O08c: 87 files checked, 0 errors. Report: `build/validation/opus_visual_source_validation_20261007.json`.
 33. **S33 clean main-descended Opus-ready branch** — COMPLETE. `prep/opus-ready-20261007` was created from current main and verified ahead with 0 behind; it is the preferred preparation branch.
+
+
+34. **S34 next Codex C04 request packet** — COMPLETE. `context/HANDOFFS/NEXT_CODEX_REQUEST_THUG2_C04_2026-10-07.md` is the next new investigation request; it explicitly forbids Opus-owned implementation work.
+35. **S35 Codex C04 evidence return** — WAITING FOR CODEX. Review with `context/HANDOFFS/CODEX_C04_REVIEW_CHECKLIST_2026-10-07.md`; award the 3 C04 readiness points only on semantic COMPLETE.
