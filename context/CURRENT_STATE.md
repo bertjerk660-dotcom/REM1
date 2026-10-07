@@ -69,3 +69,14 @@ Coordination review result:
 - exact remaining gaps are enumerated in `context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md`.
 
 The GMod evidence bundle passed 36,078 metadata/graph/report checks with 0 errors. This is evidence-package validation only and does not establish runtime parity or final implementation.
+
+
+## 2026-10-07 Opus conversion-pipeline preflight
+A fresh workflow review restored the original golden-conversion ordering before weapon visual work.
+
+- O00 Golden Source bench conversion proof: READY FOR OPUS.
+- Source bench MDL/VVD/DX90/PHY, QC/reference/physics SMD and VMT/VTF/mask inputs were re-hashed on the current local machine and match recorded provenance.
+- O00 must be implemented in an isolated sidecar and pass visual/material/scale/orientation/collision/save-load acceptance before weapon conversion is trusted.
+- O01 Toolgun presentation is fully hash-prepared but is now correctly classified as READY AFTER O00 PASS.
+
+This changes preparation ordering only; no runtime feature was implemented or promoted.
