@@ -1,0 +1,99 @@
+{
+  "schema": "rem.opus_readiness_81_to_100.v1",
+  "date": "2026-10-07",
+  "baseline_after_clean_branch": 81,
+  "target": 100,
+  "score_rule": "Award points only after workflow review confirms the original Codex stop condition is satisfied.",
+  "gates": [
+    {
+      "id": "C01",
+      "points": 3,
+      "status": "SUBSTANTIAL_PARTIAL",
+      "packet": "context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md",
+      "unlocks": [
+        "O02"
+      ]
+    },
+    {
+      "id": "C02",
+      "points": 3,
+      "status": "SUBSTANTIAL_PARTIAL",
+      "packet": "context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md",
+      "unlocks": [
+        "O03"
+      ]
+    },
+    {
+      "id": "C03",
+      "points": 3,
+      "status": "PARTIAL",
+      "packet": "context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md",
+      "unlocks": [
+        "O04"
+      ]
+    },
+    {
+      "id": "C04",
+      "points": 3,
+      "status": "NOT_COMPLETE",
+      "packet": "context/HANDOFFS/CODEX_C04_THUG2_STATE_PHYSICS_2026-10-07.md",
+      "unlocks": [
+        "O05"
+      ]
+    },
+    {
+      "id": "C05",
+      "points": 2,
+      "status": "NOT_COMPLETE",
+      "packet": "context/HANDOFFS/CODEX_C05_THUG2_CAMERA_2026-10-07.md",
+      "unlocks": [
+        "O05b"
+      ]
+    },
+    {
+      "id": "C06",
+      "points": 2,
+      "status": "NOT_COMPLETE",
+      "packet": "context/HANDOFFS/CODEX_C06_THUG2_ANIMATION_BOARD_2026-10-07.md",
+      "unlocks": [
+        "O06"
+      ]
+    },
+    {
+      "id": "C07",
+      "points": 2,
+      "status": "NOT_COMPLETE",
+      "packet": "context/HANDOFFS/CODEX_C07_THUG2_HUD_UI_2026-10-07.md",
+      "unlocks": [
+        "O07"
+      ]
+    },
+    {
+      "id": "C08",
+      "points": 1,
+      "status": "NOT_COMPLETE",
+      "packet": "context/HANDOFFS/CODEX_C08_UNIFIED_INPUT_2026-10-07.md",
+      "unlocks": [
+        "O05",
+        "O07",
+        "input integration"
+      ]
+    }
+  ],
+  "current_visual_source_validation": {
+    "pass": true,
+    "file_count": 87,
+    "error_count": 0,
+    "report": "build/validation/opus_visual_source_validation_20261007.json"
+  },
+  "prohibited_shortcuts": [
+    "inventory-only evidence",
+    "visual resemblance",
+    "compile-only claims",
+    "untested candidates",
+    "historical owner labels",
+    "substitute physgun model",
+    "partial animation inventory",
+    "UI asset list without event bindings"
+  ]
+}
