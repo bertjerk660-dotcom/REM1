@@ -1,0 +1,49 @@
+{
+  "schema": "rem.codex_semantic_gate_status.v1",
+  "date": "2026-10-07",
+  "reviewed_by": "normal GPT workflow lane",
+  "gates": {
+    "C01": {
+      "status": "SUBSTANTIAL_PARTIAL",
+      "points_earned": 0,
+      "review_source": "context/GMOD_CODEX_EVIDENCE_INTAKE_REVIEW_2026-10-07.md"
+    },
+    "C02": {
+      "status": "SUBSTANTIAL_PARTIAL",
+      "points_earned": 0,
+      "review_source": "context/GMOD_CODEX_EVIDENCE_INTAKE_REVIEW_2026-10-07.md"
+    },
+    "C03": {
+      "status": "PARTIAL",
+      "points_earned": 0,
+      "review_source": "context/GMOD_CODEX_EVIDENCE_INTAKE_REVIEW_2026-10-07.md"
+    },
+    "C04": {
+      "status": "WAITING_FOR_CODEX",
+      "points_earned": 0,
+      "review_source": "context/HANDOFFS/NEXT_CODEX_REQUEST_THUG2_C04_2026-10-07.md"
+    },
+    "C05": {
+      "status": "WAITING_FOR_CODEX",
+      "points_earned": 0,
+      "review_source": "context/HANDOFFS/CODEX_C05_THUG2_CAMERA_2026-10-07.md"
+    },
+    "C06": {
+      "status": "WAITING_FOR_CODEX",
+      "points_earned": 0,
+      "review_source": "context/HANDOFFS/CODEX_C06_THUG2_ANIMATION_BOARD_2026-10-07.md"
+    },
+    "C07": {
+      "status": "WAITING_FOR_CODEX",
+      "points_earned": 0,
+      "review_source": "context/HANDOFFS/CODEX_C07_THUG2_HUD_UI_2026-10-07.md"
+    },
+    "C08": {
+      "status": "WAITING_FOR_CODEX",
+      "points_earned": 0,
+      "review_source": "context/HANDOFFS/CODEX_C08_UNIFIED_INPUT_2026-10-07.md"
+    }
+  },
+  "total_points_earned_from_c01_c08": 0,
+  "note": "Only normal-GPT semantic review may change a gate to COMPLETE. File presence alone is insufficient."
+}
