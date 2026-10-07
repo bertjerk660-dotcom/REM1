@@ -150,7 +150,7 @@ This is preparation/pipeline evidence only. No Opus implementation or Codex C01-
 - Live deployed hashes re-checked on the Windows machine. FNVGModTHUG2.dll D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206 and REM_GModTHUG2.esp 0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7 match runtime_snapshot.json. main.cpp 4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE and gmod_overlay.inc E6EF0C484AFDDC1A74C02F6BA8A72CD0899D6E80F5BA5459CD61B9C67183250F also match.
 - UNRESOLVED IDENTITY DRIFT: the deployed Data/meshes/rem/thug2/skateheldx.nif hashes to 1FB3CE190CC0E32D2F06EEC144605CE3E2EB84BE4E3A90A33B227B9639C6D852. The v82 record expects 4F12178D6D4004B29B46BCF61365A6B48D2EF007B862B292B4CDA80DF7BBD08A. Either the file changed after the v82 record was written or the record is stale. The cause is not established (F007). Do not claim v82 build identity until this is reconciled.
 - THUG2 platform: the local disc executable is PS2 SLES_526.21, SHA256 91C3D11BF0F1546F8EA20A22E7C1708EA91697F3C1393F36D9D7F2D4449963D1, which matches PROVENANCE_INDEX. It is a 32-bit little-endian MIPS ELF. Any THUG2 IDA work must name this PS2 target. No PC THUG2 binary is recorded.
-- Codex: no C01-C08 evidence output exists beyond the gap-closure and request packets. The C01 structural baseline expects files that are not present (structural_pass false). This is consistent with 0 points for every gate.
+- Codex: no C01-C08 final delivery exists beyond the gap-closure and request packets. The old 2026-10-07 structural baseline treated future deliverables as missing/failing. This has been corrected: `research/validate_codex_readiness_outputs.py --mode baseline` now reports those not-yet-produced paths as PENDING. The 2026-10-08 baseline is CONSISTENT with 46 pending outputs and 0 invalid JSON. Delivery mode still fails missing outputs after a Codex delivery claim. Semantic gate points remain unchanged.
 - Corrections made by this audit: O01/O08a/O08b/O08c described as READY AFTER O00 PASS, not READY FOR OPUS, in OPUS_LAUNCH_PREFLIGHT_BASELINE and the scorecard; commit counts dated; the Active runtime hashes above are marked superseded.
 
 ## 2026-10-08 documentation/provenance reconciliation
@@ -167,3 +167,23 @@ Further documentation-only work in this pass:
 - quarantined branch heads are being pinned in a current machine-readable index.
 
 Preparation readiness remains evidence-scored; documentation cleanup alone does not award C01-C08 points.
+
+
+### Codex output-contract semantics resolved
+The required C01-C08 evidence paths are future Codex deliverables, not preparation-time files that should already exist.
+
+Current validator behavior:
+- baseline mode: missing future deliverables = `PENDING_EXPECTED_OUTPUT`;
+- delivery mode: missing files after a delivery claim = structural failure;
+- semantic review remains mandatory in both modes.
+
+Recorded baseline:
+`build/validation/codex_c01_c08_output_baseline_20261008.json`
+
+Result:
+- C01-C08 = PENDING_NOT_DELIVERED;
+- pending = 46;
+- invalid JSON = 0;
+- baseline contract = CONSISTENT.
+
+This clarification awards no readiness points by itself.
