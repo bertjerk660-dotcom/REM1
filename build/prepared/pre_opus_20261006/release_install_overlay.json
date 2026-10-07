@@ -1,0 +1,2852 @@
+{
+  "release_ready": false,
+  "previous_manifest": {
+    "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\release_install_manifest\\manifest.json",
+    "exists": true,
+    "bytes": 123359,
+    "sha256": "B743C6CDBD33C0FDA0BE3822D31AE062E3EF950859713DD93F06B220AC32EFF6"
+  },
+  "files": [
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\NVSE\\Plugins\\FNVGModTHUG2.dll",
+      "exists": true,
+      "bytes": 906240,
+      "sha256": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+      "previous_sha256": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41",
+      "previous_hash_matches": true,
+      "previous_state": "current_test_baseline_v85"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_GModTHUG2.esp",
+      "exists": true,
+      "bytes": 50315,
+      "sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+      "previous_sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+      "previous_hash_matches": true,
+      "previous_state": "current_active_test_esp"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\hud88\\bin\\FNVGModTHUG2.dll",
+      "exists": true,
+      "bytes": 918528,
+      "sha256": "6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439",
+      "previous_sha256": "6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439",
+      "previous_hash_matches": true,
+      "previous_state": "protected_not_installed"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_GModProps_Catalog.esp",
+      "exists": true,
+      "bytes": 18923,
+      "sha256": "55E0758D4E96DC0C3B5F591002AD3C2C630CC76BE281DEDA0DAF2D2F91A4423E",
+      "previous_sha256": "55E0758D4E96DC0C3B5F591002AD3C2C630CC76BE281DEDA0DAF2D2F91A4423E",
+      "previous_hash_matches": true,
+      "previous_state": "disabled_test_sidecar"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_CombineArmor_Test.esp",
+      "exists": true,
+      "bytes": 612,
+      "sha256": "52B06C9D1FA087B32BD2F83120603903893D24781BC9490D89C3D9EEE105979E",
+      "previous_sha256": "52B06C9D1FA087B32BD2F83120603903893D24781BC9490D89C3D9EEE105979E",
+      "previous_hash_matches": true,
+      "previous_state": "disabled_test_sidecar"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_WeaponPresentation_Fixes.esp",
+      "exists": true,
+      "bytes": 762,
+      "sha256": "15380779823DA61F0F7A536E317FFB2489F35A156EFDF348348BB61D7BCA7723",
+      "previous_sha256": "15380779823DA61F0F7A536E317FFB2489F35A156EFDF348348BB61D7BCA7723",
+      "previous_hash_matches": true,
+      "previous_state": "disabled_test_sidecar"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\interface\\icons\\pipboyimages\\weapons\\rem_gmod_origin.dds",
+      "exists": true,
+      "bytes": 65664,
+      "sha256": "9D22854C96241AFC6C3FC596E15356D38DCFA75EB073E61F943B8FC094F3161E",
+      "previous_sha256": "9D22854C96241AFC6C3FC596E15356D38DCFA75EB073E61F943B8FC094F3161E",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\interface\\icons\\pipboyimages_small\\weapons_small\\glow_rem_gmod_origin.dds",
+      "exists": true,
+      "bytes": 65664,
+      "sha256": "9CAC7740C145C1CAE6F6823EAB03F6ADEAAB9D06A14ABA647E0AC4619EBCD25B",
+      "previous_sha256": "9CAC7740C145C1CAE6F6823EAB03F6ADEAAB9D06A14ABA647E0AC4619EBCD25B",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\interface\\icons\\pipboyimages\\weapons\\rem_thug2_origin.dds",
+      "exists": true,
+      "bytes": 65664,
+      "sha256": "5820CA60BA0EFC811F5D623F1D53BA12AADE4194A5252FC8E3A7A42FEA4B9633",
+      "previous_sha256": "5820CA60BA0EFC811F5D623F1D53BA12AADE4194A5252FC8E3A7A42FEA4B9633",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\interface\\icons\\pipboyimages_small\\weapons_small\\glow_rem_thug2_origin.dds",
+      "exists": true,
+      "bytes": 65664,
+      "sha256": "4DA787896197E76DF3C2E04BC17F929064EEB8FF65833A39B3B20362F6B62F40",
+      "previous_sha256": "4DA787896197E76DF3C2E04BC17F929064EEB8FF65833A39B3B20362F6B62F40",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\thug2\\skateboard.nif",
+      "exists": true,
+      "bytes": 57562,
+      "sha256": "E6AAD886D1CA8A2044F185051AB2F411C61806ECF7A74372D83B5B6203FC5568",
+      "previous_sha256": "E6AAD886D1CA8A2044F185051AB2F411C61806ECF7A74372D83B5B6203FC5568",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\thug2\\skateboard_visual.nif",
+      "exists": true,
+      "bytes": 57562,
+      "sha256": "E6AAD886D1CA8A2044F185051AB2F411C61806ECF7A74372D83B5B6203FC5568",
+      "previous_sha256": "E6AAD886D1CA8A2044F185051AB2F411C61806ECF7A74372D83B5B6203FC5568",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\thug2\\skateheldx.nif",
+      "exists": true,
+      "bytes": 57753,
+      "sha256": "1FB3CE190CC0E32D2F06EEC144605CE3E2EB84BE4E3A90A33B227B9639C6D852",
+      "previous_sha256": "1FB3CE190CC0E32D2F06EEC144605CE3E2EB84BE4E3A90A33B227B9639C6D852",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\thug2\\skateworld.nif",
+      "exists": true,
+      "bytes": 57619,
+      "sha256": "2DE82089C42543963FEE7419FF0E2B9E21E731BF6AFBF93CAAD1EF72C2C396D2",
+      "previous_sha256": "2DE82089C42543963FEE7419FF0E2B9E21E731BF6AFBF93CAAD1EF72C2C396D2",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\armor\\CombineSoldierFullBody.nif",
+      "exists": true,
+      "bytes": 370172,
+      "sha256": "A05FFC147402151D5A6DD30F3FE26B0C58651F815DCD0098D3C7D9B2465FC3BA",
+      "previous_sha256": "A05FFC147402151D5A6DD30F3FE26B0C58651F815DCD0098D3C7D9B2465FC3BA",
+      "previous_hash_matches": true,
+      "previous_state": "installed_test_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\Combine_Soldier.nif",
+      "exists": true,
+      "bytes": 337502,
+      "sha256": "1878E5E9E776F70897504EBC31A4B9E13CDF0C496384974453FDF4601D68D3A5",
+      "previous_sha256": "1878E5E9E776F70897504EBC31A4B9E13CDF0C496384974453FDF4601D68D3A5",
+      "previous_hash_matches": true,
+      "previous_state": "installed_test_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_forest\\fence_trail_128.nif",
+      "exists": true,
+      "bytes": 30358,
+      "sha256": "EAA3392FFBE062D20D5F8D76AEA032A63E636A6C5AAC402ABC8D0C9DE442A61C",
+      "previous_sha256": "EAA3392FFBE062D20D5F8D76AEA032A63E636A6C5AAC402ABC8D0C9DE442A61C",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_forest\\fence_trail.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "89612F0EBFC04355005F185AF49BF736242762B2AA6011D6C3FC0E1D5057FFCB",
+      "previous_sha256": "89612F0EBFC04355005F185AF49BF736242762B2AA6011D6C3FC0E1D5057FFCB",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_forest\\fence_trail_256.nif",
+      "exists": true,
+      "bytes": 48236,
+      "sha256": "2732C65525547A05FE077F6389386BA221EA6E419D1C80957727AE641B401676",
+      "previous_sha256": "2732C65525547A05FE077F6389386BA221EA6E419D1C80957727AE641B401676",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_forest\\fence_trail_512.nif",
+      "exists": true,
+      "bytes": 85938,
+      "sha256": "34600ED345DB8C9225E7C5C6F1CBC1B26B9119C28BDFBA9A0FA709C371BF2332",
+      "previous_sha256": "34600ED345DB8C9225E7C5C6F1CBC1B26B9119C28BDFBA9A0FA709C371BF2332",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\fence01a.nif",
+      "exists": true,
+      "bytes": 32710,
+      "sha256": "5E43C52C4460229C789C8E9D208E2A4D3220F75851808E654F4E255842A81042",
+      "previous_sha256": "5E43C52C4460229C789C8E9D208E2A4D3220F75851808E654F4E255842A81042",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\fence_composite01.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "53883CD85B3B5D29271B27F6ED104BB00F9B3851568A3179D126ECFDF6A6A628",
+      "previous_sha256": "53883CD85B3B5D29271B27F6ED104BB00F9B3851568A3179D126ECFDF6A6A628",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\fence_alpha.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "D7EF26D792487D75E68B30BD8CDC9584BE4597D5CB07025C0BC43076B810067A",
+      "previous_sha256": "D7EF26D792487D75E68B30BD8CDC9584BE4597D5CB07025C0BC43076B810067A",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\fence01b.nif",
+      "exists": true,
+      "bytes": 32114,
+      "sha256": "B8C363237EB027A204B96BE980E43F377EF82D1EBEC1F2924A46411390F085E6",
+      "previous_sha256": "B8C363237EB027A204B96BE980E43F377EF82D1EBEC1F2924A46411390F085E6",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\fence02a.nif",
+      "exists": true,
+      "bytes": 40678,
+      "sha256": "511576CD410AC89D55B3D987EDBED2AC3458085A8D688C7D3AA930CA54FEED26",
+      "previous_sha256": "511576CD410AC89D55B3D987EDBED2AC3458085A8D688C7D3AA930CA54FEED26",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\fence02b.nif",
+      "exists": true,
+      "bytes": 38776,
+      "sha256": "C8CF9B0E66D9B5DF0BCFFCC5A8131C9A604E2D325EB8B7C2911470939F970448",
+      "previous_sha256": "C8CF9B0E66D9B5DF0BCFFCC5A8131C9A604E2D325EB8B7C2911470939F970448",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\fence03a.nif",
+      "exists": true,
+      "bytes": 41738,
+      "sha256": "A15B8D87E4E7E9F982C48339FE3987662C9A260BFE79FD5865859DD088490E45",
+      "previous_sha256": "A15B8D87E4E7E9F982C48339FE3987662C9A260BFE79FD5865859DD088490E45",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\fence04a.nif",
+      "exists": true,
+      "bytes": 39340,
+      "sha256": "E3B6E40BD5612D1EC9DEA96C0FBB42F2027361C9D64B8408E3FFDBF2CDF91B59",
+      "previous_sha256": "E3B6E40BD5612D1EC9DEA96C0FBB42F2027361C9D64B8408E3FFDBF2CDF91B59",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\door_fence01.nif",
+      "exists": true,
+      "bytes": 22138,
+      "sha256": "F998DBBE6A0BD7AC994A3AA9922CA6634269A8A23A9631E969FAB977547D791A",
+      "previous_sha256": "F998DBBE6A0BD7AC994A3AA9922CA6634269A8A23A9631E969FAB977547D791A",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_wasteland\\fence_sheet01.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "3BCFD86675F3BD18DB98AECEC4600F9C38115EFBB17AD9D64DEBD506B273FBE4",
+      "previous_sha256": "3BCFD86675F3BD18DB98AECEC4600F9C38115EFBB17AD9D64DEBD506B273FBE4",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\handrail04_cap.nif",
+      "exists": true,
+      "bytes": 6555,
+      "sha256": "C302F3CD8281A128AC4BA619C43BD72693BB1AA765E25CF9B9B36D6869F698B6",
+      "previous_sha256": "C302F3CD8281A128AC4BA619C43BD72693BB1AA765E25CF9B9B36D6869F698B6",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\handrailmetal001a.dds",
+      "exists": true,
+      "bytes": 262272,
+      "sha256": "CA4B51A794B744559ADF8774D79C5B60A0910B1EF13BCBDA5738805E40816D61",
+      "previous_sha256": "CA4B51A794B744559ADF8774D79C5B60A0910B1EF13BCBDA5738805E40816D61",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\handrail04_end.nif",
+      "exists": true,
+      "bytes": 4971,
+      "sha256": "5763A3D7E72C046E42DF9561396A66058AF0D19B172BF35710BA5C788AE333D9",
+      "previous_sha256": "5763A3D7E72C046E42DF9561396A66058AF0D19B172BF35710BA5C788AE333D9",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\handrail04_long.nif",
+      "exists": true,
+      "bytes": 23157,
+      "sha256": "7654C4A89F2BE7D42492B6AE4FCE7D10902D7505E25E8725B5FAEFB844B0CCC4",
+      "previous_sha256": "7654C4A89F2BE7D42492B6AE4FCE7D10902D7505E25E8725B5FAEFB844B0CCC4",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\handrail04_short.nif",
+      "exists": true,
+      "bytes": 9851,
+      "sha256": "A15F35FE9802FBA4A2FF9DCF07E9D2D084D084BC41635B0BCBF2D1548F4E9504",
+      "previous_sha256": "A15F35FE9802FBA4A2FF9DCF07E9D2D084D084BC41635B0BCBF2D1548F4E9504",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\handrail04_corner.nif",
+      "exists": true,
+      "bytes": 18437,
+      "sha256": "16F86809437DE344345ECBC5B85C4E8B40D31E7B16AB5FAE1112BB5E9D18B6D2",
+      "previous_sha256": "16F86809437DE344345ECBC5B85C4E8B40D31E7B16AB5FAE1112BB5E9D18B6D2",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\bench01a.nif",
+      "exists": true,
+      "bytes": 41513,
+      "sha256": "22D81CF6F08665CCF0F19473638D81495566C1CDAD09DB2F95776AE03DE2B591",
+      "previous_sha256": "22D81CF6F08665CCF0F19473638D81495566C1CDAD09DB2F95776AE03DE2B591",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\bench01a.dds",
+      "exists": true,
+      "bytes": 262272,
+      "sha256": "1FC53CB86FD71CC3CE1249FAE362E79925CE8ED161A96C02A22254EEC1A17643",
+      "previous_sha256": "1FC53CB86FD71CC3CE1249FAE362E79925CE8ED161A96C02A22254EEC1A17643",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\FurnitureTable001a.nif",
+      "exists": true,
+      "bytes": 30249,
+      "sha256": "1580C55957D3595FBA48B1C8FE663989DEB58B0B64DF260CCC84BCF631BB7EC5",
+      "previous_sha256": "1580C55957D3595FBA48B1C8FE663989DEB58B0B64DF260CCC84BCF631BB7EC5",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\furnituretable001a.dds",
+      "exists": true,
+      "bytes": 524416,
+      "sha256": "97E056D24AE85F6204B986A5E6782511EBF74597EADEE8DCF00A5F7D0FDFF841",
+      "previous_sha256": "97E056D24AE85F6204B986A5E6782511EBF74597EADEE8DCF00A5F7D0FDFF841",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\FurnitureTable002a.nif",
+      "exists": true,
+      "bytes": 12889,
+      "sha256": "94841A907718C603F51B608FD32BC4A3B06126DE7CD855F0B38505BD1477B0F4",
+      "previous_sha256": "94841A907718C603F51B608FD32BC4A3B06126DE7CD855F0B38505BD1477B0F4",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\furniturewooddrawers001a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "82A79540F0BE715978A5FF20B30046A50E463DB3239EE0C7BFA03E99D978443E",
+      "previous_sha256": "82A79540F0BE715978A5FF20B30046A50E463DB3239EE0C7BFA03E99D978443E",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\FurnitureTable003a.nif",
+      "exists": true,
+      "bytes": 11261,
+      "sha256": "921722A1D68C6BB50F4709AABAA2D6758E514DE57745ECAA746640313F36D209",
+      "previous_sha256": "921722A1D68C6BB50F4709AABAA2D6758E514DE57745ECAA746640313F36D209",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\furnituretable003a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "D4F3FF0805A77000696F86249C0103CAA37495A10C0B06E267E3916F1CADAAC2",
+      "previous_sha256": "D4F3FF0805A77000696F86249C0103CAA37495A10C0B06E267E3916F1CADAAC2",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\hospital_surgerytable01.nif",
+      "exists": true,
+      "bytes": 45045,
+      "sha256": "E1A6F76ABCA34AD09B2331D91F7607DAD9014ABAF8F54EA7039975D417B87483",
+      "previous_sha256": "E1A6F76ABCA34AD09B2331D91F7607DAD9014ABAF8F54EA7039975D417B87483",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\hospital_surgerytable01.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "5D4C0988CE010FCD12CBA004A9E11C201C8F514CC15D0444CE53FAD80A6C690D",
+      "previous_sha256": "5D4C0988CE010FCD12CBA004A9E11C201C8F514CC15D0444CE53FAD80A6C690D",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_trainstation\\BenchOutdoor01a.nif",
+      "exists": true,
+      "bytes": 30930,
+      "sha256": "4B174C322A3F8F7043BC284876DB449BED996ACF7ABAD001AFCEF3E090A7EA12",
+      "previous_sha256": "4B174C322A3F8F7043BC284876DB449BED996ACF7ABAD001AFCEF3E090A7EA12",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_trainstation\\trackprops01a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "894BE58D85F80D65C25658F073D27564AC77FA2AF4BE563E265E85FD3A5ED813",
+      "previous_sha256": "894BE58D85F80D65C25658F073D27564AC77FA2AF4BE563E265E85FD3A5ED813",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\cafeteria_bench001a.nif",
+      "exists": true,
+      "bytes": 13101,
+      "sha256": "372098B3A7117E2407B61D6D398DE09F6DF0FBECCBBD6014EFCD3A98C7916C74",
+      "previous_sha256": "372098B3A7117E2407B61D6D398DE09F6DF0FBECCBBD6014EFCD3A98C7916C74",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_wasteland\\cafeteria_tables01.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "6B8C4AE6DA0F1647E14EF7C362EE549F73BE0C871894A45648A3AD1C052E891F",
+      "previous_sha256": "6B8C4AE6DA0F1647E14EF7C362EE549F73BE0C871894A45648A3AD1C052E891F",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\cafeteria_table001a.nif",
+      "exists": true,
+      "bytes": 23625,
+      "sha256": "2CDF8D7F514927AEA05317B195230C0DDFB6DE53D0909B4143E0C43A961A4A65",
+      "previous_sha256": "2CDF8D7F514927AEA05317B195230C0DDFB6DE53D0909B4143E0C43A961A4A65",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\kitchen_counter001a.nif",
+      "exists": true,
+      "bytes": 36881,
+      "sha256": "11EAF0C8ED2CA1BC21D6AF65CCCFCD386FD433F440A62BF68E112A03B2B06017",
+      "previous_sha256": "11EAF0C8ED2CA1BC21D6AF65CCCFCD386FD433F440A62BF68E112A03B2B06017",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_wasteland\\prison_objects005.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "803667C6DC10EF6741D7A2DEFC0E56AB6EDB3CF4A8D67EBAE2F83B75307DF5CB",
+      "previous_sha256": "803667C6DC10EF6741D7A2DEFC0E56AB6EDB3CF4A8D67EBAE2F83B75307DF5CB",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\kitchen_counter001b.nif",
+      "exists": true,
+      "bytes": 35659,
+      "sha256": "1E830D810BA4A7BDC86BD6840C39EFBCA5450A7FD3F97D1D3C20B1A861032E84",
+      "previous_sha256": "1E830D810BA4A7BDC86BD6840C39EFBCA5450A7FD3F97D1D3C20B1A861032E84",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\kitchen_counter001c.nif",
+      "exists": true,
+      "bytes": 40813,
+      "sha256": "2A22F0C9A0E1E9F6FA44DA0A89E0C8A0BBAA5C4E3869A4DEE8AB1E2D45D82D5B",
+      "previous_sha256": "2A22F0C9A0E1E9F6FA44DA0A89E0C8A0BBAA5C4E3869A4DEE8AB1E2D45D82D5B",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\kitchen_counter001d.nif",
+      "exists": true,
+      "bytes": 50563,
+      "sha256": "B216D900332D9577223773E663A9309E8B01206A3B2DE89E3F0E15CBD76962F7",
+      "previous_sha256": "B216D900332D9577223773E663A9309E8B01206A3B2DE89E3F0E15CBD76962F7",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_forest\\table_shed.nif",
+      "exists": true,
+      "bytes": 21844,
+      "sha256": "27CF2A55927F49A42112C396635E583DD401DBFC6A6C9ED8726407D6627D2D53",
+      "previous_sha256": "27CF2A55927F49A42112C396635E583DD401DBFC6A6C9ED8726407D6627D2D53",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_forest\\table_shed.dds",
+      "exists": true,
+      "bytes": 4194432,
+      "sha256": "F49273CD762F4BA1BC8F2FDD46CEE32BF069BC75E5022208C024F9D42B97508B",
+      "previous_sha256": "F49273CD762F4BA1BC8F2FDD46CEE32BF069BC75E5022208C024F9D42B97508B",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props\\de_piranesi\\pi_bench.nif",
+      "exists": true,
+      "bytes": 45818,
+      "sha256": "9BC22C6E186C50CBDA3449F7EAFBF05B8DA7B8FFAE2DC3D030AE92DFAF65EE2E",
+      "previous_sha256": "9BC22C6E186C50CBDA3449F7EAFBF05B8DA7B8FFAE2DC3D030AE92DFAF65EE2E",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\cs_italy\\blkmetal.dds",
+      "exists": true,
+      "bytes": 16512,
+      "sha256": "F7AF1F22138EB396E5C94415D13295B8338719B68C9BAF37C7783766F3AEBE45",
+      "previous_sha256": "F7AF1F22138EB396E5C94415D13295B8338719B68C9BAF37C7783766F3AEBE45",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\cs_italy\\pwtrim2.dds",
+      "exists": true,
+      "bytes": 65664,
+      "sha256": "D8B135DD5D35C641B74BF655A0E8D2CCBB2A9321AEE9856A0DA02E8E1CE408CF",
+      "previous_sha256": "D8B135DD5D35C641B74BF655A0E8D2CCBB2A9321AEE9856A0DA02E8E1CE408CF",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props\\de_tides\\patio_table.nif",
+      "exists": true,
+      "bytes": 52599,
+      "sha256": "75F120CC12D39554717AEBBCE8D2E74C66101B891FDB64ED2CFEE3BD2B24A17E",
+      "previous_sha256": "75F120CC12D39554717AEBBCE8D2E74C66101B891FDB64ED2CFEE3BD2B24A17E",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props\\de_tides\\patio_table.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "52E903D0CBA010571887141CC74E2ABF73A8E509248E391BAF218BD6BC604EB0",
+      "previous_sha256": "52E903D0CBA010571887141CC74E2ABF73A8E509248E391BAF218BD6BC604EB0",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props\\de_tides\\patio_umbrella.dds",
+      "exists": true,
+      "bytes": 262272,
+      "sha256": "55DE5DC6B46E5AD0696991DEA65F58F94F596864F6343EA1087A49C4C43194C8",
+      "previous_sha256": "55DE5DC6B46E5AD0696991DEA65F58F94F596864F6343EA1087A49C4C43194C8",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\iBeam01a.nif",
+      "exists": true,
+      "bytes": 8162,
+      "sha256": "F90F449155A75439BE0811F99C8B5D60E0926D73262DBD839FB7D7E06785A776",
+      "previous_sha256": "F90F449155A75439BE0811F99C8B5D60E0926D73262DBD839FB7D7E06785A776",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_junk\\i-beam01.dds",
+      "exists": true,
+      "bytes": 262272,
+      "sha256": "6E3C78135B3E2F07683BE8ECD5ABB5A8C244B3A0E8051B81C86659F5FC336FCB",
+      "previous_sha256": "6E3C78135B3E2F07683BE8ECD5ABB5A8C244B3A0E8051B81C86659F5FC336FCB",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props\\de_train\\de_train_ibeam_01.nif",
+      "exists": true,
+      "bytes": 21736,
+      "sha256": "94B94BBCEEA27B386B404971B03FCD897DA0E3B4AB3BE8EEDD501990D9D3C7BF",
+      "previous_sha256": "94B94BBCEEA27B386B404971B03FCD897DA0E3B4AB3BE8EEDD501990D9D3C7BF",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props\\de_train\\de_train_ibeams_01.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "0E8ECA7C6523DDAFD5B3FDBFB1BCCD175CB4DB4DCE9A25E85CCE3E7717FDBC4E",
+      "previous_sha256": "0E8ECA7C6523DDAFD5B3FDBFB1BCCD175CB4DB4DCE9A25E85CCE3E7717FDBC4E",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props\\de_train\\de_train_ibeam_02.nif",
+      "exists": true,
+      "bytes": 20432,
+      "sha256": "26ED7FE849CAB0D2B183F3F4810E320B9AB971883960973ADE7B6BE7CE594A32",
+      "previous_sha256": "26ED7FE849CAB0D2B183F3F4810E320B9AB971883960973ADE7B6BE7CE594A32",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props\\de_train\\de_train_ibeam_03.nif",
+      "exists": true,
+      "bytes": 20432,
+      "sha256": "C18C57DB44CEB5E4670F932609EDF712E37289A9DAA2028F78F8B280B63FFE8E",
+      "previous_sha256": "C18C57DB44CEB5E4670F932609EDF712E37289A9DAA2028F78F8B280B63FFE8E",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\metalladder001.nif",
+      "exists": true,
+      "bytes": 35729,
+      "sha256": "E42805D523151B2B70E3DE067CDD955FDF237EEAEDF57E8F086143F85B395254",
+      "previous_sha256": "E42805D523151B2B70E3DE067CDD955FDF237EEAEDF57E8F086143F85B395254",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\metalladder001.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "1765D5EF3EE91C5C98E3E3E2AFFF43108A221297CE2E277A279277CA82D311A5",
+      "previous_sha256": "1765D5EF3EE91C5C98E3E3E2AFFF43108A221297CE2E277A279277CA82D311A5",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\metalladder002.nif",
+      "exists": true,
+      "bytes": 31681,
+      "sha256": "6A529726EB9C1DEFFBE78583D2AA0AD37FE907BF0F852696242BF0DA778A6C9B",
+      "previous_sha256": "6A529726EB9C1DEFFBE78583D2AA0AD37FE907BF0F852696242BF0DA778A6C9B",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\metalladder002.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "B621F195D5FEA0AEA9D05FCB502877BFE2A71AF8C3787240409184ED5ABF3189",
+      "previous_sha256": "B621F195D5FEA0AEA9D05FCB502877BFE2A71AF8C3787240409184ED5ABF3189",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\metalladder005.nif",
+      "exists": true,
+      "bytes": 32257,
+      "sha256": "E13B29652396D65ABFAA4C17DCBD0BFEF3A608142CB174BB41838EF2D2422025",
+      "previous_sha256": "E13B29652396D65ABFAA4C17DCBD0BFEF3A608142CB174BB41838EF2D2422025",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\metalladder002b.nif",
+      "exists": true,
+      "bytes": 52099,
+      "sha256": "A98AFE19265E6882C025D14B6B8008B0B518E446E06F89D29547EC954646C2DF",
+      "previous_sha256": "A98AFE19265E6882C025D14B6B8008B0B518E446E06F89D29547EC954646C2DF",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\metalladder002d.nif",
+      "exists": true,
+      "bytes": 19043,
+      "sha256": "FCB34359ACC6DEFB01786EC289131E865648749E6F7EC5A145093F6745CD6939",
+      "previous_sha256": "FCB34359ACC6DEFB01786EC289131E865648749E6F7EC5A145093F6745CD6939",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\playgroundslide01.nif",
+      "exists": true,
+      "bytes": 78231,
+      "sha256": "CB879A348BB99F442F126FB723716C0BAD201943170D0B6840F7B205AD242157",
+      "previous_sha256": "CB879A348BB99F442F126FB723716C0BAD201943170D0B6840F7B205AD242157",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\playground.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "7C892568AE02D2DC5AE56CD26B299890B6CC9427BB20038EF4465CB8D6336216",
+      "previous_sha256": "7C892568AE02D2DC5AE56CD26B299890B6CC9427BB20038EF4465CB8D6336216",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\dockplank01a.nif",
+      "exists": true,
+      "bytes": 4819,
+      "sha256": "9E8E925C783D41CF0003325ADC59DC5362398997494235EBE29AA6BCC23F5D76",
+      "previous_sha256": "9E8E925C783D41CF0003325ADC59DC5362398997494235EBE29AA6BCC23F5D76",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_wasteland\\dockpole01.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "90E856B28F164C952D1390E55AB517035306C40432A74F1B2CEC26B4C621008C",
+      "previous_sha256": "90E856B28F164C952D1390E55AB517035306C40432A74F1B2CEC26B4C621008C",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\dockplank01b.nif",
+      "exists": true,
+      "bytes": 3611,
+      "sha256": "EA66A7CF113BC16BCA8DBB1DC970B7E0A983907507A4296DD64785B4AFA0D55D",
+      "previous_sha256": "EA66A7CF113BC16BCA8DBB1DC970B7E0A983907507A4296DD64785B4AFA0D55D",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_silo\\ladderrung.nif",
+      "exists": true,
+      "bytes": 65838,
+      "sha256": "25AC847D6B7D52FC3C3CBF32E5EDCD3DBE47238E3D491E79C260A064BCDDBB65",
+      "previous_sha256": "25AC847D6B7D52FC3C3CBF32E5EDCD3DBE47238E3D491E79C260A064BCDDBB65",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_silo\\ladderrung.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "118A2C0F5FE26ED80C9D7355125B83E7E050984878B0D324FFBC89AC3398135F",
+      "previous_sha256": "118A2C0F5FE26ED80C9D7355125B83E7E050984878B0D324FFBC89AC3398135F",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\maxofs2d\\button_slider.nif",
+      "exists": true,
+      "bytes": 15792,
+      "sha256": "7D29CCA959A1747EE1E618DA939A2B1690B2CCBF6F48B23BE7BBFA34191D5ACB",
+      "previous_sha256": "7D29CCA959A1747EE1E618DA939A2B1690B2CCBF6F48B23BE7BBFA34191D5ACB",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\maxofs2d\\models\\button_slider.dds",
+      "exists": true,
+      "bytes": 524416,
+      "sha256": "BCD2C3DD03CCD8FA5FBF653F58D7A37A4CDF5E5050B4DD2B4F21EF15C104B42E",
+      "previous_sha256": "BCD2C3DD03CCD8FA5FBF653F58D7A37A4CDF5E5050B4DD2B4F21EF15C104B42E",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\maxofs2d\\models\\button_slider_normal_n.dds",
+      "exists": true,
+      "bytes": 524416,
+      "sha256": "2FF3A3C0CE894390EADE5F930B23494BD08D778D274F5F3D039927997D79A696",
+      "previous_sha256": "2FF3A3C0CE894390EADE5F930B23494BD08D778D274F5F3D039927997D79A696",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props\\cs_office\\ladder1.nif",
+      "exists": true,
+      "bytes": 29633,
+      "sha256": "982F1D4CC2B61659754330B0A241A11578D4FE77C7ABDB3DAF277BCD90D27946",
+      "previous_sha256": "982F1D4CC2B61659754330B0A241A11578D4FE77C7ABDB3DAF277BCD90D27946",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props\\cs_office\\ladder.dds",
+      "exists": true,
+      "bytes": 65664,
+      "sha256": "BD2BD9BE1AE603C88316939DD7A4F93AD132EC53AD3016C18955C4C70CCE63C6",
+      "previous_sha256": "BD2BD9BE1AE603C88316939DD7A4F93AD132EC53AD3016C18955C4C70CCE63C6",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\powerbox.nif",
+      "exists": true,
+      "bytes": 69430,
+      "sha256": "637E85AC89C9DF5C1C7761A49448C418CAECB9AD83BAA51763A286C9D068E0F4",
+      "previous_sha256": "637E85AC89C9DF5C1C7761A49448C418CAECB9AD83BAA51763A286C9D068E0F4",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\powerbox_sheet.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "C1895CD8067ABB377FD572F2E622BA3F330E326E5AF104B76B32E4D28EA0CA48",
+      "previous_sha256": "C1895CD8067ABB377FD572F2E622BA3F330E326E5AF104B76B32E4D28EA0CA48",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\powerbox_wires.dds",
+      "exists": true,
+      "bytes": 262272,
+      "sha256": "2EB8D691F9334F292AFFFA3B411530BE0EDAD5E6012A55801D53BF6094B1EF07",
+      "previous_sha256": "2EB8D691F9334F292AFFFA3B411530BE0EDAD5E6012A55801D53BF6094B1EF07",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\powerbox_bars.dds",
+      "exists": true,
+      "bytes": 4224,
+      "sha256": "B5AAE538154CC85369B9C4DFF5BAF2D732F28D4792A8E2778ADFBD4D924742D1",
+      "previous_sha256": "B5AAE538154CC85369B9C4DFF5BAF2D732F28D4792A8E2778ADFBD4D924742D1",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\consolebox01a.nif",
+      "exists": true,
+      "bytes": 9133,
+      "sha256": "F45C2677B47027D61A2A6391B46688B4BD1CCB12D13D1E29452FE45728D5BC3F",
+      "previous_sha256": "F45C2677B47027D61A2A6391B46688B4BD1CCB12D13D1E29452FE45728D5BC3F",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\consolebox01a.dds",
+      "exists": true,
+      "bytes": 262272,
+      "sha256": "C8B5E2C5CF411C472CA2E7BC574784F8C0BA8C1B3607D2F51BF878E53E077FB9",
+      "previous_sha256": "C8B5E2C5CF411C472CA2E7BC574784F8C0BA8C1B3607D2F51BF878E53E077FB9",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\consolebox03a.nif",
+      "exists": true,
+      "bytes": 8373,
+      "sha256": "6F083B5AF00DCDF37FA90DD4083154137AB5F5C0263227F5B806F84E0B0BD1AF",
+      "previous_sha256": "6F083B5AF00DCDF37FA90DD4083154137AB5F5C0263227F5B806F84E0B0BD1AF",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\consolebox03a.dds",
+      "exists": true,
+      "bytes": 262272,
+      "sha256": "CC4C7B0F370F2985465221B804F63E6033AAF4085AA4F1335644760277A66912",
+      "previous_sha256": "CC4C7B0F370F2985465221B804F63E6033AAF4085AA4F1335644760277A66912",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\consolebox05a.nif",
+      "exists": true,
+      "bytes": 20413,
+      "sha256": "D50600E0ABFCD0424DDC10FFCA32584CC28665D269D9686934453EFFDAA6DA56",
+      "previous_sha256": "D50600E0ABFCD0424DDC10FFCA32584CC28665D269D9686934453EFFDAA6DA56",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\consolebox05a.dds",
+      "exists": true,
+      "bytes": 262272,
+      "sha256": "CE47BDC8E70B1C53E2CAEA9792C3D0A216B8935AFEFE8394F00904FC57D6AB72",
+      "previous_sha256": "CE47BDC8E70B1C53E2CAEA9792C3D0A216B8935AFEFE8394F00904FC57D6AB72",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\wood_crate001a.nif",
+      "exists": true,
+      "bytes": 17216,
+      "sha256": "23FBA2D2467DD982FA71153DBD7027093494D91CDA267E6177FAD708499A54EB",
+      "previous_sha256": "23FBA2D2467DD982FA71153DBD7027093494D91CDA267E6177FAD708499A54EB",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_junk\\woodcrates01a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "2C09FCC15F2E1746C823A76096FBBCD68A34642F061853A6B60CC308EAE794CA",
+      "previous_sha256": "2C09FCC15F2E1746C823A76096FBBCD68A34642F061853A6B60CC308EAE794CA",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\wood_crate002a.nif",
+      "exists": true,
+      "bytes": 28112,
+      "sha256": "99109489015E799DD940F0499330FF8D1EDB2B1933B95226DDD777499AB5C2F0",
+      "previous_sha256": "99109489015E799DD940F0499330FF8D1EDB2B1933B95226DDD777499AB5C2F0",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\PlasticCrate01a.nif",
+      "exists": true,
+      "bytes": 11658,
+      "sha256": "E116D20ABE3B35D5ABDFFA0CCB9169B0AF62DFD04C90592309D8D4B51018F59A",
+      "previous_sha256": "E116D20ABE3B35D5ABDFFA0CCB9169B0AF62DFD04C90592309D8D4B51018F59A",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_junk\\plasticcrate01a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "870191CC75F8FA430FC93C709E906F5A2427C382DD1B65A81C340C1DE1E82E45",
+      "previous_sha256": "870191CC75F8FA430FC93C709E906F5A2427C382DD1B65A81C340C1DE1E82E45",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\wood_pallet001a.nif",
+      "exists": true,
+      "bytes": 36856,
+      "sha256": "0F0E31C91A0B5B6F233D50FBF9B7BF5505F9E2237D5D69BE2F849443AEEB5BD2",
+      "previous_sha256": "0F0E31C91A0B5B6F233D50FBF9B7BF5505F9E2237D5D69BE2F849443AEEB5BD2",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_junk\\wood_palletcrate001a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "6B4D54FB5E9C49BC56BF31BF4EA0F232B11CD8D6B383AE350995BFAF892E0826",
+      "previous_sha256": "6B4D54FB5E9C49BC56BF31BF4EA0F232B11CD8D6B383AE350995BFAF892E0826",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\cardboard_box001a.nif",
+      "exists": true,
+      "bytes": 2890,
+      "sha256": "C4C8D13CB3ED9114199835AC668FEAC257CD2D7BF475BA1AC95F4C8DBAB69866",
+      "previous_sha256": "C4C8D13CB3ED9114199835AC668FEAC257CD2D7BF475BA1AC95F4C8DBAB69866",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_junk\\cardboard_boxes001a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "B59F1BD2D1E0891A7435AB490B79CED49D1CD55536A7B26645C77582A08275DE",
+      "previous_sha256": "B59F1BD2D1E0891A7435AB490B79CED49D1CD55536A7B26645C77582A08275DE",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\cardboard_box001b.nif",
+      "exists": true,
+      "bytes": 5054,
+      "sha256": "1AFD74EB4F6C881DB10767B8402627B6A7360EA2FC087CAB90EC9AD0A65C0F5F",
+      "previous_sha256": "1AFD74EB4F6C881DB10767B8402627B6A7360EA2FC087CAB90EC9AD0A65C0F5F",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\cardboard_box002a.nif",
+      "exists": true,
+      "bytes": 2890,
+      "sha256": "3A48F25B97F913C805CE89C4744623759755096CDF4DC1EC16473FC4D8A2E732",
+      "previous_sha256": "3A48F25B97F913C805CE89C4744623759755096CDF4DC1EC16473FC4D8A2E732",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\cardboard_box002b.nif",
+      "exists": true,
+      "bytes": 4718,
+      "sha256": "4528B8A3D1A27BC13D36DC3429712C3F5D8E35F51B867036C478B640BC415D25",
+      "previous_sha256": "4528B8A3D1A27BC13D36DC3429712C3F5D8E35F51B867036C478B640BC415D25",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\cardboard_box003a.nif",
+      "exists": true,
+      "bytes": 2890,
+      "sha256": "AEE89872D7D08027EDD79DFAA440062AA1A72EF2B1A28779E3768CC42BCBCC9C",
+      "previous_sha256": "AEE89872D7D08027EDD79DFAA440062AA1A72EF2B1A28779E3768CC42BCBCC9C",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\cardboard_box003b.nif",
+      "exists": true,
+      "bytes": 5550,
+      "sha256": "D23FC073CD332AF92A604271177CD5F8F4F569797F5A71E0AF3DE8EC0B15CD95",
+      "previous_sha256": "D23FC073CD332AF92A604271177CD5F8F4F569797F5A71E0AF3DE8EC0B15CD95",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\cardboard_box004a.nif",
+      "exists": true,
+      "bytes": 2890,
+      "sha256": "F67DE00ECF5E993490CA6F15C3494021548EC4B44ED12694CD81DF0371F0B2C7",
+      "previous_sha256": "F67DE00ECF5E993490CA6F15C3494021548EC4B44ED12694CD81DF0371F0B2C7",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\substation_stripebox01a.nif",
+      "exists": true,
+      "bytes": 50391,
+      "sha256": "EB5860CBF6276AFDC3F537AE372C35B44F5DE852326DCA41CF07608A7528C109",
+      "previous_sha256": "EB5860CBF6276AFDC3F537AE372C35B44F5DE852326DCA41CF07608A7528C109",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\substation01.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "8023E7CE65C188AC9A7D1AE6B0EAF584B98B980F5FDD6340531AF4183227C3D4",
+      "previous_sha256": "8023E7CE65C188AC9A7D1AE6B0EAF584B98B980F5FDD6340531AF4183227C3D4",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\substation_stripebox01b.nif",
+      "exists": true,
+      "bytes": 50807,
+      "sha256": "9C89366D7D2D27B819F2079173845CA50A6C50DA1F46CEE4C3232EB572CEFE0F",
+      "previous_sha256": "9C89366D7D2D27B819F2079173845CA50A6C50DA1F46CEE4C3232EB572CEFE0F",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\prison_switchbox001a.nif",
+      "exists": true,
+      "bytes": 17337,
+      "sha256": "2AFED027A73B76FB4F5B4A796D2A5B3E010525EF4652A8D18FB0B0DE5648B53F",
+      "previous_sha256": "2AFED027A73B76FB4F5B4A796D2A5B3E010525EF4652A8D18FB0B0DE5648B53F",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_wasteland\\prison_objects004.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "67BB11E699B884B4722FAAA282A958BAF9C4AD85D0CC50E0533D3FEA5846CFC2",
+      "previous_sha256": "67BB11E699B884B4722FAAA282A958BAF9C4AD85D0CC50E0533D3FEA5846CFC2",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\canister_propane01a.nif",
+      "exists": true,
+      "bytes": 18561,
+      "sha256": "15C51301C3D3C22635EE6E8B8EF74166B6AC1C07AD5BB4A2614D6EA92519F989",
+      "previous_sha256": "15C51301C3D3C22635EE6E8B8EF74166B6AC1C07AD5BB4A2614D6EA92519F989",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\canister_propane01a.dds",
+      "exists": true,
+      "bytes": 524416,
+      "sha256": "49CE9EC309F6940BE30E137677CA45F03DD73FCEFA4E263E81BE505ABE5738A1",
+      "previous_sha256": "49CE9EC309F6940BE30E137677CA45F03DD73FCEFA4E263E81BE505ABE5738A1",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\PropaneCanister001a.nif",
+      "exists": true,
+      "bytes": 26116,
+      "sha256": "D8658111B3BC0ED08D51441573BC4DB71F53445ACBE6DC0508883A52FFECD6B7",
+      "previous_sha256": "D8658111B3BC0ED08D51441573BC4DB71F53445ACBE6DC0508883A52FFECD6B7",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_junk\\propanecanister01a.dds",
+      "exists": true,
+      "bytes": 65664,
+      "sha256": "ED09BAA8FA62C99E0A067669C907F563518B5D091951EE8AF37501BAF67C6F58",
+      "previous_sha256": "ED09BAA8FA62C99E0A067669C907F563518B5D091951EE8AF37501BAF67C6F58",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_citizen_tech\\firetrap_propanecanister01a.nif",
+      "exists": true,
+      "bytes": 87740,
+      "sha256": "759D3C60A10E18EEC2303BB8208D51C030F56FA1CF6CDB28BFEFF14162F610E3",
+      "previous_sha256": "759D3C60A10E18EEC2303BB8208D51C030F56FA1CF6CDB28BFEFF14162F610E3",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_citizen_tech\\firetrap01.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "19EE3B1EBD461C8A48F11BE63278FE8BD1E1797F031E4C44B910A28AF525298F",
+      "previous_sha256": "19EE3B1EBD461C8A48F11BE63278FE8BD1E1797F031E4C44B910A28AF525298F",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_citizen_tech\\firetrap_propanecanister01b.nif",
+      "exists": true,
+      "bytes": 88188,
+      "sha256": "B37BE784EA05DF21CF7759A2ED1D5797AB51ED730478235A25E9033AFC638278",
+      "previous_sha256": "B37BE784EA05DF21CF7759A2ED1D5797AB51ED730478235A25E9033AFC638278",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\oildrum001.nif",
+      "exists": true,
+      "bytes": 13001,
+      "sha256": "711F1487D4FD77159ECB6BCBEC565B464F2C5CFF3E7E0FD5AC1343B3743D849B",
+      "previous_sha256": "711F1487D4FD77159ECB6BCBEC565B464F2C5CFF3E7E0FD5AC1343B3743D849B",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\oil_drum001a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "5D253392710190BD99E5087A922A50D98DBC4CB6E2B0EB531373719F295FC711",
+      "previous_sha256": "5D253392710190BD99E5087A922A50D98DBC4CB6E2B0EB531373719F295FC711",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\oil_drum001a_normal_n.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "E0BCD698A2CD75044FA63FC67D3CE13D4544B9BBF4EF106CE05325F055F9F03E",
+      "previous_sha256": "E0BCD698A2CD75044FA63FC67D3CE13D4544B9BBF4EF106CE05325F055F9F03E",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\canister01a.nif",
+      "exists": true,
+      "bytes": 20961,
+      "sha256": "56735B3E852C8063EE0E4755303F1DF8FF2049F1E64B834E084402D8210BFC00",
+      "previous_sha256": "56735B3E852C8063EE0E4755303F1DF8FF2049F1E64B834E084402D8210BFC00",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\canister01a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "5C3009BCB018F4BEA37C06274381A5BFB971BDD56B3451731CA62303AC5C0F47",
+      "previous_sha256": "5C3009BCB018F4BEA37C06274381A5BFB971BDD56B3451731CA62303AC5C0F47",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\canister02a.nif",
+      "exists": true,
+      "bytes": 20217,
+      "sha256": "24CFC9E093F664C9891FC36E5C6C87878BF0AB1CAAE5E420FF7DDA7611953AFD",
+      "previous_sha256": "24CFC9E093F664C9891FC36E5C6C87878BF0AB1CAAE5E420FF7DDA7611953AFD",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\canister02a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "B3E5F2FCB07223559164F914B65B3B16552A042388FCF266B1332CC6D3CD2B8A",
+      "previous_sha256": "B3E5F2FCB07223559164F914B65B3B16552A042388FCF266B1332CC6D3CD2B8A",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\oildrum_crush.nif",
+      "exists": true,
+      "bytes": 66783,
+      "sha256": "EB183843B3F9B7557B143A71ECD5DFEAF6FA69DFE61CCC366A74CCFA8C2A2821",
+      "previous_sha256": "EB183843B3F9B7557B143A71ECD5DFEAF6FA69DFE61CCC366A74CCFA8C2A2821",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\woodbarrel001.nif",
+      "exists": true,
+      "bytes": 18045,
+      "sha256": "E24F171AB39DBF9F1075EC40465715B9BB4E4C07742756BC06611B70BC7548CE",
+      "previous_sha256": "E24F171AB39DBF9F1075EC40465715B9BB4E4C07742756BC06611B70BC7548CE",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\woodbarrel001.dds",
+      "exists": true,
+      "bytes": 524416,
+      "sha256": "A79469BCB2E1054106825CE604D470D3169CFC39FF84A0E1F30739EC70E4A808",
+      "previous_sha256": "A79469BCB2E1054106825CE604D470D3169CFC39FF84A0E1F30739EC70E4A808",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\propane_tank001a.nif",
+      "exists": true,
+      "bytes": 42956,
+      "sha256": "D9CA7D663EA7DE285232473919311B6AE4A65B3147DC81640E8C55CBE3F578B8",
+      "previous_sha256": "D9CA7D663EA7DE285232473919311B6AE4A65B3147DC81640E8C55CBE3F578B8",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_junk\\phys_objects01a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "C5D8AFFBFB7C1AB40ABC774E3EA7E8D16EDD1C6F47149BD334C282A358E695B4",
+      "previous_sha256": "C5D8AFFBFB7C1AB40ABC774E3EA7E8D16EDD1C6F47149BD334C282A358E695B4",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_phx\\oildrum001.nif",
+      "exists": true,
+      "bytes": 48521,
+      "sha256": "D444518F17BC1E6AD35174B9AA92AC79AF9180DAF7986A68DC388C60A8FD3FC8",
+      "previous_sha256": "D444518F17BC1E6AD35174B9AA92AC79AF9180DAF7986A68DC388C60A8FD3FC8",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\phoenix_storms\\barrel.dds",
+      "exists": true,
+      "bytes": 2097280,
+      "sha256": "16622ADB7EDB861CA19CBC2B3F0750E0282BA8309A582D6AD553609E90286D10",
+      "previous_sha256": "16622ADB7EDB861CA19CBC2B3F0750E0282BA8309A582D6AD553609E90286D10",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\phoenix_storms\\barrel_bump_n.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "FB1A3E91539D04E2004E88D6CB3EADC4560B5B4BBDAD69566F0DD7095F8BFFE3",
+      "previous_sha256": "FB1A3E91539D04E2004E88D6CB3EADC4560B5B4BBDAD69566F0DD7095F8BFFE3",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props\\de_train\\barrel.nif",
+      "exists": true,
+      "bytes": 12934,
+      "sha256": "47A309F149B115CAEDAA2A8122A57E514592413D2F80412E49C57F8D875CEE6C",
+      "previous_sha256": "47A309F149B115CAEDAA2A8122A57E514592413D2F80412E49C57F8D875CEE6C",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props\\de_train\\barrel0001.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "2182DC94787FE54100EB5C27B43A1B3419FFD97B4E75788B34D87EE4E99946A3",
+      "previous_sha256": "2182DC94787FE54100EB5C27B43A1B3419FFD97B4E75788B34D87EE4E99946A3",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\TrashDumpster02.nif",
+      "exists": true,
+      "bytes": 75990,
+      "sha256": "E6821307FC07016900F946059DC8AE80D5B6DF9BEBF0B8CF8D6A0679C0929285",
+      "previous_sha256": "E6821307FC07016900F946059DC8AE80D5B6DF9BEBF0B8CF8D6A0679C0929285",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_junk\\trashdumpster02.dds",
+      "exists": true,
+      "bytes": 4194432,
+      "sha256": "C1D3D8863C425C3699EDAC64B388EFD3BD49D7E09108F1951196A4A40489AE84",
+      "previous_sha256": "C1D3D8863C425C3699EDAC64B388EFD3BD49D7E09108F1951196A4A40489AE84",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\TrashDumpster01a.nif",
+      "exists": true,
+      "bytes": 49854,
+      "sha256": "2C2F90E2276802E49293A2C4CC435ECFEC793B3BEBFD4AEED91FA4950660CECA",
+      "previous_sha256": "2C2F90E2276802E49293A2C4CC435ECFEC793B3BEBFD4AEED91FA4950660CECA",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_junk\\trashdumpster01a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "D3C4C38D7ABC2B659B51D89272D204F554C0435CFA4646D8805FEB757A925E4E",
+      "previous_sha256": "D3C4C38D7ABC2B659B51D89272D204F554C0435CFA4646D8805FEB757A925E4E",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\TrashDumpster02b.nif",
+      "exists": true,
+      "bytes": 11496,
+      "sha256": "732406F46994B09C99463C36B6440620DC016CAF030D9A267BC48177721F0AF1",
+      "previous_sha256": "732406F46994B09C99463C36B6440620DC016CAF030D9A267BC48177721F0AF1",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\signpole001.nif",
+      "exists": true,
+      "bytes": 5751,
+      "sha256": "4BA1319C7EB185DA55DA6839F16FE23351977D6234D699E7E83A70A2F62D506D",
+      "previous_sha256": "4BA1319C7EB185DA55DA6839F16FE23351977D6234D699E7E83A70A2F62D506D",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\utility_poles001.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "6E9EE26015D0CA0EAC9306FC8F5EEE9CD1441E9FF6102792C0C13BD334D81FF1",
+      "previous_sha256": "6E9EE26015D0CA0EAC9306FC8F5EEE9CD1441E9FF6102792C0C13BD334D81FF1",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\PushCart01a.nif",
+      "exists": true,
+      "bytes": 93744,
+      "sha256": "491A33C8F8AFEC77E57B6FCD2D0ECB0389F64A839B811D1ED30729B1AC9F4FF8",
+      "previous_sha256": "491A33C8F8AFEC77E57B6FCD2D0ECB0389F64A839B811D1ED30729B1AC9F4FF8",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_junk\\pushcart01a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "66547A347B133F8EFC11BF64132886910B742E5F3010D109D7E7BBE0081CFBA3",
+      "previous_sha256": "66547A347B133F8EFC11BF64132886910B742E5F3010D109D7E7BBE0081CFBA3",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\TrashBin01a.nif",
+      "exists": true,
+      "bytes": 38984,
+      "sha256": "BE5726A7E7354B31E7819A8CE95EE2CFBFC6C51D57F5DECB1F45D2514FCC9246",
+      "previous_sha256": "BE5726A7E7354B31E7819A8CE95EE2CFBFC6C51D57F5DECB1F45D2514FCC9246",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_junk\\plastic_junk001a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "20DD14614D118B8198F9D31C2F74CF6FE00771408D6003C31E3D795AEB9929AB",
+      "previous_sha256": "20DD14614D118B8198F9D31C2F74CF6FE00771408D6003C31E3D795AEB9929AB",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\streetsign001c.nif",
+      "exists": true,
+      "bytes": 7891,
+      "sha256": "C396A0CD8CD79719752F62875A3A915B4BEE6B7C2EF98413586A83233CB7443B",
+      "previous_sha256": "C396A0CD8CD79719752F62875A3A915B4BEE6B7C2EF98413586A83233CB7443B",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\streetsigns_composite01.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "B1C7EE62118C283F4469A178AEB731C57576131AAB9B65B37A54B3E2B11EC6BD",
+      "previous_sha256": "B1C7EE62118C283F4469A178AEB731C57576131AAB9B65B37A54B3E2B11EC6BD",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\streetsign002b.nif",
+      "exists": true,
+      "bytes": 7891,
+      "sha256": "3C15FAB2743230EC2D2E90611E2E340DFE673884EF99A2A7FFFD00DECAFF02A7",
+      "previous_sha256": "3C15FAB2743230EC2D2E90611E2E340DFE673884EF99A2A7FFFD00DECAFF02A7",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\streetsign003b.nif",
+      "exists": true,
+      "bytes": 7891,
+      "sha256": "10E10D29627E5D67C96F0FAC8871A1C99C9ED8CBFE19959E06EBEBF631930120",
+      "previous_sha256": "10E10D29627E5D67C96F0FAC8871A1C99C9ED8CBFE19959E06EBEBF631930120",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\streetsign004e.nif",
+      "exists": true,
+      "bytes": 7891,
+      "sha256": "6172D6EF089D93F1B99D3E219A1447F27429DC0B2C0A7065FCC791C8E653B626",
+      "previous_sha256": "6172D6EF089D93F1B99D3E219A1447F27429DC0B2C0A7065FCC791C8E653B626",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\streetsigns_composite02.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "D7209C108DE44C6AD7ADAFBA45445C6F7C236C2E92C170B44D2CDDA02068F9E7",
+      "previous_sha256": "D7209C108DE44C6AD7ADAFBA45445C6F7C236C2E92C170B44D2CDDA02068F9E7",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\streetsign004f.nif",
+      "exists": true,
+      "bytes": 7891,
+      "sha256": "6F15CED2940262E5CD960DCBE2F12E3750F0FFF9C035F76BA360CFA2C5760754",
+      "previous_sha256": "6F15CED2940262E5CD960DCBE2F12E3750F0FFF9C035F76BA360CFA2C5760754",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\streetsign005b.nif",
+      "exists": true,
+      "bytes": 4755,
+      "sha256": "350797DBC65A1B03D8F022CE2FDB1171CC13D9FF6AEF915586A7582B494412E8",
+      "previous_sha256": "350797DBC65A1B03D8F022CE2FDB1171CC13D9FF6AEF915586A7582B494412E8",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\streetsign005c.nif",
+      "exists": true,
+      "bytes": 4755,
+      "sha256": "C8D6D3C4CC6912BBC086539D83F5F384882E2B530D2173916103100528E5A70A",
+      "previous_sha256": "C8D6D3C4CC6912BBC086539D83F5F384882E2B530D2173916103100528E5A70A",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\streetsign005d.nif",
+      "exists": true,
+      "bytes": 4755,
+      "sha256": "458F23D0EBBC1492D46135903F35597213C41E54A739BD0F25F597B5CC8AFBEC",
+      "previous_sha256": "458F23D0EBBC1492D46135903F35597213C41E54A739BD0F25F597B5CC8AFBEC",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_junk\\ravenholmsign.nif",
+      "exists": true,
+      "bytes": 8114,
+      "sha256": "5C9F79ECD1D75D7D0BB14A71DABD895ED3FBF5F99A21F21486D8D6758523965C",
+      "previous_sha256": "5C9F79ECD1D75D7D0BB14A71DABD895ED3FBF5F99A21F21486D8D6758523965C",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_junk\\ravenholmsign_sheet.dds",
+      "exists": true,
+      "bytes": 262272,
+      "sha256": "4464FC7EB06AA94E91F04B8C5A21B56070712B8271149447566397225E997132",
+      "previous_sha256": "4464FC7EB06AA94E91F04B8C5A21B56070712B8271149447566397225E997132",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props\\cs_office\\sofa_chair.nif",
+      "exists": true,
+      "bytes": 42009,
+      "sha256": "E81D9140F49FF942A81F0D51B51194712AABBF37AB83620F4139222F55A5D8A5",
+      "previous_sha256": "E81D9140F49FF942A81F0D51B51194712AABBF37AB83620F4139222F55A5D8A5",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props\\cs_office\\sofa.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "EDE14880215C334EA2482308E9D6EA7B4E33945BA1AB05AAB4366E904B9BC6FD",
+      "previous_sha256": "EDE14880215C334EA2482308E9D6EA7B4E33945BA1AB05AAB4366E904B9BC6FD",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\chair02a.nif",
+      "exists": true,
+      "bytes": 37225,
+      "sha256": "B0F7ABAFF4C4135CE3EF2C955A818088F948295D44A95170D3F96D2E152E529B",
+      "previous_sha256": "B0F7ABAFF4C4135CE3EF2C955A818088F948295D44A95170D3F96D2E152E529B",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\chairchrome01.dds",
+      "exists": true,
+      "bytes": 131200,
+      "sha256": "A60794E7467E457CA66322E6260ED558B15038FAF8381066BED8C304DA250786",
+      "previous_sha256": "A60794E7467E457CA66322E6260ED558B15038FAF8381066BED8C304DA250786",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\chairfab01.dds",
+      "exists": true,
+      "bytes": 131200,
+      "sha256": "124A2C780C6A1A2A58C18329376A84124B2361384F4F70A2ED2111F8F98B9E2C",
+      "previous_sha256": "124A2C780C6A1A2A58C18329376A84124B2361384F4F70A2ED2111F8F98B9E2C",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\Lockers001a.nif",
+      "exists": true,
+      "bytes": 56109,
+      "sha256": "DBB44432401471B80626AAA0C4269A1C7F88C0FF62089168D3C2D0CA97700045",
+      "previous_sha256": "DBB44432401471B80626AAA0C4269A1C7F88C0FF62089168D3C2D0CA97700045",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\lockers001a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "FD1EC262CB6C4F8B0B00E653D81BDB952D0746E6A171763AF97F7F933A1F1AB0",
+      "previous_sha256": "FD1EC262CB6C4F8B0B00E653D81BDB952D0746E6A171763AF97F7F933A1F1AB0",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\shelfunit01a.nif",
+      "exists": true,
+      "bytes": 10417,
+      "sha256": "8980CD369A5292E9B153F1DD14B4E19547983F3FF62B40C3E7774F8049BC7FC6",
+      "previous_sha256": "8980CD369A5292E9B153F1DD14B4E19547983F3FF62B40C3E7774F8049BC7FC6",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\shelfunit01a.dds",
+      "exists": true,
+      "bytes": 4194432,
+      "sha256": "24A925F6F2E0B03A9D8E34116A35FD09ED7682AF71A6103646D1D4EE47363362",
+      "previous_sha256": "24A925F6F2E0B03A9D8E34116A35FD09ED7682AF71A6103646D1D4EE47363362",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\chair_stool01a.nif",
+      "exists": true,
+      "bytes": 44641,
+      "sha256": "EF159CCD59ADE3C09DADC580A7454F25B2A58A7451F3FE799989D5CF28CCAD43",
+      "previous_sha256": "EF159CCD59ADE3C09DADC580A7454F25B2A58A7451F3FE799989D5CF28CCAD43",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\chair_stool01a.dds",
+      "exists": true,
+      "bytes": 524416,
+      "sha256": "4610B3462140942F33C8BB9CB65C290BCDD7556C8AC8F6184E15818207ED32C5",
+      "previous_sha256": "4610B3462140942F33C8BB9CB65C290BCDD7556C8AC8F6184E15818207ED32C5",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\chair_office01a.nif",
+      "exists": true,
+      "bytes": 37809,
+      "sha256": "10F2B17716CDD6E8619F08ADD47C34F5FF9FBA3A5096C3118FB4D143AC840D63",
+      "previous_sha256": "10F2B17716CDD6E8619F08ADD47C34F5FF9FBA3A5096C3118FB4D143AC840D63",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\chair_office01a.dds",
+      "exists": true,
+      "bytes": 524416,
+      "sha256": "C5E93CBCD3C0E6B3317DF01B693DB38DD0CEFC18F895EB8AA7EDE8B5B9D9DA59",
+      "previous_sha256": "C5E93CBCD3C0E6B3317DF01B693DB38DD0CEFC18F895EB8AA7EDE8B5B9D9DA59",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\chair_kleiner03a.nif",
+      "exists": true,
+      "bytes": 86859,
+      "sha256": "A726630248F7592F65E0594DBB5F6800ECA54B98A4B2B0F9982CF3394A699B8F",
+      "previous_sha256": "A726630248F7592F65E0594DBB5F6800ECA54B98A4B2B0F9982CF3394A699B8F",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\chair_kleiner03a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "D1EC65F76F3868EE80ADDFAA0168740DBBADBFE9568A14E9E003C418015C6652",
+      "previous_sha256": "D1EC65F76F3868EE80ADDFAA0168740DBBADBFE9568A14E9E003C418015C6652",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\hospital_shelf01.nif",
+      "exists": true,
+      "bytes": 24201,
+      "sha256": "67BAA056CD5A087D183F2CED939F31030C2B24374A2F7F84C8BFDACD871663C9",
+      "previous_sha256": "67BAA056CD5A087D183F2CED939F31030C2B24374A2F7F84C8BFDACD871663C9",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\hospital_shelf01.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "08B9FFE098FEF55E339067B670783904E5DA4D277E13BE4081B793E8733ED577",
+      "previous_sha256": "08B9FFE098FEF55E339067B670783904E5DA4D277E13BE4081B793E8733ED577",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\FurnitureChair001a.nif",
+      "exists": true,
+      "bytes": 20085,
+      "sha256": "BCDC0F5A3019ED5008AB5E792837E10E19BA9624E1B4B6EAE3AB4E3EDC429B81",
+      "previous_sha256": "BCDC0F5A3019ED5008AB5E792837E10E19BA9624E1B4B6EAE3AB4E3EDC429B81",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\furniturechair001a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "1123D2AF067130562F3AA02B9306F61F58B3E30B4E1C308A42C29B2360736CEB",
+      "previous_sha256": "1123D2AF067130562F3AA02B9306F61F58B3E30B4E1C308A42C29B2360736CEB",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\FurnitureCouch001a.nif",
+      "exists": true,
+      "bytes": 27715,
+      "sha256": "AFFFFE6D5A97D9961EFF96AA0DCACF32B4E1A353DEC70FE563CFBC8BB69DE073",
+      "previous_sha256": "AFFFFE6D5A97D9961EFF96AA0DCACF32B4E1A353DEC70FE563CFBC8BB69DE073",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\furniturecouch001a.dds",
+      "exists": true,
+      "bytes": 4194432,
+      "sha256": "A1453004300C28DFEE6380DCA968F7C45AC5CCCCB887C0553319394934331967",
+      "previous_sha256": "A1453004300C28DFEE6380DCA968F7C45AC5CCCCB887C0553319394934331967",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\FurnitureCouch002a.nif",
+      "exists": true,
+      "bytes": 35383,
+      "sha256": "75188F14A733D7F90497C9489F6DB8367F4FF5646647F3112EC5710D988C0AA3",
+      "previous_sha256": "75188F14A733D7F90497C9489F6DB8367F4FF5646647F3112EC5710D988C0AA3",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\furniturecouch002a.dds",
+      "exists": true,
+      "bytes": 4194432,
+      "sha256": "52571003D44085C672FE643302CD2E43A8F5416D566151183147F2372688065B",
+      "previous_sha256": "52571003D44085C672FE643302CD2E43A8F5416D566151183147F2372688065B",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\FurnitureShelf001a.nif",
+      "exists": true,
+      "bytes": 49493,
+      "sha256": "7C25A05F79AE0DC938170CC8E9E1AEF3AE199355F22F3A6CFBD13710BD2D3A85",
+      "previous_sha256": "7C25A05F79AE0DC938170CC8E9E1AEF3AE199355F22F3A6CFBD13710BD2D3A85",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\furniturewoodshelf001a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "7FE3C5784B61F3F763D8085635829A0BF2579EECFA9CCE33EE0CB1239BBF53D1",
+      "previous_sha256": "7FE3C5784B61F3F763D8085635829A0BF2579EECFA9CCE33EE0CB1239BBF53D1",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\FurnitureShelf001b.nif",
+      "exists": true,
+      "bytes": 2897,
+      "sha256": "8F2200BF8DF446BD4D16CDDB5CA048C6D56D6BCAFE13871A1C95FE332A230BF3",
+      "previous_sha256": "8F2200BF8DF446BD4D16CDDB5CA048C6D56D6BCAFE13871A1C95FE332A230BF3",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\FurnitureShelf002a.nif",
+      "exists": true,
+      "bytes": 18453,
+      "sha256": "746357FE1B5D5DFFB274B4F6696C6014124DE7AB1D16CDCD19EF1771C4E8080E",
+      "previous_sha256": "746357FE1B5D5DFFB274B4F6696C6014124DE7AB1D16CDCD19EF1771C4E8080E",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\furniturewooddresser001a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "E233E113DA5DB2090A93138D5A737B77AE134D53E209E1B8030747484B163B68",
+      "previous_sha256": "E233E113DA5DB2090A93138D5A737B77AE134D53E209E1B8030747484B163B68",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\FurnitureDresser001a.nif",
+      "exists": true,
+      "bytes": 27413,
+      "sha256": "3D6D454753339CB7826EF218CEB51D9448283782B89565FA89E7DBED8B40B7D9",
+      "previous_sha256": "3D6D454753339CB7826EF218CEB51D9448283782B89565FA89E7DBED8B40B7D9",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\furnituredresser001a.dds",
+      "exists": true,
+      "bytes": 4194432,
+      "sha256": "22519295413828D8574E415ACB956D9AF884FC3DE1265CB1F995AA934DEE96E8",
+      "previous_sha256": "22519295413828D8574E415ACB956D9AF884FC3DE1265CB1F995AA934DEE96E8",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\furniturearmchair001a.nif",
+      "exists": true,
+      "bytes": 23553,
+      "sha256": "A7FE64E04AD827ED77D38727588B51E3C8A3CC390AECDBB2C07E2B86401D7086",
+      "previous_sha256": "A7FE64E04AD827ED77D38727588B51E3C8A3CC390AECDBB2C07E2B86401D7086",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\furniturefabric001a.dds",
+      "exists": true,
+      "bytes": 262272,
+      "sha256": "AE217B148FC39EB87F4F7780443FE679DEBB8B701D527410FAE080CDD074D3EC",
+      "previous_sha256": "AE217B148FC39EB87F4F7780443FE679DEBB8B701D527410FAE080CDD074D3EC",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\prison_shelf001a.nif",
+      "exists": true,
+      "bytes": 19529,
+      "sha256": "5067E515D34E428D7D42C8C0EA102B3C5DD70E6D9ED231E71F00836657ABDAF8",
+      "previous_sha256": "5067E515D34E428D7D42C8C0EA102B3C5DD70E6D9ED231E71F00836657ABDAF8",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_wasteland\\prison_objects001.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "E4E34E42B20DCC6ECB894356856B9246974D2EF53B3F628E0D807995B6A76E79",
+      "previous_sha256": "E4E34E42B20DCC6ECB894356856B9246974D2EF53B3F628E0D807995B6A76E79",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\prison_shelf002a.nif",
+      "exists": true,
+      "bytes": 7765,
+      "sha256": "9CFBBBEC1D62F7D2F75036CF8EA56A13E92A809DB0056DBFAB105217319CB1F9",
+      "previous_sha256": "9CFBBBEC1D62F7D2F75036CF8EA56A13E92A809DB0056DBFAB105217319CB1F9",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_interiors\\Furniture_Desk01a.nif",
+      "exists": true,
+      "bytes": 49795,
+      "sha256": "FF53BCBE270A870AEA241BC499D1234F0E9B2BF64F8B0463CA2ABAD79805C308",
+      "previous_sha256": "FF53BCBE270A870AEA241BC499D1234F0E9B2BF64F8B0463CA2ABAD79805C308",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_interiors\\furniture_desk01a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "D70E9EED24987249AA3B4D85E0623E5F381B6644F0557D218B4956F49D2C3F85",
+      "previous_sha256": "D70E9EED24987249AA3B4D85E0623E5F381B6644F0557D218B4956F49D2C3F85",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\kitchen_shelf001a.nif",
+      "exists": true,
+      "bytes": 62823,
+      "sha256": "F8091AE3B559D7500A04214A2DD87E8A802E131E7B026569C658633BDD317048",
+      "previous_sha256": "F8091AE3B559D7500A04214A2DD87E8A802E131E7B026569C658633BDD317048",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_wasteland\\kitchen_shelf001a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "D2550E51C1F9C2524E4EF890E75DAC035CA31D5BB3265CDFCE4B543D6DAB62A2",
+      "previous_sha256": "D2550E51C1F9C2524E4EF890E75DAC035CA31D5BB3265CDFCE4B543D6DAB62A2",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\playground_carousel01.nif",
+      "exists": true,
+      "bytes": 91659,
+      "sha256": "5AA440CCB3965849C1C1B1DCC8433CCAC50DE8E65EA90B96F18FF6641039F3E1",
+      "previous_sha256": "5AA440CCB3965849C1C1B1DCC8433CCAC50DE8E65EA90B96F18FF6641039F3E1",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\playground_carousel01.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "4E8A8DAADC05AB9A0BF25FAB692BA53A6AD0691FF6018BE938A77D0B658CE2BA",
+      "previous_sha256": "4E8A8DAADC05AB9A0BF25FAB692BA53A6AD0691FF6018BE938A77D0B658CE2BA",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\playground_swingset01.nif",
+      "exists": true,
+      "bytes": 49885,
+      "sha256": "6F197E235873A8487A361082A73F99C5CCA766E281FFD77612AF55C979CE4847",
+      "previous_sha256": "6F197E235873A8487A361082A73F99C5CCA766E281FFD77612AF55C979CE4847",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\playground_swingset01.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "6AA93A345395643018172D79BEAECB2766C603CA3FA0773F04FA46F6EAC7BB7F",
+      "previous_sha256": "6AA93A345395643018172D79BEAECB2766C603CA3FA0773F04FA46F6EAC7BB7F",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\playground_swingset_seat01a.nif",
+      "exists": true,
+      "bytes": 14209,
+      "sha256": "EC545D2BA84F976351DB78DF470A023CB979D299A8CA5B7EC5B4912DE52A4626",
+      "previous_sha256": "EC545D2BA84F976351DB78DF470A023CB979D299A8CA5B7EC5B4912DE52A4626",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\playground_teetertoter_seat.nif",
+      "exists": true,
+      "bytes": 36965,
+      "sha256": "7B9794F78EDEAA802B8E5602E095DA012847FBC5D0B0699CAF3339C5E4CB6090",
+      "previous_sha256": "7B9794F78EDEAA802B8E5602E095DA012847FBC5D0B0699CAF3339C5E4CB6090",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\playground_teetertoter_seat.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "3BD116CB36E2C5AAE1ED71D611F7EE4B0B30311D502238397588ED24119BA881",
+      "previous_sha256": "3BD116CB36E2C5AAE1ED71D611F7EE4B0B30311D502238397588ED24119BA881",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\playground_teetertoter_stan.nif",
+      "exists": true,
+      "bytes": 26293,
+      "sha256": "A5D144FE53B57BB1179387C37C57A03ECD4F5BBC4D9F91FCA2E0A188D4377251",
+      "previous_sha256": "A5D144FE53B57BB1179387C37C57A03ECD4F5BBC4D9F91FCA2E0A188D4377251",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\laundry_basket001.nif",
+      "exists": true,
+      "bytes": 25495,
+      "sha256": "9899EE198B04FC0676F99A7351F809BBAC40F1D7BA220C911E9681EB42B50E7C",
+      "previous_sha256": "9899EE198B04FC0676F99A7351F809BBAC40F1D7BA220C911E9681EB42B50E7C",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_wasteland\\laundry_machines003.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "17A08EBB2D92569899BB543FD708F9269B77A904DB172182D697AC9A4103077B",
+      "previous_sha256": "17A08EBB2D92569899BB543FD708F9269B77A904DB172182D697AC9A4103077B",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_wasteland\\laundry_basket002.nif",
+      "exists": true,
+      "bytes": 26295,
+      "sha256": "BD2DFB30C8107282CD6F4C6EBD1872A08863BB6A10D390E3814C81130E806075",
+      "previous_sha256": "BD2DFB30C8107282CD6F4C6EBD1872A08863BB6A10D390E3814C81130E806075",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\playground_jungle_gym01a.nif",
+      "exists": true,
+      "bytes": 52161,
+      "sha256": "2CC3F5738416CE0C1991C3236E5539DD580CB4F2012F58DC8CDBFC851A9DC706",
+      "previous_sha256": "2CC3F5738416CE0C1991C3236E5539DD580CB4F2012F58DC8CDBFC851A9DC706",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\playground_jungle_gym01a.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "A1B1F940F4D25C68FD7B66EA0E09BED08C570EBC2ADBF168B8971B0C4428CCB6",
+      "previous_sha256": "A1B1F940F4D25C68FD7B66EA0E09BED08C570EBC2ADBF168B8971B0C4428CCB6",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\playground_jungle_gym01b.nif",
+      "exists": true,
+      "bytes": 41501,
+      "sha256": "B2F9E0F4470ABEE5F19C4DAFA771877E1B92939427D9B50CE4A8DCDB0A8D76A8",
+      "previous_sha256": "B2F9E0F4470ABEE5F19C4DAFA771877E1B92939427D9B50CE4A8DCDB0A8D76A8",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\meshes\\rem\\gmod\\props_c17\\playgroundTick-tack-toe_post01.nif",
+      "exists": true,
+      "bytes": 44785,
+      "sha256": "46B51871BDC1CCC4A9A0A31321A1C15E7373E5F98E453A62C966DC13D49C7ADF",
+      "previous_sha256": "46B51871BDC1CCC4A9A0A31321A1C15E7373E5F98E453A62C966DC13D49C7ADF",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\textures\\rem\\gmod\\models\\props_c17\\playgroundtick-tack-toe_post01.dds",
+      "exists": true,
+      "bytes": 1048704,
+      "sha256": "E08A2D0F1C740A733A3662B6500968000E47A389BB7540C403CDF208D73340A2",
+      "previous_sha256": "E08A2D0F1C740A733A3662B6500968000E47A389BB7540C403CDF208D73340A2",
+      "previous_hash_matches": true,
+      "previous_state": "installed_support_asset"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\final_prop_catalog_handoff\\manifest.json",
+      "exists": true,
+      "bytes": 403382,
+      "sha256": "BC7AC41C96A4F5D12C10D4A480D604262BAB6C320067D4CA0E78489D98A9A77F",
+      "previous_sha256": "BC7AC41C96A4F5D12C10D4A480D604262BAB6C320067D4CA0E78489D98A9A77F",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\final_prop_catalog_thumbnails\\manifest.json",
+      "exists": true,
+      "bytes": 200770,
+      "sha256": "4A90D8E60BC86C57D655F6AB876D9A1144D13ECB5E6FDF46DC68D65FFA7378EC",
+      "previous_sha256": "4A90D8E60BC86C57D655F6AB876D9A1144D13ECB5E6FDF46DC68D65FFA7378EC",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\qmenu_content_adapter\\manifest.json",
+      "exists": true,
+      "bytes": 376276,
+      "sha256": "266F234918407F8511F4EC2216D679701A0DAB34E6622E4CC5ED66B908E720F6",
+      "previous_sha256": "266F234918407F8511F4EC2216D679701A0DAB34E6622E4CC5ED66B908E720F6",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_qmenu_source_inventory\\manifest.json",
+      "exists": true,
+      "bytes": 159503,
+      "sha256": "A499117503C53710B91AE27C401DBFCF53F23C4B741B3AF29FD0A43C06B0774B",
+      "previous_sha256": "A499117503C53710B91AE27C401DBFCF53F23C4B741B3AF29FD0A43C06B0774B",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_weapon_runtime_candidates\\manifest.json",
+      "exists": true,
+      "bytes": 361804,
+      "sha256": "AABE583D91313F938DCDFAC3F432F129B515D61297F2E95E92BA28468E106D49",
+      "previous_sha256": "AABE583D91313F938DCDFAC3F432F129B515D61297F2E95E92BA28468E106D49",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_weapon_runtime_candidates\\resolved_sound_events\\manifest.json",
+      "exists": true,
+      "bytes": 46479,
+      "sha256": "41261856AFF2760304C0EDCE1179E8DE654C58D30E9F5354E35440C47B211A3B",
+      "previous_sha256": "41261856AFF2760304C0EDCE1179E8DE654C58D30E9F5354E35440C47B211A3B",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_tool_physgun_asset_handoff\\manifest.json",
+      "exists": true,
+      "bytes": 14014,
+      "sha256": "6368329C44B37C16B989351FEC14C09E9E8DC7F73134474722E98E7B2973E01E",
+      "previous_sha256": "6368329C44B37C16B989351FEC14C09E9E8DC7F73134474722E98E7B2973E01E",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_skateboard_asset_handoff\\manifest.json",
+      "exists": true,
+      "bytes": 20043,
+      "sha256": "5ED16EA52A6C5C14C475BDBE3335FF71474CAAF5D846022FFC4184307387E7C5",
+      "previous_sha256": "5ED16EA52A6C5C14C475BDBE3335FF71474CAAF5D846022FFC4184307387E7C5",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_ui_asset_handoff\\manifest.json",
+      "exists": true,
+      "bytes": 64546,
+      "sha256": "BBA25C2BBFFEA48B85070D6EE40867AB5A8DAF7627C9A7041B382BFA2E0E9312",
+      "previous_sha256": "BBA25C2BBFFEA48B85070D6EE40867AB5A8DAF7627C9A7041B382BFA2E0E9312",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\input_control_matrix\\manifest.json",
+      "exists": true,
+      "bytes": 10769,
+      "sha256": "5A3AD0F84F978E8BAC980D9F0ECCA63CB69DE18BEFD631339FC17269A3E486AD",
+      "previous_sha256": "5A3AD0F84F978E8BAC980D9F0ECCA63CB69DE18BEFD631339FC17269A3E486AD",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\thug2_prop_catalog\\target_classification.json",
+      "exists": true,
+      "bytes": 50719,
+      "sha256": "20338FC796C080FF6A0D7B7ED16E1CD245FC23C6285035D7EC16E0772CC1AA26",
+      "previous_sha256": "20338FC796C080FF6A0D7B7ED16E1CD245FC23C6285035D7EC16E0772CC1AA26",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\regression_test_packs\\manifest.json",
+      "exists": true,
+      "bytes": 6195,
+      "sha256": "B72EADF7D6637F1A56F8A967FA5B800D5E3F86690C3ACAAD4CEF5E03F196DB1F",
+      "previous_sha256": "B72EADF7D6637F1A56F8A967FA5B800D5E3F86690C3ACAAD4CEF5E03F196DB1F",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\historical_artifact_registry\\manifest.json",
+      "exists": true,
+      "bytes": 18422,
+      "sha256": "90EB51BFB7411A331181A0A7F7B419FB8315447B2C081FE05F54BE116C36E3D3",
+      "previous_sha256": "90EB51BFB7411A331181A0A7F7B419FB8315447B2C081FE05F54BE116C36E3D3",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\prop_support_phase3\\summary.json",
+      "exists": true,
+      "bytes": 654,
+      "sha256": "93A1E0B2AEEF93EF80160FFF55FC6F93ABA75C005E59DFE31E41279A6E61F888",
+      "previous_sha256": "93A1E0B2AEEF93EF80160FFF55FC6F93ABA75C005E59DFE31E41279A6E61F888",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\validation\\prop_support_phase3.json",
+      "exists": true,
+      "bytes": 10292,
+      "sha256": "98FF657BF5B3ECECDC1623747D453B03735211813152A2B7C6C14AD62F41192E",
+      "previous_sha256": "98FF657BF5B3ECECDC1623747D453B03735211813152A2B7C6C14AD62F41192E",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\prop_support_phase4\\summary.json",
+      "exists": true,
+      "bytes": 891,
+      "sha256": "B836AF92DB795D5EBCF01763C9EE7852F33F7FE98B1E8EB3D83760672C087499",
+      "previous_sha256": "B836AF92DB795D5EBCF01763C9EE7852F33F7FE98B1E8EB3D83760672C087499",
+      "previous_hash_matches": true,
+      "previous_state": "project_source_metadata"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\validation\\prop_support_phase4.json",
+      "exists": true,
+      "bytes": 27217,
+      "sha256": "EF9A473F8F107375A229F694847096121688688681642B623004EA21625AB993",
+      "previous_sha256": "10DA27E09900A2A200875160A6E788EE5F6E5E802ECAE84B33CBFD92DA5242AF",
+      "previous_hash_matches": false,
+      "previous_state": "project_source_metadata"
+    }
+  ],
+  "protected": [
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\NVSE\\Plugins\\FNVGModTHUG2.dll",
+      "exists": true,
+      "bytes": 906240,
+      "sha256": "BC24E9B15BCA28B33569BC9FF7FD59DB66E962150FD00A9350CE3367DCF06F41"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_GModTHUG2.esp",
+      "exists": true,
+      "bytes": 50315,
+      "sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\attachment90\\bin\\FNVGModTHUG2.dll",
+      "exists": true,
+      "bytes": 919552,
+      "sha256": "04D93FCBCD3429B01C526292573568EAC198B58E6D752F2E80CC758A1B925375"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\hud88\\bin\\FNVGModTHUG2.dll",
+      "exists": true,
+      "bytes": 918528,
+      "sha256": "6E977CC672317AF160B823F0B6159D8D893B56717FB3EDFF0F645A7AA110A439"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\lifecycle89\\bin\\FNVGModTHUG2.dll",
+      "exists": true,
+      "bytes": 919552,
+      "sha256": "119491C453BC0BAD97ADE3AEA76C2C312568FFCBFC75B297ABAC912A1F7A7051"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\dllmain.c",
+      "exists": true,
+      "bytes": 152,
+      "sha256": "7C7375A779BDFBBE6BF0D2AA903ABC2B206A311B119A96F8FE81A2CCAE072177"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\exports.def",
+      "exists": true,
+      "bytes": 64,
+      "sha256": "E3156A23E17166BA1603EE1BE4DDBDE1236E6D299646B1286AFE530D605F96A7"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\fn_intro_to_script_functions.h",
+      "exists": true,
+      "bytes": 3824,
+      "sha256": "4DB4BDBB553BE50042F171BF3B3BFEC0F8C953AA212EB2976DB13E027B16EB10"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\fn_typed_functions.h",
+      "exists": true,
+      "bytes": 1800,
+      "sha256": "FDF5353E0A9FB0BDCE9914C4F0C1237DF7C68568070A734F5FA73E1DB7F24A23"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\fnv_scene_adapter90.inc",
+      "exists": true,
+      "bytes": 1886,
+      "sha256": "CFF8817008F12DC5F85413B2F8BB658E461844629952661D87946B825677C5CB"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\FNVGModTHUG2.vcxproj",
+      "exists": true,
+      "bytes": 21111,
+      "sha256": "ED33B558BD5FBF2D4A8FAE3938BC4F1C80584C685CC68FF8D1970CC1E27C4234"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\FNVGModTHUG2.vcxproj.filters",
+      "exists": true,
+      "bytes": 5076,
+      "sha256": "9D47EFC730B72F090E2B05F23EF2273FC3599E6B97C9C8DA200918C40D19F05F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\gmod_npc_defs.inc",
+      "exists": true,
+      "bytes": 5247,
+      "sha256": "29FABDABD07B382ACD115A20EB08A4F40FF7A1E45CCB900D52C377E1D4CF1C81"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\gmod_overlay.inc",
+      "exists": true,
+      "bytes": 28618,
+      "sha256": "FCCDE82C38697DD4C6EC0F10E4A4E906E8146AC9C106FA430F9E068089049596"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\gmod_prop_defs.inc",
+      "exists": true,
+      "bytes": 838199,
+      "sha256": "E9B8AFC3AFB67BAFDC8CE7CBAB13CD4547F4B5F7CEE18F189C13B6B164D89E64"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\gmod_tool_defs.inc",
+      "exists": true,
+      "bytes": 1663,
+      "sha256": "559B121AF438522101F943F7C3812A058B8D35424B919E95666E82062F246DF8"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\gmod_weapon_defs.inc",
+      "exists": true,
+      "bytes": 5468,
+      "sha256": "9CA36F22F617BB5E31141497FA2E9C85C1AEB477B1C802320C3D90A4A2B75265"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\gmod_weapon_sounds.inc",
+      "exists": true,
+      "bytes": 3561,
+      "sha256": "B2A63197147AD2AD73D1E50D62AA88C0366C085B51E304DFC52CFEED3D8A9EB4"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\main.cpp",
+      "exists": true,
+      "bytes": 237918,
+      "sha256": "3F9DA45B0FA0B2AE8F0D5399D0A6C2CD2B9D33622096D3BA857EF98128AC3CBA"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\nvse_plugin_example.sln",
+      "exists": true,
+      "bytes": 2338,
+      "sha256": "A134942F6EF57B797EC6092E7D29290631C19A0BAEBD865DE267CF24DD34003F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\nvse_plugin_example.vcproj",
+      "exists": true,
+      "bytes": 14739,
+      "sha256": "622FEE9453C73521F2F4DC4559A492A65DE96F94A9266A06B713B314EB0067CA"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\thug2_anim_data.inc",
+      "exists": true,
+      "bytes": 473715,
+      "sha256": "64ACD47209733BDC797335B360DEAA69CEC804B7E84D7C5555F80BCB08621998"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\thug2_bitmap_hud88.inc",
+      "exists": true,
+      "bytes": 5489,
+      "sha256": "4A5724C39A8F0EDA8C62B1BF8B2BA5A32CD243ED854E113DF8B63C383A055F68"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\thug2_font_metrics88.inc",
+      "exists": true,
+      "bytes": 11677,
+      "sha256": "50C382DF32BBB2EC40BEF40E3A338E5B57F29B0C351D2EB28445F1458FEFE2B8"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_attachment90_candidate\\thug2_hud_visibility.inc",
+      "exists": true,
+      "bytes": 2256,
+      "sha256": "D466F6903BCFB9026494FB78BD1423BD05E552A98100CF6A09B26D01D1880FBB"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\dllmain.c",
+      "exists": true,
+      "bytes": 152,
+      "sha256": "7C7375A779BDFBBE6BF0D2AA903ABC2B206A311B119A96F8FE81A2CCAE072177"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\exports.def",
+      "exists": true,
+      "bytes": 64,
+      "sha256": "E3156A23E17166BA1603EE1BE4DDBDE1236E6D299646B1286AFE530D605F96A7"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\fn_intro_to_script_functions.h",
+      "exists": true,
+      "bytes": 3824,
+      "sha256": "4DB4BDBB553BE50042F171BF3B3BFEC0F8C953AA212EB2976DB13E027B16EB10"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\fn_typed_functions.h",
+      "exists": true,
+      "bytes": 1800,
+      "sha256": "FDF5353E0A9FB0BDCE9914C4F0C1237DF7C68568070A734F5FA73E1DB7F24A23"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\FNVGModTHUG2.vcxproj",
+      "exists": true,
+      "bytes": 21111,
+      "sha256": "ED33B558BD5FBF2D4A8FAE3938BC4F1C80584C685CC68FF8D1970CC1E27C4234"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\FNVGModTHUG2.vcxproj.filters",
+      "exists": true,
+      "bytes": 5076,
+      "sha256": "9D47EFC730B72F090E2B05F23EF2273FC3599E6B97C9C8DA200918C40D19F05F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\gmod_npc_defs.inc",
+      "exists": true,
+      "bytes": 5247,
+      "sha256": "29FABDABD07B382ACD115A20EB08A4F40FF7A1E45CCB900D52C377E1D4CF1C81"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\gmod_overlay.inc",
+      "exists": true,
+      "bytes": 31840,
+      "sha256": "E6EF0C484AFDDC1A74C02F6BA8A72CD0899D6E80F5BA5459CD61B9C67183250F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\gmod_prop_defs.inc",
+      "exists": true,
+      "bytes": 838199,
+      "sha256": "E9B8AFC3AFB67BAFDC8CE7CBAB13CD4547F4B5F7CEE18F189C13B6B164D89E64"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\gmod_tool_defs.inc",
+      "exists": true,
+      "bytes": 1663,
+      "sha256": "559B121AF438522101F943F7C3812A058B8D35424B919E95666E82062F246DF8"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\gmod_weapon_defs.inc",
+      "exists": true,
+      "bytes": 5468,
+      "sha256": "9CA36F22F617BB5E31141497FA2E9C85C1AEB477B1C802320C3D90A4A2B75265"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\gmod_weapon_sounds.inc",
+      "exists": true,
+      "bytes": 3561,
+      "sha256": "B2A63197147AD2AD73D1E50D62AA88C0366C085B51E304DFC52CFEED3D8A9EB4"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\main.cpp",
+      "exists": true,
+      "bytes": 236114,
+      "sha256": "52BA85FA1D6968D0868CCC58AB7D73FBB23EC1CBD6623CA44021B1D4CD87A1FA"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\nvse_plugin_example.sln",
+      "exists": true,
+      "bytes": 2338,
+      "sha256": "A134942F6EF57B797EC6092E7D29290631C19A0BAEBD865DE267CF24DD34003F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\nvse_plugin_example.vcproj",
+      "exists": true,
+      "bytes": 14739,
+      "sha256": "622FEE9453C73521F2F4DC4559A492A65DE96F94A9266A06B713B314EB0067CA"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\thug2_anim_data.inc",
+      "exists": true,
+      "bytes": 473715,
+      "sha256": "64ACD47209733BDC797335B360DEAA69CEC804B7E84D7C5555F80BCB08621998"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_g6_candidate\\thug2_hud_visibility.inc",
+      "exists": true,
+      "bytes": 2256,
+      "sha256": "D466F6903BCFB9026494FB78BD1423BD05E552A98100CF6A09B26D01D1880FBB"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\dllmain.c",
+      "exists": true,
+      "bytes": 152,
+      "sha256": "7C7375A779BDFBBE6BF0D2AA903ABC2B206A311B119A96F8FE81A2CCAE072177"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\exports.def",
+      "exists": true,
+      "bytes": 64,
+      "sha256": "E3156A23E17166BA1603EE1BE4DDBDE1236E6D299646B1286AFE530D605F96A7"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\fn_intro_to_script_functions.h",
+      "exists": true,
+      "bytes": 3824,
+      "sha256": "4DB4BDBB553BE50042F171BF3B3BFEC0F8C953AA212EB2976DB13E027B16EB10"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\fn_typed_functions.h",
+      "exists": true,
+      "bytes": 1800,
+      "sha256": "FDF5353E0A9FB0BDCE9914C4F0C1237DF7C68568070A734F5FA73E1DB7F24A23"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\FNVGModTHUG2.vcxproj",
+      "exists": true,
+      "bytes": 21111,
+      "sha256": "ED33B558BD5FBF2D4A8FAE3938BC4F1C80584C685CC68FF8D1970CC1E27C4234"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\FNVGModTHUG2.vcxproj.filters",
+      "exists": true,
+      "bytes": 5076,
+      "sha256": "9D47EFC730B72F090E2B05F23EF2273FC3599E6B97C9C8DA200918C40D19F05F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\gmod_npc_defs.inc",
+      "exists": true,
+      "bytes": 5247,
+      "sha256": "29FABDABD07B382ACD115A20EB08A4F40FF7A1E45CCB900D52C377E1D4CF1C81"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\gmod_overlay.inc",
+      "exists": true,
+      "bytes": 28618,
+      "sha256": "FCCDE82C38697DD4C6EC0F10E4A4E906E8146AC9C106FA430F9E068089049596"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\gmod_prop_defs.inc",
+      "exists": true,
+      "bytes": 838199,
+      "sha256": "E9B8AFC3AFB67BAFDC8CE7CBAB13CD4547F4B5F7CEE18F189C13B6B164D89E64"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\gmod_tool_defs.inc",
+      "exists": true,
+      "bytes": 1663,
+      "sha256": "559B121AF438522101F943F7C3812A058B8D35424B919E95666E82062F246DF8"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\gmod_weapon_defs.inc",
+      "exists": true,
+      "bytes": 5468,
+      "sha256": "9CA36F22F617BB5E31141497FA2E9C85C1AEB477B1C802320C3D90A4A2B75265"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\gmod_weapon_sounds.inc",
+      "exists": true,
+      "bytes": 3561,
+      "sha256": "B2A63197147AD2AD73D1E50D62AA88C0366C085B51E304DFC52CFEED3D8A9EB4"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\main.cpp",
+      "exists": true,
+      "bytes": 236135,
+      "sha256": "71DAE8690A30AAE7AAA3E92EC78EEA43A2BE7C2318CCC9750DA0BCBB78C5FE91"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\nvse_plugin_example.sln",
+      "exists": true,
+      "bytes": 2338,
+      "sha256": "A134942F6EF57B797EC6092E7D29290631C19A0BAEBD865DE267CF24DD34003F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\nvse_plugin_example.vcproj",
+      "exists": true,
+      "bytes": 14739,
+      "sha256": "622FEE9453C73521F2F4DC4559A492A65DE96F94A9266A06B713B314EB0067CA"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\thug2_anim_data.inc",
+      "exists": true,
+      "bytes": 473715,
+      "sha256": "64ACD47209733BDC797335B360DEAA69CEC804B7E84D7C5555F80BCB08621998"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\thug2_bitmap_hud88.inc",
+      "exists": true,
+      "bytes": 5489,
+      "sha256": "4A5724C39A8F0EDA8C62B1BF8B2BA5A32CD243ED854E113DF8B63C383A055F68"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\thug2_font_metrics88.inc",
+      "exists": true,
+      "bytes": 11677,
+      "sha256": "50C382DF32BBB2EC40BEF40E3A338E5B57F29B0C351D2EB28445F1458FEFE2B8"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_hud88_candidate\\thug2_hud_visibility.inc",
+      "exists": true,
+      "bytes": 2256,
+      "sha256": "D466F6903BCFB9026494FB78BD1423BD05E552A98100CF6A09B26D01D1880FBB"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\bin\\FNVGModTHUG2.dll",
+      "exists": true,
+      "bytes": 907264,
+      "sha256": "3FB4FB4CFB83D161B6FEE4FCACCD07FFF451E9358C16A3546996F6F4C68CD6BD"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\dllmain.c",
+      "exists": true,
+      "bytes": 152,
+      "sha256": "7C7375A779BDFBBE6BF0D2AA903ABC2B206A311B119A96F8FE81A2CCAE072177"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\exports.def",
+      "exists": true,
+      "bytes": 64,
+      "sha256": "E3156A23E17166BA1603EE1BE4DDBDE1236E6D299646B1286AFE530D605F96A7"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\fn_intro_to_script_functions.h",
+      "exists": true,
+      "bytes": 3824,
+      "sha256": "4DB4BDBB553BE50042F171BF3B3BFEC0F8C953AA212EB2976DB13E027B16EB10"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\fn_typed_functions.h",
+      "exists": true,
+      "bytes": 1800,
+      "sha256": "FDF5353E0A9FB0BDCE9914C4F0C1237DF7C68568070A734F5FA73E1DB7F24A23"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\FNVGModTHUG2.vcxproj",
+      "exists": true,
+      "bytes": 21406,
+      "sha256": "F655BACD4EA09D73EED8757C9354253F97D33AD1E6C90F80ABB495164705E064"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\FNVGModTHUG2.vcxproj.filters",
+      "exists": true,
+      "bytes": 5076,
+      "sha256": "9D47EFC730B72F090E2B05F23EF2273FC3599E6B97C9C8DA200918C40D19F05F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\gmod_npc_defs.inc",
+      "exists": true,
+      "bytes": 5247,
+      "sha256": "29FABDABD07B382ACD115A20EB08A4F40FF7A1E45CCB900D52C377E1D4CF1C81"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\gmod_overlay.inc",
+      "exists": true,
+      "bytes": 31840,
+      "sha256": "E6EF0C484AFDDC1A74C02F6BA8A72CD0899D6E80F5BA5459CD61B9C67183250F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\gmod_prop_defs.inc",
+      "exists": true,
+      "bytes": 838199,
+      "sha256": "E9B8AFC3AFB67BAFDC8CE7CBAB13CD4547F4B5F7CEE18F189C13B6B164D89E64"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\gmod_tool_defs.inc",
+      "exists": true,
+      "bytes": 1663,
+      "sha256": "559B121AF438522101F943F7C3812A058B8D35424B919E95666E82062F246DF8"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\gmod_weapon_defs.inc",
+      "exists": true,
+      "bytes": 5468,
+      "sha256": "9CA36F22F617BB5E31141497FA2E9C85C1AEB477B1C802320C3D90A4A2B75265"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\gmod_weapon_sounds.inc",
+      "exists": true,
+      "bytes": 3561,
+      "sha256": "B2A63197147AD2AD73D1E50D62AA88C0366C085B51E304DFC52CFEED3D8A9EB4"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\main.cpp",
+      "exists": true,
+      "bytes": 236456,
+      "sha256": "713D64BC83F45822FCF267EC6F788C3082386D6991B5511EFA2C5548A5054344"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\nvse_plugin_example.sln",
+      "exists": true,
+      "bytes": 2338,
+      "sha256": "A134942F6EF57B797EC6092E7D29290631C19A0BAEBD865DE267CF24DD34003F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\nvse_plugin_example.vcproj",
+      "exists": true,
+      "bytes": 14739,
+      "sha256": "622FEE9453C73521F2F4DC4559A492A65DE96F94A9266A06B713B314EB0067CA"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\skate_activation_gate92.h",
+      "exists": true,
+      "bytes": 971,
+      "sha256": "26667393ADB1CF7C26650C2AEEEDE48DA4D7275AEEAF493DF221DE206636360E"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\test_activation92.cmd",
+      "exists": true,
+      "bytes": 460,
+      "sha256": "15C385C4A386DAD0CF8EC9C8A1D70584F1CD7D9C21F30BF08F6E08FF1F5F637C"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\test_activation92.cpp",
+      "exists": true,
+      "bytes": 2821,
+      "sha256": "38BB322B9B03D1886FF42B41B0F587943E420489680EA12344DE44EC6DB1D08C"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_input92_candidate\\thug2_anim_data.inc",
+      "exists": true,
+      "bytes": 473715,
+      "sha256": "64ACD47209733BDC797335B360DEAA69CEC804B7E84D7C5555F80BCB08621998"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\dllmain.c",
+      "exists": true,
+      "bytes": 152,
+      "sha256": "7C7375A779BDFBBE6BF0D2AA903ABC2B206A311B119A96F8FE81A2CCAE072177"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\exports.def",
+      "exists": true,
+      "bytes": 64,
+      "sha256": "E3156A23E17166BA1603EE1BE4DDBDE1236E6D299646B1286AFE530D605F96A7"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\fn_intro_to_script_functions.h",
+      "exists": true,
+      "bytes": 3824,
+      "sha256": "4DB4BDBB553BE50042F171BF3B3BFEC0F8C953AA212EB2976DB13E027B16EB10"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\fn_typed_functions.h",
+      "exists": true,
+      "bytes": 1800,
+      "sha256": "FDF5353E0A9FB0BDCE9914C4F0C1237DF7C68568070A734F5FA73E1DB7F24A23"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\FNVGModTHUG2.vcxproj",
+      "exists": true,
+      "bytes": 21111,
+      "sha256": "ED33B558BD5FBF2D4A8FAE3938BC4F1C80584C685CC68FF8D1970CC1E27C4234"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\FNVGModTHUG2.vcxproj.filters",
+      "exists": true,
+      "bytes": 5076,
+      "sha256": "9D47EFC730B72F090E2B05F23EF2273FC3599E6B97C9C8DA200918C40D19F05F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\gmod_npc_defs.inc",
+      "exists": true,
+      "bytes": 5247,
+      "sha256": "29FABDABD07B382ACD115A20EB08A4F40FF7A1E45CCB900D52C377E1D4CF1C81"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\gmod_overlay.inc",
+      "exists": true,
+      "bytes": 28618,
+      "sha256": "FCCDE82C38697DD4C6EC0F10E4A4E906E8146AC9C106FA430F9E068089049596"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\gmod_prop_defs.inc",
+      "exists": true,
+      "bytes": 838199,
+      "sha256": "E9B8AFC3AFB67BAFDC8CE7CBAB13CD4547F4B5F7CEE18F189C13B6B164D89E64"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\gmod_tool_defs.inc",
+      "exists": true,
+      "bytes": 1663,
+      "sha256": "559B121AF438522101F943F7C3812A058B8D35424B919E95666E82062F246DF8"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\gmod_weapon_defs.inc",
+      "exists": true,
+      "bytes": 5468,
+      "sha256": "9CA36F22F617BB5E31141497FA2E9C85C1AEB477B1C802320C3D90A4A2B75265"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\gmod_weapon_sounds.inc",
+      "exists": true,
+      "bytes": 3561,
+      "sha256": "B2A63197147AD2AD73D1E50D62AA88C0366C085B51E304DFC52CFEED3D8A9EB4"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\main.cpp",
+      "exists": true,
+      "bytes": 237886,
+      "sha256": "8A025D885A51DAF6594141976EB9DAA659F6FB25D76F2D7485794755B33BBBDB"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\nvse_plugin_example.sln",
+      "exists": true,
+      "bytes": 2338,
+      "sha256": "A134942F6EF57B797EC6092E7D29290631C19A0BAEBD865DE267CF24DD34003F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\nvse_plugin_example.vcproj",
+      "exists": true,
+      "bytes": 14739,
+      "sha256": "622FEE9453C73521F2F4DC4559A492A65DE96F94A9266A06B713B314EB0067CA"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\thug2_anim_data.inc",
+      "exists": true,
+      "bytes": 473715,
+      "sha256": "64ACD47209733BDC797335B360DEAA69CEC804B7E84D7C5555F80BCB08621998"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\thug2_bitmap_hud88.inc",
+      "exists": true,
+      "bytes": 5489,
+      "sha256": "4A5724C39A8F0EDA8C62B1BF8B2BA5A32CD243ED854E113DF8B63C383A055F68"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\thug2_font_metrics88.inc",
+      "exists": true,
+      "bytes": 11677,
+      "sha256": "50C382DF32BBB2EC40BEF40E3A338E5B57F29B0C351D2EB28445F1458FEFE2B8"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_lifecycle89_candidate\\thug2_hud_visibility.inc",
+      "exists": true,
+      "bytes": 2256,
+      "sha256": "D466F6903BCFB9026494FB78BD1423BD05E552A98100CF6A09B26D01D1880FBB"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\dllmain.c",
+      "exists": true,
+      "bytes": 152,
+      "sha256": "7C7375A779BDFBBE6BF0D2AA903ABC2B206A311B119A96F8FE81A2CCAE072177"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\exports.def",
+      "exists": true,
+      "bytes": 64,
+      "sha256": "E3156A23E17166BA1603EE1BE4DDBDE1236E6D299646B1286AFE530D605F96A7"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\fn_intro_to_script_functions.h",
+      "exists": true,
+      "bytes": 3824,
+      "sha256": "4DB4BDBB553BE50042F171BF3B3BFEC0F8C953AA212EB2976DB13E027B16EB10"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\fn_typed_functions.h",
+      "exists": true,
+      "bytes": 1800,
+      "sha256": "FDF5353E0A9FB0BDCE9914C4F0C1237DF7C68568070A734F5FA73E1DB7F24A23"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\FNVGModTHUG2.vcxproj",
+      "exists": true,
+      "bytes": 22522,
+      "sha256": "9DEA3757300679449B01AFD9897A4A3BE32D7FFD6018A09DC6F5C895435EA3EF"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\FNVGModTHUG2.vcxproj.filters",
+      "exists": true,
+      "bytes": 5076,
+      "sha256": "9D47EFC730B72F090E2B05F23EF2273FC3599E6B97C9C8DA200918C40D19F05F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_npc_defs.inc",
+      "exists": true,
+      "bytes": 5247,
+      "sha256": "29FABDABD07B382ACD115A20EB08A4F40FF7A1E45CCB900D52C377E1D4CF1C81"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_overlay.inc",
+      "exists": true,
+      "bytes": 31840,
+      "sha256": "E6EF0C484AFDDC1A74C02F6BA8A72CD0899D6E80F5BA5459CD61B9C67183250F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_prop_defs.inc",
+      "exists": true,
+      "bytes": 838199,
+      "sha256": "E9B8AFC3AFB67BAFDC8CE7CBAB13CD4547F4B5F7CEE18F189C13B6B164D89E64"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_tool_defs.inc",
+      "exists": true,
+      "bytes": 1663,
+      "sha256": "559B121AF438522101F943F7C3812A058B8D35424B919E95666E82062F246DF8"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_weapon_defs.inc",
+      "exists": true,
+      "bytes": 5468,
+      "sha256": "9CA36F22F617BB5E31141497FA2E9C85C1AEB477B1C802320C3D90A4A2B75265"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_weapon_sounds.inc",
+      "exists": true,
+      "bytes": 3561,
+      "sha256": "B2A63197147AD2AD73D1E50D62AA88C0366C085B51E304DFC52CFEED3D8A9EB4"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\main.cpp",
+      "exists": true,
+      "bytes": 235430,
+      "sha256": "CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\nvse_plugin_example.sln",
+      "exists": true,
+      "bytes": 2338,
+      "sha256": "A134942F6EF57B797EC6092E7D29290631C19A0BAEBD865DE267CF24DD34003F"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\nvse_plugin_example.vcproj",
+      "exists": true,
+      "bytes": 14739,
+      "sha256": "622FEE9453C73521F2F4DC4559A492A65DE96F94A9266A06B713B314EB0067CA"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\thug2_anim_data.inc",
+      "exists": true,
+      "bytes": 473715,
+      "sha256": "64ACD47209733BDC797335B360DEAA69CEC804B7E84D7C5555F80BCB08621998"
+    }
+  ],
+  "install_actions": []
+}
