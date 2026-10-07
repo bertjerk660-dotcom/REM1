@@ -80,3 +80,20 @@ A fresh workflow review restored the original golden-conversion ordering before 
 - O01 Toolgun presentation is fully hash-prepared but is now correctly classified as READY AFTER O00 PASS.
 
 This changes preparation ordering only; no runtime feature was implemented or promoted.
+
+
+## 2026-10-07 unified Opus visual-source validation
+A reusable local validator now checks the prepared visual-source packages before Opus work:
+- O00 golden bench: PASS;
+- O01 Toolgun presentation: PASS;
+- O08a crowbar: PASS;
+- O08b pistol: PASS;
+- O08c SMG1: PASS;
+- total: 87 files;
+- errors: 0.
+
+Report: `build/validation/opus_visual_source_validation_20261007.json`.
+
+One real staging omission was found and corrected during preparation: the original `w_smg2.vmt` references `w_smg2specularmask.vtf`; the old staged w_smg1 package omitted it. The exact VPK source file was copied into staging and hash-matches the original. No replacement texture was created.
+
+The remaining path to 100% Opus preparation is fixed in `context/OPUS_READINESS_81_TO_100_PLAN_2026-10-07.md`. After clean-branch reconciliation, all remaining readiness points are C01-C08 evidence work.
