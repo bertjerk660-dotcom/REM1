@@ -1,0 +1,18 @@
+{
+  "status": "BLOCKED",
+  "assets": [
+    {
+      "relative": "models/weapons/v_physics.mdl",
+      "resolved": false
+    },
+    {
+      "relative": "models/weapons/v_physics.vvd",
+      "resolved": false
+    },
+    {
+      "relative": "models/weapons/v_physics.dx90.vtx",
+      "resolved": false
+    }
+  ],
+  "do_not_substitute": true
+}
