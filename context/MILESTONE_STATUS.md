@@ -93,8 +93,8 @@ then cross-system stability -> regression/polish.
 A percentage is now permitted for **Opus preparation readiness** because an explicit weighted rubric exists in `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md`.
 
 - before the current workflow-finalization pass: **58/100**;
-- after the pass: **80/100**;
-- improvement: **+22 percentage points**.
+- after the pass: **81/100**;
+- improvement: **+23 percentage points**.
 
 This is not game-completion percentage. The principal remaining readiness deficit is Codex C01-C08 implementation-grade evidence; normal GPT cannot legitimately award those missing evidence points.
 
@@ -109,3 +109,9 @@ Main commit `19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0` added a validated GMod ev
 
 ## O00 golden conversion milestone
 The Source/HL2 bench source package has been freshly re-hashed on the local machine and matches recorded provenance. O00 is **READY FOR OPUS** as an isolated conversion/material/collision proof. O01 Toolgun presentation remains fully prepared but does not start until O00 passes runtime/human acceptance.
+
+
+## Clean Opus-ready branch milestone
+`prep/opus-ready-20261007` was created directly from current canonical main and verified with zero commits behind at the reconciliation point. Branch-reconciliation readiness is now 10/10, making the global preparation baseline **81/100**.
+
+All remaining 19 points are C01-C08 evidence gates defined in `context/OPUS_READINESS_81_TO_100_PLAN_2026-10-07.md`.
