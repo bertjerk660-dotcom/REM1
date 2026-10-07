@@ -1,0 +1,61 @@
+{
+  "schema": "rem.thug2_opus_packet_assembly_matrix.v1",
+  "date": "2026-10-07",
+  "baseline_readiness": 81,
+  "packages": {
+    "O05": {
+      "gates": ["C04","C08"],
+      "codex_outputs": [
+        "build/evidence/thug2_c04/master_state_machine.json",
+        "build/evidence/thug2_c04/movement_physics_map.json",
+        "build/evidence/thug2_c04/collision_query_contract.json",
+        "build/evidence/thug2_c04/grind_manual_lip_eligibility.json",
+        "build/evidence/thug2_c04/opus_world_adapter_contract.json",
+        "build/evidence/input_c08/source_action_map.json",
+        "build/evidence/input_c08/conflict_matrix.json",
+        "build/evidence/input_c08/opus_input_adapter_contract.json"
+      ],
+      "validation": ["R04","R05","R06","R08","R09"],
+      "implementation_owner": "Claude Opus"
+    },
+    "O05b": {
+      "gates": ["C05"],
+      "codex_outputs": [
+        "build/evidence/thug2_c05/camera_function_map.json",
+        "build/evidence/thug2_c05/camera_state_map.json",
+        "build/evidence/thug2_c05/state_coupling_matrix.json",
+        "build/evidence/thug2_c05/opus_camera_adapter_contract.json"
+      ],
+      "validation": ["R04","R05","R09"],
+      "implementation_owner": "Claude Opus"
+    },
+    "O06": {
+      "gates": ["C06"],
+      "also_consumes": ["reviewed C04 state vocabulary"],
+      "codex_outputs": [
+        "build/evidence/thug2_c06/animation_catalog.json",
+        "build/evidence/thug2_c06/animation_state_binding.json",
+        "build/evidence/thug2_c06/skeleton_bone_contract.json",
+        "build/evidence/thug2_c06/board_attachment_state_machine.json",
+        "build/evidence/thug2_c06/opus_retarget_contract.json"
+      ],
+      "validation": ["R04","R06","R07","R09"],
+      "implementation_owner": "Claude Opus"
+    },
+    "O07": {
+      "gates": ["C07"],
+      "also_consumes": ["reviewed C04 gameplay event vocabulary"],
+      "codex_outputs": [
+        "build/evidence/thug2_c07/hud_surface_manifest.json",
+        "build/evidence/thug2_c07/gameplay_event_binding.json",
+        "build/evidence/thug2_c07/ui_asset_font_manifest.json",
+        "build/evidence/thug2_c07/scaling_layout_contract.json",
+        "build/evidence/thug2_c07/opus_ui_adapter_contract.json"
+      ],
+      "validation": ["R04","R06","R09"],
+      "implementation_owner": "Claude Opus"
+    }
+  },
+  "codex_role": "investigation/evidence and later runtime validation only",
+  "opus_role": "sole implementation/integration owner"
+}
