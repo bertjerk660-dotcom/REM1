@@ -10,23 +10,23 @@ This score exists because earlier milestone documents correctly avoided unsuppor
 |---|---:|---:|---:|---|
 | Product goal / architecture / ownership clarity | 10 | 10 | 10 | Goal, architecture, authority map and agent ownership are explicit. |
 | Source / asset provenance and staging | 15 | 13 | 15 | Strong GMod/HL/THUG2 inventories; phase-4 prop evidence is reconciled and current GMod/THUG2/FNV-skeleton hashes were re-checked on the local machine. |
-| Branch reconciliation / durable project memory | 10 | 5 | 8 | Runtime candidates remain quarantined; high-value branch-only prop/manifests are now classified. Main still does not contain the full coordination layer, so canonical promotion remains deliberate future work. |
+| Branch reconciliation / durable project memory | 10 | 5 | 9 | Runtime candidates remain quarantined; high-value branch-only evidence is classified and a selective canonical-promotion plan now defines exactly what may move without wholesale merging specialist/runtime branches. |
 | Codex implementation-grade evidence completeness | 30 | 7 | 7 | This cannot be increased by the workflow lane. C01-C08 result packages are still the dominant blocker. Existing source inventories and partial Physgun/THUG2 evidence earn partial credit only. |
-| Opus implementation packet readiness | 15 | 8 | 14 | Launch order, evidence intake gates, hardened implementation/fix packet templates and a machine-readable candidate-manifest template are now explicit. Most system packages still await Codex evidence. |
+| Opus implementation packet readiness | 15 | 8 | 15 | Launch order, evidence intake gates and templates are explicit, and O01 Toolgun presentation now has a fully hash-verified READY FOR OPUS packet. Most behavior/system packages still await Codex evidence. |
 | Acceptance / deterministic validation preparation | 10 | 9 | 10 | Acceptance matrix and Codex runtime packs are already strong; package intake now requires exact candidate identity and regression obligations. |
 | Runtime-candidate / baseline safety | 5 | 5 | 5 | v84-v92 and historical branches stay quarantined; version number never overrides runtime evidence. |
 | Opus launch/runbook clarity | 5 | 1 | 5 | New launch sequence and package intake checklist remove ambiguity about what Opus may start and what must wait. |
-| **TOTAL** | **100** | **58** | **74** | |
+| **TOTAL** | **100** | **58** | **76** | |
 
 ## Headline
 
 **Before this workflow pass: 58% Opus-preparation ready.**
 
-**After this workflow pass: 74% Opus-preparation ready.**
+**After this workflow pass: 76% Opus-preparation ready.**
 
-This is a **+16 percentage-point preparation gain** produced only by coordination/reconciliation/handoff work. It does not pretend that missing reverse-engineering evidence has been solved.
+This is a **+18 percentage-point preparation gain** produced only by coordination/reconciliation/handoff work. It does not pretend that missing reverse-engineering evidence has been solved.
 
-## What the 74% does and does not mean
+## What the 76% does and does not mean
 
 It means:
 - the desired product is well specified;
@@ -37,11 +37,11 @@ It means:
 - Opus handoffs can be composed consistently as Codex evidence arrives;
 - validation expectations are already defined.
 
-It does **not** mean 74% of the game is implemented.
-It does **not** mean 74% of the final runtime is validated.
+It does **not** mean 76% of the game is implemented.
+It does **not** mean 76% of the final runtime is validated.
 It does **not** mean C01-C08 are complete.
 
-## Why the remaining 26% cannot all be closed by normal ChatGPT
+## Why the remaining 24% cannot all be closed by normal ChatGPT
 
 The largest remaining block is the 23 unearned points inside the 30-point Codex evidence category. Normal workflow work must not invent:
 - GMod Q-menu function/dependency traces;
@@ -63,7 +63,7 @@ The remaining non-Codex preparation gap consists mainly of:
 ## Subsystem gate reality
 
 Current Opus package state remains:
-- O01 Toolgun presentation: **READY WITH PREFLIGHT**.
+- O01 Toolgun presentation: **READY FOR OPUS**.
 - O08 model/asset visual work: **PARTIAL / package-specific**.
 - O02/O03/O04/O05/O05b/O06/O07/O07b: **WAITING FOR CODEX**.
 - O09 polish/fixes: waits for implemented candidates + Codex runtime failures.
