@@ -1,0 +1,93 @@
+{
+  "schema": "rem.codex_readiness_output_contract.v1",
+  "date": "2026-10-07",
+  "note": "Structural presence/JSON validity only. Passing this contract never substitutes for normal-GPT semantic evidence review against the original stop condition.",
+  "packages": {
+    "C01": {
+      "points": 3,
+      "required": [
+        "context/CODEX/GMOD_QMENU_C01_EVIDENCE_2026-10-07.md",
+        "build/evidence/gmod_qmenu_c01/function_map.json",
+        "build/evidence/gmod_qmenu_c01/dependency_manifest.json",
+        "build/evidence/gmod_qmenu_c01/ui_state_machine.json",
+        "build/evidence/gmod_qmenu_c01/opus_interface_contract.json"
+      ]
+    },
+    "C02": {
+      "points": 3,
+      "required": [
+        "context/CODEX/GMOD_TOOLGUN_C02_EVIDENCE_2026-10-07.md",
+        "build/evidence/gmod_toolgun_c02/function_map.json",
+        "build/evidence/gmod_toolgun_c02/tool_registry_manifest.json",
+        "build/evidence/gmod_toolgun_c02/remover_dependency_graph.json",
+        "build/evidence/gmod_toolgun_c02/duplicator_dependency_graph.json",
+        "build/evidence/gmod_toolgun_c02/opus_interface_contract.json"
+      ]
+    },
+    "C03": {
+      "points": 3,
+      "required": [
+        "context/CODEX/GMOD_PHYSGUN_C03_EVIDENCE_2026-10-07.md",
+        "build/evidence/gmod_physgun_c03/viewmodel_provenance.json",
+        "build/evidence/gmod_physgun_c03/native_behavior_map.json",
+        "build/evidence/gmod_physgun_c03/audio_visual_state_map.json",
+        "build/evidence/gmod_physgun_c03/fnv_failure_delta.json",
+        "build/evidence/gmod_physgun_c03/opus_interface_contract.json"
+      ]
+    },
+    "C04": {
+      "points": 3,
+      "required": [
+        "context/CODEX/THUG2_C04_SKATE_STATE_PHYSICS_EVIDENCE_2026-10-07.md",
+        "build/evidence/thug2_c04/master_state_machine.json",
+        "build/evidence/thug2_c04/movement_physics_map.json",
+        "build/evidence/thug2_c04/collision_query_contract.json",
+        "build/evidence/thug2_c04/grind_manual_lip_eligibility.json",
+        "build/evidence/thug2_c04/opus_world_adapter_contract.json"
+      ]
+    },
+    "C05": {
+      "points": 2,
+      "required": [
+        "context/CODEX/THUG2_C05_CAMERA_EVIDENCE_2026-10-07.md",
+        "build/evidence/thug2_c05/camera_function_map.json",
+        "build/evidence/thug2_c05/camera_state_map.json",
+        "build/evidence/thug2_c05/state_coupling_matrix.json",
+        "build/evidence/thug2_c05/opus_camera_adapter_contract.json"
+      ]
+    },
+    "C06": {
+      "points": 2,
+      "required": [
+        "context/CODEX/THUG2_C06_ANIMATION_BOARD_EVIDENCE_2026-10-07.md",
+        "build/evidence/thug2_c06/animation_catalog.json",
+        "build/evidence/thug2_c06/animation_state_binding.json",
+        "build/evidence/thug2_c06/skeleton_bone_contract.json",
+        "build/evidence/thug2_c06/board_attachment_state_machine.json",
+        "build/evidence/thug2_c06/opus_retarget_contract.json"
+      ]
+    },
+    "C07": {
+      "points": 2,
+      "required": [
+        "context/CODEX/THUG2_C07_HUD_UI_EVIDENCE_2026-10-07.md",
+        "build/evidence/thug2_c07/hud_surface_manifest.json",
+        "build/evidence/thug2_c07/gameplay_event_binding.json",
+        "build/evidence/thug2_c07/ui_asset_font_manifest.json",
+        "build/evidence/thug2_c07/scaling_layout_contract.json",
+        "build/evidence/thug2_c07/opus_ui_adapter_contract.json"
+      ]
+    },
+    "C08": {
+      "points": 1,
+      "required": [
+        "context/CODEX/C08_UNIFIED_INPUT_EVIDENCE_2026-10-07.md",
+        "build/evidence/input_c08/source_action_map.json",
+        "build/evidence/input_c08/keyboard_mouse_map.json",
+        "build/evidence/input_c08/xbox_map.json",
+        "build/evidence/input_c08/conflict_matrix.json",
+        "build/evidence/input_c08/opus_input_adapter_contract.json"
+      ]
+    }
+  }
+}
