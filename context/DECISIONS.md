@@ -44,8 +44,20 @@ Accepted: 2026-10-07.
 
 Historical branch/file names containing `ASTRA`, `GPT6`, `gpt6_opus` or `*-g6` remain traceability labels only and must not dispatch new work.
 
-## D-009 Opus may investigate when necessary
-Accepted: 2026-10-07 by owner instruction, recorded by the Haiku final audit. Claude Opus may perform Codex-type investigation when necessary. The evidence must be recorded and reviewed under the Codex stop conditions. Codex remains the default investigator and runtime validator. See context/AGENT_OWNERSHIP.md.
+## D-009A Opus may investigate when necessary as an implementation exception
+Accepted: 2026-10-07 by owner instruction, recorded by the Haiku final audit. Claude Opus may perform narrowly scoped Codex-type investigation when necessary to unblock Opus-owned implementation. Codex remains the default investigator and runtime validator. Evidence must be recorded and reviewed under the same stop conditions. See `context/AGENT_OWNERSHIP.md`.
 
 ## D-010 Documentation fixes do not change the readiness score
 Accepted: 2026-10-07 by the Haiku final audit. Readiness is scored only from reviewed evidence under context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md. Contradiction fixes and added failure-protection notes improve consistency but do not raise the score.
+
+## D-011 Current reverse-engineering routing clarification
+Accepted: 2026-10-08 during documentation/provenance reconciliation.
+
+Current dispatch remains:
+- Codex = default reverse-engineering investigation/evidence closure + runtime validation/debugging;
+- Claude Opus = sole substantive implementation/integration owner;
+- normal GPT = coordination/documentation/provenance.
+
+Opus may use the D-009A investigation exception only when a narrow evidence gap is necessary to unblock its own implementation.
+
+The broader routing proposed in `prep/haiku-findings-20261007` is retained as historical findings and does not supersede D-009/D-009A unless the project owner later gives an explicit new directive.
