@@ -1,0 +1,540 @@
+{
+  "id": "w_physics",
+  "model": "models/weapons/w_physics.mdl",
+  "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics",
+  "model_components": [
+    {
+      "relative": "models/weapons/w_physics.mdl",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/w_physics.mdl",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_physics.mdl",
+      "bytes": 6256,
+      "sha256": "5C65CCD451C098DC65EDBB2DDB5B11575E8D0ED4765E9129DD75518DC1705DB6",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "70F697AC91C6A233BC35DE30968E33A0440BF49A57B8BB3D8DB14805F9D07352"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "5C65CCD451C098DC65EDBB2DDB5B11575E8D0ED4765E9129DD75518DC1705DB6"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "70F697AC91C6A233BC35DE30968E33A0440BF49A57B8BB3D8DB14805F9D07352"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\src\\models\\weapons\\w_physics.mdl",
+        "exists": true,
+        "bytes": 6256,
+        "sha256": "5C65CCD451C098DC65EDBB2DDB5B11575E8D0ED4765E9129DD75518DC1705DB6"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/weapons/w_physics.vvd",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/w_physics.vvd",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_physics.vvd",
+      "bytes": 37440,
+      "sha256": "51D01245361313796B32F00AA4F157216E5E9CC34B28EDD149A78E266CEFE4C4",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "38DFE7F75AC2C70AB4A3FE253423420525BCF614FC9F88DFE27D55C20CB8D746"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "51D01245361313796B32F00AA4F157216E5E9CC34B28EDD149A78E266CEFE4C4"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "38DFE7F75AC2C70AB4A3FE253423420525BCF614FC9F88DFE27D55C20CB8D746"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\src\\models\\weapons\\w_physics.vvd",
+        "exists": true,
+        "bytes": 37440,
+        "sha256": "51D01245361313796B32F00AA4F157216E5E9CC34B28EDD149A78E266CEFE4C4"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/weapons/w_physics.dx90.vtx",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/w_physics.dx90.vtx",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_physics.dx90.vtx",
+      "bytes": 12206,
+      "sha256": "281281A004F8AAAD77A6D6C489418171DC5A81F0DD74D2C573111D52CD880635",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "27636F6AE50B226A1EF309DD8A903D77344E4CA58CD9A9F9F37A1580AD03A5F6"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "281281A004F8AAAD77A6D6C489418171DC5A81F0DD74D2C573111D52CD880635"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "27636F6AE50B226A1EF309DD8A903D77344E4CA58CD9A9F9F37A1580AD03A5F6"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\src\\models\\weapons\\w_physics.dx90.vtx",
+        "exists": true,
+        "bytes": 12206,
+        "sha256": "281281A004F8AAAD77A6D6C489418171DC5A81F0DD74D2C573111D52CD880635"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/weapons/w_physics.phy",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/w_physics.phy",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_physics.phy",
+      "bytes": 2332,
+      "sha256": "6B5CF81BEBEBF1A70B1412C6045A2297DE23E2E255AE88F7902D7DE41D445CF5",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "10303965BF628C1469A4C5A6CA8B234CD9243BD50FEED0F0886D63B45C8F6FC0"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "6B5CF81BEBEBF1A70B1412C6045A2297DE23E2E255AE88F7902D7DE41D445CF5"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "10303965BF628C1469A4C5A6CA8B234CD9243BD50FEED0F0886D63B45C8F6FC0"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\src\\models\\weapons\\w_physics.phy",
+        "exists": true,
+        "bytes": 2332,
+        "sha256": "6B5CF81BEBEBF1A70B1412C6045A2297DE23E2E255AE88F7902D7DE41D445CF5"
+      },
+      "required": false
+    },
+    {
+      "relative": "models/weapons/w_physics.dx80.vtx",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/w_physics.dx80.vtx",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_physics.dx80.vtx",
+      "bytes": 12206,
+      "sha256": "82388617FEF033B39F1641BA73562EF85D443E45E15C180F550C2F1FF28AC26B",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "3612EA43B67C0122ABFE4355F09D3E93DDEF3BE0118B58B890AF02EA86A8EEE9"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "82388617FEF033B39F1641BA73562EF85D443E45E15C180F550C2F1FF28AC26B"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "3612EA43B67C0122ABFE4355F09D3E93DDEF3BE0118B58B890AF02EA86A8EEE9"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\src\\models\\weapons\\w_physics.dx80.vtx",
+        "exists": true,
+        "bytes": 12206,
+        "sha256": "82388617FEF033B39F1641BA73562EF85D443E45E15C180F550C2F1FF28AC26B"
+      },
+      "required": false
+    },
+    {
+      "relative": "models/weapons/w_physics.sw.vtx",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+      "entry": "models/weapons/w_physics.sw.vtx",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\w_physics.sw.vtx",
+      "bytes": 13522,
+      "sha256": "DBFDFA321358C7888133F48331CCC7D731AEE3E8414391B292910B1ED8535A07",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "DBFDFA321358C7888133F48331CCC7D731AEE3E8414391B292910B1ED8535A07"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "DBFDFA321358C7888133F48331CCC7D731AEE3E8414391B292910B1ED8535A07"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\src\\models\\weapons\\w_physics.sw.vtx",
+        "exists": true,
+        "bytes": 13522,
+        "sha256": "DBFDFA321358C7888133F48331CCC7D731AEE3E8414391B292910B1ED8535A07"
+      },
+      "required": false
+    },
+    {
+      "relative": "models/weapons/w_physics.ani",
+      "resolved": false,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\src\\models\\weapons\\w_physics.ani",
+        "exists": false,
+        "bytes": null,
+        "sha256": null
+      },
+      "required": false
+    }
+  ],
+  "materials": [
+    {
+      "relative": "materials/models/weapons/w_physics/w_physics_sheet.vmt",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+      "entry": "materials/models/weapons/w_physics/w_physics_sheet.vmt",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\w_physics\\w_physics_sheet.vmt",
+      "bytes": 105,
+      "sha256": "35F54EB4C60B0C46AC8B08FD08517754FD010B7296D53AD26798FBFEF6FFEB40",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "35F54EB4C60B0C46AC8B08FD08517754FD010B7296D53AD26798FBFEF6FFEB40"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "35F54EB4C60B0C46AC8B08FD08517754FD010B7296D53AD26798FBFEF6FFEB40"
+        }
+      ],
+      "staged_match": null,
+      "references": [
+        {
+          "key": "$basetexture",
+          "relative": "materials/models/weapons/w_physics/w_physics_sheet.vtf"
+        }
+      ]
+    },
+    {
+      "relative": "materials/models/weapons/w_physics/w_physics_sheet.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+      "entry": "materials/models/weapons/w_physics/w_physics_sheet.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\w_physics\\w_physics_sheet.vtf",
+      "bytes": 87600,
+      "sha256": "63549BBA356418959CF93BA8736E9EC49A97BAE84394242152271D33E8C2FB6F",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_textures_dir.vpk",
+          "sha256": "63549BBA356418959CF93BA8736E9EC49A97BAE84394242152271D33E8C2FB6F"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+          "sha256": "63549BBA356418959CF93BA8736E9EC49A97BAE84394242152271D33E8C2FB6F"
+        }
+      ],
+      "staged_match": null
+    }
+  ],
+  "qc": [
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\w_physics.qc",
+        "exists": true,
+        "bytes": 2824,
+        "sha256": "D85E725674CBF670FAC839E1349E3401D19F0073463B925A5C3A1B61A2634C44"
+      },
+      "bbox": [
+        "-2.679 -6.644 -2.354 28.886 12.391 8.116"
+      ],
+      "surfaceprop": [
+        "weapon"
+      ],
+      "mass": [
+        "10"
+      ],
+      "concave": false,
+      "collision_smd": [
+        "w_physics_physics.smd"
+      ],
+      "sequence_names": [
+        "idle",
+        "attack1",
+        "upgrade",
+        "prong_blend"
+      ],
+      "attachment_names": [
+        "core",
+        "fork1m",
+        "fork1t",
+        "fork2m",
+        "fork2t",
+        "fork3m",
+        "fork3t"
+      ],
+      "bone_names": [
+        "ValveBiped.Bip01_R_Hand",
+        "ValveBiped.bone",
+        "ValveBiped.Core",
+        "ValveBiped.Prong1",
+        "ValveBiped.Prong3",
+        "ValveBiped.Prong2"
+      ],
+      "included_models": [],
+      "max_convex_pieces": []
+    }
+  ],
+  "geometry": [
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\HL2DM_gravgun_reference.smd",
+        "exists": true,
+        "bytes": 140102,
+        "sha256": "A9A8B299E6793D354E090BEFE6C75F6489BD85DD2213F5CEE2B85C830DC04A60"
+      },
+      "triangles": 467,
+      "materials": [
+        "w_physics_sheet"
+      ],
+      "bounds_min": [
+        -6.397356,
+        -26.636501,
+        -4.086717
+      ],
+      "bounds_max": [
+        12.140982,
+        4.428522,
+        5.865733
+      ],
+      "dimensions": [
+        18.538338,
+        31.065023,
+        9.952449999999999
+      ],
+      "units": "source SMD coordinates; FNV scale not approved"
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\HL2DM_gravgun_reference_lod1.smd",
+        "exists": true,
+        "bytes": 87476,
+        "sha256": "5D6CE32E99E33F0682707A715E1B691B23E892D90D57D96F9FF61B2CDD88A7FB"
+      },
+      "triangles": 291,
+      "materials": [
+        "w_physics_sheet"
+      ],
+      "bounds_min": [
+        -6.397356,
+        -26.559227,
+        -4.086717
+      ],
+      "bounds_max": [
+        12.140982,
+        4.428522,
+        5.865733
+      ],
+      "dimensions": [
+        18.538338,
+        30.987749,
+        9.952449999999999
+      ],
+      "units": "source SMD coordinates; FNV scale not approved"
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\w_physics_physics.smd",
+        "exists": true,
+        "bytes": 17643,
+        "sha256": "1DF13CFF1E308B2BAF883F9EA3141756A4F4B793294C5975FFFA3FC62DD605FD"
+      },
+      "triangles": 80,
+      "materials": [
+        "phy"
+      ],
+      "bounds_min": [
+        -8.450516,
+        2.090897,
+        -6.795495
+      ],
+      "bounds_max": [
+        9.687604,
+        33.415922,
+        4.868879
+      ],
+      "dimensions": [
+        18.13812,
+        31.325025000000004,
+        11.664373999999999
+      ],
+      "units": "source SMD coordinates; FNV scale not approved"
+    }
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\HL2DM_gravgun_reference.smd",
+      "exists": true,
+      "bytes": 140102,
+      "sha256": "A9A8B299E6793D354E090BEFE6C75F6489BD85DD2213F5CEE2B85C830DC04A60",
+      "relative": "decompiled/HL2DM_gravgun_reference.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\HL2DM_gravgun_reference_lod1.smd",
+      "exists": true,
+      "bytes": 87476,
+      "sha256": "5D6CE32E99E33F0682707A715E1B691B23E892D90D57D96F9FF61B2CDD88A7FB",
+      "relative": "decompiled/HL2DM_gravgun_reference_lod1.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\w_physics.qc",
+      "exists": true,
+      "bytes": 2824,
+      "sha256": "D85E725674CBF670FAC839E1349E3401D19F0073463B925A5C3A1B61A2634C44",
+      "relative": "decompiled/w_physics.qc",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\w_physics_anims\\attack1.smd",
+      "exists": true,
+      "bytes": 621,
+      "sha256": "CA3845437385C4075ED3338B84D458D8A62E15EF512084CBDB01E0319F8E7D5C",
+      "relative": "decompiled/w_physics_anims/attack1.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\w_physics_anims\\idle.smd",
+      "exists": true,
+      "bytes": 621,
+      "sha256": "CA3845437385C4075ED3338B84D458D8A62E15EF512084CBDB01E0319F8E7D5C",
+      "relative": "decompiled/w_physics_anims/idle.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\w_physics_anims\\ProngsOpen.smd",
+      "exists": true,
+      "bytes": 623,
+      "sha256": "E9E8C3DC3BD5593DE0AAC5AA2C5B0C92E5D74FEDDDACC0FA8D8E47D48DEC507E",
+      "relative": "decompiled/w_physics_anims/ProngsOpen.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\w_physics_anims\\ProngsShut.smd",
+      "exists": true,
+      "bytes": 621,
+      "sha256": "B1B4DB334F7ED53924194CBD00D052AE00AE13C1443944146DA465D74A7B299A",
+      "relative": "decompiled/w_physics_anims/ProngsShut.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\w_physics_anims\\upgrade.smd",
+      "exists": true,
+      "bytes": 621,
+      "sha256": "CA3845437385C4075ED3338B84D458D8A62E15EF512084CBDB01E0319F8E7D5C",
+      "relative": "decompiled/w_physics_anims/upgrade.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\decompiled\\w_physics_physics.smd",
+      "exists": true,
+      "bytes": 17643,
+      "sha256": "1DF13CFF1E308B2BAF883F9EA3141756A4F4B793294C5975FFFA3FC62DD605FD",
+      "relative": "decompiled/w_physics_physics.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\materials\\_tga\\w_physics_sheet.tga",
+      "exists": true,
+      "bytes": 262695,
+      "sha256": "2C695060F66EF96D691E452956B238679A60FBD12394303E8D42DC037A847F41",
+      "relative": "materials/_tga/w_physics_sheet.tga",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\materials\\materials\\models\\weapons\\w_physics\\w_physics_sheet.vmt",
+      "exists": true,
+      "bytes": 105,
+      "sha256": "35F54EB4C60B0C46AC8B08FD08517754FD010B7296D53AD26798FBFEF6FFEB40",
+      "relative": "materials/materials/models/weapons/w_physics/w_physics_sheet.vmt",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\materials\\materials\\models\\weapons\\w_physics\\w_physics_sheet.vtf",
+      "exists": true,
+      "bytes": 87600,
+      "sha256": "63549BBA356418959CF93BA8736E9EC49A97BAE84394242152271D33E8C2FB6F",
+      "relative": "materials/materials/models/weapons/w_physics/w_physics_sheet.vtf",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\src\\models\\weapons\\w_physics.dx80.vtx",
+      "exists": true,
+      "bytes": 12206,
+      "sha256": "82388617FEF033B39F1641BA73562EF85D443E45E15C180F550C2F1FF28AC26B",
+      "relative": "src/models/weapons/w_physics.dx80.vtx",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\src\\models\\weapons\\w_physics.dx90.vtx",
+      "exists": true,
+      "bytes": 12206,
+      "sha256": "281281A004F8AAAD77A6D6C489418171DC5A81F0DD74D2C573111D52CD880635",
+      "relative": "src/models/weapons/w_physics.dx90.vtx",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\src\\models\\weapons\\w_physics.mdl",
+      "exists": true,
+      "bytes": 6256,
+      "sha256": "5C65CCD451C098DC65EDBB2DDB5B11575E8D0ED4765E9129DD75518DC1705DB6",
+      "relative": "src/models/weapons/w_physics.mdl",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\src\\models\\weapons\\w_physics.phy",
+      "exists": true,
+      "bytes": 2332,
+      "sha256": "6B5CF81BEBEBF1A70B1412C6045A2297DE23E2E255AE88F7902D7DE41D445CF5",
+      "relative": "src/models/weapons/w_physics.phy",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\src\\models\\weapons\\w_physics.sw.vtx",
+      "exists": true,
+      "bytes": 13522,
+      "sha256": "DBFDFA321358C7888133F48331CCC7D731AEE3E8414391B292910B1ED8535A07",
+      "relative": "src/models/weapons/w_physics.sw.vtx",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\src\\models\\weapons\\w_physics.vvd",
+      "exists": true,
+      "bytes": 37440,
+      "sha256": "51D01245361313796B32F00AA4F157216E5E9CC34B28EDD149A78E266CEFE4C4",
+      "relative": "src/models/weapons/w_physics.vvd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__w_physics\\worker.json",
+      "exists": true,
+      "bytes": 982,
+      "sha256": "C40A5B583FEC220FB59C6C720ECE463CF61CA40675AC3ED2D9B35E329B4D5493",
+      "relative": "worker.json",
+      "previous_hash_matches": true
+    }
+  ],
+  "implementation_status": "NOT VALIDATED IN FNV",
+  "visual_owner": "Claude Opus 5.5",
+  "provenance_note": "",
+  "missing_dependencies": []
+}
