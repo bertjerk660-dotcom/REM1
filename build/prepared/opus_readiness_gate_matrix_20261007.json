@@ -140,7 +140,7 @@
     }
   },
   "gmod_evidence_source_commit": "19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0",
-  "next_codex_packet": "context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md",
+  "next_codex_packet": "context/HANDOFFS/NEXT_CODEX_REQUEST_THUG2_C04_2026-10-07.md",
   "promotion_rule": "No package becomes VALIDATED until exact candidate runtime/regression gates pass.",
   "visual_source_validation": {
     "pass": true,
@@ -150,5 +150,7 @@
   },
   "preparation_branch": "prep/opus-ready-20261007",
   "remaining_readiness_points": 19,
-  "remaining_tracker_issue": 5
+  "remaining_tracker_issue": 5,
+  "existing_parallel_codex_packet": "context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md",
+  "next_codex_reason": "C04 is the THUG2 state-vocabulary dependency hub; the broad GMod investigation is already complete and its remaining C01-C03 closure has a separate existing packet."
 }
