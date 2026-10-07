@@ -1,0 +1,181 @@
+{
+  "schema": "rem.gmod_unresolved_dependencies.v1",
+  "date": "2026-10-07",
+  "status": "support_evidence_runtime_integration_pending",
+  "items": [
+    {
+      "id": "U01",
+      "component": "Native UI/input call graph",
+      "status": "unresolved",
+      "next_evidence": "Installed Q/C +menu/+menu_context bindings and Lua lifecycle endpoints are verified. Identify build-specific native +menu/-menu/+menu_context/-menu_context registration, dispatch and hook invocation, plus focus services.",
+      "report": "context/GMOD_2026-10-07/IDA68_NATIVE_REPORT.md",
+      "evidence_limit": "Native addresses not established merely by matching Lua callback names.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U02",
+      "component": "Executable GMOD Lua environment",
+      "status": "unresolved",
+      "next_evidence": "Host the installed dialect and required original Lua modules/globals/metatables/realms while keeping original files preserved.",
+      "report": "context/GMOD_2026-10-07/INTEGRATION_BOUNDARY.md",
+      "evidence_limit": "Stock Lua and file staging alone do not execute the original UI.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U03",
+      "component": "Native VGUI/Derma backend",
+      "status": "unresolved",
+      "next_evidence": "Implement verified panel/layout/focus/skin/event/clipping primitives required by original scripts over the FNV graphics/input host.",
+      "report": "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md",
+      "evidence_limit": "No source-faithful running Derma host established by this pass.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U04",
+      "component": "Model image and SpawnIcon native service",
+      "status": "unresolved",
+      "next_evidence": "Map exact native icon cache/generation and model preview APIs, skin/bodygroup/camera identities, and rendering results.",
+      "report": "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md",
+      "evidence_limit": "Fallback previews and source models are evidence inputs, not original native icon behavior.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U05",
+      "component": "Physics Gun first-person model",
+      "status": "unresolved",
+      "next_evidence": "Reconcile declared v_physics assets missing from earlier mounts with actual native/current-build presentation and package identities.",
+      "report": "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md",
+      "evidence_limit": "Do not substitute another model as proof without native/source evidence.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U06",
+      "component": "Native Physgun branches",
+      "status": "unresolved",
+      "next_evidence": "Current partial native fields/controller/input/material evidence does not close virtual attack labels, acquisition trace, release/freeze/reload branching, final renderer/color/draw-hook caller, sound loops or current view-model selection. Separate inherited gravity-gun interaction outputs from actual Physgun attack paths.",
+      "report": "context/GMOD_2026-10-07/IDA68_NATIVE_REPORT.md",
+      "evidence_limit": "String xrefs alone do not prove function semantics or input binding.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U07",
+      "component": "Source material/render semantics",
+      "status": "unresolved",
+      "next_evidence": "Preserve material proxies, tint/blend/depth/texture filtering, original fonts, tool render targets, beam and halo passes on FNV graphics.",
+      "report": "context/GMOD_2026-10-07/INTEGRATION_BOUNDARY.md",
+      "evidence_limit": "No lookalike asset or generic projectile substitute authorized.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U08",
+      "component": "Actor/ragdoll/target identity bridge",
+      "status": "unresolved",
+      "next_evidence": "Validate acquired FNV actor/ref, appropriate ragdoll physical body, target-local grab offset and restoration/cleanup.",
+      "report": "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md",
+      "evidence_limit": "Human report says actor effect hits player; no runtime correction claimed.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U09",
+      "component": "Input/render regressions",
+      "status": "unresolved",
+      "next_evidence": "Reproduce flashing/icon/browser/E-key conflicts against exact active deployed version; implement repairs only after source/deployed reconciliation.",
+      "report": "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md",
+      "evidence_limit": "Code hypotheses must remain distinct from demonstrated playtest causes.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U10",
+      "component": "External prop proof gate",
+      "status": "unresolved",
+      "next_evidence": "Prove a single original external prop in FNV with texture, scale, collision and safe independent spawn before batch promotion.",
+      "report": "context/GMOD_2026-10-07/INTEGRATION_BOUNDARY.md",
+      "evidence_limit": "Converted registry/ESP records are not runtime proof.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U11",
+      "component": "Runtime mount precedence",
+      "status": "unresolved",
+      "next_evidence": "Capture actual mounted Steam content/addon/workshop precedence in GMOD; resolve dynamic content references against that observed state.",
+      "report": "context/GMOD_2026-10-07/STAGING_SUMMARY.md",
+      "evidence_limit": "Configured paths and archive existence are not proof of an active mount.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U12",
+      "component": "Duplicator/constraint host representation",
+      "status": "unresolved",
+      "next_evidence": "Represent original copy/paste records, physical bones/entities/constraints, undo/cleanup ownership and failure cleanup for explicitly supported host types.",
+      "report": "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md",
+      "evidence_limit": "Unsupported entity/constraint types must remain unresolved or explicitly unsupported.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U13",
+      "component": "Prediction and realm semantics",
+      "status": "unresolved",
+      "next_evidence": "Preserve client feedback versus server world mutation and first-predicted-action gating in the single-player bridge dispatcher.",
+      "report": "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md",
+      "evidence_limit": "Do not fire the same action once per rendered/predicted frame.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U14",
+      "component": "Presentation conversion/playtests",
+      "status": "unresolved",
+      "next_evidence": "Verify Tool Gun/Physgun first-person hands/animation, third-person/world model, inventory/drop/pickup/save-load before promotion.",
+      "report": "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md",
+      "evidence_limit": "Original asset staging is not conversion or gameplay validation.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U15",
+      "component": "Spawnlist/parser/search/editor closure",
+      "status": "unresolved",
+      "next_evidence": "Trace native spawnlist disk paths/precedence; directly read search.GetResults aggregation/ranking and the original IconEditor camera/rerender workflow.",
+      "report": "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md",
+      "evidence_limit": "Browser/providers/spawn server chain are traced; missing library/native internals remain separate.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U16",
+      "component": "Tool Gun native effect/screen/audio closure",
+      "status": "unresolved",
+      "next_evidence": "Identify ToolTracer effect implementation, native RenderScreen caller, exact Toolgun.Single event waves and all supported stool entity/constraint/control-panel dependencies.",
+      "report": "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md",
+      "evidence_limit": "Lua invocation/material names are not proof that ToolTracer is Lua or that native effect/screen dispatch was recovered.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    },
+    {
+      "id": "U17",
+      "component": "Physgun halo invocation and table traversal",
+      "status": "unresolved",
+      "next_evidence": "Read original halo module traversal and native DrawPhysgunBeam callsite; preserve installed full target-table argument, weapon-color variation and ignoreZ=false.",
+      "report": "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md",
+      "evidence_limit": "Sandbox Lua callback is traced; bOn/boneid/pos are not used by it and do not prove grab-only triggering.",
+      "substitution_allowed": false,
+      "owner": "runtime integration owner / targeted evidence follow-up"
+    }
+  ],
+  "review": {
+    "date": "2026-10-07",
+    "note": "Verified script/config evidence narrows native unknowns; no pending new IDA run output or runtime completion promoted."
+  }
+}

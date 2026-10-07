@@ -1,0 +1,178 @@
+{
+  "schema": "rem.gmod_evidence_bundle_validation.v1",
+  "scope": "strict metadata, graph links, report existence, hashes and payload exclusion; not runtime/playtest validation",
+  "pass": true,
+  "check_count": 36078,
+  "error_count": 0,
+  "errors": [],
+  "graph_nodes": 58,
+  "graph_edges": 89,
+  "required_roots": 14,
+  "input_files": [
+    {
+      "path": "manifests/gmod_2026-10-07/asset_provenance.json",
+      "sha256": "0df067a989b7f3a57d96428e422dbd8dad84db439670780ca15abba99934097e",
+      "bytes": 5404964
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/compatibility_matrix.json",
+      "sha256": "3a6b71d7c150d2e17e237382dc7f6549fd5cc48a7051a460e0d5cff70005dacc",
+      "bytes": 14588
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/configuration_inventory.json",
+      "sha256": "da216cf536c09850a12b890038f574a0a08f664d2701cc82ea349f4c3ffba892",
+      "bytes": 7895
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/dependency_graph.json",
+      "sha256": "67c761d304ce429e2142d6b916de3a406d6074b8acd556ceeadafdefc45f2fc8",
+      "bytes": 45849
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/font_inventory.json",
+      "sha256": "057e653ef3bd5df1e786205054a11c27d2ac8861dd9400fa96fb479468c9bbc8",
+      "bytes": 68079
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/font_requirements.json",
+      "sha256": "dacf5447b4764e386cdea67370960b067b393977e7218ceed651c8355e6a6b6c",
+      "bytes": 14659
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/inventory_summary.json",
+      "sha256": "6fedf5b7a11693329533e493d10552a88958820e5a8e55712ae11700ddae58ab",
+      "bytes": 12927
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/native_boundary_client.json",
+      "sha256": "7f8d20a6578027a3ae23c9296e156fe8a2d03e5a740650c0982d2d6ec6b3e7ba",
+      "bytes": 59802
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/native_boundary_server.json",
+      "sha256": "73e88fec51d0a01655d78b5112241c05d685d3e0c80358de969ec48d52377c03",
+      "bytes": 65389
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/native_functions.json",
+      "sha256": "2c51b9ec6be96a7944b2833bd162c943374090e78933f1336b2950eb260b84e9",
+      "bytes": 98269
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/native_modules.json",
+      "sha256": "cd3cf89a586a9c81b540f15afcd824790e86ce948d4d088039c91fa7c8c0c065",
+      "bytes": 61311
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/overlay_systems.json",
+      "sha256": "6b614ff61f027f9cde11040af91fc1e16478a11485cc79adcddafcd2ac21e98e",
+      "bytes": 3801
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/package_inventory.json",
+      "sha256": "c2b3c91bb4b1428e6e7e263f057474b06647301b239db820a3cca4504e566bde",
+      "bytes": 32213
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/prior_evidence_catalog.json",
+      "sha256": "41c62180489628e13045aeb2b518f543bc8b3fdc97a928fdb8828ce6586736d9",
+      "bytes": 17902
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/qmenu_evidence.json",
+      "sha256": "281aad6ee7072bd2088b6b89ffc3f4bce87742ce9b3b80a9f47dd8c5c86886cb",
+      "bytes": 42842
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/repository_snapshot.json",
+      "sha256": "7c932a42ac1cbef64c608fd19a15ba7b864ba8267be9b99997b7b4fbdd09cb4e",
+      "bytes": 14130
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/runtime_snapshot.json",
+      "sha256": "984c0b9b19d7d5a1306fe8c0fd04c18c3ce15701ea81c623a7eba9cf3a0e3e45",
+      "bytes": 3491
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/staging_validation.json",
+      "sha256": "c80049d5c6b1bf576f47c3c3c392968cf2a726b551051ec61204a21c14a73964",
+      "bytes": 573
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/toolgun_dependency_seeds.json",
+      "sha256": "812ff03a412df4f041943c8c93717d86f955c2cbf7e129f548c1c3e8e826195a",
+      "bytes": 94331
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/unresolved_dependencies.json",
+      "sha256": "0d59cdb12ac1b2189c581e977e9df07bdcdbd2a21214a38f18fe37e1202aa68b",
+      "bytes": 10183
+    },
+    {
+      "path": "manifests/gmod_2026-10-07/unresolved_staging_dependencies.json",
+      "sha256": "f8feaf49f610f390abc44b6488e1ad7cf0ab1035644223a7a1b9274f641b592d",
+      "bytes": 2220
+    },
+    {
+      "path": "context/GMOD_2026-10-07/ARCHITECTURE_REPORT.md",
+      "sha256": "f1a88cbd9a605f4cdf3b2d3a365675e8675b423169a9226dae4c74ff6b2062d1",
+      "bytes": 8789
+    },
+    {
+      "path": "context/GMOD_2026-10-07/COMPATIBILITY_MATRIX.md",
+      "sha256": "ab0c39d5fa89c4ac5fb266772eeeaeb46c6a14bce98afd30beb4db001ffbe13d",
+      "bytes": 5062
+    },
+    {
+      "path": "context/GMOD_2026-10-07/EXISTING_IMPLEMENTATION_AUDIT.md",
+      "sha256": "1a78347719bd911ae888fb87d37943f856862fea5f24fa84527835c7a824e460",
+      "bytes": 19660
+    },
+    {
+      "path": "context/GMOD_2026-10-07/IDA68_NATIVE_REPORT.md",
+      "sha256": "fced422d752d9ab859826ce75914126c3d197f690404868003f8dc5c878846b3",
+      "bytes": 22412
+    },
+    {
+      "path": "context/GMOD_2026-10-07/INTEGRATION_BOUNDARY.md",
+      "sha256": "bbf565f41e58423969e50afdaf0ab8552bab539d18990c8e96ed5ca545f8df10",
+      "bytes": 8149
+    },
+    {
+      "path": "context/GMOD_2026-10-07/OTHER_OVERLAY_SYSTEMS.md",
+      "sha256": "5c7172d39b38b082aa70874f89a76d1c8e0450d473b7d737d3a60415f39a59d6",
+      "bytes": 9484
+    },
+    {
+      "path": "context/GMOD_2026-10-07/PHYSGUN_ARCHITECTURE.md",
+      "sha256": "414fe4daf1cdc5722113b1d9bdf39d422e08d7709de01618ffedc5d2d42db760",
+      "bytes": 17060
+    },
+    {
+      "path": "context/GMOD_2026-10-07/QMENU_ARCHITECTURE.md",
+      "sha256": "0be07c2667fa3661105c81ee5ba6731083d4d48b80d1c11cabfd0a6c4c1ad745",
+      "bytes": 25568
+    },
+    {
+      "path": "context/GMOD_2026-10-07/README.md",
+      "sha256": "1f2a819362a62176a775e0703fed5476738d25ee9e76191128e024d04f845049",
+      "bytes": 5120
+    },
+    {
+      "path": "context/GMOD_2026-10-07/REPOSITORY_RECONCILIATION.md",
+      "sha256": "0ce92f3e21d0992576244d31ea0182951a14b19411f4ba740a917c3ed2aa8309",
+      "bytes": 12220
+    },
+    {
+      "path": "context/GMOD_2026-10-07/STAGING_SUMMARY.md",
+      "sha256": "30fcf6365c21bc53675bf8d53aa97c745679e3a96ad64df40f585328f173598d",
+      "bytes": 8253
+    },
+    {
+      "path": "context/GMOD_2026-10-07/TOOLGUN_ARCHITECTURE.md",
+      "sha256": "c974351678ca1d1df3ca905c810a0918c308e9dd502d9fb537dd4d64c58852eb",
+      "bytes": 30909
+    }
+  ]
+}

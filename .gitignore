@@ -1,0 +1,4 @@
+# Proprietary originals and complete local installation inventory are local-only.
+/build/prepared/gmod_dependency_20261007/
+/research/__pycache__/
+/.local_gmod_evidence/

@@ -1,0 +1,69 @@
+{
+  "schema": "rem.gmod_runtime_readonly_snapshot.v1",
+  "captured_at_utc": "2026-10-07T05:16:57Z",
+  "purpose": "Independent support-pass baseline. SHA mismatch with stale canonical v81 is recorded, not overwritten.",
+  "files": [
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\main.cpp",
+      "bytes": 237209,
+      "mtime_utc": "2026-10-06T19:21:40.4395250Z",
+      "sha256": "4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_overlay.inc",
+      "bytes": 31840,
+      "mtime_utc": "2026-10-05T14:48:12.4391715Z",
+      "sha256": "E6EF0C484AFDDC1A74C02F6BA8A72CD0899D6E80F5BA5459CD61B9C67183250F"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\NVSE\\Plugins\\FNVGModTHUG2.dll",
+      "bytes": 908800,
+      "mtime_utc": "2026-10-06T19:22:26.3874107Z",
+      "sha256": "D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_GModTHUG2.esp",
+      "bytes": 50315,
+      "mtime_utc": "2026-10-05T16:45:24.6220000Z",
+      "sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7"
+    }
+  ],
+  "source_version_metadata": {
+    "NVSEPlugin_Query_info_version": 85,
+    "load_log_label": "version 85 support-patch combine-autogive",
+    "evidence": "main.cpp lines 7008-7044 inspected from current supplied source; deployed binary provenance is tracked by hash, not assumed from source alone"
+  },
+  "gameplay_validation": "not performed",
+  "runtime_mutation": "none",
+  "end_of_pass_comparison": {
+    "captured_at_utc": "2026-10-07T10:34:48.7732809Z",
+    "source": "Windows Get-FileHash SHA256 and Get-Item",
+    "all_four_files_match_baseline": true,
+    "checks": [
+      {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\main.cpp",
+        "baseline_sha256": "4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE",
+        "observed_sha256": "4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE",
+        "match": true
+      },
+      {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\third_party\\NVSE-6.4.9\\fnv_gmod_thug2_plugin\\gmod_overlay.inc",
+        "baseline_sha256": "E6EF0C484AFDDC1A74C02F6BA8A72CD0899D6E80F5BA5459CD61B9C67183250F",
+        "observed_sha256": "E6EF0C484AFDDC1A74C02F6BA8A72CD0899D6E80F5BA5459CD61B9C67183250F",
+        "match": true
+      },
+      {
+        "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\NVSE\\Plugins\\FNVGModTHUG2.dll",
+        "baseline_sha256": "D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206",
+        "observed_sha256": "D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206",
+        "match": true
+      },
+      {
+        "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_GModTHUG2.esp",
+        "baseline_sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+        "observed_sha256": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+        "match": true
+      }
+    ]
+  }
+}

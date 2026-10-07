@@ -1,0 +1,41 @@
+# Original GMOD dependency inventory and staging — 2026-10-07
+
+This is a support preparation pass. It does not change game files, deployed plugins, runtime integration, or unrelated THUG2 work. Original payloads are local-only; the canonical repository receives authored tooling, provenance metadata, hashes, and findings.
+
+## Reconciled prior preparation
+
+The existing local `build/prepared/gmod_qmenu_source_inventory/summary.json` reports 105 Lua files, 40 stools, 46 instantiated VGUI classes, and 29 resolved direct UI/material references. Its installed GMOD VPK directory has 15,441 entries and SHA-256 `A3237FC7442C6C57AA924525951280F1381BC641D323B6ED4CE52FD5BE09F83E`. This is an inventory result; it does not prove originals were copied. The `build/gmod_spawnmenu_original` directory was empty when inspected by the root agent.
+
+The earlier `gmod_tool_physgun_asset_handoff/manifest.json` reports 36 requested exact dependencies, 33 resolved, and three absent source files: `models/weapons/v_physics.mdl`, `.vvd`, and `.dx90.vtx`. The new pass re-resolves these against the installation and does not substitute a different first-person model. Original Tool Gun and Physics Gun source packages under `pre_opus_20261006/source_payload` and `gmod_hl_weapon_models/packages` are eligible for reuse only after their bytes hash identically to the newly resolved installed original.
+
+## Reproducible pass
+
+The authored [inventory/staging tool](../../research/gmod_dependency_inventory.py) accepts explicit game, project, and output roots. Run it on the Windows source machine with `--stage`; the approved output is the support-only `build/prepared/gmod_dependency_20261007` directory. Its inventory walks the supplied installation and classifies loose executables/modules, Lua subtrees, models and companions, materials/textures/icons, audio, fonts, resources/configuration, shaders, VPKs, and GMAD archives. Important module, configuration, font, and VPK directory identities are hashed. Other payloads are hashed when selected into the dependency closure.
+
+The staged subset starts from the existing relevant subsystem manifests and exact trace-confirmed original paths. It follows literal Lua includes, registered VGUI/Derma class references, original model companions/MDL material-table paths, VMT texture/patch references, weapon/player colour proxies, and named sound definitions and their wave paths. Sandbox spawnmenu/context-menu/stool and original spawnlist directories are treated as dynamically loaded registries rather than arbitrarily selecting a few files from each.
+
+VPK extraction reconstructs directory preload bytes plus archive body bytes, validates the full entry CRC-32, and preserves internal paths. Directory and selected archive body SHA-256 values identify the supplying packages. Existing originals are reused by verified content hash; differing destinations are never overwritten. Every provenance entry records path, size, SHA-256, subsystem, reason, dependencies, staging status, and `commit_safe: false`. No archive is bulk-extracted.
+
+## Execution checkpoints
+
+The first source-machine pass (`20261007.3`, completed `2026-10-07T05:45:37Z`) inventoried 3,014 loose files, nine VPK directories containing 78,051 entries, 50 GMAD archives containing 9,573 entries, and 166 executable/native modules. It staged 1,326 originals totaling 33,124,553 bytes and reused 17 verified prior originals totaling 2,305,926 bytes. It validated 1,137 archive entry CRCs; source/destination hashes matched and the tool recorded no read/extraction errors.
+
+That initial pass listed 47 unresolved entries. Thirty were duplicate include-path aliases for already staged `gamemodes/...` files, and several others were wildcard registries, material prefixes, or exploratory filenames. They are not evidence of missing original assets. The next pass corrects those classifications and enforces declared original GMOD package precedence before fallback packages. Package-priority conflicts preserve the first-pass file and stage the newly selected exact original under a package-specific directory rather than overwriting it.
+
+The final validated pass is `20261007.7`. It has 2,981 manifest entries: 2,969 resolved originals totaling 92,567,506 bytes and 12 explicitly absent entries. The last pass reused 2,926 verified originals from this session's local stage (86,685,938 bytes), reused 27 verified originals from older preparation (3,357,776 bytes), and newly staged 16 originals (2,523,792 bytes). Thus the final selection references 2,942 originals in this session's stage totaling 89,209,730 bytes, plus the 27 older originals. These figures describe the final selected dependency set and last-pass actions; they do not count retained superseded package variants or infer cumulative copies by adding rerun counts.
+
+Validation recorded 2,732 verified archive-entry CRCs, zero extraction/read errors, zero source/destination hash mismatches, and `commit_safe: false` for every proprietary payload entry. The supplied installation totals remain 3,014 loose files, nine VPK directories / 78,051 entries, 50 GMAD archives / 9,573 entries, and 166 executable/native modules. Full indexes remain local; the canonical repository stores the generated provenance and relevant identity metadata.
+
+The final pass includes the exact original Sandbox selection/removal effect scripts, original Physgun/halo script hook references, and original named sound event definitions and waves. Shared Gravity Gun sprite materials are recorded as candidates; their presence does not prove they implement Physics Gun rendering. An event name does not prove continuous held-beam loop behavior. Declared `sourceengine/hl2_*` packages are selected before optional content and fallback packages; runtime mount priority is still not established by this offline pass.
+
+Original SFNT name tables establish family aliases for staged fonts; filenames alone never establish a mapping. Literal original `surface.CreateFont` requests are linked to those family records in `font_requirements.json`, including the Tool Gun's original Roboto family. Requested families not present in supplied game resources remain host font-interface requirements. No Windows system fonts were copied and no replacement fonts were created.
+
+The six unresolved original dependency paths are the `v_physics` model triplet, `sound/weapons/physgun_on.wav`, `sound/weapons/flaregun/impact.wav`, and `materials/phoenix_storms/thruster_bump.vtf`. Six absent exploratory filenames have the separate `unverified_seed_source_absent` status and must not be treated as established original requirements. Native interfaces, dynamic loading and rendering/font behavior remain separate open boundaries even when an original file resolves.
+
+The durable [synthetic extractor checks](../../research/test_gmod_dependency_inventory.py) pass: VPK external/inline preload-plus-body reconstruction and CRC, original VMT/VTF dependency closure, exact prior-payload reuse, GMAD directory-only indexing, repeat-run preservation, rejection of changed destinations and corrupted archive content, and traversal rejection. Every test fixture byte is project-authored. These checks validate extraction/provenance mechanics, not GMOD gameplay or the Fallout integration.
+
+## Output contracts and unresolved boundaries
+
+Repository-safe deliverables are `inventory_summary.json`, `asset_provenance.json` (`entries[]`), and `staging_validation.json`, together with relevant installed-module/font/package/configuration metadata. Full installation inventory and archive indexes can remain local when too large. The output folder's `original_payload` tree and any hash-verified prior payload paths remain local only.
+
+The closure is explicitly `incomplete_native_and_dynamic_boundaries`. Runtime mount priorities, active Steam game mounts/addons, generated SpawnIcons/render targets, Source shaders, engine-provided VGUI controls, system fonts, dynamic Lua/global GLua APIs, and native physics/render/input routines require separate evidence. GMAD addon directories are indexed without mounting or copying their payloads. A resolved path from an installed archive does not itself prove that archive is mounted in the running game.

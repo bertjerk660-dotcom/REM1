@@ -94,3 +94,10 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Verify save/load.
 - Verify normal inventory and combat behavior outside imported modes.
 - Check for progression-breaking regressions.
+
+
+## 2026-10-07 original GMOD evidence handoff
+
+Use [GMOD_2026-10-07/README.md](GMOD_2026-10-07/README.md), its original-system reports, dependency graph, provenance and compatibility matrix before integration. Preserve the curated prop/form library and working inventory/cleanup paths. Repair source-evidenced differences through the thin adapter: actual Q press/release/focus lifecycle; click-based tool selection and original mode identifiers; native ModelImage/SpawnIcon rendering; separate acquisition trace and held-controller state; continuous audio and acquired-actor identity.
+
+Outstanding original boundaries are indexed in [unresolved_dependencies.json](../manifests/gmod_2026-10-07/unresolved_dependencies.json). Native icon/bind/text-loader services, GLua runtime hosting, full physics/render interface labels, exact legacy Physgun viewmodel provenance, missing original sound/texture payloads and runtime mounts remain unresolved. Opus implements; Codex performs subsequent focused investigation/validation. No runtime parity is implied by staging.

@@ -1,0 +1,403 @@
+{
+  "schema": "rem.gmod_prior_evidence_catalog.v1",
+  "generated_date": "2026-10-07",
+  "repository": "bertjerk660-dotcom/REM1",
+  "scope": "Required core reads, fetched main GMOD-related packages, recovered support handoffs and three targeted support build summaries; not every lower-level proprietary staging payload or unrelated THUG2 historical manifest.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "observed_local_bytes": 1754,
+      "observed_local_sha256": "d581103b79df760f9185ec8ce69ae746449e4c5711c13581b7829e96bf9aadae",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/BOOTSTRAP.md",
+      "observed_local_bytes": 833,
+      "observed_local_sha256": "b1ad0b2c4de5a154012e5c062afbac19794b92b8eca91680926432b518630500",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/GOAL.md",
+      "observed_local_bytes": 6045,
+      "observed_local_sha256": "66a62feeb3e7101dc2b09ebe37279977af067395e7244b9592b036b154f13bcb",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/ARCHITECTURE.md",
+      "observed_local_bytes": 1071,
+      "observed_local_sha256": "eff8f9fdf2695fe06c3e3b31ec4bae3d594cf8d856454d109881043c992a96ca",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/CURRENT_STATE.md",
+      "observed_local_bytes": 5779,
+      "observed_local_sha256": "305ff2378e1e14600e18823002cfc22fc007ef59be7895f3ad75e076da39ce25",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/DECISIONS.md",
+      "observed_local_bytes": 3043,
+      "observed_local_sha256": "dbe8b332e3ca476909c8db1c0880eed72130bc32f1931df076dbb5f32fae30ee",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/FAILURE_KNOWLEDGE.md",
+      "observed_local_bytes": 5062,
+      "observed_local_sha256": "193729eb26a59a03e3380a824e338149468fc4b9066af052ba06e06887f48879",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/OPEN_WORK.md",
+      "observed_local_bytes": 10850,
+      "observed_local_sha256": "ad054c8f47bbb1c3d833f3bd2fcbd021187de8726c3f1ac94b8bb37860c19516",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/SUPPORT_20_POINT_TRACKER.md",
+      "observed_local_bytes": 5892,
+      "observed_local_sha256": "c72e7fad710e3a4c616ff2aca3eb9ead449a7c7ee8d36d9b3d53dcf91248e726",
+      "read_status": "read",
+      "source_ref": "492c3dc7c23bbcac9eb8c2a52b5e61e32fda775b",
+      "source_branch": "prep/support-workflow"
+    },
+    {
+      "path": "context/PIPELINE.md",
+      "observed_local_bytes": 1510,
+      "observed_local_sha256": "eae9a1206b9e26cdb0c3c6eca093db83b74431cc9ef2e5525f41ab5d9fa393a4",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/ASSET_POLICY.md",
+      "observed_local_bytes": 895,
+      "observed_local_sha256": "cee56f57ef2d699377e92905ab4859b5b9f9f1611e5e829ca1fdd3a4263534cd",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/LOCAL_WORKSPACE_INVENTORY.md",
+      "observed_local_bytes": 1606,
+      "observed_local_sha256": "0a574955783ac65a6b8bfff7bfb9eb545f73b6e9728f3aed752c1421f37f48d2",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/VALIDATION.md",
+      "observed_local_bytes": 604,
+      "observed_local_sha256": "ec696f1a55b02436cc1e49639eb94f1ca3e5068f2638464621aa88bcd88bcceb",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/HANDOFFS/GMOD_OVERLAY_EVIDENCE_2026-10-06.md",
+      "observed_local_bytes": 8912,
+      "observed_local_sha256": "cd2c1889b3a6ccec8bb251cbdd2666306d59d1113bbeba49b2d44b35050796c9",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/HANDOFFS/GPT6_OPUS_READINESS_2026-10-06.md",
+      "observed_local_bytes": 6233,
+      "observed_local_sha256": "854950829ba33f688c2043ffe8807246860a59dabd9147dee7b2aa9b861a7704",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/HANDOFFS/OPUS_5_5_EXCLUSIVE_INTEGRATION_2026-10-06.md",
+      "observed_local_bytes": 8219,
+      "observed_local_sha256": "9fc7d7f99c612d3afa75854891ea458340e724f80e88edcacad1b6cc3e9fa3d0",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/HANDOFFS/PHYSGUN_IDA68_EVIDENCE_CLOSURE.md",
+      "observed_local_bytes": 6440,
+      "observed_local_sha256": "f4373994722d604c975b6fd8d539f624113851b60070fd4ddc8dcfa6cccbbc65",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/HANDOFFS/PHYSGUN_IDA68_EVIDENCE_2026-10-06.md",
+      "observed_local_bytes": 3019,
+      "observed_local_sha256": "1928c9bcdbe364c89b6c11b4996f01f85c70cb2692dec289a3714ca09b865b2d",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/HANDOFFS/RUNTIME_INTEGRATION_MAP.md",
+      "observed_local_bytes": 3259,
+      "observed_local_sha256": "b84e5544b3fa65479e86da0e889ec6ff15d9e06e1fb1461d38b598ec7c6c1b33",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/HANDOFFS/START_HERE_GPT6_OPUS.md",
+      "observed_local_bytes": 2208,
+      "observed_local_sha256": "b2b55a1043e61e73d5c3c3d8ec120a2a16e6d120dd979c20f657ca096bb8e628",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main"
+    },
+    {
+      "path": "context/HANDOFFS/ASTRA_GMOD_QMENU.md",
+      "observed_local_bytes": 1690,
+      "observed_local_sha256": "5bbde98d26d85ac98b5abbb5fcb12ac600ac3229301c1da141c6b730dfb1d922",
+      "read_status": "read",
+      "source_ref": "492c3dc7c23bbcac9eb8c2a52b5e61e32fda775b",
+      "source_branch": "prep/support-workflow",
+      "local_adaptation": "root appended recovery provenance/current-session cross-reference; SHA is adapted local file, original blob recorded in file"
+    },
+    {
+      "path": "context/HANDOFFS/ASTRA_TOOLGUN.md",
+      "observed_local_bytes": 1395,
+      "observed_local_sha256": "5cd749b99717832898bb59e974a6dfb8d2f4e359937d99fb775f8fedf04f5933",
+      "read_status": "read",
+      "source_ref": "492c3dc7c23bbcac9eb8c2a52b5e61e32fda775b",
+      "source_branch": "prep/support-workflow",
+      "local_adaptation": "root appended recovery provenance/current-session cross-reference; SHA is adapted local file, original blob recorded in file"
+    },
+    {
+      "path": "context/HANDOFFS/ASTRA_PHYSGUN.md",
+      "observed_local_bytes": 2035,
+      "observed_local_sha256": "4ecf0b59de91151b46938bc540d272709cb2a6d226613d1a3a310a376a852701",
+      "read_status": "read",
+      "source_ref": "492c3dc7c23bbcac9eb8c2a52b5e61e32fda775b",
+      "source_branch": "prep/support-workflow",
+      "local_adaptation": "root appended recovery provenance/current-session cross-reference; SHA is adapted local file, original blob recorded in file"
+    },
+    {
+      "path": "context/HANDOFFS/ASTRA_WEAPON_MODELS.md",
+      "observed_local_bytes": 1338,
+      "observed_local_sha256": "6177f7172da49d739a94893443de84cd00f9d5a080e1761aaeda1edc59c25d57",
+      "read_status": "read",
+      "source_ref": "492c3dc7c23bbcac9eb8c2a52b5e61e32fda775b",
+      "source_branch": "prep/support-workflow",
+      "local_adaptation": "root appended recovery provenance/current-session cross-reference; SHA is adapted local file, original blob recorded in file"
+    },
+    {
+      "path": "context/ASTRA_HANDOFF_QMENU.md",
+      "observed_local_bytes": 2138,
+      "observed_local_sha256": "60719a3f536b84ea410791bf2a4fdaef2d107a69b6fd76a4504d83f19d434d90",
+      "read_status": "read",
+      "source_ref": "492c3dc7c23bbcac9eb8c2a52b5e61e32fda775b",
+      "source_branch": "prep/support-workflow"
+    },
+    {
+      "path": "context/ASTRA_HANDOFF_TOOLGUN.md",
+      "observed_local_bytes": 1440,
+      "observed_local_sha256": "cfcb0e2ab6a3c5d893ba2e1bf659e27cf26b290efb19bb0cf65703bc9891e3e1",
+      "read_status": "read",
+      "source_ref": "492c3dc7c23bbcac9eb8c2a52b5e61e32fda775b",
+      "source_branch": "prep/support-workflow"
+    },
+    {
+      "path": "context/ASTRA_HANDOFF_PHYSGUN.md",
+      "observed_local_bytes": 1420,
+      "observed_local_sha256": "a246b828d07d8c164e2bedb5de2df798f10bba982ec804e149c7130145100467",
+      "read_status": "read",
+      "source_ref": "492c3dc7c23bbcac9eb8c2a52b5e61e32fda775b",
+      "source_branch": "prep/support-workflow"
+    },
+    {
+      "path": "context/ASTRA_HANDOFF_WEAPON_PRESENTATION.md",
+      "observed_local_bytes": 1354,
+      "observed_local_sha256": "9a5dc28489bcf6c2848e1cd22e20327d8fd6958b41b25b12ee49f8a23a989e94",
+      "read_status": "read",
+      "source_ref": "492c3dc7c23bbcac9eb8c2a52b5e61e32fda775b",
+      "source_branch": "prep/support-workflow"
+    },
+    {
+      "path": "builds/gmod_qmenu_source_inventory_20261006.json",
+      "observed_local_bytes": 1443,
+      "observed_local_sha256": "cf80fa978b625e2d7666e092fa0a3aeb185df52e4fff4b8868090ec6cd68614d",
+      "read_status": "read",
+      "source_ref": "492c3dc7c23bbcac9eb8c2a52b5e61e32fda775b",
+      "source_branch": "prep/support-workflow",
+      "utf8_bom": false,
+      "strict_json_valid": true,
+      "trailing_text": null,
+      "parse_for_read_only": "ordinary JSON"
+    },
+    {
+      "path": "builds/gmod_hl_weapon_staging_audit_20261006.json",
+      "observed_local_bytes": 652,
+      "observed_local_sha256": "d57cf59d5add843e4afb84578f11bd873c75ee78bdc38efec78a0026d47fcdf0",
+      "read_status": "read",
+      "source_ref": "492c3dc7c23bbcac9eb8c2a52b5e61e32fda775b",
+      "source_branch": "prep/support-workflow",
+      "utf8_bom": false,
+      "strict_json_valid": true,
+      "trailing_text": null,
+      "parse_for_read_only": "ordinary JSON"
+    },
+    {
+      "path": "builds/gmod_prop_menu_curated_20261006.json",
+      "observed_local_bytes": 654,
+      "observed_local_sha256": "9d514f46e1a6a0c2e1b965797d481b21861f5cfb4f74acd6795c9535152cb280",
+      "read_status": "read",
+      "source_ref": "492c3dc7c23bbcac9eb8c2a52b5e61e32fda775b",
+      "source_branch": "prep/support-workflow",
+      "utf8_bom": false,
+      "strict_json_valid": true,
+      "trailing_text": null,
+      "parse_for_read_only": "ordinary JSON"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/ACCEPTANCE_GATES.json",
+      "observed_local_bytes": 700,
+      "observed_local_sha256": "eeac2121edddcca72b97556cd61ee93e51d72e52a333f15b1a3ca634c4e85721",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main",
+      "utf8_bom": true,
+      "strict_json_valid": false,
+      "trailing_text": "[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]",
+      "parse_for_read_only": "utf-8-sig plus raw_decode of leading JSON value"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/DEPENDENCY_GRAPH.json",
+      "observed_local_bytes": 1395,
+      "observed_local_sha256": "e59e020232c24079bc87572a75e97a9b0f63f68a2aaa2fe44bf10a970b1bd587",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main",
+      "utf8_bom": true,
+      "strict_json_valid": false,
+      "trailing_text": "[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]",
+      "parse_for_read_only": "utf-8-sig plus raw_decode of leading JSON value"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/MASTER_EXECUTION_QUEUE.json",
+      "observed_local_bytes": 8489,
+      "observed_local_sha256": "65128778fdb7028e85faf694607c6cdf521ac23c5233e5fc2cdc0cc0f6522854",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main",
+      "utf8_bom": true,
+      "strict_json_valid": false,
+      "trailing_text": "[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]",
+      "parse_for_read_only": "utf-8-sig plus raw_decode of leading JSON value"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/PREFLIGHT_RESULT.json",
+      "observed_local_bytes": 643,
+      "observed_local_sha256": "efc088d91452a9a9d91c3fae8ce793815b1f668f265d145b9ca3b0c3fcfe914a",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main",
+      "utf8_bom": true,
+      "strict_json_valid": false,
+      "trailing_text": "[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]",
+      "parse_for_read_only": "utf-8-sig plus raw_decode of leading JSON value"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/REGRESSION_SPEC.json",
+      "observed_local_bytes": 3468,
+      "observed_local_sha256": "3cc3a5fc309cfeb0850a3f6d265ddb3bfd3faf0cf8b0c4100eda0e95823e9507",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main",
+      "utf8_bom": true,
+      "strict_json_valid": false,
+      "trailing_text": "[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]",
+      "parse_for_read_only": "utf-8-sig plus raw_decode of leading JSON value"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/RUNTIME_INTEGRATION_MAP.json",
+      "observed_local_bytes": 8821,
+      "observed_local_sha256": "0dc953261c663345cb9ced63b82eefcf0719e9970987e38048f5fa15c7fbda12",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main",
+      "utf8_bom": true,
+      "strict_json_valid": false,
+      "trailing_text": "[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]",
+      "parse_for_read_only": "utf-8-sig plus raw_decode of leading JSON value"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/SIDECAR_STRATEGY.json",
+      "observed_local_bytes": 2389,
+      "observed_local_sha256": "12026b55c42c7a1a341ac547543cd8438386153f37e70e652241c63012fc94d7",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main",
+      "utf8_bom": true,
+      "strict_json_valid": false,
+      "trailing_text": "[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]",
+      "parse_for_read_only": "utf-8-sig plus raw_decode of leading JSON value"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/physgun/implementation_manifest.json",
+      "observed_local_bytes": 11218,
+      "observed_local_sha256": "8ee67051092e3c266a3c3ca3ca896cf1fc89be3a3965fe1611c3ddeeb6b3271f",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main",
+      "utf8_bom": true,
+      "strict_json_valid": false,
+      "trailing_text": "[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]",
+      "parse_for_read_only": "utf-8-sig plus raw_decode of leading JSON value"
+    },
+    {
+      "path": "build/handoffs/gpt6_opus/validation.json",
+      "observed_local_bytes": 551,
+      "observed_local_sha256": "d09ae1b4b54ced0e9863772a6900afdcdcca4b4eaf8d7258a552754c42880891",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main",
+      "utf8_bom": true,
+      "strict_json_valid": false,
+      "trailing_text": "[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]",
+      "parse_for_read_only": "utf-8-sig plus raw_decode of leading JSON value"
+    },
+    {
+      "path": "build/prepared/agent_handoff_2026-10-06/physgun_implementation_package.json",
+      "observed_local_bytes": 7205,
+      "observed_local_sha256": "453650b45ae1ba18bb2aabf940f3294a5779fc0d8d78a47562854362a41fffe9",
+      "read_status": "read",
+      "source_ref": "3610b370d62fb0daa86b10f819b7704ab096809b",
+      "source_branch": "main",
+      "utf8_bom": false,
+      "strict_json_valid": false,
+      "trailing_text": "[executed on device: DESKTOP-6PTSS3D (ac6e0673-c817-443f-a58e-9e6494209436)]",
+      "parse_for_read_only": "utf-8-sig plus raw_decode of leading JSON value"
+    }
+  ],
+  "root_collected_snapshots_read": [
+    "manifests/gmod_2026-10-07/repository_snapshot.json",
+    "manifests/gmod_2026-10-07/runtime_snapshot.json"
+  ],
+  "unverified": [
+    "separate actual Windows Git checkout",
+    "all historical runtime source branch contents",
+    "full local lower-level GMOD staging manifests and payload rehash",
+    "end-of-session concurrency comparison"
+  ],
+  "mutations": "documentation/catalog only; no runtime or proprietary payload mutation"
+}

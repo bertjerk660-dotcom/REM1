@@ -1,0 +1,67 @@
+{
+  "entries": [
+    {
+      "path": "models/weapons/v_physics.mdl",
+      "reason": "Absent loose and indexed supplied installation VPKs; no substitute"
+    },
+    {
+      "path": "models/weapons/w_physics.mdl",
+      "reason": "MDL texture material unresolved",
+      "candidates": [
+        "materials/models\\weapons\\w_physics\\UndefinedMaterial.vmt"
+      ]
+    },
+    {
+      "path": "models/weapons/v_physics.vvd",
+      "reason": "Absent loose and indexed supplied installation VPKs; no substitute"
+    },
+    {
+      "path": "models/weapons/v_physics.dx90.vtx",
+      "reason": "Absent loose and indexed supplied installation VPKs; no substitute"
+    },
+    {
+      "path": "gamemodes/sandbox/gamemode/cl_contextmenu.lua",
+      "reason": "Absent loose and indexed supplied installation VPKs; no substitute"
+    },
+    {
+      "path": "lua/vgui/vgui.lua",
+      "reason": "Absent loose and indexed supplied installation VPKs; no substitute"
+    },
+    {
+      "path": "scripts/gmod_sounds.txt",
+      "reason": "Absent loose and indexed supplied installation VPKs; no substitute"
+    },
+    {
+      "path": "cfg/userconfig.cfg",
+      "reason": "Absent loose and indexed supplied installation VPKs; no substitute"
+    },
+    {
+      "path": "lua/effects/ToolTracer/init.lua",
+      "reason": "Absent loose and indexed supplied installation VPKs; no substitute"
+    },
+    {
+      "path": "lua/effects/selection_indicator/init.lua",
+      "reason": "Absent loose and indexed supplied installation VPKs; no substitute"
+    },
+    {
+      "path": "sound/weapons/physgun_on.wav",
+      "reason": "Absent loose and indexed supplied installation VPKs; no substitute"
+    },
+    {
+      "path": "sound/weapons/flaregun/impact.wav",
+      "reason": "Absent loose and indexed supplied installation VPKs; no substitute"
+    },
+    {
+      "path": "models/vehicles/prisoner_pod_inner.mdl",
+      "reason": "MDL texture material unresolved",
+      "candidates": [
+        "materials/models\\props_combine\\\\innerpod_sheet.vmt"
+      ]
+    },
+    {
+      "path": "materials/phoenix_storms/thruster_bump.vtf",
+      "reason": "Absent loose and indexed supplied installation VPKs; no substitute"
+    }
+  ],
+  "errors": []
+}

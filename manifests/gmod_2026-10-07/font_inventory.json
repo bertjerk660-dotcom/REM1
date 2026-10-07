@@ -1,0 +1,2704 @@
+{
+  "entries": [
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\resource\\fonts\\prototype.ttf",
+      "installation_relative_path": "garrysmod/cache/workshop/resource/fonts/prototype.ttf",
+      "size": 29592,
+      "mtime_ns": 1791162296060610000,
+      "type": "font",
+      "sha256": "CE7F544CFC3F02953F79D065BCD16C8CC0EB041F76FC987AE6ADCC3B21005774",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Prototype"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Prototype"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Prototype"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Prototype"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Prototype"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Prototype"
+        }
+      ],
+      "family_names": [
+        "Prototype"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\HALFLIFE2.ttf",
+      "installation_relative_path": "garrysmod/resource/HALFLIFE2.ttf",
+      "size": 92796,
+      "mtime_ns": 1791154698260704600,
+      "type": "font",
+      "sha256": "C09544B387A15CFBC8D43765716EE69F89BBB6F0BB6D95409EC98282DAAC07E8",
+      "sfnt_name_records": [
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "HalfLife2"
+        }
+      ],
+      "family_names": [
+        "HalfLife2"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\HL2MP.ttf",
+      "installation_relative_path": "garrysmod/resource/HL2MP.ttf",
+      "size": 16148,
+      "mtime_ns": 1791154487395742900,
+      "type": "font",
+      "sha256": "30C6E21A96127C1470403274CF76EC31994FBAACF3788E99938450EB0819CC97",
+      "sfnt_name_records": [
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "HL2MP"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "HL2MP"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "HL2MP"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "HL2MP"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "HL2MP"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "HL2MP"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "HL2MP"
+        }
+      ],
+      "family_names": [
+        "HL2MP"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\HL2crosshairs.ttf",
+      "installation_relative_path": "garrysmod/resource/HL2crosshairs.ttf",
+      "size": 4000,
+      "mtime_ns": 1791154770427973800,
+      "type": "font",
+      "sha256": "752A4357752D4D48E0780265DE380EA876C3E51B20DE968BDC848FC71EB5A635",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "HL2cross"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "HL2cross"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "HL2cross"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "HL2cross"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "HL2cross"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "HL2cross"
+        }
+      ],
+      "family_names": [
+        "HL2cross"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Black.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-Black.ttf",
+      "size": 164936,
+      "mtime_ns": 1791154704036581000,
+      "type": "font",
+      "sha256": "C78CE438E9D91EA8C16341AAF2C6CF07F9C347EB1130BD922796AD4FB78FE885",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Black"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Black"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-Black"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 17,
+          "value": "Black"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto Bk"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Bold"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Black"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-Black"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 17,
+          "value": "Black"
+        }
+      ],
+      "family_names": [
+        "Roboto",
+        "Roboto Bk"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-BlackItalic.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-BlackItalic.ttf",
+      "size": 166320,
+      "mtime_ns": 1791154499614763900,
+      "type": "font",
+      "sha256": "5E7928C14BBDDEA37EC9BA2453F00BD8F4D73C42C20528E42ABC5B89D2732DB1",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Black Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Black Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-BlackItalic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 17,
+          "value": "Black Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto Bk"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Bold Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Black Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-BlackItalic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 17,
+          "value": "Black Italic"
+        }
+      ],
+      "family_names": [
+        "Roboto",
+        "Roboto Bk"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Bold.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-Bold.ttf",
+      "size": 163448,
+      "mtime_ns": 1791154499614763900,
+      "type": "font",
+      "sha256": "24571503140760240924DCD1238F77E7CD0454C0D8B0793990CEFA2FAD71471F",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Bold"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Bold"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-Bold"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Bold"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Bold"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-Bold"
+        }
+      ],
+      "family_names": [
+        "Roboto"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-BoldCondensed.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-BoldCondensed.ttf",
+      "size": 161308,
+      "mtime_ns": 1791154456685064000,
+      "type": "font",
+      "sha256": "2C9245C0246A9C745793C7EAA9CC1FC964A12570009031EA0223115BEC6E9426",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Bold Condensed"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Bold Condensed"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-BoldCondensed"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 17,
+          "value": "Bold Condensed"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto Cn"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Bold"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Bold Condensed"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-BoldCondensed"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 17,
+          "value": "Bold Condensed"
+        }
+      ],
+      "family_names": [
+        "Roboto",
+        "Roboto Cn"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-BoldCondensedItalic.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-BoldCondensedItalic.ttf",
+      "size": 163584,
+      "mtime_ns": 1791154410364894100,
+      "type": "font",
+      "sha256": "1117EAB9F490123CF8A656FA936A4C9A7E4918B88AE576D64D3D79507096F7B9",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Bold Condensed Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Bold Condensed Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-BoldCondensedItalic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 17,
+          "value": "Bold Condensed Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto Cn"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Bold Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Bold Condensed Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-BoldCondensedItalic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 17,
+          "value": "Bold Condensed Italic"
+        }
+      ],
+      "family_names": [
+        "Roboto",
+        "Roboto Cn"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-BoldItalic.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-BoldItalic.ttf",
+      "size": 165864,
+      "mtime_ns": 1791154499736427200,
+      "type": "font",
+      "sha256": "165A6D02FD8973703787FEEEF5319B7FD8CB3F665A3C1E702EF0CA49701547C9",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Bold Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Bold Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-BoldItalic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Bold Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Bold Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-BoldItalic"
+        }
+      ],
+      "family_names": [
+        "Roboto"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Condensed.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-Condensed.ttf",
+      "size": 158284,
+      "mtime_ns": 1791154476411597700,
+      "type": "font",
+      "sha256": "2EFE5301B93D1E4AA90FED89F766A88BE1B80BE64873F853C1B6E089CAB19FEA",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Condensed"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Condensed"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-Condensed"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 17,
+          "value": "Condensed"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto Cn"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Condensed"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-Condensed"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 17,
+          "value": "Condensed"
+        }
+      ],
+      "family_names": [
+        "Roboto",
+        "Roboto Cn"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-CondensedItalic.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-CondensedItalic.ttf",
+      "size": 161792,
+      "mtime_ns": 1791154410364381100,
+      "type": "font",
+      "sha256": "C2D5EC131C1A767138D09F77383B4BF68051C02164DD83E4B6C58FEB25C473ED",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Condensed Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Condensed Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-CondensedItalic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 17,
+          "value": "Condensed Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto Cn"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Condensed Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-CondensedItalic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 17,
+          "value": "Condensed Italic"
+        }
+      ],
+      "family_names": [
+        "Roboto",
+        "Roboto Cn"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Italic.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-Italic.ttf",
+      "size": 160736,
+      "mtime_ns": 1791154462979579600,
+      "type": "font",
+      "sha256": "470123C6FB5D6C0005431C0F5390742497C55087361A7636B7E82EB35635DED7",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-Italic"
+        }
+      ],
+      "family_names": [
+        "Roboto"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Light.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-Light.ttf",
+      "size": 162636,
+      "mtime_ns": 1791154517562220000,
+      "type": "font",
+      "sha256": "94DF4E4976DB8DDAEC27F8E8C33EEF912E744FB200CA09051794B38E5A502FC0",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Light"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Light"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-Light"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 17,
+          "value": "Light"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto Lt"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Light"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-Light"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 17,
+          "value": "Light"
+        }
+      ],
+      "family_names": [
+        "Roboto",
+        "Roboto Lt"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-LightItalic.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-LightItalic.ttf",
+      "size": 163248,
+      "mtime_ns": 1791154456868326200,
+      "type": "font",
+      "sha256": "709AB3C8FEAA5640B3A14493E1C2D27509DF5AA5D14B8B86BD431AB60AC53A69",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Light Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Light Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-LightItalic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 17,
+          "value": "Light Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto Lt"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Light Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-LightItalic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 17,
+          "value": "Light Italic"
+        }
+      ],
+      "family_names": [
+        "Roboto",
+        "Roboto Lt"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Medium.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-Medium.ttf",
+      "size": 160696,
+      "mtime_ns": 1791154457053607900,
+      "type": "font",
+      "sha256": "02868D6A7E80D4E7836B6263DD50D26A63E923A1223C9E027AAD6DC2501C27CC",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Medium"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Medium"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-Medium"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 17,
+          "value": "Medium"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto Lt"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Medium"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-Medium"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 17,
+          "value": "Medium"
+        }
+      ],
+      "family_names": [
+        "Roboto",
+        "Roboto Lt"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-MediumItalic.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-MediumItalic.ttf",
+      "size": 163940,
+      "mtime_ns": 1791154487334539400,
+      "type": "font",
+      "sha256": "27F4345BC02F3CDEC1522BFEAE70ACED6BDF217D40878108CFE2BAA535D04FA4",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Medium Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Medium Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-MediumItalic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 17,
+          "value": "Medium Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto Lt"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Bold Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Medium Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-MediumItalic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 17,
+          "value": "Medium Italic"
+        }
+      ],
+      "family_names": [
+        "Roboto",
+        "Roboto Lt"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Regular.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-Regular.ttf",
+      "size": 158604,
+      "mtime_ns": 1791154476595855100,
+      "type": "font",
+      "sha256": "16466EF65064E6F3885A6D2806B8949AC1AC38B524DD0CF8FC96565EB4CC28E8",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-Regular"
+        }
+      ],
+      "family_names": [
+        "Roboto"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Thin.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-Thin.ttf",
+      "size": 122512,
+      "mtime_ns": 1791154517620796000,
+      "type": "font",
+      "sha256": "2843669DAF030733F6B7C541A98EBBFF5CE5C2D8CBAE423BD8D278A36E169399",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Thin"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Thin"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-Thin"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 17,
+          "value": "Thin"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto Th"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Thin"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-Thin"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 17,
+          "value": "Thin"
+        }
+      ],
+      "family_names": [
+        "Roboto",
+        "Roboto Th"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-ThinItalic.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/Roboto-ThinItalic.ttf",
+      "size": 125884,
+      "mtime_ns": 1791154499860291900,
+      "type": "font",
+      "sha256": "55031EF14F6C49947255AB6E0EF7112938CB1ECB903F85553DDC7842422A5841",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Thin Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Roboto Thin Italic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Roboto-ThinItalic"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 17,
+          "value": "Thin Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Roboto Th"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Roboto Thin Italic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Roboto-ThinItalic"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 16,
+          "value": "Roboto"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 17,
+          "value": "Thin Italic"
+        }
+      ],
+      "family_names": [
+        "Roboto",
+        "Roboto Th"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\akbar.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/akbar.ttf",
+      "size": 132868,
+      "mtime_ns": 1791154462996146100,
+      "type": "font",
+      "sha256": "3C01621D9D2486D32A1DC3F97B9992F6A97BF3BC1F6CFE4C573ECE0D2B26254C",
+      "sfnt_name_records": [
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Akbar"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Plain"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Akbar Plain"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "AkbarPlain"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Akbar"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Plain"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Akbar"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "AkbarPlain"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Akbar"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Plain"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Akbar"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "AkbarPlain"
+        }
+      ],
+      "family_names": [
+        "Akbar"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\coolvetica.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/coolvetica.ttf",
+      "size": 42264,
+      "mtime_ns": 1791154462981578200,
+      "type": "font",
+      "sha256": "3BC32081BDDFD57B892752F3E92FA01CA99A144B0CA5D57F1E3FA16C7D34F7A0",
+      "sfnt_name_records": [
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Coolvetica"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Coolvetica"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Coolvetica"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Coolvetica"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Coolvetica"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Coolvetica"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Coolvetica"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Coolvetica"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Coolvetica"
+        }
+      ],
+      "family_names": [
+        "Coolvetica"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\cs.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/cs.ttf",
+      "size": 115464,
+      "mtime_ns": 1791154462999144300,
+      "type": "font",
+      "sha256": "B926723A1E14C891354F1A536B9BE2C8B33510441B2CCB72D1A5A78A40125816",
+      "sfnt_name_records": [
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "cs"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "cs"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "cs"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "cs"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "cs"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "cs"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "cs"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "cs"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "cs"
+        }
+      ],
+      "family_names": [
+        "cs"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\csd.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/csd.ttf",
+      "size": 44188,
+      "mtime_ns": 1791154499368593000,
+      "type": "font",
+      "sha256": "891D3622CAE4E89F2BE7485D1F8D391E8F8E418CA55720E3A5643C39BD7B7A0F",
+      "sfnt_name_records": [
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "cs"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "cs"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "cs"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "csd"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "csd"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "csd"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "csd"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "csd"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "csd"
+        }
+      ],
+      "family_names": [
+        "cs",
+        "csd"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\cstrike.ttf",
+      "installation_relative_path": "garrysmod/resource/fonts/cstrike.ttf",
+      "size": 129332,
+      "mtime_ns": 1791154410363857800,
+      "type": "font",
+      "sha256": "1FF5EAA2EC551F84B2E9040397E4DEBCD9FFD60E486CF05095777E24CCAA2BBE",
+      "sfnt_name_records": [
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Counter-Strike"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Counter-Strike"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Counter-Strike"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Counter-Strike"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Counter-Strike"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "Counter-Strike"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Counter-Strike"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Counter-Strike"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "Counter-Strike"
+        }
+      ],
+      "family_names": [
+        "Counter-Strike"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\resource\\boxrocket.ttf",
+      "installation_relative_path": "sourceengine/resource/boxrocket.ttf",
+      "size": 55464,
+      "mtime_ns": 1791154943239269500,
+      "type": "font",
+      "sha256": "83110E5DBA6B8CADE754DD577D29E918937669A35FB316111634AA0C60347403",
+      "sfnt_name_records": [
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "BoxRocket"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "BoxRocket"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "BoxRocket"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "BoxRocket"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "BoxRocket"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "BoxRocket"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "BoxRocket"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "BoxRocket"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "BoxRocket"
+        }
+      ],
+      "family_names": [
+        "BoxRocket"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\resource\\halflife2.ttf",
+      "installation_relative_path": "sourceengine/resource/halflife2.ttf",
+      "size": 92796,
+      "mtime_ns": 1791154698383353900,
+      "type": "font",
+      "sha256": "C09544B387A15CFBC8D43765716EE69F89BBB6F0BB6D95409EC98282DAAC07E8",
+      "sfnt_name_records": [
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 0,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "HalfLife2"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "HalfLife2"
+        }
+      ],
+      "family_names": [
+        "HalfLife2"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\resource\\hl2crosshairs.ttf",
+      "installation_relative_path": "sourceengine/resource/hl2crosshairs.ttf",
+      "size": 4000,
+      "mtime_ns": 1791154770418192900,
+      "type": "font",
+      "sha256": "752A4357752D4D48E0780265DE380EA876C3E51B20DE968BDC848FC71EB5A635",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "HL2cross"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "HL2cross"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "HL2cross"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "HL2cross"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "HL2cross"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "HL2cross"
+        }
+      ],
+      "family_names": [
+        "HL2cross"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\resource\\hl2ep2.ttf",
+      "installation_relative_path": "sourceengine/resource/hl2ep2.ttf",
+      "size": 5032,
+      "mtime_ns": 1791154937141940700,
+      "type": "font",
+      "sha256": "01CB485A68C33BD055EC31B1F5E272F0A3BA33EBA5CFDC527F6083DE33656816",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "HL2EP2"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "HL2EP2"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "HL2EP2"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "HL2EP2"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "HL2EP2"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "HL2EP2"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "HL2EP2"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "HL2EP2"
+        }
+      ],
+      "family_names": [
+        "HL2EP2"
+      ]
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\resource\\marlett.ttf",
+      "installation_relative_path": "sourceengine/resource/marlett.ttf",
+      "size": 6136,
+      "mtime_ns": 1791154809385455300,
+      "type": "font",
+      "sha256": "3B6192ECA4451835F4D634B0B6B0841DA321EC65C1F3F1AA22D186DA45787B9C",
+      "sfnt_name_records": [
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 1,
+          "value": "Marlett"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 4,
+          "value": "Marlett"
+        },
+        {
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "name_id": 6,
+          "value": "marlett"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 0,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Marlett"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 0,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 0,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Marlett"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 0,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "marlett"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 1,
+          "value": "Marlett"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 4,
+          "value": "Marlett"
+        },
+        {
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "name_id": 6,
+          "value": "marlett"
+        }
+      ],
+      "family_names": [
+        "Marlett"
+      ]
+    }
+  ],
+  "family_mapping_method": "Original SFNT name table IDs 1/16; filenames never establish family aliases"
+}

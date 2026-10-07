@@ -80,3 +80,12 @@ The contract is Fallout baseline -> skateboard equipped in Fallout -> left-click
 The evidence package records the durable prepared inputs (17 decompiled THUG2 Q source files, original physics/controller/trick-state evidence, 20 parsed board SKA assets, 49 HUD/input files and 22/22 previews), the verified current positive/negative playtest state, 17 implementation-evidence mapping targets, animation-family gates, UI/input/world-collision/camera/audio contracts and an 18-step acceptance sequence.
 
 Do not interpret the overlay wording as a superficial HUD layer: during skate mode the THUG2 free-roam runtime itself owns player-facing gameplay. Fallout is the host world/runtime underneath it.
+
+
+## 2026-10-07 Codex original GMOD evidence update
+
+Read [the source-system investigation index](../GMOD_2026-10-07/README.md) before implementation. It recovers branch-only Astra handoffs, traces real Q/spawn/tool behavior, records actual installed/deployed identities, supplies local-only original staging with SHA/CRC provenance, and classifies the current host implementation. The fourteen-subsystem graph and compatibility matrix separate original GMOD behavior from adaptation requirements.
+
+Prior native “evidence complete” labels are historical; the current native report states what addresses/call paths are actually proved and what remains unresolved. Do not use an entity OnPhysGunPunt event string as proof of native secondary attack. The project owner's current control requirement is LMB grab/interact and RMB requested launch/release. Do not promote the custom GDI menu or support PNG cache into original VGUI/SpawnIcon parity.
+
+Codex's subsequent THUG2 pass is investigation/evidence/extraction mapping only. The 2026-10-07 coordination ownership map supersedes historical combined-agent labels: Opus alone implements code, models, animation/skeletons, rendering and final visuals.

@@ -1,0 +1,1333 @@
+{
+  "modules": [
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\gmod.exe",
+      "installation_relative_path": "gmod.exe",
+      "size": 980816,
+      "mtime_ns": 1791152888446675500,
+      "type": "executable_module",
+      "sha256": "1F894E1C11F487DE88FB5D5EA603A35D66FFA4DA76ADD12EFE7FFF6EE7E00107"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\gmod_win64.exe",
+      "installation_relative_path": "gmod_win64.exe",
+      "size": 1040208,
+      "mtime_ns": 1791152888446675500,
+      "type": "executable_module",
+      "sha256": "FA248F3BF46255C892739C3257A12C92E8B4B958CDA8C0999B06A2A6B31F9B19"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\AdminServer.dll",
+      "installation_relative_path": "bin/AdminServer.dll",
+      "size": 950096,
+      "mtime_ns": 1791152888427046400,
+      "type": "native_module",
+      "sha256": "6AAFCB92EEE7301CDFC30188CF7B17B521EB864668FD70894A25F7F13D8A7B52"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\Awesomium.dll",
+      "installation_relative_path": "bin/Awesomium.dll",
+      "size": 20610120,
+      "mtime_ns": 1791152888427046400,
+      "type": "native_module",
+      "sha256": "4BE9F9449603808BEBCADED59BC562FD82425C95C3907D624AB91231316AB6D3"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\FileSystemOpenDialog.dll",
+      "installation_relative_path": "bin/FileSystemOpenDialog.dll",
+      "size": 2258768,
+      "mtime_ns": 1791152888430046400,
+      "type": "native_module",
+      "sha256": "36B58931CA77D2430E2C35C31290C49A502117980823E4C5DB7F66DA9A505BE6"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\GameAnalytics.dll",
+      "installation_relative_path": "bin/GameAnalytics.dll",
+      "size": 1783296,
+      "mtime_ns": 1791152888430046400,
+      "type": "native_module",
+      "sha256": "2FF3AEE1FBE1DBC242AEC3211C8D89BD08DCD075372410A9DAD4B6492A6F9B91"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\GameUI.dll",
+      "installation_relative_path": "bin/GameUI.dll",
+      "size": 1821520,
+      "mtime_ns": 1791152888430046400,
+      "type": "native_module",
+      "sha256": "2B776725F123A31D4D943AE997376E659E29914973B2CCFDC4823FC288FCEF59"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\SDL2.dll",
+      "installation_relative_path": "bin/SDL2.dll",
+      "size": 837632,
+      "mtime_ns": 1791152888433046200,
+      "type": "native_module",
+      "sha256": "DF1154C4F64D53D5279F23B47C78B7950FA5C019882E590781ACDE0EC9AA2C58"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\ServerBrowser.dll",
+      "installation_relative_path": "bin/ServerBrowser.dll",
+      "size": 1021776,
+      "mtime_ns": 1791152888433046200,
+      "type": "native_module",
+      "sha256": "B7ED34C3DE21868A1252E33A24B4E30C5C98478E82B98BEFD794EEF905F3F015"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\avcodec-53.dll",
+      "installation_relative_path": "bin/avcodec-53.dll",
+      "size": 1102424,
+      "mtime_ns": 1791152888427046400,
+      "type": "native_module",
+      "sha256": "41D6B53CA0FC8706833C4775F3B22B7C4163B0304D49D04F2C818427ACC9B66C"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\avformat-53.dll",
+      "installation_relative_path": "bin/avformat-53.dll",
+      "size": 193624,
+      "mtime_ns": 1791154947228800900,
+      "type": "native_module",
+      "sha256": "ADB90B35D74278A7E3C96832430A0D3F513DFBCF9B634E35C59F524411114D5F"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\avutil-51.dll",
+      "installation_relative_path": "bin/avutil-51.dll",
+      "size": 126040,
+      "mtime_ns": 1791154946009887300,
+      "type": "native_module",
+      "sha256": "C05047A341742504F8312A0B274C19FBDCF0BFD37F76AE2277491AB8B2297A5C"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\awesomium_process.exe",
+      "installation_relative_path": "bin/awesomium_process.exe",
+      "size": 42568,
+      "mtime_ns": 1791154947046302900,
+      "type": "executable_module",
+      "sha256": "4CA1C5838541B319793F964A9B7364F8921DC3B57E6ADB713E60EA7C54523422"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\bass.dll",
+      "installation_relative_path": "bin/bass.dll",
+      "size": 144696,
+      "mtime_ns": 1791154952880955900,
+      "type": "native_module",
+      "sha256": "CE5E97630CF4E1EF12A9AFAD785683414B7504EFC443766333360AD2ED142EBA"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\bsppack.dll",
+      "installation_relative_path": "bin/bsppack.dll",
+      "size": 424784,
+      "mtime_ns": 1791152888428046400,
+      "type": "native_module",
+      "sha256": "A0C4DD9C76C44D8DACCD4F3C8D7F902E1A32DD5DFA8038E4AE6269E2AB738017"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\bspzip.exe",
+      "installation_relative_path": "bin/bspzip.exe",
+      "size": 631120,
+      "mtime_ns": 1791152888428046400,
+      "type": "executable_module",
+      "sha256": "A2FB2282C19893E54DCE3D81292AE93951A86B250D44CE7978D9CAD7B94409ED"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\captioncompiler.exe",
+      "installation_relative_path": "bin/captioncompiler.exe",
+      "size": 449360,
+      "mtime_ns": 1791152888428046400,
+      "type": "executable_module",
+      "sha256": "96C848D127B67E450E96FDB0D30AC012DC9EA2B9BEA911515B81EEA9144136BA"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\chrome_elf.dll",
+      "installation_relative_path": "bin/chrome_elf.dll",
+      "size": 843264,
+      "mtime_ns": 1791152888428046400,
+      "type": "native_module",
+      "sha256": "31CB72D373FE4B6D4B06F75442B983223016D1FD1550C799B5C9583567CE1A8E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\d3dcompiler_43.dll",
+      "installation_relative_path": "bin/d3dcompiler_43.dll",
+      "size": 2106216,
+      "mtime_ns": 1791152888429046400,
+      "type": "native_module",
+      "sha256": "2F23182EC6F4889397AC4BF03D62536136C5BDBA825C7D2C4EF08C827F3A8A1C"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\d3dcompiler_47.dll",
+      "installation_relative_path": "bin/d3dcompiler_47.dll",
+      "size": 3657992,
+      "mtime_ns": 1791152888429046400,
+      "type": "native_module",
+      "sha256": "8BF0EEB5081D8397E2F84F69449C8A80D9C0CDCF82BCEF7A484309046ADCB081"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\datacache.dll",
+      "installation_relative_path": "bin/datacache.dll",
+      "size": 379216,
+      "mtime_ns": 1791152888429046400,
+      "type": "native_module",
+      "sha256": "CD8897B4A03283C224BCBAA542A3B3B4DAFD76BD988BA85E2B671CA4C9D62100"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\demoinfo.exe",
+      "installation_relative_path": "bin/demoinfo.exe",
+      "size": 495952,
+      "mtime_ns": 1791152888429046400,
+      "type": "executable_module",
+      "sha256": "F238172AB7D533B416D96A56DD51CD54B553700853550C31F0221814A709DE37"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\dmxconvert.exe",
+      "installation_relative_path": "bin/dmxconvert.exe",
+      "size": 821064,
+      "mtime_ns": 1791152888429046400,
+      "type": "executable_module",
+      "sha256": "7FC30D438E9A9BE4FF6B6D3590EFDD7BC0A0FA05BCCD74BF24A8B7D769E58B13"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\dmxedit.exe",
+      "installation_relative_path": "bin/dmxedit.exe",
+      "size": 1690024,
+      "mtime_ns": 1791152888429046400,
+      "type": "executable_module",
+      "sha256": "456194BDD091950F0111D826626452F1FBB5AD8D36345ADEAC92643274044ADF"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\elementviewer.exe",
+      "installation_relative_path": "bin/elementviewer.exe",
+      "size": 3417936,
+      "mtime_ns": 1791152888429046400,
+      "type": "executable_module",
+      "sha256": "5CB986A2A12A15936796FF0FA4431ED29D298F3B9BD1D78CE60E046BA1114BAE"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\engine.dll",
+      "installation_relative_path": "bin/engine.dll",
+      "size": 4648272,
+      "mtime_ns": 1791152888429046400,
+      "type": "native_module",
+      "sha256": "91416606D167440A48CCA9E68FFC0898CE350A879DADD074835336C199404DE4"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\filesystem_stdio.dll",
+      "installation_relative_path": "bin/filesystem_stdio.dll",
+      "size": 755536,
+      "mtime_ns": 1791152888430046400,
+      "type": "native_module",
+      "sha256": "4F7EEDB8FE096B6DADDB06162FB243032EDEC72FE9AAE4492C2685787AAED925"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\gmad.exe",
+      "installation_relative_path": "bin/gmad.exe",
+      "size": 569344,
+      "mtime_ns": 1791152888430046400,
+      "type": "executable_module",
+      "sha256": "1ECB17C3C487ABDD972B706E4C58B581CCB03EA2C617D1FF394C44EED98C05AC"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\gmod_audio.dll",
+      "installation_relative_path": "bin/gmod_audio.dll",
+      "size": 137040,
+      "mtime_ns": 1791154950042403800,
+      "type": "native_module",
+      "sha256": "DC7289EA3DB5CF325B5C5B500D25884FBA11C465707CC70457300DC1801BDE70"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\gmpublish.exe",
+      "installation_relative_path": "bin/gmpublish.exe",
+      "size": 546816,
+      "mtime_ns": 1791152888430046400,
+      "type": "executable_module",
+      "sha256": "C779740ECF218601FC86032E28AF2ADBE1B348DC046B6A27A786CF66AFDB43DC"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\hammer.exe",
+      "installation_relative_path": "bin/hammer.exe",
+      "size": 468304,
+      "mtime_ns": 1791152888430046400,
+      "type": "executable_module",
+      "sha256": "4B64603EC2ED0BB62FA91163923718A72295A6297CD98DFD8B72524BA246AFDD"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\hammer_dll.dll",
+      "installation_relative_path": "bin/hammer_dll.dll",
+      "size": 9017168,
+      "mtime_ns": 1791152888430046400,
+      "type": "native_module",
+      "sha256": "E162B0451D19112757A48092FE14993FCCAD5EE700DE4AEF38CA2224536EAB16"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\hlfaceposer.exe",
+      "installation_relative_path": "bin/hlfaceposer.exe",
+      "size": 1963344,
+      "mtime_ns": 1791152888430046400,
+      "type": "executable_module",
+      "sha256": "3DA4E6AA7DF1A287C385A76D5422D9A3504864DC3CDDF3FEA18E655227F1C05A"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\hlmv.exe",
+      "installation_relative_path": "bin/hlmv.exe",
+      "size": 796496,
+      "mtime_ns": 1791152888430046400,
+      "type": "executable_module",
+      "sha256": "1CEE0E849E66A5CE754DB3C71E743527F42659F371F7116D2124369792225A22"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\html_chromium.dll",
+      "installation_relative_path": "bin/html_chromium.dll",
+      "size": 429904,
+      "mtime_ns": 1791152888431046400,
+      "type": "native_module",
+      "sha256": "44DA63CAC283F6F70A4D563EC2893ACD9D47CEAD6ACD3CD851A5448DCB37B14E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\html_stub.dll",
+      "installation_relative_path": "bin/html_stub.dll",
+      "size": 99152,
+      "mtime_ns": 1791154952271083500,
+      "type": "native_module",
+      "sha256": "D2F3C775FA5C4262C2886C4271F24E3BAF1D74AD1ED14907993E309C0CD4126E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\icudt.dll",
+      "installation_relative_path": "bin/icudt.dll",
+      "size": 5231176,
+      "mtime_ns": 1791152888431046400,
+      "type": "native_module",
+      "sha256": "E4558482892B20A3D3F6C9096E0591108EA828D39B8AE4DB3CE564C874677D77"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\icudt42.dll",
+      "installation_relative_path": "bin/icudt42.dll",
+      "size": 10899456,
+      "mtime_ns": 1791152888431046400,
+      "type": "native_module",
+      "sha256": "487A102D8DC13650F6093287860E470B771B6B958BA6C1F80098A90F3F1B848A"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\inputsystem.dll",
+      "installation_relative_path": "bin/inputsystem.dll",
+      "size": 199504,
+      "mtime_ns": 1791154949724234000,
+      "type": "native_module",
+      "sha256": "C3CEE018D0D7553C96B385AA7DF72DFE5550B367980309ACEE857EEEC31531EB"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\launcher.dll",
+      "installation_relative_path": "bin/launcher.dll",
+      "size": 237904,
+      "mtime_ns": 1791154950450632100,
+      "type": "native_module",
+      "sha256": "5F31437DD7F55FD6D38D01D382322C8FB2C1C6B8DF3191E72BCBEB659BC148EC"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\libEGL.dll",
+      "installation_relative_path": "bin/libEGL.dll",
+      "size": 323072,
+      "mtime_ns": 1791152888432046300,
+      "type": "native_module",
+      "sha256": "D39DD1E5DFCE7E1174B909992BF1864B82E7A30BEB7C936909B8D0305A85899E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\libGLESv2.dll",
+      "installation_relative_path": "bin/libGLESv2.dll",
+      "size": 5441536,
+      "mtime_ns": 1791152888432046300,
+      "type": "native_module",
+      "sha256": "0CF4CDC4B4CD8C47A8F6F4A9240737D629869539315009D0644501190A36E41B"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\libcef.dll",
+      "installation_relative_path": "bin/libcef.dll",
+      "size": 117340672,
+      "mtime_ns": 1791152888432046300,
+      "type": "native_module",
+      "sha256": "E623478400F5B960CE53414436EF997722552D317BAB5EC6AD99BBF7FE63F731"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\libsasl.dll",
+      "installation_relative_path": "bin/libsasl.dll",
+      "size": 81920,
+      "mtime_ns": 1791154958852651200,
+      "type": "native_module",
+      "sha256": "A4CF67AF6D13FD3BA310E51697362AA82A3F2653F17FAED26AD7E6C1BA65DC56"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\materialsystem.dll",
+      "installation_relative_path": "bin/materialsystem.dll",
+      "size": 1235280,
+      "mtime_ns": 1791152888432046300,
+      "type": "native_module",
+      "sha256": "AA332C3374016E6F6A4AF262A54D05D41EDA518157B43A1752B0EB6359EC3BF8"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\mdllib.dll",
+      "installation_relative_path": "bin/mdllib.dll",
+      "size": 189776,
+      "mtime_ns": 1791154958487830600,
+      "type": "native_module",
+      "sha256": "75D6A6B757D36103D2846810B50B3BED33347141888C31B437C3B3625A316244"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\mksheet.exe",
+      "installation_relative_path": "bin/mksheet.exe",
+      "size": 961872,
+      "mtime_ns": 1791152888432046300,
+      "type": "executable_module",
+      "sha256": "32AC0BF45EF4DBC3E59E188732D971A453A9B7647CA24D476BDDC7DADF058CF1"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\msvcr71.dll",
+      "installation_relative_path": "bin/msvcr71.dll",
+      "size": 348160,
+      "mtime_ns": 1791152888432046300,
+      "type": "native_module",
+      "sha256": "8094AF5EE310714CAEBCCAEEE7769FFB08048503BA478B879EDFEF5F1A24FEFE"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\mysql_wrapper.dll",
+      "installation_relative_path": "bin/mysql_wrapper.dll",
+      "size": 74152,
+      "mtime_ns": 1791154958914890000,
+      "type": "native_module",
+      "sha256": "D20F7B8FC833982B2AC1CCAA8B83DBA21D9C155D54D22EED075CDFC24E4CBD12"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\parsifal.dll",
+      "installation_relative_path": "bin/parsifal.dll",
+      "size": 96168,
+      "mtime_ns": 1791154976083119700,
+      "type": "native_module",
+      "sha256": "A97EFF9E12C0F33F8BD18EDE2DFFF07FCBBE8F58DFE3010A07872ADC2B337B1E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\remoteshadercompile.exe",
+      "installation_relative_path": "bin/remoteshadercompile.exe",
+      "size": 356176,
+      "mtime_ns": 1791152888432046300,
+      "type": "executable_module",
+      "sha256": "964D3B9FE2AA462DCB11EAB0C82584E398296C0B849AC1BB4E7929EEB620D90C"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\scenefilecache.dll",
+      "installation_relative_path": "bin/scenefilecache.dll",
+      "size": 179024,
+      "mtime_ns": 1791154955425625800,
+      "type": "native_module",
+      "sha256": "33DABF2030F7324D0E69CE2246F2D206073E64146C10499AA96D10F2D9776FA2"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\shaderapidx9.dll",
+      "installation_relative_path": "bin/shaderapidx9.dll",
+      "size": 1026896,
+      "mtime_ns": 1791152888433046200,
+      "type": "native_module",
+      "sha256": "959C95E5776ACE36DF98BEC99CB5390E111681DB366D35DEF118A9B73DA2D9DC"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\shaderapiempty.dll",
+      "installation_relative_path": "bin/shaderapiempty.dll",
+      "size": 130888,
+      "mtime_ns": 1791154967293837900,
+      "type": "native_module",
+      "sha256": "B7F720DE5B1233637CAEAB6C0F82588510412BCE940D197999352E80278248F0"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\shadercompile.exe",
+      "installation_relative_path": "bin/shadercompile.exe",
+      "size": 362320,
+      "mtime_ns": 1791152888433046200,
+      "type": "executable_module",
+      "sha256": "829A44EE78B74237015F64E2E8DCB6DEB6D331E2553670FF3A688E82E4EDC63B"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\shadercompile_dll.dll",
+      "installation_relative_path": "bin/shadercompile_dll.dll",
+      "size": 525136,
+      "mtime_ns": 1791152888433046200,
+      "type": "native_module",
+      "sha256": "793F8B55975008BE5E0449B2FC430903550886F9A40F49627E69C44CB6E7379F"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\soundemittersystem.dll",
+      "installation_relative_path": "bin/soundemittersystem.dll",
+      "size": 241488,
+      "mtime_ns": 1791154961824566900,
+      "type": "native_module",
+      "sha256": "CDB7E08BB90BCD1AF1B9D72B61BB1739D4540E3229E9E3A8BD1D9CA688FA92DF"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\soundsystem.dll",
+      "installation_relative_path": "bin/soundsystem.dll",
+      "size": 211272,
+      "mtime_ns": 1791154958914890000,
+      "type": "native_module",
+      "sha256": "60470D8042AA230EA62D84F9B889CABA7C0293D2FBCC9CABF2D4F20283E2C1D3"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\splitskybox.exe",
+      "installation_relative_path": "bin/splitskybox.exe",
+      "size": 415056,
+      "mtime_ns": 1791152888433046200,
+      "type": "executable_module",
+      "sha256": "0EE1FFB355C560E8CAE065955C5DED41309B218E0F301BB34379B76BFD5F55CE"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\stdshader_dbg.dll",
+      "installation_relative_path": "bin/stdshader_dbg.dll",
+      "size": 207696,
+      "mtime_ns": 1791154967535685100,
+      "type": "native_module",
+      "sha256": "329B4B43237F84B8B30087F56A10799873D8C8AF71613ED6AEBAE1D09880EB57"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\stdshader_dx6.dll",
+      "installation_relative_path": "bin/stdshader_dx6.dll",
+      "size": 286032,
+      "mtime_ns": 1791152888433046200,
+      "type": "native_module",
+      "sha256": "9958298F19D6A5AFB1A500310ED9F6DA3CFB8F40755ECAA79645FDAACFDCCAE8"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\stdshader_dx7.dll",
+      "installation_relative_path": "bin/stdshader_dx7.dll",
+      "size": 217424,
+      "mtime_ns": 1791154959035685900,
+      "type": "native_module",
+      "sha256": "3EA7BF587654B25D69AF8030AABAC0AD15E3064D15BECFD08CAB60711CB4DE47"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\stdshader_dx8.dll",
+      "installation_relative_path": "bin/stdshader_dx8.dll",
+      "size": 405328,
+      "mtime_ns": 1791152888433046200,
+      "type": "native_module",
+      "sha256": "3CF6A6A3B0B669210C8C27240120A25F2FE7624435B3294D8BF7467AB758EB5E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\stdshader_dx9.dll",
+      "installation_relative_path": "bin/stdshader_dx9.dll",
+      "size": 691024,
+      "mtime_ns": 1791152888433046200,
+      "type": "native_module",
+      "sha256": "07312B64CA5020825E9A150F4E6EEF87606A1400AA3533823C574A274F7CCBD0"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\steam_api.dll",
+      "installation_relative_path": "bin/steam_api.dll",
+      "size": 274584,
+      "mtime_ns": 1791152888434046500,
+      "type": "native_module",
+      "sha256": "FDAFB7C65EC7D4182B42BF92CC8671C68E4DC547CC6E613899D2618A47EB65DA"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\studiomdl.exe",
+      "installation_relative_path": "bin/studiomdl.exe",
+      "size": 2110288,
+      "mtime_ns": 1791152888434046500,
+      "type": "executable_module",
+      "sha256": "E88ADFFA81B6BB6CAC7997F0EA345A5C541CC1916696426B726B8CB6D26D5FF2"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\studiorender.dll",
+      "installation_relative_path": "bin/studiorender.dll",
+      "size": 614216,
+      "mtime_ns": 1791152888434046500,
+      "type": "native_module",
+      "sha256": "04ACC28496E201A60009E8C90C115E65D508B2B64B5DD0F2D73EBEF8F98ED557"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\texturecompile_dll.dll",
+      "installation_relative_path": "bin/texturecompile_dll.dll",
+      "size": 304552,
+      "mtime_ns": 1791152888434046500,
+      "type": "native_module",
+      "sha256": "1B0C489692D267C4DD6EEFA971A9013B7A1F04123C85E0ED070CE6D783B54A76"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\tier0.dll",
+      "installation_relative_path": "bin/tier0.dll",
+      "size": 313168,
+      "mtime_ns": 1791152888434046500,
+      "type": "native_module",
+      "sha256": "36EAEAE84BB6FB79DED2C973DD3226C5611709EC8A604FFB487AB2B27B57FAD5"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\unicode.dll",
+      "installation_relative_path": "bin/unicode.dll",
+      "size": 70056,
+      "mtime_ns": 1791154959158149800,
+      "type": "native_module",
+      "sha256": "2C19C9A8DC6DE6A052C9046B01DDD15067C8773018EFE38FDEEC404A271C367E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\unicows.dll",
+      "installation_relative_path": "bin/unicows.dll",
+      "size": 245408,
+      "mtime_ns": 1791154976264712100,
+      "type": "native_module",
+      "sha256": "22F23CC65698741184EC34F46E6F69717644E0B5AABF5D5BD015101F2D72E56E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\unitlib.dll",
+      "installation_relative_path": "bin/unitlib.dll",
+      "size": 100176,
+      "mtime_ns": 1791154960491261400,
+      "type": "native_module",
+      "sha256": "20D062D8F26215FB6E965B6C3A507D12F7E3A63247123126F09327339CFCC779"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vaudio_speex.dll",
+      "installation_relative_path": "bin/vaudio_speex.dll",
+      "size": 171432,
+      "mtime_ns": 1791154960734614600,
+      "type": "native_module",
+      "sha256": "B7D831A803D7083837DADD0ECB8FF27CFE650A2CF7E1DFEE5410905AA05EA03F"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vbsp.exe",
+      "installation_relative_path": "bin/vbsp.exe",
+      "size": 1555280,
+      "mtime_ns": 1791152888435046000,
+      "type": "executable_module",
+      "sha256": "06D096A1E6BB06B3C084328660C0375B7903728DEF446EFF98DDCD9F7DC7BB27"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vbspinfo.exe",
+      "installation_relative_path": "bin/vbspinfo.exe",
+      "size": 587088,
+      "mtime_ns": 1791152888435046000,
+      "type": "executable_module",
+      "sha256": "30DF28A340D35F29A803840E322E82CBDEA2795B3D5B1F5CD7D5CCD5DE138248"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vgui2.dll",
+      "installation_relative_path": "bin/vgui2.dll",
+      "size": 445264,
+      "mtime_ns": 1791152888435046000,
+      "type": "native_module",
+      "sha256": "1564E937D57FA76D04CA3ABEB1193DCDB8FF0AEFACC6C5B34552B8D1990C3C42"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vguimatsurface.dll",
+      "installation_relative_path": "bin/vguimatsurface.dll",
+      "size": 1424720,
+      "mtime_ns": 1791152888435046000,
+      "type": "native_module",
+      "sha256": "D12223BFC883D77F2DA3FFC4CE76E7A0FD02AA2C08459B58B157EF308C1D15E5"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\video_quicktime.dll",
+      "installation_relative_path": "bin/video_quicktime.dll",
+      "size": 130112,
+      "mtime_ns": 1791154960734614600,
+      "type": "native_module",
+      "sha256": "7DB8DCDA99A2B929C1DA63CD67415C329DA13E98687CF56817B320B110CE8498"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\video_services.dll",
+      "installation_relative_path": "bin/video_services.dll",
+      "size": 96320,
+      "mtime_ns": 1791154960978980000,
+      "type": "native_module",
+      "sha256": "BE10AC57A5953B95EA45E82CD34960577719D8F607E679AD6C42CA222E1730C4"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vphysics.dll",
+      "installation_relative_path": "bin/vphysics.dll",
+      "size": 951960,
+      "mtime_ns": 1791152888435046000,
+      "type": "native_module",
+      "sha256": "F62617319B0003A2788AD13117BFA1F19C635B66FF7263E3E775810897B8B567"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vpk.exe",
+      "installation_relative_path": "bin/vpk.exe",
+      "size": 522064,
+      "mtime_ns": 1791152888436046900,
+      "type": "executable_module",
+      "sha256": "23603CFDABE3262AAF878142B0E58FAA3432A1595F8F948801D516C926F51CFE"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vrad.exe",
+      "installation_relative_path": "bin/vrad.exe",
+      "size": 367432,
+      "mtime_ns": 1791152888436046900,
+      "type": "executable_module",
+      "sha256": "7C007A1E8595E3ADC0F50CD8F5359514E286535885DACB50D953EEBD860E5298"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vrad_dll.dll",
+      "installation_relative_path": "bin/vrad_dll.dll",
+      "size": 1557840,
+      "mtime_ns": 1791152888436046900,
+      "type": "native_module",
+      "sha256": "E7DE12CE3FDE32135801E2624A0C1D2F29884164A7C33FD8850FBBDD22DDEAAF"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vstdlib.dll",
+      "installation_relative_path": "bin/vstdlib.dll",
+      "size": 268104,
+      "mtime_ns": 1791152888436046900,
+      "type": "native_module",
+      "sha256": "D6C6B33A6851ACB399EEBA82FAC48894F82936736F538A1BF97313F6BDFAEE79"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vtex.exe",
+      "installation_relative_path": "bin/vtex.exe",
+      "size": 382800,
+      "mtime_ns": 1791152888436046900,
+      "type": "executable_module",
+      "sha256": "A235CB0ADBC95B0699DCFFF2BB53276ACEEEA603008F4562BAA2CEEC5719CE25"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vtex_dll.dll",
+      "installation_relative_path": "bin/vtex_dll.dll",
+      "size": 871760,
+      "mtime_ns": 1791152888436046900,
+      "type": "native_module",
+      "sha256": "3DD0FB129546A0D8D031BA155C8506F72931FBB98EEC804664C338EB840D48FC"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vtf2tga.exe",
+      "installation_relative_path": "bin/vtf2tga.exe",
+      "size": 970064,
+      "mtime_ns": 1791152888436046900,
+      "type": "executable_module",
+      "sha256": "B9E384FFCEA29ABCE3E611F0170FEF3AB1A3BF0B76C8C64EFD3A871485D0B4E4"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vvis.exe",
+      "installation_relative_path": "bin/vvis.exe",
+      "size": 357712,
+      "mtime_ns": 1791152888436046900,
+      "type": "executable_module",
+      "sha256": "BC7ECE17841893134835AE7301079B570CA93A346D8DA0053DDD4054F970EEF7"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\vvis_dll.dll",
+      "installation_relative_path": "bin/vvis_dll.dll",
+      "size": 629072,
+      "mtime_ns": 1791152888436046900,
+      "type": "native_module",
+      "sha256": "D8D1850A42FEF0066F26752B7506582742C877A7DD97CCD9AFA3F205E1E42D80"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\widevinecdmadapter.dll",
+      "installation_relative_path": "bin/widevinecdmadapter.dll",
+      "size": 216576,
+      "mtime_ns": 1791154968309741600,
+      "type": "native_module",
+      "sha256": "C44E1DCC5E653B6D502FC3C4881286BB51614A73D87F826ADA43E19F4D939D20"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\tools\\pet.dll",
+      "installation_relative_path": "bin/tools/pet.dll",
+      "size": 3914056,
+      "mtime_ns": 1791152888434046500,
+      "type": "native_module",
+      "sha256": "6BBF21C2596280BAAC9F1E4D60639D658E65DE1D30FF3ADDB8F15F2057BAC16B"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\tools\\vmt.dll",
+      "installation_relative_path": "bin/tools/vmt.dll",
+      "size": 3341136,
+      "mtime_ns": 1791152888435046000,
+      "type": "native_module",
+      "sha256": "9FE858C73BB2E917627112CAF801AC1972050AE549BB5E81CC4F9C3429BD37AE"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\tools\\win64\\pet.dll",
+      "installation_relative_path": "bin/tools/win64/pet.dll",
+      "size": 4854608,
+      "mtime_ns": 1791152888435046000,
+      "type": "native_module",
+      "sha256": "AFEF21D995E542D21898917684F4ED77D7493C6B7643FB2C21871F12F0348D0E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\AdminServer.dll",
+      "installation_relative_path": "bin/win64/AdminServer.dll",
+      "size": 1280336,
+      "mtime_ns": 1791152888437046300,
+      "type": "native_module",
+      "sha256": "E625949DB86B97B4E5CC793683A67CA66616AE564274FFDCC8BBE8CD43E6BE4B"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\FileSystemOpenDialog.dll",
+      "installation_relative_path": "bin/win64/FileSystemOpenDialog.dll",
+      "size": 2839880,
+      "mtime_ns": 1791152888437046300,
+      "type": "native_module",
+      "sha256": "A0D2E6AA93477F9C4C182570E88D0506CF4C9D673427407EC4D3A9EE1B479B53"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\GameAnalytics.dll",
+      "installation_relative_path": "bin/win64/GameAnalytics.dll",
+      "size": 2241536,
+      "mtime_ns": 1791152888438046300,
+      "type": "native_module",
+      "sha256": "A2B50E9180B9493ED31C6CC4EE0AF69B05E6D2AFC1FFD0E440558CB3EC2CE26B"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\GameUI.dll",
+      "installation_relative_path": "bin/win64/GameUI.dll",
+      "size": 1928528,
+      "mtime_ns": 1791152888438046300,
+      "type": "native_module",
+      "sha256": "1F633E8D3FDAB74122784C79861985635DC1C4C02972716672F3AA64EA547305"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\ServerBrowser.dll",
+      "installation_relative_path": "bin/win64/ServerBrowser.dll",
+      "size": 1383248,
+      "mtime_ns": 1791152888440046400,
+      "type": "native_module",
+      "sha256": "61ED1C58C47429ED724CA578BA41AC0EF3C5770B01F113EA4161F7E3E77C6182"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\bass.dll",
+      "installation_relative_path": "bin/win64/bass.dll",
+      "size": 166872,
+      "mtime_ns": 1791154957773566700,
+      "type": "native_module",
+      "sha256": "FEBB2CF1882D554C3A958280777DA0B69F07DE6E262DF271DE11C56E4A54AFD4"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\bsppack.dll",
+      "installation_relative_path": "bin/win64/bsppack.dll",
+      "size": 686416,
+      "mtime_ns": 1791152888437046300,
+      "type": "native_module",
+      "sha256": "71A1848165DC75F3C6485B2E4BD51F7053E2EF1420EEE32BA11839B618FEF98A"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\bspzip.exe",
+      "installation_relative_path": "bin/win64/bspzip.exe",
+      "size": 902992,
+      "mtime_ns": 1791152888437046300,
+      "type": "executable_module",
+      "sha256": "3F5FB51BD08B57AEFF6507DBE5095F8246290DEBFB5F37D48B3B559C2F9A58C2"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\chrome_elf.dll",
+      "installation_relative_path": "bin/win64/chrome_elf.dll",
+      "size": 1010176,
+      "mtime_ns": 1791152888437046300,
+      "type": "native_module",
+      "sha256": "88A3B8C30843E3818BD09C791E7F99C94D427CF37CD9D4225F56871D60B11B0B"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\datacache.dll",
+      "installation_relative_path": "bin/win64/datacache.dll",
+      "size": 479056,
+      "mtime_ns": 1791152888437046300,
+      "type": "native_module",
+      "sha256": "3C60BFDDC9848C9E7F2A5F384047FFBE0868ACC355FDC21E6E801446659ECDCC"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\dmxconvert.exe",
+      "installation_relative_path": "bin/win64/dmxconvert.exe",
+      "size": 1165648,
+      "mtime_ns": 1791152888437046300,
+      "type": "executable_module",
+      "sha256": "B6A25E8D8A955D247ADC0DAEDC3EFDE4AF9B615D53EE317CC1A18EF3B2DBD652"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\engine.dll",
+      "installation_relative_path": "bin/win64/engine.dll",
+      "size": 5694800,
+      "mtime_ns": 1791152888437046300,
+      "type": "native_module",
+      "sha256": "F722107111C4301A329BADF43B039D776E061CAE5F9F8AB5013ADB4E06709394"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\filesystem_stdio.dll",
+      "installation_relative_path": "bin/win64/filesystem_stdio.dll",
+      "size": 962896,
+      "mtime_ns": 1791152888438046300,
+      "type": "native_module",
+      "sha256": "BD03C74FEA015603616EBF3AD8CA0A4A9435C2D50459622F5CFA6EECCF41F7FB"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\gmad.exe",
+      "installation_relative_path": "bin/win64/gmad.exe",
+      "size": 625664,
+      "mtime_ns": 1791152888438046300,
+      "type": "executable_module",
+      "sha256": "3465F69846606421242887BF13B143A83E284B031E04231EB8A6B24F97023559"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\gmod_audio.dll",
+      "installation_relative_path": "bin/win64/gmod_audio.dll",
+      "size": 151888,
+      "mtime_ns": 1791154967958324600,
+      "type": "native_module",
+      "sha256": "07757018F744F28B6C8BFF20BC521F78D6AE079EA48DF62B8096386A12144A1A"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\gmpublish.exe",
+      "installation_relative_path": "bin/win64/gmpublish.exe",
+      "size": 600064,
+      "mtime_ns": 1791152888438046300,
+      "type": "executable_module",
+      "sha256": "E27A943F481271100471D95071C5289D2948A4A196BB1AC642173C2ED99D02D0"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\hammer.exe",
+      "installation_relative_path": "bin/win64/hammer.exe",
+      "size": 506704,
+      "mtime_ns": 1791152888438046300,
+      "type": "executable_module",
+      "sha256": "FF32283147572D3EB995E6B38DEDD038C60E240F21697E887C52951007F115C2"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\hammer_dll.dll",
+      "installation_relative_path": "bin/win64/hammer_dll.dll",
+      "size": 10865488,
+      "mtime_ns": 1791152888438046300,
+      "type": "native_module",
+      "sha256": "38CBED6050A2674EB56D1828CA03214AB61299622F19B73A3624B8DF161E3790"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\hlmv.exe",
+      "installation_relative_path": "bin/win64/hlmv.exe",
+      "size": 1121104,
+      "mtime_ns": 1791152888438046300,
+      "type": "executable_module",
+      "sha256": "D59151343A64112FBFB2CEF71E6FE22B3075EEF50EB4CC2AB32798A3D6A1EFB1"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\html_chromium.dll",
+      "installation_relative_path": "bin/win64/html_chromium.dll",
+      "size": 516944,
+      "mtime_ns": 1791152888438046300,
+      "type": "native_module",
+      "sha256": "C4E353800E0B6D3849338B748900F70F441506D612EB221574F8B8580345CF86"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\html_stub.dll",
+      "installation_relative_path": "bin/win64/html_stub.dll",
+      "size": 118608,
+      "mtime_ns": 1791154962432483800,
+      "type": "native_module",
+      "sha256": "402BD2C89CDF456B26D45D539415BB7664083C854FAB54971B1B54DC44D06F36"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\inputsystem.dll",
+      "installation_relative_path": "bin/win64/inputsystem.dll",
+      "size": 223568,
+      "mtime_ns": 1791154965215791500,
+      "type": "native_module",
+      "sha256": "A0388D06393A30F8CB6BF36768C4B0C590DE6B4A96CB96D60F110DB8A572B9F5"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\launcher.dll",
+      "installation_relative_path": "bin/win64/launcher.dll",
+      "size": 279376,
+      "mtime_ns": 1791152888438046300,
+      "type": "native_module",
+      "sha256": "46647DBF5A10C39EBFE8A088943DB46165F76AEE91E7AE231CE099A322687842"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\libEGL.dll",
+      "installation_relative_path": "bin/win64/libEGL.dll",
+      "size": 396800,
+      "mtime_ns": 1791152888439046800,
+      "type": "native_module",
+      "sha256": "362D8FB9F868D2259C2B68C18BC23B2EC152089393706E256B8F70BF5387A955"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\libGLESv2.dll",
+      "installation_relative_path": "bin/win64/libGLESv2.dll",
+      "size": 6338560,
+      "mtime_ns": 1791152888439046800,
+      "type": "native_module",
+      "sha256": "36A54866C9F294EDFFF4373DEEF8EFE1D58F6B220DE7F15CDA15A86044D02A8F"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\libcef.dll",
+      "installation_relative_path": "bin/win64/libcef.dll",
+      "size": 137093632,
+      "mtime_ns": 1791152888439046800,
+      "type": "native_module",
+      "sha256": "47BEDFE4FEBD0BD111248C4FB0ED5B36BA1F84D01DEED960F5D582F704B8C17D"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\materialsystem.dll",
+      "installation_relative_path": "bin/win64/materialsystem.dll",
+      "size": 1120080,
+      "mtime_ns": 1791152888439046800,
+      "type": "native_module",
+      "sha256": "5580910CD4488F13A90C776930DF08AC0E62A3393928A3797292CD35A61513FC"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\mdllib.dll",
+      "installation_relative_path": "bin/win64/mdllib.dll",
+      "size": 217928,
+      "mtime_ns": 1791154968248372600,
+      "type": "native_module",
+      "sha256": "2321A283831FF065BF72952D0B675C48EFD66A8AA569860FDAFC98E9FFAC0661"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\scenefilecache.dll",
+      "installation_relative_path": "bin/win64/scenefilecache.dll",
+      "size": 197456,
+      "mtime_ns": 1791154974256347400,
+      "type": "native_module",
+      "sha256": "2B9619C82F422027A38AAB2BA758D6172EF637057632D401B911DA6951B747BB"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\shaderapidx9.dll",
+      "installation_relative_path": "bin/win64/shaderapidx9.dll",
+      "size": 835408,
+      "mtime_ns": 1791152888440046400,
+      "type": "native_module",
+      "sha256": "B3318839EDD8E0D47C62BAFB40FACB9AD4EA72C2D7F15750A009232B0F98C669"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\shaderapiempty.dll",
+      "installation_relative_path": "bin/win64/shaderapiempty.dll",
+      "size": 133968,
+      "mtime_ns": 1791154970866226200,
+      "type": "native_module",
+      "sha256": "2B1F42610787D94FB5C4EC9BEE2F30CEBDE7FB8ED78FF3FA05CB4DE24D68A59C"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\soundemittersystem.dll",
+      "installation_relative_path": "bin/win64/soundemittersystem.dll",
+      "size": 290128,
+      "mtime_ns": 1791152888440046400,
+      "type": "native_module",
+      "sha256": "10092B3A3659680C62FF737373D2872B66A2FD00F0650505E1B427805A716D01"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\soundsystem.dll",
+      "installation_relative_path": "bin/win64/soundsystem.dll",
+      "size": 398664,
+      "mtime_ns": 1791152888440046400,
+      "type": "native_module",
+      "sha256": "ADDBAAA8503052185DF5FAE915D14713617609CCCAEA958EABF58DBA3D0B2C62"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\stdshader_dbg.dll",
+      "installation_relative_path": "bin/win64/stdshader_dbg.dll",
+      "size": 390472,
+      "mtime_ns": 1791152888440046400,
+      "type": "native_module",
+      "sha256": "89176E721BF1006616E4B25B8DA4E4D1D248B4B8BF138B0DC3402D233711D784"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\stdshader_dx6.dll",
+      "installation_relative_path": "bin/win64/stdshader_dx6.dll",
+      "size": 500048,
+      "mtime_ns": 1791152888440046400,
+      "type": "native_module",
+      "sha256": "CC6A397892F14760667C1A5B9DDEB55A51F1B846A267C4D1422A4919C5AB775C"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\stdshader_dx7.dll",
+      "installation_relative_path": "bin/win64/stdshader_dx7.dll",
+      "size": 404304,
+      "mtime_ns": 1791152888441046300,
+      "type": "native_module",
+      "sha256": "D83D9686467533109DFDDF5F8CB783829853744A9A4E535F9F3B78A304FE32BE"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\stdshader_dx8.dll",
+      "installation_relative_path": "bin/win64/stdshader_dx8.dll",
+      "size": 672592,
+      "mtime_ns": 1791152888441046300,
+      "type": "native_module",
+      "sha256": "3A82E72FA598D656CA9813EB0EB8EDC8F74FC596C630220BBE00261E6522A6AC"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\stdshader_dx9.dll",
+      "installation_relative_path": "bin/win64/stdshader_dx9.dll",
+      "size": 1047376,
+      "mtime_ns": 1791152888441046300,
+      "type": "native_module",
+      "sha256": "D230DE3408D710CE74AD2C6A3C9FB012234E2B6FAF971B6737CAF4A5FC14F11E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\steam_api64.dll",
+      "installation_relative_path": "bin/win64/steam_api64.dll",
+      "size": 317080,
+      "mtime_ns": 1791152888441677700,
+      "type": "native_module",
+      "sha256": "EB17909A76668CF9AE0B92A618A34A50F6C73D3A6787CB4DD8CE36A8B10BFB75"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\studiomdl.exe",
+      "installation_relative_path": "bin/win64/studiomdl.exe",
+      "size": 2815816,
+      "mtime_ns": 1791152888441677700,
+      "type": "executable_module",
+      "sha256": "349F0EBB90915B2D23D1F83DC0728837D8AFD2E98730571C6BE7C74FCF6F6ABC"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\studiorender.dll",
+      "installation_relative_path": "bin/win64/studiorender.dll",
+      "size": 867152,
+      "mtime_ns": 1791152888441677700,
+      "type": "native_module",
+      "sha256": "528C1BB1B65433DAE8F0919B8DAC7D3A1FDCBA14E8F36474998E9AAB21E26775"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\tier0.dll",
+      "installation_relative_path": "bin/win64/tier0.dll",
+      "size": 385360,
+      "mtime_ns": 1791152888441677700,
+      "type": "native_module",
+      "sha256": "16AC71A68CAF770C02FB0789F52706BA5C08CFE6F5F350301B3EB6A55D606040"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\unicode.dll",
+      "installation_relative_path": "bin/win64/unicode.dll",
+      "size": 119632,
+      "mtime_ns": 1791154968430706500,
+      "type": "native_module",
+      "sha256": "853646110998343C5CFC530E6CC129F1405A98D1148C36CF1AF3BCDCAED7068D"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\vaudio_speex.dll",
+      "installation_relative_path": "bin/win64/vaudio_speex.dll",
+      "size": 282960,
+      "mtime_ns": 1791152888441677700,
+      "type": "native_module",
+      "sha256": "E42362296996DC22D11DEC0C6217B1748670F3B5011ADA65B0DAA42C89DB9148"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\vbsp.exe",
+      "installation_relative_path": "bin/win64/vbsp.exe",
+      "size": 1499984,
+      "mtime_ns": 1791152888441677700,
+      "type": "executable_module",
+      "sha256": "1AF04A8AE40275A6A0D7BB123A741A3916028B83AD1EC8E372401BB9006CE1E5"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\vgui2.dll",
+      "installation_relative_path": "bin/win64/vgui2.dll",
+      "size": 627536,
+      "mtime_ns": 1791152888441677700,
+      "type": "native_module",
+      "sha256": "EA48EBB30AF824475CDE2B80ED32EF97F1C362441BF11C7F149DD9AF08103F2F"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\vguimatsurface.dll",
+      "installation_relative_path": "bin/win64/vguimatsurface.dll",
+      "size": 1405776,
+      "mtime_ns": 1791152888441677700,
+      "type": "native_module",
+      "sha256": "AF69C3A4BFDE8FCDBAE050A3DE1A33BB248C8C1789DD6BDF3EEBCD5AA447D3A2"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\vphysics.dll",
+      "installation_relative_path": "bin/win64/vphysics.dll",
+      "size": 1412760,
+      "mtime_ns": 1791152888441677700,
+      "type": "native_module",
+      "sha256": "598B9681001461B83E11538B59B482D7FC1198E42EED6F56A4E4E46E0E131356"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\vpk.exe",
+      "installation_relative_path": "bin/win64/vpk.exe",
+      "size": 743760,
+      "mtime_ns": 1791152888442672200,
+      "type": "executable_module",
+      "sha256": "9641D15891D71444E9948BCD018B8B8C74204595F366BE648A89DB49A618196F"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\vrad.exe",
+      "installation_relative_path": "bin/win64/vrad.exe",
+      "size": 376656,
+      "mtime_ns": 1791152888442672200,
+      "type": "executable_module",
+      "sha256": "9B58CD7D3983E5CEBC72811E08AF0C184709C36559446D6B4044EAD566119F1E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\vrad_dll.dll",
+      "installation_relative_path": "bin/win64/vrad_dll.dll",
+      "size": 1322832,
+      "mtime_ns": 1791152888442672200,
+      "type": "native_module",
+      "sha256": "BE8589266FFB7395A19CCB6B7CC57884480588CA002BA4A5E52F81244D98E93C"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\vstdlib.dll",
+      "installation_relative_path": "bin/win64/vstdlib.dll",
+      "size": 344400,
+      "mtime_ns": 1791152888442672200,
+      "type": "native_module",
+      "sha256": "5072F0613079EA85B189DD4B8518479C10273994061F4E09AB185203EA47EFD1"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\vtex.exe",
+      "installation_relative_path": "bin/win64/vtex.exe",
+      "size": 390992,
+      "mtime_ns": 1791152888442672200,
+      "type": "executable_module",
+      "sha256": "49DFBCBDC69FF705AC9DB8BDF809A0AF5422D5FE4FC7E180439B0A43A0FED73F"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\vtex_dll.dll",
+      "installation_relative_path": "bin/win64/vtex_dll.dll",
+      "size": 636752,
+      "mtime_ns": 1791152888442672200,
+      "type": "native_module",
+      "sha256": "1677AAA970B1AF8B1819493C031522B3AF05CE64C2EFE434E7B00E4F6823E93A"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\vvis.exe",
+      "installation_relative_path": "bin/win64/vvis.exe",
+      "size": 365392,
+      "mtime_ns": 1791152888442672200,
+      "type": "executable_module",
+      "sha256": "8175EB04DF2657159D882D43C6EF32D5E8B5980F63C6F0423D7DACF322B3A2A5"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\win64\\vvis_dll.dll",
+      "installation_relative_path": "bin/win64/vvis_dll.dll",
+      "size": 703824,
+      "mtime_ns": 1791152888442672200,
+      "type": "native_module",
+      "sha256": "9BA0C1538137C34D1B5F87D1CD27CAC0C44D64892C44D99F065D51CB288BCE21"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\analytics.dll",
+      "installation_relative_path": "garrysmod/bin/analytics.dll",
+      "size": 209744,
+      "mtime_ns": 1791154967566709200,
+      "type": "native_module",
+      "sha256": "51025EB97160C115F4A5326DC5064AD407D1C8B885285305EA494D4DC2EC31A7"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\client.dll",
+      "installation_relative_path": "garrysmod/bin/client.dll",
+      "size": 8007496,
+      "mtime_ns": 1791152888443671900,
+      "type": "native_module",
+      "sha256": "A1B56FDCB6E70C00241698C45EB145EED77477D8F760320B0A53BFEC330E53E6"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\game_shader_generic_garrysmod.dll",
+      "installation_relative_path": "garrysmod/bin/game_shader_generic_garrysmod.dll",
+      "size": 218448,
+      "mtime_ns": 1791154971840663200,
+      "type": "native_module",
+      "sha256": "9C4F98F13AAD45E7EE521592337810CFC9F996665AE45C1DD795259C3083CBF8"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\holly.dll",
+      "installation_relative_path": "garrysmod/bin/holly.dll",
+      "size": 138752,
+      "mtime_ns": 1791154975534828900,
+      "type": "native_module",
+      "sha256": "D62BB4E88593250C5075C93B3082AC366875F357574209147EDD53B1B8AC17A4"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\holly_ogg.dll",
+      "installation_relative_path": "garrysmod/bin/holly_ogg.dll",
+      "size": 1889280,
+      "mtime_ns": 1791152888443671900,
+      "type": "native_module",
+      "sha256": "7F1838390504E13B845F9981F008300AB2C9AD43BE43225E230D61DE35A76AE3"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\holly_webm.dll",
+      "installation_relative_path": "garrysmod/bin/holly_webm.dll",
+      "size": 449024,
+      "mtime_ns": 1791152888443671900,
+      "type": "native_module",
+      "sha256": "C8DEE55F260204B53A714F87B3209E0780936676D4D93F85CC039A84B6228BD7"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\lua_shared.dll",
+      "installation_relative_path": "garrysmod/bin/lua_shared.dll",
+      "size": 557392,
+      "mtime_ns": 1791152888443671900,
+      "type": "native_module",
+      "sha256": "96D77CA125D11FE75140341CBB9EF2EB4D157679391B266D171E67487F7B5DB7"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\menusystem.dll",
+      "installation_relative_path": "garrysmod/bin/menusystem.dll",
+      "size": 2540368,
+      "mtime_ns": 1791152888443671900,
+      "type": "native_module",
+      "sha256": "BB2E693525099C9614142AFFEDC20C79260547DCA861CF49845AF520499F9DEE"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\resources.dll",
+      "installation_relative_path": "garrysmod/bin/resources.dll",
+      "size": 764240,
+      "mtime_ns": 1791152888443671900,
+      "type": "native_module",
+      "sha256": "67E75C3DCFB7B32B9DA0F4CFA2A0863BEB2FE7DA3010758C29762E0DBD450537"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\server.dll",
+      "installation_relative_path": "garrysmod/bin/server.dll",
+      "size": 11816784,
+      "mtime_ns": 1791152888443671900,
+      "type": "native_module",
+      "sha256": "06688DD4C3499170951926A69BE91B6FC77B1DD428E4477566CB2EC6A13BE943"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\win64\\analytics.dll",
+      "installation_relative_path": "garrysmod/bin/win64/analytics.dll",
+      "size": 248656,
+      "mtime_ns": 1791154966132906500,
+      "type": "native_module",
+      "sha256": "BCBEA66ACA1E135CED434D149137095C8973387268BC01B765DC7E7C4E4AE8FB"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\win64\\client.dll",
+      "installation_relative_path": "garrysmod/bin/win64/client.dll",
+      "size": 10155856,
+      "mtime_ns": 1791152888444671900,
+      "type": "native_module",
+      "sha256": "DDA3F6B7AD831F2B9D46CC963F1AA427F0F8E21612797FC186AFBB33C4A0BBBA"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\win64\\game_shader_generic_garrysmod.dll",
+      "installation_relative_path": "garrysmod/bin/win64/game_shader_generic_garrysmod.dll",
+      "size": 407888,
+      "mtime_ns": 1791152888444671900,
+      "type": "native_module",
+      "sha256": "7B39913B0337BFBBF0EA784A44FB8684311B16AFBD8983AEEC14573C7F0202A9"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\win64\\lua_shared.dll",
+      "installation_relative_path": "garrysmod/bin/win64/lua_shared.dll",
+      "size": 787280,
+      "mtime_ns": 1791152888444671900,
+      "type": "native_module",
+      "sha256": "C4D093AB2EC74877459FEC06CE238510EBC2001D60508632D78A2B659CE1395D"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\win64\\menusystem.dll",
+      "installation_relative_path": "garrysmod/bin/win64/menusystem.dll",
+      "size": 2924880,
+      "mtime_ns": 1791152888444671900,
+      "type": "native_module",
+      "sha256": "26645CDEC6ED9349B6EBD0B10D5FD15C2C451D9FC22D1C018F04FEAF9F58D106"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\win64\\resources.dll",
+      "installation_relative_path": "garrysmod/bin/win64/resources.dll",
+      "size": 949584,
+      "mtime_ns": 1791152888444671900,
+      "type": "native_module",
+      "sha256": "D9008AA8E9ADCDF34E99FF0AD1533F3790FF99B35FF4905C13203A2A5EB317AD"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\bin\\win64\\server.dll",
+      "installation_relative_path": "garrysmod/bin/win64/server.dll",
+      "size": 15504208,
+      "mtime_ns": 1791152888444671900,
+      "type": "native_module",
+      "sha256": "067A2F292204B63B56CDED9DD8119CFCB4991FBED29808DAD0F7ABD922767D55"
+    }
+  ],
+  "note": "Identity/hash only; no non-IDA disassembly performed."
+}
