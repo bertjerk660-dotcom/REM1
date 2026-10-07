@@ -94,3 +94,17 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Verify save/load.
 - Verify normal inventory and combat behavior outside imported modes.
 - Check for progression-breaking regressions.
+
+
+## Pre-Opus workflow / coordination
+- Treat `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md` as the reproducible preparation-readiness metric.
+- Current score after workflow finalization: **74/100 preparation readiness**; this is not game-completion percentage.
+- Ingest each Codex C01-C08 result through `context/OPUS_PACKAGE_INTAKE_CHECKLIST_2026-10-07.md`.
+- Assemble an Opus implementation packet immediately when its evidence gate unlocks rather than waiting for unrelated Codex packages.
+- Use `context/OPUS_LAUNCH_SEQUENCE_2026-10-07.md` for package order.
+- Use `build/templates/OPUS_IMPLEMENTATION_MANIFEST_TEMPLATE.json` for every Opus candidate.
+- Re-hash only package-relevant local source/assets immediately before implementation.
+- Preserve the warning in `context/LOCAL_OPUS_PREFLIGHT_SNAPSHOT_2026-10-07.md`: the old 2026-10-06 feed-bundle main.cpp hash no longer matches current local source.
+- Keep unrelated support sidecars isolated or explicitly listed in every candidate manifest.
+- Promote coordination artifacts to the chosen long-term integration branch selectively; do not wholesale merge runtime/specialist branches.
+- Convert every deterministic Codex failure into `context/HANDOFFS/OPUS_FIX_PACKET_TEMPLATE.md` and protect already-passing behavior.
