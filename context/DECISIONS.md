@@ -24,8 +24,22 @@ The existing custom/Fallout-style prop menu is not the final design. The target 
 
 ## D-007 Tool Gun and Physics Gun must use real GMod systems
 Accepted: 2026-10-05.
-The final Tool Gun and Physics Gun must not be Fallout-authored recreations. GPT-6 Astra should reuse/port the user's installed Garry's Mod Lua/SWEP/tool scripts, tool definitions, assets, materials, sounds and source behavior wherever technically possible, and use IDA Pro 6.8 for required native Source/GMod behavior or interfaces not exposed in script. Tool selection is owned by the real/ported Q menu, not by Fallout top-left prompts or Fallout menu prompts.
+The final Tool Gun and Physics Gun must not be Fallout-authored recreations. The implementation owner should reuse/port the user's installed Garry's Mod Lua/SWEP/tool scripts, tool definitions, assets, materials, sounds and source behavior wherever technically possible, and IDA Pro 6.8 must be used for required native Source/GMod evidence or interfaces not exposed in script. Tool selection is owned by the real/ported Q menu, not by Fallout top-left prompts or Fallout menu prompts.
+
+**Ownership supersession, 2026-10-07:** the original D-007 wording named GPT-6/Astra. That role assignment is obsolete. Current ownership is defined by `context/AGENT_OWNERSHIP.md`: Codex owns investigation/evidence and runtime validation/debugging; Claude Opus is the sole implementation/integration owner. The technical decision to use real GMod systems remains unchanged.
 
 ## D-008 GMod notifications replace Fallout tool prompts
 Accepted: 2026-10-05.
 Normal Tool Gun/Physics Gun feedback and transient tool notifications should use a source-faithful port of Garry's Mod's own notification/bubble UI and related original scripts/assets where applicable. Fallout HUD notifications and Fallout-style popup menus must not be used as substitutes for GMod tool selection or normal GMod tool feedback.
+
+
+## D-009 Current agent ownership supersedes historical model labels
+Accepted: 2026-10-07.
+
+`context/AGENT_OWNERSHIP.md` is authoritative for current role assignment:
+- Codex owns investigation, reverse-engineering evidence, runtime investigation/testing/debugging and regression validation.
+- Claude Opus is the sole substantive implementation/integration owner.
+- Normal GPT owns workflow, documentation, provenance, manifests, handoffs and coordination.
+- GPT-6/Astra is not used for current project work.
+
+Historical branch/file names containing `ASTRA`, `GPT6`, `gpt6_opus` or `*-g6` remain traceability labels only and must not dispatch new work.
