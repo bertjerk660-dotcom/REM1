@@ -7,8 +7,8 @@ Workflow / documentation / provenance / handoff preparation only. No Codex rever
 Using the explicit weighted rubric in `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md`:
 
 - **before:** 58/100 Opus-preparation readiness;
-- **after:** 76/100 Opus-preparation readiness;
-- **gain:** +18 percentage points.
+- **after:** 80/100 Opus-preparation readiness;
+- **gain:** +22 percentage points.
 
 This measures preparation quality, not game completion or runtime-validation completion.
 
@@ -59,7 +59,8 @@ Therefore the old feed bundle is reference/provenance input only and cannot defi
 - `context/OPEN_WORK.md`
 
 ## Current Opus package status
-- O01 Toolgun presentation: **READY FOR OPUS**.
+- O00 Golden Source bench conversion proof: **READY FOR OPUS**.
+- O01 Toolgun presentation: **READY AFTER O00 PASS**.
 - O08 selected visual/model packages: **PARTIAL / PACKAGE-SPECIFIC**.
 - O02 Q-menu: waits for C01.
 - O03 Toolgun behavior: waits for C01+C02.
@@ -72,7 +73,7 @@ Therefore the old feed bundle is reference/provenance input only and cannot defi
 - O09 polish/fix loop: waits for implemented candidates and Codex runtime reports.
 
 ## Remaining preparation bottleneck
-The remaining 24 readiness points are dominated by missing **Codex implementation-grade evidence**. Normal GPT must not fabricate those points from source inventories.
+The remaining 20 readiness points are dominated by missing **Codex implementation-grade evidence**. Normal GPT must not fabricate those points from source inventories.
 
 As each C01-C08 result lands, normal GPT should:
 1. ingest/review it;
@@ -100,3 +101,17 @@ Do not wholesale merge runtime/specialist branches. Promote coordination artifac
 - Machine-readable preflight: `build/prepared/opus_o01_toolgun_presentation_20261007.json`.
 - O01 is now READY FOR OPUS for visual/presentation work only.
 - Canonical coordination promotion is preplanned in `context/CANONICAL_COORDINATION_PROMOTION_PLAN_2026-10-07.md`; no specialist/runtime branch was merged.
+
+
+### Authenticated GMod evidence intake
+- Canonical main commit `19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0` was reviewed and selectively imported.
+- C01 Q-menu = SUBSTANTIAL PARTIAL.
+- C02 Toolgun = SUBSTANTIAL PARTIAL.
+- C03 Physgun = PARTIAL.
+- Broad GMod rediscovery is now unnecessary; narrow gap closure is defined in `context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md`.
+- O02/O03/O04 preassembled packets now exist.
+
+### Golden conversion gate
+- O00 bench source geometry/collision/material inputs were freshly re-hashed and match provenance.
+- O00 is the first Opus implementation task.
+- O01 is fully prepared but starts only after O00 passes visual/collision/runtime acceptance.
