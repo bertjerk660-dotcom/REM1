@@ -157,3 +157,16 @@ Unified local source validation:
 ## Path to 100% preparation
 Use `context/OPUS_READINESS_81_TO_100_PLAN_2026-10-07.md`.
 After the clean main-descended preparation branch is finalized, baseline readiness is 81/100 and the remaining 19 points are exclusively C01-C08 evidence gates.
+
+
+## Next Codex request
+
+Next **new** Codex investigation:
+`context/HANDOFFS/NEXT_CODEX_REQUEST_THUG2_C04_2026-10-07.md`
+
+This is C04 THUG2 state/movement/physics evidence only.
+
+The existing GMod C01-C03 narrow closure remains available separately:
+`context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md`
+
+Codex must not perform Claude Opus implementation work.
