@@ -1,0 +1,170 @@
+{
+  "schema": "rem.quarantined_branch_index.v1",
+  "date": "2026-10-08",
+  "canonical_main": "19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0",
+  "preparation_base": {
+    "branch": "prep/opus-ready-20261007",
+    "head": "2c3f72c69475b2e842b5cbb3532f4946781b0fff",
+    "role": "current clean Opus-preparation base"
+  },
+  "current_coordination_branch": {
+    "branch": "prep/gpt55-coordination-20261008",
+    "head_at_index_start": "36d90999725034c6c44a6253f02ebe0554220c15",
+    "role": "documentation/provenance reconciliation only"
+  },
+  "branches": [
+    {
+      "branch": "prep/pre-opus-thursday",
+      "head": "862a516029376707fd40168afcc8c487b3a9e840",
+      "relation_to_main": {
+        "status": "diverged",
+        "ahead": 184,
+        "behind": 47
+      },
+      "classification": "QUARANTINED_MIXED_PREP_AND_RUNTIME_EVIDENCE",
+      "allowed_use": [
+        "selective provenance/manifests",
+        "historical implementation evidence",
+        "source-packet lookup"
+      ],
+      "forbidden_use": [
+        "wholesale merge",
+        "runtime promotion",
+        "version-number-based supersession"
+      ],
+      "next_action": "reconcile package-by-package only when a selected Opus package needs an artifact"
+    },
+    {
+      "branch": "feature/thug2-native-ui-g6",
+      "head": "df2e4ff9213856c1ad82ff74ce0c13d97a603dc4",
+      "relation_to_main": {
+        "status": "diverged",
+        "ahead": 53,
+        "behind": 59
+      },
+      "classification": "QUARANTINED_RUNTIME_IMPLEMENTATION_EVIDENCE",
+      "allowed_use": [
+        "historical implementation evidence",
+        "provenance extraction",
+        "failure/regression design"
+      ],
+      "forbidden_use": [
+        "canonical runtime claim",
+        "direct promotion",
+        "treating GPT-6 label as current ownership"
+      ],
+      "next_action": "mine evidence selectively; any reused implementation must be re-integrated/frozen by Opus and validated by Codex"
+    },
+    {
+      "branch": "runtime/astra-phase1-input92",
+      "head": "63836011849f0c121a9740929d661b6f4bba09b6",
+      "relation_to_main": {
+        "status": "diverged",
+        "ahead": 63,
+        "behind": 59
+      },
+      "classification": "QUARANTINED_RUNTIME_CANDIDATE",
+      "allowed_use": [
+        "historical input/candidate evidence",
+        "failure comparison",
+        "provenance lookup"
+      ],
+      "forbidden_use": [
+        "direct deployment",
+        "canonical completion claim",
+        "promotion because v92 is newer"
+      ],
+      "next_action": "only select a minimal candidate for test after exact artifact/hash reconciliation"
+    },
+    {
+      "branch": "diag/v85-retarget-quarantine",
+      "head": "603d4047e7f3ac255a4b2fa7662fb37f2d8f5f39",
+      "relation_to_main": {
+        "status": "diverged",
+        "ahead": 4,
+        "behind": 59
+      },
+      "classification": "HISTORICAL_FAILURE_EVIDENCE",
+      "allowed_use": [
+        "crash/retarget failure knowledge",
+        "regression design"
+      ],
+      "forbidden_use": [
+        "release candidate selection",
+        "runtime promotion"
+      ],
+      "next_action": "retain as failure evidence only"
+    },
+    {
+      "branch": "prep/opus-feed-bundle-20261006",
+      "head": "bf0d8590af123e0f77e5b994c4d3fcbf174ad849",
+      "relation_to_main": {
+        "status": "diverged",
+        "ahead": 34,
+        "behind": 17
+      },
+      "classification": "STALE_PREP_EVIDENCE_SNAPSHOT",
+      "allowed_use": [
+        "historical asset/source packet provenance",
+        "cross-checking old feed metadata"
+      ],
+      "forbidden_use": [
+        "defining current implementation-source baseline",
+        "direct Opus dispatch without current hash reconciliation"
+      ],
+      "next_action": "use current package packets/manifests instead; mine old snapshot only when needed"
+    },
+    {
+      "branch": "prep/prop-content-phase4",
+      "head": "153ec39d095f0dc0e475d85bf1f78e5eccb1641d",
+      "relation_to_main": {
+        "status": "diverged",
+        "ahead": 183,
+        "behind": 47
+      },
+      "classification": "BRANCH_ONLY_SUPPORT_EVIDENCE",
+      "allowed_use": [
+        "catalog/provenance/static validator evidence"
+      ],
+      "forbidden_use": [
+        "runtime promotion",
+        "wholesale merge"
+      ],
+      "next_action": "selective evidence use only"
+    },
+    {
+      "branch": "prep/support-workflow",
+      "head": "492c3dc7c23bbcac9eb8c2a52b5e61e32fda775b",
+      "relation_to_main": {
+        "status": "diverged",
+        "ahead": 127,
+        "behind": 47
+      },
+      "classification": "BRANCH_ONLY_SUPPORT_EVIDENCE",
+      "allowed_use": [
+        "support documentation/provenance"
+      ],
+      "forbidden_use": [
+        "runtime promotion",
+        "wholesale merge"
+      ],
+      "next_action": "selective evidence use only"
+    }
+  ],
+  "documentation_inputs": [
+    {
+      "branch": "prep/haiku-findings-20261007",
+      "head": "3299b5d7a84b0bf8089b19f5ae06664f91834bf5",
+      "classification": "DOCUMENTATION_FINDINGS_ONLY",
+      "note": "One documentation-only commit ahead of prep/opus-ready. Factual findings may be reconciled selectively; ownership proposal is not current dispatch authority unless explicitly superseded by the owner."
+    }
+  ],
+  "promotion_rule": [
+    "exact branch/commit identity",
+    "source/build/artifact hashes",
+    "load order and candidate manifest",
+    "applicable Codex runtime validation",
+    "Opus fixes for failures",
+    "normal-GPT workflow review before CURRENT_STATE promotion"
+  ]
+}
