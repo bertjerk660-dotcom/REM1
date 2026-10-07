@@ -1,0 +1,84 @@
+{
+  "schema": "rem.opus_implementation_candidate.v1",
+  "package_id": "O01",
+  "package_name": "Toolgun presentation",
+  "goal": "Implement source-faithful visual/model/material/attachment presentation for Toolgun presentation after O00 PASS without changing unauthorized gameplay behavior.",
+  "owner": "Claude Opus",
+  "preparation_branch": "prep/opus-ready-20261007",
+  "prerequisite": "O00 PASS",
+  "parent_branch": "",
+  "parent_commit": "",
+  "implementation_branch": "",
+  "implementation_commit": "",
+  "source_identity": {
+    "main_source_path": "models/weapons/c_toolgun.mdl",
+    "main_source_sha256": "992ED7A5ED4996B89C59FF656D93981FBA53B06B2E7A478EA52E0D7309E8CC79",
+    "required_evidence_commits": [],
+    "required_provenance_files": [
+      "context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md",
+      "build/prepared/opus_o01_toolgun_presentation_20261007.json",
+      "build/validation/opus_visual_source_validation_20261007.json"
+    ]
+  },
+  "inputs": {
+    "codex_evidence": [],
+    "asset_packets": [
+      "build/prepared/opus_o01_toolgun_presentation_20261007.json"
+    ],
+    "failure_knowledge": [
+      "Do not alter Q-menu/Toolgun behavior in visual-only package",
+      "Do not use stale 2026-10-06 main.cpp baseline"
+    ],
+    "acceptance_rows": [
+      "first-person presentation",
+      "third-person/world presentation",
+      "material/reference resolution",
+      "equip/switch/save-load regression"
+    ],
+    "preserved_working_behavior": [
+      "existing inventory identity",
+      "existing Toolgun behavior untouched",
+      "skateboard and Physgun unaffected"
+    ]
+  },
+  "changes": [],
+  "outputs": {
+    "dlls": [],
+    "esps": [],
+    "meshes": [],
+    "textures": [],
+    "audio": [],
+    "ui": [],
+    "other": []
+  },
+  "runtime_identity": {
+    "plugins_txt": [],
+    "loadorder_txt": [],
+    "test_save": "",
+    "test_location": "",
+    "required_inventory": [
+      "Toolgun presentation"
+    ],
+    "required_mode_state": "NORMAL_FALLOUT; O00 already validated"
+  },
+  "validation": {
+    "build": "pending",
+    "static": "pending",
+    "asset_reference_resolution": "pending",
+    "runtime_owner": "Codex",
+    "runtime_test_pack": "context/HANDOFFS/CODEX_VISUAL_WEAPON_PRESENTATION_RUNTIME_VALIDATION_2026-10-07.md",
+    "runtime_status": "not_run",
+    "regression_status": "not_run",
+    "human_playability_status": "not_run"
+  },
+  "known_issues": [],
+  "rollback": {
+    "backup_paths": [],
+    "previous_hashes": {},
+    "revert_commit": ""
+  },
+  "promotion": {
+    "canonical_state_updated": false,
+    "reason": "Do not promote until package-specific Codex visual/runtime validation passes."
+  }
+}
