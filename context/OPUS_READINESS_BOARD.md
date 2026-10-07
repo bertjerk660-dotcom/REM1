@@ -1,4 +1,6 @@
-# Opus Readiness Board — 2026-10-07
+# Opus Readiness Board
+
+Preferred preparation branch: `prep/opus-ready-20261007` (verified 0 commits behind canonical main). — 2026-10-07
 
 **Claude Opus is the sole implementation/integration agent.**
 This board prevents implementation from starting before the necessary Codex evidence exists.
@@ -61,7 +63,7 @@ Before starting any Opus package, use:
 - `context/OPUS_PACKAGE_INTAKE_CHECKLIST_2026-10-07.md` — evidence review, packet assembly, candidate freeze and promotion checklist.
 - `context/LOCAL_OPUS_PREFLIGHT_SNAPSHOT_2026-10-07.md` — current local hashes and stale-feed-bundle warning.
 
-Current preparation score after the 2026-10-07 workflow finalization pass: **80/100**.
+Current preparation score on the clean main-descended branch: **81/100**.
 
 This percentage measures preparation/handoff readiness only. Package unlock state in the table above remains authoritative: most core systems are still waiting for Codex evidence.
 
