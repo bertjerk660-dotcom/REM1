@@ -63,7 +63,8 @@ The remaining non-Codex preparation gap consists mainly of:
 ## Subsystem gate reality
 
 Current Opus package state remains:
-- O01 Toolgun presentation: **READY FOR OPUS**.
+- O00 Golden Source bench conversion proof: **READY FOR OPUS**.
+- O01 Toolgun presentation: **READY AFTER O00 PASS**.
 - O02 Q-menu: **WAITING FOR CODEX GAP CLOSURE** (C01 substantial partial).
 - O03 Toolgun behavior: **WAITING FOR CODEX GAP CLOSURE** (C01/C02 substantial partial).
 - O04 Physgun parity: **WAITING FOR CODEX GAP CLOSURE** (C03 partial).
