@@ -1,0 +1,83 @@
+{
+  "build": "goodsprings-deathclaw-response-v2-2026-10-07",
+  "goal": "Goodsprings encounter: Combine Solider rampage, 10 friendly-only Deathclaw response units, and natural Captain Claw post-fight approach/reward.",
+  "load_order": [
+    "FalloutNV.esm",
+    "REM_GModTHUG2.esp",
+    "REM_CombineArmor_Test_TorsoLowered.esp",
+    "REM_Goodsprings_CombineDeathclawEncounter.esp"
+  ],
+  "artifacts": {
+    "encounter_esp": {
+      "path": "Data\\REM_Goodsprings_CombineDeathclawEncounter.esp",
+      "sha256": "B37B2087B75701AFAAE64FEA62B580774B99965A8B4C37CED32E4161FECB590F"
+    },
+    "support_dll": {
+      "path": "Data\\NVSE\\Plugins\\REMGoodspringsResponse.dll",
+      "sha256": "2FCEAC8BB4B3AD11B774F9B9B0D9F97A08E9D9372205C9A7E4E34F2BF4F0F13F",
+      "machine": "x86"
+    },
+    "captain_tts": {
+      "path": "Data\\Sound\\fx\\rem\\goodsprings\\captain_claw_thanks.wav",
+      "sha256": "F0C6A0DAE22B6122DAC741E14CC3A8F255F50BC13A1A7B860AA42C8B4B74F62C",
+      "format": "PCM mono 16-bit 22050 Hz",
+      "duration_seconds": 9.787845804988661,
+      "voice": "Microsoft David Desktop"
+    }
+  },
+  "combine_guard": {
+    "name": "Combine Solider",
+    "health": 100000,
+    "speed_multiplier": 200,
+    "aggression": 3,
+    "confidence": 4,
+    "inventory": {
+      "minigun": "0000433F x1",
+      "standard_5mm": "0006B53D x10000000",
+      "combine_armor": "01000800 x1"
+    },
+    "reference_local_id": "0803"
+  },
+  "response_units": {
+    "count": 10,
+    "name": "DEATHCLAW RESPONSE UNIT",
+    "base_local_id": "0801",
+    "reference_local_ids": ["0804","0805","0806","0807","0808","0809","080A","080B","080C","080D"],
+    "base_ai": {
+      "aggression": 0,
+      "confidence": 4,
+      "factions": 0,
+      "packages": 0
+    },
+    "runtime_behavior": "Every 750 ms while the Combine guard is alive, any response unit not targeting the guard is stopped and explicitly StartCombat-targeted to the guard. After guard defeat all response-unit combat is stopped every poll."
+  },
+  "captain_claw": {
+    "name": "Captain Claw",
+    "base_local_id": "0802",
+    "reference_local_id": "080E",
+    "initially_disabled": true,
+    "ai_package": "RunToPlayerForever [000CAFC6]",
+    "spawn_position": [-73000.0, 1800.0, 8352.0],
+    "teleport_commands": 0,
+    "activation": "Enable + EVP after Combine guard lifeState becomes non-alive.",
+    "speech_trigger_radius": 275.0,
+    "dialogue_prompt_count": 1,
+    "reward": "Deathclaw Egg [000E6627] x1",
+    "reward_global": "REMCaptainClawRewarded [local 080F]"
+  },
+  "validation": {
+    "esp_recursive_binary_parse": "pass",
+    "esp_record_count": 18,
+    "response_unit_count": "pass",
+    "captain_run_package": "pass",
+    "captain_initially_disabled": "pass",
+    "persistent_reward_global": "pass",
+    "support_dll_build": "pass, 0 errors",
+    "support_dll_x86": "pass",
+    "tts_wav": "pass",
+    "executable_moveto_command": "absent",
+    "load_order_old_single_guard_sidecar_disabled": "pass",
+    "runtime_game_boot": "pass: xNVSE 6.4.9 loaded REMGoodspringsResponse v2 correctly at main menu",
+    "human_encounter_playtest": "pending"
+  }
+}
