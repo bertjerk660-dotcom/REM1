@@ -157,3 +157,32 @@ Then hand the exact candidate to Codex for:
 Implement only packages explicitly marked READY FOR OPUS or package-specific O08 work with proven provenance.
 
 If a required fact is missing, record it and stop that package rather than inventing original-game behavior.
+
+
+## Candidate-manifest automation
+
+Before implementation:
+- use the package's prefilled manifest seed;
+- run `research/validate_opus_candidate_manifest.py --mode preflight`.
+
+Before Codex runtime validation:
+- fill exact parent/implementation commits, hashed outputs, runtime identity and rollback;
+- run the same validator with `--mode freeze`;
+- do not hand a candidate to Codex unless freeze validation passes.
+
+Current preflight baseline:
+- O00 PASS;
+- O01 PASS;
+- O08a PASS;
+- O08b PASS;
+- O08c PASS;
+- 0 manifest-preflight errors.
+
+Record:
+`build/validation/opus_candidate_preflight_baseline_20261007.json`
+
+O00 runtime validation packet:
+`context/HANDOFFS/CODEX_O00_GOLDEN_BENCH_RUNTIME_VALIDATION_2026-10-07.md`
+
+Post-O00 visual validation packet:
+`context/HANDOFFS/CODEX_VISUAL_WEAPON_PRESENTATION_RUNTIME_VALIDATION_2026-10-07.md`
