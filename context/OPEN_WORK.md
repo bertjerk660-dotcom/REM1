@@ -123,3 +123,13 @@ This is a requirements/backlog ledger, not proof of implementation.
 - C01 and C02 are substantial partial; C03 is partial.
 - Next Codex task: `context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md`.
 - O02/O03/O04 preassembly packets already exist; normal GPT should convert them to final READY FOR OPUS packets immediately when the corresponding gap closure is reviewed.
+
+
+### 81-to-100 readiness closure
+- Finalize clean main-descended branch `prep/opus-ready-20261007` and set branch-reconciliation rubric to 10/10.
+- Then only C01-C08 evidence points remain.
+- Master closure plan: `context/OPUS_READINESS_81_TO_100_PLAN_2026-10-07.md`.
+- Codex execution packet: `context/HANDOFFS/CODEX_MASTER_100_READINESS_CLOSURE_2026-10-07.md`.
+- Machine gate map: `build/prepared/opus_readiness_81_to_100_20261007.json`.
+- O08b Pistol and O08c SMG1 are READY AFTER O00 PASS.
+- Unified source validator currently passes 87/87 files.
