@@ -1,0 +1,624 @@
+{
+  "id": "bench",
+  "model": "models/props_c17/bench01a.mdl",
+  "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a",
+  "model_components": [
+    {
+      "relative": "models/props_c17/bench01a.mdl",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+      "entry": "models/props_c17/bench01a.mdl",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\models\\props_c17\\bench01a.mdl",
+      "bytes": 1520,
+      "sha256": "8751F7E234A4212016FF93C50C8951ECB793B628819957B06BA1831A899CE846",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "8751F7E234A4212016FF93C50C8951ECB793B628819957B06BA1831A899CE846"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "8751F7E234A4212016FF93C50C8951ECB793B628819957B06BA1831A899CE846"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\src\\models\\props_c17\\bench01a.mdl",
+        "exists": true,
+        "bytes": 1520,
+        "sha256": "8751F7E234A4212016FF93C50C8951ECB793B628819957B06BA1831A899CE846"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/props_c17/bench01a.vvd",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+      "entry": "models/props_c17/bench01a.vvd",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\models\\props_c17\\bench01a.vvd",
+      "bytes": 55232,
+      "sha256": "BC9AFFE6F4EFC8766FE77961C2BD41748D677432A1E141D6CA7F56AB1E048F7D",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "BC9AFFE6F4EFC8766FE77961C2BD41748D677432A1E141D6CA7F56AB1E048F7D"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "BC9AFFE6F4EFC8766FE77961C2BD41748D677432A1E141D6CA7F56AB1E048F7D"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\src\\models\\props_c17\\bench01a.vvd",
+        "exists": true,
+        "bytes": 55232,
+        "sha256": "BC9AFFE6F4EFC8766FE77961C2BD41748D677432A1E141D6CA7F56AB1E048F7D"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/props_c17/bench01a.dx90.vtx",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+      "entry": "models/props_c17/bench01a.dx90.vtx",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\models\\props_c17\\bench01a.dx90.vtx",
+      "bytes": 35672,
+      "sha256": "E651BB00300CFD6F843D8882BFC2FC43813CAAF3D2A6AC350AEBA5496AEDB097",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "E651BB00300CFD6F843D8882BFC2FC43813CAAF3D2A6AC350AEBA5496AEDB097"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "E651BB00300CFD6F843D8882BFC2FC43813CAAF3D2A6AC350AEBA5496AEDB097"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\src\\models\\props_c17\\bench01a.dx90.vtx",
+        "exists": true,
+        "bytes": 35672,
+        "sha256": "E651BB00300CFD6F843D8882BFC2FC43813CAAF3D2A6AC350AEBA5496AEDB097"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/props_c17/bench01a.phy",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+      "entry": "models/props_c17/bench01a.phy",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\models\\props_c17\\bench01a.phy",
+      "bytes": 6795,
+      "sha256": "0EB277C8A413F1E27E97BF5D9FD872FCB2ED1981064F592645D23F9C4E17E475",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "0EB277C8A413F1E27E97BF5D9FD872FCB2ED1981064F592645D23F9C4E17E475"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "0EB277C8A413F1E27E97BF5D9FD872FCB2ED1981064F592645D23F9C4E17E475"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\src\\models\\props_c17\\bench01a.phy",
+        "exists": true,
+        "bytes": 6795,
+        "sha256": "0EB277C8A413F1E27E97BF5D9FD872FCB2ED1981064F592645D23F9C4E17E475"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/props_c17/bench01a.dx80.vtx",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+      "entry": "models/props_c17/bench01a.dx80.vtx",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\models\\props_c17\\bench01a.dx80.vtx",
+      "bytes": 35672,
+      "sha256": "C922A22339940B93877BDB726ED5C2086E8A5902026BA92EA4DE98E3F7DA29E1",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "C922A22339940B93877BDB726ED5C2086E8A5902026BA92EA4DE98E3F7DA29E1"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "C922A22339940B93877BDB726ED5C2086E8A5902026BA92EA4DE98E3F7DA29E1"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\src\\models\\props_c17\\bench01a.dx80.vtx",
+        "exists": true,
+        "bytes": 35672,
+        "sha256": "C922A22339940B93877BDB726ED5C2086E8A5902026BA92EA4DE98E3F7DA29E1"
+      },
+      "required": false
+    },
+    {
+      "relative": "models/props_c17/bench01a.sw.vtx",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+      "entry": "models/props_c17/bench01a.sw.vtx",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\models\\props_c17\\bench01a.sw.vtx",
+      "bytes": 35672,
+      "sha256": "38DD1F9F47E1374926FB55511F760C436F6BAF7347076D53A73551908844FC48",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "38DD1F9F47E1374926FB55511F760C436F6BAF7347076D53A73551908844FC48"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "38DD1F9F47E1374926FB55511F760C436F6BAF7347076D53A73551908844FC48"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\src\\models\\props_c17\\bench01a.sw.vtx",
+        "exists": true,
+        "bytes": 35672,
+        "sha256": "38DD1F9F47E1374926FB55511F760C436F6BAF7347076D53A73551908844FC48"
+      },
+      "required": false
+    },
+    {
+      "relative": "models/props_c17/bench01a.ani",
+      "resolved": false,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\src\\models\\props_c17\\bench01a.ani",
+        "exists": false,
+        "bytes": null,
+        "sha256": null
+      },
+      "required": false
+    }
+  ],
+  "materials": [
+    {
+      "relative": "materials/models/props_c17/bench01a.vmt",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+      "entry": "materials/models/props_c17/bench01a.vmt",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\materials\\models\\props_c17\\bench01a.vmt",
+      "bytes": 315,
+      "sha256": "086AC1E48FBD5531C162005775F84EA2958D892894C24D188951FD00345EBE57",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_misc_dir.vpk",
+          "sha256": "086AC1E48FBD5531C162005775F84EA2958D892894C24D188951FD00345EBE57"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+          "sha256": "086AC1E48FBD5531C162005775F84EA2958D892894C24D188951FD00345EBE57"
+        }
+      ],
+      "staged_match": null,
+      "references": [
+        {
+          "key": "$basetexture",
+          "relative": "materials/models/props_c17/bench01a.vtf"
+        },
+        {
+          "key": "$envmapmask",
+          "relative": "materials/models/props_c17/bench01a_mask.vtf"
+        },
+        {
+          "key": "$envmap",
+          "value": "env_cubemap",
+          "kind": "engine-generated resource; Opus shader adaptation required"
+        }
+      ]
+    },
+    {
+      "relative": "materials/models/props_c17/bench01a.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_textures_dir.vpk",
+      "entry": "materials/models/props_c17/bench01a.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\materials\\models\\props_c17\\bench01a.vtf",
+      "bytes": 43896,
+      "sha256": "8DCB834BD3D7454363D0A3DECC77EE3F2992F6A39CCD9076422E6BD40096E432",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_textures_dir.vpk",
+          "sha256": "8DCB834BD3D7454363D0A3DECC77EE3F2992F6A39CCD9076422E6BD40096E432"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+          "sha256": "8DCB834BD3D7454363D0A3DECC77EE3F2992F6A39CCD9076422E6BD40096E432"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/props_c17/bench01a_mask.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_textures_dir.vpk",
+      "entry": "materials/models/props_c17/bench01a_mask.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\bench\\materials\\models\\props_c17\\bench01a_mask.vtf",
+      "bytes": 43896,
+      "sha256": "E3B3973D40D7EA1C12286121A94BABE6B2DEF2380CE0F2B14F4A3244E233734A",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life 2\\hl2\\hl2_textures_dir.vpk",
+          "sha256": "E3B3973D40D7EA1C12286121A94BABE6B2DEF2380CE0F2B14F4A3244E233734A"
+        },
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+          "sha256": "E3B3973D40D7EA1C12286121A94BABE6B2DEF2380CE0F2B14F4A3244E233734A"
+        }
+      ],
+      "staged_match": null
+    }
+  ],
+  "qc": [
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a.qc",
+        "exists": true,
+        "bytes": 1139,
+        "sha256": "DCFE2C49C592732FB20745A2097B4B60588F6191DCAF15D96CB87055083C7B36"
+      },
+      "bbox": [
+        "-12.025 -38.104 -19.786 11.667 38.011 19.945"
+      ],
+      "surfaceprop": [
+        "Wood_Furniture"
+      ],
+      "mass": [
+        "20"
+      ],
+      "concave": true,
+      "collision_smd": [
+        "bench01a_physics.smd"
+      ],
+      "sequence_names": [
+        "idle"
+      ],
+      "attachment_names": [],
+      "bone_names": [
+        "static_prop"
+      ],
+      "included_models": [],
+      "max_convex_pieces": [
+        "16"
+      ]
+    }
+  ],
+  "geometry": [
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_physics.smd",
+        "exists": true,
+        "bytes": 38997,
+        "sha256": "1B903062D35C2B880D828CDA0BF741124BCC0D7CE30573810DCBCD77BD353340"
+      },
+      "triangles": 180,
+      "materials": [
+        "phy"
+      ],
+      "bounds_min": [
+        -37.822601,
+        -11.284002,
+        -19.5046
+      ],
+      "bounds_max": [
+        37.729498,
+        11.743902,
+        19.6642
+      ],
+      "dimensions": [
+        75.552099,
+        23.027904,
+        39.168800000000005
+      ],
+      "units": "source SMD coordinates; FNV scale not approved"
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference.smd",
+        "exists": true,
+        "bytes": 131381,
+        "sha256": "6E4AB2DB5E4BBFBC348F1DDC5C47519BA96D247CBC500290CA8714F3B9B719E3"
+      },
+      "triangles": 448,
+      "materials": [
+        "bench01a"
+      ],
+      "bounds_min": [
+        -37.337799,
+        -11.667101,
+        -19.4555
+      ],
+      "bounds_max": [
+        37.337799,
+        11.667102,
+        19.4555
+      ],
+      "dimensions": [
+        74.675598,
+        23.334203000000002,
+        38.911
+      ],
+      "units": "source SMD coordinates; FNV scale not approved"
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference_lod1.smd",
+        "exists": true,
+        "bytes": 131381,
+        "sha256": "6E4AB2DB5E4BBFBC348F1DDC5C47519BA96D247CBC500290CA8714F3B9B719E3"
+      },
+      "triangles": 448,
+      "materials": [
+        "bench01a"
+      ],
+      "bounds_min": [
+        -37.337799,
+        -11.667101,
+        -19.4555
+      ],
+      "bounds_max": [
+        37.337799,
+        11.667102,
+        19.4555
+      ],
+      "dimensions": [
+        74.675598,
+        23.334203000000002,
+        38.911
+      ],
+      "units": "source SMD coordinates; FNV scale not approved"
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference_lod2.smd",
+        "exists": true,
+        "bytes": 97468,
+        "sha256": "87924037CE451D1426D31B8A7C7743BC6713FB9B83A5AA7E6BEFDB49A3A86D49"
+      },
+      "triangles": 332,
+      "materials": [
+        "bench01a"
+      ],
+      "bounds_min": [
+        -37.337799,
+        -11.667101,
+        -19.4555
+      ],
+      "bounds_max": [
+        37.337799,
+        11.667102,
+        19.4555
+      ],
+      "dimensions": [
+        74.675598,
+        23.334203000000002,
+        38.911
+      ],
+      "units": "source SMD coordinates; FNV scale not approved"
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference_lod3.smd",
+        "exists": true,
+        "bytes": 67507,
+        "sha256": "DC392B995A5D70087D9FD9B50686CDF22A7D33526B9E8E7AEEA028C5E13B76F2"
+      },
+      "triangles": 230,
+      "materials": [
+        "bench01a"
+      ],
+      "bounds_min": [
+        -37.337799,
+        -11.667101,
+        -19.4555
+      ],
+      "bounds_max": [
+        37.337799,
+        11.667102,
+        19.4555
+      ],
+      "dimensions": [
+        74.675598,
+        23.334203000000002,
+        38.911
+      ],
+      "units": "source SMD coordinates; FNV scale not approved"
+    },
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference_lod4.smd",
+        "exists": true,
+        "bytes": 44705,
+        "sha256": "87CAA332C841F18FA93CC4DEFCF9D54B3EBBA98BFD2680BE1B7C61AA46784B02"
+      },
+      "triangles": 152,
+      "materials": [
+        "bench01a"
+      ],
+      "bounds_min": [
+        -37.337799,
+        -11.667101,
+        -19.4555
+      ],
+      "bounds_max": [
+        37.337799,
+        11.667102,
+        19.4555
+      ],
+      "dimensions": [
+        74.675598,
+        23.334203000000002,
+        38.911
+      ],
+      "units": "source SMD coordinates; FNV scale not approved"
+    }
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\blender.log",
+      "exists": true,
+      "bytes": 11780,
+      "sha256": "4F1FB2E172DAE6EE4DACBF63E468D67887F61C7B7E460D41B38C3A22C64B4324",
+      "relative": "blender.log",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a.qc",
+      "exists": true,
+      "bytes": 1139,
+      "sha256": "DCFE2C49C592732FB20745A2097B4B60588F6191DCAF15D96CB87055083C7B36",
+      "relative": "decompiled/bench01a.qc",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_anims\\idle.smd",
+      "exists": true,
+      "bytes": 160,
+      "sha256": "2488986FD2BE325A64CDDFBDEA7470546DA6D4A1A28FCA0A56D41FB8FD31B53A",
+      "relative": "decompiled/bench01a_anims/idle.smd",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_physics.smd",
+      "exists": true,
+      "bytes": 38997,
+      "sha256": "1B903062D35C2B880D828CDA0BF741124BCC0D7CE30573810DCBCD77BD353340",
+      "relative": "decompiled/bench01a_physics.smd",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference.smd",
+      "exists": true,
+      "bytes": 131381,
+      "sha256": "6E4AB2DB5E4BBFBC348F1DDC5C47519BA96D247CBC500290CA8714F3B9B719E3",
+      "relative": "decompiled/bench01a_reference.smd",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference_lod1.smd",
+      "exists": true,
+      "bytes": 131381,
+      "sha256": "6E4AB2DB5E4BBFBC348F1DDC5C47519BA96D247CBC500290CA8714F3B9B719E3",
+      "relative": "decompiled/bench01a_reference_lod1.smd",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference_lod2.smd",
+      "exists": true,
+      "bytes": 97468,
+      "sha256": "87924037CE451D1426D31B8A7C7743BC6713FB9B83A5AA7E6BEFDB49A3A86D49",
+      "relative": "decompiled/bench01a_reference_lod2.smd",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference_lod3.smd",
+      "exists": true,
+      "bytes": 67507,
+      "sha256": "DC392B995A5D70087D9FD9B50686CDF22A7D33526B9E8E7AEEA028C5E13B76F2",
+      "relative": "decompiled/bench01a_reference_lod3.smd",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\decompiled\\bench01a_reference_lod4.smd",
+      "exists": true,
+      "bytes": 44705,
+      "sha256": "87CAA332C841F18FA93CC4DEFCF9D54B3EBBA98BFD2680BE1B7C61AA46784B02",
+      "relative": "decompiled/bench01a_reference_lod4.smd",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\materials\\_tga\\bench01a.tga",
+      "exists": true,
+      "bytes": 197159,
+      "sha256": "4FB4DF09C4741D380DE991C406D43D8AA66DD9C1C14DC80D7ABFEA54E6FA1CDA",
+      "relative": "materials/_tga/bench01a.tga",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\materials\\materials\\models\\props_c17\\bench01a.vmt",
+      "exists": true,
+      "bytes": 315,
+      "sha256": "086AC1E48FBD5531C162005775F84EA2958D892894C24D188951FD00345EBE57",
+      "relative": "materials/materials/models/props_c17/bench01a.vmt",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\materials\\materials\\models\\props_c17\\bench01a.vtf",
+      "exists": true,
+      "bytes": 43896,
+      "sha256": "8DCB834BD3D7454363D0A3DECC77EE3F2992F6A39CCD9076422E6BD40096E432",
+      "relative": "materials/materials/models/props_c17/bench01a.vtf",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\src\\models\\props_c17\\bench01a.dx80.vtx",
+      "exists": true,
+      "bytes": 35672,
+      "sha256": "C922A22339940B93877BDB726ED5C2086E8A5902026BA92EA4DE98E3F7DA29E1",
+      "relative": "src/models/props_c17/bench01a.dx80.vtx",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\src\\models\\props_c17\\bench01a.dx90.vtx",
+      "exists": true,
+      "bytes": 35672,
+      "sha256": "E651BB00300CFD6F843D8882BFC2FC43813CAAF3D2A6AC350AEBA5496AEDB097",
+      "relative": "src/models/props_c17/bench01a.dx90.vtx",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\src\\models\\props_c17\\bench01a.mdl",
+      "exists": true,
+      "bytes": 1520,
+      "sha256": "8751F7E234A4212016FF93C50C8951ECB793B628819957B06BA1831A899CE846",
+      "relative": "src/models/props_c17/bench01a.mdl",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\src\\models\\props_c17\\bench01a.phy",
+      "exists": true,
+      "bytes": 6795,
+      "sha256": "0EB277C8A413F1E27E97BF5D9FD872FCB2ED1981064F592645D23F9C4E17E475",
+      "relative": "src/models/props_c17/bench01a.phy",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\src\\models\\props_c17\\bench01a.sw.vtx",
+      "exists": true,
+      "bytes": 35672,
+      "sha256": "38DD1F9F47E1374926FB55511F760C436F6BAF7347076D53A73551908844FC48",
+      "relative": "src/models/props_c17/bench01a.sw.vtx",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\src\\models\\props_c17\\bench01a.vvd",
+      "exists": true,
+      "bytes": 55232,
+      "sha256": "BC9AFFE6F4EFC8766FE77961C2BD41748D677432A1E141D6CA7F56AB1E048F7D",
+      "relative": "src/models/props_c17/bench01a.vvd",
+      "previous_hash_matches": null
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\gmod_batch\\props_c17__bench01a\\worker.json",
+      "exists": true,
+      "bytes": 949,
+      "sha256": "BB909D6C67791DD4CD0798B3E5CD7ED8C25A50805F3C0EB31E139B0D93888CAD",
+      "relative": "worker.json",
+      "previous_hash_matches": null
+    }
+  ],
+  "implementation_status": "NOT VALIDATED IN FNV",
+  "visual_owner": "Claude Opus 5.5",
+  "provenance_note": "",
+  "missing_dependencies": [],
+  "known_defects_in_legacy_worker": [
+    "source_surfaceprop=wood_furniture but worker Havok material=FO_HAV_MAT_METAL: conversion-owner review required",
+    "legacy extraction omitted referenced bench01a_mask.vtf; use complete material closure in this packet",
+    "Existing live bench NIF is historical/unvalidated, not the golden reference acceptance result"
+  ]
+}
