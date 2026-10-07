@@ -100,7 +100,7 @@ This is not game-completion percentage. The principal remaining readiness defici
 
 
 ## O01 preparation milestone
-O01 Toolgun presentation preflight is now complete and **READY FOR OPUS**. Required Source model companions, QC/reference geometry and all Toolgun material/texture inputs were re-hashed on the current machine and match the recorded source packets. This does not unlock Toolgun behavior; O02/O03 still wait for Codex C01/C02.
+O01 Toolgun presentation preflight is now complete and **READY AFTER O00 PASS**. Required Source model companions, QC/reference geometry and all Toolgun material/texture inputs were re-hashed on the current machine and match the recorded source packets. This does not unlock Toolgun behavior; O02/O03 still wait for Codex C01/C02.
 
 
 ## Authenticated GMod evidence milestone
@@ -115,3 +115,17 @@ The Source/HL2 bench source package has been freshly re-hashed on the local mach
 `prep/opus-ready-20261007` was created directly from current canonical main and verified with zero commits behind at the reconciliation point. Branch-reconciliation readiness is now 10/10, making the global preparation baseline **81/100**.
 
 All remaining 19 points are C01-C08 evidence gates defined in `context/OPUS_READINESS_81_TO_100_PLAN_2026-10-07.md`.
+
+
+## Next Codex C04 request milestone
+The next new Codex request is prepared at `context/HANDOFFS/NEXT_CODEX_REQUEST_THUG2_C04_2026-10-07.md`.
+
+It is deliberately investigation-only:
+- master THUG2 skate state machine;
+- movement/physics;
+- collision queries;
+- grind/manual/lip eligibility;
+- host-world adapter contract;
+- current grind-anywhere failure delta.
+
+Final runtime implementation, animation/board retargeting, camera, HUD/UI and deployment remain Claude Opus responsibilities.
