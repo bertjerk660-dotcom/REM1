@@ -1,0 +1,172 @@
+{
+  "entries": [
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\bin\\dxsupport.cfg",
+      "installation_relative_path": "bin/dxsupport.cfg",
+      "size": 399119,
+      "mtime_ns": 1791152888342489600,
+      "type": "configuration",
+      "sha256": "5886166F81A41069AAA9BE9F3F6BAA6055536A26537258151400872A24EE5278"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\gameinfo.txt",
+      "installation_relative_path": "garrysmod/gameinfo.txt",
+      "size": 1197,
+      "mtime_ns": 1791154428030458500,
+      "type": "script_or_resource",
+      "sha256": "C616A6F675F69B6FE2D35D5950949A8379B49E4E26C6690BA40C3B33822A7DF4"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod.ver",
+      "installation_relative_path": "garrysmod/garrysmod.ver",
+      "size": 29,
+      "mtime_ns": 1791154391774602600,
+      "type": "other",
+      "sha256": "E199337E13050E8C7051B99C03C0F3472194EB293072746471046432E38482BC"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\steam.inf",
+      "installation_relative_path": "garrysmod/steam.inf",
+      "size": 60,
+      "mtime_ns": 1791154491156808900,
+      "type": "other",
+      "sha256": "6E6FEF4DAA4EA845B3E28D90947F3B5D701ADECC050F091446F35AF313970554"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\360controller-linux.cfg",
+      "installation_relative_path": "garrysmod/cfg/360controller-linux.cfg",
+      "size": 317,
+      "mtime_ns": 1791154403862327300,
+      "type": "configuration",
+      "sha256": "E2A1FD6355616B78A9EE95798A0026BEA714773CAC6A2A1991E823D18D3423D4"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\360controller.cfg",
+      "installation_relative_path": "garrysmod/cfg/360controller.cfg",
+      "size": 1007,
+      "mtime_ns": 1791154399611266200,
+      "type": "configuration",
+      "sha256": "83145835D51DEA3C499A41C72BC0B350A6372B36CCD4170DF678866D9E84BE6C"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\autoexec.cfg",
+      "installation_relative_path": "garrysmod/cfg/autoexec.cfg",
+      "size": 3,
+      "mtime_ns": 1791154391835137000,
+      "type": "configuration",
+      "sha256": "214AFDC17A211EE0E285B28F0DFAA556BF40B5D55D0FA4C4830566A2953D05BB"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\config.cfg",
+      "installation_relative_path": "garrysmod/cfg/config.cfg",
+      "size": 2664,
+      "mtime_ns": 1791162450678749900,
+      "type": "configuration",
+      "sha256": "EE298E04B3D29BAADBE26BA74A8D3BAE59907285D113F843EA34DF109DD34F0A"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\config_default.cfg",
+      "installation_relative_path": "garrysmod/cfg/config_default.cfg",
+      "size": 1330,
+      "mtime_ns": 1791154406850997200,
+      "type": "configuration",
+      "sha256": "6FE58D8C55A3322093B1A99EC8E556A09AC97141046C38C0DFFDEB54E427FFF4"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\game.cfg",
+      "installation_relative_path": "garrysmod/cfg/game.cfg",
+      "size": 72,
+      "mtime_ns": 1791154923937398600,
+      "type": "configuration",
+      "sha256": "318702230FEAF7C37F1BF59CF07D0FA82C88E6492694B552FFF99C1B262CA63C"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\listenserver.cfg",
+      "installation_relative_path": "garrysmod/cfg/listenserver.cfg",
+      "size": 4,
+      "mtime_ns": 1791154814962098700,
+      "type": "configuration",
+      "sha256": "DBA5166AD9DB9BA648C1032EBBD34DCD0D085B50023B839EF5C68CA1DB93A563"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\mount.cfg",
+      "installation_relative_path": "garrysmod/cfg/mount.cfg",
+      "size": 767,
+      "mtime_ns": 1791154390335029100,
+      "type": "configuration",
+      "sha256": "F752DDA68030DA811B3984F4A996557E4B53B4A5BA8916FA2F953FE181DB69BF"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\network.cfg",
+      "installation_relative_path": "garrysmod/cfg/network.cfg",
+      "size": 89,
+      "mtime_ns": 1791154398939784900,
+      "type": "configuration",
+      "sha256": "E421E7EB4348009B8D83E2A10F9578A2DBDDBD73EF2D303D8312EBA7F937FC5E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\server.cfg",
+      "installation_relative_path": "garrysmod/cfg/server.cfg",
+      "size": 4,
+      "mtime_ns": 1791154814962098700,
+      "type": "configuration",
+      "sha256": "DBA5166AD9DB9BA648C1032EBBD34DCD0D085B50023B839EF5C68CA1DB93A563"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\skill.cfg",
+      "installation_relative_path": "garrysmod/cfg/skill.cfg",
+      "size": 5523,
+      "mtime_ns": 1791154391835137000,
+      "type": "configuration",
+      "sha256": "07BF1BE0F3E032E1C56800DA10CC56ED901721FB5BEA92DE08C3E5996FBED453"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\skill1.cfg",
+      "installation_relative_path": "garrysmod/cfg/skill1.cfg",
+      "size": 2475,
+      "mtime_ns": 1791154398940788600,
+      "type": "configuration",
+      "sha256": "9653B901CD9E1C41899D9F2F325EC611CF857D207A1FEF3264EAFC7156DED0E3"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\skill2.cfg",
+      "installation_relative_path": "garrysmod/cfg/skill2.cfg",
+      "size": 2478,
+      "mtime_ns": 1791154399612284300,
+      "type": "configuration",
+      "sha256": "1DA159C69F32BF0E1982BF808B4D7963A82D140C507BE54094B981212895288E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\skill3.cfg",
+      "installation_relative_path": "garrysmod/cfg/skill3.cfg",
+      "size": 2484,
+      "mtime_ns": 1791154389227805500,
+      "type": "configuration",
+      "sha256": "B920A0FB6DFD58AFAAAEAB8B7E29E1B8B27DAE3A5A236944631DEFCFB0F019F7"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\skill_manifest.cfg",
+      "installation_relative_path": "garrysmod/cfg/skill_manifest.cfg",
+      "size": 16,
+      "mtime_ns": 1791154403862327300,
+      "type": "configuration",
+      "sha256": "AA41B4E64D2604A54A4AFFE7FCD1D10A0DC1A4ECEC0436B2CEB0EAEC94CF356D"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cfg\\undo360controller.cfg",
+      "installation_relative_path": "garrysmod/cfg/undo360controller.cfg",
+      "size": 134,
+      "mtime_ns": 1791154390335029100,
+      "type": "configuration",
+      "sha256": "CF08E445C85189C089AA87DFC9FBDC20A3DB9B58E3E3861885328CC009F03967"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\platform\\cfg\\headtrack\\headtrack.cfg",
+      "installation_relative_path": "platform/cfg/headtrack/headtrack.cfg",
+      "size": 2,
+      "mtime_ns": 1791154489205825500,
+      "type": "configuration",
+      "sha256": "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6"
+    }
+  ]
+}

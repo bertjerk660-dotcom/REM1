@@ -1,0 +1,18 @@
+{
+  "tool": "gmod-dependency-inventory-20261007.7",
+  "source_sha_destination_sha_match": true,
+  "hash_mismatches": [],
+  "vpk_crc_verified_entries": 2732,
+  "proprietary_commit_safe_false": true,
+  "stage_enabled": true,
+  "status_counts": {
+    "reused_verified_current_stage": 2926,
+    "reused_verified_original": 27,
+    "unresolved_source_absent": 6,
+    "unverified_seed_source_absent": 6,
+    "staged_verified_original": 16
+  },
+  "runtime_changed": false,
+  "gameplay_validation": "not_performed",
+  "closure_status": "incomplete_native_and_dynamic_boundaries"
+}

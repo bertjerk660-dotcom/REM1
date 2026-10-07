@@ -1,0 +1,283 @@
+{
+  "entries": [
+    {
+      "lua_source": "gamemodes/sandbox/entities/weapons/gmod_tool/cl_init.lua",
+      "font_identity": "GModToolName",
+      "requested_family": "Roboto Bk",
+      "original_font_candidates": [
+        {
+          "family_name": "Roboto Bk",
+          "internal_path": "resource/fonts/Roboto-Black.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Black.ttf",
+          "sha256": "C78CE438E9D91EA8C16341AAF2C6CF07F9C347EB1130BD922796AD4FB78FE885",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto Bk",
+          "internal_path": "resource/fonts/Roboto-BlackItalic.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-BlackItalic.ttf",
+          "sha256": "5E7928C14BBDDEA37EC9BA2453F00BD8F4D73C42C20528E42ABC5B89D2732DB1",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        }
+      ],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "original_game_font_family_resolved"
+    },
+    {
+      "lua_source": "gamemodes/sandbox/entities/weapons/gmod_tool/cl_init.lua",
+      "font_identity": "GModToolSubtitle",
+      "requested_family": "Roboto Bk",
+      "original_font_candidates": [
+        {
+          "family_name": "Roboto Bk",
+          "internal_path": "resource/fonts/Roboto-Black.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Black.ttf",
+          "sha256": "C78CE438E9D91EA8C16341AAF2C6CF07F9C347EB1130BD922796AD4FB78FE885",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto Bk",
+          "internal_path": "resource/fonts/Roboto-BlackItalic.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-BlackItalic.ttf",
+          "sha256": "5E7928C14BBDDEA37EC9BA2453F00BD8F4D73C42C20528E42ABC5B89D2732DB1",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        }
+      ],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "original_game_font_family_resolved"
+    },
+    {
+      "lua_source": "gamemodes/sandbox/entities/weapons/gmod_tool/cl_init.lua",
+      "font_identity": "GModToolHelp",
+      "requested_family": "Roboto Bk",
+      "original_font_candidates": [
+        {
+          "family_name": "Roboto Bk",
+          "internal_path": "resource/fonts/Roboto-Black.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Black.ttf",
+          "sha256": "C78CE438E9D91EA8C16341AAF2C6CF07F9C347EB1130BD922796AD4FB78FE885",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto Bk",
+          "internal_path": "resource/fonts/Roboto-BlackItalic.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-BlackItalic.ttf",
+          "sha256": "5E7928C14BBDDEA37EC9BA2453F00BD8F4D73C42C20528E42ABC5B89D2732DB1",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        }
+      ],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "original_game_font_family_resolved"
+    },
+    {
+      "lua_source": "gamemodes/sandbox/entities/weapons/gmod_tool/cl_viewscreen.lua",
+      "font_identity": "GModToolScreen",
+      "requested_family": "Helvetica",
+      "original_font_candidates": [],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "host_font_interface_requirement_unresolved_in_game_files"
+    },
+    {
+      "lua_source": "gamemodes/sandbox/gamemode/spawnmenu/creationmenu/content/contentheader.lua",
+      "font_identity": "ContentHeader",
+      "requested_family": "Helvetica",
+      "original_font_candidates": [],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "host_font_interface_requirement_unresolved_in_game_files"
+    },
+    {
+      "lua_source": "lua/includes/modules/notification.lua",
+      "font_identity": "GModNotify",
+      "requested_family": "Arial",
+      "original_font_candidates": [],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "host_font_interface_requirement_unresolved_in_game_files"
+    },
+    {
+      "lua_source": "lua/derma/init.lua",
+      "font_identity": "DermaDefault",
+      "requested_family": "DejaVu Sans",
+      "original_font_candidates": [],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "host_font_interface_requirement_unresolved_in_game_files"
+    },
+    {
+      "lua_source": "lua/derma/init.lua",
+      "font_identity": "DermaDefaultBold",
+      "requested_family": "DejaVu Sans",
+      "original_font_candidates": [],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "host_font_interface_requirement_unresolved_in_game_files"
+    },
+    {
+      "lua_source": "lua/derma/init.lua",
+      "font_identity": "DermaDefault",
+      "requested_family": "Tahoma",
+      "original_font_candidates": [],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "host_font_interface_requirement_unresolved_in_game_files"
+    },
+    {
+      "lua_source": "lua/derma/init.lua",
+      "font_identity": "DermaDefaultBold",
+      "requested_family": "Tahoma",
+      "original_font_candidates": [],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "host_font_interface_requirement_unresolved_in_game_files"
+    },
+    {
+      "lua_source": "lua/derma/init.lua",
+      "font_identity": "DermaLarge",
+      "requested_family": "Roboto",
+      "original_font_candidates": [
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-Black.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Black.ttf",
+          "sha256": "C78CE438E9D91EA8C16341AAF2C6CF07F9C347EB1130BD922796AD4FB78FE885",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-BlackItalic.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-BlackItalic.ttf",
+          "sha256": "5E7928C14BBDDEA37EC9BA2453F00BD8F4D73C42C20528E42ABC5B89D2732DB1",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-Bold.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Bold.ttf",
+          "sha256": "24571503140760240924DCD1238F77E7CD0454C0D8B0793990CEFA2FAD71471F",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-BoldCondensed.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-BoldCondensed.ttf",
+          "sha256": "2C9245C0246A9C745793C7EAA9CC1FC964A12570009031EA0223115BEC6E9426",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-BoldCondensedItalic.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-BoldCondensedItalic.ttf",
+          "sha256": "1117EAB9F490123CF8A656FA936A4C9A7E4918B88AE576D64D3D79507096F7B9",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-BoldItalic.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-BoldItalic.ttf",
+          "sha256": "165A6D02FD8973703787FEEEF5319B7FD8CB3F665A3C1E702EF0CA49701547C9",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-Condensed.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Condensed.ttf",
+          "sha256": "2EFE5301B93D1E4AA90FED89F766A88BE1B80BE64873F853C1B6E089CAB19FEA",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-CondensedItalic.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-CondensedItalic.ttf",
+          "sha256": "C2D5EC131C1A767138D09F77383B4BF68051C02164DD83E4B6C58FEB25C473ED",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-Italic.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Italic.ttf",
+          "sha256": "470123C6FB5D6C0005431C0F5390742497C55087361A7636B7E82EB35635DED7",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-Light.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Light.ttf",
+          "sha256": "94DF4E4976DB8DDAEC27F8E8C33EEF912E744FB200CA09051794B38E5A502FC0",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-LightItalic.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-LightItalic.ttf",
+          "sha256": "709AB3C8FEAA5640B3A14493E1C2D27509DF5AA5D14B8B86BD431AB60AC53A69",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-Medium.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Medium.ttf",
+          "sha256": "02868D6A7E80D4E7836B6263DD50D26A63E923A1223C9E027AAD6DC2501C27CC",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-MediumItalic.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-MediumItalic.ttf",
+          "sha256": "27F4345BC02F3CDEC1522BFEAE70ACED6BDF217D40878108CFE2BAA535D04FA4",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-Regular.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Regular.ttf",
+          "sha256": "16466EF65064E6F3885A6D2806B8949AC1AC38B524DD0CF8FC96565EB4CC28E8",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-Thin.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-Thin.ttf",
+          "sha256": "2843669DAF030733F6B7C541A98EBBFF5CE5C2D8CBAE423BD8D278A36E169399",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        },
+        {
+          "family_name": "Roboto",
+          "internal_path": "resource/fonts/Roboto-ThinItalic.ttf",
+          "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\resource\\fonts\\Roboto-ThinItalic.ttf",
+          "sha256": "55031EF14F6C49947255AB6E0EF7112938CB1ECB903F85553DDC7842422A5841",
+          "name_table_evidence": "SFNT name IDs 1/16"
+        }
+      ],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "original_game_font_family_resolved"
+    },
+    {
+      "lua_source": "gamemodes/sandbox/gamemode/cl_worldtips.lua",
+      "font_identity": "GModWorldtip",
+      "requested_family": "Helvetica",
+      "original_font_candidates": [],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "host_font_interface_requirement_unresolved_in_game_files"
+    },
+    {
+      "lua_source": "gamemodes/base/gamemode/cl_scoreboard.lua",
+      "font_identity": "ScoreboardDefault",
+      "requested_family": "Helvetica",
+      "original_font_candidates": [],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "host_font_interface_requirement_unresolved_in_game_files"
+    },
+    {
+      "lua_source": "gamemodes/base/gamemode/cl_scoreboard.lua",
+      "font_identity": "ScoreboardDefaultTitle",
+      "requested_family": "Helvetica",
+      "original_font_candidates": [],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "host_font_interface_requirement_unresolved_in_game_files"
+    },
+    {
+      "lua_source": "gamemodes/base/gamemode/cl_voice.lua",
+      "font_identity": "GModVoiceNotify",
+      "requested_family": "Arial",
+      "original_font_candidates": [],
+      "mapping_basis": "exact literal family matches original SFNT name-table family IDs 1/16",
+      "status": "host_font_interface_requirement_unresolved_in_game_files"
+    }
+  ],
+  "policy": "Only exact installed SFNT family matches stage original font files; absent families remain host requirements, no Windows system fonts copied"
+}

@@ -1,0 +1,335 @@
+{
+  "tool": "gmod-dependency-inventory-20261007.7",
+  "generated_utc": "2026-10-07T05:59:49.866636+00:00",
+  "source_root": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod",
+  "project_root": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2",
+  "output_root": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_dependency_20261007",
+  "loose_file_count": 3014,
+  "loose_type_counts": {
+    "addon_archive": 50,
+    "configuration": 18,
+    "executable_module": 38,
+    "font": 30,
+    "icon_or_image": 162,
+    "image": 66,
+    "lua": 329,
+    "lua_autorun": 34,
+    "lua_derma": 7,
+    "lua_spawnmenu": 33,
+    "lua_tool": 40,
+    "lua_vgui": 103,
+    "lua_weapon": 50,
+    "material": 68,
+    "model": 1,
+    "model_index_data": 3,
+    "model_physics_data": 1,
+    "model_vertex_data": 1,
+    "native_module": 128,
+    "other": 747,
+    "resource": 353,
+    "script_definition": 157,
+    "script_or_resource": 471,
+    "sound": 6,
+    "texture": 68,
+    "vpk_archive": 50
+  },
+  "vpk_directory_count": 9,
+  "vpk_entry_count": 78051,
+  "gma_archive_count": 50,
+  "gma_entry_count": 9573,
+  "vpk_archives": [
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\fallbacks_dir.vpk",
+      "sha256": "4C6A35E55A7208FB77ADE8BAB469C7DC75C67A7223C3A780661081A8E299453B",
+      "entries": 9007,
+      "version": 2
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "sha256": "A3237FC7442C6C57AA924525951280F1381BC641D323B6ED4CE52FD5BE09F83E",
+      "entries": 15441,
+      "version": 2
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\platform\\platform_misc_dir.vpk",
+      "sha256": "642115333A07632ECF878F54E5985F0F64396DF47A1CB03A49803EEC98801F98",
+      "entries": 393,
+      "version": 2
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_cstrike_dir.vpk",
+      "sha256": "715781A97902D982AB16FA811785966F25A0D5F939F54D94AC88F4454784AA64",
+      "entries": 15528,
+      "version": 2
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_hl2_dir.vpk",
+      "sha256": "072ADEA4FB5DD32388659D14221CE3D5888083E5379A78458DB0A9D44A9B8288",
+      "entries": 8594,
+      "version": 2
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+      "sha256": "65522B04FB003050066C1D0BA052E8401FE08A0BB0939764D86D0D3E35293EE0",
+      "entries": 18544,
+      "version": 2
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_misc_dir.vpk",
+      "sha256": "6310ABB7E633511BD2DBB910CB159FED1A5A4EEF14B8534E4EC3EA8E9E494B6E",
+      "entries": 2970,
+      "version": 2
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_vo_english_dir.vpk",
+      "sha256": "D049E603D4C919CEBFD5D53188AC6B874D1BA84A23EB17F7803B570FBDD34D10",
+      "entries": 2553,
+      "version": 2
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+      "sha256": "344AAA8A8B450075FAF74F8A7BA4325CC360B7BA476B92696A1E4F8512DBF4F8",
+      "entries": 5021,
+      "version": 2
+    }
+  ],
+  "selected_archive_bodies": [
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_000.vpk",
+      "sha256": "F51343600A70D14CDC3C8D89C94FFE3D10C47F336F33611A1BF740F2D8E013F3",
+      "size": 274445760
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_001.vpk",
+      "sha256": "6C595176C20F30729D9DF9524D28A8C6B65B0C322AD328FC5451F9491DD4EBD2",
+      "size": 274036682
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_002.vpk",
+      "sha256": "13217BAC2F3E8B9D252F2C12B9AA6CA88423F9D508677253E02F2A14F457FC61",
+      "size": 273743895
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_misc_002.vpk",
+      "sha256": "394D1388D3ECB37255F0AD2CD4FE82F3F1577B1DCFB401BE3610E6B1E8CF1327",
+      "size": 133066873
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_003.vpk",
+      "sha256": "5332228E0A2818C76FBA88A199EAB25DBEDBC610D097EA709F2D37516686F237",
+      "size": 115043556
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_misc_000.vpk",
+      "sha256": "14302B4F9FFF0596D6BC05FD55A2DCE77EF052D85C5F7F3703F7F9A7836D4D85",
+      "size": 133689947
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_002.vpk",
+      "sha256": "A83F3F5D5B3D2481F4A4E4C6093897DC5F5A278647FF6307268C256A203E8155",
+      "size": 112474014
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_001.vpk",
+      "sha256": "A7CC8916ECD21F1DBE6C6B783C2C0E7288560FC3C7EA2AFFCA3F0D1A2C435695",
+      "size": 113103964
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_000.vpk",
+      "sha256": "D4D0633DB715F12C1F8321465C5B7A365AA8385D76C9FD945F36B75B8D5FB38F",
+      "size": 113051756
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_cstrike_005.vpk",
+      "sha256": "143D56240809245125F9FEC4E7DB0DE4D62FEB5920FCA6B8D6C831D0CD178F31",
+      "size": 212433417
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_006.vpk",
+      "sha256": "E6AA96AACD6237CC6DE04FA946A6E2B49F538E2290347BA4BE508B61AC516C3C",
+      "size": 106419664
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_005.vpk",
+      "sha256": "C934D3980931EC028BD9612A2ED831E9DF0FA82257FF2E6EA48E6A3878C44621",
+      "size": 105011361
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_010.vpk",
+      "sha256": "3CAD4DE99405842F89F0CC58498B6CAE19464067B8B23FD7244C5266305BA91B",
+      "size": 208824413
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_004.vpk",
+      "sha256": "7A6653699A08BB2539F7AD7EBF31BDCD9761BE4CD4956B18BF2FAA90A2C3C58D",
+      "size": 105601328
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_cstrike_003.vpk",
+      "sha256": "F18A0A15DD2361144E4329D1631B7EE5F985C9DC6C4E9BD03E6DB3C5114BD4F0",
+      "size": 214151118
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_hl2_002.vpk",
+      "sha256": "4A74A348EAC587D64167147C624325777E5623DC3D515C7C8CAE7376847B88D7",
+      "size": 220101177
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_007.vpk",
+      "sha256": "42235BF392EA22C045FEADEAB6E0771457EB0166E777DA27D7DE429148FAFFEE",
+      "size": 106247095
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_002.vpk",
+      "sha256": "DFFC84B516342A99A94F1B9CA2D9E0FCB5531D3973833756AFEC602E7022EF58",
+      "size": 105595880
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_001.vpk",
+      "sha256": "CB1BF8F3AEBAB3AE82481FB733FAA38C0EDF5BCBB48BCAA8A7F617C7DE55C319",
+      "size": 107254624
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_000.vpk",
+      "sha256": "3A5F7B62267481C8A46D9A5D1B420228E8E2F05FE4908A2A163542AA90E6C058",
+      "size": 105643516
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_003.vpk",
+      "sha256": "774D62E6F3EAA4EAB3C987DE4689ACA49E759419B9282ABB65FC1D2D5B014F37",
+      "size": 105556977
+    }
+  ],
+  "native_module_count": 166,
+  "status_counts": {
+    "reused_verified_current_stage": 2926,
+    "reused_verified_original": 27,
+    "unresolved_source_absent": 6,
+    "unverified_seed_source_absent": 6,
+    "staged_verified_original": 16
+  },
+  "closure_entry_count": 2981,
+  "closure_status": "incomplete_native_and_dynamic_boundaries",
+  "errors": [],
+  "limitations": [
+    "Runtime mount state and addon priorities not executed; GMA directories indexed without mounting/staging payloads",
+    "Native interfaces require IDA 6.8 evidence; inventory never substitutes native behavior",
+    "Dynamic Lua includes, generated SpawnIcons, system fonts, localization and global GLua APIs require runtime closure",
+    "Literal-path closure is conservative and includes unresolved optional branches rather than asset substitutes"
+  ],
+  "prior_manifests": [
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_qmenu_source_inventory\\manifest.json",
+      "sha256": "A499117503C53710B91AE27C401DBFCF53F23C4B741B3AF29FD0A43C06B0774B",
+      "status": "read_metadata_not_assumed_payload"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_tool_physgun_assets\\manifest.json",
+      "sha256": "465B9700272749C0C0705CA50C5EF697265AAAC8C8F45EA1D1F2E9B85A0A8480",
+      "status": "read_metadata_not_assumed_payload"
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_tool_physgun_asset_handoff\\manifest.json",
+      "sha256": "6368329C44B37C16B989351FEC14C09E9E8DC7F73134474722E98E7B2973E01E",
+      "status": "read_metadata_not_assumed_payload"
+    }
+  ],
+  "expanded_registry_patterns": [],
+  "named_sound_event_evidence": [
+    {
+      "event": "Toolgun.Single",
+      "definitions": [
+        {
+          "event": "Toolgun.Single",
+          "script": "scripts/sounds/lua.txt",
+          "waves": [
+            "weapons/airboat/airboat_gun_lastshot1.wav",
+            "weapons/airboat/airboat_gun_lastshot2.wav"
+          ]
+        }
+      ],
+      "behavior_inference": "none; event name does not establish held-beam loop semantics"
+    },
+    {
+      "event": "Weapon_Physgun.On",
+      "definitions": [
+        {
+          "event": "Weapon_Physgun.On",
+          "script": "scripts/game_sounds_weapons.txt",
+          "waves": [
+            "weapons/physgun_on.wav"
+          ]
+        },
+        {
+          "event": "Weapon_Physgun.On",
+          "script": "scripts/sounds/hl1_game_sounds.txt",
+          "waves": [
+            "weapons/physgun_on.wav"
+          ]
+        },
+        {
+          "event": "Weapon_Physgun.On",
+          "script": "scripts/sounds/hl2_game_sounds_weapons.txt",
+          "waves": [
+            ")weapons/physgun_on.wav"
+          ]
+        }
+      ],
+      "behavior_inference": "none; event name does not establish held-beam loop semantics"
+    },
+    {
+      "event": "Weapon_Physgun.Off",
+      "definitions": [
+        {
+          "event": "Weapon_Physgun.Off",
+          "script": "scripts/game_sounds_weapons.txt",
+          "waves": [
+            "weapons/physgun_off.wav"
+          ]
+        },
+        {
+          "event": "Weapon_Physgun.Off",
+          "script": "scripts/sounds/hl1_game_sounds.txt",
+          "waves": [
+            "weapons/physgun_off.wav"
+          ]
+        },
+        {
+          "event": "Weapon_Physgun.Off",
+          "script": "scripts/sounds/hl2_game_sounds_weapons.txt",
+          "waves": [
+            ")weapons/physgun_off.wav"
+          ]
+        }
+      ],
+      "behavior_inference": "none; event name does not establish held-beam loop semantics"
+    },
+    {
+      "event": "Weapon_Physgun.Special1",
+      "definitions": [
+        {
+          "event": "Weapon_Physgun.Special1",
+          "script": "scripts/game_sounds_weapons.txt",
+          "waves": [
+            "weapons/flaregun/impact.wav"
+          ]
+        },
+        {
+          "event": "Weapon_Physgun.Special1",
+          "script": "scripts/sounds/hl1_game_sounds.txt",
+          "waves": [
+            "weapons/flaregun/impact.wav"
+          ]
+        },
+        {
+          "event": "Weapon_Physgun.Special1",
+          "script": "scripts/sounds/hl2_game_sounds_weapons.txt",
+          "waves": [
+            ")weapons/flaregun/impact.wav"
+          ]
+        }
+      ],
+      "behavior_inference": "none; event name does not establish held-beam loop semantics"
+    }
+  ]
+}

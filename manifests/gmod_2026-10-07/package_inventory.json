@@ -1,0 +1,713 @@
+{
+  "entries": [
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\fallbacks_000.vpk",
+      "installation_relative_path": "garrysmod/fallbacks_000.vpk",
+      "size": 108491602,
+      "mtime_ns": 1791152888352490100,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\fallbacks_dir.vpk",
+      "installation_relative_path": "garrysmod/fallbacks_dir.vpk",
+      "size": 327592,
+      "mtime_ns": 1791152888352490100,
+      "type": "vpk_archive",
+      "sha256": "4C6A35E55A7208FB77ADE8BAB469C7DC75C67A7223C3A780661081A8E299453B"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_000.vpk",
+      "installation_relative_path": "garrysmod/garrysmod_000.vpk",
+      "size": 274445760,
+      "mtime_ns": 1791152888367489100,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_001.vpk",
+      "installation_relative_path": "garrysmod/garrysmod_001.vpk",
+      "size": 274036682,
+      "mtime_ns": 1791152888367489100,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_002.vpk",
+      "installation_relative_path": "garrysmod/garrysmod_002.vpk",
+      "size": 273743895,
+      "mtime_ns": 1791152888367489100,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "installation_relative_path": "garrysmod/garrysmod_dir.vpk",
+      "size": 533006,
+      "mtime_ns": 1791152888367489100,
+      "type": "vpk_archive",
+      "sha256": "A3237FC7442C6C57AA924525951280F1381BC641D323B6ED4CE52FD5BE09F83E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\1114687247.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/1114687247.gma",
+      "size": 56769110,
+      "mtime_ns": 1791162311024315700,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\113118541.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/113118541.gma",
+      "size": 157896631,
+      "mtime_ns": 1791162350225453900,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\113120185.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/113120185.gma",
+      "size": 119888382,
+      "mtime_ns": 1791162449271590200,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\113997239.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/113997239.gma",
+      "size": 124535376,
+      "mtime_ns": 1791162328927512700,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\113999373.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/113999373.gma",
+      "size": 221079793,
+      "mtime_ns": 1791162325237871800,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\114001545.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/114001545.gma",
+      "size": 141363797,
+      "mtime_ns": 1791162313711393800,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\119146471.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/119146471.gma",
+      "size": 44881848,
+      "mtime_ns": 1791162346233405700,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\119148120.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/119148120.gma",
+      "size": 111998854,
+      "mtime_ns": 1791162310399020400,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\119148996.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/119148996.gma",
+      "size": 154155719,
+      "mtime_ns": 1791162322062525900,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\123455885.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/123455885.gma",
+      "size": 108129152,
+      "mtime_ns": 1791162330921303700,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\126920533.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/126920533.gma",
+      "size": 25609953,
+      "mtime_ns": 1791162345061600100,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\126921199.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/126921199.gma",
+      "size": 56071749,
+      "mtime_ns": 1791162336384794100,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\131246684.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/131246684.gma",
+      "size": 111411200,
+      "mtime_ns": 1791162450894749800,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\143190159.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/143190159.gma",
+      "size": 25447105,
+      "mtime_ns": 1791162300238247600,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\177889282.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/177889282.gma",
+      "size": 1730002,
+      "mtime_ns": 1791162301283263000,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\180507408.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/180507408.gma",
+      "size": 202577903,
+      "mtime_ns": 1791162335577865300,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\181283903.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/181283903.gma",
+      "size": 23855253,
+      "mtime_ns": 1791162350727107300,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\181656972.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/181656972.gma",
+      "size": 74376504,
+      "mtime_ns": 1791162347568053400,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\182894313.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/182894313.gma",
+      "size": 1416161,
+      "mtime_ns": 1791162301435262100,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\182957488.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/182957488.gma",
+      "size": 662182,
+      "mtime_ns": 1791162301233262900,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\183139624.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/183139624.gma",
+      "size": 36461090,
+      "mtime_ns": 1791162344578332800,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\183140076.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/183140076.gma",
+      "size": 14093758,
+      "mtime_ns": 1791162345462383200,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\184894018.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/184894018.gma",
+      "size": 8037032,
+      "mtime_ns": 1791162301401263200,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\192859996.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/192859996.gma",
+      "size": 260676393,
+      "mtime_ns": 1791162320089806500,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\201027186.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/201027186.gma",
+      "size": 29872740,
+      "mtime_ns": 1791162332234154200,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\201027715.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/201027715.gma",
+      "size": 79206677,
+      "mtime_ns": 1791162343905457800,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\217264937.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/217264937.gma",
+      "size": 51892121,
+      "mtime_ns": 1791162331626962400,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\221198333.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/221198333.gma",
+      "size": 37229011,
+      "mtime_ns": 1791162311561639800,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\230680318.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/230680318.gma",
+      "size": 67170642,
+      "mtime_ns": 1791162308954084600,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\233934024.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/233934024.gma",
+      "size": 80737247,
+      "mtime_ns": 1791162307244769400,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\259899351.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/259899351.gma",
+      "size": 120835230,
+      "mtime_ns": 1791162326809072400,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\270835948.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/270835948.gma",
+      "size": 31735244,
+      "mtime_ns": 1791162298875741300,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\303809753.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/303809753.gma",
+      "size": 18237430,
+      "mtime_ns": 1791162322348525700,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\312028790.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/312028790.gma",
+      "size": 57179013,
+      "mtime_ns": 1791162297127528300,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\328735857.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/328735857.gma",
+      "size": 259201806,
+      "mtime_ns": 1791162342860663900,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\349281554.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/349281554.gma",
+      "size": 264829345,
+      "mtime_ns": 1791162316570698700,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\399430598.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/399430598.gma",
+      "size": 81554854,
+      "mtime_ns": 1791162298489741000,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\414544204.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/414544204.gma",
+      "size": 4856623,
+      "mtime_ns": 1791162311107641000,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\423749944.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/423749944.gma",
+      "size": 42782610,
+      "mtime_ns": 1791162307717770100,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\469173046.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/469173046.gma",
+      "size": 75880352,
+      "mtime_ns": 1791162317715508000,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\484061347.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/484061347.gma",
+      "size": 24242017,
+      "mtime_ns": 1791162301871334100,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\493405262.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/493405262.gma",
+      "size": 4299,
+      "mtime_ns": 1791162296166899700,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\497393584.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/497393584.gma",
+      "size": 46524702,
+      "mtime_ns": 1791162301199782100,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\556706101.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/556706101.gma",
+      "size": 41859651,
+      "mtime_ns": 1791162329525035300,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\576517817.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/576517817.gma",
+      "size": 12186067,
+      "mtime_ns": 1791162311762641000,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\578606218.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/578606218.gma",
+      "size": 43165465,
+      "mtime_ns": 1791162299515247300,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\622810630.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/622810630.gma",
+      "size": 132452481,
+      "mtime_ns": 1791162338740311300,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\625091269.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/625091269.gma",
+      "size": 327010406,
+      "mtime_ns": 1791162306152479700,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\893664821.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/893664821.gma",
+      "size": 70383,
+      "mtime_ns": 1791162296100451100,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\cache\\workshop\\899520875.gma",
+      "installation_relative_path": "garrysmod/cache/workshop/899520875.gma",
+      "size": 16999,
+      "mtime_ns": 1791162296133899400,
+      "type": "addon_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\platform\\platform_misc_000.vpk",
+      "installation_relative_path": "platform/platform_misc_000.vpk",
+      "size": 4414937,
+      "mtime_ns": 1791152888395489800,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\platform\\platform_misc_dir.vpk",
+      "installation_relative_path": "platform/platform_misc_dir.vpk",
+      "size": 14073,
+      "mtime_ns": 1791154518351152400,
+      "type": "vpk_archive",
+      "sha256": "642115333A07632ECF878F54E5985F0F64396DF47A1CB03A49803EEC98801F98"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_cstrike_000.vpk",
+      "installation_relative_path": "sourceengine/content_cstrike_000.vpk",
+      "size": 213491980,
+      "mtime_ns": 1791152888400490000,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_cstrike_001.vpk",
+      "installation_relative_path": "sourceengine/content_cstrike_001.vpk",
+      "size": 213489224,
+      "mtime_ns": 1791152888400490000,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_cstrike_002.vpk",
+      "installation_relative_path": "sourceengine/content_cstrike_002.vpk",
+      "size": 214896305,
+      "mtime_ns": 1791152888401489200,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_cstrike_003.vpk",
+      "installation_relative_path": "sourceengine/content_cstrike_003.vpk",
+      "size": 214151118,
+      "mtime_ns": 1791152888401489200,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_cstrike_004.vpk",
+      "installation_relative_path": "sourceengine/content_cstrike_004.vpk",
+      "size": 212445751,
+      "mtime_ns": 1791152888402489200,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_cstrike_005.vpk",
+      "installation_relative_path": "sourceengine/content_cstrike_005.vpk",
+      "size": 212433417,
+      "mtime_ns": 1791152888402489200,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_cstrike_dir.vpk",
+      "installation_relative_path": "sourceengine/content_cstrike_dir.vpk",
+      "size": 560709,
+      "mtime_ns": 1791152888402489200,
+      "type": "vpk_archive",
+      "sha256": "715781A97902D982AB16FA811785966F25A0D5F939F54D94AC88F4454784AA64"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_hl2_000.vpk",
+      "installation_relative_path": "sourceengine/content_hl2_000.vpk",
+      "size": 217356402,
+      "mtime_ns": 1791152888402489200,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_hl2_001.vpk",
+      "installation_relative_path": "sourceengine/content_hl2_001.vpk",
+      "size": 221526505,
+      "mtime_ns": 1791152888403489700,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_hl2_002.vpk",
+      "installation_relative_path": "sourceengine/content_hl2_002.vpk",
+      "size": 220101177,
+      "mtime_ns": 1791152888404489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_hl2_003.vpk",
+      "installation_relative_path": "sourceengine/content_hl2_003.vpk",
+      "size": 216367144,
+      "mtime_ns": 1791152888405489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_hl2_004.vpk",
+      "installation_relative_path": "sourceengine/content_hl2_004.vpk",
+      "size": 215429910,
+      "mtime_ns": 1791152888405489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_hl2_005.vpk",
+      "installation_relative_path": "sourceengine/content_hl2_005.vpk",
+      "size": 216334202,
+      "mtime_ns": 1791152888405489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_hl2_006.vpk",
+      "installation_relative_path": "sourceengine/content_hl2_006.vpk",
+      "size": 214309806,
+      "mtime_ns": 1791152888406489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\content_hl2_dir.vpk",
+      "installation_relative_path": "sourceengine/content_hl2_dir.vpk",
+      "size": 363239,
+      "mtime_ns": 1791152888406489600,
+      "type": "vpk_archive",
+      "sha256": "072ADEA4FB5DD32388659D14221CE3D5888083E5379A78458DB0A9D44A9B8288"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_000.vpk",
+      "installation_relative_path": "sourceengine/hl2_misc_000.vpk",
+      "size": 113051756,
+      "mtime_ns": 1791152888406489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_001.vpk",
+      "installation_relative_path": "sourceengine/hl2_misc_001.vpk",
+      "size": 113103964,
+      "mtime_ns": 1791152888406489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_002.vpk",
+      "installation_relative_path": "sourceengine/hl2_misc_002.vpk",
+      "size": 112474014,
+      "mtime_ns": 1791152888407489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_003.vpk",
+      "installation_relative_path": "sourceengine/hl2_misc_003.vpk",
+      "size": 115043556,
+      "mtime_ns": 1791152888407489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_misc_dir.vpk",
+      "installation_relative_path": "sourceengine/hl2_misc_dir.vpk",
+      "size": 707232,
+      "mtime_ns": 1791152888407489600,
+      "type": "vpk_archive",
+      "sha256": "65522B04FB003050066C1D0BA052E8401FE08A0BB0939764D86D0D3E35293EE0"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_misc_000.vpk",
+      "installation_relative_path": "sourceengine/hl2_sound_misc_000.vpk",
+      "size": 133689947,
+      "mtime_ns": 1791152888407489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_misc_001.vpk",
+      "installation_relative_path": "sourceengine/hl2_sound_misc_001.vpk",
+      "size": 132906429,
+      "mtime_ns": 1791152888408489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_misc_002.vpk",
+      "installation_relative_path": "sourceengine/hl2_sound_misc_002.vpk",
+      "size": 133066873,
+      "mtime_ns": 1791152888408489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_misc_dir.vpk",
+      "installation_relative_path": "sourceengine/hl2_sound_misc_dir.vpk",
+      "size": 113289,
+      "mtime_ns": 1791154800809890000,
+      "type": "vpk_archive",
+      "sha256": "6310ABB7E633511BD2DBB910CB159FED1A5A4EEF14B8534E4EC3EA8E9E494B6E"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_vo_english_000.vpk",
+      "installation_relative_path": "sourceengine/hl2_sound_vo_english_000.vpk",
+      "size": 119762707,
+      "mtime_ns": 1791152888408489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_vo_english_001.vpk",
+      "installation_relative_path": "sourceengine/hl2_sound_vo_english_001.vpk",
+      "size": 119927424,
+      "mtime_ns": 1791152888408489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_vo_english_002.vpk",
+      "installation_relative_path": "sourceengine/hl2_sound_vo_english_002.vpk",
+      "size": 119668742,
+      "mtime_ns": 1791152888408489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_vo_english_003.vpk",
+      "installation_relative_path": "sourceengine/hl2_sound_vo_english_003.vpk",
+      "size": 120245738,
+      "mtime_ns": 1791152888409489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_vo_english_004.vpk",
+      "installation_relative_path": "sourceengine/hl2_sound_vo_english_004.vpk",
+      "size": 119467000,
+      "mtime_ns": 1791152888409489600,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_sound_vo_english_dir.vpk",
+      "installation_relative_path": "sourceengine/hl2_sound_vo_english_dir.vpk",
+      "size": 97210,
+      "mtime_ns": 1791154875518214200,
+      "type": "vpk_archive",
+      "sha256": "D049E603D4C919CEBFD5D53188AC6B874D1BA84A23EB17F7803B570FBDD34D10"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_000.vpk",
+      "installation_relative_path": "sourceengine/hl2_textures_000.vpk",
+      "size": 105643516,
+      "mtime_ns": 1791152888410489700,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_001.vpk",
+      "installation_relative_path": "sourceengine/hl2_textures_001.vpk",
+      "size": 107254624,
+      "mtime_ns": 1791152888410489700,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_002.vpk",
+      "installation_relative_path": "sourceengine/hl2_textures_002.vpk",
+      "size": 105595880,
+      "mtime_ns": 1791152888410489700,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_003.vpk",
+      "installation_relative_path": "sourceengine/hl2_textures_003.vpk",
+      "size": 105556977,
+      "mtime_ns": 1791152888410489700,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_004.vpk",
+      "installation_relative_path": "sourceengine/hl2_textures_004.vpk",
+      "size": 105601328,
+      "mtime_ns": 1791152888410489700,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_005.vpk",
+      "installation_relative_path": "sourceengine/hl2_textures_005.vpk",
+      "size": 105011361,
+      "mtime_ns": 1791152888410489700,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_006.vpk",
+      "installation_relative_path": "sourceengine/hl2_textures_006.vpk",
+      "size": 106419664,
+      "mtime_ns": 1791152888412489800,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_007.vpk",
+      "installation_relative_path": "sourceengine/hl2_textures_007.vpk",
+      "size": 106247095,
+      "mtime_ns": 1791152888412489800,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_008.vpk",
+      "installation_relative_path": "sourceengine/hl2_textures_008.vpk",
+      "size": 110175163,
+      "mtime_ns": 1791152888412489800,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_009.vpk",
+      "installation_relative_path": "sourceengine/hl2_textures_009.vpk",
+      "size": 105574068,
+      "mtime_ns": 1791152888412489800,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_010.vpk",
+      "installation_relative_path": "sourceengine/hl2_textures_010.vpk",
+      "size": 208824413,
+      "mtime_ns": 1791152888413490400,
+      "type": "vpk_archive"
+    },
+    {
+      "source_absolute_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\sourceengine\\hl2_textures_dir.vpk",
+      "installation_relative_path": "sourceengine/hl2_textures_dir.vpk",
+      "size": 213719,
+      "mtime_ns": 1791154769698746400,
+      "type": "vpk_archive",
+      "sha256": "344AAA8A8B450075FAF74F8A7BA4325CC360B7BA476B92696A1E4F8512DBF4F8"
+    }
+  ]
+}
