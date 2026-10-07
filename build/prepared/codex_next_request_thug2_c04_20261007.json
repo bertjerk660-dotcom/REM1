@@ -1,0 +1,44 @@
+{
+  "schema": "rem.codex_next_request.v1",
+  "date": "2026-10-07",
+  "request_id": "C04_THUG2_STATE_PHYSICS",
+  "priority": 1,
+  "reason": "C04 is the THUG2 state-vocabulary dependency hub for C05-C08 and Opus O05.",
+  "repository": "bertjerk660-dotcom/REM1",
+  "preparation_branch": "prep/opus-ready-20261007",
+  "recommended_evidence_branch": "codex/thug2-c04-state-physics-20261007",
+  "owner": "Codex",
+  "allowed_work": [
+    "reverse-engineering investigation",
+    "IDA Pro 6.8 analysis",
+    "function/state/call tracing",
+    "dependency discovery",
+    "evidence manifests",
+    "investigation scripts",
+    "source-behavior documentation"
+  ],
+  "forbidden_work_reserved_for_opus": [
+    "final Fallout/xNVSE implementation",
+    "skate state-machine implementation",
+    "physics/collision adapter implementation",
+    "animation retargeting/integration",
+    "board attachment implementation",
+    "camera implementation",
+    "HUD/UI implementation",
+    "final asset conversion",
+    "runtime deployment"
+  ],
+  "required_outputs": [
+    "context/CODEX/THUG2_C04_SKATE_STATE_PHYSICS_EVIDENCE_2026-10-07.md",
+    "build/evidence/thug2_c04/master_state_machine.json",
+    "build/evidence/thug2_c04/movement_physics_map.json",
+    "build/evidence/thug2_c04/collision_query_contract.json",
+    "build/evidence/thug2_c04/grind_manual_lip_eligibility.json",
+    "build/evidence/thug2_c04/opus_world_adapter_contract.json"
+  ],
+  "known_runtime_failure_to_explain": "Pressing G can currently enter grind state without valid grindable geometry/contact.",
+  "readiness_points_if_reviewed_complete": 3,
+  "opus_unlock_effect": "Provides core O05 state/physics contract; O05 still depends on C08 for final unified input contract.",
+  "implementation_owner": "Claude Opus",
+  "runtime_validation_owner_after_implementation": "Codex"
+}
