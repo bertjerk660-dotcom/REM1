@@ -206,3 +206,29 @@ Durable coordination facts:
 Historical ownership wording inside those manifests that says Astra owns runtime is obsolete. Current ownership remains: Opus implements; Codex investigates and runtime-validates.
 
 **Promotion status:** catalog/provenance/taxonomy evidence is accepted for coordination and future Opus content-adapter planning. THUG2 prop candidates remain **NOT PROMOTED** pending visual/conversion/collision evidence and later runtime validation. The disabled GMod sidecar and its branch hash are not runtime proof.
+
+
+## Current-local provenance refresh — 2026-10-07
+
+Remote Desktop Commander re-hashed the actual current machine.
+
+Exact matches to recorded source provenance:
+- GMod appmanifest SHA256 `55648202F35A9165220C98975F59CDEB0079AE20D0C377FCC5CC83682449EA8A`;
+- `garrysmod_dir.vpk` SHA256 `A3237FC7442C6C57AA924525951280F1381BC641D323B6ED4CE52FD5BE09F83E`;
+- THUG2 PS2 `SLES_526.21` SHA256 `91C3D11BF0F1546F8EA20A22E7C1708EA91697F3C1393F36D9D7F2D4449963D1`;
+- FNV skeleton extract SHA256 `C6667DD94FD10392F851F748438B7C69C0D2CB407448BECAE6431D5ED1994C4C`.
+
+Current project identity differs from the old Opus feed snapshot:
+- current local `main.cpp` SHA256: `4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE`;
+- old feed-bundle `main.cpp` SHA256: `CE3628AE131F42424459F5441051817EC132A7AE53414765047EBA6A9A4727A5`;
+- current installed `FNVGModTHUG2.dll` SHA256: `D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206`;
+- active `REM_GModTHUG2.esp` remains `0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7`.
+
+Current enabled support sidecars:
+- `REM_CombineArmor_Test_TorsoLowered.esp` SHA256 `99F4B59D498E52A21423869210579609C8DC5B981AF2F3FF7C95247ACE7BBE16`;
+- `REM_Goodsprings_CombineDeathclawEncounter.esp` SHA256 `B37B2087B75701AFAAE64FEA62B580774B99965A8B4C37CED32E4161FECB590F`;
+- support DLL `REMGoodspringsResponse.dll` SHA256 `2FCEAC8BB4B3AD11B774F9B9B0D9F97A08E9D9372205C9A7E4E34F2BF4F0F13F`.
+
+Interpretation: source-game provenance is current and trustworthy, but the 2026-10-06 Opus feed bundle cannot define the exact current implementation-source baseline. Any Opus task must freeze a new branch/commit/source hash and explicitly decide whether unrelated support sidecars are enabled during validation.
+
+See `context/LOCAL_OPUS_PREFLIGHT_SNAPSHOT_2026-10-07.md`.
