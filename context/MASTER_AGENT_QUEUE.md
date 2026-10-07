@@ -134,3 +134,8 @@ A subsystem becomes implementation-ready only after required Codex evidence is r
 39. **S39 consolidated launch baseline** — COMPLETE. `context/OPUS_LAUNCH_PREFLIGHT_BASELINE_2026-10-07.md` is the current launch checkpoint.
 
 - **H01 Haiku final Opus preflight audit** - COMPLETE 2026-10-07 on branch prep/haiku-final-audit-20261007. Report: context/HANDOFFS/HAIKU_FINAL_OPUS_PREFLIGHT_AUDIT_2026-10-07.md. Readiness 81/100 unchanged. O00 may start; O01/O08a/O08b/O08c stay gated behind O00 PASS.
+
+40. **S40 held-board provenance resolution** — COMPLETE. v82 `4F121...` is proven as the pre-v90 material-repair identity; v90 intentionally produced deployed `1FB3...`.
+41. **S41 ownership wording reconciliation** — COMPLETE. Active docs now consistently keep Codex as default investigation/runtime-validation owner and Opus as sole substantive implementation owner, with a narrow Opus investigation exception.
+42. **S42 Codex output lifecycle semantics** — COMPLETE. Baseline mode reports future outputs as PENDING; delivery mode enforces required files. 2026-10-08 baseline: 46 pending, 0 invalid JSON, CONSISTENT.
+43. **S43 quarantined branch-head index** — COMPLETE. Exact heads/relations/classifications pinned in the 2026-10-08 quarantine index.
