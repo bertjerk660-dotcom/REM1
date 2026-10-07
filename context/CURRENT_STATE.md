@@ -57,14 +57,43 @@ THUG2 is NOT VERIFIED STABLE until v82 is playtested.
 - The currently visible GMod-style prop menu appears visually correct in playtest, but it is explicitly a placeholder. It must not be treated as the finished Q menu; the final implementation remains the real/source-faithful GMod Q/spawn-menu system and compatibility bridge.
 
 
-## 2026-10-07 original GMOD investigation and selective staging
+## 2026-10-07 authenticated GMod evidence intake
+Canonical `main` commit `19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0` now contains a source/IDA-backed GMod investigation bundle. The preparation branch selectively imported the primary reports and unresolved-dependency/validation manifests.
 
-The [original-system evidence package](GMOD_2026-10-07/README.md) traces the actual Q-menu Lua hierarchy through browser/search/icon click and server spawn permissions, placement, undo and cleanup; it also traces click-selected Tool Gun mode through its original SWEP registry and callbacks. The current C++ menu remains a placeholder. Original tool selection happens on click, whereas current custom tool indices can arm on hover.
+Coordination review result:
+- C01 Q-menu: **SUBSTANTIAL PARTIAL**;
+- C02 Toolgun behavior: **SUBSTANTIAL PARTIAL**;
+- C03 Physgun closure: **PARTIAL**;
+- O02/O03/O04 remain **WAITING FOR CODEX GAP CLOSURE**;
+- broad GMod investigation should not be repeated;
+- exact remaining gaps are enumerated in `context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md`.
 
-The supplied installation was indexed: 3,014 loose files, 78,051 VPK entries and 9,573 entries in 50 GMAD archives. The final selected closure records 2,969 verified originals, with 2,732 VPK entry CRC checks and matching source/destination SHA-256s. Proprietary originals remain in local support staging; canonical GitHub holds authored reports, tooling and provenance metadata. Native/dynamic closure remains incomplete and explicit. Six genuine absent files and six absent exploratory seeds are kept separate. No substitute assets were created.
+The GMod evidence bundle passed 36,078 metadata/graph/report checks with 0 errors. This is evidence-package validation only and does not establish runtime parity or final implementation.
 
-IDA Pro 6.8 metadata was collected from isolated copies of existing client/server databases. Installed DLL hashes match the original analysis inputs. Native controller, network state, input consumers and beam resources have build-specific evidence; a string or vtable candidate does not establish every behavior. See the native report and unresolved manifest.
 
-The actual supplied plugin source labels itself v85; deployed binary identity is recorded separately. Main.cpp, gmod_overlay.inc, deployed DLL and ESP SHA-256s remained identical between the 05:16 baseline and the 10:34 end-of-GMOD-pass check. This pass performs no runtime deployment or gameplay validation. Static audit findings narrow short-range acquisition, missing continuous audio and tool-selector defects; actor-command and flicker hypotheses still require targeted validation.
+## 2026-10-07 Opus conversion-pipeline preflight
+A fresh workflow review restored the original golden-conversion ordering before weapon visual work.
 
-The 2026-10-07 project requirement is LMB grab/interact and RMB requested launch/release; older RMB-grab/LMB-launch project handoffs are historical. Original native input semantics are documented separately. Codex investigates and prepares evidence; Opus owns implementation. THUG2 investigation continues under the latest coordination ownership map, without changing the existing held-board/activation positives.
+- O00 Golden Source bench conversion proof: READY FOR OPUS.
+- Source bench MDL/VVD/DX90/PHY, QC/reference/physics SMD and VMT/VTF/mask inputs were re-hashed on the current local machine and match recorded provenance.
+- O00 must be implemented in an isolated sidecar and pass visual/material/scale/orientation/collision/save-load acceptance before weapon conversion is trusted.
+- O01 Toolgun presentation is fully hash-prepared but is now correctly classified as READY AFTER O00 PASS.
+
+This changes preparation ordering only; no runtime feature was implemented or promoted.
+
+
+## 2026-10-07 unified Opus visual-source validation
+A reusable local validator now checks the prepared visual-source packages before Opus work:
+- O00 golden bench: PASS;
+- O01 Toolgun presentation: PASS;
+- O08a crowbar: PASS;
+- O08b pistol: PASS;
+- O08c SMG1: PASS;
+- total: 87 files;
+- errors: 0.
+
+Report: `build/validation/opus_visual_source_validation_20261007.json`.
+
+One real staging omission was found and corrected during preparation: the original `w_smg2.vmt` references `w_smg2specularmask.vtf`; the old staged w_smg1 package omitted it. The exact VPK source file was copied into staging and hash-matches the original. No replacement texture was created.
+
+The remaining path to 100% Opus preparation is fixed in `context/OPUS_READINESS_81_TO_100_PLAN_2026-10-07.md`. After clean-branch reconciliation, all remaining readiness points are C01-C08 evidence work.
