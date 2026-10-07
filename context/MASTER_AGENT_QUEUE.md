@@ -81,7 +81,7 @@ Legacy branches such as `runtime/astra-phase1-input92` remain historical candida
 12. **S12 documentation authority map** — COMPLETE in `context/DOCUMENTATION_AUTHORITY_MAP.md`; use it for future conflict resolution.
 13. **S13 runtime packet hardening** — COMPLETE initial pass; all Codex test packs now require exact candidate/save/location/inventory/hashes and evidence capture.
 14. **S14 THUG2 audio implementation packet** — COMPLETE as a gated Opus packet; remains WAITING FOR CODEX evidence.
-15. **S15 Opus readiness scorecard** — COMPLETE with explicit weighted rubric in `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md`; current preparation score is 80/100 on the legacy finalization branch and becomes 81/100 when the clean main-descended Opus-ready branch is finalized.
+15. **S15 Opus readiness scorecard** — COMPLETE with explicit weighted rubric in `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md`; current preparation score is 81/100 on the clean main-descended Opus-ready branch.
 16. **S16 Opus launch sequence** — COMPLETE in `context/OPUS_LAUNCH_SEQUENCE_2026-10-07.md`; distinguishes immediate O01/O08 work from Codex-gated packages.
 17. **S17 Opus evidence/package intake gate** — COMPLETE in `context/OPUS_PACKAGE_INTAKE_CHECKLIST_2026-10-07.md`; use after every Codex evidence or runtime report.
 18. **S18 current-local Opus preflight identity** — COMPLETE; GMod appmanifest/VPK, THUG2 executable and FNV skeleton were re-hashed on the local machine and the stale old feed-bundle source hash is explicitly flagged.
@@ -121,4 +121,4 @@ A subsystem becomes implementation-ready only after required Codex evidence is r
 30. **S30 O08b Pistol presentation preflight** — COMPLETE. c/w pistol models were directly extracted from installed GMod archives and matched staged hashes; original VMT/VTF closure verified. Status: READY AFTER O00 PASS.
 31. **S31 O08c SMG1 presentation preflight** — COMPLETE. c/w SMG1 models were directly archive-verified; original material closure verified and the missing world-SMG specular mask was repaired with the exact original VPK file. Status: READY AFTER O00 PASS.
 32. **S32 unified visual-source validation** — COMPLETE. O00/O01/O08a/O08b/O08c: 87 files checked, 0 errors. Report: `build/validation/opus_visual_source_validation_20261007.json`.
-33. **S33 clean main-descended Opus-ready branch** — IN PROGRESS. Target branch: `prep/opus-ready-20261007`; its purpose is to remove the four-commit divergence/conflict of the older finalization branch.
+33. **S33 clean main-descended Opus-ready branch** — COMPLETE. `prep/opus-ready-20261007` was created from current main and verified ahead with 0 behind; it is the preferred preparation branch.
