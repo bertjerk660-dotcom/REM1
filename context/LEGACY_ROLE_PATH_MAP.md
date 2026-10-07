@@ -35,7 +35,10 @@ Instead:
 ## Dispatch rule
 
 Before handing off work:
-- if the task asks **how the original game works**, send to Codex;
+- if the task asks **how the original game works**, send to Codex by default;
 - if it asks **to implement/change the merged game**, send to Opus;
+- if Opus encounters a narrowly scoped evidence gap that is inseparable from its active implementation, Opus may investigate that gap under the evidence rules in `AGENT_OWNERSHIP.md`;
 - if it asks **to run/test/debug the candidate**, send to Codex;
-- if it asks **to organize/plan/document**, keep in GPT-5.5 workflow lane.
+- if it asks **to organize/plan/document**, keep in the normal GPT workflow lane.
+
+The broader reverse-engineering routing proposed on `prep/haiku-findings-20261007` is preserved as a historical proposal, not as current dispatch authority.
