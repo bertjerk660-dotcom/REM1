@@ -178,3 +178,31 @@ For every imported or converted asset track:
 - Codex runtime-validation status.
 
 Never treat branch presence, conversion success or an ESP record as proof that an asset works in the running game.
+
+
+## Prop-content phase 4 reconciliation
+
+Sources:
+- `prep/prop-content-phase4:builds/final_prop_catalog_20261006.json`
+- `prep/prop-content-phase4:builds/gmod_prop_menu_curated_20261006.json`
+- `prep/prop-content-phase4:builds/prop_menu_content_handoff_20261006.json`
+- `prep/prop-content-phase4:builds/prop_support_phase4_20261006.json`
+- `prep/prop-content-phase4:context/PROP_PHASE4_STATUS.md`
+
+Durable coordination facts:
+- ready player-facing catalog remains **290** entries;
+- source split is **170 Fallout New Vegas + 120 GMod/mounted Source**;
+- the selected GMod pool was curated from **7,507** registry entries;
+- the 120 GMod entries report **0 unresolved materials** in that branch snapshot;
+- thumbnails were recorded as **290/290** covered for support/fallback use;
+- the intended menu policy is to remain near **300-320** useful items rather than grow into a raw archive;
+- THUG2 embedded-prop queue records **106** future targets across **16** levels, but none is promoted solely from proximity/leaf evidence;
+- diversified THUG2 review wave contains **20** candidates: 13 high-review-priority and 7 medium-review-priority;
+- all 20 have recorded material provenance; intended collision roles are 16 static skate obstacles + 4 static environment props;
+- the THUG2 sidecar builder correctly remained blocked at **0 ready / 20 blocked** because visual identity, standalone split/conversion, collision and scale were not yet validated;
+- phase-4 static validator reported 66 checks / 0 errors and unified support validator 112 checks / 0 errors;
+- runtime changes = false and runtime/visual playtest = not run.
+
+Historical ownership wording inside those manifests that says Astra owns runtime is obsolete. Current ownership remains: Opus implements; Codex investigates and runtime-validates.
+
+**Promotion status:** catalog/provenance/taxonomy evidence is accepted for coordination and future Opus content-adapter planning. THUG2 prop candidates remain **NOT PROMOTED** pending visual/conversion/collision evidence and later runtime validation. The disabled GMod sidecar and its branch hash are not runtime proof.
