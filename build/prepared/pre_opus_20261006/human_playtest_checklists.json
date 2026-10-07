@@ -1,0 +1,264 @@
+{
+  "schema": "rem.pre_opus.human_checks.v1",
+  "execution_status": "NOT_RUN",
+  "common_steps": [
+    "Confirm a dedicated disposable save and exact candidate/sidecar hash; preserve normal saves.",
+    "Run prepared preflight and verify fresh process/log identifies the expected unchanged baseline runtime.",
+    "Enable only the explicitly approved test sidecar, after static gates; do not enable a runtime candidate.",
+    "Record PASS/FAIL/BLOCKED with screenshot/video, observations, candidate identity and log timestamps for each check.",
+    "Save to a new test slot; exit the process completely; reopen and load that slot.",
+    "Capture postflight/crash evidence, disable the test sidecar and restore the original plugin list; keep the test save separate."
+  ],
+  "packs": [
+    {
+      "id": "golden_bench",
+      "steps": [
+        "Only after Opus supplies a parsed NIF, resolved textures, collision and an isolated ESP record.",
+        "Spawn the exact record using its recorded actual FormID; inspect front/back/underside in daylight.",
+        "Compare texture/material groups, axis/orientation and dimensions to source evidence and an FNV reference.",
+        "Walk into seat/back/legs from multiple directions; check intended collision gaps, ground contact and stability.",
+        "Reload and verify same bench transform/appearance/collision; remove via controlled test cleanup."
+      ],
+      "gates": [
+        {
+          "name": "Visible authentic mesh",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Original textures and mask/shader adaptation justified",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Scale/orientation match documented transform",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Collision follows source-derived silhouette",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Spawn/cleanup reliable",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Fresh-process persistence",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "No new high-severity error/crash",
+          "status": "PENDING",
+          "evidence": null
+        }
+      ],
+      "overall": "PENDING"
+    },
+    {
+      "id": "weapon_presentation",
+      "steps": [
+        "After bench PASS, test Tool Gun, resolved Physgun model, crowbar, pistol, SMG1 separately.",
+        "Equip each from Pip-Boy; inspect first/third-person idle, walk, crouch, aim and weapon switching.",
+        "Inspect hands/grip, scale, clipping, textures and preserved intended sequence behavior.",
+        "Do not count candidate c_superphyscannon as exact Physgun until provenance resolved."
+      ],
+      "gates": [
+        {
+          "name": "Correct named inventory/icon",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Visible first-person",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Correct third-person alignment",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "No missing textures",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "No severe clipping",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "No crash on switch/load",
+          "status": "PENDING",
+          "evidence": null
+        }
+      ],
+      "overall": "PENDING"
+    },
+    {
+      "id": "inventory_drop_pickup",
+      "steps": [
+        "Record starting item identity/count; drop one item on clear ground.",
+        "Look at dropped item: correct model/name; pick it up and re-equip.",
+        "Transfer to container and back, then trade and reacquire where available.",
+        "Repeat after fresh-process save/load; verify identity/count and equipped usability."
+      ],
+      "gates": [
+        {
+          "name": "Same persistent item identity",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Visible world model/name",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "No duplicate/lost item",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Container/trade preserved",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Fresh-load behavior",
+          "status": "PENDING",
+          "evidence": null
+        }
+      ],
+      "overall": "PENDING"
+    },
+    {
+      "id": "prop_collision_scale",
+      "steps": [
+        "Use only one approved catalog sidecar and the prepared representative batch.",
+        "Spawn recorded actual forms for rail/bench/ramp/crate or currently available equivalent entries.",
+        "Compare bounds/orientation to source and host reference; inspect surfaces/UVs.",
+        "Walk/contact each prop, inspect ground placement and intended static/dynamic behavior.",
+        "Remove test instances; verify clean reload."
+      ],
+      "gates": [
+        {
+          "name": "Correct identity",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Scale/orientation",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Collision/contact stability",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Textures/UVs",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Spawn/cleanup",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Persistence",
+          "status": "PENDING",
+          "evidence": null
+        }
+      ],
+      "overall": "PENDING"
+    },
+    {
+      "id": "combine_armor",
+      "steps": [
+        "Enable only REM_CombineArmor_Test.esp after static preflight.",
+        "Equip the exact test suit on supported male/female actors; inspect all intended body coverage.",
+        "Inspect idle/walk/run/crouch and normal weapon poses, first/third person.",
+        "Drop/pickup, transfer to NPC, save/load; record seams/clipping/material defects.",
+        "Do not replace Enclave/Remnants records or outfits."
+      ],
+      "gates": [
+        {
+          "name": "Visible body/helmet",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Valid skin deformation",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Acceptable clipping",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "First/third-person presentation",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "World/drop model",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "NPC/save-load",
+          "status": "PENDING",
+          "evidence": null
+        }
+      ],
+      "overall": "PENDING"
+    },
+    {
+      "id": "skateboard_presentation",
+      "steps": [
+        "Equip the persistent skateboard from Pip-Boy; inspect held view and dropped item.",
+        "Compare canonical geometry/material identity with Opus's validated skating assembly.",
+        "Record hand grip/orientation/bind-transform results.",
+        "Under-feet/mount/trick/exit checks remain BLOCKED until Opus assets and an explicitly authorized runtime integration test exist; do not activate skate mode merely to complete this packet."
+      ],
+      "gates": [
+        {
+          "name": "Immediate held visibility",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Correct original material identity",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Drop/pickup identity",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Hand alignment",
+          "status": "PENDING",
+          "evidence": null
+        },
+        {
+          "name": "Later under-feet/mount/exit gate separately recorded",
+          "status": "PENDING",
+          "evidence": null
+        }
+      ],
+      "overall": "PENDING"
+    }
+  ]
+}
