@@ -7,8 +7,8 @@ Workflow / documentation / provenance / handoff preparation only. No Codex rever
 Using the explicit weighted rubric in `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md`:
 
 - **before:** 58/100 Opus-preparation readiness;
-- **after:** 74/100 Opus-preparation readiness;
-- **gain:** +16 percentage points.
+- **after:** 76/100 Opus-preparation readiness;
+- **gain:** +18 percentage points.
 
 This measures preparation quality, not game completion or runtime-validation completion.
 
@@ -59,7 +59,7 @@ Therefore the old feed bundle is reference/provenance input only and cannot defi
 - `context/OPEN_WORK.md`
 
 ## Current Opus package status
-- O01 Toolgun presentation: **READY WITH PREFLIGHT**.
+- O01 Toolgun presentation: **READY FOR OPUS**.
 - O08 selected visual/model packages: **PARTIAL / PACKAGE-SPECIFIC**.
 - O02 Q-menu: waits for C01.
 - O03 Toolgun behavior: waits for C01+C02.
@@ -72,7 +72,7 @@ Therefore the old feed bundle is reference/provenance input only and cannot defi
 - O09 polish/fix loop: waits for implemented candidates and Codex runtime reports.
 
 ## Remaining preparation bottleneck
-The remaining 26 readiness points are dominated by missing **Codex implementation-grade evidence**. Normal GPT must not fabricate those points from source inventories.
+The remaining 24 readiness points are dominated by missing **Codex implementation-grade evidence**. Normal GPT must not fabricate those points from source inventories.
 
 As each C01-C08 result lands, normal GPT should:
 1. ingest/review it;
@@ -92,3 +92,11 @@ Work is on:
 `prep/opus-readiness-finalization-20261007`
 
 Do not wholesale merge runtime/specialist branches. Promote coordination artifacts selectively when the long-term integration branch is chosen.
+
+
+### Additional O01/promotion completion
+- O01 Toolgun presentation source geometry/materials were re-hashed on the current machine and match recorded provenance.
+- Final packet: `context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md`.
+- Machine-readable preflight: `build/prepared/opus_o01_toolgun_presentation_20261007.json`.
+- O01 is now READY FOR OPUS for visual/presentation work only.
+- Canonical coordination promotion is preplanned in `context/CANONICAL_COORDINATION_PROMOTION_PLAN_2026-10-07.md`; no specialist/runtime branch was merged.
