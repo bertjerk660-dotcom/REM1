@@ -1,0 +1,61 @@
+{
+  "schema": "rem.opus_launch_preflight_baseline.v1",
+  "date": "2026-10-07",
+  "repository": "bertjerk660-dotcom/REM1",
+  "preparation_branch": "prep/opus-ready-20261007",
+  "branch_compare_to_main": {
+    "status": "ahead",
+    "ahead_by": 145,
+    "behind_by": 0
+  },
+  "preparation_readiness_percent": 81,
+  "first_implementation_package": {
+    "id": "O00",
+    "status": "READY_FOR_OPUS",
+    "packet": "context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md",
+    "candidate_seed": "build/templates/OPUS_O00_CANDIDATE_MANIFEST_SEED.json",
+    "post_implementation_codex_validation": "context/HANDOFFS/CODEX_O00_GOLDEN_BENCH_RUNTIME_VALIDATION_2026-10-07.md"
+  },
+  "post_o00_visual_packages": {
+    "O01": "READY_AFTER_O00_PASS",
+    "O08a": "READY_AFTER_O00_PASS",
+    "O08b": "READY_AFTER_O00_PASS",
+    "O08c": "READY_AFTER_O00_PASS"
+  },
+  "validation_baseline": {
+    "visual_source_validation": {
+      "pass": true,
+      "file_count": 87,
+      "error_count": 0,
+      "report": "build/validation/opus_visual_source_validation_20261007.json"
+    },
+    "candidate_manifest_preflight": {
+      "pass": true,
+      "packages": [
+        "O00",
+        "O01",
+        "O08a",
+        "O08b",
+        "O08c"
+      ],
+      "error_count": 0,
+      "report": "build/validation/opus_candidate_preflight_baseline_20261007.json"
+    },
+    "semantic_gate_state": {
+      "pass": true,
+      "computed_readiness": 81,
+      "error_count": 0,
+      "validator": "research/validate_opus_gate_state.py"
+    }
+  },
+  "candidate_manifest_validator": "research/validate_opus_candidate_manifest.py",
+  "freeze_rule": "No Opus candidate may be handed to Codex until candidate manifest freeze validation passes.",
+  "next_codex_request": {
+    "gate": "C04",
+    "packet": "context/HANDOFFS/NEXT_CODEX_REQUEST_THUG2_C04_2026-10-07.md",
+    "role_boundary": "Codex investigation/evidence only; Claude Opus owns implementation."
+  },
+  "existing_parallel_codex_track": "context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md",
+  "remaining_readiness_points": 19,
+  "runtime_candidates_quarantined": true
+}
