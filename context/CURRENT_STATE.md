@@ -111,3 +111,18 @@ GitHub comparison after coordination/transplant:
 This replaces the conflicted/diverged finalization branch as the preferred preparation branch for future Codex closure work and Claude Opus launch.
 
 Preparation readiness on this branch is **81/100**. All remaining 19 points are explicitly assigned to C01-C08 evidence gates in `context/OPUS_READINESS_81_TO_100_PLAN_2026-10-07.md`.
+
+
+## 2026-10-07 clean Opus-ready branch finalized
+The current preparation branch is `prep/opus-ready-20261007`, created from canonical main after the authenticated GMod evidence merge.
+
+Latest GitHub reconciliation:
+- compared against current `main`;
+- branch status: ahead;
+- behind main: **0**;
+- older `prep/opus-readiness-finalization-20261007` remains diverged and is historical only;
+- no runtime candidate branch was promoted.
+
+Preparation baseline is therefore **81/100**.
+
+The remaining 19 preparation points are exclusively C01-C08 Codex evidence gates. Normal GPT must not manufacture those points, and Claude Opus must not be asked to rediscover them during implementation.
