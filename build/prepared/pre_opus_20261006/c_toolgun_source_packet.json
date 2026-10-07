@@ -1,0 +1,810 @@
+{
+  "id": "c_toolgun",
+  "model": "models/weapons/c_toolgun.mdl",
+  "source_package": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun",
+  "model_components": [
+    {
+      "relative": "models/weapons/c_toolgun.mdl",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/c_toolgun.mdl",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_toolgun.mdl",
+      "bytes": 64112,
+      "sha256": "992ED7A5ED4996B89C59FF656D93981FBA53B06B2E7A478EA52E0D7309E8CC79",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "992ED7A5ED4996B89C59FF656D93981FBA53B06B2E7A478EA52E0D7309E8CC79"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\src\\models\\weapons\\c_toolgun.mdl",
+        "exists": true,
+        "bytes": 64112,
+        "sha256": "992ED7A5ED4996B89C59FF656D93981FBA53B06B2E7A478EA52E0D7309E8CC79"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/weapons/c_toolgun.vvd",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/c_toolgun.vvd",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_toolgun.vvd",
+      "bytes": 318336,
+      "sha256": "D3F469510B6C5B0F1979254B477BA66F228EEA01240FE97DB22AB97D57429580",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "D3F469510B6C5B0F1979254B477BA66F228EEA01240FE97DB22AB97D57429580"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\src\\models\\weapons\\c_toolgun.vvd",
+        "exists": true,
+        "bytes": 318336,
+        "sha256": "D3F469510B6C5B0F1979254B477BA66F228EEA01240FE97DB22AB97D57429580"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/weapons/c_toolgun.dx90.vtx",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/c_toolgun.dx90.vtx",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_toolgun.dx90.vtx",
+      "bytes": 74933,
+      "sha256": "9A814D307A9874BBD3B3CF92BEC93069780898203783F80ABD20DEAFA9FAB6DA",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "9A814D307A9874BBD3B3CF92BEC93069780898203783F80ABD20DEAFA9FAB6DA"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\src\\models\\weapons\\c_toolgun.dx90.vtx",
+        "exists": true,
+        "bytes": 74933,
+        "sha256": "9A814D307A9874BBD3B3CF92BEC93069780898203783F80ABD20DEAFA9FAB6DA"
+      },
+      "required": true
+    },
+    {
+      "relative": "models/weapons/c_toolgun.phy",
+      "resolved": false,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\src\\models\\weapons\\c_toolgun.phy",
+        "exists": false,
+        "bytes": null,
+        "sha256": null
+      },
+      "required": false
+    },
+    {
+      "relative": "models/weapons/c_toolgun.dx80.vtx",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "models/weapons/c_toolgun.dx80.vtx",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\models\\weapons\\c_toolgun.dx80.vtx",
+      "bytes": 74933,
+      "sha256": "5C95E44B3193D8C13E8B5A62561C2FBCBFDEE5E1444539E9599800501720AF7A",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "5C95E44B3193D8C13E8B5A62561C2FBCBFDEE5E1444539E9599800501720AF7A"
+        }
+      ],
+      "staged_match": true,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\src\\models\\weapons\\c_toolgun.dx80.vtx",
+        "exists": true,
+        "bytes": 74933,
+        "sha256": "5C95E44B3193D8C13E8B5A62561C2FBCBFDEE5E1444539E9599800501720AF7A"
+      },
+      "required": false
+    },
+    {
+      "relative": "models/weapons/c_toolgun.sw.vtx",
+      "resolved": false,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\src\\models\\weapons\\c_toolgun.sw.vtx",
+        "exists": false,
+        "bytes": null,
+        "sha256": null
+      },
+      "required": false
+    },
+    {
+      "relative": "models/weapons/c_toolgun.ani",
+      "resolved": false,
+      "existing_staged": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\src\\models\\weapons\\c_toolgun.ani",
+        "exists": false,
+        "bytes": null,
+        "sha256": null
+      },
+      "required": false
+    }
+  ],
+  "materials": [
+    {
+      "relative": "materials/models/weapons/v_toolgun/screen.vmt",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_toolgun/screen.vmt",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\screen.vmt",
+      "bytes": 89,
+      "sha256": "CCED67B3CB3B2C569E06B3E647007F3D9B97BD8F1B5A56FD23303621F080B524",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "CCED67B3CB3B2C569E06B3E647007F3D9B97BD8F1B5A56FD23303621F080B524"
+        }
+      ],
+      "staged_match": null,
+      "references": [
+        {
+          "key": "$basetexture",
+          "relative": "materials/models/weapons/v_toolgun/screen_bg.vtf"
+        }
+      ]
+    },
+    {
+      "relative": "materials/models/weapons/v_toolgun/toolgun.vmt",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_toolgun/toolgun.vmt",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun.vmt",
+      "bytes": 338,
+      "sha256": "42B467C7C4780CA0C0644A13ABD460103B54A42FB5ADF483571C345A918C6D51",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "42B467C7C4780CA0C0644A13ABD460103B54A42FB5ADF483571C345A918C6D51"
+        }
+      ],
+      "staged_match": null,
+      "references": [
+        {
+          "key": "$basetexture",
+          "relative": "materials/models/weapons/v_toolgun/toolgun.vtf"
+        },
+        {
+          "key": "$envmap",
+          "value": "env_cubemap",
+          "kind": "engine-generated resource; Opus shader adaptation required"
+        },
+        {
+          "key": "$envmapmask",
+          "relative": "materials/models/weapons/v_toolgun/toolgun_mask.vtf"
+        },
+        {
+          "key": "$phongexponenttexture",
+          "relative": "materials/models/weapons/v_toolgun/toolgun_exp.vtf"
+        }
+      ]
+    },
+    {
+      "relative": "materials/models/weapons/v_toolgun/toolgun2.vmt",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_toolgun/toolgun2.vmt",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun2.vmt",
+      "bytes": 336,
+      "sha256": "DC5CAF8D985C6838E789C7367CD52C10F7ECFD81B5F5CC135B5E6373589D4B9D",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "DC5CAF8D985C6838E789C7367CD52C10F7ECFD81B5F5CC135B5E6373589D4B9D"
+        }
+      ],
+      "staged_match": null,
+      "references": [
+        {
+          "key": "$basetexture",
+          "relative": "materials/models/weapons/v_toolgun/toolgun2.vtf"
+        },
+        {
+          "key": "$envmapmask",
+          "relative": "materials/models/weapons/v_toolgun/toolgun2_mask.vtf"
+        },
+        {
+          "key": "$envmap",
+          "value": "env_cubemap",
+          "kind": "engine-generated resource; Opus shader adaptation required"
+        }
+      ]
+    },
+    {
+      "relative": "materials/models/weapons/v_toolgun/toolgun3.vmt",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_toolgun/toolgun3.vmt",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun3.vmt",
+      "bytes": 378,
+      "sha256": "BA5BE27F9B638A00A02B760A2515C443665C1E85390ADF468EA19C30E503EEF4",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "BA5BE27F9B638A00A02B760A2515C443665C1E85390ADF468EA19C30E503EEF4"
+        }
+      ],
+      "staged_match": null,
+      "references": [
+        {
+          "key": "$basetexture",
+          "relative": "materials/models/weapons/v_toolgun/toolgun3.vtf"
+        },
+        {
+          "key": "$envmapmask",
+          "relative": "materials/models/weapons/v_toolgun/toolgun3_mask.vtf"
+        },
+        {
+          "key": "$envmap",
+          "value": "env_cubemap",
+          "kind": "engine-generated resource; Opus shader adaptation required"
+        },
+        {
+          "key": "$phongexponenttexture",
+          "relative": "materials/models/weapons/v_toolgun/toolgun3_exp.vtf"
+        }
+      ]
+    },
+    {
+      "relative": "materials/models/weapons/v_toolgun/screen_bg.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_toolgun/screen_bg.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\screen_bg.vtf",
+      "bytes": 43912,
+      "sha256": "6D106B4B9122199B217788A2567A49E29F3B45DEEF5F22EE237578E899346590",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "6D106B4B9122199B217788A2567A49E29F3B45DEEF5F22EE237578E899346590"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/weapons/v_toolgun/toolgun.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_toolgun/toolgun.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun.vtf",
+      "bytes": 699256,
+      "sha256": "A485F39B2F6D413A432F92180F14E7F1ED3A28A0D42C3A1FEA387000056D2270",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "A485F39B2F6D413A432F92180F14E7F1ED3A28A0D42C3A1FEA387000056D2270"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/weapons/v_toolgun/toolgun_mask.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_toolgun/toolgun_mask.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun_mask.vtf",
+      "bytes": 699144,
+      "sha256": "DD465F46D3F8D9775ABD19A00998F9A4FA2D79ADA88EB16B0FFB1D3CEB24DB97",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "DD465F46D3F8D9775ABD19A00998F9A4FA2D79ADA88EB16B0FFB1D3CEB24DB97"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/weapons/v_toolgun/toolgun_exp.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_toolgun/toolgun_exp.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun_exp.vtf",
+      "bytes": 43784,
+      "sha256": "F34D0F7A842D4AAA3A40AD3E1C74C7F37B0AFC2F8CFBFDDEBC786DB7ECDC68DD",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "F34D0F7A842D4AAA3A40AD3E1C74C7F37B0AFC2F8CFBFDDEBC786DB7ECDC68DD"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/weapons/v_toolgun/toolgun2.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_toolgun/toolgun2.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun2.vtf",
+      "bytes": 349760,
+      "sha256": "897B1D2FFF6BF58D8FC759852D673327B7A303FCD2E73F7B0F58754069651312",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "897B1D2FFF6BF58D8FC759852D673327B7A303FCD2E73F7B0F58754069651312"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/weapons/v_toolgun/toolgun2_mask.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_toolgun/toolgun2_mask.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun2_mask.vtf",
+      "bytes": 174856,
+      "sha256": "6F9FFFD6A1117A54C4E83D40E98185C6BD45F4790CE470DBBE705274B68FF0E6",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "6F9FFFD6A1117A54C4E83D40E98185C6BD45F4790CE470DBBE705274B68FF0E6"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/weapons/v_toolgun/toolgun3.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_toolgun/toolgun3.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun3.vtf",
+      "bytes": 349760,
+      "sha256": "55F393A55C9060519FDBB521700BF94A50E152BC7469C235EA54B10A70FFDFBC",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "55F393A55C9060519FDBB521700BF94A50E152BC7469C235EA54B10A70FFDFBC"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/weapons/v_toolgun/toolgun3_mask.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_toolgun/toolgun3_mask.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun3_mask.vtf",
+      "bytes": 43912,
+      "sha256": "B2F6720F3CD1060429D34670309BE5BAF501098B498E008F1431EE713E575B8D",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "B2F6720F3CD1060429D34670309BE5BAF501098B498E008F1431EE713E575B8D"
+        }
+      ],
+      "staged_match": null
+    },
+    {
+      "relative": "materials/models/weapons/v_toolgun/toolgun3_exp.vtf",
+      "resolved": true,
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+      "entry": "materials/models/weapons/v_toolgun/toolgun3_exp.vtf",
+      "local_source": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\pre_opus_20261006\\source_payload\\weapons\\materials\\models\\weapons\\v_toolgun\\toolgun3_exp.vtf",
+      "bytes": 43912,
+      "sha256": "DD32CBA99992442A6CDEF00768827E0BA0163566F5FFCF712B2122FBE612F6DA",
+      "other_archive_hashes": [
+        {
+          "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod\\garrysmod\\garrysmod_dir.vpk",
+          "sha256": "DD32CBA99992442A6CDEF00768827E0BA0163566F5FFCF712B2122FBE612F6DA"
+        }
+      ],
+      "staged_match": null
+    }
+  ],
+  "qc": [
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun.qc",
+        "exists": true,
+        "bytes": 12780,
+        "sha256": "C6259150D8048F0379B6298A627E2CB7A7D392071992280CBF80AECE50022AD6"
+      },
+      "bbox": [
+        "-7.018 -1.921 -1.938 11.693 8.02 13.081"
+      ],
+      "surfaceprop": [
+        "default"
+      ],
+      "mass": [],
+      "concave": false,
+      "collision_smd": [],
+      "sequence_names": [
+        "fire02_layer",
+        "idle01",
+        "fire01_layer",
+        "fire01",
+        "draw",
+        "reload",
+        "holster",
+        "idletolow",
+        "lowtoidle",
+        "lowidle",
+        "adjustment_dod"
+      ],
+      "attachment_names": [
+        "muzzle"
+      ],
+      "bone_names": [
+        "ValveBiped.Bip01_Spine4",
+        "ValveBiped.Bip01_L_Clavicle",
+        "ValveBiped.Bip01_L_UpperArm",
+        "ValveBiped.Bip01_L_Forearm",
+        "ValveBiped.Bip01_L_Hand",
+        "ValveBiped.Bip01_L_Finger4",
+        "ValveBiped.Bip01_L_Finger41",
+        "ValveBiped.Bip01_L_Finger42",
+        "ValveBiped.Bip01_L_Finger3",
+        "ValveBiped.Bip01_L_Finger31",
+        "ValveBiped.Bip01_L_Finger32",
+        "ValveBiped.Bip01_L_Finger2",
+        "ValveBiped.Bip01_L_Finger21",
+        "ValveBiped.Bip01_L_Finger22",
+        "ValveBiped.Bip01_L_Finger1",
+        "ValveBiped.Bip01_L_Finger11",
+        "ValveBiped.Bip01_L_Finger12",
+        "ValveBiped.Bip01_L_Finger0",
+        "ValveBiped.Bip01_L_Finger01",
+        "ValveBiped.Bip01_L_Finger02",
+        "ValveBiped.Bip01_R_Clavicle",
+        "ValveBiped.Bip01_R_UpperArm",
+        "ValveBiped.Bip01_R_Forearm",
+        "ValveBiped.Bip01_R_Hand",
+        "ValveBiped.Bip01_R_Finger4",
+        "ValveBiped.Bip01_R_Finger41",
+        "ValveBiped.Bip01_R_Finger42",
+        "ValveBiped.Bip01_R_Finger3",
+        "ValveBiped.Bip01_R_Finger31",
+        "ValveBiped.Bip01_R_Finger32",
+        "ValveBiped.Bip01_R_Finger2",
+        "ValveBiped.Bip01_R_Finger21",
+        "ValveBiped.Bip01_R_Finger22",
+        "ValveBiped.Bip01_R_Finger1",
+        "ValveBiped.Bip01_R_Finger11",
+        "ValveBiped.Bip01_R_Finger12",
+        "ValveBiped.Bip01_R_Finger0",
+        "ValveBiped.Bip01_R_Finger01",
+        "ValveBiped.Bip01_R_Finger02",
+        "Base",
+        "Arm",
+        "Hand",
+        "spinner"
+      ],
+      "included_models": [],
+      "max_convex_pieces": []
+    }
+  ],
+  "geometry": [
+    {
+      "file": {
+        "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\toolgun_ref.smd",
+        "exists": true,
+        "bytes": 1499143,
+        "sha256": "6ECC49B65BB19AB8B4831D3CB318DB353D65C07F1B40BB004E73FC22A8401B98"
+      },
+      "triangles": 4970,
+      "materials": [
+        "screen",
+        "toolgun",
+        "toolgun2",
+        "toolgun3"
+      ],
+      "bounds_min": [
+        -6.0316,
+        -33.921101,
+        57.460499
+      ],
+      "bounds_max": [
+        -2.0364,
+        -20.587299,
+        66.326897
+      ],
+      "dimensions": [
+        3.9952,
+        13.333801999999999,
+        8.866398000000004
+      ],
+      "units": "source SMD coordinates; FNV scale not approved"
+    }
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun.qc",
+      "exists": true,
+      "bytes": 12780,
+      "sha256": "C6259150D8048F0379B6298A627E2CB7A7D392071992280CBF80AECE50022AD6",
+      "relative": "decompiled/c_toolgun.qc",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\a_adjustment_dod.smd",
+      "exists": true,
+      "bytes": 6957,
+      "sha256": "31857449AC220AFA90EE08D96A4E04620DA4E3394523C64FCD8618A5D24FEB47",
+      "relative": "decompiled/c_toolgun_anims/a_adjustment_dod.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\a_adjustment_dod_corrective_animation.smd",
+      "exists": true,
+      "bytes": 1740,
+      "sha256": "A575329953BAA58B0344DB0C5E74D9FD43A98189ABB879BEE29D0F38AFA78E7C",
+      "relative": "decompiled/c_toolgun_anims/a_adjustment_dod_corrective_animation.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\a_adjustment_dod_neutral.smd",
+      "exists": true,
+      "bytes": 325490,
+      "sha256": "171B9763837B50AC8507937C90425A005AFC5232E82452B246FCF3442A03ADF9",
+      "relative": "decompiled/c_toolgun_anims/a_adjustment_dod_neutral.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\a_adjustment_dod_neutral_corrective_animation.smd",
+      "exists": true,
+      "bytes": 1740,
+      "sha256": "A575329953BAA58B0344DB0C5E74D9FD43A98189ABB879BEE29D0F38AFA78E7C",
+      "relative": "decompiled/c_toolgun_anims/a_adjustment_dod_neutral_corrective_animation.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\a_adjustment_dod_ref.smd",
+      "exists": true,
+      "bytes": 336479,
+      "sha256": "59471B847B0A93ED2543A0045C3A96D5611772BAEEF4076CF823A53D929C36EA",
+      "relative": "decompiled/c_toolgun_anims/a_adjustment_dod_ref.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\a_fire01.smd",
+      "exists": true,
+      "bytes": 84883,
+      "sha256": "A2A2B5B750F110BD2EBBA8BB6EC8CC0C062C49FB7E13791B9C1D089A53ED5774",
+      "relative": "decompiled/c_toolgun_anims/a_fire01.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\a_fire01_corrective_animation.smd",
+      "exists": true,
+      "bytes": 1740,
+      "sha256": "A575329953BAA58B0344DB0C5E74D9FD43A98189ABB879BEE29D0F38AFA78E7C",
+      "relative": "decompiled/c_toolgun_anims/a_fire01_corrective_animation.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\a_fire02.smd",
+      "exists": true,
+      "bytes": 84645,
+      "sha256": "BB2F1A0830E87FEB60F163499B2CEA4D47C3F28BACA1F59AA14E249C4097C967",
+      "relative": "decompiled/c_toolgun_anims/a_fire02.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\a_fire02_corrective_animation.smd",
+      "exists": true,
+      "bytes": 1740,
+      "sha256": "A575329953BAA58B0344DB0C5E74D9FD43A98189ABB879BEE29D0F38AFA78E7C",
+      "relative": "decompiled/c_toolgun_anims/a_fire02_corrective_animation.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\draw.smd",
+      "exists": true,
+      "bytes": 87389,
+      "sha256": "F45CD19B244E88250FD47DC01EE48733B886757DB5BA92A66BBB4FFFB09A57F0",
+      "relative": "decompiled/c_toolgun_anims/draw.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\fire01.smd",
+      "exists": true,
+      "bytes": 56935,
+      "sha256": "181377D42818183FDF58D6CAB6759C4578D4042B4C19119F4C8A100F76A21447",
+      "relative": "decompiled/c_toolgun_anims/fire01.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\holster.smd",
+      "exists": true,
+      "bytes": 32042,
+      "sha256": "1582D8543A8299CCE61657AD49914D613CC565A294892CF6ACFB7BE6664CE48F",
+      "relative": "decompiled/c_toolgun_anims/holster.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\idle01.smd",
+      "exists": true,
+      "bytes": 336479,
+      "sha256": "59471B847B0A93ED2543A0045C3A96D5611772BAEEF4076CF823A53D929C36EA",
+      "relative": "decompiled/c_toolgun_anims/idle01.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\idletolow.smd",
+      "exists": true,
+      "bytes": 45861,
+      "sha256": "499C7997E021C8B7225E6F5274DF315630EF380A1F41D2FE4CEA9F28DBA997EF",
+      "relative": "decompiled/c_toolgun_anims/idletolow.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\lowidle.smd",
+      "exists": true,
+      "bytes": 280962,
+      "sha256": "A816882DA54E8BC14E4241F81D8F9A32535E6B2D202726CE5B9F5C5C44E9FFAA",
+      "relative": "decompiled/c_toolgun_anims/lowidle.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\lowtoidle.smd",
+      "exists": true,
+      "bytes": 45867,
+      "sha256": "5B1EB62E2779BC7B486C878496FC843403653B9DD3AF0AD98AEF2EE407D5C4E3",
+      "relative": "decompiled/c_toolgun_anims/lowtoidle.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\c_toolgun_anims\\reload.smd",
+      "exists": true,
+      "bytes": 308958,
+      "sha256": "2622215B7CC5E19480351D3E06B7C8FE71845F3AB01497FDDDD3B63593A8B506",
+      "relative": "decompiled/c_toolgun_anims/reload.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\decompiled\\toolgun_ref.smd",
+      "exists": true,
+      "bytes": 1499143,
+      "sha256": "6ECC49B65BB19AB8B4831D3CB318DB353D65C07F1B40BB004E73FC22A8401B98",
+      "relative": "decompiled/toolgun_ref.smd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\materials\\_tga\\screen_bg.tga",
+      "exists": true,
+      "bytes": 197159,
+      "sha256": "76E9AAD52DB3C9717112420B4F22FB11A100F4E47D97EA392AE1BE680AF803EE",
+      "relative": "materials/_tga/screen_bg.tga",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\materials\\_tga\\toolgun.tga",
+      "exists": true,
+      "bytes": 3146279,
+      "sha256": "705012B5C4C0AFC85848967B80B1D46D3CF449EA2A9A3A3526595FBD0E4FD5CA",
+      "relative": "materials/_tga/toolgun.tga",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\materials\\_tga\\toolgun2.tga",
+      "exists": true,
+      "bytes": 1049127,
+      "sha256": "B9CA5D64A46518F9BAB7721B8555982F2AB0355717A8CAFAF53E148178894B44",
+      "relative": "materials/_tga/toolgun2.tga",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\materials\\_tga\\toolgun3.tga",
+      "exists": true,
+      "bytes": 1049127,
+      "sha256": "807CC05DB21FCD5AADE5FF30F7D966026442E0392A3D51271097260CE38C8A09",
+      "relative": "materials/_tga/toolgun3.tga",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\materials\\materials\\models\\weapons\\v_toolgun\\screen.vmt",
+      "exists": true,
+      "bytes": 89,
+      "sha256": "CCED67B3CB3B2C569E06B3E647007F3D9B97BD8F1B5A56FD23303621F080B524",
+      "relative": "materials/materials/models/weapons/v_toolgun/screen.vmt",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\materials\\materials\\models\\weapons\\v_toolgun\\screen_bg.vtf",
+      "exists": true,
+      "bytes": 43912,
+      "sha256": "6D106B4B9122199B217788A2567A49E29F3B45DEEF5F22EE237578E899346590",
+      "relative": "materials/materials/models/weapons/v_toolgun/screen_bg.vtf",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\materials\\materials\\models\\weapons\\v_toolgun\\toolgun.vmt",
+      "exists": true,
+      "bytes": 338,
+      "sha256": "42B467C7C4780CA0C0644A13ABD460103B54A42FB5ADF483571C345A918C6D51",
+      "relative": "materials/materials/models/weapons/v_toolgun/toolgun.vmt",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\materials\\materials\\models\\weapons\\v_toolgun\\toolgun.vtf",
+      "exists": true,
+      "bytes": 699256,
+      "sha256": "A485F39B2F6D413A432F92180F14E7F1ED3A28A0D42C3A1FEA387000056D2270",
+      "relative": "materials/materials/models/weapons/v_toolgun/toolgun.vtf",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\materials\\materials\\models\\weapons\\v_toolgun\\toolgun2.vmt",
+      "exists": true,
+      "bytes": 336,
+      "sha256": "DC5CAF8D985C6838E789C7367CD52C10F7ECFD81B5F5CC135B5E6373589D4B9D",
+      "relative": "materials/materials/models/weapons/v_toolgun/toolgun2.vmt",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\materials\\materials\\models\\weapons\\v_toolgun\\toolgun2.vtf",
+      "exists": true,
+      "bytes": 349760,
+      "sha256": "897B1D2FFF6BF58D8FC759852D673327B7A303FCD2E73F7B0F58754069651312",
+      "relative": "materials/materials/models/weapons/v_toolgun/toolgun2.vtf",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\materials\\materials\\models\\weapons\\v_toolgun\\toolgun3.vmt",
+      "exists": true,
+      "bytes": 378,
+      "sha256": "BA5BE27F9B638A00A02B760A2515C443665C1E85390ADF468EA19C30E503EEF4",
+      "relative": "materials/materials/models/weapons/v_toolgun/toolgun3.vmt",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\materials\\materials\\models\\weapons\\v_toolgun\\toolgun3.vtf",
+      "exists": true,
+      "bytes": 349760,
+      "sha256": "55F393A55C9060519FDBB521700BF94A50E152BC7469C235EA54B10A70FFDFBC",
+      "relative": "materials/materials/models/weapons/v_toolgun/toolgun3.vtf",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\src\\models\\weapons\\c_toolgun.dx80.vtx",
+      "exists": true,
+      "bytes": 74933,
+      "sha256": "5C95E44B3193D8C13E8B5A62561C2FBCBFDEE5E1444539E9599800501720AF7A",
+      "relative": "src/models/weapons/c_toolgun.dx80.vtx",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\src\\models\\weapons\\c_toolgun.dx90.vtx",
+      "exists": true,
+      "bytes": 74933,
+      "sha256": "9A814D307A9874BBD3B3CF92BEC93069780898203783F80ABD20DEAFA9FAB6DA",
+      "relative": "src/models/weapons/c_toolgun.dx90.vtx",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\src\\models\\weapons\\c_toolgun.mdl",
+      "exists": true,
+      "bytes": 64112,
+      "sha256": "992ED7A5ED4996B89C59FF656D93981FBA53B06B2E7A478EA52E0D7309E8CC79",
+      "relative": "src/models/weapons/c_toolgun.mdl",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\src\\models\\weapons\\c_toolgun.vvd",
+      "exists": true,
+      "bytes": 318336,
+      "sha256": "D3F469510B6C5B0F1979254B477BA66F228EEA01240FE97DB22AB97D57429580",
+      "relative": "src/models/weapons/c_toolgun.vvd",
+      "previous_hash_matches": true
+    },
+    {
+      "path": "C:\\Users\\BRAD\\Documents\\------\\Engineer Station\\FNV_GMOD_THUG2\\build\\prepared\\gmod_hl_weapon_models\\packages\\models__weapons__c_toolgun\\worker.json",
+      "exists": true,
+      "bytes": 1659,
+      "sha256": "E3D8E1417A0FC5F9685EF9E7B7D4C1015E6D3C860FD666A157F4CDFCAA475CB3",
+      "relative": "worker.json",
+      "previous_hash_matches": true
+    }
+  ],
+  "implementation_status": "NOT VALIDATED IN FNV",
+  "visual_owner": "Claude Opus 5.5",
+  "provenance_note": "",
+  "missing_dependencies": []
+}
