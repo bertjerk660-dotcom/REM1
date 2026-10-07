@@ -107,3 +107,7 @@ A subsystem becomes implementation-ready only after required Codex evidence is r
 23. **S23 GMod evidence intake review** — COMPLETE. Main commit `19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0` reviewed and imported into preparation branch. C01/C02 = SUBSTANTIAL PARTIAL; C03 = PARTIAL; none is falsely marked complete.
 24. **S24 GMod narrow gap-closure handoff** — COMPLETE in `context/HANDOFFS/CODEX_GMOD_GAP_CLOSURE_2026-10-07.md`; broad GMod rediscovery is explicitly forbidden.
 25. **S25 O02/O03/O04 preassembly** — COMPLETE. Packet shells exist and list only the unresolved evidence needed before READY FOR OPUS.
+
+
+26. **S26 O00 golden conversion preflight** — COMPLETE. Bench source geometry/collision/material inputs re-hashed and matched; O00 packet is READY FOR OPUS.
+27. **S27 Opus Session 1 bootstrap** — COMPLETE. Current start-here, session input manifest and machine-readable gate matrix now point to O00 first, then O01 after PASS.
