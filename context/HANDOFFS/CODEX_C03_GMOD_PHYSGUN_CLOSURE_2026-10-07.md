@@ -1,7 +1,7 @@
 # Codex C03 — Physics Gun provenance and remaining native behavior closure
 
 ## Objective
-Close the remaining Garry's Mod / Source Physics Gun evidence gaps so **Claude Opus** can implement/fix the final FNV integration and **GPT-6/Astra** can validate it at runtime.
+Close the remaining Garry's Mod / Source Physics Gun evidence gaps so **Claude Opus** can implement/fix the final FNV integration and **Codex runtime-validation pass** can validate it at runtime.
 
 Codex owns investigation only. Do not patch the live game.
 
@@ -50,4 +50,4 @@ The final report must clearly state what is:
 ## Stop condition
 Stop once Opus can implement the remaining Physgun parity work without guessing provenance or source semantics.
 
-Do not modify the FNV runtime. Astra owns subsequent live-game validation.
+Do not modify the FNV runtime. Codex owns the subsequent live-game validation pass after Opus implementation.
