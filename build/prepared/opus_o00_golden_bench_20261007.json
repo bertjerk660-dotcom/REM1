@@ -1,0 +1,29 @@
+{
+  "schema": "rem.opus_o00_golden_bench_preflight.v1",
+  "date": "2026-10-07",
+  "status": "READY_FOR_OPUS",
+  "purpose": "Isolated Source-to-FNV visual/material/collision pipeline proof before weapon conversion",
+  "model": "models/props_c17/bench01a.mdl",
+  "verified_inputs": {
+    "bench01a.mdl": "8751F7E234A4212016FF93C50C8951ECB793B628819957B06BA1831A899CE846",
+    "bench01a.vvd": "BC9AFFE6F4EFC8766FE77961C2BD41748D677432A1E141D6CA7F56AB1E048F7D",
+    "bench01a.dx90.vtx": "E651BB00300CFD6F843D8882BFC2FC43813CAAF3D2A6AC350AEBA5496AEDB097",
+    "bench01a.phy": "0EB277C8A413F1E27E97BF5D9FD872FCB2ED1981064F592645D23F9C4E17E475",
+    "bench01a.qc": "DCFE2C49C592732FB20745A2097B4B60588F6191DCAF15D96CB87055083C7B36",
+    "bench01a_reference.smd": "6E4AB2DB5E4BBFBC348F1DDC5C47519BA96D247CBC500290CA8714F3B9B719E3",
+    "bench01a_physics.smd": "1B903062D35C2B880D828CDA0BF741124BCC0D7CE30573810DCBCD77BD353340",
+    "bench01a.vmt": "086AC1E48FBD5531C162005775F84EA2958D892894C24D188951FD00345EBE57",
+    "bench01a.vtf": "8DCB834BD3D7454363D0A3DECC77EE3F2992F6A39CCD9076422E6BD40096E432",
+    "bench01a_mask.vtf": "E3B3973D40D7EA1C12286121A94BABE6B2DEF2380CE0F2B14F4A3244E233734A"
+  },
+  "known_legacy_issues": [
+    "mask texture previously omitted",
+    "Wood_Furniture previously fell back to Fallout metal Havok material",
+    "old live bench output is not accepted as golden proof"
+  ],
+  "candidate_mesh": "meshes/rem/golden_bench/bench01a.nif",
+  "candidate_plugin": "REM_GoldenBench_Test.esp",
+  "candidate_edid": "REM_GoldenBench01a",
+  "downstream_unlock": ["O01"],
+  "runtime_acceptance_required": true
+}
