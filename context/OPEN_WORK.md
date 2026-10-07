@@ -140,3 +140,16 @@ This is a requirements/backlog ledger, not proof of implementation.
 - Verified against current `main`: 0 commits behind.
 - Older `prep/opus-readiness-finalization-20261007` is historical only and should not receive new preparation work.
 - Remaining preparation gap: C01-C08 evidence only.
+
+
+## 2026-10-08 documentation/provenance closures
+
+Completed without runtime/game-file changes:
+- [x] resolve `skateheldx.nif` v82→v90 hash history;
+- [x] normalize active ownership wording;
+- [x] separate Codex pre-delivery PENDING outputs from post-delivery structural failure;
+- [x] pin exact quarantined branch heads and current main-relative status.
+
+These closures reduce handoff ambiguity but do not award C01-C08 readiness points.
+
+Remaining evidence blockers are still the actual subsystem gates, not these documentation issues.
