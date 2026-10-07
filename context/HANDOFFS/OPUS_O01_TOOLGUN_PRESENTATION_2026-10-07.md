@@ -1,8 +1,11 @@
 # O01 — Toolgun presentation implementation packet — 2026-10-07
 
-**Status: READY FOR OPUS**
+**Status: READY FOR OPUS AFTER O00 PASS**
 
 Scope: first-person / world-model / material / attachment / presentation integration for the authentic Garry's Mod Toolgun only.
+
+## Mandatory prerequisite
+O00 Golden Source Bench must pass isolated visual/material/collision acceptance first. Use `context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md`. The Toolgun source packet is complete, but weapon conversion should not proceed on an unproven Source→FNV conversion pipeline.
 
 This packet does **not** authorize final Q-menu behavior, gmod_tool/stool dispatch, Duplicator/Remover behavior, undo/cleanup logic, notification behavior or final input ownership. Those remain gated on Codex C01/C02.
 
@@ -162,6 +165,6 @@ Runtime handoff to Codex:
 
 ## Unlock state
 
-**READY FOR OPUS.**
+**READY FOR OPUS AFTER O00 PASS.**
 
 C01/C02 are not required to implement this visual-only package, but they remain mandatory before O02/O03 behavior integration.
