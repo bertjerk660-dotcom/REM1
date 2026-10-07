@@ -76,10 +76,13 @@ Legacy branches such as `runtime/astra-phase1-input92` remain historical candida
 8. **S08 stale-reference cleanup plan** — COMPLETE initial pass in `context/LEGACY_ROLE_PATH_MAP.md`.
 9. **S09 failure-history normalization** — COMPLETE initial pass in `context/FAILURE_LEDGER.md`.
 10. **S10 milestone/readiness rollup** — COMPLETE initial rollup in `context/MILESTONE_STATUS.md`; update as evidence lands.
-11. **S11 selective branch reconciliation** — IN PROGRESS. GMod Q-menu inventory and weapon-staging manifests are now indexed/corroborated; v85/v88/v92 runtime/install candidates are explicitly quarantined. Continue with remaining prop-content/support/provenance manifests.
+11. **S11 selective branch reconciliation** — SUBSTANTIAL PASS COMPLETE. Q-menu/weapon staging and phase-4 prop/catalog provenance are indexed; v85/v88/v92 candidates remain quarantined. Future reconciliation is package-triggered with fresh local hash checks rather than broad branch merging.
 12. **S12 documentation authority map** — COMPLETE in `context/DOCUMENTATION_AUTHORITY_MAP.md`; use it for future conflict resolution.
 13. **S13 runtime packet hardening** — COMPLETE initial pass; all Codex test packs now require exact candidate/save/location/inventory/hashes and evidence capture.
 14. **S14 THUG2 audio implementation packet** — COMPLETE as a gated Opus packet; remains WAITING FOR CODEX evidence.
+15. **S15 Opus readiness scorecard** — COMPLETE with explicit weighted rubric in `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md`; current preparation score after this pass is 71/100.
+16. **S16 Opus launch sequence** — COMPLETE in `context/OPUS_LAUNCH_SEQUENCE_2026-10-07.md`; distinguishes immediate O01/O08 work from Codex-gated packages.
+17. **S17 Opus evidence/package intake gate** — COMPLETE in `context/OPUS_PACKAGE_INTAKE_CHECKLIST_2026-10-07.md`; use after every Codex evidence or runtime report.
 
 ## BLOCKED
 
