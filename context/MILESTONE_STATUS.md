@@ -93,7 +93,7 @@ then cross-system stability -> regression/polish.
 A percentage is now permitted for **Opus preparation readiness** because an explicit weighted rubric exists in `context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md`.
 
 - before the current workflow-finalization pass: **58/100**;
-- after the pass: **71/100**;
-- improvement: **+13 percentage points**.
+- after the pass: **74/100**;
+- improvement: **+16 percentage points**.
 
 This is not game-completion percentage. The principal remaining readiness deficit is Codex C01-C08 implementation-grade evidence; normal GPT cannot legitimately award those missing evidence points.
