@@ -49,3 +49,6 @@ Accepted: 2026-10-07 by owner instruction, recorded by the Haiku final audit. Cl
 
 ## D-010 Documentation fixes do not change the readiness score
 Accepted: 2026-10-07 by the Haiku final audit. Readiness is scored only from reviewed evidence under context/OPUS_PREP_READINESS_SCORECARD_2026-10-07.md. Contradiction fixes and added failure-protection notes improve consistency but do not raise the score.
+
+## D-011 Reverse engineering routing
+Accepted: 2026-10-07 by owner instruction, recorded by the Haiku findings pass. Reverse engineering of THUG2 and Garry's Mod belongs to Claude Opus under D-009. GPT-5.5 coordinates it and writes the request. Haiku and GPT-5.5 do not perform reverse engineering. Codex's investigation role is pending an owner decision. See context/HANDOFFS/HAIKU_SESSION_FINDINGS_2026-10-07.md.
