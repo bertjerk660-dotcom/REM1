@@ -105,3 +105,7 @@ O01 Toolgun presentation preflight is now complete and **READY FOR OPUS**. Requi
 
 ## Authenticated GMod evidence milestone
 Main commit `19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0` added a validated GMod evidence bundle. Normal-GPT intake classifies C01/C02 as substantial partial and C03 as partial. The broad investigation is now reusable and should not be repeated; only the narrow gap-closure packet remains before O02/O03/O04 can unlock.
+
+
+## O00 golden conversion milestone
+The Source/HL2 bench source package has been freshly re-hashed on the local machine and matches recorded provenance. O00 is **READY FOR OPUS** as an isolated conversion/material/collision proof. O01 Toolgun presentation remains fully prepared but does not start until O00 passes runtime/human acceptance.
