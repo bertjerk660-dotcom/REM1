@@ -55,3 +55,9 @@ If you want Opus to work on skate tomorrow anyway, that is the project owner's d
 - Codex: investigation, reverse engineering with IDA Pro 6.8, and runtime validation.
 - Normal GPT: coordination, evidence intake, manifests and packets.
 Older references to "GPT6_OPUS" and "ASTRA" ownership are historical and not authority.
+
+## Update 2026-10-09 — decisions and build check
+
+- **O00 is the first Opus package.** Owner decision, confirmed 2026-10-09. Skate packages (O05 to O07b) stay gated until Codex evidence C04 to C08 is complete.
+- **Build check:** deployed DLL not reproduced byte-for-byte; feature set consistent. See `07_BUILD_REPRODUCTION_CHECK.md`.
+- **Blocking gap:** the plugin source (`main.cpp` and the project) is not in GitHub on any branch. Opus cannot read the implementation from the repo until an owner decision commits project-authored source, with the `.inc` asset-policy review.
