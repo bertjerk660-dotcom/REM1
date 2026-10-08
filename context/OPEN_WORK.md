@@ -153,3 +153,12 @@ Completed without runtime/game-file changes:
 These closures reduce handoff ambiguity but do not award C01-C08 readiness points.
 
 Remaining evidence blockers are still the actual subsystem gates, not these documentation issues.
+
+
+## 2026-10-08 verified pre-Opus workflow follow-up
+
+- Preserve 81/100 readiness until C01–C08 pass reviewed evidence stop conditions. Latest normal-GPT audit: `context/HANDOFFS/NORMAL_GPT_PRE_OPUS_LIVE_AUDIT_2026-10-08.md`.
+- At the user's next scheduled Codex slot, submit the prepared **narrow C01–C03 GMod closure** request; it has not yet been submitted. Include real Q/Toolgun/Physgun native gaps, original popup/prop-spawn and player-model changer dependencies, but do not redo completed inventory. C04 remains the next new THUG2 investigation after that track.
+- For tomorrow's **O00 Golden Bench** implementation: select/freeze source parent/commit; refresh current protected hashes; explicitly isolate or account for the two locally enabled support/test ESPs; select a known-good test save/location and rollback; retain all gated Opus packages blocked until their prerequisites pass.
+- Before relying on the historical local `research/check_opus_launch_state.ps1`, reconcile its obsolete hard-coded source/DLL expectations with the current installed runtime snapshot. Do not silently change the current plugin list.
+- Once Codex actually delivers a package, use v2 baseline/delivery validator correctly, perform semantic intake, then update the exact readiness gate and Opus packet. Normal GPT must not assert 90/100 merely because a prompt was written.
