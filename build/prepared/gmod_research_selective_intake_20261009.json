@@ -1,0 +1,41 @@
+{
+  "schema": "rem.gmod_research_selective_intake.v1",
+  "date": "2026-10-09",
+  "repo": "bertjerk660-dotcom/REM1",
+  "branch": "prep/gmod-research-intake-20261009",
+  "source_branch": "research/gmod-ui-physgun-20261008",
+  "source_branch_verified_head_prior": "49fb2ca66f22215b12f92ead7e42f066eb5bced8",
+  "base_branch": "prep/normal-gpt-preopus-local-audit-20261008",
+  "source_branch_relation_at_intake": {
+    "ahead": 3,
+    "behind": 22,
+    "status": "diverged"
+  },
+  "files": [
+    {
+      "path": "context/HANDOFFS/GMOD_UI_PHYSGUN_SPECIALIST_CONTRACT_2026-10-08.md",
+      "source_git_blob_sha": "0fa78a83c35c0ff8d0f43d4ef37bdc6948b9895b"
+    },
+    {
+      "path": "context/GMOD_2026-10-08_RESEARCH_INDEX.md",
+      "source_git_blob_sha": "45e7d79106b5cf0a31ce4a5d217bab66d11a350f"
+    },
+    {
+      "path": "manifests/gmod_2026-10-08_research_status.json",
+      "source_git_blob_sha": "f1b498643f7ca8bf68b8787427f9a1c2743407fe"
+    }
+  ],
+  "intake_method": "copied source docs only via GitHub API; no wholesale branch merge or game implementation",
+  "gate_outcome": {
+    "C01": "PARTIAL",
+    "C02": "PARTIAL",
+    "C03": "PARTIAL",
+    "points_earned": 0,
+    "preparation_readiness": 81
+  },
+  "evidence_type": "source-inspected-Lua plus previously proven native research summarized; no new IDA execution or runtime test in imported research",
+  "unvalidated_runtime_candidate_promoted": false,
+  "proprietary_game_files_imported": false,
+  "opus_unlocked_by_this_import": [],
+  "next_codex_packet": "context/HANDOFFS/NEXT_CODEX_GMOD_C01_C03_KICKOFF_2026-10-09.md"
+}
