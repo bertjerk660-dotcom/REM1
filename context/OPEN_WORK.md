@@ -162,3 +162,9 @@ Remaining evidence blockers are still the actual subsystem gates, not these docu
 - For tomorrow's **O00 Golden Bench** implementation: select/freeze source parent/commit; refresh current protected hashes; explicitly isolate or account for the two locally enabled support/test ESPs; select a known-good test save/location and rollback; retain all gated Opus packages blocked until their prerequisites pass.
 - Before relying on the historical local `research/check_opus_launch_state.ps1`, reconcile its obsolete hard-coded source/DLL expectations with the current installed runtime snapshot. Do not silently change the current plugin list.
 - Once Codex actually delivers a package, use v2 baseline/delivery validator correctly, perform semantic intake, then update the exact readiness gate and Opus packet. Normal GPT must not assert 90/100 merely because a prompt was written.
+
+## 2026-10-09 intake handoff
+
+- The October 8 UI/Physgun specialist research is now selectively available on `prep/gmod-research-intake-20261009`; see `context/GMOD_2026-10-08_RESEARCH_INDEX.md` and the research-status manifest. Do not repeat already-inspected `GM:PhysgunPickup`, `GM:CanTool`, `GM:OnUndo`, `GM:DrawPhysgunBeam`, spawnmenu.ActivateTool, or Lua notification dispatch; trace the **remaining native** gaps with IDA Pro 6.8.
+- Dispatch/reconcile `context/HANDOFFS/NEXT_CODEX_GMOD_C01_C03_KICKOFF_2026-10-09.md` against any new Codex evidence before starting work; it is still a queued instruction, not a delivered investigation. Include original player-model selection and native popup/prop spawning contracts, but do not award points outside the C01–C03 fixed rubric.
+- After source/IDA evidence is returned, use the reviewed Codex C01/C02/C03 gates to finalize O02/O03/O04 and to move preparation from 81 toward 90/100; do not claim any extra 9 points until validated. C04–C08 remain the route to 100/100.
