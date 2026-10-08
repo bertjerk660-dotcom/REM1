@@ -1,0 +1,89 @@
+{
+  "schema": "rem.normal_gpt_pre_opus_live_audit.v1",
+  "date": "2026-10-08",
+  "repository": "bertjerk660-dotcom/REM1",
+  "parent_branch": "prep/gpt55-coordination-20261008",
+  "branch": "prep/normal-gpt-preopus-local-audit-20261008",
+  "preparation_readiness": 81,
+  "readiness_goal": 100,
+  "progress_units": "preparation_evidence_not_game_completion",
+  "git_ref_status_at_check": {
+    "base": "main",
+    "head": "prep/gpt55-coordination-20261008",
+    "ahead": 170,
+    "behind": 0
+  },
+  "local_checks": {
+    "visual_sources": {
+      "pass": true,
+      "files": 87,
+      "errors": 0,
+      "packages": [
+        "O00",
+        "O01",
+        "O08a",
+        "O08b",
+        "O08c"
+      ]
+    },
+    "gate_state": {
+      "pass": true,
+      "computed_readiness": 81,
+      "errors": 0
+    },
+    "candidate_seed_preflights": {
+      "pass": true,
+      "packages": [
+        "O00",
+        "O01",
+        "O08a",
+        "O08b",
+        "O08c"
+      ],
+      "error_count_each": 0
+    },
+    "codex_outputs_baseline": {
+      "mode": "baseline",
+      "consistent": true,
+      "pending": 46,
+      "invalid_json": 0,
+      "semantic_review_required": true
+    },
+    "runtime_files_match_recorded_snapshot": true,
+    "gameplay_test_performed": false
+  },
+  "local_workflow_sync": {
+    "from_branch": "prep/gpt55-coordination-20261008",
+    "files": [
+      "research/validate_codex_readiness_outputs.py",
+      "build/prepared/codex_c01_c08_output_contract_20261007.json"
+    ],
+    "old_copy_directory": "build/workflow/backups_20261008",
+    "result": "synced and baseline validator CONSISTENT"
+  },
+  "protected_sha256": {
+    "Data/NVSE/Plugins/FNVGModTHUG2.dll": "D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206",
+    "Data/REM_GModTHUG2.esp": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+    "third_party/NVSE-6.4.9/fnv_gmod_thug2_plugin/main.cpp": "4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE",
+    "Data/meshes/rem/thug2/skateheldx.nif": "1FB3CE190CC0E32D2F06EEC144605CE3E2EB84BE4E3A90A33B227B9639C6D852"
+  },
+  "enabled_plugins": [
+    "FalloutNV.esm",
+    "REM_GModTHUG2.esp",
+    "REM_CombineArmor_Test_TorsoLowered.esp",
+    "REM_Goodsprings_CombineDeathclawEncounter.esp"
+  ],
+  "unresolved_pre_opus_decisions": [
+    "isolate or include two enabled support/test ESPs before O00",
+    "do not use historical check_opus_launch_state.ps1 fixed expected hashes without rebaseline",
+    "freeze candidate parent source+artifact hashes immediately before implementation"
+  ],
+  "codex_request_status": "draft_only_not_submitted",
+  "codex_evidence_gates_completed": [],
+  "opus_first_package": "O00",
+  "notes": [
+    "No gameplay or implementation mutation in this pass",
+    "No candidate promoted",
+    "One intentional invalid test invocation of package-prepared JSON corrected to five actual candidate seed JSONs"
+  ]
+}
