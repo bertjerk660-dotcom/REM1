@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-08",
+  "kind": "research_only",
+  "parent_branch": "prep/opus-ready-20261007",
+  "branch": "research/gmod-ui-physgun-20261008",
+  "source_install": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\GarrysMod",
+  "directly_read": [
+    "garrysmod/gamemodes/sandbox/gamemode/shared.lua",
+    "garrysmod/gamemodes/sandbox/gamemode/init.lua",
+    "garrysmod/gamemodes/sandbox/gamemode/cl_init.lua",
+    "garrysmod/lua/includes/modules/spawnmenu.lua"
+  ],
+  "evidence_handoff": "context/HANDOFFS/GMOD_UI_PHYSGUN_SPECIALIST_CONTRACT_2026-10-08.md",
+  "gates": {
+    "C01": "PARTIAL",
+    "C02": "PARTIAL",
+    "C03": "PARTIAL",
+    "runtime": "NOT_TESTED"
+  },
+  "no_implementation": true,
+  "no_deployment": true,
+  "no_ida_execution": true,
+  "original_game_payload_committed": false,
+  "known_gaps": [
+    "native UI command dispatch",
+    "SpawnIcon/ModelImage cache/native rendering",
+    "spawnlist precedence and search aggregation",
+    "Toolgun effect/sound/prediction",
+    "physgun vtable/attack/acquire/controller/beam/sound closure",
+    "original first-person model provenance",
+    "Fallout actor handling and state cleanup runtime proof"
+  ]
+}
