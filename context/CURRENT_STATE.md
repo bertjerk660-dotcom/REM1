@@ -187,3 +187,12 @@ Result:
 - baseline contract = CONSISTENT.
 
 This clarification awards no readiness points by itself.
+
+
+## 2026-10-08 normal-GPT local pre-Opus audit
+
+Independent live checks on the Windows machine passed: all five O00/O01/O08a/O08b/O08c visual source sets (87 files / 0 errors), five correctly selected candidate-manifest preflight seeds (0 errors each), and the semantic package-gate validator (81/100 / 0 errors). The local Codex evidence validator/contract were safely backed up and synchronized from the newer coordination branch; baseline mode now correctly classifies 46 not-yet-produced deliverables as PENDING, with 0 invalid JSON. Protected installed DLL/ESP/main.cpp and skateboard material-repaired NIF SHA-256 hashes match their independently recorded GitHub provenance.
+
+The active plugins.txt lists `REM_CombineArmor_Test_TorsoLowered.esp` and `REM_Goodsprings_CombineDeathclawEncounter.esp` alongside the main mod; a clean O00 test must explicitly isolate or account for these test sidecars. The historical local `research/check_opus_launch_state.ps1` hard-coded source/DLL expectations are stale; do not interpret that guard's potential mismatch as a game defect. Separate Goodsprings encounter static inspection found ESP/DLL/voice files but does not establish gameplay completion.
+
+Full details and hashes: `context/HANDOFFS/NORMAL_GPT_PRE_OPUS_LIVE_AUDIT_2026-10-08.md` and `build/validation/normal_gpt_pre_opus_live_audit_20261008.json`. Readiness **remains 81/100**; no Codex gate was closed, Opus implementation was not started, and no runtime artifact or active plugin configuration was changed.
