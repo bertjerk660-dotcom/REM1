@@ -139,3 +139,9 @@ A subsystem becomes implementation-ready only after required Codex evidence is r
 41. **S41 ownership wording reconciliation** — COMPLETE. Active docs now consistently keep Codex as default investigation/runtime-validation owner and Opus as sole substantive implementation owner, with a narrow Opus investigation exception.
 42. **S42 Codex output lifecycle semantics** — COMPLETE. Baseline mode reports future outputs as PENDING; delivery mode enforces required files. 2026-10-08 baseline: 46 pending, 0 invalid JSON, CONSISTENT.
 43. **S43 quarantined branch-head index** — COMPLETE. Exact heads/relations/classifications pinned in the 2026-10-08 quarantine index.
+
+## 2026-10-09 selective GMod evidence reconciliation
+
+44. **S44 October 8 GMod specialist research intake** — COMPLETE (documentation only). Selectively copied three source-grounded research/index/manifest files from `research/gmod-ui-physgun-20261008` onto `prep/gmod-research-intake-20261009`; no branch-wide runtime merge. Reviewed base remains 81/100, C01/C02/C03 still PARTIAL. Intake: `build/prepared/gmod_research_selective_intake_20261009.json`.
+45. **S45 Codex C01–C03 focused kickoff packet** — PREPARED / **NOT EVIDENCE-COMPLETE**. Use `context/HANDOFFS/NEXT_CODEX_GMOD_C01_C03_KICKOFF_2026-10-09.md` alongside the October 7 gap packet and October 8 specialist handoff. The user-requested player-model changer, native popup flow and prop spawning are explicit research work, but do not inflate the fixed C01–C03 points.
+46. **S46 Review and finalize Opus O02/O03/O04** — WAITING FOR CODEX C01/C02/C03 native closure and normal-GPT semantic intake; do not treat copied research as new IDA proof. O00 remains independently READY FOR OPUS, subject to isolation of unrelated enabled support sidecars.
