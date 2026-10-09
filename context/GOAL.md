@@ -29,3 +29,8 @@ For skate mode specifically, success means the free-roam skating loop is functio
 For the GMod menu specifically, success means opening the Q menu should feel and behave like the real Garry's Mod spawn/tool menu operating inside Fallout, backed by the original local GMod script/UI definitions and only adapted where required by Fallout/NVSE runtime boundaries.
 
 For the Tool Gun and Physics Gun specifically, success means their behavior, controls, feedback and tool-selection flow are driven by the real GMod systems and Q-menu workflow, not by Fallout prompts or hand-authored substitutes.
+
+
+## 2026-10-09 Bevy successor goal (new edition; legacy remains intact)
+
+**The preceding document remains the product contract for the legacy Fallout/NVSE-hosted edition.** By new owner decision D-012, the future primary edition is a **standalone Bevy/Rust game** that combines Fallout-style world/gameplay with selected authentic GMod tools, prop interaction and Q menu, and full THUG2-derived free-roam skating. This is a separate executable and data/saves/build pipeline which coexists with the legacy edition while being developed. It must not require FalloutNV.exe or NVSE to run. Preserve and reapply the gameplay quality, functional acceptance and provenance constraints above, translating host-specific interfaces to the Bevy engine. Legacy may be discontinued **later**, conditional on validated parity and owner review, but is not discontinued now. Read `context/HANDOFFS/OPUS_BEVY_STANDALONE_SUCCESSOR_2026-10-09.md` on the Bevy handoff branch before new work.
