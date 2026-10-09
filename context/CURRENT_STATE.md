@@ -214,3 +214,14 @@ Implementation branch `implementation/opus-o00-golden-bench-20261009`, parent `b
 - Protected files re-hashed after deploy and unchanged: FNVGModTHUG2.dll D6C88816..., REM_GModTHUG2.esp 0A81B429..., main.cpp 4517D804..., skateheldx.nif 1FB3CE19....
 - Runtime status: **not run**. O00 is not PASS until Codex returns a PASS on O00-R1..R7. O01/O08 stay READY AFTER O00 PASS.
 - New failure knowledge: F013 (SMD frame rotation), F014 (pyffi header), F015 (legacy converter defects).
+
+## 2026-10-09 O00 runtime self-test (Opus) - PASS, not independent
+
+Codex credits ran out, so on the owner's instruction Claude Opus ran the Codex O00 test pack (R1-R7) on the live game. Result: `build/candidates/O00_20261009/o00_runtime_selftest_20261009.json`.
+
+- R1 boot/load, R2 visibility/material, R3 scale/orientation, R4 collision, R5 sidecar disable, R6 save/load, R7 baseline: all PASS.
+- Collision measured: player blocked from back (Y -2809.09) and front (Y -2742.44), blocked span 66.7 units (bench depth plus capsule, not inflated); player can stand on the bench at ~42-46 units, not on a backrest-height box.
+- Disabling the sidecar and loading a save that contains benches: clean load, benches absent, no crash.
+- Not covered: impact/footstep audio, daylight look, attack/equipment-change regression, first-person.
+- Everything restored afterwards: plugins.txt and FalloutPrefs.ini byte-identical to backups, original Save 22 untouched, protected hashes unchanged. Candidate files remain deployed, sidecar not enabled.
+- Because the implementer ran the tests, this is recorded as an Opus self-test. Whether it unlocks O01/O08 is the project owner's decision; it is not a Codex verdict.

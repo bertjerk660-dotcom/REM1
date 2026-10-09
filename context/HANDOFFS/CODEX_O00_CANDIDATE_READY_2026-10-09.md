@@ -39,3 +39,7 @@ Deployed files (new paths only; hashes in the manifest `outputs`):
 
 - Run `build/candidates/O00_20261009/ROLLBACK_O00.ps1` only if the owner asks to remove the candidate. It deletes only the five files above and the plugins.txt line.
 - Restore plugins.txt from your backup after testing unless the owner wants the sidecar left on.
+
+## Update 2026-10-09 11:35
+
+Codex credits ran out; Claude Opus ran O00-R1..R7 on the owner's instruction. All PASS as an Opus self-test (not independent): `build/candidates/O00_20261009/o00_runtime_selftest_20261009.json`. If Codex becomes available, an independent rerun is still welcome, mainly for audio and daylight appearance.

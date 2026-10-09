@@ -71,3 +71,10 @@ Rule: any project tool that writes NIFs with pyffi must set the endian flag, pin
 - writes straight into the live game `Data` folder;
 - ignores the F013 frame rotation.
 Status: superseded for golden/weapon work by `research/source_to_fnv`. The legacy tool and its 5,655 earlier outputs are unchanged; outputs from it are not golden evidence.
+
+## F016 - Automated FNV runtime testing pitfalls (O00 self-test)
+- The console key TOGGLES. Sending one console line per open/close leaves the console in an unknown state and types later commands into the game as movement/menu keys (opened the Wait menu once). Use `research/runtime_test/fnv_input.ps1`: OpenCon once, Cmd per line, CloseCon once, every call.
+- Absolute SendInput mouse clicks are ignored (DirectInput reads relative motion only). Drive menus with the console (`load <save>`, `qqq`), and turn with relative mouse moves.
+- GDI screen capture needs windowed mode; exclusive fullscreen captures black. Back up FalloutPrefs.ini, set `bFull Screen=0`, restore after.
+- Console `load` needs a save name without spaces/quotes (keyboard-layout dependent); copy the test save to a simple name such as `O00Test.fos`.
+- Long sleeps inside one remote PowerShell call stall output; keep each call short and poll for result files.

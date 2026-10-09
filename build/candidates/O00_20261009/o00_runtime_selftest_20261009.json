@@ -1,0 +1,245 @@
+{
+  "schema": "rem.o00_runtime_result.v1",
+  "package_id": "O00",
+  "date": "2026-10-09",
+  "tester": "Claude Opus (owner-directed substitute for Codex: Codex credits exhausted)",
+  "independence": "NOT INDEPENDENT. The implementer ran these tests. Owner directive 2026-10-07 allows Opus to do Codex work with evidence and review.",
+  "verdict": "PASS (Opus self-test)",
+  "candidate": {
+    "branch": "implementation/opus-o00-golden-bench-20261009",
+    "commit": "3617fcf677de362d01d3139686bf693701c64b7d",
+    "manifest": "builds/O00_golden_bench_candidate_20261009.json",
+    "nif_sha256": "227FAC30D8326B71561B2238DEFFC13B783F889FC3CA6DD09C97E23F127409A2",
+    "esp_sha256": "54248A26EA0197882C408075A6F3AE958FD33E63B727ACE72C200E15AECA4CE2"
+  },
+  "environment": {
+    "launcher": "nvse_loader.exe (xNVSE 6.4.9)",
+    "plugins_txt_during_test": [
+      "FalloutNV.esm",
+      "REM_GModTHUG2.esp",
+      "REM_GoldenBench_Test.esp"
+    ],
+    "nvse_plugins_present": [
+      "FNVGModTHUG2.dll (D6C88816...)",
+      "REMGoodspringsResponse.dll (loads regardless of plugins.txt; not changed by O00)"
+    ],
+    "display": "windowed 2560x1440 for screen capture (FalloutPrefs bFull Screen=0), restored to fullscreen afterwards",
+    "save": "disposable copy of 'Save 22   Glerb  Hidden Valley  00 34 52.fos' (original sha256 82E0A578... verified unchanged after test)",
+    "location": "Mojave Wasteland, Hidden Valley exterior, approx X -19463, Y -2791, Z 6437",
+    "spawn": "player.placeatme 02000800 1 (twice: one free placement, one measured placement facing angle 0)",
+    "input_method": "SendInput scancodes + relative mouse via research/runtime_test/fnv_input.ps1; screenshots via GDI capture"
+  },
+  "tests": {
+    "O00-R1 boot/load": {
+      "result": "PASS",
+      "evidence": [
+        "r1_01_menu.png",
+        "r1_03_after_load.png",
+        "r1_05b.png"
+      ],
+      "notes": "Main menu, console load of disposable save, normal HUD and third-person control. Project load messages present."
+    },
+    "O00-R2 visibility/material": {
+      "result": "PASS",
+      "evidence": [
+        "r3_07_front.png",
+        "r3_08_front_close.png",
+        "r7_02_after_pipboy.png"
+      ],
+      "notes": "Bench visible from several angles and distances; complete geometry (slats, backrest, splayed rear legs, turned legs); wood texture present; no missing/purple/black material; no inverted normals or z-fighting seen. Reflections faint as intended. Mostly observed at dusk/night lighting."
+    },
+    "O00-R3 scale/orientation/placement": {
+      "result": "PASS",
+      "evidence": [
+        "r3_06_coords.png",
+        "r3_07_front.png",
+        "r3_08_front_close.png"
+      ],
+      "notes": "Spawned with player facing angle 0 (north): bench upright and level, long axis east-west, backrest on the south side, front facing north = the spawn heading (no 90/180 error). Backrest top reaches about the player's hip; credible against a 1.8 m character. Sits on the ground, no visible floating/sinking on this terrain."
+    },
+    "O00-R4 collision": {
+      "result": "PASS",
+      "evidence": [
+        "r4_01_push_back.png",
+        "r4_03_front_values.png",
+        "r4_05_hop.png",
+        "r4_06b_values.png"
+      ],
+      "measurements": {
+        "push_from_back_stop_y": -2809.09,
+        "push_from_front_stop_y": -2742.44,
+        "blocked_span_y": 66.65,
+        "ground_z": "6436.9-6441.0",
+        "standing_on_bench_z": 6482.73,
+        "standing_height_above_ground": "about 42-46 units (seat/rear-support height), not ~69 (backrest-height hull)"
+      },
+      "notes": "Walking into the back (3.8 s) and front (2.2 s) never let the player through. Blocked span 66.7 units = bench depth plus player capsule on both sides, so collision is not inflated. A small hop left the player resting on the bench's rear support at mid height. A running jump cleared the bench entirely (landed at Y -2892); that is a jump over, consistent with the measured heights, not a pass-through. Wood material not audibly verified (no audio capture)."
+    },
+    "O00-R5 sidecar/world behavior": {
+      "result": "PASS",
+      "evidence": [
+        "r5_03_state.png"
+      ],
+      "notes": "Sidecar holds one STAT (static check 9). Disabled the sidecar, relaunched and loaded a save containing two placed benches: loads cleanly, benches simply absent, no crash, project scripts still run."
+    },
+    "O00-R6 save/load": {
+      "result": "PASS",
+      "evidence": [
+        "r6_02_reloaded.png"
+      ],
+      "notes": "Saved to disposable slot o00test2 with benches placed, reloaded from console: no crash, bench present in the same place."
+    },
+    "O00-R7 Fallout baseline regression": {
+      "result": "PASS",
+      "evidence": [
+        "r7_01_pipboy.png",
+        "r7_02_after_pipboy.png"
+      ],
+      "notes": "Pip-Boy open/close with inventory, movement, camera turn, console, save and reload all normal. Attack, equipment change and skate mode were not exercised."
+    }
+  },
+  "not_covered": [
+    "Audio: footstep/impact sound type (wood vs metal) not captured.",
+    "Daylight material appearance: most observations at dusk/night.",
+    "Attack and equipment-change regression; skate mode; GMod tools.",
+    "First-person view."
+  ],
+  "incidents": [
+    "Helper bug: console key toggles, so alternate console commands were typed into the game as keys. Effects: Wait menu opened once and was cancelled; brief stray movement. Disposable save only; fixed in fnv_input.ps1 (OpenCon/Cmd/CloseCon).",
+    "Absolute mouse clicks are ignored by the game's DirectInput; menus driven by console instead."
+  ],
+  "restored_after_test": {
+    "plugins_txt": "byte-identical to pre-test backup (FalloutNV.esm, REM_GModTHUG2.esp)",
+    "FalloutPrefs.ini": "byte-identical to pre-test backup (fullscreen)",
+    "test_saves": "moved out of the Saves folder into the local evidence folder",
+    "protected_hashes": "unchanged: DLL D6C88816, main ESP 0A81B429, skateheldx.nif 1FB3CE19, main.cpp 4517D804",
+    "candidate_files": "left deployed (sidecar not enabled)"
+  },
+  "screenshots_local_dir": "FNV_GMOD_THUG2/build/candidates/O00_20261009/runtime_evidence (not committed: game imagery)",
+  "screenshots": [
+    {
+      "file": "r1_01_menu.png",
+      "sha256": "7106D23071FC633A1D06867424C0E39BC4EC033FCCA66F7D936D9BEB49111514"
+    },
+    {
+      "file": "r1_02_loaded.png",
+      "sha256": "0E01E87C13CC7B08911FD26D40D828D4D1A78553E83210EC8279737239A63214"
+    },
+    {
+      "file": "r1_02_state.png",
+      "sha256": "11461E72BC6AE30294FBBD7A07E2AA968B1BA88097E86684D438D5479CE5A50B"
+    },
+    {
+      "file": "r1_03_after_load.png",
+      "sha256": "2D4829DF2503D4B53AD473DE5EDFC61E88C6F3E7293755C67E2B61BBA0306198"
+    },
+    {
+      "file": "r1_04_ingame.png",
+      "sha256": "2D4829DF2503D4B53AD473DE5EDFC61E88C6F3E7293755C67E2B61BBA0306198"
+    },
+    {
+      "file": "r1_05_console_closed.png",
+      "sha256": "E79B53BBB16D983013E13574C055BA5AF63164D3B4C66600C7FFDBDC1E5B8F51"
+    },
+    {
+      "file": "r1_05b.png",
+      "sha256": "9E492CDC281DF29AD721B25F3128AACD737CA7C93E18B71D57371FA6586ADEFC"
+    },
+    {
+      "file": "r2_01_spawned.png",
+      "sha256": "E44880E7D4CBECAD9E3F61FBA174FC49542D5C0B79D0A8BA6462ADA0454830F2"
+    },
+    {
+      "file": "r2_02_closer.png",
+      "sha256": "F4844CB636D1DDBD676ED818CFB5C372A63C5C73C4A48F28DBC8F7DF2BFE47DB"
+    },
+    {
+      "file": "r3_01_side.png",
+      "sha256": "5D6C4CC391012639C5638AB1B67E477C4CC1D0504A129423A75E2132C08A250A"
+    },
+    {
+      "file": "r3_02_tfc.png",
+      "sha256": "BE3226180677F1633E397C32CC4286A5DAF1528AC28CB70DBC4C30976B7B9339"
+    },
+    {
+      "file": "r3_03_pos.png",
+      "sha256": "DA9C0E41AE5C1782017487191A691D4EE6EECEC4AECEE143DF570DCA95296287"
+    },
+    {
+      "file": "r3_04_state.png",
+      "sha256": "FCCE2795534E90D703EFDE1079FEE741E004AC71E07C77D58E2502C4273A4D2E"
+    },
+    {
+      "file": "r3_05_state.png",
+      "sha256": "3D1418B3EF125EE4F297500186A53BB38595FC3142EAC77300DE9C721FFE55E5"
+    },
+    {
+      "file": "r3_06_coords.png",
+      "sha256": "8A1B69C891D766B83217A0EE6760DAB886D32AE6184553D5E6387B99D9817785"
+    },
+    {
+      "file": "r3_07_front.png",
+      "sha256": "3B559DE8A0E5F8E4DBF7E1EEB5A8AB999BE55DBC62A94A49D3A2D0EDA6436EE1"
+    },
+    {
+      "file": "r3_08_front_close.png",
+      "sha256": "081BE97722BEB3FB3ED36B9D71B4D5079598F6B9CAFC127A983BC7409099AFB0"
+    },
+    {
+      "file": "r4_01_push_back.png",
+      "sha256": "1FC5E9CC30B5EAD2974AB9CE1D93DEADC3754214679B7031179216B911B029C0"
+    },
+    {
+      "file": "r4_02_front_push.png",
+      "sha256": "E330E7A44EE371376BD43CAD829EE3564F9E6218672C94BECD25FC77C7A2736E"
+    },
+    {
+      "file": "r4_03_front_values.png",
+      "sha256": "0361106554FA188EA3848227ABF80B08CF86B15066B8FA71790B6079C1AD80E4"
+    },
+    {
+      "file": "r4_04_jump.png",
+      "sha256": "4FF77F082E255B9F3442F4F1324B986CC3289D250ED6A0CB7566562ED2B74345"
+    },
+    {
+      "file": "r4_05_hop.png",
+      "sha256": "6F9302793D9DF2BE8A8217F37986D174D07090F332AB5C5B69912E79B988AC1C"
+    },
+    {
+      "file": "r4_06_standing_on.png",
+      "sha256": "5D3EB4E43A18CDB5D245315EC52C764F3945D3ED21E5F8DC5A6EE11808D16E9C"
+    },
+    {
+      "file": "r4_06b_values.png",
+      "sha256": "2F6AE51E19635A26278A11D38705806DFF111301C51290E70B524A8EB2A461E4"
+    },
+    {
+      "file": "r5_01_menu_nosidecar.png",
+      "sha256": "1E534CEDF45B88EE7BF526D25056333FF2F6EDE2D5CD739B94F2C00CA2FCA92B"
+    },
+    {
+      "file": "r5_02_loaded_nosidecar.png",
+      "sha256": "E98EE605C916A75D336089CC9C588B744F5C91C55E923565DD32DB9A6DF1F023"
+    },
+    {
+      "file": "r5_03_state.png",
+      "sha256": "5C4280621CF86F29D8454A2D81A517806AA649A56FB1C2E34CA7A7AECE9BF3CB"
+    },
+    {
+      "file": "r6_01_state.png",
+      "sha256": "FF812D7275B56E0CBBECF4B9A6D7E429262784A453AFE3FB49B6A823DE9B2231"
+    },
+    {
+      "file": "r6_02_reloaded.png",
+      "sha256": "3B4CAE0228E2AA96EB0B43A3CEFE194D625339BFB061FD4184616DE584D64266"
+    },
+    {
+      "file": "r7_01_pipboy.png",
+      "sha256": "968A9399F729CD39D7730BCF3B0D4F1F48A2294B30664760249FB947F4F8A3D1"
+    },
+    {
+      "file": "r7_02_after_pipboy.png",
+      "sha256": "5C8D49ED2CA35D309D360B3EC1E68B80AFC2CC12C7B3C6416234792D5E330174"
+    }
+  ]
+}
