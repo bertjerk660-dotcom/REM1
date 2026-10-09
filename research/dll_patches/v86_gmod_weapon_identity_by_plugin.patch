@@ -1,0 +1,71 @@
+diff --git a/fnv_gmod_thug2_plugin/main.cpp b/fnv_gmod_thug2_plugin/main.cpp
+index 7286fe0..e7d18e7 100644
+--- a/fnv_gmod_thug2_plugin/main.cpp
++++ b/fnv_gmod_thug2_plugin/main.cpp
+@@ -1482,6 +1482,13 @@ static TESObjectWEAP* FindExistingGModWeaponForm(const GModWeaponDef& def)
+     DataHandler* data = DataHandler::Get();
+     if (!data || !data->boundObjectList) return nullptr;
+ 
++    // v86 (O01, F018): identity = display name + record owned by REM_GModTHUG2.esp.
++    // The world-model path is presentation data that isolated sidecars may override;
++    // matching on it made a changed path fall through to the runtime CloneForm branch
++    // (P-F001 crash class). The legacy name+path rule is kept only as a fallback.
++    const UInt8 remIndex = data->GetModIndex("REM_GModTHUG2.esp");
++    TESObjectWEAP* legacyMatch = nullptr;
++
+     for (TESBoundObject* obj = data->boundObjectList->first; obj; obj = obj->next)
+     {
+         if (obj->typeID != kFormType_TESObjectWEAP) continue;
+@@ -1490,14 +1497,30 @@ static TESObjectWEAP* FindExistingGModWeaponForm(const GModWeaponDef& def)
+         const char* name = weapon->fullName.name.m_data;
+         if (!name || _stricmp(name, def.displayName) != 0) continue;
+ 
+-        if (!def.worldNif || !*def.worldNif)
++        if (remIndex != 0xFF && (weapon->refID >> 24) == remIndex)
++        {
++            const char* path = weapon->textureSwap.nifPath.m_data;
++            if (def.worldNif && *def.worldNif && (!path || _stricmp(path, def.worldNif) != 0))
++                _MESSAGE("[GMOD-WEAP] %s identified by owning plugin; world model overridden to %s",
++                    def.className, path ? path : "(none)");
+             return weapon;
++        }
+ 
+-        const char* path = weapon->textureSwap.nifPath.m_data;
+-        if (path && _stricmp(path, def.worldNif) == 0)
+-            return weapon;
++        if (!legacyMatch)
++        {
++            if (!def.worldNif || !*def.worldNif)
++            {
++                legacyMatch = weapon;
++            }
++            else
++            {
++                const char* path = weapon->textureSwap.nifPath.m_data;
++                if (path && _stricmp(path, def.worldNif) == 0)
++                    legacyMatch = weapon;
++            }
++        }
+     }
+-    return nullptr;
++    return legacyMatch;
+ }
+ 
+ static void GiveWeaponToPlayer(TESObjectWEAP* weapon)
+@@ -7009,7 +7032,7 @@ bool NVSEPlugin_Query(const NVSEInterface* nvse, PluginInfo* info)
+ {
+     info->infoVersion = PluginInfo::kInfoVersion;
+     info->name = "FNVGModTHUG2";
+-    info->version = 85;
++    info->version = 86;
+ 
+     if (!nvse || nvse->isEditor) return false;
+     if (nvse->runtimeVersion < RUNTIME_VERSION_1_4_0_525) return false;
+@@ -7039,6 +7062,6 @@ bool NVSEPlugin_Load(NVSEInterface* nvse)
+     nvse->RegisterCommand(&kCommandInfo_gmod_undospawn);
+     nvse->RegisterCommand(&kCommandInfo_gmod_cleanup);
+ 
+-    _MESSAGE("FNVGModTHUG2 bridge loaded, version 85 support-patch combine-autogive");
++    _MESSAGE("FNVGModTHUG2 bridge loaded, version 86 support-patch combine-autogive gmod-identity-by-plugin");
+     return true;
+ }

@@ -1,0 +1,77 @@
+{
+  "schema": "rem.o01_runtime_result.v2",
+  "package_id": "O01",
+  "date": "2026-10-09",
+  "tester": "Claude Opus (owner-directed substitute for Codex)",
+  "independence": "NOT INDEPENDENT.",
+  "dll": {
+    "version": 86,
+    "sha256": "787F46B0DD3077909924C8948F03325959F0DC52AB019E889408F8381BB36EC6",
+    "patch": "research/dll_patches/v86_gmod_weapon_identity_by_plugin.patch"
+  },
+  "sidecar": {
+    "file": "REM_O01_ToolGun_Test.esp",
+    "sha256": "533E70AA5AE212D4807B9F03D77648D73D0B17095C01F8AAB1CE942BBF3E6417",
+    "overrides": [
+      "STAT 01000834 first-person model",
+      "WEAP 01000803 world model"
+    ]
+  },
+  "verdict": "PASS (Opus self-test) with two manual checks outstanding (pickup; first-person re-check under v86)",
+  "tests": {
+    "boot/load": "PASS - log: 'gmod_tool identified by owning plugin; world model overridden to rem\\\\gmod\\\\weapons\\\\toolgun\\\\w_toolgun.nif', 'reused Tool Gun', 'EnsureGModWeaponForms end count=14'. No CloneForm. (The v85 + WEAP-override combination crashed: F018.)",
+    "third-person/world model": "PASS - authentic w_toolgun in the right hand at plausible size; held in the same raised-pistol stance as the vanilla 10mm in the same spot (side-by-side screenshots).",
+    "first-person": "Covered by the earlier run (identical c_toolgun NIF and STAT override, verified in hand under v85). Not re-captured under v86 because the DLL input leak (F019) kept re-opening the spawn menu over the view. v86 changes form identity only, not rendering.",
+    "drop": "PASS for safety - drop with god mode off: health 95.85 -> 95.86, inventory 1 -> 0, no reload or crash.",
+    "pickup": "NOT VERIFIED - dropped items could not be located with the automated camera (the vanilla 10mm control was equally invisible), so pickup needs a human check.",
+    "skate regression (P-F005)": "PASS - skateboard visible in hand; LMB -> '[THUG2] Skate ON'; heartbeat to frame 180; R -> '[THUG2] Skate mode OFF - Fallout movement restored'; position stable afterwards (forward hold released).",
+    "save/load": "PASS - saved o01v86test and reloaded; identity-by-plugin repeated; 14 weapons resolved.",
+    "all 14 GMod weapons": "PASS - all reused across 3 loads; anim profiles unchanged (Tool Gun <- 0000434F type 3)."
+  },
+  "observations": [
+    "An unexplained save reload happened once, right after the first Tool Gun drop with god mode off at low health. Not reproduced: the later drop with god mode off caused no damage and no reload. Most likely a death at low health from another cause; recorded, not attributed.",
+    "F019 widened: with the Tool Gun equipped, R opens the spawn menu and Z undoes, in addition to Q; all polled while the console is open.",
+    "Build toolchain differs from the one that produced the v85 DLL (see 07_BUILD_REPRODUCTION_CHECK.md); v86 regression above covers boot/load, GMod weapon forms, skate enter/exit and save/load."
+  ],
+  "screenshots": {
+    "o01v86_10mm_a.png": "844BED508EFCB10410F783F2ECF6F147A9AECEB8AE9A7851C41C7D9D2DA9B274",
+    "o01v86_1p.png": "1CE951B4EDA763B5DCD11BF075AC42A27FB15B54971A4DF7E142B7C2FAEF6A09",
+    "o01v86_1p_b.png": "683A15CE4D3E574064758BCBE7C1ACB52B63A16E9C0E1150625BA702AB92D3CF",
+    "o01v86_1p_drawn.png": "FE5C7C99B8C32F18093A2E808354C38A024E09B9B10CD0AE6141E1A890AF6930",
+    "o01v86_3p_10mm_compare.png": "E8869B3102B2D779B4463026E865460D84739D2C9FC36A8D25498E8C9B3A419E",
+    "o01v86_3p_behind.png": "D00733E0A1A08F164C356FF7868D6AD82CA196323724C320D01E1FB54309EC28",
+    "o01v86_3p_open.png": "9FD414F198325968E39A3AED48469A57F8221D1D6175C3EF25441CFCDCBDC650",
+    "o01v86_3p_side_a.png": "852AE7D63EB0A281A01591D56939F18BD292554FA88A7ABCC9C29B65DECCAD2D",
+    "o01v86_3p_side_b.png": "14D41F3BE6FE5FCD02EE2DC3BD686E6A36C0FF97C41093A06962A7999DFB4242",
+    "o01v86_3p_toolgun_compare.png": "0675189C547F1D74B3A43D23BE504B521BEABA71F7ACD42AE7C0BD83052BB9B1",
+    "o01v86_after_load.png": "25812C4EBBA0F046ADC638392C660CB078C9EEC90244010275AF0BA16B455CB3",
+    "o01v86_after_load2.png": "8F6DFE36C3322C41BF9EAC10E5A27B22B99882CB9FE63C38482F400F92D560E8",
+    "o01v86_console_check.png": "0EACFC3E5E5E834744EE4F31E28B911372E0853B33AC6A39D808D7E2DC3142A2",
+    "o01v86_ctrl_10mm_down.png": "446E97E55EC7418DB278287A5E80CB255ABCAE5C02C753ABFABCB4CE749C55F5",
+    "o01v86_drop_damage_test.png": "5B77640623A682F6027B4017EDAC8654C4809BAC5212BFAFEE9249CF3122CA8D",
+    "o01v86_dropped.png": "78E76AD2ED73432076C6CECAB1C290DE5C6A506B42B114D8F3700AA6D5B3DDA4",
+    "o01v86_dropped2.png": "54ABFA47F59A8EDE26245B64FC2344775FE9DC18D5835DDBED52FDE01CEB1E55",
+    "o01v86_dropped3.png": "C70AD07081F97D6F11320CC4FF7C8EB263E4120E17F781F2B917D287EA75A823",
+    "o01v86_dropseq_0.png": "46B835297D34A533F9BAD0D9C92726A106D1DB5B6A25BFADC694263EF6F62718",
+    "o01v86_dropseq_1.png": "5043DFA557EA198283F2B69AD951949E670B27F8F7685CF53168E6BF486C4603",
+    "o01v86_dropseq_2.png": "954AAF1A6B5435EC7FB44B919077734FB9E7BAD1D23A64509967FC95A91F9252",
+    "o01v86_dropseq_console.png": "B998A741A3AD3D5C995FBC980F47D6A8E06E9502941B31439BBB1D0BB3142301",
+    "o01v86_eq_a.png": "7855E4C8222FA1450DD91870262C6537DDB5F9A8B31223D95576777E43EF8022",
+    "o01v86_eq_state.png": "6BF9FC4BC1957C94BCAB2F498AB3DDD9D18B72445DFD7C3B222F70CC10F2CBA7",
+    "o01v86_eq_state2.png": "6A082EC956F83898703D8EA2BBC85BD3FE1B81F0BA02A8AB490612F5D4B9E018",
+    "o01v86_find_1p_down.png": "A1BA68642CB32F637EDFF77CB8A5B1F833E181DE95CF26F03640012496D26FA3",
+    "o01v86_find_1p_turn.png": "6D9F77D3739B1719050216FEF0CC5FA834A4776F61D87F207FE3C26821A23DF0",
+    "o01v86_menu_closed.png": "F769F93C6D2AC39E38FAB37B494B484CC472CFDF4EE071577CA18F2403FBCCA9",
+    "o01v86_open_area.png": "C38F44BB67FE2FA1C1308B6B550ECDB9FCC766EB782FD354DA22C81A960A58C1",
+    "o01v86_open_clear.png": "520BC99B29893C4FBE6FB79C5CDB243FB6250BD17E5C9B08E13D01050DA767F1",
+    "o01v86_resume.png": "3BE0F01EC32F023CA3CEA0B6CBE2C56556F4A947EE41B83FFF5E94F3504E510C",
+    "o01v86_skate_exit_pos.png": "67DF302BD81197A2B9E3E2B60772565FB4AAB204D35F2838083A04321188C91B",
+    "o01v86_skate_off.png": "385EC4B4E97B38F8D5938C7D5CF7B4ECB120E793633B7605268DC1829E1DC641",
+    "o01v86_skate_on.png": "09B7F6A23F47867CBB6AD2C82BE5EED6D405A6D29E68A2FBDEB42EE10E8FB092",
+    "o01v86_skate_pre.png": "6FB16C123FCD7E536A8DB04C1F64B06C86EC0F2405F707C8A8C5F5301CBCD11E",
+    "o01v86_skate_pre2.png": "F97131BEB6084B04B17D773A36B834454A174C9BF609870EF645DBE44167138F",
+    "o01v86_state.png": "CC555EC100C4D8065A133C0ADEE1C39149E60CBBB0EA1810B1D05FD79623BAEE",
+    "o01v86_tfc_above.png": "A73DA0307DF3D651C9694D92315A0DD6FFEA7F228634181C62ACB76F0AFC1424"
+  },
+  "restored_after_test": "plugins.txt and FalloutPrefs.ini byte-identical to backups (sidecar disabled); Save 22 unchanged; test saves moved out. v86 DLL left deployed (owner option A); v85 DLL backed up at backups/o01_dll_identity_20261009/."
+}

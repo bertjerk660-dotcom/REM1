@@ -236,3 +236,12 @@ Candidate: `builds/O01_toolgun_candidate_20261009.json` (freeze PASS). Static 12
 - Correction to earlier notes: the Tool Gun WEAP stores animation type Melee, but the DLL copies the vanilla 10mm profile at runtime (type 3), so the 10mm animation family is already in effect.
 - New failure knowledge: F017 (VTFCmd alpha loss), F018 (WEAP identity by path), F019 (console input leak into the build menu).
 - Restored after testing: plugins.txt, FalloutPrefs.ini, Save 22, protected and legacy hashes unchanged.
+
+## 2026-10-09 (evening) O01 world model unblocked - DLL v86 deployed
+
+Owner chose option (a). FNVGModTHUG2.dll v86 (787F46B0...) identifies GMod weapons by owning plugin (F018 fixed). Deployed with the v85 DLL backed up (`backups/o01_dll_identity_20261009/`); main.cpp now 98CB5DE9... (patch in `research/dll_patches/`).
+
+- O01 sidecar now overrides both the first-person STAT and the world WEAP model. Static 12/12 PASS against the v86 baseline.
+- Opus runtime self-test (`build/candidates/O01_20261009/o01_runtime_selftest_v86_20261009.json`): load PASS (identity by plugin, 14/14 GMod weapons), third-person world model PASS (same stance as vanilla 10mm), drop safe, skate enter/exit PASS, save/load PASS.
+- Outstanding for a human: pickup of a dropped Tool Gun; a first-person look under v86.
+- New baseline hashes: FNVGModTHUG2.dll 787F46B0DD3077909924C8948F03325959F0DC52AB019E889408F8381BB36EC6; main.cpp 98CB5DE94648A450AD97A5CB55F6D34606995B8AEAAD63A0322D4D010D820165. REM_GModTHUG2.esp and skateheldx.nif unchanged.

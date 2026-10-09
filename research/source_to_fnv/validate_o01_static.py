@@ -143,10 +143,16 @@ def main():
         diffs[o["formid"]] = {"changed": changed, "dropped": o.get("drop", []), "same_count": len(a_s) == len(b_s),
                               "header_flags_same": orig[key][0][8:12] == side[key][0][8:12]}
     want = sorted(f"{o['type']}:{int(o['formid'], 16):08X}" for o in spec["overrides"])
-    ok9 = keys == want and "WEAP:01000803" not in keys and all(
+    # A WEAP world-model override is only safe when the deployed DLL identifies GMod
+    # weapons by owning plugin (v86+, F018); otherwise it triggers runtime CloneForm.
+    dll = data_dir / "NVSE" / "Plugins" / "FNVGModTHUG2.dll"
+    dll_has_fix = dll.exists() and b"identified by owning plugin" in dll.read_bytes()
+    weap_ok = "WEAP:01000803" not in keys or (spec.get("requires_dll_identity_fix") and dll_has_fix)
+    ok9 = keys == want and weap_ok and all(
         set(d["changed"]) <= {"MODL", "OBND"} and d["same_count"] and d["header_flags_same"] for d in diffs.values())
     chk(9, "sidecar_overrides_only", ok9, {"records": keys, "expected": want, "per_record": diffs,
-                                           "rule": "the Tool Gun WEAP must not be overridden (DLL identifies it by world-model path; F018)"})
+                                           "deployed_dll_has_identity_fix": dll_has_fix,
+                                           "rule": "Tool Gun WEAP may be overridden only with requires_dll_identity_fix and a v86+ DLL (F018)"})
 
     # 10 protected files unchanged
     prot = json.loads(Path(a.protected).read_text(encoding="utf-8-sig"))

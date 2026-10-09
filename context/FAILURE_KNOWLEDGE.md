@@ -95,3 +95,9 @@ Rule: do not change the world model path of any GMod WEAP until the DLL identifi
 Symptom: during O01 testing, typing console commands containing "q" toggled the GMod build/spawn menu, and console Enter presses spawned props.
 Cause: the DLL polls `GetAsyncKeyState('Q')`, `VK_F2`, `VK_RETURN` etc. globally, without checking whether the console or another menu owns input.
 Status: existing defect, not introduced by O01. Relevant to input ownership (C01 / O02). Test harness workaround: avoid console text containing q, or close the menu with Q afterwards.
+
+### F018 update (2026-10-09) - FIXED in FNVGModTHUG2.dll v86
+`FindExistingGModWeaponForm` now identifies GMod weapons by display name + owning plugin (REM_GModTHUG2.esp); the old name+path rule is only a fallback. Patch: `research/dll_patches/v86_gmod_weapon_identity_by_plugin.patch`; build record `builds/v86.json`. Verified in game: the Tool Gun WEAP world-model override loads, logs "identified by owning plugin", all 14 GMod weapons reused, no CloneForm. Rule kept: never pair a WEAP-overriding sidecar with a v85 DLL (validate_o01_static check 9 enforces it).
+
+### F019 update (2026-10-09)
+With the Tool Gun equipped the DLL also polls R (opens the spawn menu) and Z (undo), besides Q / F2 / Enter, all while the console is open. Any console command containing "player." therefore opens the menu, and the following Enter spawns a prop. Harness rule: unequip the Tool Gun before console work, or check the screen and close the menu with Q after each batch.

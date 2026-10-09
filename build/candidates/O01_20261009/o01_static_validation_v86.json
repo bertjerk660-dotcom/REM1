@@ -1,0 +1,241 @@
+{
+  "validator": "validate_o01_static 1.0.0",
+  "all_pass": true,
+  "checks": {
+    "01_nifs_parse": {
+      "pass": true,
+      "detail": {
+        "world": 28,
+        "view": 24
+      }
+    },
+    "02_weapon_container": {
+      "pass": true,
+      "detail": {
+        "world": {
+          "root": "BSFadeNode",
+          "prn": [
+            "Weapon"
+          ],
+          "projectile_node": 1,
+          "collision": true
+        },
+        "view": {
+          "root": "BSFadeNode",
+          "prn": [
+            "Weapon"
+          ],
+          "projectile_node": 1,
+          "collision": false
+        }
+      }
+    },
+    "03_textures_resolve": {
+      "pass": true,
+      "detail": {
+        "referenced": [
+          "textures\\effects\\shinybright_e.dds",
+          "textures\\rem\\gmod\\weapons\\toolgun\\screen.dds",
+          "textures\\rem\\gmod\\weapons\\toolgun\\screen_g.dds",
+          "textures\\rem\\gmod\\weapons\\toolgun\\toolgun.dds",
+          "textures\\rem\\gmod\\weapons\\toolgun\\toolgun2.dds",
+          "textures\\rem\\gmod\\weapons\\toolgun\\toolgun2_g.dds",
+          "textures\\rem\\gmod\\weapons\\toolgun\\toolgun2_m.dds",
+          "textures\\rem\\gmod\\weapons\\toolgun\\toolgun3.dds",
+          "textures\\rem\\gmod\\weapons\\toolgun\\toolgun3_g.dds",
+          "textures\\rem\\gmod\\weapons\\toolgun\\toolgun3_m.dds",
+          "textures\\rem\\gmod\\weapons\\toolgun\\toolgun_flat_n.dds",
+          "textures\\rem\\gmod\\weapons\\toolgun\\toolgun_m.dds"
+        ],
+        "missing": []
+      }
+    },
+    "04_material_mapping": {
+      "pass": true,
+      "detail": {
+        "screen": {
+          "flags": "0x82000001",
+          "glow": "textures\\rem\\gmod\\weapons\\toolgun\\screen_g.dds",
+          "glow_coverage": 0.9522705078125,
+          "env": "",
+          "mask": "",
+          "ok": true
+        },
+        "toolgun": {
+          "flags": "0x82000181",
+          "glow": "",
+          "glow_coverage": null,
+          "env": "textures\\effects\\shinybright_e.dds",
+          "mask": "textures\\rem\\gmod\\weapons\\toolgun\\toolgun_m.dds",
+          "ok": true
+        },
+        "toolgun2": {
+          "flags": "0x82000081",
+          "glow": "textures\\rem\\gmod\\weapons\\toolgun\\toolgun2_g.dds",
+          "glow_coverage": 0.008358001708984375,
+          "env": "textures\\effects\\shinybright_e.dds",
+          "mask": "textures\\rem\\gmod\\weapons\\toolgun\\toolgun2_m.dds",
+          "ok": true
+        },
+        "toolgun3": {
+          "flags": "0x82000081",
+          "glow": "textures\\rem\\gmod\\weapons\\toolgun\\toolgun3_g.dds",
+          "glow_coverage": 0.05738067626953125,
+          "env": "textures\\effects\\shinybright_e.dds",
+          "mask": "textures\\rem\\gmod\\weapons\\toolgun\\toolgun3_m.dds",
+          "ok": true
+        }
+      }
+    },
+    "05_no_absolute_paths": {
+      "pass": true,
+      "detail": {
+        "strings_checked": 73,
+        "bad": []
+      }
+    },
+    "06_scale_orientation_grip": {
+      "pass": true,
+      "detail": {
+        "dims_xyz": [
+          26.014398326002965,
+          17.237666289028276,
+          7.809251979984879
+        ],
+        "grip_error": 8.326672684688674e-17,
+        "muzzle": [
+          27.19354309978724,
+          6.328658227892755,
+          1.1137119649440796
+        ],
+        "note": "barrel +X, up +Y, length vs 10mm 22.0"
+      }
+    },
+    "07_view_world_registration": {
+      "pass": true,
+      "detail": {
+        "bounds_max_diff": 6.653933264111345e-05,
+        "icp_scale": 1.0971399459181486,
+        "icp_median": 4.9040065601009676e-05,
+        "within_0.01": 1.0
+      }
+    },
+    "08_source_provenance": {
+      "pass": true,
+      "detail": {
+        "w_ref_smd": true,
+        "w_phy_smd": true,
+        "w_qc": true,
+        "w_mdl": true,
+        "w_vvd": true,
+        "w_vtx": true,
+        "c_ref_smd": true,
+        "c_qc": true,
+        "c_mdl": true,
+        "c_vvd": true,
+        "c_vtx": true,
+        "vmt_screen": true,
+        "vmt_toolgun": true,
+        "vmt_toolgun2": true,
+        "vmt_toolgun3": true,
+        "vtf_screen_bg": true,
+        "vtf_toolgun": true,
+        "vtf_toolgun_mask": true,
+        "vtf_toolgun2": true,
+        "vtf_toolgun2_mask": true,
+        "vtf_toolgun3": true,
+        "vtf_toolgun3_mask": true
+      }
+    },
+    "09_sidecar_overrides_only": {
+      "pass": true,
+      "detail": {
+        "records": [
+          "STAT:01000834",
+          "WEAP:01000803"
+        ],
+        "expected": [
+          "STAT:01000834",
+          "WEAP:01000803"
+        ],
+        "per_record": {
+          "01000834": {
+            "changed": [
+              "OBND",
+              "MODL"
+            ],
+            "dropped": [
+              "MODT",
+              "MODS"
+            ],
+            "same_count": true,
+            "header_flags_same": true
+          },
+          "01000803": {
+            "changed": [
+              "OBND",
+              "MODL"
+            ],
+            "dropped": [],
+            "same_count": true,
+            "header_flags_same": true
+          }
+        },
+        "deployed_dll_has_identity_fix": true,
+        "rule": "Tool Gun WEAP may be overridden only with requires_dll_identity_fix and a v86+ DLL (F018)"
+      }
+    },
+    "10_protected_unchanged": {
+      "pass": true,
+      "detail": {
+        "FNVGModTHUG2.dll": "787F46B0DD3077909924C8948F03325959F0DC52AB019E889408F8381BB36EC6",
+        "REM_GModTHUG2.esp": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+        "main.cpp": "98CB5DE94648A450AD97A5CB55F6D34606995B8AEAAD63A0322D4D010D820165",
+        "skateheldx.nif": "1FB3CE190CC0E32D2F06EEC144605CE3E2EB84BE4E3A90A33B227B9639C6D852"
+      }
+    },
+    "11_no_unrelated_outputs": {
+      "pass": true,
+      "detail": {
+        "unexpected": [],
+        "missing": []
+      }
+    },
+    "12_reproducible": {
+      "pass": true,
+      "detail": {
+        "REM_O01_ToolGun_Test.esp": true,
+        "meshes/rem/gmod/weapons/toolgun/c_toolgun.nif": true,
+        "meshes/rem/gmod/weapons/toolgun/w_toolgun.nif": true,
+        "textures/rem/gmod/weapons/toolgun/screen.dds": true,
+        "textures/rem/gmod/weapons/toolgun/screen_g.dds": true,
+        "textures/rem/gmod/weapons/toolgun/toolgun.dds": true,
+        "textures/rem/gmod/weapons/toolgun/toolgun2.dds": true,
+        "textures/rem/gmod/weapons/toolgun/toolgun2_g.dds": true,
+        "textures/rem/gmod/weapons/toolgun/toolgun2_m.dds": true,
+        "textures/rem/gmod/weapons/toolgun/toolgun3.dds": true,
+        "textures/rem/gmod/weapons/toolgun/toolgun3_g.dds": true,
+        "textures/rem/gmod/weapons/toolgun/toolgun3_m.dds": true,
+        "textures/rem/gmod/weapons/toolgun/toolgun_flat_n.dds": true,
+        "textures/rem/gmod/weapons/toolgun/toolgun_m.dds": true
+      }
+    }
+  },
+  "hashes": {
+    "REM_O01_ToolGun_Test.esp": "533E70AA5AE212D4807B9F03D77648D73D0B17095C01F8AAB1CE942BBF3E6417",
+    "meshes/rem/gmod/weapons/toolgun/c_toolgun.nif": "451DB48265CAF2088443B98FE376275265D4E67614880F5179DB002A0BFA1426",
+    "meshes/rem/gmod/weapons/toolgun/w_toolgun.nif": "632A4854F4523106F8DE9FED63FB029DBA84B9381587EB2FFAFB23B656F822EA",
+    "o01_conversion_report.json": "0A6EEE1658E2A8E909A129CA819B2C2F3F4F741DFF9C7EF2E6640084CBFA7C2E",
+    "textures/rem/gmod/weapons/toolgun/screen.dds": "CDF6F802A16760E25F2943B76A40FF67BCF87D8DCFB2EDA3B2F170FAF9B54927",
+    "textures/rem/gmod/weapons/toolgun/screen_g.dds": "CDF6F802A16760E25F2943B76A40FF67BCF87D8DCFB2EDA3B2F170FAF9B54927",
+    "textures/rem/gmod/weapons/toolgun/toolgun.dds": "8B81E107F54844BDCF403CFEDBDA4B09F922D04838CB51738176F0D9D184415B",
+    "textures/rem/gmod/weapons/toolgun/toolgun2.dds": "D237AE11CD72682297CD51311088F81D4E140C52D0355E9E9E2CC7330BC59B1F",
+    "textures/rem/gmod/weapons/toolgun/toolgun2_g.dds": "DBAB99F143BDD40DC831139BE9883FA524426F26A4EF13F3C3A2EA1EA8EAB354",
+    "textures/rem/gmod/weapons/toolgun/toolgun2_m.dds": "BD48A5527328A4EF71BF3196C9BD69F51B6D96100EC07CADFE216C0A2F4C9010",
+    "textures/rem/gmod/weapons/toolgun/toolgun3.dds": "BB4A3A145DF932EED3E56879F8852D2E7DE5381981417354732C80E4DB0807A6",
+    "textures/rem/gmod/weapons/toolgun/toolgun3_g.dds": "D6E977B1FED5DF25D6FAC391202FFC7E69949E088EB9822D591D6054B632D12F",
+    "textures/rem/gmod/weapons/toolgun/toolgun3_m.dds": "E8CC699B0CA7A00099EF7DD0E9E6BED8038AF184A9FE333409C5E827414B84B6",
+    "textures/rem/gmod/weapons/toolgun/toolgun_flat_n.dds": "FEFC6E7774271F9CFE61519AC4074360531A6DEA54ADD40F519696CBEC4D61FA",
+    "textures/rem/gmod/weapons/toolgun/toolgun_m.dds": "87836FD93587A7E55868E3E008E9D195262760AD88206DA63F8D6048892F648D"
+  }
+}

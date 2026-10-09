@@ -1,0 +1,40 @@
+{
+  "iteration": "v86",
+  "parent": "v85 (deployed DLL D6C88816..., source main.cpp 4517D804...)",
+  "goal": "Identify GMod weapons by owning plugin instead of world-model path so presentation sidecars can override models without triggering runtime CloneForm (F018 / P-F001).",
+  "pipeline_version": "opus-o01",
+  "source": {
+    "main_cpp_before": "4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE",
+    "main_cpp_after": "98CB5DE94648A450AD97A5CB55F6D34606995B8AEAAD63A0322D4D010D820165",
+    "patch": "research/dll_patches/v86_gmod_weapon_identity_by_plugin.patch",
+    "patch_sha256": "2421506D53D3FD8E6B52E7D8B2C3C96B8D73E945604EE95CA8F76F7A8FF124AE",
+    "note": "main.cpp itself is not committed (owner decision pending on committing plugin source and .inc data files)."
+  },
+  "changes": [
+    "FindExistingGModWeaponForm: name + owning plugin REM_GModTHUG2.esp; legacy name+path kept as fallback; logs when a world model is overridden.",
+    "Plugin version 85 -> 86 and load banner updated."
+  ],
+  "build": {
+    "tool": "MSBuild (Visual Studio Community, toolset v180), Release|Win32",
+    "output_sha256": "787F46B0DD3077909924C8948F03325959F0DC52AB019E889408F8381BB36EC6",
+    "size": 908800,
+    "errors": 0,
+    "post_build_install": "disabled for the build (FalloutNVPath pointed at a non-existent folder); deployed manually after backup"
+  },
+  "deploy": {
+    "path": "Data/NVSE/Plugins/FNVGModTHUG2.dll",
+    "previous_sha256": "D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206",
+    "backup": "backups/o01_dll_identity_20261009/FNVGModTHUG2.dll.deployed_D6C88816",
+    "rollback": "copy the backup over Data/NVSE/Plugins/FNVGModTHUG2.dll (and restore main.cpp.pre_identity_fix); do not leave REM_O01_ToolGun_Test.esp enabled with a v85 DLL"
+  },
+  "validation": {
+    "compile": "pass",
+    "deploy": "pass",
+    "game_boot": "pass",
+    "gmod_weapon_forms": "pass (14/14 reused, 3 loads)",
+    "skate_enter_exit": "pass",
+    "save_load": "pass",
+    "human_playtest": "pending"
+  },
+  "status": "deployed; opus self-test pass; human playtest pending"
+}
