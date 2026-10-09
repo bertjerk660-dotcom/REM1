@@ -1,0 +1,26 @@
+{
+  "job": "O00 Golden Source Bench - models/props_c17/bench01a.mdl",
+  "nif_name": "bench01a",
+  "scale": 1.7777778,
+  "scale_note": "1 Source unit = 1 inch; 1 FNV unit = 0.5625 inch (64 units per yard). Cross-check: Source player 72u -> 128 FNV units.",
+  "cubemap": "textures\\effects\\shinydull_e.dds",
+  "vtfcmd": "third_party/tools/VTFEdit_Reloaded/VTFCmd.exe",
+  "reference_static": ["Fallout - Meshes.bsa", "meshes\\furniture\\benchmuseumstatic01.nif"],
+  "reference_envmasked": ["Fallout - Meshes.bsa", "meshes\\architecture\\bouldercity\\nv_warmemorial.nif"],
+  "inputs": {
+    "mdl": {"path": "build/gmod_batch/props_c17__bench01a/src/models/props_c17/bench01a.mdl", "sha256": "8751F7E234A4212016FF93C50C8951ECB793B628819957B06BA1831A899CE846"},
+    "vvd": {"path": "build/gmod_batch/props_c17__bench01a/src/models/props_c17/bench01a.vvd", "sha256": "BC9AFFE6F4EFC8766FE77961C2BD41748D677432A1E141D6CA7F56AB1E048F7D"},
+    "vtx": {"path": "build/gmod_batch/props_c17__bench01a/src/models/props_c17/bench01a.dx90.vtx", "sha256": "E651BB00300CFD6F843D8882BFC2FC43813CAAF3D2A6AC350AEBA5496AEDB097"},
+    "phy": {"path": "build/gmod_batch/props_c17__bench01a/src/models/props_c17/bench01a.phy", "sha256": "0EB277C8A413F1E27E97BF5D9FD872FCB2ED1981064F592645D23F9C4E17E475"},
+    "qc": {"path": "build/gmod_batch/props_c17__bench01a/decompiled/bench01a.qc", "sha256": "DCFE2C49C592732FB20745A2097B4B60588F6191DCAF15D96CB87055083C7B36"},
+    "reference_smd": {"path": "build/gmod_batch/props_c17__bench01a/decompiled/bench01a_reference.smd", "sha256": "6E4AB2DB5E4BBFBC348F1DDC5C47519BA96D247CBC500290CA8714F3B9B719E3"},
+    "physics_smd": {"path": "build/gmod_batch/props_c17__bench01a/decompiled/bench01a_physics.smd", "sha256": "1B903062D35C2B880D828CDA0BF741124BCC0D7CE30573810DCBCD77BD353340"},
+    "vmt": {"path": "build/prepared/pre_opus_20261006/source_payload/bench/materials/models/props_c17/bench01a.vmt", "sha256": "086AC1E48FBD5531C162005775F84EA2958D892894C24D188951FD00345EBE57"},
+    "basetexture": {"path": "build/prepared/pre_opus_20261006/source_payload/bench/materials/models/props_c17/bench01a.vtf", "sha256": "8DCB834BD3D7454363D0A3DECC77EE3F2992F6A39CCD9076422E6BD40096E432"},
+    "envmapmask": {"path": "build/prepared/pre_opus_20261006/source_payload/bench/materials/models/props_c17/bench01a_mask.vtf", "sha256": "E3B3973D40D7EA1C12286121A94BABE6B2DEF2380CE0F2B14F4A3244E233734A"}
+  },
+  "output": {
+    "mesh": "meshes/rem/golden_bench/bench01a.nif",
+    "texture_dir": "textures/rem/golden_bench"
+  }
+}
