@@ -1,0 +1,257 @@
+{
+  "tool": "source_to_fnv/convert_source_static 1.0.0",
+  "job": "O00 Golden Source Bench - models/props_c17/bench01a.mdl",
+  "inputs": {
+    "mdl": {
+      "path": "build/gmod_batch/props_c17__bench01a/src/models/props_c17/bench01a.mdl",
+      "sha256": "8751F7E234A4212016FF93C50C8951ECB793B628819957B06BA1831A899CE846",
+      "match": true
+    },
+    "vvd": {
+      "path": "build/gmod_batch/props_c17__bench01a/src/models/props_c17/bench01a.vvd",
+      "sha256": "BC9AFFE6F4EFC8766FE77961C2BD41748D677432A1E141D6CA7F56AB1E048F7D",
+      "match": true
+    },
+    "vtx": {
+      "path": "build/gmod_batch/props_c17__bench01a/src/models/props_c17/bench01a.dx90.vtx",
+      "sha256": "E651BB00300CFD6F843D8882BFC2FC43813CAAF3D2A6AC350AEBA5496AEDB097",
+      "match": true
+    },
+    "phy": {
+      "path": "build/gmod_batch/props_c17__bench01a/src/models/props_c17/bench01a.phy",
+      "sha256": "0EB277C8A413F1E27E97BF5D9FD872FCB2ED1981064F592645D23F9C4E17E475",
+      "match": true
+    },
+    "qc": {
+      "path": "build/gmod_batch/props_c17__bench01a/decompiled/bench01a.qc",
+      "sha256": "DCFE2C49C592732FB20745A2097B4B60588F6191DCAF15D96CB87055083C7B36",
+      "match": true
+    },
+    "reference_smd": {
+      "path": "build/gmod_batch/props_c17__bench01a/decompiled/bench01a_reference.smd",
+      "sha256": "6E4AB2DB5E4BBFBC348F1DDC5C47519BA96D247CBC500290CA8714F3B9B719E3",
+      "match": true
+    },
+    "physics_smd": {
+      "path": "build/gmod_batch/props_c17__bench01a/decompiled/bench01a_physics.smd",
+      "sha256": "1B903062D35C2B880D828CDA0BF741124BCC0D7CE30573810DCBCD77BD353340",
+      "match": true
+    },
+    "vmt": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/bench/materials/models/props_c17/bench01a.vmt",
+      "sha256": "086AC1E48FBD5531C162005775F84EA2958D892894C24D188951FD00345EBE57",
+      "match": true
+    },
+    "basetexture": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/bench/materials/models/props_c17/bench01a.vtf",
+      "sha256": "8DCB834BD3D7454363D0A3DECC77EE3F2992F6A39CCD9076422E6BD40096E432",
+      "match": true
+    },
+    "envmapmask": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/bench/materials/models/props_c17/bench01a_mask.vtf",
+      "sha256": "E3B3973D40D7EA1C12286121A94BABE6B2DEF2380CE0F2B14F4A3244E233734A",
+      "match": true
+    }
+  },
+  "outputs": {
+    "diffuse": {
+      "path": "textures/rem/golden_bench/bench01a.dds",
+      "sha256": "D7E03C47D66A0C8891BCD0203CA1FA058DBEF837EC4CFD0E5EDC4E512571FF3E",
+      "width": 256,
+      "height": 256,
+      "mips": 9,
+      "format": "A8R8G8B8"
+    },
+    "envmask": {
+      "path": "textures/rem/golden_bench/bench01a_m.dds",
+      "sha256": "F7810AEF38A04AC51C153E69ADB0C787EE153BF78E3867B4F815D0BF440B5D14",
+      "width": 256,
+      "height": 256,
+      "mips": 9,
+      "format": "A8R8G8B8"
+    },
+    "normal": {
+      "path": "textures/rem/golden_bench/bench01a_n.dds",
+      "sha256": "FEFC6E7774271F9CFE61519AC4074360531A6DEA54ADD40F519696CBEC4D61FA",
+      "width": 64,
+      "height": 64,
+      "mips": 7,
+      "format": "A8R8G8B8"
+    },
+    "nif": {
+      "path": "meshes/rem/golden_bench/bench01a.nif",
+      "sha256": "227FAC30D8326B71561B2238DEFFC13B783F889FC3CA6DD09C97E23F127409A2",
+      "bytes": 50611
+    }
+  },
+  "checks": {
+    "model_frame_max_error": 0.3830989063720711
+  },
+  "source": {
+    "qc": {
+      "staticprop": true,
+      "surfaceprop": "wood_furniture",
+      "bbox": [
+        -12.025,
+        -38.104,
+        -19.786,
+        11.667,
+        38.011,
+        19.945
+      ],
+      "concave": true,
+      "maxconvexpieces": 16,
+      "mass": 20.0
+    },
+    "vmt": {
+      "shader": "VertexLitGeneric",
+      "basetexture": "Models/props_c17/bench01a",
+      "envmapmask": "Models/props_c17/bench01a_mask",
+      "envmap": "env_cubemap",
+      "surfaceprop": "wood"
+    },
+    "visual_bounds": [
+      [
+        -37.337799,
+        -11.667101,
+        -19.4555
+      ],
+      [
+        37.337799,
+        11.667102,
+        19.4555
+      ]
+    ],
+    "physics_bounds": [
+      [
+        -37.822601,
+        -11.284002,
+        -19.5046
+      ],
+      [
+        37.729498,
+        11.743902,
+        19.6642
+      ]
+    ],
+    "visual_triangles": 448,
+    "physics_triangles": 180,
+    "mdl_hull": [
+      [
+        -12.025152206420898,
+        -38.103851318359375,
+        -19.785850524902344
+      ],
+      [
+        11.66710090637207,
+        38.01074981689453,
+        19.945449829101562
+      ]
+    ],
+    "physics_bounds_model_frame": [
+      [
+        -11.743902,
+        -37.822601,
+        -19.5046
+      ],
+      [
+        11.284002,
+        37.729498,
+        19.6642
+      ]
+    ]
+  },
+  "fnv": {
+    "visual_bounds": [
+      [
+        -66.3783101630622,
+        -20.7415149259356,
+        0.0
+      ],
+      [
+        66.3783101630622,
+        20.7415131481578,
+        69.17511197580001
+      ]
+    ],
+    "scale": 1.7777778,
+    "z_shift": 34.587555987900004,
+    "seat_height_estimate": 37.0
+  },
+  "collision": {
+    "pieces": 15,
+    "qc_maxconvexpieces": 16,
+    "max_convexity_violation_fnv_units": 4.910784355161013e-06,
+    "havok_material": "MAT_WOOD",
+    "per_piece": [
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      },
+      {
+        "verts": 8,
+        "planes": 6
+      }
+    ]
+  },
+  "obnd": [
+    -67,
+    -21,
+    0,
+    67,
+    21,
+    70
+  ]
+}

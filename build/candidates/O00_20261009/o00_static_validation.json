@@ -1,0 +1,162 @@
+{
+  "validator": "validate_o00_static 1.0.0",
+  "all_pass": true,
+  "checks": {
+    "01_nif_parses": {
+      "pass": true,
+      "detail": {
+        "blocks": 25,
+        "version": "0x14020007"
+      }
+    },
+    "02_hierarchy": {
+      "pass": true,
+      "detail": {
+        "root": "BSFadeNode",
+        "bsx": [
+          2
+        ],
+        "shapes": 1,
+        "collision_targets_root": true
+      }
+    },
+    "03_textures_resolve": {
+      "pass": true,
+      "detail": {
+        "referenced": [
+          "textures\\rem\\golden_bench\\bench01a.dds",
+          "textures\\rem\\golden_bench\\bench01a_n.dds",
+          "textures\\effects\\shinydull_e.dds",
+          "textures\\rem\\golden_bench\\bench01a_m.dds"
+        ],
+        "missing": []
+      }
+    },
+    "04_material_mapping": {
+      "pass": true,
+      "detail": {
+        "shader_flags": [
+          "0x82000081"
+        ],
+        "env_slot": [
+          "textures\\effects\\shinydull_e.dds"
+        ],
+        "envmask_slot": [
+          "textures\\rem\\golden_bench\\bench01a_m.dds"
+        ]
+      }
+    },
+    "05_no_absolute_paths": {
+      "pass": true,
+      "detail": []
+    },
+    "06_size_orientation": {
+      "pass": true,
+      "detail": {
+        "dims_xyz": [
+          132.7566203261244,
+          41.4830280740934,
+          69.17511197580001
+        ],
+        "min_z": 0.0,
+        "seat_height": 37.0,
+        "frame_error": 0.3830989063720711,
+        "note": "long axis on X, faces +Y, base at z=0"
+      }
+    },
+    "07_collision": {
+      "pass": true,
+      "detail": {
+        "pieces": 15,
+        "havok_material_ids": [
+          9
+        ],
+        "expected": "9 = MAT_WOOD",
+        "layer": 1,
+        "motion_system": 7
+      }
+    },
+    "08_source_provenance": {
+      "pass": true,
+      "detail": {
+        "mdl": true,
+        "vvd": true,
+        "vtx": true,
+        "phy": true,
+        "qc": true,
+        "reference_smd": true,
+        "physics_smd": true,
+        "vmt": true,
+        "basetexture": true,
+        "envmapmask": true
+      }
+    },
+    "09_sidecar_records": {
+      "pass": true,
+      "detail": {
+        "records": [
+          [
+            "TES4",
+            null
+          ],
+          [
+            "STAT",
+            "REM_GoldenBench01a"
+          ]
+        ],
+        "groups": [
+          "STAT"
+        ],
+        "model": [
+          "rem\\golden_bench\\bench01a.nif"
+        ]
+      }
+    },
+    "10_protected_unchanged": {
+      "pass": true,
+      "detail": {
+        "FNVGModTHUG2.dll": {
+          "expected": "D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206",
+          "actual": "D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206"
+        },
+        "REM_GModTHUG2.esp": {
+          "expected": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+          "actual": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7"
+        },
+        "main.cpp": {
+          "expected": "4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE",
+          "actual": "4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE"
+        },
+        "skateheldx.nif": {
+          "expected": "1FB3CE190CC0E32D2F06EEC144605CE3E2EB84BE4E3A90A33B227B9639C6D852",
+          "actual": "1FB3CE190CC0E32D2F06EEC144605CE3E2EB84BE4E3A90A33B227B9639C6D852"
+        }
+      }
+    },
+    "11_no_unrelated_outputs": {
+      "pass": true,
+      "detail": {
+        "unexpected": [],
+        "missing": []
+      }
+    },
+    "12_reproducible": {
+      "pass": true,
+      "detail": {
+        "REM_GoldenBench_Test.esp": true,
+        "meshes/rem/golden_bench/bench01a.nif": true,
+        "textures/rem/golden_bench/bench01a.dds": true,
+        "textures/rem/golden_bench/bench01a_m.dds": true,
+        "textures/rem/golden_bench/bench01a_n.dds": true
+      }
+    }
+  },
+  "hashes": {
+    "REM_GoldenBench_Test.esp": "54248A26EA0197882C408075A6F3AE958FD33E63B727ACE72C200E15AECA4CE2",
+    "meshes/rem/golden_bench/bench01a.nif": "227FAC30D8326B71561B2238DEFFC13B783F889FC3CA6DD09C97E23F127409A2",
+    "o00_conversion_report.json": "B39E4FBBF5A4368902A52C0094043892F93AF82EB6705F2CCDBB637B7992DD18",
+    "textures/rem/golden_bench/bench01a.dds": "D7E03C47D66A0C8891BCD0203CA1FA058DBEF837EC4CFD0E5EDC4E512571FF3E",
+    "textures/rem/golden_bench/bench01a_m.dds": "F7810AEF38A04AC51C153E69ADB0C787EE153BF78E3867B4F815D0BF440B5D14",
+    "textures/rem/golden_bench/bench01a_n.dds": "FEFC6E7774271F9CFE61519AC4074360531A6DEA54ADD40F519696CBEC4D61FA"
+  }
+}

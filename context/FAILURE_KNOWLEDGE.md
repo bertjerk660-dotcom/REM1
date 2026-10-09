@@ -49,3 +49,25 @@ Durable rule: do not equate successful mode switching with successful THUG2 runt
 ## F012 - Current GMod prop menu is a placeholder
 Human playtest reports the current GMod-style prop menu appears visually correct.
 Durable rule: this is explicitly a placeholder and is not evidence that the real GMod Q menu has been ported. Final acceptance still requires the source-faithful GMod Q/spawn-menu implementation, tool-state bridge and associated behavior.
+
+## F013 - Decompiled Source static-prop SMDs are in a rotated frame
+Symptom: first O00 conversion put the bench's long axis on FNV +Y (forward) instead of X. The Crowbar SMD long axis was X (+/-37.3) while the QC/`.mdl` hull long axis was Y (+/-38.1).
+Cause: studiomdl rotates `$staticprop` geometry 90 deg about +Z when compiling; the decompiled SMD is in the pre-rotation frame. Proven by mapping the physics SMD with model = (-smd_y, smd_x, z) and matching the hull in the `.mdl` header (offset 0x68) to within 0.38 units (studiomdl padding, even on all sides).
+Fix: `research/source_to_fnv/convert_source_static.py` applies SMD -> model -> FNV explicitly and refuses to convert if the model-frame check exceeds 0.6 units.
+Rule: never infer prop orientation from SMD axes alone; verify against the compiled `.mdl` hull. Weapon models (O01/O08) are not `$staticprop` and must be re-verified, not assumed to share this rotation.
+
+## F014 - pyffi 2.2.3 writes non-reproducible / mis-flagged NIF headers
+Symptoms: (a) first NIF failed to read back ("string too long") because the header endian byte was 0 (big) while data was little-endian; (b) two identical runs differed by 20 bytes in the header string table.
+Cause: (a) `NifFormat.Data()` defaults the header endian flag to 0; (b) pyffi builds the string table from a set, whose order follows Python's per-process string hash seed.
+Fix: set `data.header.endian_type = 1`; converter re-executes itself with `PYTHONHASHSEED=0`; read-back gate and an independent rerun check (validator check 12) now catch both.
+Rule: any project tool that writes NIFs with pyffi must set the endian flag, pin the hash seed and read the file back.
+
+## F015 - Legacy GMod prop converter defects (confirmed in source)
+`research/convert_gmod_props.py` + `research/blender_prop_worker.py` (local workspace, 2026-10-05):
+- `$surfaceprop` not in its table silently becomes `FO_HAV_MAT_METAL` (`Wood_Furniture` -> metal);
+- `parse_vmt` reads only `$basetexture`/`$bumpmap`, so `$envmapmask` is dropped;
+- one convex hull per prop, which fills open space (bench underside) with invisible collision;
+- BSX flags 3 (animated + Havok) on statics, where vanilla uses 2;
+- writes straight into the live game `Data` folder;
+- ignores the F013 frame rotation.
+Status: superseded for golden/weapon work by `research/source_to_fnv`. The legacy tool and its 5,655 earlier outputs are unchanged; outputs from it are not golden evidence.

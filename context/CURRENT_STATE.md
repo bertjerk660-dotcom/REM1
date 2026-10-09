@@ -202,3 +202,15 @@ Full details and hashes: `context/HANDOFFS/NORMAL_GPT_PRE_OPUS_LIVE_AUDIT_2026-1
 `prep/gmod-research-intake-20261009` selectively integrates the October 8 source-grounded GMod UI/Physgun specialist contract, research index and partial-status manifest from the diverged `research/gmod-ui-physgun-20261008` branch. The integrated content describes direct Lua checks and existing native evidence; it makes **no claim of new IDA Pro 6.8 execution**, runtime implementation or GMod parity. C01/C02/C03 remain PARTIAL and O02/O03/O04 remain blocked until Codex returns implementation-grade evidence and normal GPT reviews the original stop conditions. Research intake and provenance: `build/prepared/gmod_research_selective_intake_20261009.json`.
 
 A new focused Codex evidence-only kickoff document is at `context/HANDOFFS/NEXT_CODEX_GMOD_C01_C03_KICKOFF_2026-10-09.md`. This is a **prepared request**, not proof it has been submitted or executed. Preparation readiness remains **81/100**. No game files were edited or runtime candidates promoted during this GitHub documentation reconciliation.
+
+## 2026-10-09 O00 Golden Source Bench - FROZEN, WAITING FOR CODEX VALIDATION
+
+Implementation branch `implementation/opus-o00-golden-bench-20261009`, parent `ba35ebe` (prep/gmod-research-intake-20261009), base merge `5cbe1be` (adds prep/opus-ready-20261007), tooling commit `94206ab`.
+
+- New pipeline `research/source_to_fnv` converts the original HL2 bench01a (448 tris, 15 convex collision solids) with all 10 source hashes verified.
+- Static gates: 12/12 PASS, including byte-identical rerun. Freeze validation: PASS, 0 errors.
+- Candidate manifest: `builds/O00_golden_bench_candidate_20261009.json`. Reports: `build/candidates/O00_20261009/`.
+- Deployed to the live game as new files only: `meshes/rem/golden_bench/bench01a.nif`, `textures/rem/golden_bench/bench01a{,_m,_n}.dds`, `REM_GoldenBench_Test.esp`. The sidecar is **not** in plugins.txt (default load order unchanged).
+- Protected files re-hashed after deploy and unchanged: FNVGModTHUG2.dll D6C88816..., REM_GModTHUG2.esp 0A81B429..., main.cpp 4517D804..., skateheldx.nif 1FB3CE19....
+- Runtime status: **not run**. O00 is not PASS until Codex returns a PASS on O00-R1..R7. O01/O08 stay READY AFTER O00 PASS.
+- New failure knowledge: F013 (SMD frame rotation), F014 (pyffi header), F015 (legacy converter defects).

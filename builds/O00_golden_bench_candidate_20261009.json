@@ -1,0 +1,154 @@
+{
+  "schema": "rem.opus_implementation_candidate.v1",
+  "package_id": "O00",
+  "package_name": "Golden Source Bench Conversion Proof",
+  "goal": "Prove the isolated Source/HL2 -> Fallout visual/material/collision conversion pipeline before weapon presentation conversion.",
+  "owner": "Claude Opus",
+  "preparation_branch": "prep/gmod-research-intake-20261009 (+ merged prep/opus-ready-20261007)",
+  "parent_branch": "prep/gmod-research-intake-20261009",
+  "parent_commit": "ba35ebe4402cba7482ff1a735494e3de469aa4ae",
+  "implementation_branch": "implementation/opus-o00-golden-bench-20261009",
+  "implementation_commit": "94206ab77cbb7304d8a2ec32022b91cc92071587",
+  "source_identity": {
+    "main_source_path": "models/props_c17/bench01a.mdl",
+    "main_source_sha256": "8751F7E234A4212016FF93C50C8951ECB793B628819957B06BA1831A899CE846",
+    "required_evidence_commits": [],
+    "required_provenance_files": [
+      "context/HANDOFFS/OPUS_O00_GOLDEN_BENCH_2026-10-07.md",
+      "build/prepared/opus_o00_golden_bench_20261007.json",
+      "build/validation/opus_visual_source_validation_20261007.json"
+    ]
+  },
+  "inputs": {
+    "codex_evidence": [],
+    "asset_packets": [
+      "build/prepared/opus_o00_golden_bench_20261007.json"
+    ],
+    "failure_knowledge": [
+      "historical bench01a_mask.vtf omission",
+      "historical Wood_Furniture -> Fallout metal Havok fallback"
+    ],
+    "acceptance_rows": [
+      "O00 visibility/material",
+      "O00 scale/orientation/placement",
+      "O00 collision",
+      "O00 save/load",
+      "Fallout baseline regression"
+    ],
+    "preserved_working_behavior": [
+      "main REM_GModTHUG2.esp unchanged",
+      "main NVSE DLL unchanged",
+      "normal Fallout baseline",
+      "runtime candidates remain quarantined"
+    ]
+  },
+  "changes": [
+    "New reusable pipeline research/source_to_fnv (converter, sidecar writer, 12-check validator, preview renderer, BSA/NIF readers).",
+    "bench01a converted from original SMD/QC/VMT/VTF: 448 tris, 1 material group, UV v-flip, SMD->model->FNV frame chain verified against .mdl hull (err 0.38).",
+    "Scale 1.7778 (inch -> FNV unit); base origin at z=0; faces +Y.",
+    "Materials: original base texture -> bench01a.dds; original bench01a_mask.vtf -> bench01a_m.dds (env mask, slot 5); shinydull_e.dds cubemap (slot 4); flat normal map; shader flags 0x82000081 from vanilla env-masked static.",
+    "Collision: 15 bhkConvexVerticesShape (Source convex solids) in bhkListShape, HAV_MAT_WOOD (9) from Wood_Furniture; rigid body settings from vanilla fixed static (layer OL_STATIC, motion 7).",
+    "Sidecar REM_GoldenBench_Test.esp: one STAT REM_GoldenBench01a (local FormID 0x000800), master FalloutNV.esm only. Deployed to Data but NOT enabled in plugins.txt."
+  ],
+  "outputs": {
+    "dlls": [],
+    "esps": [
+      {
+        "path": "Data/REM_GoldenBench_Test.esp",
+        "sha256": "54248A26EA0197882C408075A6F3AE958FD33E63B727ACE72C200E15AECA4CE2"
+      }
+    ],
+    "meshes": [
+      {
+        "path": "Data/meshes/rem/golden_bench/bench01a.nif",
+        "sha256": "227FAC30D8326B71561B2238DEFFC13B783F889FC3CA6DD09C97E23F127409A2"
+      }
+    ],
+    "textures": [
+      {
+        "path": "Data/textures/rem/golden_bench/bench01a.dds",
+        "sha256": "D7E03C47D66A0C8891BCD0203CA1FA058DBEF837EC4CFD0E5EDC4E512571FF3E"
+      },
+      {
+        "path": "Data/textures/rem/golden_bench/bench01a_m.dds",
+        "sha256": "F7810AEF38A04AC51C153E69ADB0C787EE153BF78E3867B4F815D0BF440B5D14"
+      },
+      {
+        "path": "Data/textures/rem/golden_bench/bench01a_n.dds",
+        "sha256": "FEFC6E7774271F9CFE61519AC4074360531A6DEA54ADD40F519696CBEC4D61FA"
+      }
+    ],
+    "audio": [],
+    "ui": [],
+    "other": [
+      {
+        "path": "build/candidates/O00_20261009/o00_static_validation.json",
+        "sha256": "F25AF5445BF3E31345F44785CAA6D3491C443D28FE1D4A8803B9AA0227403133"
+      },
+      {
+        "path": "build/candidates/O00_20261009/o00_conversion_report.json",
+        "sha256": "B39E4FBBF5A4368902A52C0094043892F93AF82EB6705F2CCDBB637B7992DD18"
+      }
+    ]
+  },
+  "runtime_identity": {
+    "plugins_txt": [
+      "FalloutNV.esm",
+      "REM_GModTHUG2.esp",
+      "REM_GoldenBench_Test.esp"
+    ],
+    "loadorder_txt": [
+      "FalloutNV.esm",
+      "REM_GModTHUG2.esp",
+      "REM_GoldenBench_Test.esp"
+    ],
+    "plugins_txt_default_unchanged": [
+      "FalloutNV.esm",
+      "REM_GModTHUG2.esp"
+    ],
+    "note_loadorder_txt": "Live loadorder.txt still lists REM_CombineArmor_Test_TorsoLowered.esp and REM_Goodsprings_CombineDeathclawEncounter.esp (inactive; plugins.txt governs activation). Not changed by O00.",
+    "note_nvse_sidecar_dll": "REMGoodspringsResponse.dll is present in Data/NVSE/Plugins and loads regardless of plugins.txt. Not changed by O00; Codex should record whether it was present during the test.",
+    "test_save": "Save 22   Glerb  Hidden Valley  00 34 52.fos (use a disposable COPY; original sha256 82E0A578D4D7609E32871429A74F501946B303FCC66EB0DC453A537D25E29DDB)",
+    "test_location": "Hidden Valley exterior at the save position. Spawn: open console, run 'player.placeatme 02000800 1' (02 = sidecar index with the declared load order; adjust if the index differs).",
+    "required_inventory": [],
+    "required_mode_state": "NORMAL_FALLOUT with isolated O00 sidecar enabled"
+  },
+  "validation": {
+    "build": "pass (converter + sidecar writer; NIF read-back gate)",
+    "static": "pass 12/12 (research/source_to_fnv/validate_o00_static.py)",
+    "asset_reference_resolution": "pass (all 5 texture slots resolve: 3 staged/deployed, 1 vanilla BSA cubemap, 1 empty glow/parallax by design)",
+    "reproducibility": "pass (independent rerun: NIF, 3 DDS, ESP byte-identical)",
+    "visual_preview": "software render reviewed: textured, faces +Y, long axis X, no UV flip",
+    "runtime_owner": "Codex",
+    "runtime_test_pack": "context/HANDOFFS/CODEX_O00_GOLDEN_BENCH_RUNTIME_VALIDATION_2026-10-07.md",
+    "runtime_status": "not_run",
+    "regression_status": "not_run",
+    "human_playability_status": "not_run"
+  },
+  "known_issues": [
+    "Env map: Source uses a per-map env_cubemap; FNV statics use shared cubemaps, so shinydull_e.dds is used. Reflection tint will differ slightly (engine-driven).",
+    "Normal map is flat (Source material has no bump/phong). Surface relief is geometric only, as in Source.",
+    "Collision convex radius 0.1 Havok units (~0.7 game units) on top of Source's own ~0.4-unit physics padding; expected contact offset ~1 unit.",
+    "No vertex colours: Source static-prop lighting is baked per map, not stored in the model. Bench is lit dynamically in FNV.",
+    "Seat height ~37 FNV units vs ~32 on vanilla museum bench; credible but Codex should judge it against the player.",
+    "Not tested in game yet. Static gates only."
+  ],
+  "rollback": {
+    "backup_paths": [],
+    "backup_note": "No existing file was overwritten; all outputs are new paths. Rollback = delete them (build/candidates/O00_20261009/ROLLBACK_O00.ps1).",
+    "rollback_script": "build/candidates/O00_20261009/ROLLBACK_O00.ps1",
+    "previous_hashes": {
+      "FNVGModTHUG2.dll": "D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206",
+      "REM_GModTHUG2.esp": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+      "main.cpp": "4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE",
+      "skateheldx.nif": "1FB3CE190CC0E32D2F06EEC144605CE3E2EB84BE4E3A90A33B227B9639C6D852"
+    },
+    "revert_commit": "5cbe1bea933ad4aa1bf078241e81a83768c95aa2"
+  },
+  "promotion": {
+    "canonical_state_updated": false,
+    "reason": "Do not promote until Codex O00 runtime/regression gates pass."
+  },
+  "implementation_base_merge_commit": "5cbe1bea933ad4aa1bf078241e81a83768c95aa2",
+  "frozen": "2026-10-09"
+}
