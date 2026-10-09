@@ -61,3 +61,17 @@ Current dispatch remains:
 Opus may use the D-009A investigation exception only when a narrow evidence gap is necessary to unblock its own implementation.
 
 The broader routing proposed in `prep/haiku-findings-20261007` is retained as historical findings and does not supersede D-009/D-009A unless the project owner later gives an explicit new directive.
+
+
+## D-012 Standalone Bevy/Rust successor alongside legacy NVSE edition
+Accepted by project owner: 2026-10-09.
+
+The product now has **two distinct editions during migration**:
+1. `legacy-fnv`: the historical Fallout: New Vegas host/NVSE merge; preserve code, deployed runtime, saves, hashes, rollback, and historical tests unchanged as reference/fallback.
+2. `bevy-standalone`: the future primary standalone Bevy/Rust game, implementing a coherent Fallout-world, GMod systems and THUG2 skating crossbreed without requiring FalloutNV.exe or NVSE to run.
+
+Bevy must **coexist as a separate edition** until its functionality, playability, stability, asset provenance, regression checks and human validation establish an acceptable replacement. Future development should prioritize Bevy; the legacy edition will **likely** be discontinued later, but is **not discontinued or deleted** by this decision. Record explicit cutover criteria and owner review before any discontinuation or destructive cleanup.
+
+Do not silently reinterpret historical context/GOAL.md or context/ARCHITECTURE.md references to 'Fallout is the host' as the Bevy goal. Those documents record the legacy design. Create a versioned Bevy architecture/goal and progress status. Preserve candidate/legacy branch isolation. Claude Opus remains the substantive implementation owner; Codex is default investigation/independent validation, with D-009A narrow Opus investigation exception using IDA Pro 6.8. New edition lives on an isolated engine branch with separate build manifests and reproducible Cargo toolchain.
+
+Reference: `context/HANDOFFS/OPUS_BEVY_STANDALONE_SUCCESSOR_2026-10-09.md` on `prep/bevy-opus-handoff-20261009`.
