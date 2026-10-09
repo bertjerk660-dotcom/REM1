@@ -1,0 +1,411 @@
+{
+  "tool": "source_to_fnv/convert_source_weapon 1.1.0",
+  "job": "O01 Tool Gun presentation - models/weapons/w_toolgun.mdl + c_toolgun.mdl",
+  "inputs": {
+    "w_ref_smd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_toolgun/decompiled/HL2DM_toolgun_reference.smd",
+      "sha256": "140DA4E21173DD40BA2FBF22A6A66BBA14E59204229EF08F0F459DA232448924",
+      "match": true
+    },
+    "w_phy_smd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_toolgun/decompiled/w_toolgun_physics.smd",
+      "sha256": "3AFFB83DF1803914B69D81560976BC58179320F3D0E923477AD4F8549ED05750",
+      "match": true
+    },
+    "w_qc": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_toolgun/decompiled/w_toolgun.qc",
+      "sha256": "3242A2B449BC868FF9EEB92D70193EF7A19A76054BFCE4C6EDF16F714F262CDC",
+      "match": true
+    },
+    "w_mdl": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_toolgun/src/models/weapons/w_toolgun.mdl",
+      "sha256": "19D169CCEF78F358B44E7CAA8CDF3873EEA3FBD21864F70F86E23CE1106B2703",
+      "match": true
+    },
+    "w_vvd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_toolgun/src/models/weapons/w_toolgun.vvd",
+      "sha256": "EE8CFAE44FF4BB7A6F83C77DC5F1AA077AA11EDC4ED163B3A715DC8B9CC909C6",
+      "match": true
+    },
+    "w_vtx": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_toolgun/src/models/weapons/w_toolgun.dx90.vtx",
+      "sha256": "4F43009DCE55EDF1BDBE76EC46E8A0F5FB87EB70CC651E66902B5E051A01A55E",
+      "match": true
+    },
+    "c_ref_smd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_toolgun/decompiled/toolgun_ref.smd",
+      "sha256": "6ECC49B65BB19AB8B4831D3CB318DB353D65C07F1B40BB004E73FC22A8401B98",
+      "match": true
+    },
+    "c_qc": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_toolgun/decompiled/c_toolgun.qc",
+      "sha256": "C6259150D8048F0379B6298A627E2CB7A7D392071992280CBF80AECE50022AD6",
+      "match": true
+    },
+    "c_mdl": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_toolgun/src/models/weapons/c_toolgun.mdl",
+      "sha256": "992ED7A5ED4996B89C59FF656D93981FBA53B06B2E7A478EA52E0D7309E8CC79",
+      "match": true
+    },
+    "c_vvd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_toolgun/src/models/weapons/c_toolgun.vvd",
+      "sha256": "D3F469510B6C5B0F1979254B477BA66F228EEA01240FE97DB22AB97D57429580",
+      "match": true
+    },
+    "c_vtx": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_toolgun/src/models/weapons/c_toolgun.dx90.vtx",
+      "sha256": "9A814D307A9874BBD3B3CF92BEC93069780898203783F80ABD20DEAFA9FAB6DA",
+      "match": true
+    },
+    "vmt_screen": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/screen.vmt",
+      "sha256": "CCED67B3CB3B2C569E06B3E647007F3D9B97BD8F1B5A56FD23303621F080B524",
+      "match": true
+    },
+    "vmt_toolgun": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun.vmt",
+      "sha256": "42B467C7C4780CA0C0644A13ABD460103B54A42FB5ADF483571C345A918C6D51",
+      "match": true
+    },
+    "vmt_toolgun2": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun2.vmt",
+      "sha256": "DC5CAF8D985C6838E789C7367CD52C10F7ECFD81B5F5CC135B5E6373589D4B9D",
+      "match": true
+    },
+    "vmt_toolgun3": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun3.vmt",
+      "sha256": "BA5BE27F9B638A00A02B760A2515C443665C1E85390ADF468EA19C30E503EEF4",
+      "match": true
+    },
+    "vtf_screen_bg": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/screen_bg.vtf",
+      "sha256": "6D106B4B9122199B217788A2567A49E29F3B45DEEF5F22EE237578E899346590",
+      "match": true
+    },
+    "vtf_toolgun": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun.vtf",
+      "sha256": "A485F39B2F6D413A432F92180F14E7F1ED3A28A0D42C3A1FEA387000056D2270",
+      "match": true
+    },
+    "vtf_toolgun_mask": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun_mask.vtf",
+      "sha256": "DD465F46D3F8D9775ABD19A00998F9A4FA2D79ADA88EB16B0FFB1D3CEB24DB97",
+      "match": true
+    },
+    "vtf_toolgun2": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun2.vtf",
+      "sha256": "897B1D2FFF6BF58D8FC759852D673327B7A303FCD2E73F7B0F58754069651312",
+      "match": true
+    },
+    "vtf_toolgun2_mask": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun2_mask.vtf",
+      "sha256": "6F9FFFD6A1117A54C4E83D40E98185C6BD45F4790CE470DBBE705274B68FF0E6",
+      "match": true
+    },
+    "vtf_toolgun3": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun3.vtf",
+      "sha256": "55F393A55C9060519FDBB521700BF94A50E152BC7469C235EA54B10A70FFDFBC",
+      "match": true
+    },
+    "vtf_toolgun3_mask": {
+      "path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun3_mask.vtf",
+      "sha256": "B2F6720F3CD1060429D34670309BE5BAF501098B498E008F1431EE713E575B8D",
+      "match": true
+    }
+  },
+  "outputs": {
+    "flat_normal": {
+      "path": "textures/rem/gmod/weapons/toolgun/toolgun_flat_n.dds",
+      "width": 64,
+      "height": 64,
+      "mips": 7,
+      "format": "A8R8G8B8",
+      "sha256": "FEFC6E7774271F9CFE61519AC4074360531A6DEA54ADD40F519696CBEC4D61FA"
+    },
+    "tex:screen.dds": {
+      "path": "textures/rem/gmod/weapons/toolgun/screen.dds",
+      "sha256": "CDF6F802A16760E25F2943B76A40FF67BCF87D8DCFB2EDA3B2F170FAF9B54927"
+    },
+    "tex:screen_g.dds": {
+      "path": "textures/rem/gmod/weapons/toolgun/screen_g.dds",
+      "sha256": "CDF6F802A16760E25F2943B76A40FF67BCF87D8DCFB2EDA3B2F170FAF9B54927"
+    },
+    "tex:toolgun.dds": {
+      "path": "textures/rem/gmod/weapons/toolgun/toolgun.dds",
+      "sha256": "8B81E107F54844BDCF403CFEDBDA4B09F922D04838CB51738176F0D9D184415B"
+    },
+    "tex:toolgun2.dds": {
+      "path": "textures/rem/gmod/weapons/toolgun/toolgun2.dds",
+      "sha256": "D237AE11CD72682297CD51311088F81D4E140C52D0355E9E9E2CC7330BC59B1F"
+    },
+    "tex:toolgun2_g.dds": {
+      "path": "textures/rem/gmod/weapons/toolgun/toolgun2_g.dds",
+      "sha256": "DBAB99F143BDD40DC831139BE9883FA524426F26A4EF13F3C3A2EA1EA8EAB354"
+    },
+    "tex:toolgun2_m.dds": {
+      "path": "textures/rem/gmod/weapons/toolgun/toolgun2_m.dds",
+      "sha256": "BD48A5527328A4EF71BF3196C9BD69F51B6D96100EC07CADFE216C0A2F4C9010"
+    },
+    "tex:toolgun3.dds": {
+      "path": "textures/rem/gmod/weapons/toolgun/toolgun3.dds",
+      "sha256": "BB4A3A145DF932EED3E56879F8852D2E7DE5381981417354732C80E4DB0807A6"
+    },
+    "tex:toolgun3_g.dds": {
+      "path": "textures/rem/gmod/weapons/toolgun/toolgun3_g.dds",
+      "sha256": "D6E977B1FED5DF25D6FAC391202FFC7E69949E088EB9822D591D6054B632D12F"
+    },
+    "tex:toolgun3_m.dds": {
+      "path": "textures/rem/gmod/weapons/toolgun/toolgun3_m.dds",
+      "sha256": "E8CC699B0CA7A00099EF7DD0E9E6BED8038AF184A9FE333409C5E827414B84B6"
+    },
+    "tex:toolgun_flat_n.dds": {
+      "path": "textures/rem/gmod/weapons/toolgun/toolgun_flat_n.dds",
+      "sha256": "FEFC6E7774271F9CFE61519AC4074360531A6DEA54ADD40F519696CBEC4D61FA"
+    },
+    "tex:toolgun_m.dds": {
+      "path": "textures/rem/gmod/weapons/toolgun/toolgun_m.dds",
+      "sha256": "87836FD93587A7E55868E3E008E9D195262760AD88206DA63F8D6048892F648D"
+    },
+    "world": {
+      "path": "meshes/rem/gmod/weapons/toolgun/w_toolgun.nif",
+      "sha256": "632A4854F4523106F8DE9FED63FB029DBA84B9381587EB2FFAFB23B656F822EA",
+      "bytes": 239973,
+      "bounds": [
+        [
+          0.4098504160240748,
+          -4.285649425701435,
+          -1.9196787861186482
+        ],
+        [
+          26.42424874202704,
+          12.952016863326842,
+          5.889573193866231
+        ]
+      ],
+      "shapes": {
+        "screen": [
+          4,
+          2
+        ],
+        "toolgun": [
+          1673,
+          2242
+        ],
+        "toolgun2": [
+          1090,
+          1630
+        ],
+        "toolgun3": [
+          911,
+          1088
+        ],
+        "mass_inertia": "computed by pyffi"
+      }
+    },
+    "view": {
+      "path": "meshes/rem/gmod/weapons/toolgun/c_toolgun.nif",
+      "sha256": "451DB48265CAF2088443B98FE376275265D4E67614880F5179DB002A0BFA1426",
+      "bytes": 310311,
+      "bounds": [
+        [
+          0.4098739560932314,
+          -4.285583690232792,
+          -1.9196242202731884
+        ],
+        [
+          26.424282277853642,
+          12.952083402659483,
+          5.8896182037174825
+        ]
+      ],
+      "shapes": {
+        "screen": [
+          4,
+          2
+        ],
+        "toolgun": [
+          2185,
+          2242
+        ],
+        "toolgun2": [
+          1388,
+          1634
+        ],
+        "toolgun3": [
+          1385,
+          1092
+        ]
+      }
+    }
+  },
+  "checks": {},
+  "grip": {
+    "vanilla_10mm_grip_bottom": [
+      2.7969009625119763,
+      -3.0588708507431135,
+      0.18632845226284508
+    ],
+    "toolgun_grip_bottom_before": [
+      3.7795433563415073,
+      -1.6032287076881366,
+      -2.46516483094035
+    ],
+    "offset_fnv": [
+      -0.982642393829531,
+      -1.4556421430549769,
+      2.651493283203195
+    ],
+    "samples": [
+      143,
+      138
+    ]
+  },
+  "view_registration": {
+    "scale": 1.0971399459181486,
+    "R": [
+      [
+        0.012319572408508117,
+        2.1401991223690686e-07,
+        0.9999241111882571
+      ],
+      [
+        -0.997549881784935,
+        0.06887076106993362,
+        0.012290305956749126
+      ],
+      [
+        -0.06886553191934208,
+        -0.9976255902239088,
+        0.000848671823368119
+      ]
+    ],
+    "t": [
+      1.9073373084712326,
+      -1.1174672788812967,
+      -0.4627673309673441
+    ],
+    "iterations": 7,
+    "rms_trimmed": 4.723931715806066e-05,
+    "matched": 2600,
+    "median": 4.9040065601009676e-05,
+    "p95": 6.91745105958968e-05,
+    "within_0.01": 1.0,
+    "within_0.05": 1.0,
+    "unmatched_beyond_search": 0
+  },
+  "materials": {
+    "toolgun": {
+      "vmt": {
+        "shader": "VertexLitGeneric",
+        "basetexture": "models/weapons/v_toolgun/toolgun",
+        "envmap": "env_cubemap",
+        "envmapmask": "models/weapons/v_toolgun/toolgun_mask",
+        "envmaptint": "[0.15 0.15 0.20]",
+        "model": "1",
+        "phong": "1",
+        "phongboost": "1",
+        "phongfresnelranges": "[1 3 8]",
+        "phongexponenttexture": "models/weapons/v_toolgun/toolgun_exp"
+      },
+      "envmask": {
+        "path": "textures/rem/gmod/weapons/toolgun/toolgun_m.dds",
+        "tint_scale": 0.16666666666666666
+      },
+      "slots": [
+        "textures\\rem\\gmod\\weapons\\toolgun\\toolgun.dds",
+        "textures\\rem\\gmod\\weapons\\toolgun\\toolgun_flat_n.dds",
+        "",
+        "",
+        "textures\\effects\\shinybright_e.dds",
+        "textures\\rem\\gmod\\weapons\\toolgun\\toolgun_m.dds"
+      ],
+      "shader_flags": "0x82000181"
+    },
+    "toolgun2": {
+      "vmt": {
+        "shader": "VertexLitGeneric",
+        "basetexture": "models/weapons/v_toolgun/toolgun2",
+        "selfillum": "1",
+        "model": "1",
+        "envmapmask": "models/weapons/v_toolgun/toolgun2_mask",
+        "envmap": "env_cubemap",
+        "envmapcontrast": "0.9",
+        "envmaptint": "[0.6 0.6 0.6]",
+        "phong": "1",
+        "phongboost": "1",
+        "phongfresnelranges": "[1 5 15]",
+        "phongexponent": "90"
+      },
+      "glow": "textures/rem/gmod/weapons/toolgun/toolgun2_g.dds",
+      "envmask": {
+        "path": "textures/rem/gmod/weapons/toolgun/toolgun2_m.dds",
+        "tint_scale": 0.6
+      },
+      "slots": [
+        "textures\\rem\\gmod\\weapons\\toolgun\\toolgun2.dds",
+        "textures\\rem\\gmod\\weapons\\toolgun\\toolgun_flat_n.dds",
+        "textures\\rem\\gmod\\weapons\\toolgun\\toolgun2_g.dds",
+        "",
+        "textures\\effects\\shinybright_e.dds",
+        "textures\\rem\\gmod\\weapons\\toolgun\\toolgun2_m.dds"
+      ],
+      "shader_flags": "0x82000081"
+    },
+    "toolgun3": {
+      "vmt": {
+        "shader": "VertexLitGeneric",
+        "basetexture": "models/weapons/v_toolgun/toolgun3",
+        "selfillum": "1",
+        "model": "1",
+        "envmapmask": "models/weapons/v_toolgun/toolgun3_mask",
+        "envmap": "env_cubemap",
+        "envmapcontrast": "0.9",
+        "envmaptint": "[0.3 0.3 0.3]",
+        "phong": "1",
+        "phongboost": "1",
+        "phongfresnelranges": "[0.1 0.9 3]",
+        "phongexponenttexture": "models/weapons/v_toolgun/toolgun3_exp"
+      },
+      "glow": "textures/rem/gmod/weapons/toolgun/toolgun3_g.dds",
+      "envmask": {
+        "path": "textures/rem/gmod/weapons/toolgun/toolgun3_m.dds",
+        "tint_scale": 0.3
+      },
+      "slots": [
+        "textures\\rem\\gmod\\weapons\\toolgun\\toolgun3.dds",
+        "textures\\rem\\gmod\\weapons\\toolgun\\toolgun_flat_n.dds",
+        "textures\\rem\\gmod\\weapons\\toolgun\\toolgun3_g.dds",
+        "",
+        "textures\\effects\\shinybright_e.dds",
+        "textures\\rem\\gmod\\weapons\\toolgun\\toolgun3_m.dds"
+      ],
+      "shader_flags": "0x82000081"
+    },
+    "screen": {
+      "vmt": {
+        "shader": "UnLitGeneric",
+        "model": "1",
+        "basetexture": "models/weapons/v_toolgun/screen_bg"
+      },
+      "glow": "textures/rem/gmod/weapons/toolgun/screen_g.dds",
+      "slots": [
+        "textures\\rem\\gmod\\weapons\\toolgun\\screen.dds",
+        "textures\\rem\\gmod\\weapons\\toolgun\\toolgun_flat_n.dds",
+        "textures\\rem\\gmod\\weapons\\toolgun\\screen_g.dds",
+        "",
+        "",
+        ""
+      ],
+      "shader_flags": "0x82000001"
+    }
+  },
+  "collision": {
+    "pieces": 1,
+    "max_convexity_violation": 5.557491168151074e-06
+  },
+  "muzzle_fnv": [
+    27.19354309978724,
+    6.328658227892755,
+    1.1137119649440796
+  ]
+}

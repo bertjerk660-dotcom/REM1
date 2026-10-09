@@ -78,3 +78,20 @@ Status: superseded for golden/weapon work by `research/source_to_fnv`. The legac
 - GDI screen capture needs windowed mode; exclusive fullscreen captures black. Back up FalloutPrefs.ini, set `bFull Screen=0`, restore after.
 - Console `load` needs a save name without spaces/quotes (keyboard-layout dependent); copy the test save to a simple name such as `O00Test.fos`.
 - Long sleeps inside one remote PowerShell call stall output; keep each call short and poll for result files.
+
+## F017 - VTFCmd TGA export drops DXT5 alpha
+Symptom: O01 glow maps covered 100% of toolgun2/toolgun3 (whole parts would glow). The exported TGAs had alpha 255 everywhere.
+Cause: `VTFCmd -exportformat tga` writes a 32-bit TGA but fills alpha with 255 for DXT5 sources. Decoding the original DXT5 blocks directly showed real masks (alpha down to 0; ~0.8% / 5.7% glowing).
+Fix: `research/source_to_fnv/vtf_decode.py` (pure Python DXT1/DXT5/BGRA). RGB is pixel-identical to VTFCmd on all 7 Tool Gun textures; alpha is preserved. The O01 validator checks glow coverage follows the mask.
+Rule: never take alpha (selfillum, phong mask, translucency, alpha test) from VTFCmd TGA output. O00 was unaffected (DXT1 base, RGB mask).
+
+## F018 - DLL identifies GMod weapons by world-model path
+Symptom: O01 sidecar overriding the Tool Gun WEAP model path crashed the game on load (c0000005, FalloutNV.exe offset 0x00D0C9D8), right after the DLL processed the GMod Camera.
+Cause: `FindExistingGModWeaponForm` (main.cpp) matches by FULL name AND the world NIF path hard-coded in `gmod_weapon_defs.inc`. A changed MODL makes the match fail, so `EnsureGModWeaponForms` takes its runtime `CloneForm` path (F001 class).
+Proof: identical candidate with the WEAP left untouched (STAT-only override) loads cleanly; log shows all 14 GMod weapons reused.
+Rule: do not change the world model path of any GMod WEAP until the DLL identifies GMod weapons by EDID/FormID. First-person (WNAM STAT) model paths are not checked and can be overridden safely.
+
+## F019 - DLL build menu reads keys while the console is open
+Symptom: during O01 testing, typing console commands containing "q" toggled the GMod build/spawn menu, and console Enter presses spawned props.
+Cause: the DLL polls `GetAsyncKeyState('Q')`, `VK_F2`, `VK_RETURN` etc. globally, without checking whether the console or another menu owns input.
+Status: existing defect, not introduced by O01. Relevant to input ownership (C01 / O02). Test harness workaround: avoid console text containing q, or close the menu with Q afterwards.

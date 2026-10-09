@@ -142,9 +142,11 @@ def main():
         changed = [t for (t, x), (u, y) in zip(a_s, b_s) if t != u or x != y]
         diffs[o["formid"]] = {"changed": changed, "dropped": o.get("drop", []), "same_count": len(a_s) == len(b_s),
                               "header_flags_same": orig[key][0][8:12] == side[key][0][8:12]}
-    ok9 = keys == ["STAT:01000834", "WEAP:01000803"] and all(
+    want = sorted(f"{o['type']}:{int(o['formid'], 16):08X}" for o in spec["overrides"])
+    ok9 = keys == want and "WEAP:01000803" not in keys and all(
         set(d["changed"]) <= {"MODL", "OBND"} and d["same_count"] and d["header_flags_same"] for d in diffs.values())
-    chk(9, "sidecar_overrides_only", ok9, {"records": keys, "per_record": diffs})
+    chk(9, "sidecar_overrides_only", ok9, {"records": keys, "expected": want, "per_record": diffs,
+                                           "rule": "the Tool Gun WEAP must not be overridden (DLL identifies it by world-model path; F018)"})
 
     # 10 protected files unchanged
     prot = json.loads(Path(a.protected).read_text(encoding="utf-8-sig"))

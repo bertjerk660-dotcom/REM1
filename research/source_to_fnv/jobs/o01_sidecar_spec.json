@@ -5,7 +5,7 @@
                     "REM_GModTHUG2.esp"
                 ],
     "author":  "REM O01 pipeline",
-    "description":  "Isolated O01 test sidecar: Tool Gun presentation overrides only. Not for release.",
+    "description":  "Isolated O01 test sidecar: Tool Gun FIRST-PERSON model override only (WEAP untouched: DLL identifies the Tool Gun by its world-model path; see F018). Not for release.",
     "overrides":  [
                       {
                           "formid":  "01000834",
@@ -22,22 +22,6 @@
                           "drop":  [
                                        "MODT",
                                        "MODS"
-                                   ]
-                      },
-                      {
-                          "formid":  "01000803",
-                          "type":  "WEAP",
-                          "MODL":  "rem\\gmod\\weapons\\toolgun\\w_toolgun.nif",
-                          "OBND":  [
-                                       0,
-                                       -5,
-                                       -2,
-                                       27,
-                                       13,
-                                       6
-                                   ],
-                          "drop":  [
-
                                    ]
                       }
                   ]

@@ -225,3 +225,14 @@ Codex credits ran out, so on the owner's instruction Claude Opus ran the Codex O
 - Not covered: impact/footstep audio, daylight look, attack/equipment-change regression, first-person.
 - Everything restored afterwards: plugins.txt and FalloutPrefs.ini byte-identical to backups, original Save 22 untouched, protected hashes unchanged. Candidate files remain deployed, sidecar not enabled.
 - Because the implementer ran the tests, this is recorded as an Opus self-test. Whether it unlocks O01/O08 is the project owner's decision; it is not a Codex verdict.
+
+## 2026-10-09 O01 Tool Gun presentation - first-person DELIVERED, world model BLOCKED
+
+Candidate: `builds/O01_toolgun_candidate_20261009.json` (freeze PASS). Static 12/12 PASS. Opus runtime self-test: `build/candidates/O01_20261009/o01_runtime_selftest_20261009.json`.
+
+- First-person: authentic c_toolgun geometry/materials in the FNV hand, 10mm grip registration, screen facing the player, LEDs glowing from recovered masks. Re-equip, Pip-Boy, save/load PASS. Sidecar `REM_O01_ToolGun_Test.esp` overrides only STAT 01000834 and is not enabled by default.
+- World/third-person: new `w_toolgun.nif` built and validated (BSFadeNode + Prn=Weapon, grip-registered, dynamic collision) and deployed under `meshes/rem/gmod/weapons/toolgun/`, but not referenced. Overriding the WEAP model path crashed the game (F018). Legacy world model still shows in third person.
+- Decision needed from the owner: (a) change DLL GMod weapon identity to EDID/FormID, (b) replace the legacy loose world NIF in place, or (c) stay first-person only for now.
+- Correction to earlier notes: the Tool Gun WEAP stores animation type Melee, but the DLL copies the vanilla 10mm profile at runtime (type 3), so the 10mm animation family is already in effect.
+- New failure knowledge: F017 (VTFCmd alpha loss), F018 (WEAP identity by path), F019 (console input leak into the build menu).
+- Restored after testing: plugins.txt, FalloutPrefs.ini, Save 22, protected and legacy hashes unchanged.

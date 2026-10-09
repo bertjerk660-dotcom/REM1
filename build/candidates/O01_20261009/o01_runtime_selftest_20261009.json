@@ -1,0 +1,48 @@
+{
+  "schema": "rem.o01_runtime_result.v1",
+  "package_id": "O01",
+  "date": "2026-10-09",
+  "tester": "Claude Opus (owner-directed substitute for Codex)",
+  "independence": "NOT INDEPENDENT (implementer ran the tests).",
+  "verdict": "PARTIAL: first-person PASS; world/third-person model BLOCKED (not shipped)",
+  "attempt_1": {
+    "sidecar": "WEAP 01000803 + STAT 01000834 overrides (sha256 6B31971C7404D0B457F8DB9E28E9CC6855390EA42D7F5487499B4FDB21172FB9)",
+    "result": "CRASH during load: FalloutNV.exe c0000005, fault offset 0x00D0C9D8 (Windows Application log 11:59:42)",
+    "last_dll_log": "[GMOD-WEAP] reused GMod Camera ... / anim profile gmod_camera <- 00167685 (next weapon in the list is the Tool Gun)",
+    "cause": "FindExistingGModWeaponForm (main.cpp ~L1478) matches GMod weapons by FULL name AND world NIF path hard-coded in gmod_weapon_defs.inc ('rem\\\\gmod\\\\weapons\\\\w_toolgun.nif'). The override changed the WEAP MODL, the match failed, and EnsureGModWeaponForms fell into its runtime CloneForm branch (F001 class).",
+    "confirmed_by": "attempt 2 (STAT-only override) loads cleanly; DLL log shows all 14 GMod weapons reused"
+  },
+  "attempt_2": {
+    "sidecar": "STAT 01000834 override only (sha256 BD3F807A7E154F58B1F6142C883FF45ED16BB8DB7E13AB8FA6BA9A1B8F8E09FE)",
+    "tests": {
+      "boot/load": "PASS - no crash; EnsureGModWeaponForms end count=14; 'reused Tool Gun ... anim profile gmod_tool <- 0000434F type=3'",
+      "first-person render": "PASS - authentic c_toolgun geometry and materials; taped grip seated in the FNV hand (10mm grip registration); screen faces the player; only small LEDs glow (recovered selfillum masks)",
+      "third-person/world": "NOT SHIPPED - legacy w_toolgun.nif still shown (small, pointing up, NiNode root without Prn). New world NIF built and statically validated but not referenced (see blocker).",
+      "unequip/re-equip": "PASS - renders identically after console unequip/equip",
+      "Pip-Boy": "PASS - opens/closes",
+      "save/load": "PASS - saved o01test2, reloaded, no crash",
+      "no new Q-menu/tool behavior from O01": "PASS - sidecar changes only a STAT model path and bounds; menus seen were the existing DLL build menu (see incidents)"
+    },
+    "not_covered": [
+      "drop/pickup (world model not shipped)",
+      "attack/firing (avoided: Tool Gun LMB triggers DLL tool actions)",
+      "skateboard and Physgun presentation not exercised this run"
+    ]
+  },
+  "incidents": [
+    "Existing DLL input leak: the build/spawn menu polls Q and Enter with GetAsyncKeyState while the console is open, so typing console commands containing 'q' toggled the menu and Enter spawned props (disposable save only). Recorded as F019."
+  ],
+  "screenshots_local_dir": "FNV_GMOD_THUG2/build/candidates/O01_20261009/runtime_evidence (not committed: game imagery)",
+  "screenshots": {
+    "o01_r1_loaded.png": "ED92FBA6405D1BA9E667114FB07EB41072A112BA4C78D6E984428F8C7B138ED4",
+    "o01_r2_1p_clear.png": "02489584DC4EF009DB63EF3ABEB72B3806C6D7564A8333ECA55871DAEC571930",
+    "o01_r2_equipped_1p.png": "6EEEAE9421215C3877C191039D675B3AB0B94270196E96C480EB6A36642BE3F6",
+    "o01_r2_equipped_3p.png": "21614625477CD484D89039A3AE009FBAF9F6FACDF5EEBD4B5C187AD6673E93AC",
+    "o01_r3_3p_legacy_world.png": "396B99F0C90375378A23D8718D026D3AAF9F02C05426CD2E57C8B315715659C2",
+    "o01_r4_reequip_1p.png": "445DFBBBFFAA5DD18137D059BE76BF9C1FB8A0A5C952450055F056D0A3D38AF5",
+    "o01_r4_reequip_1p_clear.png": "CABCFC7F54110B70661A1559DD27B324ADAFF067428FA7A9FC4AC3B0CE1AC88A",
+    "o01_r6_reloaded.png": "51043581DA473071B6C2E6C6C49A76BA67CABD17406B62DDC3581D46A11190BA",
+    "o01_r7_pipboy.png": "B19465A9EF80DA2217FA147380EA170EDF99D392C6466990CBA40DC7F3DA47F7"
+  },
+  "restored_after_test": "plugins.txt and FalloutPrefs.ini byte-identical to backups; Save 22 unchanged; test saves moved out; protected hashes unchanged; legacy w_/c_toolgun.nif unchanged (F4C7A133 / 69768616)."
+}

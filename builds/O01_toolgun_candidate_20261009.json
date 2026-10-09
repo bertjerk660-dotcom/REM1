@@ -1,0 +1,195 @@
+{
+  "schema": "rem.opus_implementation_candidate.v1",
+  "package_id": "O01",
+  "package_name": "Toolgun presentation (first-person delivered; world model blocked)",
+  "goal": "Authentic GMod Tool Gun first-person and world presentation in FNV, visual only.",
+  "owner": "Claude Opus",
+  "preparation_branch": "prep/gmod-research-intake-20261009 (+ merged prep/opus-ready-20261007)",
+  "parent_branch": "implementation/opus-o00-golden-bench-20261009",
+  "parent_commit": "9404b968c70655a48f8b1990a9d5e4f4dcfe313b",
+  "implementation_branch": "implementation/opus-o00-golden-bench-20261009",
+  "implementation_commit": "5c5058cc9ef33ec13e2e063229cac312b28efa3b",
+  "source_identity": {
+    "main_source_path": "models/weapons/c_toolgun.mdl + models/weapons/w_toolgun.mdl",
+    "main_source_sha256": "992ED7A5ED4996B89C59FF656D93981FBA53B06B2E7A478EA52E0D7309E8CC79",
+    "required_evidence_commits": [],
+    "required_provenance_files": [
+      "context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md",
+      "build/prepared/opus_o01_toolgun_presentation_20261007.json",
+      "research/source_to_fnv/jobs/o01_toolgun.json"
+    ]
+  },
+  "inputs": {
+    "codex_evidence": [],
+    "asset_packets": [
+      "build/prepared/opus_o01_toolgun_presentation_20261007.json"
+    ],
+    "failure_knowledge": [
+      "P-F001 runtime WEAP cloning",
+      "P-F004 Prn=Weapon container",
+      "F017 VTFCmd drops DXT5 alpha",
+      "F018 DLL WEAP identity by world NIF path"
+    ],
+    "acceptance_rows": [
+      "first-person render",
+      "third-person/world render",
+      "scale/orientation",
+      "weapon-hand attachment",
+      "material/texture resolution",
+      "holster/re-equip",
+      "Pip-Boy switch",
+      "save/load regression",
+      "no unrelated behavior changes"
+    ],
+    "preserved_working_behavior": [
+      "REM_GModTHUG2.esp unchanged",
+      "FNVGModTHUG2.dll unchanged",
+      "Tool Gun WEAP record unchanged",
+      "legacy w_/c_toolgun.nif unchanged",
+      "skateboard paths untouched"
+    ]
+  },
+  "changes": [
+    "New research/source_to_fnv/convert_source_weapon.py: w_ model taken into the GMod right-hand bone frame, axes mapped to FNV weapon space, grip bottom registered onto the vanilla 10mm grip bottom (translation only), c_ model registered onto w_ by similarity ICP (2600/2600 vertices within 0.01, scale 1.09714), BSFadeNode + Prn=Weapon, ProjectileNode at the GMod muzzle, dynamic collision from w_toolgun_physics.smd.",
+    "Materials: VMT-driven; $selfillum base alpha -> glow map (0.8% / 5.7% coverage), UnlitGeneric screen -> full glow, env masks scaled by $envmaptint, vanilla 10mm / plasma grenade / stun grenade shader templates.",
+    "New research/source_to_fnv/vtf_decode.py (VTFCmd TGA export drops DXT5 alpha; decoder RGB identical to VTFCmd on all 7 textures).",
+    "Sidecar REM_O01_ToolGun_Test.esp overrides only STAT 01000834 (first-person model) MODL/OBND; MODT/MODS dropped. Tool Gun WEAP deliberately not overridden (F018).",
+    "World NIF w_toolgun.nif built, statically validated and deployed under the new namespace but NOT referenced by any record."
+  ],
+  "outputs": {
+    "dlls": [],
+    "esps": [
+      {
+        "path": "Data/REM_O01_ToolGun_Test.esp",
+        "sha256": "BD3F807A7E154F58B1F6142C883FF45ED16BB8DB7E13AB8FA6BA9A1B8F8E09FE"
+      }
+    ],
+    "meshes": [
+      {
+        "path": "Data/meshes/rem/gmod/weapons/toolgun/c_toolgun.nif",
+        "sha256": "451DB48265CAF2088443B98FE376275265D4E67614880F5179DB002A0BFA1426"
+      },
+      {
+        "path": "Data/meshes/rem/gmod/weapons/toolgun/w_toolgun.nif",
+        "sha256": "632A4854F4523106F8DE9FED63FB029DBA84B9381587EB2FFAFB23B656F822EA"
+      }
+    ],
+    "textures": [
+      {
+        "path": "Data/textures/rem/gmod/weapons/toolgun/screen.dds",
+        "sha256": "CDF6F802A16760E25F2943B76A40FF67BCF87D8DCFB2EDA3B2F170FAF9B54927"
+      },
+      {
+        "path": "Data/textures/rem/gmod/weapons/toolgun/screen_g.dds",
+        "sha256": "CDF6F802A16760E25F2943B76A40FF67BCF87D8DCFB2EDA3B2F170FAF9B54927"
+      },
+      {
+        "path": "Data/textures/rem/gmod/weapons/toolgun/toolgun.dds",
+        "sha256": "8B81E107F54844BDCF403CFEDBDA4B09F922D04838CB51738176F0D9D184415B"
+      },
+      {
+        "path": "Data/textures/rem/gmod/weapons/toolgun/toolgun2.dds",
+        "sha256": "D237AE11CD72682297CD51311088F81D4E140C52D0355E9E9E2CC7330BC59B1F"
+      },
+      {
+        "path": "Data/textures/rem/gmod/weapons/toolgun/toolgun2_g.dds",
+        "sha256": "DBAB99F143BDD40DC831139BE9883FA524426F26A4EF13F3C3A2EA1EA8EAB354"
+      },
+      {
+        "path": "Data/textures/rem/gmod/weapons/toolgun/toolgun2_m.dds",
+        "sha256": "BD48A5527328A4EF71BF3196C9BD69F51B6D96100EC07CADFE216C0A2F4C9010"
+      },
+      {
+        "path": "Data/textures/rem/gmod/weapons/toolgun/toolgun3.dds",
+        "sha256": "BB4A3A145DF932EED3E56879F8852D2E7DE5381981417354732C80E4DB0807A6"
+      },
+      {
+        "path": "Data/textures/rem/gmod/weapons/toolgun/toolgun3_g.dds",
+        "sha256": "D6E977B1FED5DF25D6FAC391202FFC7E69949E088EB9822D591D6054B632D12F"
+      },
+      {
+        "path": "Data/textures/rem/gmod/weapons/toolgun/toolgun3_m.dds",
+        "sha256": "E8CC699B0CA7A00099EF7DD0E9E6BED8038AF184A9FE333409C5E827414B84B6"
+      },
+      {
+        "path": "Data/textures/rem/gmod/weapons/toolgun/toolgun_flat_n.dds",
+        "sha256": "FEFC6E7774271F9CFE61519AC4074360531A6DEA54ADD40F519696CBEC4D61FA"
+      },
+      {
+        "path": "Data/textures/rem/gmod/weapons/toolgun/toolgun_m.dds",
+        "sha256": "87836FD93587A7E55868E3E008E9D195262760AD88206DA63F8D6048892F648D"
+      }
+    ],
+    "audio": [],
+    "ui": [],
+    "other": [
+      {
+        "path": "build/candidates/O01_20261009/o01_static_validation.json",
+        "sha256": "FCAE8542CC76232C64A5329081F8B9087E50992F2B67810A2A895BD97E646ADB"
+      },
+      {
+        "path": "build/candidates/O01_20261009/o01_conversion_report.json",
+        "sha256": "0A6EEE1658E2A8E909A129CA819B2C2F3F4F741DFF9C7EF2E6640084CBFA7C2E"
+      },
+      {
+        "path": "build/candidates/O01_20261009/o01_runtime_selftest_20261009.json",
+        "sha256": "3D156AD8BF23CBA599E35F4BFAC87CFA8ACADEE4B3A74D0D7DE5B8DD34A6FAC2"
+      }
+    ]
+  },
+  "runtime_identity": {
+    "plugins_txt": [
+      "FalloutNV.esm",
+      "REM_GModTHUG2.esp",
+      "REM_O01_ToolGun_Test.esp"
+    ],
+    "loadorder_txt": [
+      "FalloutNV.esm",
+      "REM_GModTHUG2.esp",
+      "REM_O01_ToolGun_Test.esp"
+    ],
+    "test_save": "disposable copy of 'Save 22   Glerb  Hidden Valley  00 34 52.fos' (sha256 82E0A578...)",
+    "test_location": "Hidden Valley exterior; equip via console 'player.equipitem 01000803' (note F019: the 'q' toggles the DLL build menu; close it with Q)",
+    "required_inventory": [
+      "Tool Gun 01000803 (auto-added by the DLL on load)"
+    ],
+    "required_mode_state": "NORMAL_FALLOUT with isolated O01 sidecar enabled"
+  },
+  "validation": {
+    "build": "pass",
+    "static": "pass 12/12 (validate_o01_static.py)",
+    "asset_reference_resolution": "pass",
+    "reproducibility": "pass (NIFs, 12 DDS, ESP byte-identical on rerun)",
+    "runtime_owner": "Codex",
+    "runtime_test_pack": "context/HANDOFFS/OPUS_O01_TOOLGUN_PRESENTATION_2026-10-07.md",
+    "runtime_status": "not_run",
+    "opus_selftest": "build/candidates/O01_20261009/o01_runtime_selftest_20261009.json (first-person PASS, world model blocked)",
+    "regression_status": "not_run",
+    "human_playability_status": "not_run"
+  },
+  "known_issues": [
+    "BLOCKER (owner decision): the world/third-person model cannot be switched without touching protected or shared files. The DLL finds the Tool Gun by its world NIF path (F018). Options: (a) fix FindExistingGModWeaponForm to identify GMod weapons by EDID/FormID (DLL change, rebuild, P-F001-aligned); (b) replace the legacy loose file rem\\gmod\\weapons\\w_toolgun.nif in place (not isolated: affects the game with the sidecar off); (c) keep first-person only for now.",
+    "GMod screen shows its static background only; the live tool-name render target is behaviour (O03).",
+    "Source phong is not reproduced (no bumpmap/phong mask in the source material; FNV has no per-pixel exponent). Reflections carried by env masks.",
+    "ESP animation type is Melee (1), but the DLL copies the vanilla 10mm profile at runtime (type 3), so the 10mm animation family is in effect in game.",
+    "Existing DLL input leak (F019): build menu reads Q/Enter while the console is open."
+  ],
+  "rollback": {
+    "backup_paths": [],
+    "backup_note": "All outputs are new paths; no existing file overwritten.",
+    "rollback_script": "build/candidates/O01_20261009/ROLLBACK_O01.ps1",
+    "previous_hashes": {
+      "FNVGModTHUG2.dll": "D6C8881699852B6ABBC6FE7D16C758FAD700D1FDF1A73BB40502CCC4B68B5206",
+      "REM_GModTHUG2.esp": "0A81B42990EEA170E302393E514627E6735F1C05D28BB62EF460D6FFA7D1DEB7",
+      "main.cpp": "4517D804A6B61B51B2E0751777949BCAE61AC470E5572BFAD070BF2103DB64CE",
+      "skateheldx.nif": "1FB3CE190CC0E32D2F06EEC144605CE3E2EB84BE4E3A90A33B227B9639C6D852",
+      "meshes/rem/gmod/weapons/w_toolgun.nif (legacy)": "F4C7A13355878ED6521ABBD7DDC64B5C8F12DE2E3DCADFE98C2A239CFB18BE12",
+      "meshes/rem/gmod/weapons/c_toolgun.nif (legacy)": "69768616975A8C7F499D2A0317DE46650309DE45C55FAABC851E6052DB71000C"
+    },
+    "revert_commit": "9404b968c70655a48f8b1990a9d5e4f4dcfe313b"
+  },
+  "promotion": {
+    "canonical_state_updated": false,
+    "reason": "First-person only; world model blocked pending owner decision; no independent runtime verdict."
+  }
+}
