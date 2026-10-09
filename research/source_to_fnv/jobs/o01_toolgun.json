@@ -1,0 +1,69 @@
+{
+  "job": "O01 Tool Gun presentation - models/weapons/w_toolgun.mdl + c_toolgun.mdl",
+  "scale": 1.7777778,
+  "cubemap": "textures\\effects\\shinybright_e.dds",
+  "vtfcmd": "third_party/tools/VTFEdit_Reloaded/VTFCmd.exe",
+  "grip_reference": {"nif": ["Fallout - Meshes.bsa", "meshes\\weapons\\1handpistol\\10mmpistol.nif"], "shape": "10MMPistol:0",
+                     "note": "Fallout 10mm pistol family (project requirement for Tool Gun presentation)."},
+  "templates": {
+    "metal": ["Fallout - Meshes.bsa", "meshes\\weapons\\1handpistol\\10mmpistol.nif"],
+    "glow": ["Fallout - Meshes.bsa", "meshes\\weapons\\1handgrenadethrow\\plasmagrenade.nif"],
+    "glow_no_env": ["Fallout - Meshes.bsa", "meshes\\weapons\\1handgrenadethrow\\stungrenade.nif"]
+  },
+  "world": {
+    "nif_name": "w_toolgun",
+    "output": "meshes/rem/gmod/weapons/toolgun/w_toolgun.nif",
+    "hand_bone": "ValveBiped.Bip01_R_Hand",
+    "muzzle_bone": "ValveBiped.Muzzle",
+    "handle_material": "toolgun",
+    "havok_material": "MAT_METAL",
+    "havok_material_note": "w_toolgun.qc $surfaceprop \"weapon\" (Source metal weapon); vanilla 10mm is metal.",
+    "mass": 2.0,
+    "bsx": 67
+  },
+  "view": {
+    "nif_name": "c_toolgun",
+    "output": "meshes/rem/gmod/weapons/toolgun/c_toolgun.nif",
+    "bone": "Hand",
+    "init_rotation_to_world": [[0, 0, 1], [-1, 0, 0], [0, -1, 0]],
+    "init_scale": 1.0971,
+    "bsx": 65
+  },
+  "materials": {
+    "toolgun":  {"vmt": "vmt_toolgun",  "base": "vtf_toolgun",  "envmapmask": "vtf_toolgun_mask"},
+    "toolgun2": {"vmt": "vmt_toolgun2", "base": "vtf_toolgun2", "envmapmask": "vtf_toolgun2_mask"},
+    "toolgun3": {"vmt": "vmt_toolgun3", "base": "vtf_toolgun3", "envmapmask": "vtf_toolgun3_mask"},
+    "screen":   {"vmt": "vmt_screen",   "base": "vtf_screen_bg"}
+  },
+  "unused_source_textures": {
+    "toolgun_exp.vtf": "phong exponent map; FNV has no per-pixel specular exponent",
+    "toolgun3_exp.vtf": "phong exponent map; FNV has no per-pixel specular exponent"
+  },
+  "inputs": {
+    "w_ref_smd": {"path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_toolgun/decompiled/HL2DM_toolgun_reference.smd", "sha256": "140DA4E21173DD40BA2FBF22A6A66BBA14E59204229EF08F0F459DA232448924"},
+    "w_phy_smd": {"path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_toolgun/decompiled/w_toolgun_physics.smd", "sha256": "3AFFB83DF1803914B69D81560976BC58179320F3D0E923477AD4F8549ED05750"},
+    "w_qc": {"path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_toolgun/decompiled/w_toolgun.qc", "sha256": "3242A2B449BC868FF9EEB92D70193EF7A19A76054BFCE4C6EDF16F714F262CDC"},
+    "w_mdl": {"path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_toolgun/src/models/weapons/w_toolgun.mdl", "sha256": "19D169CCEF78F358B44E7CAA8CDF3873EEA3FBD21864F70F86E23CE1106B2703"},
+    "w_vvd": {"path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_toolgun/src/models/weapons/w_toolgun.vvd", "sha256": "EE8CFAE44FF4BB7A6F83C77DC5F1AA077AA11EDC4ED163B3A715DC8B9CC909C6"},
+    "w_vtx": {"path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_toolgun/src/models/weapons/w_toolgun.dx90.vtx", "sha256": "4F43009DCE55EDF1BDBE76EC46E8A0F5FB87EB70CC651E66902B5E051A01A55E"},
+    "c_ref_smd": {"path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_toolgun/decompiled/toolgun_ref.smd", "sha256": "6ECC49B65BB19AB8B4831D3CB318DB353D65C07F1B40BB004E73FC22A8401B98"},
+    "c_qc": {"path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_toolgun/decompiled/c_toolgun.qc", "sha256": "C6259150D8048F0379B6298A627E2CB7A7D392071992280CBF80AECE50022AD6"},
+    "c_mdl": {"path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_toolgun/src/models/weapons/c_toolgun.mdl", "sha256": "992ED7A5ED4996B89C59FF656D93981FBA53B06B2E7A478EA52E0D7309E8CC79"},
+    "c_vvd": {"path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_toolgun/src/models/weapons/c_toolgun.vvd", "sha256": "D3F469510B6C5B0F1979254B477BA66F228EEA01240FE97DB22AB97D57429580"},
+    "c_vtx": {"path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_toolgun/src/models/weapons/c_toolgun.dx90.vtx", "sha256": "9A814D307A9874BBD3B3CF92BEC93069780898203783F80ABD20DEAFA9FAB6DA"},
+    "vmt_screen": {"path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/screen.vmt", "sha256": "CCED67B3CB3B2C569E06B3E647007F3D9B97BD8F1B5A56FD23303621F080B524"},
+    "vmt_toolgun": {"path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun.vmt", "sha256": "42B467C7C4780CA0C0644A13ABD460103B54A42FB5ADF483571C345A918C6D51"},
+    "vmt_toolgun2": {"path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun2.vmt", "sha256": "DC5CAF8D985C6838E789C7367CD52C10F7ECFD81B5F5CC135B5E6373589D4B9D"},
+    "vmt_toolgun3": {"path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun3.vmt", "sha256": "BA5BE27F9B638A00A02B760A2515C443665C1E85390ADF468EA19C30E503EEF4"},
+    "vtf_screen_bg": {"path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/screen_bg.vtf", "sha256": "6D106B4B9122199B217788A2567A49E29F3B45DEEF5F22EE237578E899346590"},
+    "vtf_toolgun": {"path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun.vtf", "sha256": "A485F39B2F6D413A432F92180F14E7F1ED3A28A0D42C3A1FEA387000056D2270"},
+    "vtf_toolgun_mask": {"path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun_mask.vtf", "sha256": "DD465F46D3F8D9775ABD19A00998F9A4FA2D79ADA88EB16B0FFB1D3CEB24DB97"},
+    "vtf_toolgun2": {"path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun2.vtf", "sha256": "897B1D2FFF6BF58D8FC759852D673327B7A303FCD2E73F7B0F58754069651312"},
+    "vtf_toolgun2_mask": {"path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun2_mask.vtf", "sha256": "6F9FFFD6A1117A54C4E83D40E98185C6BD45F4790CE470DBBE705274B68FF0E6"},
+    "vtf_toolgun3": {"path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun3.vtf", "sha256": "55F393A55C9060519FDBB521700BF94A50E152BC7469C235EA54B10A70FFDFBC"},
+    "vtf_toolgun3_mask": {"path": "build/prepared/pre_opus_20261006/source_payload/weapons/materials/models/weapons/v_toolgun/toolgun3_mask.vtf", "sha256": "B2F6720F3CD1060429D34670309BE5BAF501098B498E008F1431EE713E575B8D"}
+  },
+  "pinned_inputs_note": "w_ref_smd, w_phy_smd and w_qc were decompiled (Crowbar) from the hash-verified w_toolgun.mdl/vvd/vtx by the earlier batch tooling; not in the 2026-10-07 packet hash list; hashes pinned 2026-10-09 at first O01 use.",
+  "output": {"texture_dir": "textures/rem/gmod/weapons/toolgun"}
+}
+

@@ -360,7 +360,7 @@ def main():
     ap.add_argument("--fnv-data", required=True, help="Fallout NV Data dir (read-only, vanilla references)")
     ap.add_argument("--stage", required=True, help="staging Data-like output dir")
     a = ap.parse_args()
-    job = json.loads(Path(a.job).read_text(encoding="utf-8"))
+    job = json.loads(Path(a.job).read_text(encoding="utf-8-sig"))
     root, stage = Path(a.root), Path(a.stage)
     report = {"tool": TOOL_VERSION, "job": job["job"], "inputs": {}, "outputs": {}, "checks": {}}
 
