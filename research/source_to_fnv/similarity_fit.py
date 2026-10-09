@@ -30,7 +30,7 @@ def quat_to_mat(q):
             [2 * (x * z - w * y), 2 * (y * z + w * x), 1 - 2 * (x * x + y * y)]]
 
 
-def fit(A, B):
+def fit(A, B, s_fixed=None):
     ca, cb = _centroid(A), _centroid(B)
     a = [tuple(p[i] - ca[i] for i in range(3)) for p in A]
     b = [tuple(p[i] - cb[i] for i in range(3)) for p in B]
@@ -42,7 +42,8 @@ def fit(A, B):
          [Sxy - Syx, Szx + Sxz, Syz + Szy, -Sxx - Syy + Szz]]
     R = quat_to_mat(_eig_max(N))
     Ra = [tuple(sum(R[i][k] * p[k] for k in range(3)) for i in range(3)) for p in a]
-    s = sum(sum(x * y for x, y in zip(p, q)) for p, q in zip(Ra, b)) / sum(sum(x * x for x in p) for p in a)
+    s = s_fixed if s_fixed is not None else \
+        sum(sum(x * y for x, y in zip(p, q)) for p, q in zip(Ra, b)) / sum(sum(x * x for x in p) for p in a)
     t = tuple(cb[i] - s * sum(R[i][k] * ca[k] for k in range(3)) for i in range(3))
     res = [math.dist(tuple(s * sum(R[i][k] * p[k] for k in range(3)) + t[i] for i in range(3)), q) for p, q in zip(A, B)]
     return s, R, t, math.sqrt(sum(r * r for r in res) / len(res)), max(res)

@@ -1,0 +1,48 @@
+{
+  "source_plugin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_GModTHUG2.esp",
+  "masters": [
+    "FalloutNV.esm",
+    "REM_GModTHUG2.esp"
+  ],
+  "esp_name": "REM_O08c_SMG1_Test.esp",
+  "author": "REM O08c pipeline",
+  "description": "Isolated O08c test sidecar: smg1 first-person (STAT) and world (WEAP) model overrides only. Not for release.",
+  "weap_dll_identified": false,
+  "requires_dll_identity_fix": false,
+  "overrides": [
+    {
+      "formid": "01000844",
+      "type": "STAT",
+      "MODL": "rem\\gmod\\weapons\\smg1\\c_smg1.nif",
+      "OBND": [
+        -11,
+        -4,
+        -3,
+        23,
+        17,
+        2
+      ],
+      "drop": [
+        "MODT",
+        "MODS"
+      ]
+    },
+    {
+      "formid": "01000813",
+      "type": "WEAP",
+      "MODL": "rem\\gmod\\weapons\\smg1\\w_smg1.nif",
+      "OBND": [
+        -11,
+        -4,
+        -3,
+        23,
+        17,
+        2
+      ],
+      "drop": [
+        "MODT",
+        "MODS"
+      ]
+    }
+  ]
+}

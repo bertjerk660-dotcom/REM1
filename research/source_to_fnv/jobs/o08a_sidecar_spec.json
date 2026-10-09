@@ -1,0 +1,48 @@
+{
+  "source_plugin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_GModTHUG2.esp",
+  "masters": [
+    "FalloutNV.esm",
+    "REM_GModTHUG2.esp"
+  ],
+  "esp_name": "REM_O08a_Crowbar_Test.esp",
+  "author": "REM O08a pipeline",
+  "description": "Isolated O08a test sidecar: crowbar first-person (STAT) and world (WEAP) model overrides only. Not for release.",
+  "weap_dll_identified": true,
+  "requires_dll_identity_fix": true,
+  "overrides": [
+    {
+      "formid": "01000839",
+      "type": "STAT",
+      "MODL": "rem\\gmod\\weapons\\crowbar\\c_crowbar.nif",
+      "OBND": [
+        -5,
+        -16,
+        -5,
+        7,
+        46,
+        2
+      ],
+      "drop": [
+        "MODT",
+        "MODS"
+      ]
+    },
+    {
+      "formid": "01000808",
+      "type": "WEAP",
+      "MODL": "rem\\gmod\\weapons\\crowbar\\w_crowbar.nif",
+      "OBND": [
+        -5,
+        -16,
+        -5,
+        7,
+        46,
+        2
+      ],
+      "drop": [
+        "MODT",
+        "MODS"
+      ]
+    }
+  ]
+}

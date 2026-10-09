@@ -31,7 +31,7 @@ class Grid:
         return best, bq
 
 
-def icp(src, dst, init, iters=40, cell=0.5, trim=0.9):
+def icp(src, dst, init, iters=40, cell=0.5, trim=0.9, s_fixed=None):
     g = Grid(dst, cell)
     s, R, t = init
     hist = []
@@ -43,8 +43,12 @@ def icp(src, dst, init, iters=40, cell=0.5, trim=0.9):
             if n is not None:
                 pairs.append((d, p, n))
         pairs.sort(key=lambda x: x[0])
+        if len(pairs) < 10:  # start too far off: nothing inside the search radius
+            return s, R, t, {"iterations": it, "median": float("inf"), "p95": float("inf"), "matched": len(pairs),
+                             "within_0.01": 0.0, "within_0.05": 0.0, "unmatched_beyond_search": len(src) - len(pairs),
+                             "rms_trimmed": float("inf"), "failed": "too few correspondences"}
         keep = pairs[:max(10, int(len(pairs) * trim))]
-        s, R, t, rms, mx = fit([p for _, p, _ in keep], [n for _, _, n in keep])
+        s, R, t, rms, mx = fit([p for _, p, _ in keep], [n for _, _, n in keep], s_fixed=s_fixed)
         hist.append(rms)
         if it > 3 and abs(hist[-2] - hist[-1]) < 1e-6:
             break

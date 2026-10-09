@@ -1,0 +1,130 @@
+{
+  "job": "O08b GMod/HL Pistol presentation - models/weapons/w_pistol.mdl + c_pistol.mdl",
+  "scale": 1.7777778,
+  "cubemap": "textures\\effects\\shinybright_e.dds",
+  "vtfcmd": "third_party/tools/VTFEdit_Reloaded/VTFCmd.exe",
+  "templates": {
+    "metal": [
+      "Fallout - Meshes.bsa",
+      "meshes\\weapons\\1handpistol\\10mmpistol.nif"
+    ],
+    "glow": [
+      "Fallout - Meshes.bsa",
+      "meshes\\weapons\\1handgrenadethrow\\plasmagrenade.nif"
+    ],
+    "glow_no_env": [
+      "Fallout - Meshes.bsa",
+      "meshes\\weapons\\1handgrenadethrow\\stungrenade.nif"
+    ]
+  },
+  "grip_reference": {
+    "nif": [
+      "Fallout - Meshes.bsa",
+      "meshes\\weapons\\1handpistol\\9mm.nif"
+    ],
+    "mode": "bottom",
+    "shape": "*",
+    "window": {
+      "donor_x": [
+        -6,
+        6
+      ],
+      "source_x": [
+        -2,
+        14
+      ]
+    },
+    "note": "DLL pistol animation donor WeapNV9mmPistol (000E3778). Grip bottom registered onto the 9mm grip bottom."
+  },
+  "world": {
+    "nif_name": "w_pistol",
+    "output": "meshes/rem/gmod/weapons/pistol/w_pistol.nif",
+    "hand_bone": "ValveBiped.Bip01_R_Hand",
+    "havok_material": "MAT_METAL",
+    "havok_material_note": "w_pistol.qc $surfaceprop weapon.",
+    "mass": 1.0,
+    "bsx": 67,
+    "muzzle_attachment": {
+      "qc": "w_qc",
+      "name": "muzzle"
+    }
+  },
+  "view": {
+    "nif_name": "c_pistol",
+    "output": "meshes/rem/gmod/weapons/pistol/c_pistol.nif",
+    "bone": "ValveBiped.Bip01_R_Hand",
+    "mode": "icp_to_world",
+    "bsx": 65,
+    "icp_cell": 2.0,
+    "max_median": 0.5,
+    "fixed_scale": 1.0
+  },
+  "materials": {
+    "pistol": {
+      "vmt": "vmt_pistol",
+      "base": "base_pistol"
+    },
+    "v_pistol_sheet": {
+      "vmt": "vmt_v_pistol_sheet",
+      "base": "base_v_pistol_sheet",
+      "bump": "bump_v_pistol_sheet"
+    }
+  },
+  "flat_normal": "pistol_flat_n.dds",
+  "report_name": "o08b_conversion_report.json",
+  "inputs": {
+    "w_ref_smd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_pistol/decompiled/w_pistol_ref.smd",
+      "sha256": "61DFF3C05216BD03E5AE6DF1C8B71F9FA445FDA29CBD28366E50FC05037198F2"
+    },
+    "w_phy_smd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_pistol/decompiled/w_pistol_physics.smd",
+      "sha256": "37F657E790ACBBF8D9F4346A20BBEE0770C3C602D411BBA18D24FEB34A5FB9B2"
+    },
+    "w_qc": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_pistol/decompiled/w_pistol.qc",
+      "sha256": "28B789E0014C8F8CA5C23F2F9E5C53E13F9338C40D78EF17BDCA0CBA9D15B7DC"
+    },
+    "w_mdl": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_pistol/src/models/weapons/w_pistol.mdl",
+      "sha256": "3494567C5217A2CFA7AFC67158B29EFE339B74D880D37E22D5B59926ACA3C902"
+    },
+    "c_ref_smd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_pistol/decompiled/v_pistol_reference.smd",
+      "sha256": "2B1994389E0434503AA2AB9387F0D13E93D742A30E7F16E412119EAE9BA1FE6E"
+    },
+    "c_qc": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_pistol/decompiled/c_pistol.qc",
+      "sha256": "B6F609E72E631BE691C9E2372246289E94675B17C7A625F001A6EC4D9F8BEA6A"
+    },
+    "c_mdl": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_pistol/src/models/weapons/c_pistol.mdl",
+      "sha256": "682220E528FEC38C0BED0FA62F287E12EA07CDFD59B582209BAAC4D62D808DE7"
+    },
+    "vmt_pistol": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_pistol/materials/materials/models/weapons/w_pistol/pistol.vmt",
+      "sha256": "75FA6C8648C5C75A067D435644CF61ED10F1F1139DD8350F208BC97429481B0C"
+    },
+    "base_pistol": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_pistol/materials/materials/models/weapons/w_pistol/pistol.vtf",
+      "sha256": "275DB63EF4573FF10C8A8264824C98DFD932A3A4788BC0546025CD0CF3A94E09"
+    },
+    "vmt_v_pistol_sheet": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_pistol/materials/materials/models/weapons/v_pistol/v_pistol_sheet.vmt",
+      "sha256": "D5A194F1F708E32E888C414FACBC8E83FB0F487F37BEB3E5E2CF3BB01B9C7121"
+    },
+    "base_v_pistol_sheet": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_pistol/materials/materials/models/weapons/v_pistol/v_pistol_sheet.vtf",
+      "sha256": "F811F31B1C254CC95EA24E86A25CC033C77BF37D825D1C8DD69DCCD4AC06B9EE"
+    },
+    "bump_v_pistol_sheet": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_pistol/materials/materials/models/weapons/v_pistol/v_pistol_sheet_normal.vtf",
+      "sha256": "FAFFCB532C4C6FE4D67E5DB7616D77A8ECD4E2EE31FD58C918E36B52C282259E"
+    }
+  },
+  "pinned_inputs": [],
+  "pinned_inputs_note": "Not in the 2026-10-07 packet hash list (decompiled/derived files); hashes pinned at first O08 use.",
+  "output": {
+    "texture_dir": "textures/rem/gmod/weapons/pistol"
+  }
+}

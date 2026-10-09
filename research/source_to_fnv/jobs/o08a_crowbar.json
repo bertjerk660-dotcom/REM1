@@ -1,0 +1,123 @@
+{
+  "job": "O08a GMod/HL Crowbar presentation - models/weapons/w_crowbar.mdl + c_crowbar.mdl",
+  "scale": 1.7777778,
+  "cubemap": "textures\\effects\\shinybright_e.dds",
+  "vtfcmd": "third_party/tools/VTFEdit_Reloaded/VTFCmd.exe",
+  "templates": {
+    "metal": [
+      "Fallout - Meshes.bsa",
+      "meshes\\weapons\\1handpistol\\10mmpistol.nif"
+    ],
+    "glow": [
+      "Fallout - Meshes.bsa",
+      "meshes\\weapons\\1handgrenadethrow\\plasmagrenade.nif"
+    ],
+    "glow_no_env": [
+      "Fallout - Meshes.bsa",
+      "meshes\\weapons\\1handgrenadethrow\\stungrenade.nif"
+    ]
+  },
+  "grip_reference": {
+    "nif": [
+      "Fallout - Meshes.bsa",
+      "meshes\\weapons\\1handmelee\\leadpipe.nif"
+    ],
+    "mode": "shaft",
+    "note": "DLL melee animation donor WeapLeadPipe (00004337). Shaft centred on the lead pipe at hand height; Source grip position along the shaft kept."
+  },
+  "world": {
+    "nif_name": "w_crowbar",
+    "output": "meshes/rem/gmod/weapons/crowbar/w_crowbar.nif",
+    "hand_bone": "ValveBiped.Bip01_R_Hand",
+    "havok_material": "MAT_METAL",
+    "havok_material_note": "w_crowbar.qc $surfaceprop crowbar (metal bar).",
+    "mass": 8.0,
+    "bsx": 67
+  },
+  "view": {
+    "nif_name": "c_crowbar",
+    "output": "meshes/rem/gmod/weapons/crowbar/c_crowbar.nif",
+    "bone": "ValveBiped.Bip01_R_Hand",
+    "mode": "icp_to_world",
+    "bsx": 65,
+    "icp_cell": 2.0,
+    "max_median": 0.5,
+    "fixed_scale": 1.0
+  },
+  "materials": {
+    "crowbar_cyl": {
+      "vmt": "vmt_crowbar_cyl",
+      "base": "base_crowbar_cyl",
+      "bump": "bump_crowbar_cyl"
+    },
+    "head_uvw": {
+      "vmt": "vmt_head_uvw",
+      "base": "base_head_uvw",
+      "bump": "bump_head_uvw"
+    }
+  },
+  "flat_normal": "crowbar_flat_n.dds",
+  "report_name": "o08a_conversion_report.json",
+  "inputs": {
+    "w_ref_smd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_crowbar/decompiled/w_Crowbar_reference.smd",
+      "sha256": "B3A97028B3E90AB54ED5F139E7186EA4FB9B8B0C3F3ED258AD7772CFFDCA9BF7"
+    },
+    "w_phy_smd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_crowbar/decompiled/w_crowbar_physics.smd",
+      "sha256": "ED89EB70FCB9A5D9F8C3BA4996225F8F36BCBB851DDE6989BB28E70AAED8C521"
+    },
+    "w_qc": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_crowbar/decompiled/w_crowbar.qc",
+      "sha256": "6F692A3F33DCEB60E7B2FA0538C5779806C68F4EE1224D44B092D8B19F81FB92"
+    },
+    "w_mdl": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_crowbar/src/models/weapons/w_crowbar.mdl",
+      "sha256": "BD31CE4CF61B75597DA0AC799E2E30D66B7F97D74B104F9F55EF537A4CB17787"
+    },
+    "c_ref_smd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_crowbar/decompiled/crowbar_reference.smd",
+      "sha256": "A578704D4A84039914F3D5FB323A684093FA95385E8171B89D460958B2838009"
+    },
+    "c_qc": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_crowbar/decompiled/c_crowbar.qc",
+      "sha256": "A66D996444B7DF4311EC9608FEFFD82D6182DE56AF3FAD0376DB318093C23C4B"
+    },
+    "c_mdl": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_crowbar/src/models/weapons/c_crowbar.mdl",
+      "sha256": "9FC2231AE94171609DE85781D567A9ED5380B84A7D77821ED3AD485586E59992"
+    },
+    "vmt_crowbar_cyl": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_crowbar/materials/materials/models/weapons/v_crowbar/crowbar_cyl.vmt",
+      "sha256": "4BC82B4476B1BDBF2325B8835ECD2615C8C682DD1FBC34F877DFC89101FF66BF"
+    },
+    "base_crowbar_cyl": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_crowbar/materials/materials/models/weapons/v_crowbar/crowbar_cyl.vtf",
+      "sha256": "7F6FF74719F46C039C3DD039A2CBE2FEF77C70A8FB0B5499CB832547EDCF0094"
+    },
+    "bump_crowbar_cyl": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_crowbar/materials/materials/models/weapons/v_crowbar/crowbar_normal.vtf",
+      "sha256": "3A10AC704C4BCA2985C5F15A8AC1C5C64ABB7BA213A1BC354D1BFC3AA2D230FD"
+    },
+    "vmt_head_uvw": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_crowbar/materials/materials/models/weapons/v_crowbar/head_uvw.vmt",
+      "sha256": "B403A63C422D35D6E7226E055D6E7DCBE688B78B2F563DB90A907AE540B21E01"
+    },
+    "base_head_uvw": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_crowbar/materials/materials/models/weapons/v_crowbar/head.vtf",
+      "sha256": "4F4C8C721EE9AD8213772E2FE0D1B9D8BEB741266A7EF834859047457C39277D"
+    },
+    "bump_head_uvw": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_crowbar/materials/materials/models/weapons/v_crowbar/head_normal.vtf",
+      "sha256": "8F23D4DB3D4359ECAA3FD4CE532BE70D701CB40BC757611214E017F0A08CC982"
+    }
+  },
+  "pinned_inputs": [
+    "w_phy_smd",
+    "c_ref_smd"
+  ],
+  "pinned_inputs_note": "Not in the 2026-10-07 packet hash list (decompiled/derived files); hashes pinned at first O08 use.",
+  "output": {
+    "texture_dir": "textures/rem/gmod/weapons/crowbar"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "job": "O08c GMod/HL SMG1 presentation - models/weapons/w_smg1.mdl + c_smg1.mdl",
+  "scale": 1.7777778,
+  "cubemap": "textures\\effects\\shinybright_e.dds",
+  "vtfcmd": "third_party/tools/VTFEdit_Reloaded/VTFCmd.exe",
+  "templates": {
+    "metal": [
+      "Fallout - Meshes.bsa",
+      "meshes\\weapons\\1handpistol\\10mmpistol.nif"
+    ],
+    "glow": [
+      "Fallout - Meshes.bsa",
+      "meshes\\weapons\\1handgrenadethrow\\plasmagrenade.nif"
+    ],
+    "glow_no_env": [
+      "Fallout - Meshes.bsa",
+      "meshes\\weapons\\1handgrenadethrow\\stungrenade.nif"
+    ]
+  },
+  "grip_reference": {
+    "nif": [
+      "Fallout - Meshes.bsa",
+      "meshes\\weapons\\1handpistol\\10mmsubmachinegun.nif"
+    ],
+    "mode": "bottom",
+    "shape": "*",
+    "window": {
+      "donor_x": [
+        -6,
+        6
+      ],
+      "source_x": [
+        -2,
+        14
+      ]
+    },
+    "note": "SMG1 is outside the DLL's 14 handled GMod weapons; its ESP animation type is one-hand pistol (3), so the vanilla 10mm SMG (same type) is the grip reference."
+  },
+  "world": {
+    "nif_name": "w_smg1",
+    "output": "meshes/rem/gmod/weapons/smg1/w_smg1.nif",
+    "hand_bone": "ValveBiped.Bip01_R_Hand",
+    "havok_material": "MAT_METAL",
+    "havok_material_note": "w_smg1.qc $surfaceprop weapon.",
+    "mass": 8.0,
+    "bsx": 67,
+    "muzzle_attachment": {
+      "qc": "w_qc",
+      "name": "muzzle"
+    }
+  },
+  "view": {
+    "nif_name": "c_smg1",
+    "output": "meshes/rem/gmod/weapons/smg1/c_smg1.nif",
+    "bone": "ValveBiped.base",
+    "mode": "icp_to_world",
+    "bsx": 65,
+    "icp_cell": 2.0,
+    "max_median": 0.5,
+    "scale_range": [
+      0.8,
+      1.25
+    ]
+  },
+  "materials": {
+    "w_smg2": {
+      "vmt": "vmt_w_smg2",
+      "base": "base_w_smg2",
+      "envmapmask": "envmapmask_w_smg2"
+    },
+    "smg_crosshair": {
+      "vmt": "vmt_smg_crosshair",
+      "base": "base_smg_crosshair"
+    },
+    "v_smg1_sheet": {
+      "vmt": "vmt_v_smg1_sheet",
+      "base": "base_v_smg1_sheet",
+      "bump": "bump_v_smg1_sheet"
+    },
+    "texture4": {
+      "vmt": "vmt_texture4",
+      "base": "base_texture4"
+    }
+  },
+  "flat_normal": "smg1_flat_n.dds",
+  "report_name": "o08c_conversion_report.json",
+  "inputs": {
+    "w_ref_smd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_smg1/decompiled/smg1_reference.smd",
+      "sha256": "73D90709888856959B4C934053EEE007452D0B98411E88ADDDE69EB481F402A9"
+    },
+    "w_phy_smd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_smg1/decompiled/w_smg1_physics.smd",
+      "sha256": "3F9ECEAA8060A5BD63B9C2AC112446EC8648C174CB23ABC59175D3945B8A17C3"
+    },
+    "w_qc": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_smg1/decompiled/w_smg1.qc",
+      "sha256": "0C2FBAA13C5A5C06F16EC6D8958278F21F2332C557EC159198F855318F0FB3C7"
+    },
+    "w_mdl": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_smg1/src/models/weapons/w_smg1.mdl",
+      "sha256": "7E228BB32E2BDFAC835FCA69D83B220E7F10C9172BFB750DF2311BCDA9D6A50B"
+    },
+    "c_ref_smd": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_smg1/decompiled/Smg1_ref.smd",
+      "sha256": "1CDEB19838584F4F28EBFA5C13C7283E892569ECF852F029CE6F1D2C473D7AE4"
+    },
+    "c_qc": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_smg1/decompiled/c_smg1.qc",
+      "sha256": "5CA67FDFEB4DC69C8E68702B18E44AA1E02135ECEDCD10220A6896023A596A99"
+    },
+    "c_mdl": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_smg1/src/models/weapons/c_smg1.mdl",
+      "sha256": "E7B386DC6222849CB1ECA0768BA1A7975E6C02AC325B664164923EBF5ADEE5CA"
+    },
+    "vmt_w_smg2": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_smg1/materials/materials/models/weapons/w_smg1/w_smg2.vmt",
+      "sha256": "907BBCC24DA30A3665A607089B2450042E17E3A6E912ABD982EAD6FAD666A88E"
+    },
+    "base_w_smg2": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_smg1/materials/materials/models/weapons/w_smg1/w_smg2.vtf",
+      "sha256": "3023609FE242755861E8BBB87148E10052E73817E14C9F91EFA5BA46CF787453"
+    },
+    "envmapmask_w_smg2": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_smg1/materials/materials/models/weapons/w_smg1/w_smg2specularmask.vtf",
+      "sha256": "AB6122A949F82F986EF88E269B2B72F468CB1D731193BDD026527A8F2DE392D3"
+    },
+    "vmt_smg_crosshair": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_smg1/materials/materials/models/weapons/w_smg1/smg_crosshair.vmt",
+      "sha256": "B4485D41E594570B1D461601D951F0C7BDA5F3FCF74FACF973860D51A58F58C0"
+    },
+    "base_smg_crosshair": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__w_smg1/materials/materials/models/weapons/w_smg1/smg_crosshair.vtf",
+      "sha256": "A76792C9975892EA1F740472A3E0C75ABCB37002C8267DCCB87B68B94CEDEB92"
+    },
+    "vmt_v_smg1_sheet": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_smg1/materials/materials/models/weapons/v_smg1/v_smg1_sheet.vmt",
+      "sha256": "CA573EBD3408ECB6B6EADAEB1CCA21202D701E1D79EBB6959F3E8B048AB71FA6"
+    },
+    "base_v_smg1_sheet": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_smg1/materials/materials/models/weapons/v_smg1/v_smg1_sheet.vtf",
+      "sha256": "D1154A2CA62653C0D0A672852E82C14D57328C0F2258CB0DDB0E61C30A7CEEFD"
+    },
+    "bump_v_smg1_sheet": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_smg1/materials/materials/models/weapons/v_smg1/smg1_normal.vtf",
+      "sha256": "820B763E6ED56AFF3C6E83C5C63647B39FC322E8BF95EB127437DD3515EB795E"
+    },
+    "vmt_texture4": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_smg1/materials/materials/models/weapons/v_smg1/texture4.vmt",
+      "sha256": "0B513D553EBD14F94B8B0936F21FBE21A5F7772DA771FEE1159E957432710312"
+    },
+    "base_texture4": {
+      "path": "build/prepared/gmod_hl_weapon_models/packages/models__weapons__c_smg1/materials/materials/models/weapons/v_smg2/texture4.vtf",
+      "sha256": "E398A566592E833FD9A696C3117B5BD913046E4EFC038DF99115F70B2DB6B7B6"
+    }
+  },
+  "pinned_inputs": [],
+  "pinned_inputs_note": "Not in the 2026-10-07 packet hash list (decompiled/derived files); hashes pinned at first O08 use.",
+  "output": {
+    "texture_dir": "textures/rem/gmod/weapons/smg1"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "source_plugin": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout New Vegas\\Data\\REM_GModTHUG2.esp",
+  "masters": [
+    "FalloutNV.esm",
+    "REM_GModTHUG2.esp"
+  ],
+  "esp_name": "REM_O08b_Pistol_Test.esp",
+  "author": "REM O08b pipeline",
+  "description": "Isolated O08b test sidecar: pistol first-person (STAT) and world (WEAP) model overrides only. Not for release.",
+  "weap_dll_identified": true,
+  "requires_dll_identity_fix": true,
+  "overrides": [
+    {
+      "formid": "01000840",
+      "type": "STAT",
+      "MODL": "rem\\gmod\\weapons\\pistol\\c_pistol.nif",
+      "OBND": [
+        -7,
+        -7,
+        -3,
+        13,
+        7,
+        2
+      ],
+      "drop": [
+        "MODT",
+        "MODS"
+      ]
+    },
+    {
+      "formid": "0100080F",
+      "type": "WEAP",
+      "MODL": "rem\\gmod\\weapons\\pistol\\w_pistol.nif",
+      "OBND": [
+        -7,
+        -7,
+        -3,
+        13,
+        7,
+        2
+      ],
+      "drop": [
+        "MODT",
+        "MODS"
+      ]
+    }
+  ]
+}
