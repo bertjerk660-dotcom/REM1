@@ -256,3 +256,19 @@ A **new standalone Bevy/Rust edition** has been chosen for future primary develo
 **Repository state at first inspection:** main at `19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0`, `implementation/opus-o00-golden-bench-20261009` ahead by 194 commits with 0 behind. O00 independent Codex runtime validation and O01 independent human/runtime acceptance are NOT established by static pass or Opus self-test. Opus branch already has conversion and v86 sidecar evidence—preserve and reuse rather than claiming it constitutes the new Bevy edition.
 
 The Bevy migration needs its own Cargo workspace, asset pipeline, engine validation, edition-specific manifest and independent test artifacts on a new isolated engine branch. Do not modify the installed legacy DLL/ESP, original saves or protected baseline to prepare this edition.
+
+
+## 2026-10-10 independent Bevy successor track (new decision D-012)
+The owner instructed that a standalone Bevy/Rust REM1 game will be the primary future implementation, coexisting alongside the preserved original FalloutNV/xNVSE legacy mod. The legacy mod may transition into maintenance-only status later but must NOT be overwritten, deleted or marked retired now. This is a new-track engine decision; the previous Fallout-host integration history remains valid as legacy evidence, not as the new Bevy runtime state.
+
+Authority: context/BEVY_PARALLEL_TRACK_DECISION_2026-10-10.md, and the full Claude Code continuation prompt at context/HANDOFFS/CLAUDE_OPUS_BEVY_INDEPENDENT_SUCCESSOR_2026-10-10.md.
+
+Windows preflight 2026-10-10 (see build/validation/bevy_toolchain_preflight_20261010.json):
+- Rust stable 1.99.0 MSVC and Cargo 1.99.0 installed using the official checksum-verified rustup binary.
+- Bevy 0.20.0 resolved and compiled in an isolated headless MinimalPlugins probe. Cargo check PASS; one-update cargo run PASS, exit 0. No visual-window/gameplay/asset-migration test yet.
+- Verified IDA 6.8 executable: C:\Program Files (x86)\IDA 6.8\idaq.exe.
+- FalloutNV and GarrysMod original installations located under Steam's common directory. The existing workspace FNV_GMOD_THUG2 is NOT itself a Git checkout.
+- The current installed legacy DLL is 787F46B0... (matches O01 v86 candidate); legacy ESP is 0A81B429...; held-board NIF is 1FB3CE19...; local main.cpp is now 98CB5DE9..., which differs from the historical 4517D804... source identity. Treat source-to-binary correspondence as NOT VERIFIED and do not overwrite files to reconcile it.
+- No independently playable REM1 Bevy executable exists yet. Opus is assigned the new standalone implementation and must preserve the old track.
+
+Bevy branch handoff: prep/bevy-opus-handoff-20261009. The implementation owner should create a new isolated implementation/bevy-* branch, validate source/previous Claude chat, create a proper GitHub-backed Bevy app, and only then record engine startup, gameplay, asset-mount and other migration milestones.
