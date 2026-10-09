@@ -1,0 +1,8 @@
+{
+  "schema": "rem.opus_candidate_manifest_validation.v1",
+  "manifest": "builds\\O01_toolgun_candidate_v86_20261009.json",
+  "mode": "freeze",
+  "pass": true,
+  "error_count": 0,
+  "errors": []
+}
