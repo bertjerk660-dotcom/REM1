@@ -245,3 +245,14 @@ Owner chose option (a). FNVGModTHUG2.dll v86 (787F46B0...) identifies GMod weapo
 - Opus runtime self-test (`build/candidates/O01_20261009/o01_runtime_selftest_v86_20261009.json`): load PASS (identity by plugin, 14/14 GMod weapons), third-person world model PASS (same stance as vanilla 10mm), drop safe, skate enter/exit PASS, save/load PASS.
 - Outstanding for a human: pickup of a dropped Tool Gun; a first-person look under v86.
 - New baseline hashes: FNVGModTHUG2.dll 787F46B0DD3077909924C8948F03325959F0DC52AB019E889408F8381BB36EC6; main.cpp 98CB5DE94648A450AD97A5CB55F6D34606995B8AEAAD63A0322D4D010D820165. REM_GModTHUG2.esp and skateheldx.nif unchanged.
+
+
+## 2026-10-09 Bevy successor bootstrap (preparation only)
+
+A **new standalone Bevy/Rust edition** has been chosen for future primary development. The original Fallout/NVSE merge is retained as a separate, protected legacy edition while Bevy coexists; discontinuation of legacy is a possible later owner decision only after functional/playability parity. See D-012 and `context/HANDOFFS/OPUS_BEVY_STANDALONE_SUCCESSOR_2026-10-09.md` on `prep/bevy-opus-handoff-20261009`.
+
+**Verified on Windows DESKTOP-6PTSS3D via Desktop Commander:** IDA Pro 6.8 exists at `C:\Program Files (x86)\IDA 6.8`; Rust official installer checksum matched the vendor's SHA256 (`6F4BEF66261261FCB43131BE8720BAB817D403A09EDEC7455C371974B90BDB7E`), Rust 1.99.0 (x86_64-pc-windows-msvc) and Cargo 1.99.0 installed. In a separate local probe at `C:\Users\BRAD\Documents\------\Engineer Station\rem1_bevy_install_probe`, `cargo add bevy` resolved Bevy 0.20.0 and `cargo check` completed with exit code 0 (2026-10-09). **This is a dependency compilation check, not a running game, renderer/window/playtest or fully integrated Bevy build.** The local probe is not a Git checkout; no Bevy game code is yet recorded as committed to REM1.
+
+**Repository state at first inspection:** main at `19a8046b3d4950545c2d8e3dc03d47ffc5aaafe0`, `implementation/opus-o00-golden-bench-20261009` ahead by 194 commits with 0 behind. O00 independent Codex runtime validation and O01 independent human/runtime acceptance are NOT established by static pass or Opus self-test. Opus branch already has conversion and v86 sidecar evidence—preserve and reuse rather than claiming it constitutes the new Bevy edition.
+
+The Bevy migration needs its own Cargo workspace, asset pipeline, engine validation, edition-specific manifest and independent test artifacts on a new isolated engine branch. Do not modify the installed legacy DLL/ESP, original saves or protected baseline to prepare this edition.
