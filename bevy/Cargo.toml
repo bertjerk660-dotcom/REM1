@@ -1,0 +1,28 @@
+[package]
+name = "rem1"
+version = "0.1.0"
+edition = "2024"
+description = "REM1 Bevy: standalone Fallout x Garry's Mod x THUG2 crossover (primary track)"
+publish = false
+
+[dependencies]
+# Engine pinned to the owner-specified version (D-012).
+bevy = { version = "=0.20.0" }
+# Engine-agnostic physics. No Bevy physics plugin supports 0.20 yet (avian3d 0.7 and
+# bevy_rapier3d 0.36 both require bevy ^0.19), so REM1 owns a thin integration (D-B001).
+rapier3d = { version = "=0.36.0" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.dev]
+opt-level = 1
+# Full debuginfo for Bevy's dependency tree filled the C: drive (F-B002); keep line tables only.
+debug = "line-tables-only"
+
+[profile.dev.package."*"]
+opt-level = 3
+debug = false
+
+[profile.release]
+codegen-units = 1
+lto = "thin"

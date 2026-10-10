@@ -1,0 +1,110 @@
+﻿{
+    "schema":  "rem1-bevy-build-manifest/1",
+    "build_id":  "B001",
+    "parent_build":  "none",
+    "goal":  "Phase A/B vertical slice: window, collision scene, player+camera, KB/M+Xbox action routing, physics, pickup/drop, save/load",
+    "created":  "2026-10-10T04:51:58.5523240+01:00",
+    "git":  {
+                "branch":  "implementation/bevy-slice-chat-20261010",
+                "head_at_run":  "dbe836adf4b870d047db45b714c790aaba6829bc",
+                "dirty_paths":  [
+                                    "?? bevy/"
+                                ],
+                "note":  "head_at_run is the parent commit when the run precedes its own commit; input hashes identify the exact tree tested."
+            },
+    "toolchain":  {
+                      "rustc":  "rustc 1.99.0 (b940084d7 2026-09-28)",
+                      "cargo":  "cargo 1.99.0 (5f94df478 2026-08-27)",
+                      "profile":  "dev",
+                      "target_dir":  "D:\\rem1_bevy_target_chat"
+                  },
+    "engine":  {
+                   "bevy":  "0.20.0",
+                   "rapier3d":  "0.36.0"
+               },
+    "host":  {
+                 "machine":  null,
+                 "os":  "Microsoft Windows 10 Home",
+                 "gpu":  [
+                             "NVIDIA GeForce RTX 4060"
+                         ]
+             },
+    "inputs_sha256":  {
+                          "Cargo.toml":  "505607ADEEE69042DEB7D015BE75880E550489283BCAC4C9B113B5CB641D0112",
+                          "Cargo.lock":  "23654B336A973B2E53ED96F1DBCC03C4AEC59198D52F9EDE3C1AABCAB7ED685B",
+                          "src/gameplay.rs":  "D68425D069A7385BDFAFD83FD052C56FAD33E358430BCCD2BDB1D5415BC14304",
+                          "src/input.rs":  "27FAE2F4BB2A5BFCEC17AFF3EEB79BD8E30E13BF441894557F42803E1B38EAE0",
+                          "src/main.rs":  "23E8B01A7A6C10C32CBC3A4D6725F96B9C61877C5157F5C1DDAE8EFDF16E29A4",
+                          "src/physics.rs":  "29DB39880A57E56C27865CBDA31B524F54BE7895F4CA86AD48DB6773964F3AA7",
+                          "src/systems.rs":  "CADB20108892B0B75DA4894B6DEED4F63D9895B0559D731EB855EA17754594A3"
+                      },
+    "outputs_sha256":  {
+                           "rem1.exe":  "69B1048955337C003A4FA243302B5783624C13ECADCD841A5C4491A27A32144E"
+                       },
+    "build":  {
+                  "ok":  true,
+                  "seconds":  0.4,
+                  "warnings":  [
+                                   "warning: field `half` is never read",
+                                   "warning: variant `Menu` is never constructed",
+                                   "warning: field `collider` is never read",
+                                   "warning: function `build_save` is never used",
+                                   "warning: `rem1` (bin \"rem1\") generated 4 warnings"
+                               ]
+              },
+    "autotest":  {
+                     "process_exit":  0,
+                     "all_pass":  true,
+                     "checks":  [
+                                    {
+                                        "name":  "boot_and_ground",
+                                        "pass":  true,
+                                        "detail":  "grounded=true y=0.920 expected~0.90 physics_steps=119"
+                                    },
+                                    {
+                                        "name":  "walk_forward",
+                                        "pass":  true,
+                                        "detail":  "moved 5.81 m in 1.5 s (walk 4.2 m/s)"
+                                    },
+                                    {
+                                        "name":  "jump_and_land",
+                                        "pass":  true,
+                                        "detail":  "peak rise 1.42 m, landed=true"
+                                    },
+                                    {
+                                        "name":  "wall_collision",
+                                        "pass":  true,
+                                        "detail":  "player x=-6.130 (wall face x=-6.5, radius 0.35)"
+                                    },
+                                    {
+                                        "name":  "pickup",
+                                        "pass":  true,
+                                        "detail":  "inventory=[\"crate_3\"] crate_3 removed from world=true"
+                                    },
+                                    {
+                                        "name":  "quicksave_written",
+                                        "pass":  true,
+                                        "detail":  "D:\\rem1_bevy_runs\\B001\\saves\\quicksave.json exists=true"
+                                    },
+                                    {
+                                        "name":  "quickload_restores",
+                                        "pass":  true,
+                                        "detail":  "pos error 0.000 m, inventory=1, world items 3 (saved 3)"
+                                    },
+                                    {
+                                        "name":  "drop_and_physics",
+                                        "pass":  true,
+                                        "detail":  "world items 4, dropped crate at Some(Vec3(-3.0138412, 0.29993072, 0.7019063)), inventory 0"
+                                    }
+                                ],
+                     "physics_steps":  859,
+                     "gamepads_detected":  0,
+                     "duration_s":  14.340506
+                 },
+    "evidence_dir":  "D:\\rem1_bevy_runs\\B001",
+    "screenshots_sha256":  {
+                               "01_boot.png":  "AD24A267F83D102B956990CBB16EEC86CD4CA9CA6A5FBED4AA4E5D1790000C09",
+                               "02_look_at_crate.png":  "0F326BD4A05CF9489E4705F92B77266A55885E606FFC65C928CD7F5863998ED9",
+                               "03_after_drop.png":  "AC3B42E4567B527110F2EC095C923812BB3E651D6D42BF5DB23AE008CB48F689"
+                           }
+}
