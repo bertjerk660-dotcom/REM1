@@ -89,6 +89,23 @@ Local extractor script: `research/validation/fo3_terrain_20261011/playability/fo
 - Extended independent Rapier suite verdict: **7 passed, 0 failed, exit 0**.
 
 This establishes *physical compatibility of converted native geometry*, NOT source engine equivalence. Surface collision characteristics of Havok shapes (materials, motion systems, group masks, MOPP flags), original-game transform fidelity, and all 102 uncovered objects remain open. The prior integrated Bevy executable originally used proxy boxes; a separate upgraded native+fallback Bevy test has its own verdict below.
+## Integrated Bevy scene + authentic static Havok collision — PASS
+
+A separate **native-Havok-upgraded executable** of isolated Bevy B001 was compiled and run under `bevy/src/bin/fo3_playable_native_havok_gate.rs` (reproducible source in `research/validation/fo3_terrain_20261011/playability/`). This is **not** the normal REM1 game binary.
+
+The binary loads the two source Fallout3.esm LAND cells and 239 original NIF visual instances; constructs a Rapier trimesh from **149 native original NIF Havok shape placements** (24,754 triangles); registers **102 fallback box colliders** for the remaining placed objects; and simulates 660 Bevy FixedUpdate frames at 60Hz with a visible capsule-player entity (hidden test window). Original NIF and LAND assets remain exclusively local.
+
+Actual console evidence:
+
+```text
+FO3_BEVY_GATE_BOOTSTRAP objects=251 original_havok=149 fallback_proxies=102 native_triangles=24754 initial_x=416 land_cells=2
+FO3_BEVY_TRAVERSE_COMPLETE passed=true x=461.510 z=-506.727 grounded=645 ticks=660 sink=0.00000 lift=0.49289 objects=251
+FO3_BEVY_GATE_RESULT passed=true scene_loaded=true gltf_meshes=35 gltf_nodes=240 named_entities=241 world_instances=239 land_triangles=4096
+```
+
+**Process exit code 0**. Bevy loaded glTF, rendered via Vulkan/RTX 4060, and finished the scripted Rapier traversal across cell x=448 on native terrain with native static source collision enabled. ReShade Vulkan layer emitted an error but did not prevent successful engine execution.
+
+**Acceptance interpretation:** The **automated two-cell native-terrain + native-static-collision Bevy proof passes**. It does not establish all-cell world parity, exact Havok MOPP/material/mass, correct original-game rotations, source graphics/textures, 12 SpeedTree vegetation meshes, original Fallout 3 NPC/quest interactions, or playable user input. All these remain separate open gates.
 ## Remains to close the FULL playable-terrain gate
 
 - [x] Extract and physically test native per-model Havok triangles for 149 placed objects / 28 NIFs in isolated Rapier; [ ] integrate their original collision semantics and verify remaining 102 objects (including 12 SpeedTrees) and actual rotation against original-game state.
