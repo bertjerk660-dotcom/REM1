@@ -94,3 +94,7 @@ Local workspace: `D:\REM_Dream_validation_20261011\`.
 - GitHub `research/validation/bridges_20261011` retains an authored standalone reproduction harness. Avoid committing the licensed third-party source copies or proprietary game assets into REM1.
 
 **Verdict:** PASS for the tested portable LibertyCraft handoff/math suites and tested MW2 rail algorithm, with documented MSVC compile adaptation for collision; NOT YET VALIDATED for original GTA IV game parity, runtime Skate 3/THUG2 physics, or native REM1 Bevy gameplay integration.
+
+## V05 Fresh checkout of committed validation harness — PASSED
+
+After committing the authored `research/validation/bridges_20261011/` harness, independently cloned the REM1 **research branch** into the isolated `D:\\REM_Dream_validation_20261011\\RemResearchValidation` folder, sparse-checked out the harness, copied the unchanged upstream `rails.rs` to the ignored `src/rails_external.rs`, and ran `cargo test --offline -- --nocapture` using the isolated `D:` target directory. Result: **six passed, zero failed; exit code 0**. This confirms the precise committed test harness works as documented, not just the initial scratch harness. Compiled dependencies `bevy_math =0.20.0` and `glam =0.33.12` were taken from the Windows cargo cache.
