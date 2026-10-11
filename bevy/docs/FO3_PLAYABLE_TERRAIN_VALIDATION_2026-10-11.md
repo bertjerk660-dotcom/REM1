@@ -40,9 +40,9 @@ The real decoded `LAND` mesh was accepted by Rapier trimesh and hit by downwards
 
 On the original LAND seam at x=448, z=-506, adjacent raycasts at x=447.98 and 448.02 both returned `height=232.125`; no discontinuity.
 
-The original game placed 251 non-creature refs, and their real REFR positions, scale, original NIF references and source `OBND` bounding boxes were extracted. **The current physics tests register 251 test-only box colliders, not the native NIF Havok shapes**, and assume /64 original units per Bevy metre. World-object collision fidelity is therefore not cleared. Source model geometry is real, untextured, and loaded into the Bevy visual scene.
+The original game placed 251 non-creature refs, and their real REFR positions, scale, original NIF references and source `OBND` bounding boxes were extracted. The first physics suite registered 251 test-only OBND box proxies; an **additional independent native Havok suite** subsequently loaded 149 authentic source-object Havok instances as Rapier triangles. The 102 other object references require source-specific collision/no-collision classification or fallback proxies. Source scale /64 and placement rotation conventions remain unverified against the live game; entire world-object collision fidelity remains open. Source model geometry is real, untextured, and loaded into the Bevy visual scene.
 
-Additional original NIF Havok scale census of 28 collision-bearing models: converting Havok vertices by factor `7` brought collider and source visual AABB size medians near 1.0 (x 1.0001363, y 1.0001363, z 0.9943011). This is strong static geometric evidence for a candidate Havok-to-NIF scale of 7. It is **not yet** validated Rapier collision reproduction or source-engine contact parity; outliers up to approx 0.61 in some axes reflect simplified native collision shapes.
+Additional original NIF Havok scale census of 28 collision-bearing models: converting Havok vertices by factor `7` brought collider and source visual AABB size medians near 1.0 (x 1.0001363, y 1.0001363, z 0.9943011). This is strong static geometric evidence for a candidate Havok-to-NIF scale of 7. Rapier successfully loaded and raycast the converted Havok triangles in a separate executable test, **but this is not original-game Havok contact parity**; outliers up to approx 0.61 in some axes reflect simplified native collision shapes.
 
 ## Direct Rapier physics tests — five PASS
 
@@ -78,9 +78,20 @@ Exit code 0. Full test execution consumed a hidden-window renderer; existing GTA
 
 **Interpretation:** This test actually ran a Bevy 0.20 program with the 2-cell original landscape, authored conversion from 34 original NIF model geometries, registered original object location proxies, and 11 seconds of simulated character traversal across the source cell seam. It is stronger than merely parsing a file or running a physics-only isolated algorithm.
 
+## Additional authentic Havok static-object collision validation — PASS (independent physics test)
+
+Local extractor script: `research/validation/fo3_terrain_20261011/playability/fo3_native_havok_export.py`. It reads **source NIF hkPackedNiTriStrips collision geometry**, applies candidate 7x Havok/NIF scale, original extracted placements and *provisional* ZYX rotation order, and produces a local-only aggregate collider binary. No proprietary Havok vertex/triangle data has been committed.
+
+- **28** distinct source NIF collision models; **149** source object placements with a Havok collision shape; **102** additional non-creature placements without directly imported Havok collision.
+- **17,214** placed Havok vertices, **24,754** collision triangles across 149 native instances.
+- Local binary SHA256 `F9D79006752BE0C2AB7763004470841AFCF30A7EF0F3DDE5C0F9BA5E8B24F2BF`; file `D:\REM_Dream_validation_20261011\fo3_original_havok_static_collisions.bin` is not distributed.
+- Rust test `rapier/src/native_havok.rs` constructed Rapier trimesh colliders from those vertices, confirmed collision raycast, and walked the same original LAND region using **original Havok static collision** rather than only box proxies. The native test moved to `x=461.5104, z=-506.72736`, grounded **645/660**, max terrain penetration **0**.
+- Extended independent Rapier suite verdict: **7 passed, 0 failed, exit 0**.
+
+This establishes *physical compatibility of converted native geometry*, NOT source engine equivalence. Surface collision characteristics of Havok shapes (materials, motion systems, group masks, MOPP flags), original-game transform fidelity, and all 102 uncovered objects remain open. The prior integrated Bevy executable originally used proxy boxes; a separate upgraded native+fallback Bevy test has its own verdict below.
 ## Remains to close the FULL playable-terrain gate
 
-- [ ] Convert and use original per-model Havok collision meshes (28 NIF shapes have them), plus official collision/no-collision rules for remaining 6 NIFs; validate placement rotation with original-game reference coordinates rather than assumed Euler order.
+- [x] Extract and physically test native per-model Havok triangles for 149 placed objects / 28 NIFs in isolated Rapier; [ ] integrate their original collision semantics and verify remaining 102 objects (including 12 SpeedTrees) and actual rotation against original-game state.
 - [ ] Extract/convert source SpeedTree `.spt` meshes for 12 instances; NPC/creature spawn, AI and interactions not implemented yet.
 - [ ] Reconstruct original materials/textures, terrain normals/LOD/water/navmesh and collision semantics. No source texture/visual parity has been playtested.
 - [ ] Validate 1 Bevy unit = 1m, source /64 and Havok x7 against actual Fallout3.exe 1.7.0.4 game measurements with IDA Pro 6.8 support; current values are coherent conversion assumptions only.

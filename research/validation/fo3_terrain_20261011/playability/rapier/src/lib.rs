@@ -98,3 +98,6 @@ mod tests {
 
 #[cfg(test)]
 mod playability;
+
+#[cfg(test)]
+mod native_havok;

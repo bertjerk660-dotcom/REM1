@@ -1,0 +1,17 @@
+﻿{
+    "source_esm_sha256":  "D9FB0A33AF495DDB43992B96EA74F2741B123FEFDB1FCDCEA28096F7649B0D06",
+    "model_count":  28,
+    "native_shape_instance_count":  149,
+    "instances_without_native_shape":  102,
+    "vertices":  17214,
+    "triangles":  24754,
+    "file":  "D:\\REM_Dream_validation_20261011\\fo3_original_havok_static_collisions.bin",
+    "file_size":  503632,
+    "sha256":  "f9d79006752be0c2ab7763004470841afcf30a7ef0f3dde5c0f9ba5e8b24f2bf",
+    "errors":  [
+
+               ],
+    "havok_to_source_ratio":  7.0,
+    "source_to_bevy_ratio":  0.015625,
+    "rotation_assumption":  "Z*Y*X Euler, not verified against live Fallout 3 state"
+}

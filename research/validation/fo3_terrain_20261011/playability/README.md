@@ -57,3 +57,9 @@ For Bevy scene load or Bevy fixed-step traversal on a **disposable, isolated clo
 - At least a controlled manual playtest plus automatic regression suite including terrain/objects/roads/structures, collision streaming/LOD, cutscene/quest travel and fall recovery.
 
 This repository contains only authored conversion/test logic and non-proprietary derived metadata; all original asset data is private and remains local. No changes have been made to the protected FNV v85 DLL/ESP or active Bevy B001 implementation.
+
+## Additional native Havok collision reproduction
+
+After extracting source NIFs, execute `python fo3_native_havok_export.py` from the script directory (the script currently uses an absolute test-workspace source root). It generates a *local-only* `fo3_original_havok_static_collisions.bin` plus metadata. Source target is exactly 149 HAVOK-backed placements, 17,214 vertices and 24,754 triangles; hash `F9D79006752BE0C2AB7763004470841AFCF30A7EF0F3DDE5C0F9BA5E8B24F2BF`. Re-run `cargo test` in the `rapier` subdirectory to execute the additional two native-Havok tests. Their PASS does **not** validate actual Havok material/collision-group semantics or all world objects.
+
+`fo3_playable_native_havok_gate.rs` runs the **combined Bevy** version with those 149 native Havok shapes plus 102 fallback bounding-box proxies in an isolated copy of REM1 B001. It requires the local native binary and full (unredacted) local `fo3_havok_collider_export_manifest.json`, which contains source base-form IDs; these remain on the owner's machine and are not committed. The script uses only local files and a hidden test window; it is not the production game binary.
