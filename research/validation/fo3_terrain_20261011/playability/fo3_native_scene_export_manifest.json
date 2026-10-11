@@ -1,0 +1,16 @@
+{
+  "source_esm_sha256": "D9FB0A33AF495DDB43992B96EA74F2741B123FEFDB1FCDCEA28096F7649B0D06",
+  "scene_glb": "D:\\REM_Dream_validation_20261011\\fo3_two_cell_original_nif_scene.glb",
+  "bytes": 2072160,
+  "sha256": "3422008ad5a0c4e2563200b9562b581554564de3d01b8002bfea5af562cc282c",
+  "meshes": 35,
+  "unique_nif_meshes": 34,
+  "nif_visual_triangles": 50143,
+  "original_land_triangles": 4096,
+  "placed_original_nif_instances": 239,
+  "speedtree_unconverted_placements": 12,
+  "missing_references": [],
+  "geometry_issues": [],
+  "orientation_fidelity": "PROVISIONAL: original record Euler order ZYX assumed; no runtime parity evidence",
+  "height_scale_fidelity": "PROVISIONAL /64 Fallout units per metre; mesh height decode seams and Rapier contact validated"
+}

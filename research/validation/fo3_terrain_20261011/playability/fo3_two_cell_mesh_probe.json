@@ -1,0 +1,31 @@
+{
+  "source_esmbinary_sha256": "D9FB0A33AF495DDB43992B96EA74F2741B123FEFDB1FCDCEA28096F7649B0D06",
+  "worldspace": "0000003C",
+  "cells": [
+    {
+      "land_id": "00001E60",
+      "cell": "000017A1",
+      "xy": [
+        6,
+        7
+      ]
+    },
+    {
+      "land_id": "00001E61",
+      "cell": "000017A0",
+      "xy": [
+        7,
+        7
+      ]
+    }
+  ],
+  "seam_delta_min": 0.0,
+  "seam_delta_max": 0.0,
+  "seam_delta_abs_max": 0.0,
+  "height_conversion": "offset float+signed differences, factor 8 original engine units; scale /64 units-per-metre PROVISIONAL",
+  "triangles": 4096,
+  "vertices": 2178,
+  "glb_path": "D:\\REM_Dream_validation_20261011\\fo3_original_two_cells_6_7_7_7.glb",
+  "glb_sha256": "3f9c66437a0f2951816e80de6b768bf0dae8d1b242c978f9b2706c08fd3908a2",
+  "glb_bytes": 119788
+}

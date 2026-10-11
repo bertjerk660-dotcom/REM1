@@ -1,0 +1,70 @@
+﻿{
+    "file":  "D:\\SteamLibrary\\steamapps\\common\\Fallout 3 goty\\Data\\Fallout3.esm",
+    "file_sha256":  "d9fb0a33af495ddb43992b96ea74f2741b123fefdb1fcdcea28096f7649b0d06",
+    "size":  288771262,
+    "records":  718952,
+    "groups":  89748,
+    "land_records":  40256,
+    "valid_vhgt":  40084,
+    "compressed_records":  40256,
+    "cells_with_xclc":  41989,
+    "parse_issues":  [
+
+                     ],
+    "selected":  [
+                     {
+                         "land_formid":  "00001E61",
+                         "cell_group":  "000017A0",
+                         "world_group":  "0000003C",
+                         "offset":  32471700,
+                         "compressed":  true,
+                         "range":  [
+                                       14344.0,
+                                       15448.0
+                                   ],
+                         "average":  14908.165289256198,
+                         "grid":  "33x33",
+                         "height_digest":  "38465a2b856f6ae4897bc879e2f9d92b33162184a5d9e811091afae145112882",
+                         "cell_xy":  [
+                                         7,
+                                         7
+                                     ]
+                     },
+                     {
+                         "land_formid":  "00001E60",
+                         "cell_group":  "000017A1",
+                         "world_group":  "0000003C",
+                         "offset":  32506444,
+                         "compressed":  true,
+                         "range":  [
+                                       14472.0,
+                                       15432.0
+                                   ],
+                         "average":  15049.667584940313,
+                         "grid":  "33x33",
+                         "height_digest":  "f67d779acdcf1feec82aaa76729c4dbaac8746f5b1694534a42e7fef77f4f803",
+                         "cell_xy":  [
+                                         6,
+                                         7
+                                     ]
+                     },
+                     {
+                         "land_formid":  "00001E5F",
+                         "cell_group":  "000017A2",
+                         "world_group":  "0000003C",
+                         "offset":  32548116,
+                         "compressed":  true,
+                         "range":  [
+                                       14144.0,
+                                       14960.0
+                                   ],
+                         "average":  14375.221303948576,
+                         "grid":  "33x33",
+                         "height_digest":  "52c26efc5be834c1446a5197d7b19fa91bf6adcf1d5e232996e3eb221427250b",
+                         "cell_xy":  [
+                                         5,
+                                         7
+                                     ]
+                     }
+                 ]
+}
