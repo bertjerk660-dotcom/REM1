@@ -49,3 +49,7 @@ Durable rule: do not equate successful mode switching with successful THUG2 runt
 ## F012 - Current GMod prop menu is a placeholder
 Human playtest reports the current GMod-style prop menu appears visually correct.
 Durable rule: this is explicitly a placeholder and is not evidence that the real GMod Q menu has been ported. Final acceptance still requires the source-faithful GMod Q/spawn-menu implementation, tool-state bridge and associated behavior.
+
+## F013 - Rejected Desktop Commander call still executed on the owner PC
+On 2026-10-16 a `tailscale login --timeout=10m` sent through Remote Desktop Commander was rejected by the user in the permission prompt, yet it still ran on DESKTOP-6PTSS3D (process seen in Win32_Process). It left tailscaled in NeedsLogin and disconnected the PC from the remriddimz@gmail.com tailnet until the stray process was killed and `tailscale switch 3b9d` restored the saved profile, with no re-authentication needed.
+Durable rule: a rejected remote call may already have executed. After any rejection, inspect the device for side effects before continuing. Never send state-changing commands, such as logins, account switches or service changes, to the owner PC on speculation; ask first and send only the approved command.

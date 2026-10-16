@@ -65,6 +65,22 @@ WantedBy=multi-user.target
 
 On Windows, run the same command from Task Scheduler at logon, or use NSSM.
 
+### Live deployment on DESKTOP-6PTSS3D (Windows), set up 2026-10-16
+
+| Item | Value |
+|---|---|
+| Install dir | `C:\Users\BRAD\agentboard` (not one of the agents' `REM1*` working copies) |
+| Code | `C:\Users\BRAD\agentboard\repo`, a shallow clone of branch `claude/agentboard-heartbeat` |
+| Token | `C:\Users\BRAD\agentboard\token.txt` (ACL: BRAD + SYSTEM only; never commit it) |
+| Database / log | `board.sqlite3`, `server.log` in the install dir |
+| Launcher | `start.ps1`: sets env, binds `127.0.0.1:8787`, restarts the server if it exits |
+| Autostart | Scheduled task **AgentBoard**, runs at logon of BRAD with no admin rights |
+| Env | `AGENTBOARD_TOKEN_READS=1`, `AGENTBOARD_TS_USERS=remriddimz@gmail.com` |
+| Tailnet URL | `https://desktop-6ptss3d.tailfa8d2c.ts.net` via `tailscale serve --bg 8787` |
+| Funnel | **off** (not enabled; step 3 deferred by owner) |
+
+Because `AGENTBOARD_TOKEN_READS=1` is set, the browser dashboard is at `https://desktop-6ptss3d.tailfa8d2c.ts.net/t/<token>/`. To update the code, run `git -C C:\Users\BRAD\agentboard\repo pull`, then `Stop-ScheduledTask AgentBoard; Start-ScheduledTask AgentBoard`.
+
 ## 2. Point agents at it
 
 Shared environment for every client:
