@@ -102,9 +102,79 @@ class AgentBoardTest(unittest.TestCase):
         replies = [json.loads(l) for l in r.stdout.splitlines()]
         self.assertEqual([x["id"] for x in replies], [1, 2, 3, 4])
         self.assertEqual(replies[0]["result"]["protocolVersion"], "2025-06-18")
-        self.assertEqual(len(replies[1]["result"]["tools"]), 5)
+        self.assertEqual(len(replies[1]["result"]["tools"]), 7)
         self.assertFalse(replies[2]["result"]["isError"])
         self.assertIn("mcp-agent", replies[3]["result"]["content"][0]["text"])
+
+    def post_mcp(self, path, msg, headers=None):
+        import urllib.error
+        import urllib.request
+        req = urllib.request.Request(self.env["AGENTBOARD_URL"] + path,
+                                     json.dumps(msg).encode(), method="POST")
+        req.add_header("Content-Type", "application/json")
+        req.add_header("Accept", "application/json, text/event-stream")
+        for k, v in (headers or {}).items():
+            req.add_header(k, v)
+        try:
+            with urllib.request.urlopen(req) as r:
+                body = r.read()
+                return r.status, json.loads(body) if body else None
+        except urllib.error.HTTPError as e:
+            return e.code, None
+
+    def test_remote_mcp_like_chatgpt(self):
+        ua = {"User-Agent": "openai-mcp/1.0"}
+        st, r = self.post_mcp("/mcp/secret", {"jsonrpc": "2.0", "id": 1,
+                                              "method": "initialize",
+                                              "params": {"protocolVersion": "2025-06-18"}}, ua)
+        self.assertEqual((st, r["result"]["serverInfo"]["name"]), (200, "agentboard"))
+        st, r = self.post_mcp("/mcp/secret", {"jsonrpc": "2.0",
+                                              "method": "notifications/initialized"}, ua)
+        self.assertEqual(st, 202)
+        st, r = self.post_mcp("/mcp/secret", {"jsonrpc": "2.0", "id": 2, "method": "tools/call",
+                                              "params": {"name": "board_claim",
+                                                         "arguments": {"task": "t/chat",
+                                                                       "title": "from chatgpt"}}},
+                              ua)
+        claimed = json.loads(r["result"]["content"][0]["text"])
+        self.assertEqual((claimed["agent"], claimed["agent_kind"]), ("chatgpt", "gpt"))
+        st, r = self.post_mcp("/mcp", {"jsonrpc": "2.0", "id": 3, "method": "tools/call",
+                                       "params": {"name": "search",
+                                                  "arguments": {"query": "chatgpt"}}},
+                              {"Authorization": "Bearer secret"})
+        hits = json.loads(r["result"]["content"][0]["text"])["results"]
+        self.assertIn("t/chat", [h["id"] for h in hits])
+        st, r = self.post_mcp("/mcp", {"jsonrpc": "2.0", "id": 4, "method": "tools/call",
+                                       "params": {"name": "fetch", "arguments": {"id": "t/chat"}}},
+                              {"Authorization": "Bearer secret"})
+        self.assertIn("from chatgpt", r["result"]["content"][0]["text"])
+        self.assertEqual(self.post_mcp("/mcp/wrong", {"jsonrpc": "2.0", "id": 5,
+                                                      "method": "tools/list"})[0], 401)
+        self.assertEqual(self.post_mcp("/mcp", {"jsonrpc": "2.0", "id": 6,
+                                                "method": "tools/list"})[0], 401)
+
+    def test_link_mode(self):
+        import urllib.error
+        import urllib.request
+        b = self.env["AGENTBOARD_URL"] + "/t/secret"
+
+        def get(path):
+            try:
+                with urllib.request.urlopen(b + path) as r:
+                    return r.status, r.read().decode()
+            except urllib.error.HTTPError as e:
+                return e.code, e.read().decode()
+
+        st, txt = get("/claim?agent=gpt-chat&task=t/link&title=Link%20test&ttl=600")
+        self.assertEqual(st, 200)
+        self.assertIn("OK t/link: claimed by gpt-chat", txt)
+        self.assertIn("progress=60", get("/beat?agent=gpt-chat&task=t/link&progress=60")[1])
+        self.assertIn("t/link | live | gpt-chat", get("/status")[1])
+        self.assertEqual(get("/claim?agent=other&task=t/link")[0], 409)
+        self.assertIn("done", get("/done?agent=gpt-chat&task=t/link&note=ok")[1])
+        self.assertIn("claim t/link gpt-chat", get("/log?task=t/link")[1])
+        with self.assertRaises(urllib.error.HTTPError):
+            urllib.request.urlopen(self.env["AGENTBOARD_URL"] + "/t/wrong/status")
 
     def test_dashboard_and_openapi(self):
         import urllib.request

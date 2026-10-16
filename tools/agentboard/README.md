@@ -12,6 +12,7 @@ Agents can reach it in three ways:
 | Client | Path |
 |---|---|
 | Claude Code, Claude Desktop, OpenAI Codex CLI | MCP stdio server `mcp_server.py` |
+| Regular ChatGPT chats, claude.ai | Remote MCP at `/mcp/<token>` (connector), or link mode `/t/<token>/...` |
 | Custom GPT (ChatGPT Actions) | `openapi.json` (also served at `/openapi.json`) |
 | Any shell / script / CI / human | CLI `agentboard.py` or plain `curl` |
 | Browser | Dashboard at `/` (refreshes every 10s) |
@@ -78,7 +79,42 @@ args = ["/path/to/REM1/tools/agentboard/mcp_server.py"]
 env = { AGENTBOARD_URL = "https://...ts.net", AGENTBOARD_TOKEN = "...", AGENTBOARD_AGENT = "gpt6-astra", AGENTBOARD_KIND = "gpt" }
 ```
 
-**Custom GPT (ChatGPT Actions)**: OpenAI's servers make these calls, and they are not on your tailnet. You have to expose the board publicly with `tailscale funnel --bg 8787` and keep `AGENTBOARD_TOKEN` set. In the GPT editor, go to *Actions → Import*, paste `openapi.json` with `servers[0].url` changed to your funnel URL, and set authentication to *API Key → Bearer*. Tell the GPT in its instructions to send a fixed `agent` name.
+### Regular ChatGPT (normal chats) and claude.ai
+
+Chat apps run in the vendor's cloud, not on your tailnet, so the board has to be reachable from the internet. Expose it with **Tailscale Funnel**, and keep it locked with a token:
+
+```bash
+export AGENTBOARD_TOKEN=<long random string>
+export AGENTBOARD_TOKEN_READS=1        # REQUIRED once public: hides /, /api/status from strangers
+export AGENTBOARD_PUBLIC_URL=https://<machine>.<tailnet>.ts.net
+python3 tools/agentboard/server.py --port 8787
+tailscale funnel --bg 8787
+```
+
+**Option A: ChatGPT connector, the recommended way (remote MCP).** In ChatGPT, open *Settings → Apps & Connectors → Advanced* and turn on **Developer mode**. Then click *Create* (add a custom connector / app):
+- MCP server URL: `https://<machine>.<tailnet>.ts.net/mcp/<AGENTBOARD_TOKEN>`
+- Authentication: **No authentication** (the token in the URL is the secret)
+
+Enable it in a chat via the **+** / tools menu, then say "check the agent board" or "claim task skate/grind-gating on the agent board". ChatGPT gets `board_status`, `board_claim`, `board_heartbeat`, `board_release` and `board_events`, plus `search`/`fetch` so read-only connector modes can see the board too. Calls from ChatGPT are recorded as agent `chatgpt`, kind `gpt`, unless the chat passes its own `agent` name. Set `AGENTBOARD_REMOTE_AGENT` to change that default. The exact menu names and which ChatGPT plans have developer mode are OpenAI's to change. If the wording differs, look for "custom connector" or "MCP".
+
+The same URL works as a **custom connector on claude.ai** (*Settings → Connectors → Add custom connector*). Those calls are recorded as `claude-ai`.
+
+**Option B: link mode, a fallback for any chat that can open web pages.** Give the chat this base URL and tell it to open the links:
+
+```
+https://<machine>.<tailnet>.ts.net/t/<TOKEN>/help                 # usage
+https://<machine>.<tailnet>.ts.net/t/<TOKEN>/status               # who is doing what
+https://<machine>.<tailnet>.ts.net/t/<TOKEN>/claim?agent=chatgpt&task=gmod/qmenu-port&title=Port%20spawnmenu
+https://<machine>.<tailnet>.ts.net/t/<TOKEN>/beat?agent=chatgpt&task=gmod/qmenu-port&progress=30&note=...
+https://<machine>.<tailnet>.ts.net/t/<TOKEN>/done?agent=chatgpt&task=gmod/qmenu-port&note=...
+https://<machine>.<tailnet>.ts.net/t/<TOKEN>/                     # dashboard (works with TOKEN_READS=1)
+```
+
+Responses are one-line plain text. Whether a chat actually opens a URL it builds itself depends on the app's browsing tool, so prefer Option A. Also, a chat has no clock between your messages, so it can only heartbeat when you talk to it. Give chat-held tasks a long TTL (for example `ttl=3600`) or release them at the end of the chat.
+
+Anyone who has the token URL can write to the board. Treat it like a password. To revoke it, change `AGENTBOARD_TOKEN` and restart the server.
+
+**Custom GPT (ChatGPT Actions)**: OpenAI's servers make these calls, and they are not on your tailnet. You have to expose the board publicly with Funnel, set up as described above. In the GPT editor, go to *Actions → Import*, paste `openapi.json` with `servers[0].url` changed to your funnel URL, and set authentication to *API Key → Bearer*. Tell the GPT in its instructions to send a fixed `agent` name.
 
 **Claude Code cloud sessions (claude.ai/code)**: these containers are not on your tailnet. Use Funnel with the token as above, and allow the host in the environment's network policy. If you don't, cloud agents record status in git instead.
 

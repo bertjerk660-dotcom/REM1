@@ -57,6 +57,18 @@ TOOLS = [
      "inputSchema": {"type": "object", "properties": {
          "task": {"type": "string"}, "limit": {"type": "integer"}}},
      "route": ("GET", "/api/events")},
+    # search/fetch: the read-only shape ChatGPT connectors and deep research expect.
+    {"name": "search",
+     "description": "Search board tasks by id, title, agent, state or note. Empty query "
+                    "returns all active tasks.",
+     "inputSchema": {"type": "object", "required": ["query"], "properties": {
+         "query": {"type": "string"}}},
+     "route": None},
+    {"name": "fetch",
+     "description": "Fetch one board task by id, with its recent event history.",
+     "inputSchema": {"type": "object", "required": ["id"], "properties": {
+         "id": {"type": "string"}}},
+     "route": None},
 ]
 
 
@@ -80,7 +92,35 @@ def run_tool(name, args):
     return call(method, path, body)
 
 
-def handle(msg):
+def search_fetch(name, args, runner, base_url=""):
+    """search/fetch built on board_status + board_events, for any runner."""
+    status, st = runner("board_status", {"include_final": True})
+    if status >= 400:
+        return status, st
+    if name == "search":
+        q = (args.get("query") or "").lower().strip()
+        hits = [t for t in st["tasks"]
+                if (not q and t["state"] in ("open", "claimed")) or (q and q in " ".join(
+                    str(t.get(k) or "") for k in
+                    ("id", "title", "agent", "state", "liveness", "note")).lower())]
+        def label(t):
+            state = t["liveness"] if t["state"] == "claimed" else t["state"]
+            return f"{t['id']} [{state}] {t['agent'] or ''} {t['title']}"
+        return 200, {"results": [{"id": t["id"], "title": label(t),
+                                  "url": f"{base_url}/#{t['id']}"} for t in hits]}
+    task = next((t for t in st["tasks"] if t["id"] == args.get("id")), None)
+    if task is None:
+        return 404, {"error": "no such task"}
+    _, ev = runner("board_events", {"task": task["id"], "limit": 20})
+    return 200, {"id": task["id"], "title": task["title"] or task["id"],
+                 "text": json.dumps({"task": task, "events": ev.get("events", [])},
+                                    indent=1),
+                 "url": f"{base_url}/#{task['id']}", "metadata": {"state": task["state"]}}
+
+
+def handle(msg, runner=run_tool, base_url=""):
+    """One JSON-RPC message -> reply (None for notifications). runner(name, args)
+    returns (http_status, payload) for the board_* tools."""
     method, mid = msg.get("method"), msg.get("id")
     if method == "initialize":
         result = {"protocolVersion": msg.get("params", {}).get("protocolVersion",
@@ -92,10 +132,14 @@ def handle(msg):
     elif method == "tools/call":
         p = msg.get("params", {})
         try:
-            status, payload = run_tool(p.get("name"), p.get("arguments") or {})
+            name, args = p.get("name"), p.get("arguments") or {}
+            if name in ("search", "fetch"):
+                status, payload = search_fetch(name, args, runner, base_url)
+            else:
+                status, payload = runner(name, args)
             result = {"content": [{"type": "text", "text": json.dumps(payload, indent=1)}],
                       "isError": status >= 400}
-        except KeyError:
+        except (KeyError, StopIteration):
             return {"jsonrpc": "2.0", "id": mid,
                     "error": {"code": -32602, "message": "unknown tool"}}
         except (OSError, SystemExit) as e:

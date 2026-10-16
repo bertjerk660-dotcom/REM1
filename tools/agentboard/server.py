@@ -12,6 +12,11 @@ after its TTL and becomes reclaimable (DEAD) after 3x TTL.
 Auth: if AGENTBOARD_TOKEN is set, every /api/* write needs
 `Authorization: Bearer <token>`. Reads are open unless AGENTBOARD_TOKEN_READS=1.
 When fronted by `tailscale serve`, the Tailscale-User-Login header is recorded.
+
+Remote access for chat apps (ChatGPT, claude.ai) via `tailscale funnel`:
+  POST /mcp            MCP Streamable HTTP, Bearer auth
+  POST /mcp/<token>    same, token in the URL (for connector UIs without bearer auth)
+  GET  /t/<token>/...  link mode: status, claim, beat, done, ... as plain GET URLs
 """
 import argparse
 import html
@@ -21,7 +26,9 @@ import sqlite3
 import threading
 import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, quote, urlparse
+
+import mcp_server
 
 DEFAULT_TTL = 300  # seconds without a heartbeat before a claim is STALE
 DEAD_FACTOR = 3    # STALE claims become reclaimable after DEAD_FACTOR * ttl
@@ -326,6 +333,63 @@ td,th{{border-color:#333}}small{{color:#999}}}}
 </body></html>"""
 
 
+def remote_identity(user_agent):
+    """Best-guess agent name/kind for remote MCP callers that do not send one."""
+    ua = (user_agent or "").lower()
+    if "openai" in ua or "chatgpt" in ua:
+        return "chatgpt", "gpt"
+    if "claude" in ua or "anthropic" in ua:
+        return "claude-ai", "claude"
+    return "remote-mcp", None
+
+
+def board_runner(board, defaults, ts_user):
+    """runner(name, args) -> (status, payload) calling the Board directly."""
+    ops = {"board_claim": board.claim, "board_heartbeat": board.heartbeat,
+           "board_release": board.release}
+
+    def run(name, args):
+        try:
+            if name == "board_status":
+                return 200, board.status(bool(args.get("include_final")))
+            if name == "board_events":
+                return 200, {"events": board.events(args.get("limit") or 50,
+                                                    args.get("task"))}
+            if name not in ops:
+                raise KeyError(name)
+            body = {**defaults, **{k: v for k, v in args.items() if v is not None}}
+            return 200, ops[name](body, ts_user)
+        except BoardError as e:
+            return e.status, e.payload
+        except (ValueError, TypeError) as e:
+            return 400, {"error": f"bad request: {e}"}
+    return run
+
+
+def status_text(st, show_all=False):
+    lines = []
+    for t in st["tasks"]:
+        if not show_all and t["state"] not in ("open", "claimed"):
+            continue
+        state = t["liveness"] if t["state"] == "claimed" else t["state"]
+        age = "" if t["heartbeat_age"] is None else f" beat {int(t['heartbeat_age'])}s ago"
+        pct = "" if t["progress"] is None else f" {t['progress']}%"
+        lines.append(f"{t['id']} | {state} | {t['agent'] or '-'}{age}{pct} | "
+                     f"{t['title']} | {t['note']}")
+    return "\n".join(lines) or "(no active tasks)"
+
+
+LINK_HELP = """Agent Board link mode. Open these URLs (GET) to act:
+  {b}/status            active tasks      ({b}/status?all=1 for all)
+  {b}/claim?agent=NAME&task=ID&title=...&note=...&ttl=SECONDS
+  {b}/beat?agent=NAME&task=ID&progress=0-100&note=...
+  {b}/done?agent=NAME&task=ID&note=...     (also: block, release, abandon)
+  {b}/add?task=ID&title=...                unclaimed backlog task
+  {b}/log?task=ID                          event history
+  {b}/                                     HTML dashboard
+"""
+
+
 def make_handler(board, token, token_reads):
     class Handler(BaseHTTPRequestHandler):
         server_version = "AgentBoard/1"
@@ -352,6 +416,10 @@ def make_handler(board, token, token_reads):
         def do_GET(self):
             url = urlparse(self.path)
             qs = {k: v[-1] for k, v in parse_qs(url.query).items()}
+            if url.path.startswith("/t/"):
+                return self._link_mode(url.path, qs)
+            if url.path.startswith("/mcp"):
+                return self._send(405, {"error": "MCP endpoint: use POST"})
             if url.path.startswith("/api/") and not self._authorized(write=False):
                 return self._send(401, {"error": "unauthorized"})
             if url.path in ("/", "/index.html"):
@@ -370,7 +438,85 @@ def make_handler(board, token, token_reads):
                 return self._send(200, {"ok": True})
             self._send(404, {"error": "not found"})
 
+        def _link_mode(self, path, qs):
+            parts = path.split("/")  # ['', 't', token, op?]
+            if not token or len(parts) < 3 or parts[2] != token:
+                return self._send(404, "not found", "text/plain")
+            op = parts[3] if len(parts) > 3 else ""
+            base = f"/t/{quote(token)}"
+            ts_user = self.headers.get("Tailscale-User-Login")
+            for k in ("ttl", "progress", "limit"):
+                if qs.get(k, "").lstrip("-").isdigit():
+                    qs[k] = int(qs[k])
+            qs.setdefault("kind", "link")
+            states = {"done": "done", "block": "blocked", "release": "open",
+                      "abandon": "abandoned"}
+            try:
+                if op == "":
+                    return self._send(200, render_dashboard(board.status()), "text/html")
+                if op == "help":
+                    return self._send(200, LINK_HELP.format(b=base), "text/plain")
+                if op == "status":
+                    return self._send(200, status_text(board.status(), qs.get("all") == "1"),
+                                      "text/plain")
+                if op == "log":
+                    ev = board.events(qs.get("limit", 30), qs.get("task"))
+                    return self._send(200, "\n".join(
+                        time.strftime("%Y-%m-%d %H:%M:%S ", time.localtime(e["ts"]))
+                        + f"{e['kind']} {e['task'] or '-'} {e['agent'] or '-'} {e['message']}"
+                        for e in reversed(ev)) or "(no events)", "text/plain")
+                if op == "claim":
+                    t = board.claim(qs, ts_user)
+                elif op in ("beat", "heartbeat"):
+                    t = board.heartbeat(qs, ts_user)
+                elif op in states:
+                    t = board.release({**qs, "state": states[op]}, ts_user)
+                elif op == "add":
+                    t = board.add_task(qs, ts_user)
+                else:
+                    return self._send(404, LINK_HELP.format(b=base), "text/plain")
+                if "id" not in t:
+                    return self._send(200, f"OK agent ping from {t['agent']}", "text/plain")
+                return self._send(200, f"OK {t['id']}: {t['state']} by {t['agent']} "
+                                       f"({t['liveness']}, progress={t['progress']})",
+                                  "text/plain")
+            except BoardError as e:
+                return self._send(e.status, "ERROR " + json.dumps(e.payload), "text/plain")
+            except (ValueError, TypeError) as e:
+                return self._send(400, f"ERROR bad request: {e}", "text/plain")
+
+        def _mcp(self, path):
+            path_token = path[len("/mcp/"):] if path.startswith("/mcp/") else None
+            if token and path_token != token and not self._authorized(write=True):
+                return self._send(401, {"error": "unauthorized"})
+            if path_token is not None and path_token != token:
+                return self._send(404, {"error": "not found"})
+            try:
+                length = int(self.headers.get("Content-Length") or 0)
+                msg = json.loads(self.rfile.read(length) or b"{}")
+            except ValueError:
+                return self._send(400, {"jsonrpc": "2.0", "id": None,
+                                        "error": {"code": -32700, "message": "parse error"}})
+            agent, kind = remote_identity(self.headers.get("User-Agent"))
+            defaults = {"agent": os.environ.get("AGENTBOARD_REMOTE_AGENT", agent),
+                        "kind": kind, "host": "remote-mcp"}
+            runner = board_runner(board, defaults, self.headers.get("Tailscale-User-Login"))
+            base_url = os.environ.get("AGENTBOARD_PUBLIC_URL", "")
+            msgs = msg if isinstance(msg, list) else [msg]
+            replies = [r for r in (mcp_server.handle(m, runner, base_url) for m in msgs
+                                   if isinstance(m, dict)) if r is not None]
+            if not replies:
+                self.send_response(202)
+                self.send_header("Content-Length", "0")
+                return self.end_headers()
+            self._send(200, replies if isinstance(msg, list) else replies[0])
+
+        def do_DELETE(self):  # MCP session teardown; we are stateless
+            self._send(200 if urlparse(self.path).path.startswith("/mcp") else 404, {})
+
         def do_POST(self):
+            if urlparse(self.path).path == "/mcp" or self.path.startswith("/mcp/"):
+                return self._mcp(urlparse(self.path).path)
             ops = {"/api/claim": board.claim, "/api/heartbeat": board.heartbeat,
                    "/api/release": board.release, "/api/tasks": board.add_task}
             path = urlparse(self.path).path
