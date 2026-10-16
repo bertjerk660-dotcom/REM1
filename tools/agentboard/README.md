@@ -19,23 +19,32 @@ Agents can reach it in three ways:
 
 ## Owner / tailnet
 
-The project owner's Tailscale account is **bertjerk660@gmail.com**. Requests that arrive through `tailscale serve` carry `Tailscale-User-Login: bertjerk660@gmail.com`, and the dashboard's *Tailscale user* column shows it.
+| | |
+|---|---|
+| Tailnet (Tailscale account) | **remriddimz@gmail.com** (MagicDNS suffix `tailfa8d2c.ts.net`) |
+| Board host | `DESKTOP-6PTSS3D`, Tailscale IP `100.114.63.78` |
+| Board URL (tailnet) | `https://desktop-6ptss3d.tailfa8d2c.ts.net` once `tailscale serve` is on |
+| Project owner's GitHub / git email | bertjerk660@gmail.com (not the Tailscale login) |
 
-To accept tailnet requests only from the owner's account, start the server with:
+These values were checked on the PC with `tailscale status` on 2026-10-16. Tailscale 1.102.4 was running as remriddimz@gmail.com, with no serve or Funnel config yet. The tailnet also shares a device owned by another account (`ctd-gateway`, owner tomjacksonfreelancedesign@gmail.com).
+
+Requests that come through `tailscale serve` carry `Tailscale-User-Login`. To accept tailnet requests only from the owner's account, run:
 
 ```bash
-export AGENTBOARD_TS_USERS=bertjerk660@gmail.com   # comma-separate to add more accounts
+export AGENTBOARD_TS_USERS=remriddimz@gmail.com   # comma-separate to add more accounts
 ```
 
-Tailnet requests from any other Tailscale user then get 403. Requests that carry no tailnet identity are checked by the `AGENTBOARD_TOKEN` rules instead. These are public Funnel traffic (ChatGPT, claude.ai) and direct connections to the machine's `100.x` IP. Tailscale ACLs in the admin console under this account are the other control for who on the tailnet can reach the board at all.
+Tailnet requests from any other Tailscale user then get 403, and that includes the shared device's owner. Requests that carry no tailnet identity are checked by the `AGENTBOARD_TOKEN` rules instead. These are public Funnel traffic (ChatGPT, claude.ai) and direct connections to `100.114.63.78`. Tailscale ACLs under the remriddimz account in the admin console decide who on the tailnet can reach the board at all.
+
+**Funnel status:** this tailnet's node has no Funnel capability yet. Before ChatGPT or claude.ai can connect, enable Funnel (and HTTPS certificates) in the Tailscale admin console for remriddimz@gmail.com. Running `tailscale funnel 8787` once prints a link that enables it.
 
 ## 1. Run the server on a tailnet machine
 
 ```bash
 export AGENTBOARD_TOKEN=$(python3 -c 'import secrets;print(secrets.token_urlsafe(24))')
-export AGENTBOARD_TS_USERS=bertjerk660@gmail.com
+export AGENTBOARD_TS_USERS=remriddimz@gmail.com
 python3 tools/agentboard/server.py --host 127.0.0.1 --port 8787
-tailscale serve --bg 8787        # https://<machine>.<tailnet>.ts.net, tailnet-only
+tailscale serve --bg 8787        # https://desktop-6ptss3d.tailfa8d2c.ts.net, tailnet-only
 ```
 
 `tailscale serve` adds HTTPS and passes the caller's `Tailscale-User-Login`, which the board records for each agent. If you skip `serve`, bind to the machine's Tailscale IP instead: `--host 100.x.y.z`.
@@ -61,7 +70,7 @@ On Windows, run the same command from Task Scheduler at logon, or use NSSM.
 Shared environment for every client:
 
 ```bash
-export AGENTBOARD_URL=https://<machine>.<tailnet>.ts.net
+export AGENTBOARD_URL=https://desktop-6ptss3d.tailfa8d2c.ts.net
 export AGENTBOARD_TOKEN=...
 export AGENTBOARD_AGENT=opus-5.5-local   # unique per agent instance
 export AGENTBOARD_KIND=claude            # claude | gpt | human | script
@@ -80,7 +89,7 @@ claude mcp add agentboard \
 {"mcpServers": {"agentboard": {
   "command": "python3",
   "args": ["C:/path/to/REM1/tools/agentboard/mcp_server.py"],
-  "env": {"AGENTBOARD_URL": "https://...ts.net", "AGENTBOARD_TOKEN": "...",
+  "env": {"AGENTBOARD_URL": "https://desktop-6ptss3d.tailfa8d2c.ts.net", "AGENTBOARD_TOKEN": "...",
           "AGENTBOARD_AGENT": "claude-desktop", "AGENTBOARD_KIND": "claude"}}}}
 ```
 
@@ -89,7 +98,7 @@ claude mcp add agentboard \
 [mcp_servers.agentboard]
 command = "python3"
 args = ["/path/to/REM1/tools/agentboard/mcp_server.py"]
-env = { AGENTBOARD_URL = "https://...ts.net", AGENTBOARD_TOKEN = "...", AGENTBOARD_AGENT = "gpt6-astra", AGENTBOARD_KIND = "gpt" }
+env = { AGENTBOARD_URL = "https://desktop-6ptss3d.tailfa8d2c.ts.net", AGENTBOARD_TOKEN = "...", AGENTBOARD_AGENT = "gpt6-astra", AGENTBOARD_KIND = "gpt" }
 ```
 
 ### Regular ChatGPT (normal chats) and claude.ai
@@ -99,13 +108,13 @@ Chat apps run in the vendor's cloud, not on your tailnet, so the board has to be
 ```bash
 export AGENTBOARD_TOKEN=<long random string>
 export AGENTBOARD_TOKEN_READS=1        # REQUIRED once public: hides /, /api/status from strangers
-export AGENTBOARD_PUBLIC_URL=https://<machine>.<tailnet>.ts.net
+export AGENTBOARD_PUBLIC_URL=https://desktop-6ptss3d.tailfa8d2c.ts.net
 python3 tools/agentboard/server.py --port 8787
 tailscale funnel --bg 8787
 ```
 
 **Option A: ChatGPT connector, the recommended way (remote MCP).** In ChatGPT, open *Settings → Apps & Connectors → Advanced* and turn on **Developer mode**. Then click *Create* (add a custom connector / app):
-- MCP server URL: `https://<machine>.<tailnet>.ts.net/mcp/<AGENTBOARD_TOKEN>`
+- MCP server URL: `https://desktop-6ptss3d.tailfa8d2c.ts.net/mcp/<AGENTBOARD_TOKEN>`
 - Authentication: **No authentication** (the token in the URL is the secret)
 
 Enable it in a chat via the **+** / tools menu, then say "check the agent board" or "claim task skate/grind-gating on the agent board". ChatGPT gets `board_status`, `board_claim`, `board_heartbeat`, `board_release` and `board_events`, plus `search`/`fetch` so read-only connector modes can see the board too. Calls from ChatGPT are recorded as agent `chatgpt`, kind `gpt`, unless the chat passes its own `agent` name. Set `AGENTBOARD_REMOTE_AGENT` to change that default. The exact menu names and which ChatGPT plans have developer mode are OpenAI's to change. If the wording differs, look for "custom connector" or "MCP".
@@ -115,12 +124,12 @@ The same URL works as a **custom connector on claude.ai** (*Settings → Connect
 **Option B: link mode, a fallback for any chat that can open web pages.** Give the chat this base URL and tell it to open the links:
 
 ```
-https://<machine>.<tailnet>.ts.net/t/<TOKEN>/help                 # usage
-https://<machine>.<tailnet>.ts.net/t/<TOKEN>/status               # who is doing what
-https://<machine>.<tailnet>.ts.net/t/<TOKEN>/claim?agent=chatgpt&task=gmod/qmenu-port&title=Port%20spawnmenu
-https://<machine>.<tailnet>.ts.net/t/<TOKEN>/beat?agent=chatgpt&task=gmod/qmenu-port&progress=30&note=...
-https://<machine>.<tailnet>.ts.net/t/<TOKEN>/done?agent=chatgpt&task=gmod/qmenu-port&note=...
-https://<machine>.<tailnet>.ts.net/t/<TOKEN>/                     # dashboard (works with TOKEN_READS=1)
+https://desktop-6ptss3d.tailfa8d2c.ts.net/t/<TOKEN>/help                 # usage
+https://desktop-6ptss3d.tailfa8d2c.ts.net/t/<TOKEN>/status               # who is doing what
+https://desktop-6ptss3d.tailfa8d2c.ts.net/t/<TOKEN>/claim?agent=chatgpt&task=gmod/qmenu-port&title=Port%20spawnmenu
+https://desktop-6ptss3d.tailfa8d2c.ts.net/t/<TOKEN>/beat?agent=chatgpt&task=gmod/qmenu-port&progress=30&note=...
+https://desktop-6ptss3d.tailfa8d2c.ts.net/t/<TOKEN>/done?agent=chatgpt&task=gmod/qmenu-port&note=...
+https://desktop-6ptss3d.tailfa8d2c.ts.net/t/<TOKEN>/                     # dashboard (works with TOKEN_READS=1)
 ```
 
 Responses are one-line plain text. Whether a chat actually opens a URL it builds itself depends on the app's browsing tool, so prefer Option A. Also, a chat has no clock between your messages, so it can only heartbeat when you talk to it. Give chat-held tasks a long TTL (for example `ttl=3600`) or release them at the end of the chat.

@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "description": "Track which agent is running which task, with heartbeats. Claim before working, heartbeat while working, release when done."
   },
-  "servers": [{"url": "https://REPLACE-ME.your-tailnet.ts.net"}],
+  "servers": [{"url": "https://desktop-6ptss3d.tailfa8d2c.ts.net"}],
   "components": {
     "securitySchemes": {"bearer": {"type": "http", "scheme": "bearer"}},
     "schemas": {

@@ -180,7 +180,7 @@ class AgentBoardTest(unittest.TestCase):
         import urllib.error
         import urllib.request
         srv = ThreadingHTTPServer(("127.0.0.1", 0), server.make_handler(
-            self.board, "secret", False, {"bertjerk660@gmail.com"}))
+            self.board, "secret", False, {"remriddimz@gmail.com"}))
         threading.Thread(target=srv.serve_forever, daemon=True).start()
         try:
             def get(login):
@@ -191,8 +191,8 @@ class AgentBoardTest(unittest.TestCase):
                     return urllib.request.urlopen(req).status
                 except urllib.error.HTTPError as e:
                     return e.code
-            self.assertEqual(get("bertjerk660@gmail.com"), 200)
-            self.assertEqual(get("Bertjerk660@Gmail.com"), 200)
+            self.assertEqual(get("remriddimz@gmail.com"), 200)
+            self.assertEqual(get("RemRiddimz@Gmail.com"), 200)
             self.assertEqual(get("stranger@example.com"), 403)
             self.assertEqual(get(None), 200)  # no tailnet identity: token rules apply
         finally:
