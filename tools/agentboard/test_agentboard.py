@@ -30,6 +30,8 @@ class AgentBoardTest(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         cls.srv.shutdown()
+        cls.srv.server_close()
+        cls.board.close()  # Windows cannot delete an open SQLite file
         cls.tmp.cleanup()
 
     def cli(self, agent, *args):
@@ -197,6 +199,7 @@ class AgentBoardTest(unittest.TestCase):
             self.assertEqual(get(None), 200)  # no tailnet identity: token rules apply
         finally:
             srv.shutdown()
+            srv.server_close()
 
     def test_dashboard_and_openapi(self):
         import urllib.request

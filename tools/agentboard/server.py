@@ -100,6 +100,10 @@ class Board:
         self.db.executescript(SCHEMA)
         self.db.commit()
 
+    def close(self):
+        with self.lock:
+            self.db.close()
+
     # -- helpers ---------------------------------------------------------
     def _task(self, task_id):
         row = self.db.execute("SELECT * FROM tasks WHERE id=?", (task_id,)).fetchone()
