@@ -17,10 +17,23 @@ Agents can reach it in three ways:
 | Any shell / script / CI / human | CLI `agentboard.py` or plain `curl` |
 | Browser | Dashboard at `/` (refreshes every 10s) |
 
+## Owner / tailnet
+
+The project owner's Tailscale account is **bertjerk660@gmail.com**. Requests that arrive through `tailscale serve` carry `Tailscale-User-Login: bertjerk660@gmail.com`, and the dashboard's *Tailscale user* column shows it.
+
+To accept tailnet requests only from the owner's account, start the server with:
+
+```bash
+export AGENTBOARD_TS_USERS=bertjerk660@gmail.com   # comma-separate to add more accounts
+```
+
+Tailnet requests from any other Tailscale user then get 403. Requests that carry no tailnet identity are checked by the `AGENTBOARD_TOKEN` rules instead. These are public Funnel traffic (ChatGPT, claude.ai) and direct connections to the machine's `100.x` IP. Tailscale ACLs in the admin console under this account are the other control for who on the tailnet can reach the board at all.
+
 ## 1. Run the server on a tailnet machine
 
 ```bash
 export AGENTBOARD_TOKEN=$(python3 -c 'import secrets;print(secrets.token_urlsafe(24))')
+export AGENTBOARD_TS_USERS=bertjerk660@gmail.com
 python3 tools/agentboard/server.py --host 127.0.0.1 --port 8787
 tailscale serve --bg 8787        # https://<machine>.<tailnet>.ts.net, tailnet-only
 ```

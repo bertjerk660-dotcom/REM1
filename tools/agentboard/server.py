@@ -11,7 +11,9 @@ after its TTL and becomes reclaimable (DEAD) after 3x TTL.
 
 Auth: if AGENTBOARD_TOKEN is set, every /api/* write needs
 `Authorization: Bearer <token>`. Reads are open unless AGENTBOARD_TOKEN_READS=1.
-When fronted by `tailscale serve`, the Tailscale-User-Login header is recorded.
+When fronted by `tailscale serve`, the Tailscale-User-Login header is recorded,
+and AGENTBOARD_TS_USERS (comma-separated logins, e.g. the owner's account)
+rejects tailnet requests from any other Tailscale user.
 
 Remote access for chat apps (ChatGPT, claude.ai) via `tailscale funnel`:
   POST /mcp            MCP Streamable HTTP, Bearer auth
@@ -390,7 +392,7 @@ LINK_HELP = """Agent Board link mode. Open these URLs (GET) to act:
 """
 
 
-def make_handler(board, token, token_reads):
+def make_handler(board, token, token_reads, ts_users=()):
     class Handler(BaseHTTPRequestHandler):
         server_version = "AgentBoard/1"
 
@@ -413,7 +415,19 @@ def make_handler(board, token, token_reads):
                 return True
             return self.headers.get("Authorization", "") == f"Bearer {token}"
 
+        def _ts_denied(self):
+            """True (and 403 sent) if a tailnet identity is present but not allowed.
+            Requests without the header (Funnel, direct Tailscale IP) fall through
+            to token auth."""
+            login = self.headers.get("Tailscale-User-Login")
+            if ts_users and login and login.lower() not in ts_users:
+                self._send(403, {"error": f"tailscale user {login} not allowed"})
+                return True
+            return False
+
         def do_GET(self):
+            if self._ts_denied():
+                return
             url = urlparse(self.path)
             qs = {k: v[-1] for k, v in parse_qs(url.query).items()}
             if url.path.startswith("/t/"):
@@ -512,9 +526,13 @@ def make_handler(board, token, token_reads):
             self._send(200, replies if isinstance(msg, list) else replies[0])
 
         def do_DELETE(self):  # MCP session teardown; we are stateless
+            if self._ts_denied():
+                return
             self._send(200 if urlparse(self.path).path.startswith("/mcp") else 404, {})
 
         def do_POST(self):
+            if self._ts_denied():
+                return
             if urlparse(self.path).path == "/mcp" or self.path.startswith("/mcp/"):
                 return self._mcp(urlparse(self.path).path)
             ops = {"/api/claim": board.claim, "/api/heartbeat": board.heartbeat,
@@ -549,10 +567,14 @@ def main():
     a = p.parse_args()
     token = os.environ.get("AGENTBOARD_TOKEN", "")
     token_reads = os.environ.get("AGENTBOARD_TOKEN_READS") == "1"
+    ts_users = {u.strip().lower() for u in
+                os.environ.get("AGENTBOARD_TS_USERS", "").split(",") if u.strip()}
     board = Board(a.db)
-    srv = ThreadingHTTPServer((a.host, a.port), make_handler(board, token, token_reads))
+    srv = ThreadingHTTPServer((a.host, a.port),
+                              make_handler(board, token, token_reads, ts_users))
     print(f"agentboard on http://{a.host}:{a.port}  db={a.db}  "
-          f"auth={'on' if token else 'off'}", flush=True)
+          f"auth={'on' if token else 'off'}  "
+          f"ts_users={','.join(sorted(ts_users)) or 'any'}", flush=True)
     srv.serve_forever()
 
 

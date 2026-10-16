@@ -176,6 +176,28 @@ class AgentBoardTest(unittest.TestCase):
         with self.assertRaises(urllib.error.HTTPError):
             urllib.request.urlopen(self.env["AGENTBOARD_URL"] + "/t/wrong/status")
 
+    def test_tailscale_user_allowlist(self):
+        import urllib.error
+        import urllib.request
+        srv = ThreadingHTTPServer(("127.0.0.1", 0), server.make_handler(
+            self.board, "secret", False, {"bertjerk660@gmail.com"}))
+        threading.Thread(target=srv.serve_forever, daemon=True).start()
+        try:
+            def get(login):
+                req = urllib.request.Request(f"http://127.0.0.1:{srv.server_port}/api/status")
+                if login:
+                    req.add_header("Tailscale-User-Login", login)
+                try:
+                    return urllib.request.urlopen(req).status
+                except urllib.error.HTTPError as e:
+                    return e.code
+            self.assertEqual(get("bertjerk660@gmail.com"), 200)
+            self.assertEqual(get("Bertjerk660@Gmail.com"), 200)
+            self.assertEqual(get("stranger@example.com"), 403)
+            self.assertEqual(get(None), 200)  # no tailnet identity: token rules apply
+        finally:
+            srv.shutdown()
+
     def test_dashboard_and_openapi(self):
         import urllib.request
         base = self.env["AGENTBOARD_URL"]
