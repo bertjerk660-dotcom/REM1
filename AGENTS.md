@@ -28,3 +28,6 @@ Use GitHub branches/commits for significant automated changes. Verify commits/pu
 Desktop Commander may be used for local build, extraction, decompilation, emulation and testing. IDA Pro 6.8 is the required IDA version for reverse-engineering work requested by the project owner.
 
 Do not commit proprietary game binaries/assets merely to archive them. Store reproducible tooling, manifests, hashes, mappings and extraction/import instructions where direct redistribution is inappropriate.
+
+## Agent Board (task claims + heartbeat)
+If `AGENTBOARD_URL` is set or the `agentboard` MCP tools are available, check the board before starting work, claim the task you take (`area/slug` id), heartbeat at least every few minutes while working, and release it as done/blocked/open when you stop. Do not take over a task another agent holds `live` without user approval. The board is coordination only; completion evidence still goes in git. See `tools/agentboard/README.md`.

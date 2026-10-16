@@ -1,0 +1,87 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Agent Board",
+    "version": "1.0.0",
+    "description": "Track which agent is running which task, with heartbeats. Claim before working, heartbeat while working, release when done."
+  },
+  "servers": [{"url": "https://REPLACE-ME.your-tailnet.ts.net"}],
+  "components": {
+    "securitySchemes": {"bearer": {"type": "http", "scheme": "bearer"}},
+    "schemas": {
+      "Identity": {
+        "type": "object",
+        "required": ["agent"],
+        "properties": {
+          "agent": {"type": "string", "description": "Agent name, e.g. gpt6-astra"},
+          "kind": {"type": "string", "description": "claude | gpt | human | script"},
+          "host": {"type": "string"}
+        }
+      }
+    }
+  },
+  "security": [{"bearer": []}],
+  "paths": {
+    "/api/status": {
+      "get": {
+        "operationId": "boardStatus",
+        "summary": "List tasks, holders and heartbeat liveness (live/stale/dead)",
+        "parameters": [{"name": "all", "in": "query", "schema": {"type": "string", "enum": ["0", "1"]},
+                        "description": "1 includes done/blocked tasks"}],
+        "responses": {"200": {"description": "Board state"}}
+      }
+    },
+    "/api/claim": {
+      "post": {
+        "operationId": "claimTask",
+        "summary": "Claim a task. 409 if another agent holds it and is not dead.",
+        "requestBody": {"required": true, "content": {"application/json": {"schema": {
+          "allOf": [{"$ref": "#/components/schemas/Identity"}, {"type": "object", "required": ["task"], "properties": {
+            "task": {"type": "string"}, "title": {"type": "string"}, "note": {"type": "string"},
+            "branch": {"type": "string"}, "ttl": {"type": "integer"}, "force": {"type": "boolean"}}}]}}}},
+        "responses": {"200": {"description": "Claimed task"}, "409": {"description": "Held by another agent"}}
+      }
+    },
+    "/api/heartbeat": {
+      "post": {
+        "operationId": "heartbeat",
+        "summary": "Heartbeat a task you hold (omit task for an agent-only ping)",
+        "requestBody": {"required": true, "content": {"application/json": {"schema": {
+          "allOf": [{"$ref": "#/components/schemas/Identity"}, {"type": "object", "properties": {
+            "task": {"type": "string"}, "progress": {"type": "integer"}, "note": {"type": "string"}}}]}}}},
+        "responses": {"200": {"description": "Updated task"}, "409": {"description": "Not your task"}}
+      }
+    },
+    "/api/release": {
+      "post": {
+        "operationId": "releaseTask",
+        "summary": "Release a task as done, blocked, abandoned, or open",
+        "requestBody": {"required": true, "content": {"application/json": {"schema": {
+          "allOf": [{"$ref": "#/components/schemas/Identity"}, {"type": "object", "required": ["task"], "properties": {
+            "task": {"type": "string"}, "state": {"type": "string", "enum": ["done", "blocked", "abandoned", "open"]},
+            "note": {"type": "string"}, "force": {"type": "boolean"}}}]}}}},
+        "responses": {"200": {"description": "Released task"}}
+      }
+    },
+    "/api/tasks": {
+      "post": {
+        "operationId": "addTask",
+        "summary": "Add an unclaimed backlog task",
+        "requestBody": {"required": true, "content": {"application/json": {"schema": {
+          "type": "object", "required": ["task"], "properties": {
+            "task": {"type": "string"}, "title": {"type": "string"}, "note": {"type": "string"}, "agent": {"type": "string"}}}}}},
+        "responses": {"200": {"description": "Created task"}}
+      }
+    },
+    "/api/events": {
+      "get": {
+        "operationId": "boardEvents",
+        "summary": "Recent claim/heartbeat-note/release events",
+        "parameters": [
+          {"name": "task", "in": "query", "schema": {"type": "string"}},
+          {"name": "limit", "in": "query", "schema": {"type": "integer"}}],
+        "responses": {"200": {"description": "Events"}}
+      }
+    }
+  }
+}

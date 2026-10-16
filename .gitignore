@@ -2,3 +2,5 @@
 /build/prepared/gmod_dependency_20261007/
 /research/__pycache__/
 /.local_gmod_evidence/
+/tools/agentboard/__pycache__/
+*.sqlite3
