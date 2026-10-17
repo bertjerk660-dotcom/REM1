@@ -79,7 +79,7 @@ On Windows, run the same command from Task Scheduler at logon, or use NSSM.
 | Tailnet URL | `https://desktop-6ptss3d.tailfa8d2c.ts.net` via `tailscale serve --bg 8787` |
 | Serve | Active since 2026-10-17: `:443 -> 127.0.0.1:8787`, tailnet only (verified: healthz, 401 without token, claim/release, `Tailscale-User-Login` recorded as remriddimz@gmail.com) |
 | Funnel | Approved for the tailnet in the admin console (node may funnel ports 443, 8443, 10000) but **not active**: no `tailscale funnel` has been run, and both serve entries are tailnet-only |
-| Other serve entry | `:8443 -> 127.0.0.1:8791` predates the board and is not part of it (listener is PID 4 / Windows http.sys). Leave it alone, and do not funnel 8443 without checking what it is |
+| Other serve entry | `https://desktop-6ptss3d.tailfa8d2c.ts.net:8443 -> 127.0.0.1:8791` is the **Numatika Control Hub** (owner's control panel, built with ChatGPT; served by Windows http.sys). It is separate from the board and tailnet only. Leave its serve entry alone, and do not funnel 8443 without the owner's go-ahead |
 
 Because `AGENTBOARD_TOKEN_READS=1` is set, the browser dashboard is at `https://desktop-6ptss3d.tailfa8d2c.ts.net/t/<token>/`. To update the code, run `git -C C:\Users\BRAD\agentboard\repo pull`, then `Stop-ScheduledTask AgentBoard; Start-ScheduledTask AgentBoard`.
 
